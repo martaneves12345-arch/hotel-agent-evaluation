@@ -1,0 +1,602 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P010",
+  "case_information": {
+    "case_id": "H468_20240909_L4",
+    "decision_week": "2024_W37",
+    "decision_date": "2024-09-09",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 156.63492420424402,
+        "REVPOR_WEEK": 348.4987071428571,
+        "TREVPAR_WEEK": 158.13022261273207,
+        "TAXA_OCUPACAO": 89.65517241379311,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 8.5,
+        "SENTIMENT_SCORE_AVG": 0.3888888888888888,
+        "SENTIMENT_SCORE_STD": 0.652771867585538,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0699999999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0699999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.9182958340544894,
+        "EXPECTATION_SHARE": 0.125,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 50.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5,
+        "COMPLEXITY_INDEX": 2.3385814666440097,
+        "SENTIMENT_TREND_SLOPE": -0.0006475603813941
+      },
+      {
+        "WEEK_YEAR": "2024_W35",
+        "week_date": "2024-08-26",
+        "REVPAR_WEEK": 108.8831814868428,
+        "REVPOR_WEEK": 264.1280872563718,
+        "TREVPAR_WEEK": 109.53873029002736,
+        "TAXA_OCUPACAO": 82.14285714285714,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.555555555555555,
+        "SENTIMENT_SCORE_AVG": 0.2538461538461538,
+        "SENTIMENT_SCORE_STD": 0.6603223765901327,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.2428571428571428,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.2642857142857143,
+        "EXPECTATION_VIOLATION_RATIO": 0.875,
+        "MAJOR_MISALIGNMENT_SHARE": 0.1111111111111111,
+        "EMOTION_ENTROPY": 1.2957378005380122,
+        "EXPECTATION_SHARE": 0.5555555555555556,
+        "HIGH_EXPECTATION_SHARE": 0.1111111111111111,
+        "HIGH_MISALIGNMENT_SHARE": 0.2222222222222222,
+        "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2222222222222222,
+        "COMPLEXITY_INDEX": 2.1645428087876226,
+        "SENTIMENT_TREND_SLOPE": -0.0006475603813941
+      },
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 102.56098450328408,
+        "REVPOR_WEEK": 220.92864126984136,
+        "TREVPAR_WEEK": 102.98412336936693,
+        "TAXA_OCUPACAO": 93.59605911330048,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.0,
+        "SENTIMENT_SCORE_AVG": 0.22,
+        "SENTIMENT_SCORE_STD": 0.6710333183126709,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.15625,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.20625,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.272905595320056,
+        "EXPECTATION_SHARE": 0.25,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1666666666666666,
+        "PERC_REVIEWS_NEGATIVE": 58.333333333333336,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 8.333333333333332,
+        "POLARIZATION_INDEX": 0.5,
+        "COMPLEXITY_INDEX": 2.556120737488402,
+        "SENTIMENT_TREND_SLOPE": -0.0006475603813941
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 107.87513776418244,
+        "REVPOR_WEEK": 235.6408741935484,
+        "TREVPAR_WEEK": 108.7140285989062,
+        "TAXA_OCUPACAO": 91.6256157635468,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.818181818181818,
+        "SENTIMENT_SCORE_AVG": 0.1083333333333333,
+        "SENTIMENT_SCORE_STD": 0.5991787308601262,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.175,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.2083333333333333,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5545851693377997,
+        "EXPECTATION_SHARE": 0.1818181818181818,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1818181818181818,
+        "PERC_REVIEWS_NEGATIVE": 54.54545454545454,
+        "PERC_OPERATIONAL_COMPLAINTS": 20.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2727272727272727,
+        "COMPLEXITY_INDEX": 2.914827844850991,
+        "SENTIMENT_TREND_SLOPE": -0.0006475603813941
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-09-15",
+        "rating": 7.0,
+        "liked": "The layout of the grounds and the view.",
+        "disliked": "The beds, little space by the pool.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 8.0,
+        "liked": "The location is beautiful. Nice walk along the cliff path to Luz. Cozy cottage.",
+        "disliked": "The shower in the bathtub.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Qatar",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-13",
+        "rating": 7.0,
+        "liked": "Top location far from the noise and the large seaside resorts, very easy parking. Friendly staff. The suites (although aging) are spacious, with a pleasant private outdoor area.",
+        "disliked": "Lack of general maintenance of the grounds. Although pleasant, you get the feeling it has been somewhat abandoned. The suites are aging, bedding of poor quality (mattress springs). The kitchenette available in the suite is outdated, the microwave has seen better days. The pools are not heated and not cleaned. The sunbeds and parasols are worn. Breakfast is well provided both savory and sweet but the products are of poor quality (fruit juice from a dispenser that looks like Oasis). The tables are not cleared quickly nor cleaned. Poor value for money in my opinion.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-11",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-11",
+        "rating": 6.0,
+        "liked": "A diffused hotel suitable for those who take long vacations in the same place; the sea is somewhat far away but there are pools, although I believe they are very crowded in season; the breakfast is abundant and complete with everything you need.",
+        "disliked": "Distance from the sea, an unfortunate location.",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-10",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-10",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-10",
+        "rating": 6.0,
+        "liked": "Location is great, receptionist friendly, and the room is large and clean.",
+        "disliked": "Both in the evening and in the morning an ice-cold shower. I did not have the opportunity to report this due to an early departure. Maintenance of some parts of the park is somewhat overdue but it doesn't bother you.",
+        "country": "Netherlands",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-09",
+        "rating": 10.0,
+        "liked": "Beutiful place, stunning garden, excellente breakfast",
+        "disliked": "Place need renovation",
+        "country": "Serbia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-08",
+        "rating": 6.0,
+        "liked": "The breakfast and the pool, which has sea views.",
+        "disliked": "Large complex but the garden is uncared for. Room with a window that I could not close, old and neglected appearance. I don't think the published photos correspond to reality. It's expensive!!",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-08",
+        "rating": 9.0,
+        "liked": "A small enchanting paradise in the Algarve, surrounded by flowers & palms, with a view of the sea. :) We spontaneously extended our stay by one night because we liked it so much. :) The breakfast was super delicious! 🫶🏼",
+        "disliked": "The garden area could use a bit more care.",
+        "country": "Indonesia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-07",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-07",
+        "rating": 9.0,
+        "liked": "Wonderfully relaxed location. Accommodation in our own bungalow above the cliffs — a holiday the way I like it. I extended my stay by one night.",
+        "disliked": "nichts",
+        "country": "Germany",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-07",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-05",
+        "rating": 8.0,
+        "liked": "Hearty breakfast, pool, great view.",
+        "disliked": "No direct access to the beach!",
+        "country": "Austria",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-04",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-04",
+        "rating": 9.0,
+        "liked": "The location, magnificent for walking and for reaching the seaside villages accessible on foot in both directions.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-04",
+        "rating": 6.0,
+        "liked": "Breakfast and seafront location.",
+        "disliked": "Rooms not very clean.",
+        "country": "Romania",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple recent guest comments consistently point to property-wide maintenance and service issues (aging rooms, poor bedding, pool cleanliness, hot-water/shower failures, breakfast service problems) at a time when REVPAR and TREVPAR have dropped ~31% and average rating fell ~8%. These issues risk further reputation damage and continued revenue underperformance if not addressed.",
+    "executive_summary": "Guests consistently praise location, views and breakfast, but repeatedly report aging rooms and bedding, neglected gardens, pool cleanliness and equipment problems, intermittent hot water and inconsistent housekeeping/food service. Priorities are: (1) address room/property maintenance and refurbishment, (2) fix pool cleanliness/equipment and layout issues, (3) restore reliable hot water/shower performance, (4) improve breakfast quality and clearing/service, (5) tighten housekeeping and grounds maintenance. Actions should combine immediate operational fixes and a short-to-medium term CAPEX/maintenance plan.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room and property maintenance / refurbishment",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests report aging suites and fittings, poor-quality bedding (mattresses with springs), outdated kitchenettes and some windows that do not close; several guests state the place 'needs renovation' or looks 'old and neglected'.",
+        "recommended_action": "Run a room-condition audit to identify highest-impact defects. Immediately replace or repair faulty mattresses/bed bases in worst rooms and provide mattress toppers as a temporary measure. Repair windows/locks and replace failing kitchenette appliances (e.g., microwave) where safety/comfort is affected. Produce a phased CAPEX plan for suite refurbishment and prioritize guest-facing rooms and those with repeated complaints.",
+        "rationale": "Directly addresses numerous consistent guest complaints about comfort and perceived value; targeted repairs will improve guest satisfaction quickly while a CAPEX plan manages longer-term investment.",
+        "supporting_evidence": [
+          "2024-09-13: 'The suites (although aging) are spacious... bedding of poor quality (mattress springs). The kitchenette available in the suite is outdated, the microwave has seen better days.'",
+          "2024-09-09: 'Place need renovation'",
+          "2024-09-08: 'Room with a window that I could not close, old and neglected appearance.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Pool & outdoor-area upkeep and guest experience",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests report pools are not cleaned, not heated, sunbeds and parasols are worn, and pool areas feel crowded or small—reducing perceived value and comfort.",
+        "recommended_action": "Perform immediate deep clean and chemical testing of pools; establish and document a daily pool-cleaning and maintenance schedule. Replace or repair worn sunbeds and parasols starting with the most-used areas. Review pool layout and guest-flow to reduce crowding (e.g., manage sunbed placement or set occupancy guidance). Assess feasibility and business case for pool heating (medium-term).",
+        "rationale": "Pool and outdoor areas are central to guest enjoyment (views and pools cited frequently). Visible cleanliness and functioning equipment deliver quick perceptible improvements to guest satisfaction.",
+        "supporting_evidence": [
+          "2024-09-13: 'The pools are not heated and not cleaned. The sunbeds and parasols are worn.'",
+          "2024-09-15: '...little space by the pool.'",
+          "2024-09-05: 'the pool, which has sea views.' (positive on view but indicates pool importance)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 3,
+        "area": "Hot-water and bathroom functionality",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Several guests experienced ice-cold showers at different times (morning and evening); some commented on awkward shower configurations (shower in bathtub).",
+        "recommended_action": "Dispatch maintenance technicians to immediately inspect hot-water system(s) and affected rooms; prioritize repairs in rooms with reported incidents. Create a log of hot-water complaints to identify patterns (time/zone). Where immediate repair is not possible, proactively inform guests at check-in and offer room changes when available.",
+        "rationale": "Reliable hot water is a basic expectation; fixing it addresses strong negative guest feedback and reduces risk of negative reviews.",
+        "supporting_evidence": [
+          "2024-09-10: 'Both in the evening and in the morning an ice-cold shower.'",
+          "2024-09-14: 'The shower in the bathtub.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 4,
+        "area": "Breakfast quality and service/clearing",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "While breakfast is generally described as abundant and a strength, guests note poor product quality (e.g., juice from a dispenser) and slow clearing/cleaning of tables which lowers perceived value.",
+        "recommended_action": "Review breakfast product sourcing (replace low-quality items such as suspect juice dispensers with fresher options) and adjust service/clearing procedures — consider reallocating or rostering staff at peak breakfast times to clear tables more frequently. Introduce a short guest-feedback card/survey about breakfast to track improvement.",
+        "rationale": "Guests repeatedly praise breakfast; improving quality and service hygiene can quickly raise overall satisfaction and perceived value.",
+        "supporting_evidence": [
+          "2024-09-13: 'Breakfast is well provided both savory and sweet but the products are of poor quality (fruit juice from a dispenser...). The tables are not cleared quickly nor cleaned.'",
+          "2024-09-05: 'Hearty breakfast...'",
+          "2024-09-04: 'excellente breakfast'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 5,
+        "area": "Housekeeping consistency and grounds maintenance",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Some rooms reported as 'not very clean' and multiple guests describe the garden/grounds as 'uncared for' or 'somewhat abandoned', undermining the strong natural setting.",
+        "recommended_action": "Implement strengthened housekeeping checklists and random room inspections; retrain or reallocate housekeeping teams to ensure consistent standards. Create a grounds-maintenance checklist and schedule for daily/weekly tasks (weed control, pruning, litter pick) and inspect visible guest-paths and terraces daily.",
+        "rationale": "Clean rooms and an cared-for garden preserve the property's unique selling points (views and serenity) and will reduce negative comments that affect ratings.",
+        "supporting_evidence": [
+          "2024-09-13: 'Lack of general maintenance of the grounds...you get the feeling it has been somewhat abandoned.'",
+          "2024-09-08: 'the garden is uncared for.'",
+          "2024-09-04: 'Rooms not very clean.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and views",
+        "reason": "Many guests praise the cliff-top location, sea views and easy walking to nearby villages—this is repeatedly highlighted as a core appeal.",
+        "management_implication": "Keep guest access to viewpoints and walking paths clear; emphasize location in marketing while aligning expectations about beach access."
+      },
+      {
+        "area": "Breakfast offering",
+        "reason": "Breakfast is repeatedly described as 'hearty', 'excellent' and a reason guests extended stays.",
+        "management_implication": "Maintain variety and quantity while improving product quality and service pace."
+      },
+      {
+        "area": "Friendly staff & easy parking",
+        "reason": "Guests comment on friendly reception staff and very easy parking as positives.",
+        "management_implication": "Preserve staff service culture through training and recognition; retain parking convenience in guest communications."
+      },
+      {
+        "area": "Spacious suites and private outdoor areas",
+        "reason": "Guests note suites are spacious with pleasant private outdoor areas—valuable attribute despite aging condition.",
+        "management_implication": "Prioritize refurbishment work that preserves the layout and outdoor privacy while upgrading finishes and fixtures."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Average guest rating (weekly)",
+        "reason": "Overall indicator of guest satisfaction trends after interventions.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "REVPAR and TREVPAR (weekly/monthly)",
+        "reason": "Track revenue performance alongside satisfaction improvements.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of reviews mentioning 'maintenance', 'garden', 'pool', 'cold shower', 'clean/dirty' (weekly)",
+        "reason": "Directly monitors frequency of the specific issues raised by guests.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of maintenance work orders open and average time-to-resolution",
+        "reason": "Operational measure of responsiveness to guest-facing faults (hot water, windows, mattresses).",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Housekeeping inspection pass rate (internal audit)",
+        "reason": "Ensures room cleanliness standards are met consistently.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Pool water-quality test results and maintenance logs",
+        "reason": "Objective measure of pool hygiene and safety.",
+        "desired_direction": "stable"
+      },
+      {
+        "indicator": "Breakfast satisfaction score (short survey or comment share)",
+        "reason": "Measures perceived improvement after product/service changes.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Analysis based only on the 20 most recent reviews provided (the case notes 40 reviews available in window); sample may not represent all guest feedback.",
+      "No internal operational, staffing, budget or maintenance-log data supplied to assess feasibility or costs of recommended CAPEX or staffing changes.",
+      "Cannot infer causal link between guest review content and the observed REVPAR/TREVPAR declines; revenue metrics are provided but drivers are not identified in the case data.",
+      "No health & safety incident reports or engineering diagnostics provided; recommendations requiring technical detail assume a follow-up assessment by maintenance/engineering teams."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "high",
+    "overall_risk_rationale": "Customer sentiment and expectation–experience gap are worsening (consistent decline in SENTIMENT_SCORE_AVG and moderate increase in EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT). Multiple emerging negative topics (cold shower, pool space, table service) and frequent comments about dated rooms and poor value-for-money create a structurally concerning pattern. RevPAR has declined substantially over the window (recent partial reversal noted) which, together with the experiential signals, justifies a high attention level.",
+    "executive_summary": "Preserve clear strengths (breakfast quality, location, generally friendly staff) while addressing urgent maintenance and value-perception issues. Immediate priority: investigate and remediate hot-water/ bathroom failures (multiple guest reports of cold/low-pressure showers). Short-term: review pricing/value positioning and operational F&B/table clearing processes plus Wi‑Fi coverage. Medium-term: assess scope and cost of broader room and grounds refurbishment (mattresses, dated furniture, garden, sunbeds, pool maintenance). Monitor sentiment, expectation gap, and RevPAR for response.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition / hot water and sanitary maintenance",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple guests report lack of hot water/poor shower pressure and generally dated sanitary fittings; several recent complaints reference 'cold shower' or 'no hot water pressure'.",
+        "recommended_action": "Initiate immediate technical inspection of hot-water supply, pressure and temperature controls for affected blocks/rooms. If faults are found, perform repairs to restore hot-water reliability. Log affected room numbers and offer remediation/compensation per guest-relations policy. If the issue is intermittent or systemic, commission a system assessment to determine scope (boiler, pumps, piping).",
+        "rationale": "Cold or no hot water directly degrades guest experience and has high operational urgency. Issue is mentioned multiple times in the recent window and flagged as an emerging negative topic ('cold shower'). Immediate inspection is needed before prescribing larger capital work.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Bathroom condition' — evidence_pattern: net_negative; matched_topics: 'cold shower'.",
+          "Complaint 2024-09-02: 'NO HOT WATER PRESSURE FOR SHOWERS...we had to use barely a trickle of warm/cold water.'",
+          "Complaint 2024-09-10: 'Both in the evening and in the morning an ice-cold shower.'",
+          "Complaint 2024-09-01: 'sanitary facilities are from another era.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Price–value perception",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Several guests express that price paid does not match perceived condition or inclusions (mentions of poor value-for-money, price too high, missing small inclusions like tea bags). Expectation violations are present.",
+        "recommended_action": "Review current pricing and value positioning relative to the hotel's condition and included amenities. Evaluate whether room rates, published photos/descriptions, and inclusions (e.g., in-room tea/coffee items or communicated services) align with guest expectations. Consider short-term messaging/communication updates to set clearer expectations and a pricing/value review with revenue/marketing teams. If adjustments are considered, perform a value-assessment before changing rates or inclusions.",
+        "rationale": "Price–value is a net-negative area with explicit expectation violations across weeks; perceptions of poor value are repeated and may influence future booking decisions. The issue is primarily about alignment between price, product condition, and guest expectation rather than a single operational failure.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Price–value' — evidence_pattern: net_negative; has_expectation_violation: true.",
+          "Complaint 2024-09-01: 'it is in no way worth the price of 230 euros for one night.'",
+          "Complaint 2024-09-02: 'price per night €161/night... poor value for money, I do not recommend and will not return.'",
+          "Complaint 2024-09-13: 'Poor value for money in my opinion.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.72
+      },
+      {
+        "rank": 3,
+        "area": "Room condition and grounds (mattresses, dated furnishings, garden maintenance)",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Multiple guests describe dated rooms, worn bedding/mattresses, aging kitchenettes/microwave, and neglected gardens/grounds. These comments point to broader maintenance/refurbishment needs that affect perceived value.",
+        "recommended_action": "Commission a systematic condition assessment of a representative sample of rooms, bedding/mattresses, in‑room equipment and external grounds (garden, sunbeds, parasols). Use the assessment to estimate scope and prioritize targeted refurbishment (phased plan). Until assessment is complete, implement interim fixes where feasible (replace visibly worn mattresses or bedding, repair windows/terraces that don't close).",
+        "rationale": "Evidence is consistent and recurrent across several reviews indicating a structural maintenance/appearance issue that affects perceived value. The appropriate managerial response is an assessment to determine scope/cost rather than immediate capital works without data.",
+        "supporting_evidence": [
+          "Complaint 2024-09-01: 'The hotel needs a major, major refurbishment. The bedding needs to be changed... furniture and the sanitary facilities are from another era.'",
+          "Complaint 2024-08-28: 'completely in need of renovation, very dated decoration. The garden could be magnificent with maintenance.'",
+          "Complaint 2024-09-13: 'The suites are aging, bedding of poor quality (mattress springs). The kitchenette... is outdated, the microwave has seen better days.'",
+          "Complaint 2024-09-08: 'old and neglected appearance. I don't think the published photos correspond to reality.'",
+          "Complaint 2024-09-15: 'The beds, little space by the pool.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 4,
+        "area": "Pool operations and sunbed availability / pool maintenance",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Pools are a strength but guests report friction: limited pool space/crowding, worn sunbeds/parasols, and at least one mention of pools not heated/cleaned.",
+        "recommended_action": "Review pool-area operations: observe peak-time lounger demand and allocation, ensure cleaning and maintenance schedules are documented and followed, inspect condition of sunbeds/parasols. If capacity shortfalls are structural, consider operational controls (booking windows, signage, reallocation of loungers) and plan any necessary repairs/replacements following cost assessment.",
+        "rationale": "Spa/pool is generally praised (positive mentions dominate) but emerging negative comments about space and maintenance indicate friction that can reduce satisfaction. Operational and maintenance fixes should be prioritized before capital changes.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Spa and pool' — evidence_pattern: positive_with_friction; matched_topics: 'pool maintenance/heating', 'pool space'.",
+          "Complaint 2024-09-13: 'The pools are not heated and not cleaned. The sunbeds and parasols are worn.'",
+          "Complaint 2024-09-10: 'Maintenance of some parts of the park is somewhat overdue...'",
+          "Complaint 2024-09-15: 'little space by the pool.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.68
+      },
+      {
+        "rank": 5,
+        "area": "Operational service friction: Wi‑Fi coverage & breakfast table service (clearing)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report poor Wi‑Fi coverage in rooms and isolated issues with table clearing/service speed at breakfast (tables not cleared quickly).",
+        "recommended_action": "For Wi‑Fi: run a technical coverage audit to identify dead zones and instability, log affected rooms and engage IT/ISP for remediation. For table service: review breakfast service workflows and clearing frequency during peak times (staffing patterns, clearing responsibilities). Address with process adjustments and training where appropriate.",
+        "rationale": "Both problems are operational and fixable but can degrade perceived quality. Wi‑Fi complaints are an emerging negative tech topic; table-clearing complaints contradict otherwise strong breakfast product and risk eroding that strength.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Wi‑Fi and technology' — evidence_pattern: net_negative; matched_topics: 'internet connectivity'.",
+          "Complaint 2024-09-02: 'The Wi‑Fi did not reach the room, there was little coverage and I had difficulty connecting to the internet.'",
+          "Complaint 2024-08-19: 'the Wi‑Fi was not available in our room 405!'",
+          "Complaint 2024-09-13: 'The tables are not cleared quickly nor cleaned.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast",
+        "reason": "Strongly positive evidence: 12 positive mentions vs 1 negative; guests describe breakfast as varied, plentiful and a highlight.",
+        "management_implication": "Maintain breakfast product quality and consider highlighting it in communications while addressing the occasional table-clearing friction."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently positive mentions (11 positive, 1 negative); guests value the location and parking.",
+        "management_implication": "Preserve and promote location advantages in marketing and guest communications."
+      },
+      {
+        "area": "Staff and service (friendliness)",
+        "reason": "All positive mentions for staff (7 positive, 0 negative); staff friendliness is repeatedly cited.",
+        "management_implication": "Preserve service standards and leverage staff in guest recovery when issues (e.g., maintenance or value complaints) arise."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Rising gap indicates worsening alignment between guest expectations and delivery; relevant to price–value and room condition priorities.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG",
+        "reason": "Consistent decline in sentiment is an early-warning of broader guest dissatisfaction.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "REVPAR_WEEK",
+        "reason": "Substantial decline over the window signals possible commercial impact; recent partial reversal should be tracked separately.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Mentions of 'cold shower' / bathroom complaints (lexical count)",
+        "reason": "Directly tied to urgent maintenance priority; track frequency and room distribution.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "Mentions of 'value for money' / price complaints (lexical count)",
+        "reason": "Tracks improvement or deterioration in price‑value perception after any interventions or messaging changes.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "Complaint sample is diagnostic and not statistically representative of all guests (see complaint_sample_metadata). Prevalence should be validated against the full review window.",
+      "Evidence identifies maintenance and perception problems but does not specify technical scope, cost, or exact rooms affected; technical inspections and a condition survey are required before committing to capital expenditure.",
+      "Recommended pricing/value actions require commercial analysis with revenue management and marketing—this assessment does not prescribe specific price changes.",
+      "Wi‑Fi technical remediation may require IT/ISP diagnostics—this report recommends assessment rather than prescriptive technical fixes."
+    ]
+  }
+}

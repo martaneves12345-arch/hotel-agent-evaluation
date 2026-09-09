@@ -1,0 +1,167 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Occupancy (-20%) and RevPAR (-22%) have fallen over the 4-week window and average rating declined modestly (-7%). Most reviews remain highly positive about location, staff, cleanliness and facilities, but there are specific operational and maintenance issues (electrical socket overload, broken blind, noise/lighting complaints) that pose reputational and potential safety risk if not addressed promptly.",
+  "executive_summary": "The hotel retains strong assets (beachfront location, sea views, friendly staff, clean renovated rooms, pool/jacuzzi and good breakfast) that drive high guest satisfaction. Top priorities are addressing maintenance and electrical-safety issues, improving guest sleep comfort (noise and exterior lighting), resolving amenity/comfort concerns (beds, slippers, safe charging policy), and improving the restaurant F&B offering. Parallel short-term actions to stabilise guest experience and a targeted review solicitation/response program should be implemented to protect revenue and ratings.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Maintenance & electrical safety",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guest report of electrical equipment overloading a socket and a broken blind indicate room-level maintenance defects and a potential electrical safety hazard.",
+      "recommended_action": "Immediately schedule an electrical safety check of all guest rooms and common-area sockets. Repair/replace any faulty sockets and damaged blinds. Institute an inspection checklist for room turn-down and maintenance rounds to catch hazards before guests arrive. Log corrective actions and any incidents.",
+      "rationale": "An overloaded socket is a tangible safety hazard; repairing sockets and blinds reduces risk, protects guests and avoids potential incident-driven reputational damage.",
+      "supporting_evidence": [
+        "Review: \"Electrical equipment in the room overloaded a socket. Broken blind.\" (2024-03-15)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Sleep quality — noise and exterior lighting",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Guests reported late, loud café music and exterior lighting left on all night; another noted loud ocean noise and high humidity affecting sleep.",
+      "recommended_action": "Implement and enforce an on-premise entertainment curfew/maximum volume policy for the café/bar (communicate to staff and guests). Audit exterior lighting and adjust/timer lights so rooms are dark overnight while maintaining safety lighting where needed. Offer practical mitigations to guests (earplugs, blackout curtains/ensure functioning blinds, dehumidifiers or AC settings) and add this info to pre-arrival communications.",
+      "rationale": "Sleep disturbance directly affects guest satisfaction and ratings; low-effort mitigations (volume policy, lighting timers, earplugs, functioning blackout) can quickly improve reviews.",
+      "supporting_evidence": [
+        "Review: \"The hotel's café music was unbearable, too loud and too late.\" (2024-03-15)",
+        "Review: \"Bright exterior lighting just outside our window was left on all night, so our room wasn't dark.\" (2024-03-06)",
+        "Review: \"High humidity caused by the proximity of the rough ocean. The ocean at night is indeed loud...\" (2024-03-17)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Guest comfort & amenity policy (beds, slippers, safe fee)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Some guests noted mattress comfort issues and lack of slippers for the jacuzzi; one guest complained about a 4 EUR/day safe charge that felt unfair.",
+      "recommended_action": "Audit mattresses for wear and develop a replacement or rotation plan (prioritise worst rooms). Provide complimentary slippers or clarify robe/slipper availability for pool/jacuzzi users. Review safe-fee policy and communication: either include safe in room rate or ensure the charge is clearly stated at booking and reception; consider removing the fee if it harms guest perception.",
+      "rationale": "Addressing mattress condition and small amenity gaps improves perceived value and reduces avoidable complaints. Clear, fair pricing for safes prevents negative guest sentiment.",
+      "supporting_evidence": [
+        "Review: \"The beds could be a bit more comfortable...\" (2024-03-21)",
+        "Review: \"No slippers to go to the jacuzzi.\" (2024-03-15)",
+        "Review: \"I also didn't think it was fair to charge 4 Euros a day for using a safe...\" (2024-03-21)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "Restaurant & F&B experience",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "operational",
+      "problem": "At least one guest felt the restaurant lacked the charm that matches the hotel's character, despite several mentions of a solid breakfast.",
+      "recommended_action": "Gather targeted feedback from recent guests about dinner/restaurant expectations and run a short review of menu, presentation and ambience. Consider modest service or décor changes to align the restaurant's atmosphere with the hotel's character; promote the strong breakfast offering while improvements are planned.",
+      "rationale": "F&B is a recurring element of guest experience; improving restaurant character and alignment with hotel ambience can raise satisfaction and ADR potential.",
+      "supporting_evidence": [
+        "Review: \"The restaurant, a pity: no charm compared to the character of the hotel.\" (2024-03-21)",
+        "Multiple reviews praising \"solid breakfast\" and “good breakfast.”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Reputation management & review volume",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "Number of reviews in the window available to the system declined (-55.6% reported N_REVIEWS), and average rating decreased slightly. Sustaining high ratings and review flow is important for visibility and bookings.",
+      "recommended_action": "Implement a structured post-stay review solicitation (email/SMS), ensure timely responses to reviews (thank positives, address issues), and highlight consistent strengths (location, staff, cleanliness, pool, rooftop bar, breakfast) in marketing to convert satisfied guests into reviews. Track review volume and sentiment weekly.",
+      "rationale": "Boosting review counts and addressing negative themes quickly helps protect search positioning and future bookings.",
+      "supporting_evidence": [
+        "Basic performance: N_REVIEWS decreased from 9 to 4 (−55.6%) and AVG_RATING fell from 9.44 to 8.75.",
+        "Many recent guest comments are highly positive and can be leveraged for review campaigns."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Beachfront location & sea views",
+      "reason": "Repeatedly cited as 'fantastic location', direct beach access, sea view from rooms and balcony — a principal differentiator.",
+      "management_implication": "Continue promoting rooms with sea views, maintain rooftop bar and viewpoints; avoid changes that reduce view/access."
+    },
+    {
+      "area": "Friendly, welcoming staff",
+      "reason": "Multiple reviews praise staff as 'very friendly' and 'welcoming', contributing strongly to high ratings.",
+      "management_implication": "Preserve through ongoing staff training, recognition programs and staffing levels that maintain service quality."
+    },
+    {
+      "area": "Clean, renovated rooms and attractive decor",
+      "reason": "Guests note recent renovation, cleanliness and modern furnishings as positive attributes.",
+      "management_implication": "Maintain housekeeping standards and planned maintenance to keep décor fresh."
+    },
+    {
+      "area": "Pool, jacuzzi and rooftop bar",
+      "reason": "Pool, hot tub and rooftop bar with ocean views are repeatedly mentioned as highlights.",
+      "management_implication": "Ensure these facilities remain well maintained, clean and operational; manage pool-area amenities (slippers/robes) for guest convenience."
+    },
+    {
+      "area": "Breakfast quality and parking availability",
+      "reason": "Breakfast described as 'solid' and 'good'; parking availability is noted as convenient for guests with rental cars.",
+      "management_implication": "Preserve breakfast standards and clearly communicate parking options to guests."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Weekly number of guest reviews received",
+      "reason": "Tracks recovery or further decline in guest feedback volume and visibility.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average guest rating (weekly rolling average)",
+      "reason": "Monitors changes in perceived quality following interventions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Count of maintenance/safety incidents reported (monthly)",
+      "reason": "Detect trends in room-level defects (electrical, blinds, sockets) and assess effectiveness of maintenance program.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of sleep-related complaints (noise/light) per week",
+      "reason": "Directly measures the impact of noise/lighting interventions on guest sleep quality.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Occupancy and RevPAR (weekly)",
+      "reason": "Tracks commercial performance and whether service/quality fixes correlate with revenue recovery.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Analysis uses only the supplied review texts and hotel performance metrics; no additional property inspection or operational data were available.",
+    "Provided review sample contains 20 recent reviews out of 32 available in the window; conclusions rely on these texts and the summarised performance indicators.",
+    "Cannot attribute causality between guest reviews and observed changes in occupancy or RevPAR using the supplied data."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H189_20240318_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P003",
+    "case_id": "H189_20240318_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:42:19.510241+00:00",
+    "finished_at_utc": "2026-09-08T15:42:52.242318+00:00",
+    "elapsed_seconds": 32.725
+  }
+}

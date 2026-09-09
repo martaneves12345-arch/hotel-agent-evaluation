@@ -1,0 +1,168 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Recent reviews show repeated operational failures (cleanliness, housekeeping policy, staff responsiveness) and some maintenance issues (damp, uneven floors, pest evidence). These affect guest satisfaction and present potential safety/health risks but are addressable with targeted operational fixes and inspections. Business indicators (occupancy, RevPAR, average rating) are improving, reducing immediate commercial risk but not removing the need for operational remediation.",
+  "executive_summary": "Guests generally value the hotel's location, brightness and bedding, and recent weeks show rising occupancy, RevPAR and average rating. However, a cluster of negative comments points to persistent cleanliness and housekeeping-policy problems (unclean towels, dead cockroach, fridge smell), inconsistent front-desk service and communication (absent/curt staff, poor information), and room condition issues (damp, uneven floors, noise/construction and use of a separate old building). Priorities: 1) Cleanliness & housekeeping, 2) Staff service & communication, 3) Room condition & maintenance, 4) Guest allocation & noise/construction management, 5) Policy transparency on extra charges and amenities.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Cleanliness & housekeeping (towels, rooms, pests)",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Multiple reviews report dirty rooms, unclean towels, dead cockroach, mosquito bites, smelly refrigerator and inconsistent housekeeping (towel changes only every 3 days or only if paying). These reduce guest satisfaction and imply hygiene and pest-control problems.",
+      "recommended_action": "1) Order an immediate deep-clean of all occupied and standby rooms and kitchen/refrigerator areas. 2) Commission a professional pest inspection/treatment and document results. 3) Suspend any policy that prevents towel change for guests during normal stays (or make complimentary changes standard); update in-room information and booking pages. 4) Implement a housekeeping checklist with daily/turnover checks and manager sign-off; conduct spot audits for next 4 weeks.",
+      "rationale": "Directly addresses recurring, specific complaints in guest feedback; pest and hygiene issues impact health/safety and guest perceptions. Clear, visible corrections and a transparent policy reduce future complaints and protect brand.",
+      "supporting_evidence": [
+        "“No towel change possible without paying, scandalous.”",
+        "“Towels were not clean.”",
+        "“Dead cock roachine in room, mosquito bites.”",
+        "“The refrigerator smelled unkempt.”",
+        "“Room dirty… toilet not totally clean.”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Staff service & communication (reception responsiveness, friendliness, information)",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Guests report absent reception staff, curt reactions to requests, lack of apology or explanation when problems occur, and failure to explain facility operations (AC, cleaning card). This harms guest experience and impedes resolution of operational issues.",
+      "recommended_action": "1) Review reception staffing levels/rosters to guarantee advertised 24-hour reception coverage; fill gaps immediately. 2) Provide a short refresher training for front-desk staff on guest communication, empathy, complaint handling and standard wording for apologies/compensation. 3) Create a simple check-in script and a one-page in-room welcome sheet detailing housekeeping policy, extra charges (if any), how to use AC/room systems, and emergency contacts.",
+      "rationale": "Most service-related complaints stem from communication or absence rather than one-off incidents. Ensuring staff presence and consistent responses will prevent many negative reviews and allow quick on-site remediation.",
+      "supporting_evidence": [
+        "“Reception staff absent.”",
+        "“The staff reacted rather curtly to my requests…”",
+        "“There was no apology or anything.”",
+        "“Did not explain how things worked such as ac, no card to put on door to clean room.”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Room condition & maintenance (damp, uneven floors, small bathrooms)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests describe damp bathrooms, very small rooms, uneven floors leading to a trip, and old secondary building near construction. Damp can cause mold and health issues; uneven floors create trip hazards.",
+      "recommended_action": "1) Conduct a targeted maintenance inspection of rooms (especially those reported damp or with uneven flooring) and complete necessary repairs (seal/ventilate wet areas, level/repair floors, fix water ingress). 2) Where mold/damp is found, remediate per health/safety protocols and re-room guests until fixed. 3) Tag any rooms in the separate old building that do not meet quality/safety standards and remove from sale until corrected or clearly described in listing.",
+      "rationale": "Fixing physical defects removes safety risks, prevents recurring negative feedback, and protects hotel reputation. Removing or clearly disclosing substandard rooms avoids surprise for guests.",
+      "supporting_evidence": [
+        "“Bathroom tiny and damp.”",
+        "“Overlooking stairs and damp room with floor uneven and I tripped.”",
+        "“I was first accommodated in a separate building, which was very old. Right next to the construction site…”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 4,
+      "area": "Guest allocation & noise/construction management",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Some guests were allocated to a separate building near a construction site and experienced disruptive noise; others complained about noise generally. Allocation without adequate disclosure or mitigation leads to dissatisfaction.",
+      "recommended_action": "1) Review and update room allocation policy to avoid placing guests in noisy or construction-adjacent rooms where possible. 2) Clearly disclose at booking (and again at check-in) when a room is in a separate building or near ongoing construction; offer alternatives/compensation (room move, earplugs, partial refund) when noise is unexpected. 3) Liaise with contractors to obtain working schedules and communicate likely noisy periods to guests in advance.",
+      "rationale": "Proactive communication and sensible allocation reduce negative surprises and complaints about noise; compensation policies handle exceptional circumstances fairly.",
+      "supporting_evidence": [
+        "“Right next to the construction site, which turned out to be a big problem after the weekend…”",
+        "“Noise.”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Policy transparency and extra charges (towel changes, luggage storage, breakfast)",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests reported unexpected charges for towel changes and luggage storage and commented that there was no breakfast offered. Lack of transparency about extra fees or amenities causes frustration and negative reviews.",
+      "recommended_action": "1) Immediately review all guest-facing descriptions and booking channels to ensure towel-change policy, luggage storage fees and breakfast availability are clearly stated. 2) Consider removing or reducing towel-change fees for short stays; if fees remain, present them explicitly at booking and check-in. 3) Train reception to explain any fees at check-in and offer written confirmation.",
+      "rationale": "Clear upfront information reduces disputes and negative reviews; generous or transparent policy choices improve perceived value.",
+      "supporting_evidence": [
+        "“No towel change possible without paying, scandalous.”",
+        "“A charge for storing luggage.”",
+        "“No breakfast offered”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Multiple comments praise the hotel's central location and proximity to the sea front and center (e.g., 'about 10 minutes from the center', 'centrally located').",
+      "management_implication": "Keep marketing emphasis on location, ensure room allocation and pricing capitalize on this advantage."
+    },
+    {
+      "area": "Property appearance and comfort items",
+      "reason": "Guests describe the hotel as visually appealing and praise brightness, cleanliness (in some reviews) and 'great beds and shower'.",
+      "management_implication": "Preserve and promote the attractive public areas and bedding quality; continue standards on room cleanliness where achieved."
+    },
+    {
+      "area": "Improving commercial performance",
+      "reason": "Recent metrics show occupancy, RevPAR, TRevPAR and average rating increasing over the reporting window.",
+      "management_implication": "Continue successful revenue and distribution strategies while addressing operational issues to sustain gains."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of cleanliness-related complaints per week (towels, insects, bathroom cleanliness)",
+      "reason": "Direct measure of whether housekeeping and pest interventions reduce guest complaints.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Pest reports and results of professional pest inspections",
+      "reason": "Tracks presence/recurrence of pests after remediation work.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Front-desk coverage (staffed hours vs advertised) and average response time to guest requests",
+      "reason": "Confirms that reception is present and responsive as guests report absences/curt responses.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of complaints referencing room condition (damp, uneven floors) and number of rooms tagged out-of-service for repair",
+      "reason": "Monitors effectiveness of maintenance actions and safety risk reduction.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Share of bookings placed in separate/old building and number of noise/construction complaints",
+      "reason": "Ensures allocation policy changes reduce guest exposure to construction/noise.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest satisfaction (average rating) and weekly N_reviews",
+      "reason": "High-level outcome measures to confirm operational improvements translate to better scores.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Recommendations are based only on the 20 recent guest reviews provided (sample of 39 available in the window). Frequency and prevalence of issues across all guests cannot be precisely determined from this subset.",
+    "No internal operational data (staffing rosters, housekeeping procedures, maintenance logs, pest control records) were provided; recommended inspections and audits are needed to confirm scope and root causes.",
+    "No explicit information on booking/channel descriptions or current policies (towel charges, luggage fees, breakfast) was supplied; advice to clarify policies assumes such charges exist based on guest comments."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H499_20240429_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P029",
+    "case_id": "H499_20240429_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:17:33.227258+00:00",
+    "finished_at_utc": "2026-09-08T16:18:13.335937+00:00",
+    "elapsed_seconds": 40.117
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Occupancy and revenue metrics fell sharply in the 4-week window (occupancy and RevPAR down ~71%, TRevPAR down ~82%), while reviews point to recurring operational issues (facility condition, cleanliness, breakfast, noise). The combination of weak commercial performance and repeated service/maintenance complaints poses a high business risk if not addressed.",
+  "executive_summary": "Immediate priorities are to stabilise commercial performance (recover occupancy/revenue), and address operational and physical-plant issues that appear repeatedly in guest feedback: outdated/worn rooms and poor lighting, housekeeping lapses, limited breakfast variety, and noise/soundproofing problems. Preserve strengths (central location, river view, hospitable staff, comfortable beds, Wi‑Fi and on-site amenities) and use them in targeted short-term offers while implementing a phased capital and operational improvement plan.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Commercial / Revenue Management",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Occupancy and revenue per available room have dropped steeply (occupancy -71.6%, RevPAR -71.3%, TRevPAR -81.9%) in the decision window.",
+      "recommended_action": "Immediate revenue-management review: audit pricing and channel mix, apply short-term tactical discounts or packages to stimulate bookings, push targeted promotions highlighting strengths (central location, river view, free parking, indoor pool), pursue group/corporate bookings and local market demand, monitor distribution costs. Coordinate with marketing to promote small immediate service improvements (e.g., complimentary bottled water) to increase conversion. Review cancellation and minimum-stay rules for flexibility in low-demand periods.",
+      "rationale": "A rapid commercial response can reduce the short-term revenue shock while operational improvements are planned. Using clear strengths in promotions helps attract guests despite some negative comments about facilities.",
+      "supporting_evidence": [
+        "TAXA_OCUPACAO last_value 13.26% (percentage_change -71.59%)",
+        "REVPAR_WEEK last_value 14.46 (percentage_change -71.29%)",
+        "TREVPAR_WEEK last_value 17.42 (percentage_change -81.87%)",
+        "Multiple reviews praise location and views (positive selling points to highlight)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Property condition / Capital works & room comfort",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Several reviews describe worn/outdated materials, poor lighting and a general sense that the hotel no longer meets its 4-star expectations.",
+      "recommended_action": "Commission a rapid property-condition audit to prioritise fixes (lighting, worn furnishings, visible wear). Create a phased refurbishment plan (short-term cosmetic refreshes and mid-term capital works). In the immediate term, implement low-cost mitigations: add bedside and desk lamps, replace heavily worn textiles, supply small in-room amenities (bottled water, body cream) to improve perceived quality while planning larger works.",
+      "rationale": "Guest comments indicate the physical condition undermines the perceived star level. A phased approach manages capital outlay while quickly improving guest perception through targeted, visible interventions.",
+      "supporting_evidence": [
+        "\"The facilities are quite old... Materials very worn and outdated. It already requires renovation.\"",
+        "\"The lighting is extremely scarce...\"",
+        "\"It may once have deserved a 4-star rating, but not currently.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Housekeeping & cleanliness",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "At least one guest reported visible dust on furniture and poor cleaning; inconsistent cleanliness undermines guest satisfaction.",
+      "recommended_action": "Run immediate housekeeping deep-clean of rooms and public areas. Audit current cleaning processes and checklists, retrain or reallocate housekeeping teams, increase room inspection frequency and implement a short-term audit (random room checks with documented scores). Communicate improvements to guests (e.g., visible inspection tags, welcome note confirming deep-clean). Track housekeeping KPIs (room inspection pass rate, time to rectify issues).",
+      "rationale": "Cleanliness is a basic expectation; visible lapses produce negative reviews and reduce repeat business. Quick operational fixes are feasible and visible to guests.",
+      "supporting_evidence": [
+        "\"The furniture had a lot of dust, which means the cleaning was not very good.\"",
+        "Mixed review content: some guests praise cleanliness, indicating inconsistency across rooms/shifts."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Food & Beverage — Breakfast offering",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Some guests find breakfast has little variety and is not taking the opportunity to showcase regional products, though other guests praise the breakfast.",
+      "recommended_action": "Review breakfast menu and supplier mix to introduce higher variety and regional items (sampling local cheeses, breads, preserves). Train breakfast staff on presentation and guest engagement. Consider a small menu refresh or rotating special to test guest response. Promote the improved breakfast in marketing communications and booking channels.",
+      "rationale": "Improving and differentiating breakfast can increase perceived value and convert bookings; it leverages local assets and can be implemented quickly with modest cost.",
+      "supporting_evidence": [
+        "\"Breakfast has little variety, not taking the opportunity to showcase regional products.\"",
+        "\"Delicious breakfast\" (some guests praise breakfast — opportunity to standardise quality)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Noise control & guest behaviour / Soundproofing",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report poor room soundproofing and at least one incident of a disruptive group creating noise until late (12:30 AM).",
+      "recommended_action": "Immediate enforcement of quiet-hours policy and staff training on escalation procedures; document and act on noise complaints promptly. Where feasible, allocate rooms to reduce impact of groups on other guests. Evaluate longer-term investments in soundproofing as part of the property audit. Update booking policies for group reservations (deposits, codes of conduct).",
+      "rationale": "Noise/disturbance impacts guest comfort and review scores. Quick policy and staff response can reduce recurrence while structural solutions are evaluated.",
+      "supporting_evidence": [
+        "\"Poor soundproofing of the rooms.\"",
+        "\"Presence of a group... disrupted part of the evening and continued until 12:30 AM despite my reminders to keep order.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location & views",
+      "reason": "Multiple reviews praise the central location and the spectacular view over the slope of the Rio Corgo.",
+      "management_implication": "Use location and views as key selling points in marketing and packages while improvements are made to rooms."
+    },
+    {
+      "area": "Staff hospitality and service",
+      "reason": "Several reviews mention hospitality, efficiency and friendliness of staff.",
+      "management_implication": "Preserve and recognise staff performance through training and incentives; leverage staff strengths in guest communications and upsell opportunities."
+    },
+    {
+      "area": "Room comfort fundamentals (beds, temperature, Wi‑Fi)",
+      "reason": "Guests repeatedly cite comfortable beds, working air conditioning and good Wi‑Fi.",
+      "management_implication": "Maintain bedding and HVAC service schedules and the Wi‑Fi reliability while cosmetic/major refurbishments are planned."
+    },
+    {
+      "area": "Amenities & facilities (indoor pool, parking, accessible features)",
+      "reason": "Hotel lists attractive facilities (indoor pool, free parking, accessibility features) that support guest value.",
+      "management_implication": "Continue to keep these facilities operational and promoted in sales channels; include amenity benefits in short-term packages."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Occupancy rate (daily/weekly)",
+      "reason": "Primary commercial performance metric showing recovery or continued decline.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "RevPAR and TRevPAR (weekly)",
+      "reason": "Shows revenue performance per room and per available room as promotions and room fixes are implemented.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average review rating and number of reviews mentioning cleanliness or maintenance (weekly sentiment check)",
+      "reason": "Tracks guest experience specifically for cleanliness and facility condition.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Room inspection pass rate and housekeeping audit scores",
+      "reason": "Operational measure of cleanliness and readiness consistency.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of noise/disturbance complaints and time to resolution",
+      "reason": "Monitors effectiveness of quiet-hours enforcement and guest-behaviour policies.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Breakfast satisfaction score / F&B incremental revenue per occupied room",
+      "reason": "Measures impact of breakfast menu changes on guest satisfaction and revenue.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number and value of group/corporate bookings vs. individual bookings",
+      "reason": "Tracks whether targeted commercial actions stimulate demand mix that improves occupancy and RevPAR.",
+      "desired_direction": "context_dependent"
+    }
+  ],
+  "limitations": [
+    "Analysis uses only the supplied 4-week window and the provided recent review sample (20 reviews). Broader trends outside this window are not available.",
+    "Review comments are qualitative and may reflect experiences of a subset of rooms/guests; they do not by themselves identify the root causes of the sharp occupancy/revenue decline.",
+    "Operational detail (housekeeping staffing levels, maintenance backlog, current capital budget) and distribution channel data are not provided; recommendations involving costs or timelines require further internal assessment.",
+    "No direct causal link between review content and the documented revenue/occupancy changes can be established from the supplied information; both should be investigated separately."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H97_20240115_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P013",
+    "case_id": "H97_20240115_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:56:13.103700+00:00",
+    "finished_at_utc": "2026-09-08T15:56:43.088474+00:00",
+    "elapsed_seconds": 29.986
+  }
+}

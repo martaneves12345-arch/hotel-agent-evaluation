@@ -1,0 +1,168 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Occupancy (–15.7%), REVPAR (–17.2%) and TREVPAR (–16.2%) have fallen over the 4‑week window while guest ratings remain strong (avg rating up slightly). The hotel shows solid service strengths (location, staff, breakfast), but a small set of operational issues reported in reviews (noise, amenities, HVAC, small showers) can erode repeat business and conversion if not addressed promptly.",
+  "executive_summary": "Maintain and protect clear strengths (location, friendly staff, breakfast, cleanliness) while addressing a small number of operational issues that appear repeatedly in recent guest feedback: nighttime noise (metro), in‑room climate control reliability (A/C switching off), inconsistency in toiletries supply, and variable room/bathroom sizes (small shower boxes). Also prioritize a revenue-management review to respond to recent drops in occupancy and RevPAR. Most actions are operational or short‑term; a few items (room layout/shower size) may require medium‑term capital or marketing adjustments.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Guest comfort: nighttime noise & room climate control",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Guests report hearing the metro at night and at least one guest experienced the A/C turning off during the night. These issues impair sleep quality and comfort.",
+      "recommended_action": "a) Immediately brief front‑desk to proactively offer quiet room allocations (where possible) and earplugs/white‑noise options at check‑in. b) Task engineering/maintenance to inspect HVAC units that cut out overnight and log any automatic shut‑offs; escalate faults for repair. c) Where feasible, test and document rooms' noise exposure and use this to guide room allocation (e.g., assign more sound‑sensitive guests to quieter rooms).",
+      "rationale": "Sleep disruption and climate control failures create strong negative impressions even when other aspects are good; quick operational fixes and targeted maintenance can reduce complaints and protect ratings.",
+      "supporting_evidence": [
+        "\"You can hear the metro the whole night\"",
+        "Guest: \"the A/C turned off in the middle of the night.\"",
+        "Multiple reviews praising sound insulation in at least one review (indicates variability across rooms)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Consistency of in‑room toiletries and basic supplies",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported no shampoo, shower gel or conditioner in the room, indicating inconsistent provision of basic amenities.",
+      "recommended_action": "Institute/verify a standardised room‑setup checklist for housekeeping that includes toiletries, with supervisory spot checks. Ensure housekeeping stock levels and reordering thresholds are sufficient and logged. Train/onboard staff to confirm toiletries placement before check‑out of the room and record any guest requests promptly.",
+      "rationale": "Provision of basic toiletries is low‑cost, highly visible to guests and easy to correct; consistent amenities protect high scores for cleanliness and service.",
+      "supporting_evidence": [
+        "\"There was no shampoo or shower gel, and no hair conditioner.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 3,
+      "area": "Room product variability (size of rooms / small shower boxes)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests note some rooms have very small shower boxes and smaller room sizes; this creates mismatched expectations and occasional dissatisfaction.",
+      "recommended_action": "Short term: Update room descriptions and photos on the website and OTAs to clearly distinguish smaller room types and shower configurations. Add floorplans or explicit notes (e.g., 'compact bathroom') where applicable. Medium term: review feasibility and cost of modifying bathrooms where guest dissatisfaction is concentrated (capital assessment).",
+      "rationale": "Clear pre‑stay communication reduces expectation gaps and negative reviews; longer‑term physical changes should be considered only after assessing cost vs. revenue impact.",
+      "supporting_evidence": [
+        "\"Some rooms have a very small shower box\"",
+        "\"Smaller than we are used to but great value\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "Revenue & occupancy performance",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Occupancy (–15.7%), REVPAR (–17.2%) and TREVPAR (–16.2%) are declining over the 4‑week window, while average rating remains good.",
+      "recommended_action": "Initiate a short review with revenue management: check pricing strategy, channel mix, recent rate parity, group vs transient booking patterns, and local market demand. Consider targeted promotions (e.g., package with breakfast or flexible cancellation) and proactively manage inventory for upcoming periods. Monitor whether guest complaints (noise, amenities, room size) are reducing conversion or repeat stays.",
+      "rationale": "The hotel retains strong guest satisfaction metrics; revenue management adjustments and targeted marketing may recover occupancy without compromising margins. Also use improved operational fixes to support demand recovery.",
+      "supporting_evidence": [
+        "REVPAR_WEEK percentage_change: -17.16434192554169",
+        "TAXA_OCUPACAO percentage_change: -15.68",
+        "AVG_RATING stable/increasing (8.59 -> 8.72)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Communications at check‑in and product expectations",
+      "managerial_priority": "medium",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Some guests expected breakfast included or were surprised by room size/features; inconsistent expectations can lead to dissatisfaction despite otherwise positive stays.",
+      "recommended_action": "At check‑in, staff should confirm which services (breakfast, toiletries, A/C controls) are included, and proactively inform guests of any known room constraints (e.g., compact bathrooms). Update booking confirmations and OTA descriptions to reduce surprises.",
+      "rationale": "Proactive communication leverages the strength of friendly reception staff (noted repeatedly) and reduces avoidable negative comments.",
+      "supporting_evidence": [
+        "\"That it didn't include breakfast\"",
+        "Multiple praise comments for reception staff being very friendly and helpful."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Multiple guests emphasised 'excellent location' and proximity to metro/transport.",
+      "management_implication": "Continue to highlight location in marketing; leverage for guest instructions (e.g., metro noise mitigation, wayfinding)."
+    },
+    {
+      "area": "Staff friendliness and service",
+      "reason": "Reviews repeatedly praise very friendly and helpful reception and staff.",
+      "management_implication": "Preserve through ongoing training, recognition and by ensuring staffing levels support service standards."
+    },
+    {
+      "area": "Breakfast quality",
+      "reason": "Several reviewers specifically call out 'very good' or 'great breakfast'.",
+      "management_implication": "Maintain breakfast standards and presentation; include breakfast in promotional packages where appropriate."
+    },
+    {
+      "area": "Cleanliness and decor",
+      "reason": "Guests report spotless rooms, attractive decor and pleasant hotel scent/corridors.",
+      "management_implication": "Keep housekeeping standards and scent/ambience programs; these are differentiators worth preserving."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of guest mentions of 'noise', 'metro', 'A/C' in reviews/complaints per week",
+      "reason": "Tracks whether interventions on noise and HVAC are reducing complaint frequency.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of housekeeping missed‑amenity incidents / toiletries stockout reports per week",
+      "reason": "Direct measure of consistency of in‑room amenities.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Occupancy rate and REVPAR (weekly)",
+      "reason": "Monitors recovery of demand and revenue after pricing/marketing/recovery actions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Guest satisfaction score for 'sleep quality' or relevant review sentiment (weekly)",
+      "reason": "Captures guest perception of noise and comfort improvements.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of maintenance calls for HVAC per week and time to resolution",
+      "reason": "Monitors timely resolution of climate control faults that affect comfort.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Proportion of bookings where breakfast is included vs add‑on (and related feedback)",
+      "reason": "Helps understand guest expectations and potential communication gaps.",
+      "desired_direction": "context_dependent"
+    }
+  ],
+  "limitations": [
+    "Analysis is based on the 20 most recent reviews provided (out of 172 available in the decision window); sample may not represent all guest feedback.",
+    "No room‑level data provided (which specific room numbers are noisy, have small showers, or HVAC faults), so recommendations about room allocation and capital changes require further internal inspection.",
+    "Cannot determine causality between guest comments and the observed declines in occupancy/RevPAR; revenue drivers require further market and booking‑channel analysis.",
+    "No operational data on housekeeping procedures, toiletries inventory, or maintenance logs were supplied; implementation details must rely on internal process checks."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H324_20240401_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P018",
+    "case_id": "H324_20240401_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:02:57.294675+00:00",
+    "finished_at_utc": "2026-09-08T16:03:23.413847+00:00",
+    "elapsed_seconds": 26.125
+  }
+}

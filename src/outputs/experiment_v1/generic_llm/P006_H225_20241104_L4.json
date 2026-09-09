@@ -1,0 +1,168 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Occupancy (−29.9%) and RevPAR (−31.5%) have declined substantially in the last month, which creates a meaningful revenue risk for a small 36‑room, 2‑star hotel. Offsetting this, guest satisfaction is rising (average rating +7.7%) and many recent reviews are strongly positive. The combination suggests an operational/marketing response is needed rather than an immediate reputational crisis.",
+  "executive_summary": "Priority actions: (1) arrest the drop in occupancy/RevPAR through targeted pricing and distribution/marketing moves; (2) resolve room comfort defects (mattresses, pillows) that reduce repeat business and value perception; (3) repair bathroom/shower issues now (safety risk); (4) optimise room layouts and remove obstructions to improve perceived space; (5) protect and promote strong service, cleanliness and breakfast to support recovery. Immediate maintenance on showers and a short-term pricing/marketing plan are the highest priorities.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Revenue & Occupancy",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Occupancy fell from ~34.5% to ~24.2% (−29.9%) and RevPAR fell ~31.5% over the lookback. This threatens near-term revenue for a small property.",
+      "recommended_action": "Conduct a brief diagnostic of booking sources and rate competitiveness; implement short-term tactical actions (temporary targeted discounts or packages for nearby markets, promote free parking and family rooms, weekend/family packages, ensure OTA visibility and accurate descriptions). Run a 4–8 week promotion targeted to the hotel’s common guest origins (Spain/Portugal) and family segments while monitoring conversion. If channel mix shows reliance on low-yield sources, adjust distribution strategy.",
+      "rationale": "Large revenue/occupancy declines require fast commercial response; recent reviews show strengths (staff, breakfast, parking, family orientation) that can be highlighted in promotions to rebuild demand.",
+      "supporting_evidence": [
+        "TAXA_OCUPACAO last_value 24.20634920634921 (percentage_change −29.885%)",
+        "REVPAR_WEEK last_value 10.351889749608764 (percentage_change −31.524%)",
+        "Multiple positive reviews mention free parking, family rooms, good breakfast and helpful staff (useful selling points)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort: mattresses & pillows",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Guests reported a sunken mattress and very thin pillows which reduce comfort and perceived value (explicit complaints about mattress needing replacement and thin pillows).",
+      "recommended_action": "Inspect mattresses and pillows across all rooms immediately to identify worst-condition units. Create a prioritized replacement plan (replace worst mattresses first), standardize pillow options (offer firmer/softer alternatives), and record condition in maintenance log. Budget for phased mattress replacement if full replacement is unaffordable immediately.",
+      "rationale": "Comfort items like mattresses and pillows have a direct effect on guest satisfaction and repeat bookings; targeted investment will improve reviews and help revenue recovery.",
+      "supporting_evidence": [
+        "Review: \"The mattress needs replacing, it's very sunken.\"",
+        "Review: \"I didn't like the pillows because they were too thin...\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Bathroom fixtures & shower performance",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "At least one guest reported the handheld shower wasn't working properly; malfunctioning showers can reduce satisfaction and present scalding/slip risks if water flow or temperature control is inconsistent.",
+      "recommended_action": "Order immediate inspection and repair of bathroom fixtures (handheld showers and mixers). Test water temperature stability and flow in all rooms, replace faulty hoses/heads/mixers as needed, and add the checks to a room maintenance checklist. Log repairs and confirm fixes with a short post‑repair test by staff.",
+      "rationale": "Plumbing failures are straightforward to fix but can have safety implications and strongly negative impression if left unaddressed; fixing them quickly reduces risk and improves guest experience.",
+      "supporting_evidence": [
+        "Review: \"the handheld shower wasn't working properly.\"",
+        "Other reviews reference hot shower and bathtub (shows guests value functioning showers)."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Room layout and furniture arrangement",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "A guest reported the room was very tight and you almost have to move the chair to get to the bathroom, indicating suboptimal furniture layout or oversized furniture in some rooms.",
+      "recommended_action": "Survey room layouts to identify units with constrained circulation. Reconfigure or remove bulky/unused furniture (e.g., heavy chairs or tables) to improve access to the bathroom. Update room photos and descriptions to set correct expectations for small rooms, and consider lightweight/space-saving furniture on next replacement cycle.",
+      "rationale": "Small changes to furniture and presentation can materially improve perceived room comfort without major capital outlay and reduce guest friction points.",
+      "supporting_evidence": [
+        "Review: \"The room was very tight; you almost have to move the chair to get to the bathroom.\"",
+        "Several reviews describe rooms as 'simple but comfortable'—small layout tweaks could move more guests into the 'very good' category."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Preserve and promote breakfast & service strengths",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "operational",
+      "problem": "A minority of guests described the breakfast as 'simple', though many praised it as good for the hotel. The property’s staff helpfulness and breakfast quality appear to be competitive strengths that should be preserved and leveraged.",
+      "recommended_action": "Maintain breakfast quality and staff service standards. Consider small, low-cost breakfast enhancements (e.g., one additional hot item or local speciality) and train/recognize staff to sustain the personable service noted by guests. Use positive guest comments about staff, cleanliness, free parking and family support in marketing messages.",
+      "rationale": "Positive guest experience elements are already driving good ratings; protecting and modestly improving them supports occupancy recovery and guest loyalty.",
+      "supporting_evidence": [
+        "Multiple reviews praise the buffet breakfast and staff: e.g., 'The buffet breakfast was of quite good quality. They were very kind…', 'Helpful staff, nothing was too much trouble', 'Excellent breakfast given the simplicity of the hotel.'",
+        "Hotel facilities list 'Very good breakfast' and 'Free parking' and 'Quartos familiares'."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff friendliness & helpfulness",
+      "reason": "Multiple guest reviews explicitly praise the helpful, welcoming staff and personalised gestures (extra bed for a child).",
+      "management_implication": "Continue staff training, recognition and retention efforts; use staff service in marketing messages to attract families and repeat guests."
+    },
+    {
+      "area": "Cleanliness",
+      "reason": "Several reviews mention rooms and hotel are very clean.",
+      "management_implication": "Maintain housekeeping standards and checklists; cleanliness is a strong selling point for value‑oriented guests."
+    },
+    {
+      "area": "Breakfast quality (relative to property class)",
+      "reason": "Many guests describe breakfast as good or excellent given the hotel's simplicity.",
+      "management_implication": "Preserve current breakfast offerings and consider small, cost‑effective enhancements to convert 'simple' comments into explicit praise."
+    },
+    {
+      "area": "Free parking and family-friendly rooms",
+      "reason": "Guests frequently note free parking and family room features; these are differentiators for travellers by car and families.",
+      "management_implication": "Highlight parking and family amenities in communications and packages; ensure parking remains well-signed and safe."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Occupancy rate (weekly)",
+      "reason": "Direct measure of the immediate revenue problem identified; track recovery after pricing/marketing changes.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "RevPAR / RevPOR (weekly)",
+      "reason": "Monitors revenue per available room and per occupied room to measure commercial effectiveness of promotions and rate changes.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average guest rating (weekly) and number of reviews",
+      "reason": "Tracks guest satisfaction trends and volume of feedback (useful for validating changes).",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of negative mentions per 30 days for 'mattress', 'pillow', 'shower', 'bathroom'",
+      "reason": "Targeted sentiment metric to see if maintenance interventions reduce specific complaints.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Maintenance completion time for reported bathroom/shower faults",
+      "reason": "Ensures urgent repairs are fixed quickly (reduces safety risk and negative reviews).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Direct & repeat bookings share",
+      "reason": "Helps evaluate effectiveness of marketing and loyalty efforts aimed at rebuilding occupancy and margin.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Analysis is based only on the supplied reviews and high-level performance metrics for a 4-week lookback; causal links between guest feedback and revenue changes cannot be established from these data alone.",
+    "No booking-channel, pricing detail, competitor or market-demand data were provided; recommendations on pricing/distribution require local booking-source diagnostics before execution.",
+    "Capital cost and budget constraints for mattress or fixture replacement are unknown; recommended capital actions should be validated against available funds.",
+    "Only 20 recent reviews were provided to the model (out of 25 available in the window); review-based indicators are useful but subject to sampling variability."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H225_20241104_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P006",
+    "case_id": "H225_20241104_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:46:24.726908+00:00",
+    "finished_at_utc": "2026-09-08T15:47:00.576741+00:00",
+    "elapsed_seconds": 35.856
+  }
+}

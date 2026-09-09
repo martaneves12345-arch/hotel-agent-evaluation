@@ -1,0 +1,67 @@
+{
+  "system": "frequency_baseline",
+  "method": "negative_review_frequency",
+  "case_id": "H3_20241028_L4",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "high",
+      "negative_mentions": 11,
+      "positive_mentions": 9,
+      "negative_share": 0.55,
+      "rationale": "Room comfort was ranked #1 because it contains 11 negative review mentions."
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast",
+      "managerial_domain": "food_and_beverage",
+      "managerial_priority": "medium",
+      "negative_mentions": 8,
+      "positive_mentions": 33,
+      "negative_share": 0.1951,
+      "rationale": "Breakfast was ranked #2 because it contains 8 negative review mentions."
+    },
+    {
+      "rank": 3,
+      "area": "Parking",
+      "managerial_domain": "access_and_facilities",
+      "managerial_priority": "medium",
+      "negative_mentions": 7,
+      "positive_mentions": 7,
+      "negative_share": 0.5,
+      "rationale": "Parking was ranked #3 because it contains 7 negative review mentions."
+    },
+    {
+      "rank": 4,
+      "area": "Staff and service",
+      "managerial_domain": "service_delivery",
+      "managerial_priority": "low",
+      "negative_mentions": 6,
+      "positive_mentions": 23,
+      "negative_share": 0.2069,
+      "rationale": "Staff and service was ranked #4 because it contains 6 negative review mentions."
+    },
+    {
+      "rank": 5,
+      "area": "Bathroom condition",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "low",
+      "negative_mentions": 5,
+      "positive_mentions": 7,
+      "negative_share": 0.4167,
+      "rationale": "Bathroom condition was ranked #5 because it contains 5 negative review mentions."
+    }
+  ],
+  "methodological_note": "Categories are ranked using negative review-mention frequency only. No LLM reasoning, expectation indicators, trend information, complaint severity, safety interpretation, or diagnostic score is used.",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P001",
+    "case_id": "H3_20241028_L4",
+    "system": "frequency_baseline",
+    "started_at_utc": "2026-09-08T15:26:05.859818+00:00",
+    "finished_at_utc": "2026-09-08T15:26:05.859818+00:00",
+    "elapsed_seconds": 0.001
+  }
+}

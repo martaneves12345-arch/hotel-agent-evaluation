@@ -1,0 +1,252 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Several safety- and health-relevant complaints (sewer odour in room; spa cold/unsupervised leading to alleged illness) plus a sharp increase in share of negative reviews (PERC_REVIEWS_NEGATIVE rose from 14% to 71%). Business metrics are healthy, but the frequency/severity of a few issues and emerging negative topics justify elevated attention.",
+  "executive_summary": "Preserve strong location and generally well‑rated breakfast while addressing three safety/health‑relevant operational vulnerabilities (room odour/plumbing and spa operations), plus targeted service and in‑room amenity frictions. Recommend immediate maintenance/inspection for odour/plumbing and an operational audit of the spa; short‑term operational fixes for breakfast coffee machine queues and lobby entertainment scheduling; and a short/medium‑term review of in‑room tech and dated room elements.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room odour / bathroom hygiene (potential plumbing issue)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Reports of a strong sewer smell in rooms and broader guest concern about bathroom hygiene (shower curtains vs screens, accessibility handles). One guest nearly fainted; lengthy wait for an acceptable alternative and limited guest recovery response reported.",
+      "recommended_action": "Immediately inspect and diagnose source(s) of the odour (plumbing, drains, room ventilation). Prioritise rooms with recent complaints for inspection, remedial plumbing/ventilation work, and hygiene improvements (e.g., evaluate shower curtain hygiene and feasibility of screens). Review front‑desk guest‑recovery process for long waits (e.g., interim guest care while resolving room issues). If inspections indicate wider structural/plumbing problems, commission a detailed maintenance assessment.",
+      "rationale": "Sewer odour is a severe health/comfort issue that produced an acute guest incident (attempt to change rooms, near fainting) and represents a safety/guest recovery failing; inspection is required to determine scope and remedy before operational or capital measures are chosen.",
+      "supporting_evidence": [
+        "Complaint (2024-05-06): rooms 'stink terribly of sewer smell', required multiple room moves, long wait at reception with no drink offered.",
+        "Managerial evidence: 'Bathroom condition' area is net_negative (2 negative mentions, 0 positive) and flagged with expectation violation; matched topics include hygiene and accessibility."
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise room cleanliness and comfortable beds (e.g., multiple high‑rating reviews noting rooms cleaned and comfortable)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "Diagnostic vulnerability: Bathroom condition = net_negative",
+          "Complaint (2024-05-06): sewer odour incident",
+          "Matched topics: replace shower curtains with screens; accessibility features"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Spa & pool operations, safety and communication",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guest expectation violations and emerging negative reports about spa availability/condition (requirements to pre‑book not communicated at check‑in), spa facilities not operating as expected (cold pool, jacuzzi off, wind from open roof), and lack of supervision leading to hygiene/safety concerns. One guest attributes subsequent illness to the spa experience.",
+      "recommended_action": "Immediately audit spa operational status (heating/system function, jacuzzi, Turkish bath) and spa supervision procedures. Update check‑in script and reservation/booking communications so spa booking requirements/availability are clearly communicated at arrival and on booking channels. If mechanical/operational failures are found, prioritise repair and then re‑communicate availability to guests. If supervision or safety gaps exist, deploy staff cover until resolved.",
+      "rationale": "Complaints describe functional failures of spa facilities and lack of supervision; these are health/safety‑relevant and also an expectation‑driven reason guests select the hotel. Clear communication and ensuring safe, functioning facilities can mitigate guest harm and expectation violations.",
+      "supporting_evidence": [
+        "Complaint (2024-05-07): guest chose hotel for the spa, found no prior communication about booking requirement, spa was cold, jacuzzi off, Turkish bath open, no supervision; guest reports becoming ill afterwards.",
+        "Managerial evidence: 'Spa and pool' flagged as positive_with_friction and emerging_negative; matched topics include spa booking communication and spa operational condition/supervision."
+      ],
+      "positive_counterevidence": [
+        "Some guests list the spa as a reason for choosing the hotel and otherwise report positive leisure experiences."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "Managerial evidence: Spa and pool = positive_with_friction and emerging_negative",
+          "Latest context emerging_negative_topic includes 'spa' (clear communication about spa booking)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast service (coffee machine jams, queues, and some taste complaints)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Overall breakfast is a strength but specific frictions: coffee machine jamming produces queues; at least one guest described food as tasteless; some guests request live egg/omelette station which is absent.",
+      "recommended_action": "Conduct a short‑term operational review of breakfast service: check and maintain coffee machines (reduce jams), monitor queue formation and staffing allocation at peak times, and review hot food taste/variety with F&B leads. Consider piloting a live egg/omelette option only if broader demand is confirmed by additional feedback (do not implement solely from a single suggestion).",
+      "rationale": "Breakfast receives many positive mentions (variety and quality) but recurring operational frictions (coffee machine jams, queues, isolated tasteless comments) are emerging and affect guest experience; operational fixes can preserve the underlying strength.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast = positive_with_friction (12 mentions; 10 positive, 3 negative), matched topics include coffee machine and omelette chef.",
+        "Complaint (2024-05-14): 'Coffee machine wud often jam leading to long queues for tea/coffee at breakfast'.",
+        "Complaint (2024-05-07): 'Breakfast ... tasteless.'",
+        "Complaint (2024-05-18): guest requested an omelette chef at breakfast."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise the breakfast as excellent or varied (e.g., several 8–10 rating reviews highlighting breakfast quality)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 10,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "Managerial evidence: Breakfast positive_with_friction",
+          "Latest context emerging_negative_topic includes 'coffee machine'"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Lobby noise / entertainment scheduling and check‑in process",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Live performances or entertainment near reception have interfered with check‑in communication and created noise complaints; there are also reports of slow or poorly communicated check‑in times leading to guest waiting.",
+      "recommended_action": "Review entertainment scheduling and location relative to reception (consider relocating or rescheduling performances) and update front‑desk procedures to ensure clear, accurate check‑in timing is communicated at arrival. Train reception staff to proactively offer interim guest care when rooms are delayed (e.g., clear wait time communication, offerings while waiting).",
+      "rationale": "Multiple guests described inability to hear reception due to performances and unnecessary waiting for promised early check‑in; these are service/process issues that can be corrected without capital spend and preserve the hotel's positive staff reputation.",
+      "supporting_evidence": [
+        "Complaint (2024-05-02): arrival hall had a singer and people dancing, making it hard to hear the receptionist.",
+        "Complaint (2024-04-26): guest told room nearly ready, waited unnecessarily and later told standard 2:00 PM check‑in.",
+        "Managerial evidence: 'Staff and service' and 'Room comfort' mention holding live performances away from reception / reduce lobby noise during check‑in."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise staff friendliness and helpfulness (e.g., named staff praised)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "Managerial evidence: Staff and service = positive_with_friction",
+          "Matched topic: hold live performances away from reception / reduce lobby noise during check-in"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Room comfort & in‑room amenities (Wi‑Fi, plug sockets, decor, in‑room coffee)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Isolated but repeated mentions of weak internet connection, insufficient plug sockets, dated room decor, and at least one in‑room coffee machine complaint. Some of these are operational fixes; others may require capital assessment to address at scale.",
+      "recommended_action": "Short‑term: run a focused operational check of Wi‑Fi coverage/performance and investigate availability of additional portable charging solutions or power strips where safe and allowed. Verify in‑room coffee machine reliability. Medium‑term: commission an assessment of room refurbishment priorities (decor, socket availability) to determine scope and cost before capital decisions.",
+      "rationale": "Complaints are recurrent but lower frequency and vary in severity. Wi‑Fi and sockets can often be addressed operationally; decor/sockets may need a measured capital plan following an assessment rather than immediate investment.",
+      "supporting_evidence": [
+        "Complaint (2024-05-04): 'internet connection wasn't strong'.",
+        "Complaint (2024-05-15): 'not enough plug sockets in the room.'",
+        "Managerial evidence: 'Room comfort' and 'In-room amenities' show mixed and emerging_negative signals (dated rooms, coffee machine)."
+      ],
+      "positive_counterevidence": [
+        "Multiple guests rate rooms comfortable and well cleaned; location and room size are frequently praised."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "Managerial evidence: Room comfort = mixed",
+          "Managerial evidence: In-room amenities = net_negative (emerging)",
+          "Experience indicator: Wi‑Fi and technology matched emerging_negative_topic"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.55
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Multiple reviews emphasise excellent location, proximity to beach and marina, and accessibility; managerial evidence shows 7 positive mentions and no negatives.",
+      "management_implication": "Retain and highlight location in marketing and maintain nearby guest services; preserve accessibility features and evaluate requests for additional elderly supports (e.g., safety handles) via assessment."
+    },
+    {
+      "area": "Breakfast (overall quality and variety)",
+      "reason": "Despite some operational friction, breakfast received many positive mentions (10 positive vs 3 negative) and is cited as an excellence point in multiple reviews.",
+      "management_implication": "Protect the underlying breakfast offering while addressing operational frictions (coffee machine, staffing, variety/taste concerns identified in priorities)."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Share of negative reviews (PERC_REVIEWS_NEGATIVE)",
+      "reason": "Has risen sharply over the window and flags overall sentiment movement.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Number of room odour/plumbing complaints logged per week",
+      "reason": "Direct measure of recurrence/severity of odour incidents and potential spread beyond isolated rooms.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Spa operational complaints (availability/function/supervision) and spa booking-related enquiries at check‑in",
+      "reason": "Tracks whether operational and communication fixes reduce spa expectation violations.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Breakfast coffee‑queue length / coffee‑machine fault reports",
+      "reason": "Operational proxy for coffee machine jams and breakfast wait friction.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Wi‑Fi/in‑room amenities complaints (internet strength, plug sockets)",
+      "reason": "Tracks guest technology satisfaction and scope for remedial action or refurbishment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic examples and not statistically representative of all reviews; prevalence should be assessed using the full review set.",
+    "Complaint evidence cannot determine technical scope or cost for capital works (e.g., plumbing remediation or room refurbishment); where scope is unknown an assessment is recommended before capital expenditure.",
+    "Attribution of a guest's subsequent illness to spa conditions is a single report and cannot establish causality; however, it does increase urgency for safety checks.",
+    "Some recommendations (e.g., adding sockets or room refurbishment) may require technical and financial analysis not available in the supplied evidence."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P028",
+    "case_id": "H414_20240513_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:16:41.839764+00:00",
+    "finished_at_utc": "2026-09-08T16:17:32.836671+00:00",
+    "elapsed_seconds": 50.989
+  }
+}

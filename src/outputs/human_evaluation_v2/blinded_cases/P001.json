@@ -1,0 +1,390 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P001",
+  "case_information": {
+    "case_id": "H3_20241028_L4",
+    "decision_week": "2024_W44",
+    "window_start": "2024-10-07",
+    "window_end": "2024-11-03",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 81.1849432444173,
+        "REVPOR_WEEK": 163.94032277924367,
+        "TREVPAR_WEEK": 108.09509269955156,
+        "TAXA_OCUPACAO": 99.30313588850174,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 8.421052631578947
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 79.8406982735363,
+        "REVPOR_WEEK": 163.30466797502237,
+        "TREVPAR_WEEK": 105.75015123637422,
+        "TAXA_OCUPACAO": 98.25783972125436,
+        "N_REVIEWS": 34.0,
+        "AVG_RATING": 8.705882352941176
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 79.9181829332874,
+        "REVPOR_WEEK": 161.90157917034418,
+        "TREVPAR_WEEK": 100.17231123877872,
+        "TAXA_OCUPACAO": 99.21602787456446,
+        "N_REVIEWS": 35.0,
+        "AVG_RATING": 8.228571428571428
+      },
+      {
+        "WEEK_YEAR": "2024_W44",
+        "week_date": "2024-10-28",
+        "REVPAR_WEEK": 71.05871771126019,
+        "REVPOR_WEEK": 153.6577333978704,
+        "TREVPAR_WEEK": 94.31344652149778,
+        "TAXA_OCUPACAO": 90.59233449477352,
+        "N_REVIEWS": 27.0,
+        "AVG_RATING": 7.888888888888889
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-11-03",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Moldova",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 7.0,
+        "liked": "Clean. Excellent breakfast",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 7.0,
+        "liked": "Convenient location",
+        "disliked": "Not great breakfast - quite avarage food",
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 6.0,
+        "liked": "Our aim was to visit the Calouste Gulbenkian Museum, so the hotel's location was unbeatable, but little else in its favor. The breakfast is acceptable, although I wouldn't call it very good.",
+        "disliked": "Rooms poorly insulated and very noisy. From early in the morning there's very loud noise from doors opening and closing. The door closure is automatic and causes a big noise. At 4:00 a.m. the fire alarm sounded for a few minutes. Then it stopped, but no one at reception told us the cause of the activation nor explained that there was no danger. The room is fine, but little more. The hot water in the bathroom is barely warm. I didn't use the parking services because, although cheap: €10/day, I had read in other comments that it was very narrow and difficult to drive in and I was driving a large car. On weekends you can find free parking nearby.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-02",
+        "rating": 7.0,
+        "liked": "Great staff, lovely lobby/Bar, welcome cakes a nice touch",
+        "disliked": "Room is a bit dated needs maintenance, mini bar the drinks were stuck to the shelves needed cleaning",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-02",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 10.0,
+        "liked": "I returned for the fifth time in two years and always found improvement. Staff increasingly efficient and courteous; I received a welcome upgrade to the top floor. Fast and continuous Wi-Fi. The overall level of the breakfast has also improved.",
+        "disliked": "Because the hotel works with groups, breakfast from 7 to 8 is very crowded and a bit chaotic for solo travelers or couples. A different organization with areas reserved for groups - there is space - and a space, even limited, for the others...",
+        "country": "Italy",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 7.0,
+        "liked": "Very good breakfast.",
+        "disliked": "The curtains and the room's windows are dirty",
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-31",
+        "rating": 8.0,
+        "liked": "Very good breakfast",
+        "disliked": "The bed is not comfortable. Very hard. When I tried to leaf through the book about Lisbon, I had to give up. My hands became sticky. Why? The front and back covers were greasy. Abundantly. Is it just a detail? Yes! But it is from details like these that you better judge whether \"the dust is not swept under the rug.\" It's not even good to talk about the parking lot!!! Maybe it would have been acceptable when the “minins” of the 60s and 70s were kings and masters.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-31",
+        "rating": 8.0,
+        "liked": "Room was very comfortable and breakfast very good. Location was good for the purpose of our stay.",
+        "disliked": "Check in took a long time due to only one person initially on reception who was obviously trying to deal with an issue with a customers reservation. 2 other staff eventually turned up after 10 minute wait but there was no acknowledgment of our wait either by the initial staff member or the new staff.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 9.0,
+        "liked": "I ordered a room service dish that was bad and returned it (I never return dishes). They claimed that everyone had eaten that food, did not compensate me, and charged me for the dish.",
+        "disliked": null,
+        "country": "Israel",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 8.0,
+        "liked": "The rooms are spacious and very clean; the location by the Gulbenkian Museum and Park is quiet and conveniently situated. The breakfast is plentiful; if you don't necessarily need things like a spa and a rooftop pool, the hotel is a very good choice.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 10.0,
+        "liked": "Value for money",
+        "disliked": "Location",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-30",
+        "rating": 9.0,
+        "liked": "Everything",
+        "disliked": "Tight parking, the car can't make the turns and you still have to pay",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-29",
+        "rating": 3.0,
+        "liked": "Location is good. Breakfast buffet spread is good...but very crowded",
+        "disliked": "Rooms are outdated with scratched metal furniture(closet/side tables)...bed is uncomfortable! Bathroom is congested and small....towels provided are like Sand paper and can rip your skin off!!",
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-29",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-29",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Angola",
+        "stay_type": "Solo traveller"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Multiple consistent guest complaints about room condition, parking, breakfast crowding and a safety-related event (fire alarm with no explanation) combined with declines in RevPAR, TRevPAR, occupancy and average rating indicate a moderate operational risk to guest satisfaction and short-term performance. Issues appear addressable via operational, housekeeping and targeted maintenance actions.",
+    "executive_summary": "Recent reviews show strength in location, friendly staff and generally good breakfast, but recurring problems are: (1) a fire-alarm activation and poor emergency communication (safety-relevant); (2) narrow/tight paid parking that frustrates guests; (3) room maintenance and housekeeping lapses (dirty curtains/windows, sticky minibar, rough towels, hard beds, weak hot water); (4) breakfast congestion because of groups; and (5) front-desk delays and inconsistent handling of complaints. Priorities address immediate safety/communication, parking information/operations, focused room maintenance and housekeeping improvements, breakfast crowd management, and front-desk staffing & service recovery procedures.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Emergency procedures & guest communication",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "A recent fire alarm activation lasted several minutes and guests report no explanation or reassurance from reception. This raises safety and reputational risk.",
+        "recommended_action": "Immediately audit recent alarm event and confirm whether it was a false alarm or a system issue. Ensure front-desk SOPs require immediate loudspeaker/phone announcement and face-to-face reassurance after any alarm activation; train staff on emergency communication scripts. Verify alarm system maintenance history and schedule any required service/inspections. Log and report all alarm activations centrally.",
+        "rationale": "Guest reports: 'At 4:00 a.m. the fire alarm sounded for a few minutes...no one at reception told us the cause...nor explained that there was no danger.' Prompt communication and verified maintenance reduce safety risk and guest anxiety."
+      },
+      {
+        "rank": 2,
+        "area": "Parking operations & guest information",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Multiple guests report the on-site paid parking is very narrow and difficult to drive in/turn, yet guests are charged for it. This generates repeated complaints and damaged perception of value.",
+        "recommended_action": "Inspect and document dimensions/turning radii of the parking facility; add clear pre-arrival communications about dimensions, vehicle-size restrictions and price. Place signage at entrance warning about tight spaces; offer alternative nearby parking options or a discounted external lot if possible. If physical constraints permit, adjust traffic flow, marking and staff assistance during check-in for drivers. Consider re-pricing or making parking optional to reduce frustration.",
+        "rationale": "Multiple reviews cite difficulty and narrow spaces: 'very narrow and difficult to drive in', 'Tight parking, the car can't make the turns and you still have to pay', and 'I didn't use the parking services...it was very narrow'. Clear communication and operational changes reduce repeat complaints and potential vehicle damage claims."
+      },
+      {
+        "rank": 3,
+        "area": "Room maintenance & housekeeping quality",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Recurring comments about dated or poorly maintained rooms, dirty curtains/windows, sticky minibar items, rough towels, uncomfortable (very hard) beds and weak hot water supply negatively impact comfort and perceived cleanliness.",
+        "recommended_action": "Implement a short-term deep-clean and inspection checklist for rooms to address dirty curtains/windows, minibar cleanliness and towel quality. Identify top-priority rooms for mattress/towel replacement and repair (hot water system diagnostics in affected wings). Create a rolling capital plan for room refurbishment (replace mattresses, update furnishings) and a preventive maintenance schedule for hot water/heating. Tighten minibar and housekeeping checklists and verification sign-off.",
+        "rationale": "Multiple reviews mention: 'curtains and the room's windows are dirty', 'mini bar the drinks were stuck to the shelves needed cleaning', 'towels provided are like Sand paper', 'The bed is not comfortable. Very hard', and 'The hot water in the bathroom is barely warm.' These are frequent guest pain points affecting the overall rating."
+      },
+      {
+        "rank": 4,
+        "area": "Breakfast crowd management & group handling",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although breakfast quality is frequently praised, guests report it is very crowded and chaotic at peak times because of group bookings, reducing enjoyment for solo travelers and couples.",
+        "recommended_action": "Adjust breakfast operations: consider staggered group breakfast slots, designate a specific area or time window for groups, extend breakfast service hours during high-group periods and add staff at peak times. Communicate recommended breakfast times at check-in and offer reservation for busy slots when groups are present.",
+        "rationale": "Guest comments: 'because the hotel works with groups, breakfast from 7 to 8 is very crowded', 'breakfast buffet spread is good...but very crowded'. The hotel already receives positive comments about breakfast; managing flow can preserve the strength."
+      },
+      {
+        "rank": 5,
+        "area": "Front-desk staffing & guest recovery",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Guests report long check-in waits with no acknowledgment and inconsistent handling of service failures (e.g., charge for returned room-service dish). This harms perceived service quality despite positive staff feedback elsewhere.",
+        "recommended_action": "Review front-desk staffing levels during expected peaks; implement a standard acknowledgement protocol for waiting guests (queue acknowledgement within 1–2 minutes). Provide refresher training on complaint handling and compensation policy for F&B issues, empower staff with clear authority to resolve minor food complaints without escalation, and log incidents for follow-up.",
+        "rationale": "Examples: 'Check in took a long time due to only one person...no acknowledgment of our wait' and 'I ordered a room service dish that was bad and returned it...They claimed that everyone had eaten that food, did not compensate me, and charged me for the dish.' Better front-line processes will protect ratings and repeat guests."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location",
+        "reason": "Multiple guests praise the hotel's location near the Gulbenkian Museum and park and describe it as convenient and quiet.",
+        "management_implication": "Maintain marketing emphasis on proximity to cultural attractions; ensure wayfinding and local recommendations remain updated at front desk and in-room materials."
+      },
+      {
+        "area": "Breakfast quality",
+        "reason": "Many reviews say breakfast is 'very good' or 'plentiful' and some guests note improvement over time.",
+        "management_implication": "Preserve menu quality and variety while improving service flow and space allocation to prevent crowding."
+      },
+      {
+        "area": "Staff courtesy & service improvements",
+        "reason": "Several reviews praise staff as 'efficient and courteous' and note service improvements on repeat visits.",
+        "management_implication": "Keep investing in staff training and recognition; use staff praised in reviews as models/mentors for others."
+      },
+      {
+        "area": "Clean, spacious rooms (where applicable)",
+        "reason": "Some guests explicitly report rooms are 'spacious and very clean' and comfortable.",
+        "management_implication": "Preserve housekeeping standards and audit to ensure this level is consistent across all rooms."
+      },
+      {
+        "area": "Value for money & amenities",
+        "reason": "Reviews cite 'value for money', fast Wi-Fi, a welcoming lobby/bar and small touches (welcome cakes).",
+        "management_implication": "Maintain these guest-facing amenities and small gestures which contribute positively to guest perception."
+      }
+    ],
+    "limitations": [
+      "Analysis based only on the 20 most recent reviews provided to the model (of 115 available in the window); frequency and severity estimates may change if full sample differs.",
+      "Operational performance metrics (RevPAR, TRevPAR, occupancy, average rating) are provided but this assessment does not attribute causation between reviews and financial performance.",
+      "Some guest comments are subjective and may reflect isolated experiences; recommended actions include further internal assessment (maintenance logs, alarm system reports, parking layout survey) before capital decisions."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Customer-frustration signals are rising (expectation–experience gap, increasing operational complaints, rising share of negative reviews) while business metrics (RevPAR, occupancy, sentiment, rating) are trending down. Strengths (cleanliness, staff, breakfast broadly positive) reduce immediate criticality, but multiple emerging operational and maintenance issues warrant timely managerial attention.",
+    "executive_summary": "Reviews in the 4-week window show strong positives for cleanliness and staff but growing and persistent friction in room comfort (dated rooms, beds, noise, tight/small bathrooms, occasional bugs) and several operational expectation gaps around breakfast service/policies and in‑room consumables/amenities (water, sockets, minibar cleanliness). Hot-water reliability and some bathroom concerns are emerging negatives. Operational complaints and the expectation–experience gap are increasing and correlate with falling sentiment and RevPAR. Recommend five focused priorities: (1) room comfort & maintenance assessment (including soundproofing and pest/hygiene checks); (2) review breakfast operations and takeaway policy consistency; (3) address bathroom hot-water reliability and ventilation/cleanliness issues; (4) ensure in-room amenity consistency (water provision, sockets, minibar cleanliness); (5) review parking/payment transparency. Preserve strong housekeeping and staff service while monitoring outcome indicators.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort (beds, furniture, noise, room condition, pests)",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews report dated/ scratched furniture, uncomfortable beds, poor soundproofing/doors slamming, tight/small room layouts and isolated reports of bugs and a broken window. These issues are repeated across weeks and are part of an emerging negative signal for room comfort.",
+        "recommended_action": "Initiate a targeted room-condition assessment (inspection of bedding/mattresses, furniture, door hinges/closure noise, soundproofing points and pest/hygiene inspection). Prioritize corrective maintenance where safety or hygiene concerns are found and compile a scope/cost estimate for medium-term refurbishment where multiple rooms show structural deterioration.",
+        "rationale": "Room comfort complaints are frequent (19 mentions, net-negative) and persistent across the 4-week window; noise and bed comfort affect sleep quality and guest satisfaction. Evidence also includes hygiene-related comments (bugs, harsh towels) and an unattended fire-alarm event that points to a broader guest-experience and safety-communication risk. The pattern suggests some issues are operational/maintenance and some may be structural, so inspection is needed before prescribing capital work."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast operations & takeaway policy",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Breakfast is a clear strength overall but shows recurring friction: crowding/coffee wait times, repetitive/limited variety for a 4-star expectation, and at least one perceived discriminatory enforcement of a no-takeaway rule.",
+        "recommended_action": "Review breakfast service capacity and flow (e.g., coffee station throughput, queue management) and audit breakfast variety/quality relative to 4-star positioning. Review the breakfast takeaway policy and how staff communicate/enforce it to ensure consistent, non-discriminatory application; consider operational adjustments (e.g., small packaged options or clear signage) only after managerial review.",
+        "rationale": "Breakfast has high positive volume (33 positive vs 8 negative), so preserve the strength while removing specific frictions that generate expectation violations and complaints. The takeaway-policy complaint and coffee/wait issues are expectation-related and can generate disproportionate frustration despite overall positive sentiment."
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom condition & hot-water reliability",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Reports of barely warm hot water, bathroom congestion/small bathrooms, ventilation concerns and occasional minor pest reports. 'Hot water' appears among emerging negative topics in the latest context.",
+        "recommended_action": "Perform immediate operational checks on hot-water systems (temperature consistency and flow) and inspect bathrooms for ventilation and hygiene issues. If failures are isolated, repair; if systemic, commission a technical assessment to determine scope and cost for corrective work.",
+        "rationale": "Hot-water reliability and bathroom ventilation affect core guest comfort and are present in both the emerging_negative_topic list and complaints. Some items may be simple maintenance; others could require technical inspection. Because hot-water problems directly degrade stays, prompt assessment is warranted."
+      },
+      {
+        "rank": 4,
+        "area": "In-room amenities & consumable consistency (water, sockets/USB, minibar cleanliness)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report inconsistent provision of bottled water (given only on first day for some guests), limited electrical sockets/USB ports by beds, and minibar cleanliness issues (drinks stuck to shelves). These are expectation gaps for a 4-star property.",
+        "recommended_action": "Audit in-room amenity checklist and housekeeping/room-turn procedures to ensure consistent delivery of replenishable consumables (water) and that minibar/room fixtures are clean and functional. Review room amenity specifications versus guest expectations (sockets/USB availability) and assess whether communication about available amenities is clear in booking descriptions.",
+        "rationale": "Although fewer mentions overall, these are clear, actionable operational deficiencies that affect perceived value and convenience. They can often be corrected through checklists, staff reminders, and clearer guest communication without immediate capital outlay, though socket/USB shortfalls may require later assessment."
+      },
+      {
+        "rank": 5,
+        "area": "Booking/payment transparency & parking access",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "policy_process",
+        "problem": "A small set of reviews flags unexpected charges or confusion about payment requirements and difficulties with a narrow onsite parking area (price noted but concerns about narrowness and maneuverability for larger cars).",
+        "recommended_action": "Review communication about parking (size constraints, price) on booking channels and the hotel website to ensure transparency. Review payment and extra-charge communications at check-in and booking to reduce surprise charges; if parking is physically constrained, consider clearer size/entry guidance or an access/booking policy for parking.",
+        "rationale": "Issue frequency is low (booking/payment mentions = 3; parking mixed) but it is an emerging negative topic and directly affects arrival/guest convenience. Because evidence is limited, begin with a policy/communication review rather than operational changes."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "High positive share (13 positive vs 3 negative); multiple reviews praise room cleanliness and daily cleaning.",
+        "management_implication": "Preserve current housekeeping standards and leverage this team when implementing room-condition remediation and in-room amenity checklist changes."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Strong positive mentions (23 positive vs 6 negative); staff friendliness and helpfulness are frequently noted.",
+        "management_implication": "Maintain front-desk and service training; involve staff in clearer communication of breakfast and parking policies to reduce perception-of-unfairness and to improve handling of operational incidents (e.g., fire alarm communication)."
+      },
+      {
+        "area": "Breakfast (overall)",
+        "reason": "High overall positive mentions (33 positive) indicating breakfast is a perceived strength despite friction points.",
+        "management_implication": "Correct targeted breakfast operational frictions while preserving menu items and staff practices that guests appreciate."
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic examples and are not statistically representative of the full review population; prevalence should be assessed with the complete review dataset.",
+      "Evidence identifies issues (e.g., dated rooms, hot-water problems) but does not specify technical scope or cost; where scope is unclear, recommendations call for inspection/assessment before capital decisions.",
+      "Causality between review evidence and commercial metrics (RevPAR, occupancy) cannot be inferred from the supplied data.",
+      "Some items (e.g., soundproofing, refurbishment) may require capital investment but the case evidence does not quantify extent or cost—further technical evaluation is required before budgeting.",
+      "Guest-suggested solutions (e.g., breakfast bags) are treated as indicators of expectation; they are not adopted as managerial prescriptions without broader evidence."
+    ]
+  }
+}

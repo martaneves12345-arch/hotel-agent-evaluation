@@ -1,0 +1,224 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business metrics (RevPAR/RevPOR/TREVPAR) are improving, but there is an existing priority alert and emerging negative evidence about the wellness area plus recent reversals in average rating and sentiment. Customer feedback shows a small number of recurring expectation violations (wellness/jacuzzi availability, front-desk communication) and mixed cleanliness signals. These combined make the current situation moderate risk requiring targeted action and monitoring.",
+  "executive_summary": "Preserve clear strengths (location, breakfast) while addressing a small set of expectation-driven frictions. Highest actionable priority is the wellness area (jacuzzi/upper-floor facilities): multiple recent complaints indicate unavailability/closures that violated guest expectations. Second priority is front-desk service and guest communications (check-in delays, lack of apology/notifications). Third is mixed cleanliness/housekeeping signals including in-room toiletries/dispensing. Also monitor recent reversals in average rating, sentiment and occupancy decline alongside increasing emotional complexity and polarization. Recommend targeted operational/process reviews and inspections; where scope or capital needs are unclear, begin with assessments rather than immediate investment.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Spa and pool",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests expected functional wellness facilities (jacuzzi/wellness/top-floor facilities) but multiple recent reviews report closures, non-working jacuzzi or restricted hours — an expectation violation and an emerging negative topic.",
+      "recommended_action": "Immediate operational check and guest-communication review: (a) inspect jacuzzi and associated wellness equipment to confirm functionality and identify required maintenance; (b) review and, if needed, adjust opening hours and staffing so advertised facilities are available during core guest usage times; (c) proactively communicate current status and availability of wellness facilities at booking, pre-arrival, and at check-in. If inspection shows structural or capital issues, commission a technical assessment before proposing capital works.",
+      "rationale": "Managerial evidence shows expectation violation and emerging negative (expectation_weeks=1, violated_expectation_weeks=1, emerging_negative_weeks=1). Three complaint examples reference non-working or closed wellness facilities (jacuzzi does not work; top-floor facilities not working; wellness area closed early). Underlines a current mismatch between advertised amenities and guest experience, increasing risk of disappointed guests despite otherwise positive comments about the hotel.",
+      "supporting_evidence": [
+        "Managerial evidence: Spa and pool — review_mentions_total=3, positive_mentions=2, negative_mentions=1; has_expectation_violation=true; is_emerging_negative=true.",
+        "Complaint 2024-09-08: 'Jacuzzi does not work'.",
+        "Complaint 2024-09-19: 'Facilities on the top floor were not working.'",
+        "Complaint 2024-09-16: 'They closed the wellness area very soon, so there was no chance to use it.'"
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence positive_mentions=2 indicates some guests find the wellness area acceptable when functional.",
+        "Complaints include positive contexts praising the hotel (views, comfort, breakfast) indicating the hotel retains underlying appeal."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC (wellness)",
+          "PRIORITY_ALERT_FLAG",
+          "EMOTION_ENTROPY (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Staff and service (front desk communication & attitude)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Although staff are generally described positively, there is at least one clear expectation violation around front-desk behaviour and check-in communication (attitude, failing to inform guests when rooms are ready, lack of apology for delays).",
+      "recommended_action": "Review front-desk check-in procedures and service recovery expectations: (a) audit recent check-in flow and delays; (b) reinforce a simple protocol for communicating delays and apologising (check-in delays, room-ready notifications); (c) deliver targeted coaching/refresher on guest communication and acknowledgement; (d) monitor for recurrence through guest feedback and front-desk incident logging.",
+      "rationale": "Managerial evidence shows strong positive mentions but a violated expectation week (expectation_weeks=1, violated_expectation_weeks=1). A substantive complaint describes reception staff as 'arrogant and disinterested', and a late room-ready notification without apology. Preserving the broadly positive staff reputation requires addressing this specific friction.",
+      "supporting_evidence": [
+        "Managerial evidence: Staff and service — review_mentions_total=4, positive_mentions=3, negative_mentions=1, has_expectation_violation=true.",
+        "Complaint 2024-09-12: Reception staff attitude problem; room not ready, no apology and staff didn't notify when room was ready."
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence positive_mentions=3 indicates majority of staff-related comments are positive (trained, professional reception staff).",
+        "Other complaints contain positive context praising staff kindness."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EMOTION_ENTROPY (increasing)",
+          "AVG_RATING (recent_reversal = true)",
+          "PRIORITY_ALERT_FLAG"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Cleanliness and housekeeping (including toiletries replenishment)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Mixed signals: several mentions praise cleanliness but there are persistent negative mentions (including limited toiletries and weak dispenser output) suggesting housekeeping or amenities replenishment inconsistencies.",
+      "recommended_action": "Operational housekeeping/process review: (a) audit housekeeping checklists and toiletries replenishment policy (dispensers vs individual bottles) and execution; (b) perform spot audits of rooms before guest arrival and after housekeeping; (c) retrain or clarify expectations where gaps are found; (d) if dispensers are failing to deliver adequate quantities, inspect/replace equipment or adjust refill cadence.",
+      "rationale": "Managerial evidence shows mixed experience (review_mentions_total=4, positive_mentions=2, negative_mentions=2, experience_weeks=2 indicating persistence). Complaint 2024-09-16 reports 'very few toiletries' and ineffective dispenser delivery. Because this affects perceived room readiness and value, operational fixes and an inspection are warranted before considering capital choices.",
+      "supporting_evidence": [
+        "Managerial evidence: Cleanliness and housekeeping — review_mentions_total=4, positive_mentions=2, negative_mentions=2, evidence_pattern=mixed, experience_weeks=2.",
+        "Complaint 2024-09-16: 'They provided very few toiletries ... the shower gel dispenser dispensed microscopic amounts.'"
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise room cleanliness and comfort (appears in complaint positive_contexts)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "PERC_REVIEWS_NEGATIVE (increased over window)",
+          "EMOTION_ENTROPY (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "Monitor: recent rating/sentiment reversals and occupancy decline",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Business and experience indicators show mixed signals: RevPAR and RevPOR rising while occupancy is declining and average rating/sentiment show recent reversals. Emotional complexity and polarization are increasing, indicating more heterogeneous guest experiences.",
+      "recommended_action": "Monitor weekly and investigate segmentation/operational drivers: (a) track AVG_RATING and SENTIMENT_SCORE_AVG closely for additional reversals; (b) analyze whether declining occupancy is concentrated in particular segments/dates; (c) correlate guest complaint themes (wellness, check-in, housekeeping) with timing and guest segments; (d) if patterns persist, commission a deeper root-cause review (requires further assessment).",
+      "rationale": "Metrics show TAXA_OCUPACAO decreasing (-22.5% over window) while RevPAR is increasing. AVG_RATING and SENTIMENT_SCORE_AVG have recent_reversal=true. Experience indicators show EMOTION_ENTROPY increasing and POLARIZATION_INDEX increasing. These are monitoring priorities to detect escalation and inform targeted interventions.",
+      "supporting_evidence": [
+        "Business performance: TAXA_OCUPACAO decreasing (first 88.97 to last 68.92, -22.54%), AVG_RATING recent_reversal=true, SENTIMENT_SCORE_AVG recent_reversal=true.",
+        "Experience indicators: EMOTION_ENTROPY increasing, POLARIZATION_INDEX increasing, PERC_REVIEWS_NEGATIVE rose then recent movement down (recent_reversal=true)."
+      ],
+      "positive_counterevidence": [
+        "RevPAR, RevPOR and TREVPAR are increasing, indicating short-term revenue strength."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "TAXA_OCUPACAO (decreasing)",
+          "AVG_RATING (recent_reversal=true)",
+          "SENTIMENT_SCORE_AVG (recent_reversal=true)",
+          "EMOTION_ENTROPY (increasing)",
+          "POLARIZATION_INDEX (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently strong positive evidence (managerial_evidence: positive_mentions=5, positive_share=1.0; complaints repeatedly cite 'perfect location' and seaside location).",
+      "management_implication": "Keep marketing and guest communications emphasising the seaside location and maintain facilities that support this strength (parking, signage, beach access info)."
+    },
+    {
+      "area": "Breakfast (food & beverage)",
+      "reason": "Multiple positive mentions about breakfast quality and buffet (managerial_evidence: positive_mentions=4, positive_share=1.0; complaint positive_contexts reference tasty breakfast and good restaurant).",
+      "management_implication": "Preserve current breakfast offerings and operational standards; ensure breakfast staff and supply continuity during peak season."
+    },
+    {
+      "area": "Overall staff positive interactions",
+      "reason": "Managerial evidence shows majority positive staff mentions (staff positive_mentions=3 of 4) and some complaint positive_contexts praise staff kindness.",
+      "management_implication": "Maintain training and staffing levels that support current perceived professionalism; address the isolated negative front-desk behaviour through targeted process review rather than broad staffing changes."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Wellness facility availability notifications (guest-facing)",
+      "reason": "Expectation violations and emerging negative topic centred on jacuzzi/wellness closures.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Frequency of front-desk check-in delay complaints and recorded incidents",
+      "reason": "Complaint cited room not ready and lack of notification/apology; monitoring will show recurrence.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Room-amenities/ toiletries complaint count (per 100 reviews)",
+      "reason": "Specific negative comment about inadequate toiletries and dispenser issues.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "AVG_RATING and SENTIMENT_SCORE_AVG weekly movement",
+      "reason": "Both metrics show recent reversals that require early detection of continued decline.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "TAXA_OCUPACAO (occupancy) weekly trend by segment/date",
+      "reason": "Significant decline over the window (-22.5%) while revenue metrics rose; segmentation may reveal causes.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of all guest feedback; prevalence should be checked against the full review set.",
+    "Some problems (e.g., wellness equipment faults) may require technical inspection to determine scope or capital needs; evidence does not indicate repair costs or required capital investment.",
+    "Weather-related complaints are out-of-hotel factors and should be treated as external noise rather than operational failure.",
+    "Managerial evidence relies on small absolute counts (e.g., spa mentions=3); this constrains confidence and supports a phased assessment-first approach."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P024",
+    "case_id": "H131_20240923_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:11:48.685656+00:00",
+    "finished_at_utc": "2026-09-08T16:12:30.977159+00:00",
+    "elapsed_seconds": 42.298
+  }
+}

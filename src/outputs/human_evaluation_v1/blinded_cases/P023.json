@@ -1,0 +1,581 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P023",
+  "case_information": {
+    "case_id": "H72_20240129_L4",
+    "decision_week": "2024_W05",
+    "decision_date": "2024-01-29",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W02",
+        "week_date": "2024-01-08",
+        "REVPAR_WEEK": 76.99035650024715,
+        "REVPOR_WEEK": 152.92796262975776,
+        "TREVPAR_WEEK": 72.8971136183885,
+        "TAXA_OCUPACAO": 49.14965986394558,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.833333333333334,
+        "SENTIMENT_SCORE_AVG": 0.25,
+        "SENTIMENT_SCORE_STD": 0.6071008388821652,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0875,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0875,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.954434002924965,
+        "EXPECTATION_SHARE": 0.1666666666666666,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 2.212894244969447,
+        "SENTIMENT_TREND_SLOPE": 0.0005286070565459
+      },
+      {
+        "WEEK_YEAR": "2024_W03",
+        "week_date": "2024-01-15",
+        "REVPAR_WEEK": 63.91320895619853,
+        "REVPOR_WEEK": 149.47162067510553,
+        "TREVPAR_WEEK": 74.98801034759903,
+        "TAXA_OCUPACAO": 40.13605442176871,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.571428571428571,
+        "SENTIMENT_SCORE_AVG": 0.742857142857143,
+        "SENTIMENT_SCORE_STD": 0.3359421718944242,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.5916727785823274,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 42.85714285714285,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8571428571428571,
+        "COMPLEXITY_INDEX": 2.0222695794071126,
+        "SENTIMENT_TREND_SLOPE": 0.0005286070565459
+      },
+      {
+        "WEEK_YEAR": "2024_W04",
+        "week_date": "2024-01-22",
+        "REVPAR_WEEK": 46.585914871504166,
+        "REVPOR_WEEK": 139.46440740740744,
+        "TREVPAR_WEEK": 58.95646004031239,
+        "TAXA_OCUPACAO": 31.802721088435376,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.75,
+        "SENTIMENT_SCORE_AVG": 0.9142857142857144,
+        "SENTIMENT_SCORE_STD": 0.0377964473009227,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.0,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 37.5,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 1.6085233209136292,
+        "SENTIMENT_TREND_SLOPE": 0.0005286070565459
+      },
+      {
+        "WEEK_YEAR": "2024_W05",
+        "week_date": "2024-01-29",
+        "REVPAR_WEEK": 89.70502114235939,
+        "REVPOR_WEEK": 175.90359198606274,
+        "TREVPAR_WEEK": 122.29180177119628,
+        "TAXA_OCUPACAO": 48.80952380952381,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.875,
+        "SENTIMENT_SCORE_AVG": 0.7857142857142857,
+        "SENTIMENT_SCORE_STD": 0.3484660262185848,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.5916727785823274,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 25.0,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 1.9161005193995195,
+        "SENTIMENT_TREND_SLOPE": 0.0005286070565459
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-02-04",
+        "rating": 10.0,
+        "liked": "The staff were so attentive, we loved the sweets in the lobby and the different foods and the free massage.",
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-02-03",
+        "rating": 10.0,
+        "liked": "Many complementary foods and drinks and very cooperative stuff and very very clean rooms , I would like to go back to lisbon because of this hotel.",
+        "disliked": "Nothing at all.",
+        "country": "Qatar",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-02-02",
+        "rating": 10.0,
+        "liked": "Exceptional staff! Lots of attention and treats! Well located.",
+        "disliked": "Everything was perfect!",
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-02-02",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-02-01",
+        "rating": 10.0,
+        "liked": "Praise for the beautiful rooms, warm and professional staff, comprehensive and generous service, and an especially kind and friendly attitude toward children.",
+        "disliked": null,
+        "country": "China",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-31",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 10.0,
+        "liked": "The hotel is wonderful and the service and cordiality of all the staff are a standout. I would like to thank especially Bruno for all the tips and bookings.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-28",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Luxembourg",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-28",
+        "rating": 10.0,
+        "liked": "I liked everything!!! They were wonderful days! The staff were very attentive. It was fantastic! No flaws.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-25",
+        "rating": 10.0,
+        "liked": "My stay at Hotel Lisbon Corpo Santo was spectacular! The best thing of all is the people! All the staff were spectacular — always very available, attentive and ready to make our stay distinctive and special! The rooms are comfortable, the restaurant is very good, the location is fantastic and right in the center, the Spa facilities are great and the breakfast delicious! There was always a little treat for us at reception based on Portuguese cuisine, the city tour was very organized and the concierge always had special tips!",
+        "disliked": "Everything was perfect!",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-25",
+        "rating": 10.0,
+        "liked": "The staff are perfect! Super attentive and careful with every detail. They took care of us perfectly. The facilities are new and well maintained. We received a massage (Anabela was spectacular!) and several little treats during our stay. At the concierge, Ana and Miguel helped us a lot with fantastic tips for divine restaurants that made our stay even more fantastic! The city tour with Ana was special!",
+        "disliked": "Everything great!",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-25",
+        "rating": 10.0,
+        "liked": "The location is perfect for those who want to get to know the city, very central, with many attractions and spectacular restaurants just a few minutes' walk away, which in Lisbon are always very pleasant. The coffee is very good and well presented with many options; everyone is cheerful and willing to exceed our expectations to make our stay perfect. Comfortable and quiet room. Spa with a good sauna and massage.",
+        "disliked": "I liked everything!",
+        "country": "Brazil",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-23",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-21",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Serbia",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-16",
+        "rating": 10.0,
+        "liked": "Super friendly staff. Good location. Train station nearby to explore Sintra or Cascais. Superb breakfast served at the table. Free guided city tour. In the afternoon free drinks, cookies, nuts & sweets.",
+        "disliked": "can't think of anything..",
+        "country": "Belgium",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-16",
+        "rating": 10.0,
+        "liked": "Incredible hotel in every way, the facilities are great, always with snacks and drinks available as a courtesy. The service from all the staff was impeccable. High-quality breakfast as well as the hotel's restaurant and bar. Congratulations to everyone",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-15",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Hungary",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "low",
+    "overall_risk_rationale": "Customer feedback in the decision window is overwhelmingly positive (many 10/10 reviews praising staff, treats, spa, breakfast and location). Key revenue metrics (REVPAR, REVPOR, TREVPAR) increased; occupancy is moderate (~49%) but stable. No systemic safety issues reported in the reviews.",
+    "executive_summary": "The hotel’s main strengths are exceptional staff service, generous complimentary offerings, high-quality breakfast and spa facilities; these are driving excellent guest satisfaction (average rating ~9.9). Management priorities should focus on preserving service quality and operational consistency as business grows, ensuring spa/housekeeping safety and maintenance, monitoring occupancy and revenue drivers, and formalizing reputation-management processes.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Service excellence & complimentary guest experience",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Exceptional, personalized service and complimentary offerings (snacks, drinks, treats, guided city tour, concierge tips) are repeatedly praised; these must be preserved and standardized so quality is consistent as guest volumes change.",
+        "recommended_action": "Document and formalize the most-appreciated service elements into SOPs (welcome treats, afternoon snacks/drinks, concierge touchpoints, in-room amenities). Ensure staffing levels, shift coverage and training/briefings maintain the current level of attentiveness. Introduce a lightweight checklist for front-desk/concierge and F&B to ensure consistency.",
+        "rationale": "Numerous recent reviews highlight staff attentiveness, complimentary foods/drinks and concierge recommendations as primary reasons for excellent scores and repeat intent.",
+        "supporting_evidence": [
+          "\"The staff were so attentive, we loved the sweets in the lobby and the different foods and the free massage.\" (2024-02-04)",
+          "\"Many complementary foods and drinks and very cooperative stuff and very very clean rooms...\" (2024-02-03)",
+          "\"All the staff were spectacular — always very available, attentive and ready to make our stay distinctive and special!\" (2024-01-25)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Spa & wellness operations (quality and safety)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Spa, sauna and massage services are a notable guest draw (multiple positive mentions). These services require explicit operational and safety controls (staff training, hygiene, equipment maintenance) to preserve quality and avoid health/safety incidents.",
+        "recommended_action": "Conduct a short spa-safety and quality audit: verify therapist qualifications, maintenance schedules for sauna/steam equipment, cleaning/hygiene protocols, guest consent and medical screening procedures. Provide refresher training and document protocols. Schedule regular preventative maintenance for equipment.",
+        "rationale": "Positive guest references to massages and spa (e.g., named staff delivering excellent service) indicate the spa is a differentiator; ensuring safety and consistent quality protects guest wellbeing and the hotel’s reputation.",
+        "supporting_evidence": [
+          "\"...free massage.\" (2024-02-04)",
+          "\"We received a massage (Anabela was spectacular!)\" (2024-01-25)",
+          "\"Spa with a good sauna and massage.\" (2024-01-25)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping & facilities maintenance",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Cleanliness and well-maintained facilities are frequently cited as strengths; these operational standards must be maintained to sustain high ratings and guest comfort.",
+        "recommended_action": "Maintain or increase housekeeping quality checks (room inspections, acknowledgment of guest requests), keep a documented preventive maintenance schedule for rooms/restaurant/fitness and monitor housekeeping KPIs. Ensure supplies and replacement inventories for in-room amenities and complimentary items are consistently stocked.",
+        "rationale": "Many reviews explicitly mention \"very very clean rooms\", 'well maintained' facilities and comfortable rooms, which correlate directly with high guest satisfaction.",
+        "supporting_evidence": [
+          "\"very very clean rooms\" (2024-02-03)",
+          "\"The facilities are new and well maintained.\" (2024-01-25)",
+          "\"Comfortable and quiet room.\" (2024-01-25)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": false,
+        "confidence": 0.9
+      },
+      {
+        "rank": 4,
+        "area": "Occupancy and commercial strategy",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Occupancy is moderate (~49%) with a slight decline (-0.69%) over the window, even though REVPAR (+16.5%) and TREVPAR (+67.8%) improved. Management should understand drivers of occupancy, price mix and channel strategy to optimize utilization while preserving revenue gains.",
+        "recommended_action": "Undertake a short commercial review: analyze rate and length-of-stay mix, channel performance and group vs transient contribution. Create targeted offers for mid-week/shoulder nights (e.g., spa + breakfast packages leveraging strengths), and coordinate with sales/marketing to convert strong guest experience into more bookings.",
+        "rationale": "The hotel is achieving higher per-room revenue and total revenue per available room, suggesting yield is strong; targeted actions could increase occupancy without eroding revenue or service quality.",
+        "supporting_evidence": [
+          "TREVPAR increased from 72.90 to 122.29 (+67.76%)",
+          "REVPAR increased from 76.99 to 89.71 (+16.51%)",
+          "Occupancy ~49.15% to 48.81% (slight decline)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 5,
+        "area": "Reputation management & review response",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Although ratings are excellent (average ~9.87) and review volume increased (N_REVIEWS +33%), a few lower scores (8–9) appear. Formalizing how the hotel solicits, monitors and responds to feedback will protect and potentially improve public ratings.",
+        "recommended_action": "Implement a structured review-response SOP (timely personalized replies), actively solicit post-stay feedback, and track themes behind non-10 scores to identify small service gaps. Use guest comments for targeted staff recognition and training.",
+        "rationale": "Consistent engagement with reviews preserves the hotel’s strong online reputation and helps catch small issues before they affect ratings.",
+        "supporting_evidence": [
+          "AVG_RATING remains high (9.83 -> 9.875)",
+          "N_REVIEWS increased from 6 to 8 (+33%)",
+          "Several reviews at 9 and 8 (e.g., 2024-01-15 rating 8.0; 2024-01-28 and 2024-01-29 ratings 9.0)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff service & attentiveness",
+        "reason": "Repeated, enthusiastic mentions of attentive, professional and friendly staff (concierge and front desk) are a primary driver of 10/10 guest scores.",
+        "management_implication": "Continue investment in staff training, recognition programs and adequate staffing levels to sustain personalized service."
+      },
+      {
+        "area": "Complimentary offerings (snacks, drinks, treats) and guest experiences",
+        "reason": "Guests consistently cite complimentary foods/drinks, afternoon treats and free city tour as standout amenities that enhance perceived value.",
+        "management_implication": "Keep these offerings consistent, monitor inventory and cost, and integrate them into guest arrival/concierge SOPs."
+      },
+      {
+        "area": "Spa, sauna and wellness services",
+        "reason": "Massage and spa facilities are mentioned by many guests and contribute to 'spectacular' experiences.",
+        "management_implication": "Protect service quality via staff credential checks, equipment maintenance and hygiene protocols."
+      },
+      {
+        "area": "Breakfast & restaurant quality",
+        "reason": "Breakfast and the restaurant are described as 'superb' and 'high-quality' and contribute to guest delight.",
+        "management_implication": "Maintain culinary standards, presentation and table service; incorporate guest feedback into menu updates."
+      },
+      {
+        "area": "Location and room comfort",
+        "reason": "Location is described as perfect/central and rooms as comfortable and quiet, adding to overall satisfaction.",
+        "management_implication": "Preserve guest-facing information about local attractions and maintain room comfort standards."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Average guest rating (weekly)",
+        "reason": "Tracks guest satisfaction trends and flags service changes quickly.",
+        "desired_direction": "stable"
+      },
+      {
+        "indicator": "Number of reviews and review sentiment split (weekly)",
+        "reason": "Monitors volume of feedback and captures emerging negative themes early.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Occupancy (%) and REVPAR (weekly)",
+        "reason": "Measures demand and revenue performance to detect adverse commercial trends.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "TREVPAR (weekly)",
+        "reason": "Indicates total revenue performance (F&B, spa, other services) and effectiveness of upsell/packages.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Spa bookings, cancellations and any incident reports (monthly)",
+        "reason": "Tracks demand for a key differentiator and captures safety or quality issues early.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Housekeeping room inspection pass rate and time-to-resolution for maintenance requests",
+        "reason": "Ensures cleanliness and facilities maintenance remain high.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Response time and closure rate for online reviews (target within 48 hours)",
+        "reason": "Maintains reputation and signals responsiveness to guests.",
+        "desired_direction": "decrease"
+      }
+    ],
+    "limitations": [
+      "Analysis is based only on the 20 most recent reviews provided and the performance metrics in the case; 29 reviews were available in the window but not all were supplied.",
+      "Reviews are self-reported guest opinions and do not provide a complete operational dataset (no detailed incident logs, staffing rosters, or channel-level commercial data).",
+      "Cannot infer causal relationships between guest reviews and changes in revenue or occupancy from the supplied information.",
+      "The timeframe is short (4-week window); longer trends may differ."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "low",
+    "overall_risk_rationale": "Guest feedback in the window is strongly positive (many 10/9 ratings), staff/service and breakfast are clear strengths, and key business metrics (REVPAR, TREVPAR, AVG_RATING) are trending up. Negative evidence is limited and narrow (mostly arrival/ride‑hail access, one comment about spa size, one about vegan options). However, there is a recent small reversal in SENTIMENT_SCORE_AVG and emotion_entropy signals that warrants monitoring.",
+    "executive_summary": "The hotel demonstrates strong guest experience in service and breakfast, and commercial metrics are improving. The highest-evidence friction is arrival/transport access (ride‑hail drop-off confusion due to local vehicle circulation restrictions) appearing as an emerging negative topic; this warrants a short-term policy/process review to reduce arrival friction. Minor, low-frequency issues include a small spa/shower complaint and a single comment requesting more vegan options — both should be monitored and subject to brief review rather than capital investment. Track the recent sentiment reversal and re-evaluate if negative mentions increase.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Location and arrival accessibility (ride‑hail/drop-off guidance)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Several guests praise the central location but multiple reviews mention ride‑hail (Uber) cannot or does not drop guests directly at the hotel due to vehicle circulation/restrictions, causing arrival friction.",
+        "recommended_action": "Review and update guest arrival guidance and transport instructions across booking channels and confirmation communications; verify and, if necessary, correct the hotel’s listed drop‑off/pick‑up point in mapping/ride‑hail apps and OTA directions; ensure front‑desk/concierge have a clear script to assist arriving guests. If mapping discrepancies or access restrictions require operational changes, commission a brief local assessment.",
+        "rationale": "The issue is low-volume but tangible and repeatable in the complaint sample (emerging negative). Clear arrival instructions are a policy/process fix and can reduce first impressions friction without presumed capital works. Evidence supports targeted review rather than assuming system or infrastructure changes.",
+        "supporting_evidence": [
+          "Review 2024-01-09 (pt-br): 'Uber dropped me off far from the hotel because it is an area with vehicle circulation restrictions.'",
+          "Review 2024-01-14 (ar): 'Uber doesn't reach the hotel. I think the problem is with Uber itself because the road to the hotel is open/normal.'",
+          "Managerial evidence for 'Location and accessibility': positive_mentions=6, negative_mentions=1, is_emerging_negative=true (emerging_negative_weeks=1)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Monitor sentiment and emotion signals (recent reversal)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "SENTIMENT_SCORE_AVG and EMOTION_ENTROPY show recent movement that includes a reversal signal (sentiment recent_movement down and recent_reversal=true). Although overall sentiment improved over the period, the reversal could herald renewed negative feedback if it continues.",
+        "recommended_action": "Institute nearer-term monitoring of weekly sentiment and emotion metrics and track incoming 'disliked' comments for any clustering (access, F&B, facilities). If downward movement persists or negative mentions increase, trigger targeted review of the affected area(s).",
+        "rationale": "Quantitative signals show an improving trend but a recent reversal. Given strong baseline performance this is a monitoring priority rather than immediate remedial action; rapid detection will enable prompt response if the reversal continues.",
+        "supporting_evidence": [
+          "Business performance: SENTIMENT_SCORE_AVG increased overall but recent_movement is 'down' and recent_reversal=true (latest panel).",
+          "Experience indicators: EMOTION_ENTROPY decreased overall but recent_movement='up' with recent_reversal=true."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.7
+      },
+      {
+        "rank": 3,
+        "area": "Spa & pool — smallness and shower quality (guest nitpick)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "mixed",
+        "problem": "A small number of guests note the spa is small and spa showers 'not amazing' — described as 'nitpicking' by the reviewer, indicating low severity but potential expectation mismatch for some guests.",
+        "recommended_action": "Monitor frequency of spa/facility complaints. If more guests raise similar issues, commission a scoped assessment of spa facilities and guest expectations (to determine if operational changes, maintenance, or capital work are required).",
+        "rationale": "Current evidence is low-frequency and predominantly positive about the spa (managerial evidence shows positive_mentions>negative), so immediate capital action is not indicated. An assessment is appropriate if complaints increase.",
+        "supporting_evidence": [
+          "Review 2024-01-08 (en): 'The spa is a little small and the showers in the spa are not amazing. But that's really nitpicking.'",
+          "Managerial evidence for 'Spa and pool': positive_mentions=2, negative_mentions=1, evidence_pattern='predominantly_positive'."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.5
+      },
+      {
+        "rank": 4,
+        "area": "Dietary/F&B inclusions (vegan options)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest noted insufficient vegan options, suggesting a minor expectation gap in dietary offerings for some guests.",
+        "recommended_action": "Review current breakfast and F&B offerings to confirm availability and visibility of vegan options; consider clearer labeling and staff briefing so dietary options are communicated to guests. If more mentions appear, evaluate menu adjustments or communication changes.",
+        "rationale": "This is a single explicit complaint in the selected sample. The hotel otherwise receives strong praise for breakfast. A short review of menu inclusions and guest communication is low-cost and can address a potential expectation mismatch without assuming major changes.",
+        "supporting_evidence": [
+          "Review 2024-01-13 (en): 'Disliked: Not enough vegan options.'",
+          "Managerial evidence: Breakfast has positive_mentions=6 and evidence_pattern='predominantly_positive', indicating overall breakfast strength."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Strong, consistent praise across many reviews (managerial evidence: positive_mentions=13, positive_share=1.0). Reviews frequently highlight attentive, personalized service and special touches.",
+        "management_implication": "Maintain staffing/service practices that generate high personalization; preserve training, recognition, and any guest‑experience rituals that produce these comments. Avoid operational changes that could dilute this strength without evidence they are necessary."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "Multiple explicit positive mentions about breakfast quality and presentation (managerial evidence: positive_mentions=6, positive_share=1.0).",
+        "management_implication": "Preserve breakfast quality and table service approach; ensure operational plans support this during busy periods (several reviews noted small disorganization when crowded)."
+      },
+      {
+        "area": "Central location",
+        "reason": "Many guests value the hotel's central, convenient location for sightseeing and restaurants (complaint_evidence multiple reviews praising location).",
+        "management_implication": "Continue to promote location as a selling point; maintain concierge/local tips that leverage proximity to attractions and transport nodes."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Weekly count of reviews mentioning 'Uber', 'ride‑hail', 'drop‑off', or 'access restrictions'",
+        "reason": "Direct measure of whether arrival/access friction is recurring or remains isolated.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG weekly movement and flag for consecutive weekly declines",
+        "reason": "Recent reversal in sentiment_score was detected; watching for persistence is important to catch emerging problems early.",
+        "desired_direction": "stable",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "Number of substantive 'disliked' comments about spa facilities",
+        "reason": "Track whether the spa/shower comment is isolated or becomes a pattern that requires assessment.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Mentions of 'vegan' or other dietary restrictions in F&B/breakfast comments",
+        "reason": "Detect whether dietary-option comments are isolated or growing; informs whether menu/communication review is sufficient.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE (weekly)",
+        "reason": "Provides context on overall negative-review share (currently decreasing) and helps confirm whether small issues are widening.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      }
+    ],
+    "limitations": [
+      "Complaint sample is complaint-focused (only reviews with substantive 'disliked' text) and is not representative of the entire review population; prevalence must be assessed using full-window metadata.",
+      "Many areas have very low negative counts (single-review mentions), limiting the ability to generalize scope or causality.",
+      "The evidence identifies arrival/ride‑hail friction but does not determine the root cause (mapping issue, ride‑hail app behavior, municipal restrictions, or signage), so a local verification/assessment is required before prescribing operational or capital interventions.",
+      "Recommendations avoid prescribing specific technical integrations or vendor contacts because the case evidence does not support those implementation details."
+    ]
+  }
+}

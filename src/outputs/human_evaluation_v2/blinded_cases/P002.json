@@ -1,0 +1,379 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P002",
+  "case_information": {
+    "case_id": "H123_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 190.09182590753696,
+        "REVPOR_WEEK": 397.0791491311216,
+        "TREVPAR_WEEK": 142.0748977795331,
+        "TAXA_OCUPACAO": 91.98790627362057,
+        "N_REVIEWS": 26.0,
+        "AVG_RATING": 8.423076923076923
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 181.48040235099936,
+        "REVPOR_WEEK": 380.0466736342043,
+        "TREVPAR_WEEK": 155.07487996623465,
+        "TAXA_OCUPACAO": 92.51700680272108,
+        "N_REVIEWS": 41.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 172.4554384856508,
+        "REVPOR_WEEK": 373.377232703369,
+        "TREVPAR_WEEK": 146.64760702699405,
+        "TAXA_OCUPACAO": 90.17384731670444,
+        "N_REVIEWS": 38.0,
+        "AVG_RATING": 8.868421052631579
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 156.22327817999445,
+        "REVPOR_WEEK": 385.95684549763024,
+        "TREVPAR_WEEK": 142.24128101306434,
+        "TAXA_OCUPACAO": 88.58654572940287,
+        "N_REVIEWS": 25.0,
+        "AVG_RATING": 8.68
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-09-29",
+        "rating": 7.0,
+        "liked": "close to the beach in a resort/residential neighbourhood. Good size unit, well appointed.",
+        "disliked": "We had several issues. The front door couldn't be opened with the key cards provided which required us to walk back to the main building to request for repair of the jammed door. Water stopped for a few hours one day. We were told that it was a city problem. There were very few chairs at the indoor poolside for the number of people using the indoor pool. Beach towels were only changed once per day. Hot pool water was lukewarm. Breakfast started at 8 am, which seemed later than the usual. One toilet flushed on its own on and off. Seemed like a waste of water in a region short of fresh water.",
+        "country": "Canada",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-28",
+        "rating": 9.0,
+        "liked": "Location, facilities and staff",
+        "disliked": "Really hard to roll suitcases on long cobble stone paths to room . Assistance with a golf cart at check in and check out would be greatly appreciated",
+        "country": "United States",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-28",
+        "rating": 9.0,
+        "liked": "The staff are welcoming, and the resort is in a prime location (a min walk from the beach, a nice restaurant nearby, less than 10min car drive to a super market, city center etc). The resort also has everything I could've wanted from washing machine, coffee machine, big fridge and a dishwasher in the room to a spa, sauna and multiple pools in/outdoor! Highly recommend",
+        "disliked": "The resort is massive but there aren't clear signs/guide or a map on where to go for what. Felt a bit like we were in a maze.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-28",
+        "rating": 6.0,
+        "liked": "Good breakfast. Friendly staff. Good spa facilities",
+        "disliked": "Room was very tired and some basics (tea/coffee, water) in the room would've been appreciated. The roof terrace was very underwhelming and we were not inspired to sit there which was a shame.",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-28",
+        "rating": 7.0,
+        "liked": "Beautiful grounds. Close to the beach.",
+        "disliked": "Buffet was awful. Woman at front desk could care less when I told her we were disappointed in buffet and that there was an issue with the toilets running constantly.",
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-27",
+        "rating": 8.0,
+        "liked": "The location to the town center and the beach. Staff very friendly.",
+        "disliked": "The entire complex could use some maintenance. In addition, it took minutes for warm water to come out of the tap, which means a lot of waste if you want to take a warm shower.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-27",
+        "rating": 9.0,
+        "liked": "Great pools, fabulous location by the beach, very clean, modern simple decor, views of the sea, good food and snacks at the pool bars.",
+        "disliked": "Dinner menu a bit limited to buffet and a couple of burger / pizza options but no real a la carte",
+        "country": "United Kingdom",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-27",
+        "rating": 10.0,
+        "liked": "The pool area was amazing Access to the beach was very easy Staff were extremely accommodating and friendly",
+        "disliked": null,
+        "country": "Vietnam",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-27",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 9.0,
+        "liked": "Very good apartment, generously furnished and equipped with everything necessary and comfortable.",
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 10.0,
+        "liked": "Brilliant location and facilities, staff were incredibly helpful and friendly The breakfast and poolside food/drink options were very good (we ate out in Lagos for dinner) Would definitely recommend",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 8.0,
+        "liked": "Good buffet, many pools, acceptable prices.",
+        "disliked": "Toilet flush defective. Roof terrace loungers without cushions.",
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Belgium",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 10.0,
+        "liked": "The hotel was beautiful! The rooms were spacious and beds were comfortable. Lots of room in the 2 bedroom apartment. Wonderful views.Great location to the downtown area. Definitely book this hotel.",
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-24",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Hungary",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-24",
+        "rating": 8.0,
+        "liked": "The apartment was great and huge.",
+        "disliked": "The cleaning could have been better. Only the bare minimum was done. Sweeping or refilling hygiene items was already a challenge, so not worthy of a 4* hotel. The breakfast buffet was also not really 4*.",
+        "country": "Austria",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 9.0,
+        "liked": "Breakfast, pool and location. Spaciousness of the apartment.",
+        "disliked": "One of the sliding doors of the main wardrobe could not be slid. The toaster was broken. The bed moved a lot.",
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Evidence shows several operational and maintenance frictions (plumbing/ bathroom hygiene, breakfast timing/value, amenity friction) and rising expectation–experience gaps and semantic misalignment; however strengths (staff, cleanliness, room comfort, parking) are clear. Plumbing/bathroom issues include safety-relevant complaints that justify urgent attention.",
+    "executive_summary": "Immediate attention: plumbing and bathroom hygiene issues (sewage smell, mold, drain/toilet malfunctions, intermittent water cuts) due to safety, recurring complaints, and expectation violations. Short-term priorities: review breakfast offering (timing, value, quality/atmosphere) and booking/room-cleaning/property-access transparency (unexpected apartment access, cleaning frequency, luggage assistance). Spa/pool and roof-terrace amenities are overall positive but show specific friction (sauna closed/aged, insufficient loungers/indoor seating, lukewarm heated pool, underwhelming roof terrace); recommend mixed operational fixes and assessment for renovation where appropriate. Preserve strengths in staff, cleanliness/housekeeping, room comfort and parking while addressing targeted frictions.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Plumbing, bathroom hygiene and water reliability",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews describe sewage smells, mold on shower curtains, clogged/draining bathtubs, toilets flushing on their own, intermittent water stoppages and perceived lack of response — representing hygiene, guest comfort and potential safety/health risks.",
+        "recommended_action": "Initiate immediate maintenance and safety triage: (a) inspect and remediate sewer/smell sources and mold in affected units; (b) inspect and repair drainage and toilet systems where reported; (c) review recent incidents of water supply interruption with engineering and local utility to confirm cause; (d) communicate transparently to recent complainants about actions taken. If root causes are unclear, commission an urgent plumbing/health inspection and prioritize remediation work for affected units.",
+        "rationale": "Complaints describe sewage smell, mold, bad drainage and toilets that flush on their own, and water stoppages — issues with direct guest health/safety implications and repeated reporting. Managerial evidence flags 'Bathroom condition' as net-negative with expectation violation and emerging negative signals. Immediate maintenance and inspection is required before other remedies."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering: timing, value and quality",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Frequent guest comments express disappointment with breakfast quality/price, timing (breakfast starting at 8am seen as late), lack of atmosphere and limited choices. These are recurring expectation violations and an emerging negative topic.",
+        "recommended_action": "Review breakfast service model and positioning: (a) operationally assess breakfast start time relative to guest needs (including gym/early users); (b) audit breakfast variety, presentation and perceived value versus price; (c) gather structured guest feedback (short survey or front-desk check-in question) to identify the highest-impact changes; (d) consider targeted operational adjustments (timing, layout/atmosphere, menu options) where low-cost fixes exist. Do not commit to capital or pricing changes without assessment.",
+        "rationale": "Managerial evidence shows 'Breakfast' with 26 mentions (12 positive / 16 negative), has expectation violation and emerging negative status. Multiple complaints specifically call out poor breakfast, late start time, poor value and lack of atmosphere — consistent signals that guest expectations are not being met and may affect satisfaction."
+      },
+      {
+        "rank": 3,
+        "area": "Booking/communication and room-cleaning/access transparency",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report unexpected property layout/attachment, lack of disclosure about apartments not attached to main hotel, surprising cleaning frequency (no cleaning for 3 nights), difficult underground access and limited luggage assistance — causing expectation violations and frustration.",
+        "recommended_action": "Review booking and pre-arrival information and internal guest-assistance processes: (a) audit online booking descriptions (OTA and direct) for clarity on apartment attachment, access routes (underground parking), and cleaning frequency/service inclusions; (b) update descriptions where ambiguous; (c) review front-desk / bell policy for luggage assistance and signage/lighting for underground access; (d) ensure staff are trained to proactively explain access and cleaning policies at check-in. Where the scope of changes is unclear, commission a quick content-and-process review rather than immediate policy change.",
+        "rationale": "Although aggregated mentions in managerial evidence are small for 'Booking and payment', complaint examples show repeated expectation violations (room not cleaned, OTA/booking mismatch about attachments and services, difficult access via underground garage and poor lighting). These are operational/policy frictions that can harm guest satisfaction and are addressable via process and communication improvements."
+      },
+      {
+        "rank": 4,
+        "area": "Spa, pool and roof-terrace amenities (capacity & condition)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Overall positive leisure offering but recurring friction: sauna closed for renovation (guest disappointment), aged spa/sauna parts needing renovation, insufficient sunbeds/umbrellas and indoor-pool seating, lukewarm heated pool, and underwhelming roof terrace — causing expectation violations despite many positive mentions.",
+        "recommended_action": "Preserve strengths while addressing specific frictions: (a) operationally increase available seating and sunbeds/umbrellas where feasible; (b) review towel-change frequency and pool temperature controls; (c) communicate proactively when facilities (e.g., sauna) are closed for renovation and set guest expectations; (d) commission an assessment of spa/sauna condition to determine if medium-term renovation is required. Prioritize low-cost operational fixes first and assess capital needs before committing to investment.",
+        "rationale": "Managerial evidence for 'Spa and pool' shows more positive than negative mentions (24 positive / 14 negative) and is classified positive_with_friction. Multiple complaints mention sauna closure/age, insufficient lounger capacity, lukewarm heated pool and roof terrace underwhelming — indicating operational capacity and some condition issues that should be fixed or assessed."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Consistently high positive mentions (27 positive / 3 negative, positive_share 0.90) and multiple reviews praising staff friendliness and helpfulness.",
+        "management_implication": "Protect service culture; ensure staff have clear guidance and training to respond to the identified frictions (plumbing, access, breakfast) and to communicate transparently about closures/cleaning policies."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Strong positive mentions (19 positive / 2 negative, positive_share 0.905) indicating housekeeping performance is a clear strength overall.",
+        "management_implication": "Preserve housekeeping standards and investigate any isolated cleanliness issues (mold in specific units) through targeted inspections rather than broad changes."
+      },
+      {
+        "area": "Room comfort",
+        "reason": "Generally positive mentions (6 positive / 2 negative) showing guest appreciation for apartment size and comfort in many reviews.",
+        "management_implication": "Maintain room amenities and address unit-specific maintenance items (bathroom mold, drainage) without altering overall room-product positioning."
+      },
+      {
+        "area": "Parking",
+        "reason": "Predominantly positive mentions (8 positive / 4 negative) for parking availability.",
+        "management_implication": "Keep parking services as-is while addressing access/navigation and lighting concerns highlighted in some complaints (underground access lighting, narrow manoeuvring)."
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic examples and not statistically representative of all reviews in the window; prevalence should be assessed using full review metadata.",
+      "Managerial evidence does not specify the scope, root cause or exact units affected by plumbing/bathroom issues; an inspection is required before committing to capital work.",
+      "Some recommended actions (e.g., spa renovation) may require technical/financial assessment; recommendations call for assessment rather than prescribing specific capital solutions.",
+      "Evidence linking experience issues to commercial metrics (e.g., RevPAR) is directional only; do not infer causality from these data alone."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Multiple recent reviews report recurring maintenance and operational issues (plumbing, doors, slow hot water, malfunctioning toilets, limited pool seating) that negatively affect guest experience. Core strengths (location, pools, friendly staff) remain, and average rating is slightly up; however the REVPAR decline (-17.8% in the 4-week window) and recurring complaints make addressing operational/maintenance issues a priority to avoid erosion of reputation.",
+    "executive_summary": "Belmar Spa & Beach Resort is praised for location, pools, staff friendliness and spacious apartments. Recent guest feedback (sample of 20 most recent reviews) highlights repeated maintenance and operational shortcomings: plumbing and hot-water problems, a jammed entry door, inconsistent housekeeping and in-room amenities, insufficient poolside seating and towel service, wayfinding and luggage-access issues on cobblestone paths, and mixed comments on buffet/breakfast. Priorities should focus on fixing critical maintenance, strengthening housekeeping/amenities, improving guest mobility and wayfinding, improving pool/towel service and assessing food service/breakfast operations. Preserve strengths in staff, location and pool facilities while monitoring maintenance complaint rates, response times and guest satisfaction sub-scores.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Maintenance & building systems (plumbing, locks, hot water)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests report multiple plumbing and systems failures: water stopped for hours, slow delivery of warm water, toilets running or flushing on their own, and at least one jammed door/key-card access failure requiring manual intervention.",
+        "recommended_action": "Initiate an immediate engineering audit of plumbing, hot-water systems and electronic locks; complete high-priority repairs within 72 hours where safety/security is affected. Implement a prioritized preventive maintenance checklist for rooms and public-area systems, log and track repairs in a maintenance ticketing system, and provide clear guest communication and compensation where outages occurred.",
+        "rationale": "Multiple independent reviews within the window reference the same types of failures (water interruptions, slow warm water, toilet faults, jammed door). Quick fixes and a preventive program will reduce repeat guest inconvenience and potential safety/security exposure."
+      },
+      {
+        "rank": 2,
+        "area": "Housekeeping & in-room amenities",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported minimal cleaning, missing expected in-room basics (tea/coffee, bottled water), limited towel change frequency (once/day) and tired room condition in some units.",
+        "recommended_action": "Review and reinforce housekeeping standards and checklists (including restocking tea/coffee and bottled water). Audit a sample of rooms daily for the next two weeks and retrain/adjust staffing where standards are not met. Re-examine towel-change policy and make frequency options clear to guests (and offer increased servicing where requested). For rooms judged 'tired', prepare an inventory of prioritized cosmetic repairs/upgrades.",
+        "rationale": "Several reviews call out inadequate cleaning, absent basic in-room amenities and towel-change frequency that impacted guest perception of a 4-star property. Improving baseline housekeeping and restoring expected amenities should lift guest satisfaction quickly."
+      },
+      {
+        "rank": 3,
+        "area": "Guest mobility & wayfinding (site navigation, luggage assistance)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "The resort is large and guests report lack of clear signage/maps and difficulty transporting luggage on long cobblestone paths; some asked for golf-cart assistance at check-in/check-out.",
+        "recommended_action": "Deploy clear site signage and printable/phone map (digital and physical) of the resort showing key points (reception, pools, room blocks, beach access, restaurants). Implement a policy to offer luggage assistance/golf-cart transport at arrival and departure points and make this service visible at check-in. Train front-desk to proactively offer mobility assistance.",
+        "rationale": "Multiple guests described the property as a 'maze' and had difficulty with luggage on cobblestone routes; proactive wayfinding and assistance will improve first impressions and reduce friction for families and older guests."
+      },
+      {
+        "rank": 4,
+        "area": "Poolside & towel service / pool comfort",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported insufficient chairs at the indoor pool, lukewarm hot pool water, limited towel-change frequency and some rooftop loungers lacking cushions.",
+        "recommended_action": "Conduct a quick inventory of poolside seating and add appropriate chairs/cushions where needed. Verify and adjust pool/heating systems so hot pools reach and maintain expected temperatures. Review towel-service cadence and ensure guest-facing staff can explain or increase frequency on request.",
+        "rationale": "Several reviews flagged limited seating and lukewarm hot pool water which directly affect guests' enjoyment of core resort amenities (multiple pools). Addressing seating and pool temperature should deliver visible improvements."
+      },
+      {
+        "rank": 5,
+        "area": "Food & breakfast offering and guest complaint handling",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Some guests described the buffet as poor and limited dinner options; one guest noted breakfast started at 8:00 which felt late. A complaint to the front desk about the buffet and running toilets reportedly received an indifferent response.",
+        "recommended_action": "Review breakfast start time and service model relative to guest needs (consider earlier start or staggered service). Audit buffet quality and variety; evaluate adding an a la carte or small-menu evening option to complement buffet. Retrain front-desk staff in complaint handling and empower them with escalation/compensation options to resolve guest dissatisfaction promptly.",
+        "rationale": "Food & beverage impressions and staff responsiveness are frequent drivers of guest satisfaction. Several reviewers commented negatively on the buffet and one described poor front-desk handling of a complaint; addressing operations and service recovery should reduce negative experiences."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location & beach access",
+        "reason": "Multiple reviews praise the prime location, easy beach access and proximity to town and restaurants.",
+        "management_implication": "Maintain and promote beach access and nearby partnerships; ensure signage and beach facilities are kept in top condition to preserve this key draw."
+      },
+      {
+        "area": "Pools & grounds",
+        "reason": "Guests repeatedly praise the multiple pools, beautiful grounds and pool areas as standout features.",
+        "management_implication": "Prioritize upkeep of pool areas and landscaping; keep pool programs and lifeguard/maintenance staffing consistent to protect this competitive advantage."
+      },
+      {
+        "area": "Staff friendliness and helpfulness",
+        "reason": "Many reviews highlight welcoming, accommodating and friendly staff.",
+        "management_implication": "Preserve staffing levels, invest in ongoing training and recognize staff who deliver great guest experiences; ensure service culture is reinforced during any operational changes."
+      },
+      {
+        "area": "Apartment size & in-room facilities (where present)",
+        "reason": "Several guests compliment spacious, well-equipped apartments (washing machine, dishwasher, fridge).",
+        "management_implication": "Keep apartment inventory of appliances and ensure these remain functional; highlight these strengths in marketing while addressing units that are 'tired'."
+      }
+    ],
+    "limitations": [
+      "Only 20 of 130 reviews from the decision window were provided to the model; findings are based on that sample of the most recent reviews and may not capture the full distribution of issues.",
+      "Metrics in the basic performance section (REVPAR, occupancy, ratings) are descriptive for the period but no causal link between reviews and financial performance can be inferred from the supplied information.",
+      "Some review comments are anecdotal and may represent isolated incidents; recommended actions include assessment steps to quantify scope before large capital interventions."
+    ]
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "overall_risk": "low",
+  "overall_risk_rationale": "Guest feedback in the window is strongly positive (many 10/9 ratings), staff/service and breakfast are clear strengths, and key business metrics (REVPAR, TREVPAR, AVG_RATING) are trending up. Negative evidence is limited and narrow (mostly arrival/ride‑hail access, one comment about spa size, one about vegan options). However, there is a recent small reversal in SENTIMENT_SCORE_AVG and emotion_entropy signals that warrants monitoring.",
+  "executive_summary": "The hotel demonstrates strong guest experience in service and breakfast, and commercial metrics are improving. The highest-evidence friction is arrival/transport access (ride‑hail drop-off confusion due to local vehicle circulation restrictions) appearing as an emerging negative topic; this warrants a short-term policy/process review to reduce arrival friction. Minor, low-frequency issues include a small spa/shower complaint and a single comment requesting more vegan options — both should be monitored and subject to brief review rather than capital investment. Track the recent sentiment reversal and re-evaluate if negative mentions increase.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Location and arrival accessibility (ride‑hail/drop-off guidance)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Several guests praise the central location but multiple reviews mention ride‑hail (Uber) cannot or does not drop guests directly at the hotel due to vehicle circulation/restrictions, causing arrival friction.",
+      "recommended_action": "Review and update guest arrival guidance and transport instructions across booking channels and confirmation communications; verify and, if necessary, correct the hotel’s listed drop‑off/pick‑up point in mapping/ride‑hail apps and OTA directions; ensure front‑desk/concierge have a clear script to assist arriving guests. If mapping discrepancies or access restrictions require operational changes, commission a brief local assessment.",
+      "rationale": "The issue is low-volume but tangible and repeatable in the complaint sample (emerging negative). Clear arrival instructions are a policy/process fix and can reduce first impressions friction without presumed capital works. Evidence supports targeted review rather than assuming system or infrastructure changes.",
+      "supporting_evidence": [
+        "Review 2024-01-09 (pt-br): 'Uber dropped me off far from the hotel because it is an area with vehicle circulation restrictions.'",
+        "Review 2024-01-14 (ar): 'Uber doesn't reach the hotel. I think the problem is with Uber itself because the road to the hotel is open/normal.'",
+        "Managerial evidence for 'Location and accessibility': positive_mentions=6, negative_mentions=1, is_emerging_negative=true (emerging_negative_weeks=1)"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews describe the location as 'perfect', 'very central', and 'well located' (e.g., reviews 2024-01-25 pt, 2024-01-16 en).",
+        "Managerial evidence shows location positive_share=0.857 (6 positive, 1 negative)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "managerial_evidence: Location and accessibility (is_emerging_negative=true)",
+          "complaint_evidence: 2024-01-09 and 2024-01-14 ride‑hail access comments"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Monitor sentiment and emotion signals (recent reversal)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "SENTIMENT_SCORE_AVG and EMOTION_ENTROPY show recent movement that includes a reversal signal (sentiment recent_movement down and recent_reversal=true). Although overall sentiment improved over the period, the reversal could herald renewed negative feedback if it continues.",
+      "recommended_action": "Institute nearer-term monitoring of weekly sentiment and emotion metrics and track incoming 'disliked' comments for any clustering (access, F&B, facilities). If downward movement persists or negative mentions increase, trigger targeted review of the affected area(s).",
+      "rationale": "Quantitative signals show an improving trend but a recent reversal. Given strong baseline performance this is a monitoring priority rather than immediate remedial action; rapid detection will enable prompt response if the reversal continues.",
+      "supporting_evidence": [
+        "Business performance: SENTIMENT_SCORE_AVG increased overall but recent_movement is 'down' and recent_reversal=true (latest panel).",
+        "Experience indicators: EMOTION_ENTROPY decreased overall but recent_movement='up' with recent_reversal=true."
+      ],
+      "positive_counterevidence": [
+        "PERC_REVIEWS_NEGATIVE is decreasing (from 66.7% to 25.0%), and AVG_RATING is increasing slightly — indicating overall review quality remains strong."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "SENTIMENT_SCORE_AVG recent_reversal=true (business_performance)",
+          "EMOTION_ENTROPY recent_reversal=true (experience_indicators)",
+          "PERC_REVIEWS_NEGATIVE decreasing (experience_indicators)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Spa & pool — smallness and shower quality (guest nitpick)",
+      "evidence_pattern": "predominantly_positive",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "mixed",
+      "problem": "A small number of guests note the spa is small and spa showers 'not amazing' — described as 'nitpicking' by the reviewer, indicating low severity but potential expectation mismatch for some guests.",
+      "recommended_action": "Monitor frequency of spa/facility complaints. If more guests raise similar issues, commission a scoped assessment of spa facilities and guest expectations (to determine if operational changes, maintenance, or capital work are required).",
+      "rationale": "Current evidence is low-frequency and predominantly positive about the spa (managerial evidence shows positive_mentions>negative), so immediate capital action is not indicated. An assessment is appropriate if complaints increase.",
+      "supporting_evidence": [
+        "Review 2024-01-08 (en): 'The spa is a little small and the showers in the spa are not amazing. But that's really nitpicking.'",
+        "Managerial evidence for 'Spa and pool': positive_mentions=2, negative_mentions=1, evidence_pattern='predominantly_positive'."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise spa/sauna and massages (e.g., 2024-01-25 pt review mentions 'Spa with a good sauna and massage', and other reviews praise the massage service)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "managerial_evidence: Spa and pool (positive_mentions=2, negative_mentions=1)",
+          "complaint_evidence: 2024-01-08 spa size/shower comment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.5
+    },
+    {
+      "rank": 4,
+      "area": "Dietary/F&B inclusions (vegan options)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest noted insufficient vegan options, suggesting a minor expectation gap in dietary offerings for some guests.",
+      "recommended_action": "Review current breakfast and F&B offerings to confirm availability and visibility of vegan options; consider clearer labeling and staff briefing so dietary options are communicated to guests. If more mentions appear, evaluate menu adjustments or communication changes.",
+      "rationale": "This is a single explicit complaint in the selected sample. The hotel otherwise receives strong praise for breakfast. A short review of menu inclusions and guest communication is low-cost and can address a potential expectation mismatch without assuming major changes.",
+      "supporting_evidence": [
+        "Review 2024-01-13 (en): 'Disliked: Not enough vegan options.'",
+        "Managerial evidence: Breakfast has positive_mentions=6 and evidence_pattern='predominantly_positive', indicating overall breakfast strength."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise breakfast quality and organization (managerial evidence: Breakfast positive_mentions=6, positive_share=1.0)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "complaint_evidence: 2024-01-13 vegan options comment",
+          "managerial_evidence: Breakfast positive_mentions=6"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Strong, consistent praise across many reviews (managerial evidence: positive_mentions=13, positive_share=1.0). Reviews frequently highlight attentive, personalized service and special touches.",
+      "management_implication": "Maintain staffing/service practices that generate high personalization; preserve training, recognition, and any guest‑experience rituals that produce these comments. Avoid operational changes that could dilute this strength without evidence they are necessary."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Multiple explicit positive mentions about breakfast quality and presentation (managerial evidence: positive_mentions=6, positive_share=1.0).",
+      "management_implication": "Preserve breakfast quality and table service approach; ensure operational plans support this during busy periods (several reviews noted small disorganization when crowded)."
+    },
+    {
+      "area": "Central location",
+      "reason": "Many guests value the hotel's central, convenient location for sightseeing and restaurants (complaint_evidence multiple reviews praising location).",
+      "management_implication": "Continue to promote location as a selling point; maintain concierge/local tips that leverage proximity to attractions and transport nodes."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Weekly count of reviews mentioning 'Uber', 'ride‑hail', 'drop‑off', or 'access restrictions'",
+      "reason": "Direct measure of whether arrival/access friction is recurring or remains isolated.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG weekly movement and flag for consecutive weekly declines",
+      "reason": "Recent reversal in sentiment_score was detected; watching for persistence is important to catch emerging problems early.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Number of substantive 'disliked' comments about spa facilities",
+      "reason": "Track whether the spa/shower comment is isolated or becomes a pattern that requires assessment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of 'vegan' or other dietary restrictions in F&B/breakfast comments",
+      "reason": "Detect whether dietary-option comments are isolated or growing; informs whether menu/communication review is sufficient.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE (weekly)",
+      "reason": "Provides context on overall negative-review share (currently decreasing) and helps confirm whether small issues are widening.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is complaint-focused (only reviews with substantive 'disliked' text) and is not representative of the entire review population; prevalence must be assessed using full-window metadata.",
+    "Many areas have very low negative counts (single-review mentions), limiting the ability to generalize scope or causality.",
+    "The evidence identifies arrival/ride‑hail friction but does not determine the root cause (mapping issue, ride‑hail app behavior, municipal restrictions, or signage), so a local verification/assessment is required before prescribing operational or capital interventions.",
+    "Recommendations avoid prescribing specific technical integrations or vendor contacts because the case evidence does not support those implementation details."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P023",
+    "case_id": "H72_20240129_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:10:17.428706+00:00",
+    "finished_at_utc": "2026-09-08T16:11:00.831710+00:00",
+    "elapsed_seconds": 43.404
+  }
+}

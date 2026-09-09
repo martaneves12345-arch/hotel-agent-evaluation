@@ -1,0 +1,255 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Several operational and maintenance issues with safety or accessibility relevance appear in the complaint sample (no water reported, elevator non-functioning for a disabled-assigned room, repeated bathroom deficiencies). These coincide with weakening commercial indicators (declining RevPAR and occupancy). Although strengths (cleanliness, location, generally friendly staff) exist, the presence of safety-relevant incidents and multiple net-negative room/bathroom signals justifies elevated managerial attention.",
+  "executive_summary": "Preserve clear strengths (cleanliness, central location, largely positive staff interactions) while addressing urgent maintenance/safety (water supply and bathroom amenities) and high-priority operational frictions: room comfort (HVAC, noise, beds), breakfast operations/pricing alignment, front-desk responsiveness/housekeeping communication, and accessibility/parking processes (including elevator reliability). Recommendations prioritize safety/maintenance first, then operational/process reviews and targeted inspections where scope is unclear.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition / critical utilities",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests reported a complete lack of water (toilet/shower) for at least one stay and multiple complaints about bathroom shortcomings (bad smells, missing bathroom outlets, and lack of expected toiletries for a 4-star positioning). A no-water event is safety/operationally critical.",
+      "recommended_action": "Immediately verify recent/recurring water-supply interruptions and perform an urgent inspection of plumbing and hot-water systems. Confirm whether the no-water report was an isolated outage or indicative of building-wide plumbing work. Simultaneously audit bathroom basic amenities (toiletry stock, bathroom outlets) against advertised/expected inclusions and correct gaps. If scope cannot be determined from inspection, schedule a technical assessment and remediation plan.",
+      "rationale": "A reported lack of water directly affects guest safety and basic functionality. Multiple reviews also identify bathroom expectation violations (missing amenities/outlets) which increase guest dissatisfaction and are inconsistent with advertised 4-star features.",
+      "supporting_evidence": [
+        "2024-03-29: 'there would be no water the next morning, neither for the toilet nor the shower... Coffee machine but no water available.'",
+        "2024-03-11: 'The bad smell in the bathroom was unbearable.'",
+        "2024-03-26: 'The rooms do not have an outlet in the bathroom, no hygiene supplies as we are used to finding in 4-star hotels.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests praised the shower and suite space (e.g., 2024-03-11 positive context: 'The space of the suites, the bed and the shower.').",
+        "Overall housekeeping and cleanliness are frequently praised in the sample."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 13,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "diagnostic_vulnerability: Bathroom condition (high diagnostic score)",
+          "PERC_OPERATIONAL_COMPLAINTS increasing"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort (HVAC, noise, bed, curtains)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests report inability to control heating/air conditioning, cold air when heat expected, poor sound insulation (paper-thin walls; metro noise), bed discomfort, and damaged blackout curtains — recurring comfort failings that affect sleep quality.",
+      "recommended_action": "Run an operational check and troubleshooting protocol for in-room HVAC controls (reset/configuration, room-level diagnostics) and ensure maintenance responds promptly when guests report non-functional heating. Log incidence counts by room to detect systemic units. Conduct a short-term noise-mitigation review (room allocation away from busy street/metro where possible) and a medium-term evaluation of soundproofing and curtain replacement where complaints concentrate. Where the evidence does not disclose root cause, commission technical inspection and a prioritized remediation plan.",
+      "rationale": "Comfort elements (temperature control, noise insulation, beds, blackouts) are repeatedly cited across reviews and include expectation violations; some HVAC issues required multiple guest prompts before being resolved, suggesting operational/process gaps or equipment faults that can be fixed or require assessment.",
+      "supporting_evidence": [
+        "2024-03-21: 'The A/C would not switch to heat... they said they would handle it centrally... only on the last night... they came to the room, reset and then it worked.'",
+        "2024-03-16: 'rooms have poor sound insulation... very noisy.'",
+        "2024-03-27: 'The room's blackout curtain was torn.'",
+        "2024-03-30: 'The bed was uncomfortable... vibration and noise from the metro.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests said rooms were 'sufficiently large, comfortable and tastefully furnished' (2024-03-30).",
+        "Overall positive mentions about room space and certain suites exist."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 12,
+        "negative_mentions": 14,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "diagnostic_vulnerability: Room comfort (high diagnostic score)",
+          "PERC_OPERATIONAL_COMPLAINTS increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast operations and price–value alignment",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although many guests praise the breakfast, several reviews report inadequate replenishment, missing items, unclear inclusion/extra-charge expectations, and perceived poor price–value when additional costs (parking, breakfast fees) accumulate.",
+      "recommended_action": "Review breakfast service operations (stocking/replenishment cadence, staff oversight during service hours) and clarity of booking communications regarding whether breakfast is included. Reconcile in-platform/website claims with on-site practice and clearly communicate breakfast pricing at check-in. Where pricing perceptions are driven by bundled extras (parking/paid breakfast), review guest-facing explanations and consider clearer pre-arrival messaging or packaging options.",
+      "rationale": "Breakfast is an area of overall positive sentiment but shows an emerging negative pattern: several guests reported unattended/understocked breakfast and unclear inclusion or additional costing which affects perceived price–value.",
+      "supporting_evidence": [
+        "2024-03-30: 'The breakfast was unattended. Things were always missing and you had to keep asking for everything.'",
+        "2024-03-18: 'Breakfast, the room and the facilities did not impress me. Finally, they charged an additional half-stay because I returned... to take a quick shower and leave.' (pricing complaint related to day-use/shower)",
+        "2024-03-30 (positive): 'The breakfast buffet in the adjacent café was very good... it was constantly replenished.' (evidence of inconsistent experiences)"
+      ],
+      "positive_counterevidence": [
+        "Multiple guests explicitly praise the breakfast and coffee (e.g., 2024-03-30 positive context).",
+        "Positive mentions outnumber negatives in this topic set (managerial evidence: 12 positive vs 10 negative)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 12,
+        "negative_mentions": 10,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "managerial_evidence: Breakfast flagged as emerging_negative",
+          "Price–value diagnostic_vulnerability (related to breakfast inclusion/pricing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Front-desk responsiveness and housekeeping process",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "While staff are frequently commended, several operational frictions emerged: reception phones not answered after hours (complaint response gap), inconsistent housekeeping service (DND sign dispute), and perceptions of unfair prioritization at check-in.",
+      "recommended_action": "Review front-desk staffing/response protocols for after-hours coverage and noise/complaint escalation procedures. Audit housekeeping turn-down/cleaning logging (how DND signs are recorded and overridden) and the handover between reception and housekeeping. Provide refresher training and clear SOPs for handling late-night calls, noise complaints, and guest requests for basic supplies to improve perceived responsiveness.",
+      "rationale": "Staff friendliness is a strength, but repeated operational lapses (unanswered calls, delayed supply delivery, claimed DND miscommunication) have produced frustration and, in one case, left the guest feeling the hotel was unresponsive at checkout.",
+      "supporting_evidence": [
+        "2024-04-04: 'When you ring reception after 9pm due to limited staff the phone isn't answered... When you ask for something like milk... we were told they don't have milk and to go to the shop... After several calls and over a 30 minute wait we were then provided with the things we needed.'",
+        "2024-03-27: 'We put a please clean my room sign... When we returned the room hadn't been cleaned and we were told by reception that we had a DND sign up... After several calls and over a 30 minute wait...' ",
+        "2024-03-27: '...two reception staff gave priority to more than five customers who arrived at 13:00. I found it disrespectful and an act of discrimination.'"
+      ],
+      "positive_counterevidence": [
+        "Many reviews praise staff friendliness and identify specific reception employees as 'exceptional' (managerial evidence: 36 positive mentions).",
+        "Guests compliment housekeeping and overall cleanliness elsewhere in the sample."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 36,
+        "negative_mentions": 7,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "managerial_evidence: Staff and service flagged as strength_with_friction (emerging_negative)",
+          "PERC_OPERATIONAL_COMPLAINTS increasing"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.68
+    },
+    {
+      "rank": 5,
+      "area": "Accessibility, elevator reliability and parking communication",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "At least one guest was assigned a disabled-access room on the 6th floor while the elevator was not working, creating an accessibility and safety concern. Multiple guests also report dissatisfaction with parking availability/price and the guest effort required to unload luggage and access a partnered garage.",
+      "recommended_action": "Investigate the elevator status and reliability; if elevator outages are recurrent, prioritize repair and evaluate temporary mitigations for guests with mobility needs (room reallocation protocols and advance communication). Review the process for assigning disabled-access rooms to ensure guests are informed and not assigned inaccessible rooms. Clarify parking partner arrangements and communicate expected costs and logistics at booking/check-in.",
+      "rationale": "Assigning a disabled-access room without operational elevator is an accessibility/safety/regulatory risk; parking difficulties and high partner garage fees repeatedly appear in complaints and generate price–value concerns.",
+      "supporting_evidence": [
+        "2024-03-26: 'A disabled-access room was assigned to us without being informed... the disabled room was located on the 6th floor and the elevator was not working... we had to use a service lift.'",
+        "2024-03-30: 'A major drawback... was the parking situation... public parking garage nearby... pay about €20/day. The additional parking and breakfast costs add up.'",
+        "2024-03-18: 'Parking... it is not easy to park on the busy Lisbon street and offload your luggage.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests note a parking partnership exists and that breakfast/parking can be paid easily at the café/partner (2024-03-30).",
+        "Location and accessibility receive many overall positive mentions in the managerial evidence."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "managerial_evidence: Parking listed as net_negative",
+          "complaint example: elevator not working (accessibility incident)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.62
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "High positive mention share (20 positive vs 3 negative); multiple reviews explicitly praise cleanliness and smell.",
+      "management_implication": "Maintain current housekeeping standards and staffing emphasis; avoid shifting resources away from housekeeping during short-term operational responses."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Strong positive mentions (47 positive, 15 negative) highlighting convenient metro access and central position.",
+      "management_implication": "Continue to highlight location in communications; when managing room allocation, leverage location strengths while mitigating noise-related allocation issues."
+    },
+    {
+      "area": "Staff friendliness (general)",
+      "reason": "Service is widely praised (36 positive mentions vs 7 negative); staff performance is an operational strength to leverage.",
+      "management_implication": "Preserve service culture; focus training on specific response/protocol gaps rather than broad performance change."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints (housekeeping, facilities, service responsiveness) have been increasing and are relevant to multiple priorities.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "HIGH_MISALIGNMENT_SHARE",
+      "reason": "Indicates share of reviews with high expectation misalignment; small increase seen historically and may flag recurring expectation violations (bathroom, room features).",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Commercial metrics are declining; while not causal, continued deterioration could increase business risk and should be watched alongside guest experience remediation.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews is currently decreasing in the window; tracking this alongside remediation will help evaluate whether actions reduce negative feedback.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic and not fully representative of all reviews in the window (selected by recency, rating, and text length). Prevalence should be confirmed against full-window metrics.",
+    "Evidence identifies issues (e.g., bathroom amenities, HVAC, elevator) but does not provide technical root-cause, frequency, or cost. Several priorities therefore require on-site inspection or technical assessment before prescribing capital-intensive solutions.",
+    "Some topics combine operational lapses and possible structural issues (e.g., noise insulation). Distinguishing between repair/maintenance and capital upgrades requires further assessment."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P018",
+    "case_id": "H324_20240401_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:03:23.435342+00:00",
+    "finished_at_utc": "2026-09-08T16:04:26.334234+00:00",
+    "elapsed_seconds": 62.902
+  }
+}

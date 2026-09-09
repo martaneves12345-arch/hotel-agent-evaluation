@@ -1,0 +1,271 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Evidence shows clear strengths (cleanliness, friendly staff, generally positive price–value) but also several operational/maintenance complaints that include safety-relevant items (mould smell, clogged shower drain, smoke infiltration) and increasing expectation–experience misalignment signals. The mix of strong positives and isolated but important negatives supports a moderate overall risk that warrants prompt targeted actions and some immediate inspections.",
+  "executive_summary": "Preserve strong housekeeping and friendly service while addressing a cluster of room-comfort and maintenance issues that are producing expectation violations and occasional health/comfort risks. Primary immediate attention should be given to room-level maintenance and any safety/health hazards (mould, clogged drains, significant noise, smoke infiltration). Short-term actions should review breakfast offering (variety/temperature/start time) and review guest-facing descriptions/policies to reduce semantic misalignment. Monitor an emerging perception issue around price–value even though current reviews largely remain positive.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort & urgent maintenance (mattresses, noise, mould, clogged drains, smoke infiltration)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Multiple reviews report uncomfortable beds (too hard/old), loud/noisy rooms (poor soundproofing), mouldy odour, a flooded bathroom from a clogged drain, and restaurant smoke entering rooms designated for smokers—some of these have health/safety relevance and constitute expectation violations.",
+      "recommended_action": "Immediately inspect affected rooms for mould and ventilation/airflow issues, inspect/repair shower drainage in any reported rooms, evaluate mattress condition and compile a prioritized replacement/topper plan, and investigate routes by which restaurant smoke reaches guest rooms. If hazards (mould, persistent water ingress, major ventilation issues) are confirmed, take immediate remediation steps and escalate to maintenance contractors. Record and respond to affected guest complaints directly.",
+      "rationale": "High frequency of negative mentions for room comfort (managerial evidence: 8 mentions, 7 negative) combined with complaint examples describing mould smell (2024-10-04), clogged/flooded shower (2024-10-12), very hard/old bedding and noise (2024-10-26; 2024-10-20; 2024-10-01). Some items are safety/health relevant and therefore require immediate inspection rather than delayed planning.",
+      "supporting_evidence": [
+        "Managerial evidence — Room comfort: 8 mentions (1 positive, 7 negative), has expectation violation.",
+        "Complaint 2024-10-26: 'No soundproofing... bedding from the 80s...'",
+        "Complaint 2024-10-04: 'Strong smell of mold.'",
+        "Complaint 2024-10-12: clogged shower drain resulted in bathroom flooding; also reported restaurant smoke entering the room.",
+        "Complaint 2024-10-20 and 2024-10-01: bed too hard / furniture/bed complaints."
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise cleanliness and staff helpfulness (e.g., multiple positive contexts mentioning cleanliness and friendly staff).",
+        "Some guests described rooms as clean and acceptable for short stays."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 7,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 7,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast quality, variety and service (food & beverage)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although many guests note acceptable breakfast, a substantial subset describes the breakfast as poor/basic, cold, limited in variety (especially hot options and fruit variety), and perhaps constrained by start times—this is an expectation violation for some guests.",
+      "recommended_action": "Review breakfast offering and service times with F&B staff: evaluate menu variety (especially hot items and fruit selection), timing/availability, and guest communication about what is included. Implement operational adjustments that can be done quickly (menu tweaks, staffing/timing) and measure guest feedback after changes.",
+      "rationale": "Managerial evidence shows a mixed but significant number of breakfast mentions (15 total; 8 positive, 7 negative) and has a recorded expectation violation. Multiple customer complaints refer specifically to limited/poor breakfast quality and cold items.",
+      "supporting_evidence": [
+        "Managerial evidence — Breakfast: 15 mentions (8 positive, 7 negative), evidence_pattern = positive_with_friction, has expectation violation.",
+        "Complaint 2024-10-26: 'The breakfast was very basic.'",
+        "Complaint 2024-10-14: 'The breakfast was very poor!!!'",
+        "Complaint 2024-10-01 (cs): 'Breakfast poor, only cold.'",
+        "Complaint 2024-10-09: 'the breakfast buffet was somewhat limited' (but food quality described as excellent)."
+      ],
+      "positive_counterevidence": [
+        "Several guests explicitly praised the breakfast (e.g., 2024-10-07: 'Good breakfast'; some noted quality as excellent despite limited variety).",
+        "Evidence indicates many guests find the cost/quality acceptable."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 8,
+        "negative_mentions": 7,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "expectation_share (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Guest-facing descriptions and expectation alignment (marketing & communications)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Several reviews indicate semantic misalignment between what is advertised and guest experience (examples: proximity to airport, lack of disclosure about balcony shutters/security measures, and undisclosed downsides of the smoker-room option). The semantic misalignment and growing expectation gap metrics suggest this is not isolated.",
+      "recommended_action": "Review online descriptions, booking pages, and guest-facing communications to ensure accurate representation of distance to local points (e.g., airport), room characteristics (locked/shuttered balconies when applicable), the smoker-room arrangement and any associated trade-offs, and renovation-related impacts. Where limitations exist for safety/security reasons (e.g., shuttered balconies), update descriptions so guests have correct expectations. Establish a short checklist for front-desk communication at check-in to confirm any known room constraints.",
+      "rationale": "Direct complaints cite misleading proximity claims (2024-10-13), undisclosed consequences of the smoker-room option (2024-10-12), and shuttered balcony windows that affected guest comfort (2024-10-09). Experience indicators show increasing semantic misalignment and expectation–experience gap.",
+      "supporting_evidence": [
+        "Complaint 2024-10-13: 'It said it was very close to the airport; in fact it was 10 km away.'",
+        "Complaint 2024-10-12: smoker-room received restaurant smoke; guest said they would have declined if informed.",
+        "Complaint 2024-10-09: balcony door locked and shuttered (no natural light) due to past break-ins — guest surprised by this."
+      ],
+      "positive_counterevidence": [
+        "Several guests praise 24-hour reception and staff helpfulness, which can mitigate expectation friction if properly used to communicate constraints.",
+        "Many guests still rate price–value positively."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 3,
+        "violated_expectation_weeks": 2,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_misalignment",
+          "increasing_expectation_gap",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Access & room allocation friction: parking distance and smoker-room external smoke ingress",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests reported parking being far from the entrance and that a smoker-room option allowed restaurant smoke to enter the room—both are operational frictions affecting comfort and perceived value.",
+      "recommended_action": "Review parking signage and guest instructions (clear directions from entrance to parking and communication at booking). Investigate the pathway of smoke ingress from restaurant to smoker rooms and determine operational mitigations (room allocation, sealing airflow pathways, or clearer pre-booking communication) after inspection.",
+      "rationale": "Complaints include 'Parking was very far from the entrance' (2024-10-14) and detailed report of smoke entering the smoker room and affecting clothing (2024-10-12). Parking and accessibility mentions are mixed in the managerial evidence but these specific operational frictions affect guest comfort.",
+      "supporting_evidence": [
+        "Managerial evidence — Parking: 2 mentions (1 positive, 1 negative).",
+        "Complaint 2024-10-14: 'Parking was very far from the entrance.'",
+        "Complaint 2024-10-12: smoker-room received restaurant smoke, making the stay uncomfortable."
+      ],
+      "positive_counterevidence": [
+        "Some guests mention parking availability as a positive (e.g., 2024-10-20: 'There was parking').",
+        "Guest praised existence of a smoker option as flexibility (2024-10-12 positive context)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS (recently decreasing overall) ",
+          "semantic_misalignment (business-wide) "
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Price–value perception (monitor emerging negative signals)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Price–value is generally reported positively but there is an emerging negative mention; expectation alignment and value perceptions should be tracked to prevent reputation drift.",
+      "recommended_action": "Monitor guest comments related to price and value over the next few weeks and, if mentions of poor value increase, conduct a targeted review of rate positioning, inclusions (e.g., what breakfast includes), and guest expectations. No immediate price changes recommended based solely on current evidence; first confirm trend.",
+      "rationale": "Managerial evidence shows strong positive mentions (7 positive, 1 negative) but an 'emerging_negative_weeks' flag is present and the experience indicators show an increasing expectation–experience gap that could affect perceived value.",
+      "supporting_evidence": [
+        "Managerial evidence — Price–value: 9 mentions (7 positive, 1 negative), is_emerging_negative = true.",
+        "Complaint 2024-10-01: 'Bed. Price.' (negative mention), while multiple other reviews explicitly endorse good price–quality."
+      ],
+      "positive_counterevidence": [
+        "Majority of recent comments praise price–quality and say the hotel offers good value (e.g., 2024-10-07, 2024-10-09)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "emerging_negative_topic",
+          "EXPECTATION_EXPERIENCE_GAP_AVG (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Consistently positive evidence: 7 positive mentions, 0 negative; multiple guests explicitly praised room cleanliness and plentiful towels.",
+      "management_implication": "Maintain current housekeeping standards and staffing; highlight cleanliness in guest communications and training to preserve this competitive advantage."
+    },
+    {
+      "area": "Staff and service (24-hour reception, friendliness)",
+      "reason": "Predominantly positive experience evidence: 8 positive mentions, 1 negative; guests repeatedly comment on friendly, helpful staff and 24-hour reception.",
+      "management_implication": "Preserve staffing approach and service training that produce friendly interactions; use front-desk staff to proactively set expectations (see priority 3)."
+    },
+    {
+      "area": "Price–value (current perception)",
+      "reason": "Majority of mentions are positive (7 positive, 1 negative) and several guests explicitly note excellent price–quality.",
+      "management_implication": "Monitor perception but avoid hasty price changes; use pricing as a selling point while ensuring inclusions and descriptions align with guest expectations."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Increasing gap signals growing mismatch between advertised/expected and actual guest experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Rising semantic misalignment supports priority to review descriptions and guest communications.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of 'bed' / 'mattress' 'hard' / 'old' in reviews",
+      "reason": "Directly tracks persistence of mattress/bed comfort complaints to assess impact of any remedial actions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Mentions of 'breakfast' negative (quality/variety/temperature)",
+      "reason": "Measures whether operational changes to breakfast reduce negative mentions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of mould / smell / clogged drain / smoke ingress",
+      "reason": "Safety/health-related and comfort complaints should be tracked closely after inspections/repairs.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE (share of negative reviews)",
+      "reason": "Business-level indicator to detect wider shifts in sentiment (recently showed mixed movement; monitor for reversal).",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic (selected by recency, rating, and text length) and is not statistically representative of all guest feedback in the full review window.",
+    "Managerial recommendations are bounded to the supplied evidence; the case does not provide technical details (e.g., extent of mould, number of affected rooms, mattress age or specifications) so some recommendations require on-site inspection before specific capital decisions.",
+    "Trends (e.g., increasing expectation gap and semantic misalignment) are based on aggregated indicators; confirm with ongoing monitoring and the full review population before committing to larger investments.",
+    "Where evidence identifies a problem but not an implementation, advice is to assess/inspect rather than to prescribe specific technical solutions or capital spend."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P032",
+    "case_id": "H83_20241021_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:21:55.946445+00:00",
+    "finished_at_utc": "2026-09-08T16:22:53.314144+00:00",
+    "elapsed_seconds": 57.37
+  }
+}

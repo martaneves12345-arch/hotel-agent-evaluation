@@ -1,0 +1,245 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most guest feedback is positive (strong praise for breakfast, cleanliness, and staff) but there are several emerging, service-impacting issues (Wi‑Fi/TV, bathroom drainage, after-hours reception reachability) and a noticeable RevPAR decline. Issues are limited in frequency but include at least one safety/maintenance concern (shower drain overflow) and service-access friction that justify prioritized attention.",
+  "executive_summary": "Preserve strengths in breakfast, cleanliness and the broadly positive staff experience while addressing a small set of operational and maintenance frictions that have recently emerged: after-hours reception/reachability, in‑room technology (internet/TV), and bathroom functional issues (clogged drain and decor inconsistency). Also address a minor in‑room amenity annoyance (minibar noise) and monitor a single price–value mention. Prioritise immediate maintenance inspection for the shower drainage, short-term review of after‑hours contact procedures and a short-term technical assessment of internet/TV usability. Several items require further operational or technical assessment before committing to capital works.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Staff and service (reception after‑hours reachability)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported reception closed after 8 PM and unreachable by phone; staff is otherwise frequently praised but this after‑hours unreachability is an emerging friction and has potential safety/guest-support implications.",
+      "recommended_action": "Immediately review and confirm after‑hours guest contact procedures and phone reachability. Verify that published guest instructions about after‑hours contact are correct and reachable. Track any additional occurrences and, if unreachable incidents persist, perform a short-term process review of after‑hours coverage and guest communications. Do not assume staffing level changes are required without further review.",
+      "rationale": "Although staff is a clear strength (many positive mentions), the specific friction (unreachable reception after 20:00) is an emerging expectation failure and could affect guest safety/support and perceived reliability. Addressing procedures and communication is operational and can often be implemented quickly.",
+      "supporting_evidence": [
+        "Complaint 2024-10-14 (rating 6): \"reception closed after 8 PM, unreachable by phone.\"",
+        "managerial_evidence: 'Staff and service' — 11 mentions (10 positive, 2 negative); evidence_pattern: positive_with_friction; matched topic: reception availability/reachability after 20:00; emerging_negative_weeks = 1."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise staff/service: complaint 2024-10-16 (welcome from staff), 2024-10-24 (staff super helpful), 2024-11-04 (staff very helpful).",
+        "managerial_evidence shows strong positive_share (0.833) for Staff and service."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 10,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "managerial_evidence: staff emerging_negative_topic 'reception availability/reachability after 20:00'"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Wi‑Fi and in‑room technology (internet and TV)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests reported unreliable internet (couldn't connect to company network, poor reception) and TV usability problems; managerial evidence shows only negative mentions for technology topics (TV, internet connection).",
+      "recommended_action": "Conduct a short-term technical assessment of guest Wi‑Fi reliability (coverage, bandwidth, authentication) and the TV/user interface in rooms. Collect logs or vendor reports to identify whether issues are intermittent, scope (single room vs property), and whether corporate/VPN connectivity is affected. If assessment indicates systemic infrastructure shortcomings, plan a technical remediation; otherwise implement operational fixes (instructions, resets, signage).",
+      "rationale": "Technology failures materially affect working travellers' experience and are an emerging topic in the window (net-negative). The evidence does not specify technical root causes, so a focused technical assessment is necessary before deciding on capital or vendor changes.",
+      "supporting_evidence": [
+        "Complaint 2024-10-16 (rating 9): \"The internet connection... functional but I couldn't connect to my company's network... reception wasn't great.\"",
+        "Complaint 2024-11-04 (rating 9): \"Tv in the bedroom is hard to work with.\"",
+        "managerial_evidence: 'Wi‑Fi and technology' — 2 mentions (0 positive, 2 negative); evidence_pattern: net_negative; matched topics: TV, internet connection; emerging_negative_weeks = 1."
+      ],
+      "positive_counterevidence": [],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "managerial_evidence: Wi‑Fi and technology net_negative; matched topics 'TV' and 'internet connection'"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Bathroom condition (functional drainage and decor consistency)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "There is at least one report of a clogged shower drain that overflowed into the bathroom (maintenance/hygiene concern) and other comments about bathroom decor inconsistency (some guests find decor less modern than other areas). Managerial evidence shows bathroom as an emerging negative topic.",
+      "recommended_action": "Immediate maintenance inspection of shower drainage and plumbing in the affected room(s) to address the overflow/clogging safety/hygiene issue. Separately, evaluate bathroom decor consistency across room types as a medium‑term assessment to determine whether selective refurbishment or cosmetic updates are warranted. Do not propose capital works without an assessment of scope and cost.",
+      "rationale": "The clogged drain represents a tangible functional and potential hygiene/safety issue that warrants prompt inspection. Decor comments are less urgent but indicate an expectation mismatch in finish/appearance that should be assessed before committing to refurbishment.",
+      "supporting_evidence": [
+        "Complaint 2024-10-14 (rating 6): \"Shower drain clogged, which overflows into the bathroom.\"",
+        "Complaint 2024-11-04 (rating 9): \"The bedroom decoration didnt feel as modern as the bathroom but it was okay.\"",
+        "managerial_evidence: 'Bathroom condition' — 3 mentions (2 positive, 2 negative); evidence_pattern: mixed; matched topics: bathroom cleanliness, bathroom decor, functional bathroom drainage/maintenance; emerging_negative_weeks = 1."
+      ],
+      "positive_counterevidence": [
+        "Complaint 2024-11-04 praises bathroom cleanliness and modern bathroom: 'Bathroom was clean and very modern.'",
+        "managerial_evidence shows positive_mentions = 2 for bathroom condition (some guests praise cleanliness/modern bathroom features)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "latest_context.emerging_negative_topic includes 'bathroom decor'",
+          "managerial_evidence: bathroom matched topics include 'functional bathroom drainage/maintenance'"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.78
+    },
+    {
+      "rank": 4,
+      "area": "In‑room amenities (minibar noise and towel provisioning as related operational frictions)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "At least one guest reported noise from the minibar at night; another guest reported insufficient towel provisioning (one towel for two). These are low-frequency but tangible friction points for comfort.",
+      "recommended_action": "Operationally verify minibar placements/noise and whether units can be secured or instructions provided to guests to reduce noise. Reconfirm towel provisioning standards with housekeeping and ensure rooms are checked for adequate towels during cleaning. Track recurrence; if minibar noise is a recurring issue, include it in equipment assessment.",
+      "rationale": "Complaints are limited in number but directly affect guest comfort during stays. Operational checks and housekeeping process confirmation are appropriate first steps before any equipment replacement decisions.",
+      "supporting_evidence": [
+        "Complaint 2024-11-01 (rating 8): \"Noise from the minibar in the silence of the night (can be turned off).\"",
+        "Complaint 2024-10-14 (rating 6): \"Only one towel for two...\"",
+        "managerial_evidence: 'In-room amenities' — 1 mention (0 positive, 1 negative); evidence_pattern: net_negative."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise room quality and helpful staff which may mitigate single-instance amenity frictions (e.g., 2024-10-24, 2024-11-01, 2024-11-04)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "complaint 2024-11-01 minibar noise",
+          "complaint 2024-10-14 towel shortage (also referenced under bathroom/housekeeping)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.55
+    },
+    {
+      "rank": 5,
+      "area": "Price–value perception",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "low",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "There is a single managerial_evidence negative mention about price–value. No substantive complaint example in the supplied sample clarifies scope or cause.",
+      "recommended_action": "Monitor mentions of price–value in the next review window. If additional negative evidence appears, review packaging, inclusions (e.g., what is communicated as included), and value positioning. Do not change pricing or offerings based on a single mention without further evidence.",
+      "rationale": "Only one negative data point for price–value is available; this is insufficient to justify operational or pricing changes now but merits monitoring given the RevPAR decline context.",
+      "supporting_evidence": [
+        "managerial_evidence: 'Price–value' — 1 mention (0 positive, 1 negative); evidence_pattern: net_negative",
+        "business_performance context: RevPAR trending down (first_value 87.6366 to last_value 79.6476; -9.12%)."
+      ],
+      "positive_counterevidence": [
+        "Strong praise across many reviews for breakfast, cleanliness and helpful staff suggests good perceived value in aspects of the stay."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "preliminary_signals.declining_revpar (severity: high)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.4
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast",
+      "reason": "Consistently high positive mentions (11 positive, 0 negative); multiple guest comments describe the breakfast as excellent, generous and varied.",
+      "management_implication": "Preserve current breakfast quality and presentation. Use breakfast as a positive differentiator in guest communications and monitor for any future negative mentions."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "All mentions in the window are positive (5 positive, 0 negative); guests praise bathroom cleanliness and overall cleanliness.",
+      "management_implication": "Maintain housekeeping standards and monitor for any operational slips; ensure housekeeping receives recognition for consistent performance."
+    },
+    {
+      "area": "Staff and service (general)",
+      "reason": "High positive share (10 positive vs 2 negative); many guests compliment helpfulness and local recommendations.",
+      "management_implication": "Continue to emphasize front‑of‑house guest service training and preserve current guest interaction practices while addressing the specific after‑hours reachability friction."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "RevPAR has a moderate, consistent decreasing trend over the panel window and sets context for prioritisation and monitoring of experience issues.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews is decreasing over the window; continue monitoring to detect re‑emergence of negative mentions after interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Average sentiment is increasing strongly, which is positive context; monitor whether operational fixes maintain sentiment improvements.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "TAXA_OCUPACAO (occupancy)",
+      "reason": "Occupancy is increasing; monitor together with RevPAR to understand revenue mix and guest composition (e.g., more leisure vs business guests could affect technology expectations).",
+      "desired_direction": "context_dependent",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic and not statistically representative of all guest feedback in the window; frequency and prevalence should be assessed using the full review set.",
+    "Managerial evidence indicates some issues with low absolute counts (e.g., price–value has only one negative mention); avoid overreacting to isolated mentions.",
+    "Technical root causes for Wi‑Fi and TV problems are not provided; recommended technical assessment before vendor/ capital decisions.",
+    "Bathroom decor comments point to perceived mismatch but the scope (number of rooms affected) and cost implications are unclear — recommend assessment before planning capital works."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P020",
+    "case_id": "H492_20241104_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:06:02.739824+00:00",
+    "finished_at_utc": "2026-09-08T16:06:58.925341+00:00",
+    "elapsed_seconds": 56.193
+  }
+}

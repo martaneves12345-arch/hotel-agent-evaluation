@@ -1,0 +1,395 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P005",
+  "case_information": {
+    "case_id": "H223_20240415_L4",
+    "decision_week": "2024_W16",
+    "window_start": "2024-03-25",
+    "window_end": "2024-04-21",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W13",
+        "week_date": "2024-03-25",
+        "REVPAR_WEEK": 91.25128531144782,
+        "REVPOR_WEEK": 141.57460656565658,
+        "TREVPAR_WEEK": 92.68451464646463,
+        "TAXA_OCUPACAO": 94.64285714285714,
+        "N_REVIEWS": 26.0,
+        "AVG_RATING": 9.038461538461538
+      },
+      {
+        "WEEK_YEAR": "2024_W14",
+        "week_date": "2024-04-01",
+        "REVPAR_WEEK": 99.90227660934744,
+        "REVPOR_WEEK": 152.6885767195767,
+        "TREVPAR_WEEK": 100.49104241622574,
+        "TAXA_OCUPACAO": 96.42857142857144,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W15",
+        "week_date": "2024-04-08",
+        "REVPAR_WEEK": 89.48870116120219,
+        "REVPOR_WEEK": 104.77682677595628,
+        "TREVPAR_WEEK": 90.8269509790528,
+        "TAXA_OCUPACAO": 95.83333333333334,
+        "N_REVIEWS": 25.0,
+        "AVG_RATING": 9.36
+      },
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 83.34363757102273,
+        "REVPOR_WEEK": 144.18707386363633,
+        "TREVPAR_WEEK": 84.25461112689395,
+        "TAXA_OCUPACAO": 87.5,
+        "N_REVIEWS": 23.0,
+        "AVG_RATING": 9.478260869565217
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-04-21",
+        "rating": 10.0,
+        "liked": "The hotel is well located, the staff are helpful, access is easy, the room is good, comfortable bed. The bathroom is good. Breakfast has a good variety.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-21",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-20",
+        "rating": 10.0,
+        "liked": "Excellent breakfast: plentiful and tasty. Staff very kind and helpful. Excellent location.",
+        "disliked": "We should have stayed longer😉",
+        "country": "Brazil",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-04-20",
+        "rating": 10.0,
+        "liked": "I liked everything. From the comfort to the decor. Staff very attentive and polite.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-04-20",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-19",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Russia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-19",
+        "rating": 8.0,
+        "liked": "Great hotel near the old town, loved the rooftop bar.",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-19",
+        "rating": 9.0,
+        "liked": "Very good location, only a short walk over bridge to historic center. Parking was easy to find mearby. Comfortable.room with a nice bed. Nice sized room and bathroom. Staff was very friendly and helpful.",
+        "disliked": "Breakfast was similar to many in Portugal, but nothing special.",
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-18",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Romania",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-18",
+        "rating": 8.0,
+        "liked": "Excellent welcome and helpful staff for a motorcyclist. The place is well located, rooms very good. Only missing an on-site restaurant!",
+        "disliked": "Offer food service, even if simple.",
+        "country": "France",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-04-18",
+        "rating": 8.0,
+        "liked": "Location",
+        "disliked": "Slow check-in.",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-18",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-17",
+        "rating": 10.0,
+        "liked": "The hotel has it all: pretty, comfortable, clean, centrally located, good service, etc.",
+        "disliked": "It doesn't have a café, but it is surrounded by restaurants.",
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-04-16",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-16",
+        "rating": 10.0,
+        "liked": "Everything, with a public parking area.",
+        "disliked": "Nothing negative. Everything positive.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-15",
+        "rating": 10.0,
+        "liked": "Arrived in the city of the Templars!!! Wow, a wonderful little town with lots of history, great houses and a welcoming atmosphere. The welcome and the service at the hotel were great, the explanations for outings were superb and then the tip for a typical little restaurant!!!! The castle complex and the monastery are impressive. And a small optician's shop in Tomar was so great that I simply bought two frames :-)",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Israel",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Operational performance shows recent declines in occupancy (-7.5%), REVPAR (-8.7%) and TREVPAR (-9.1%) over the 4-week window, which could hurt short-term revenue if the trend continues. Customer sentiment and average rating are strong and improving, which lowers immediate reputational risk but suggests commercial and operational fixes are the priority to stop revenue leakage.",
+    "executive_summary": "Thomar Boutique Hotel receives consistently high guest scores and repeated praise for staff, location, breakfast and comfortable rooms. However, room revenue and occupancy have fallen over the last month while REVPOR is stable, indicating fewer rooms sold rather than weaker per-room revenue. Key managerial priorities are to stop the occupancy/REVPAR decline, address recurring guest requests for on-site food service, eliminate slow check-in friction, preserve the service and product strengths that drive high scores, and recover guest review volume/engagement to protect visibility.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial performance / Occupancy",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Occupancy, REVPAR and TREVPAR declined meaningfully in the last 4 weeks (occupancy -7.55%, REVPAR -8.67%, TREVPAR -9.10%), which reduces total revenue despite stable/improving room-level satisfaction.",
+        "recommended_action": "Immediately run a short diagnostic of distribution and pricing (channel mix, closed allotments, corporate/group pick-up, and last-minute availability). Implement targeted short-term offers and packages to fill near-term gaps (e.g., weekend packages, local staycations, early-bird incentives), amplify direct-booking promotions emphasizing strengths (location, rooftop, breakfast), and review OTA rate parity and availability. Monitor booking pace daily and adjust staffing/rooms-out-of-sale as needed.",
+        "rationale": "Metrics show fewer rooms sold rather than lower room yield per occupied room (REVPOR up slightly), so interventions that stimulate demand/visibility are likely to recover revenue quickly. Promoting unique strengths can convert consideration to bookings."
+      },
+      {
+        "rank": 2,
+        "area": "Food & Beverage offering",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests note the absence of an on-site restaurant or café and explicitly request food service; some guests say the hotel 'doesn't have a café' or request 'offer food service, even if simple.' This may limit ancillary revenue and guest convenience.",
+        "recommended_action": "Conduct a feasibility assessment (costs, space, licensing) to provide basic on-site food service: options include a small café, light-all-day menu, rooftop snack/menu, or structured partnerships/agreements with nearby restaurants plus a room-service/light-bites offering. As a faster short-term measure, extend breakfast service hours or offer an expanded grab-and-go selection and curated local restaurant recommendations or delivery partnerships.",
+        "rationale": "Guests repeatedly call out the lack of food options; providing basic F&B would likely improve guest experience, increase TREVPAR, and reduce friction (especially for guests arriving late or seeking on-site convenience)."
+      },
+      {
+        "rank": 3,
+        "area": "Front desk operations / Check-in process",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "At least one recent guest explicitly reported a 'Slow check-in.', indicating front-desk friction that can lower satisfaction and first impressions.",
+        "recommended_action": "Measure current average check-in time and peak arrival patterns. Implement operational fixes: adjust staff scheduling to cover peak arrival windows, train staff to expedite check-in, introduce express or mobile/pre-arrival check-in and clear signage to reduce queueing. Monitor improvements and guest comments after changes.",
+        "rationale": "Check-in is a high-impact touchpoint. Reducing wait time will improve guest satisfaction and reduce negative mentions that could erode the hotel's strong rating."
+      },
+      {
+        "rank": 4,
+        "area": "Service & product quality preservation",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "High scores are driven by consistent strengths (staff helpfulness, location, breakfast, comfortable rooms). These must be preserved to maintain reputation and convert demand.",
+        "recommended_action": "Continue staff training and recognition programs to sustain service levels; keep breakfast quality and variety (cited as 'excellent' or 'soberbo'), maintain cleanliness and room comfort standards, and protect rooftop bar and parking availability in communications and operations. Use guest feedback to identify any small erosion in service and address quickly.",
+        "rationale": "Many reviews praise the staff, location, breakfast and room comfort; preserving these will sustain high average ratings and support any commercial recovery efforts."
+      },
+      {
+        "rank": 5,
+        "area": "Guest feedback volume & visibility",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "monitoring",
+        "problem": "Number of reviews in the window decreased (~ -11.5%), which may reduce online visibility and weaken future booking conversion if the trend continues.",
+        "recommended_action": "Increase post-stay review solicitations (timed emails, SMS), remind staff to encourage honest reviews at checkout, and monitor review response rates. Track whether review decline is channel- or market-specific and whether review sentiment remains high.",
+        "rationale": "A lower review count can reduce dynamic visibility on OTAs and affect consumer confidence even when ratings are high; proactive solicitation helps maintain volume and current high average rating."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff service and helpfulness",
+        "reason": "Repeated, specific praise across many reviews for attentive, kind and helpful staff is a key driver of high ratings.",
+        "management_implication": "Maintain training, recognition and staffing levels at front desk and guest-facing roles; capture and share exemplary service examples internally."
+      },
+      {
+        "area": "Location / proximity to historic center",
+        "reason": "Multiple reviews cite excellent location and short walk to the historic center and attractions.",
+        "management_implication": "Use location prominently in marketing and guest communications; ensure directions and local recommendations are kept up-to-date."
+      },
+      {
+        "area": "Breakfast quality and variety",
+        "reason": "Several guests describe breakfast as 'excellent', 'plentiful and tasty' and 'soberbo', a recurring positive differentiator.",
+        "management_implication": "Continue breakfast standards and consider modest enhancements (special dishes, extended hours) to convert this strength into higher ancillary spend."
+      },
+      {
+        "area": "Room comfort and cleanliness",
+        "reason": "Guests frequently praise comfort, good beds, and good bathrooms, contributing to strong ratings.",
+        "management_implication": "Preserve housekeeping standards, bedding condition and maintenance schedules to sustain comfort levels."
+      },
+      {
+        "area": "Rooftop bar and parking availability",
+        "reason": "Rooftop bar is noted positively and free/public parking is mentioned as a benefit.",
+        "management_implication": "Keep rooftop amenities operational and ensure parking guidance is clear; feature these in promotions."
+      }
+    ],
+    "limitations": [
+      "Recommendations are based only on the provided metrics and the 20 most recent reviews supplied; 92 reviews exist in the window but only 20 were provided for text analysis.",
+      "The case data shows correlation of performance metrics and guest comments but does not include booking-channel breakdowns, competitor context, historical seasonality, or cost data—so causes of revenue/occupancy decline cannot be determined definitively from supplied information.",
+      "Feasibility of capital changes (e.g., adding a restaurant) requires local cost, space and licensing assessment not available in the case."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business metrics show a moderate but consistent decline in RevPAR, TREVPAR and occupancy while average rating and sentiment remain strong. Review evidence shows several positive strengths (location, cleanliness, friendly staff) but multiple targeted expectation violations and an emerging parking topic. The combination of declining revenue metrics and emerging expectation gaps justifies a moderate overall risk classification.",
+    "executive_summary": "Thomar Boutique Hotel has clear strengths (location, cleanliness, friendly staff, generally positive breakfast) but current evidence points to a small set of targeted frictions that are actionable: (1) an emerging parking/access friction with expectation violations; (2) operational friction at check-in / limited daytime staffing causing slow check-in; (3) repeated guest comments that breakfast is limited relative to expectations; (4) room-level maintenance/housekeeping items (showers, odors, stained carpet, curtains) that warrant inspection; and (5) a business-monitor signal: declining RevPAR and rising expectation–experience gap that should be monitored and diagnostically investigated. Priorities emphasize short-term operational/process fixes and inspections before any capital decisions.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Parking",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests report inconsistent/limited parking availability and unclear parking access; topic is emerging as a negative and has produced expectation violations.",
+        "recommended_action": "Review and clarify parking access policy and guest communication; map actual parking capacity (on‑site and preferred nearby options), confirm whether spaces can be pre-allocated or reserved for arriving guests, and update booking/arrival instructions. If capacity appears insufficient, assess options (partner agreements, signage, clear pre-arrival instructions) before proposing capital changes.",
+        "rationale": "Managerial evidence shows parking is an emerging negative topic with expectation violations (managerial_evidence: positive_with_friction; emerging_negative_weeks=1). Multiple reviews explicitly mention 'no parking' or difficulty finding parking, while others note staff offering an indoor space—indicating inconsistent handling and unmet expectations that affect guest arrival experience."
+      },
+      {
+        "rank": 2,
+        "area": "Staff & check-in process",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Reports of slow check-in and periods with too few staff on duty that increase guest friction despite generally very positive staff feedback.",
+        "recommended_action": "Review front‑desk staffing patterns and check‑in process (peak arrival times, handoffs, documentation) to identify operational fixes (process simplification, cross‑coverage, check‑in communication). Capture check‑in wait instances in a short audit to decide if changes are needed.",
+        "rationale": "Multiple complaints reference 'slow check-in' and 'small number of staff during part of the day' while many reviews praise staff helpfulness—indicating a strong service culture with specific operational friction (expectation violation) rather than a general service weakness."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast / F&B expectation (quality & variety)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Several guests describe the breakfast as 'limited' or 'nothing special' despite many positive comments; this indicates an expectation gap on variety/distinctiveness.",
+        "recommended_action": "Review breakfast offering relative to guest expectations: inventory what is currently provided, collect quick guest feedback on desired variety, and evaluate if small operational changes (timing, signage, minor additions) or repositioning communications could close the perceived gap. If changes require investment, assess cost/benefit before committing.",
+        "rationale": "Breakfast is frequently mentioned positively (18 positive, 2 negative) but there are repeated expectation‑violation comments that breakfast is somewhat limited or could be improved—suggesting targeted enhancements or communication rather than wholesale replacement."
+      },
+      {
+        "rank": 4,
+        "area": "Room maintenance & housekeeping details (showers, odors, carpet, curtains)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Isolated but concrete room-level issues: shower cleaning/protection, a stained carpet, curtain/blackout letting light in, and occasional room odors—these create expectation violations in otherwise clean rooms.",
+        "recommended_action": "Conduct a room inspection sweep and housekeeping process review: verify shower door/protection condition, address carpet staining (assess cleaning vs replacement), check curtain/blackout effectiveness and eliminate odors with deep‑clean where needed. If scope or replacement is required, commission a maintenance assessment before capital decisions.",
+        "rationale": "Managerial evidence lists bathroom condition with an expectation violation (shower side protection). Complaints include 'don’t spend too much time in cleaning the showers', 'carpet stained', 'curtains/blackout let in a lot of light', and 'room smelled a bit'—showing multiple discrete maintenance/housekeeping frictions that reduce expected room quality."
+      },
+      {
+        "rank": 5,
+        "area": "Monitor: Declining RevPAR and rising expectation–experience gap",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "RevPAR, TREVPAR and occupancy show moderate decreasing trends while expectation–experience gap and semantic misalignment have increased overall (though recent single-week reversals exist). This combination suggests monitoring and diagnostic investigation is warranted.",
+        "recommended_action": "Initiate a diagnostic review to understand contributors to revenue decline and rising expectation gap: analyze channel mix, length of stay patterns (emerging topic), guest segmentation, recent booking windows, and align marketing/room descriptions with actual guest experience. Continue tracking RevPAR, occupancy, EXPECTATION_EXPERIENCE_GAP and percentage of operational complaints weekly. Do not assume causality from reviews; use analytics plus qualitative review follow-up.",
+        "rationale": "Business performance: REVPAR_WEEK decreasing (-8.7% over window) and TREVPAR decreasing; experience indicators show EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG increasing (both marked as recent_reversal = true). A priority alert flag is present. These signals justify a monitored diagnostic effort rather than immediate capital or pricing actions."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Very high positive mentions (28 positive, 0 negative); guests repeatedly praise the central location and ease of walking to historic sites.",
+        "management_implication": "Continue to communicate the hotel's central location in marketing and ensure arrival/parking guidance is clear so location remains a differentiator."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "High positive mentions (9 positive, 0 negative); general cleanliness is a clear strength.",
+        "management_implication": "Preserve current housekeeping standards; targeted inspections should resolve isolated issues without changing overall procedures."
+      },
+      {
+        "area": "Staff friendliness/helpfulness",
+        "reason": "Many reviews praise staff (positive_mentions 18) and name specific helpful staff.",
+        "management_implication": "Maintain staff training and recognition; when addressing check‑in friction, preserve the service culture that guests praise."
+      },
+      {
+        "area": "Breakfast (overall positive)",
+        "reason": "High positive mentions (18) though with some expectation friction on variety.",
+        "management_implication": "Retain core breakfast offering while evaluating modest changes to address perceived limited variety."
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of all reviews; prevalence should be validated against full review-window metadata.",
+      "Some trends show recent single-week reversals (expectation gap and emotion entropy); interpret global trends separately from recent movement.",
+      "Evidence identifies the existence of parking friction but does not determine physical capacity, required capital, or precise costs—assessment is needed before capital decisions.",
+      "Business metric declines (RevPAR, TREVPAR) are descriptive signals; the evidence does not establish causal links between specific review topics and revenue changes.",
+      "Staffing/process recommendations are based on review mentions of slow check-in and small staff periods; operational audits are required to confirm scheduling-level solutions."
+    ]
+  }
+}

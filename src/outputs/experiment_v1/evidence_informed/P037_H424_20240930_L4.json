@@ -1,0 +1,257 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Hotel shows clear strengths (location, pools/spa, largely positive staff/service) and solid near-term commercial performance (REVPAR up). However, evidence signals an increasing expectation–experience gap and semantic misalignment plus several recurring guest complaints (room comfort, F&B reservations/pricing and at least one food-hygiene report). The mix of emerging negative topics and expectation violations raises operational and reputational risk that merits prompt attention.",
+  "executive_summary": "Preserve clear strengths (location, pools/spa, broadly positive staff) while addressing a small number of targeted frictions that are driving guest frustration: (1) room comfort (pillows, bedding, air-conditioning/USB issues), (2) restaurant operations and a recorded food-hygiene lapse, (3) clarity of F&B inclusions and drink/pricing communication (complaints about charged water and bottled water not refreshed), (4) breakfast experience at scale (perception of factory-like service and repeat buffet offerings), and (5) reinforce staff/service strengths while remedying isolated service lapses. Prioritize immediate action on food-safety and rapid assessment of room comfort; other items require short-term operational and policy/process reviews.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Restaurant and bar (food safety, reservations, dinner quality)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guests report inconvenient restaurant availability/reservation times, repetitive buffet dinner quality, charged drinks including water (unexpected), and one review reported a caterpillar in a salad (food-hygiene incident). These issues represent expectation violations and include at least one food-safety signal.",
+      "recommended_action": "Immediate: investigate the reported food-hygiene incident and review kitchen/serving hygiene procedures; verify current restaurant opening schedules and reservation allocation to assess whether schedule or capacity changes are needed; review guest-facing communications and menus to ensure pricing/inclusions (drinks/water/credits) are clearly stated. If hygiene or safety gaps are found, take corrective measures and communicate actions to guests. Short-term: review dinner menu variety/timing and restaurant staffing/coverage to reduce buffet repetition and reservation friction.",
+      "rationale": "Multiple guests describe expectation violations around dinner (reservations, pricing, drink policy) and one explicit hygiene complaint (caterpillar in salad). Managerial_evidence shows 8 mentions (7 positive, 5 negative) with emerging_negative and violated_expectation weeks — the positive base does not eliminate the safety and process concerns. Food-safety issues justify immediate attention.",
+      "supporting_evidence": [
+        "managerial_evidence: Restaurant and bar — review_mentions_total 8, positive_mentions 7, negative_mentions 5, has_expectation_violation true, is_emerging_negative true",
+        "complaint_evidence 2024-09-30: 'The buffet dinner could be improved... I found a live caterpillar in my salad.'",
+        "complaint_evidence 2024-09-14: restaurant closures early in week lead to guests rushing to buffet and reservation times don't suit",
+        "complaint_evidence 2024-09-15: 'High price of water at dinner'",
+        "complaint_evidence 2024-09-29: waited up to ten minutes to order a glass of water; expectation that water should be complimentary"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise the restaurants and alternative restaurant options and note overall good food quality (managerial_evidence positive_mentions 7)",
+        "Some guests state restaurants are 'very good' or prefer restaurant options to buffet"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.78
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort (pillows, bedding, air-conditioning, in-room tech)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Repeated guest complaints about uncomfortable pillows and bedding, insufficient or ineffective air-conditioning, and limited/non-working USB ports and lack of an in-room coffee maker. These are persistent expectation violations that affect sleep and perceived 5-star quality.",
+      "recommended_action": "Short-term: perform an inspection/audit of room bedding (pillows/types and bedding condition), air-conditioning performance on a sample of rooms (including rooms in different buildings/floors) and in-room USB/charging points and TV streaming capability. Based on findings, define a remediation plan (replacement/repair or housekeeping/process changes). Communicate interim options to guests (pillow menu/alternatives) while assessment is completed.",
+      "rationale": "Multiple recent complaints across several dates describe the same discomforts (pillows and AC), and managerial_evidence marks this area as net_negative with expectation violation and emerging_negative. The recurring nature across rooms suggests a hotel-level operational or maintenance issue that needs inspection before prescribing capital investment.",
+      "supporting_evidence": [
+        "managerial_evidence: Room comfort — review_mentions_total 2, positive_mentions 0, negative_mentions 2, has_expectation_violation true, is_emerging_negative true",
+        "complaint_evidence 2024-10-01: 'The bedding needs to be changed; it's impossible to sleep properly.'",
+        "complaint_evidence 2024-09-30: 'Uncomfortable pillows... one huge, too high, and the other too low.'",
+        "complaint_evidence 2024-09-09: 'Rooms need to have better air-conditioning and softer pillows.'",
+        "complaint_evidence 2024-09-24: 'Pillows were not comfortable', and 2024-09-09 also notes USB port not working and no coffee maker"
+      ],
+      "positive_counterevidence": [
+        "No positive mentions recorded for room comfort in managerial_evidence (positive_share 0.0), but the hotel has other strong attributes that mitigate overall dissatisfaction"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Clarity of F&B pricing and inclusions (bottled water, dinner drink policy, restaurant credit)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report unclear expectations about what F&B items are included (e.g., bottled water in-room, water/coffee at dinner) and how dinner credits work; several guests expected complimentary water and felt surprised/upset when charged or when bottles were not refreshed.",
+      "recommended_action": "Review and, if needed, clarify guest-facing descriptions of half-board/dinner inclusions, restaurant credit rules, and in-room bottled water policy across booking channels, front-desk scripts, and in-room materials. Train F&B and front-desk staff to proactively communicate inclusions at check-in and when taking dinner reservations. Consider simple operational fixes (e.g., clear signs, menu notes) and monitor guest feedback.",
+      "rationale": "Multiple independent complaints state unexpected charges for water or lack of daily bottled water and express a perception gap for a 5-star property. Managerial_evidence lists 'dinner drinks policy' and 'restaurant credit' among matched topics, and reviews include expectation violations related to pricing and inclusions.",
+      "supporting_evidence": [
+        "managerial_evidence: Restaurant and bar — matched_topics include 'dinner drinks policy', 'dinner pricing', 'restaurant credit'",
+        "complaint_evidence 2024-09-09: bottled water given only on first day and not refreshed; guest surprised this was not daily",
+        "complaint_evidence 2024-09-29: expected a glass of water to be free at dinner and reported delays ordering water",
+        "complaint_evidence 2024-09-25: 'Not having bottles of water in the room every day!' and 2024-09-15: 'High price of water at dinner'"
+      ],
+      "positive_counterevidence": [
+        "Some guests value the option to exchange dinner for lunch and appreciate the 15-euro per-person credit option for other restaurants (presented as a positive alternative)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "semantic_misalignment_score_avg"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.72
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast experience (scale/ambience and buffet variety)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although breakfast is frequently praised for quality (eggs to order, variety), some guests perceive the breakfast room as impersonal/over-large ('like a factory') and others note expectations around in-room coffee makers versus teapots; there are also comments tying buffet repetition across dinner and breakfast.",
+      "recommended_action": "Review breakfast room flow, seating mix and signage to reduce 'factory' feel where feasible (layout/ambience tweaks). Evaluate breakfast service mix (allocation of cooked-to-order stations) to ensure visible quality and consider options to reduce perceived repetitiveness. Ensure in-room beverage amenities are consistently described in pre-arrival materials and on-room information.",
+      "rationale": "Managerial_evidence shows 9 mentions with a positive majority but meaningful negative feedback (positive_with_friction). Preserving breakfast quality while addressing scale/ambience perception should improve guest experience and reduce expectation violations.",
+      "supporting_evidence": [
+        "managerial_evidence: Breakfast — review_mentions_total 9, positive_mentions 6, negative_mentions 5, has_expectation_violation true",
+        "complaint_evidence 2024-09-15: 'The breakfast room is huge; it's really like a factory.'",
+        "complaint_evidence 2024-09-30 and others praise breakfast quality (eggs cooked to order)"
+      ],
+      "positive_counterevidence": [
+        "Several guests explicitly praise breakfast quality and variety (e.g., 'breakfast is great', 'excellent')"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.62
+    },
+    {
+      "rank": 5,
+      "area": "Staff and service (preserve strength; address isolated service lapses)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Staff and service are a clear strength (many positive mentions), but isolated incidents (e.g., rudeness at spa, slow restaurant service to bring water) are emerging and have contributed to guest frustration.",
+      "recommended_action": "Preserve and reinforce service strengths via recognition of high-performing teams. Conduct targeted coaching or process reviews where isolated negative interactions occurred (spa reception interactions, restaurant service timing for water/orders). Ensure front-line staff have clear scripts and escalation paths for common expectation queries (inclusions, reservations, housekeeping requests).",
+      "rationale": "Managerial_evidence shows strong positive balance for staff (7 positive, 1 negative) but also marks an emerging expectation violation. Addressing isolated lapses with targeted coaching should protect the hotel's main service differentiator without overhauling systems.",
+      "supporting_evidence": [
+        "managerial_evidence: Staff and service — review_mentions_total 7, positive_mentions 7, negative_mentions 1, has_expectation_violation true, is_emerging_negative true",
+        "complaint_evidence 2024-09-16: 'The lady at the spa was very rude when we were looking for the indoor pool.'",
+        "complaint_evidence 2024-09-09: generally positive comments on multilingual and helpful staff but notes around laundry/dryer issues handled by receptionist"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise attentive, friendly staff and five-star service standard"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "polarization_index",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently positive mentions (6 positive, 0 negative) praising location and direct sea access.",
+      "management_implication": "Maintain marketing emphasis on location and ensure upkeep of access/wayfinding; avoid operational changes that reduce direct sea access or guest-facing convenience."
+    },
+    {
+      "area": "Spa and pool (outdoor saline pools and views)",
+      "reason": "High positive share (7 positive, 1 negative) with multiple compliments on pools, ocean access and facilities.",
+      "management_implication": "Preserve pool and spa operational standards and guest experience; prioritize any scheduled maintenance outside peak guest times to avoid disruption."
+    },
+    {
+      "area": "Staff and service (overall)",
+      "reason": "Strongly positive (7 positive, 1 negative) with many guests noting attentive and friendly staff.",
+      "management_implication": "Recognize and reinforce service behaviors; use as anchor for guest recovery when operational frictions occur."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "This metric is increasing and aligns with multiple expectation-violation reports; monitoring will show whether interventions reduce the gap.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Increasing misalignment suggests marketing/communication may not match actual experience (e.g., inclusions, restaurant availability); monitor to detect improvement after clarifications.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and AVG_RATING (weekly)",
+      "reason": "Sentiment is trending down and avg rating recently showed a reversal; track to ensure the overall guest sentiment stabilizes post interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS (F&B and rooms subcategories)",
+      "reason": "Operational complaints for F&B and rooms are the primary actionable complaints in this window; use to detect whether targeted fixes reduce complaint frequency.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic and not statistically representative of all guests; prevalence should be verified using full review dataset.",
+    "Managerial recommendations are evidence-bounded; where scope or root cause is unclear (e.g., whether pillows are an isolated inventory issue or a systematic bedding standard problem, whether AC failures are localized vs systemic), assessments/inspections are recommended before committing to capital works.",
+    "Some interventions require cross-departmental evaluation (F&B pricing/inclusion policy, housekeeping processes, engineering inspections) and additional operational detail that is not present in the supplied evidence.",
+    "No causal claims are made between complaints and commercial metrics (RevPAR/occupancy); observed commercial trends are reported but not used as causal evidence.",
+    "Selected complaint examples were used to illustrate patterns; they should not be treated as exhaustive evidence of all guest experiences."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P037",
+    "case_id": "H424_20240930_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:28:56.497020+00:00",
+    "finished_at_utc": "2026-09-08T16:30:09.034178+00:00",
+    "elapsed_seconds": 72.541
+  }
+}

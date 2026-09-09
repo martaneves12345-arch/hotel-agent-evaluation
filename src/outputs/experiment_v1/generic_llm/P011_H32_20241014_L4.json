@@ -1,0 +1,169 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Occupancy remains very high but average rating and TREVPAR have declined and several recent reviews cite repeat operational and maintenance issues (lift, coffee machine, unclear fees, inconsistent front-desk information, small/ worn rooms, limited pool space). These issues are producing guest inconvenience and may further depress ratings if not addressed, but core strengths (friendly staff, breakfast, location) reduce immediate critical risk.",
+  "executive_summary": "Priorities are: (1) fix front-desk / guest-communication failures (misinformation about picnic, car key, paid billiards, safe charges); (2) address maintenance safety/quality issues (lift call buttons, breakfast coffee machine) and create a room-repair plan for worn rooms; (3) clarify and review ancillary charges and disclosures (in-room safe, paid billiards); (4) manage rooftop/pool capacity and guest flow; (5) preserve strengths—friendly staff, good breakfast, central location and cleanliness—while monitoring metrics. Actions should combine immediate repairs and short-term procedural fixes with a medium-term maintenance/refurbishment plan. Monitor guest complaints and review text for recurrence of specific issues.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Front-desk operations & guest communication",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Multiple reviews report inconsistent or incorrect information from reception (wrong picnic pickup instructions, reception not taking rental-car keys, undisclosed paid billiards); this causes guest inconvenience and dissatisfaction.",
+      "recommended_action": "Implement standardized front-desk procedures and scripts for common guest interactions (early departures/picnic packages, rental car key handling, disclosure of paid services). Run short focused training/briefing sessions for all reception staff. Add clear signage and confirmation email text describing where to collect picnic packages, who holds rental-car keys, and which hotel services are charged.",
+      "rationale": "Several independent reviews cite the same class of operational failures. Standardizing information and training will reduce recurrence and is low-cost with immediate guest-impact improvement.",
+      "supporting_evidence": [
+        "Review (2024-10-13): Received wrong information about picnic package pickup; had to ask multiple receptionists to learn correct location.",
+        "Review (2024-10-18): Reception does not take rental-car key after return; guest must wait for rent-a-car staff.",
+        "Review (2024-10-19): Billiards table is paid for and this was not informed at the start of the game."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Maintenance & immediate equipment safety",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Reports of non-functional lift call buttons and a breakfast-room coffee machine that 'fails sometimes' indicate maintenance issues that affect guest experience and may pose safety or service continuity risks. Multiple comments also note worn room conditions.",
+      "recommended_action": "Request immediate technical inspection of the elevator (lift call/buttons) and arrange expedited repair. Replace or service the breakfast coffee machine (or provide backup equipment). Open a short-term maintenance ticket list for rooms identified as 'worn' and create a prioritized room refurbishment plan (patch/paint/upholstery replacement) for the medium term.",
+      "rationale": "Lift problems can be a safety/regulatory issue and directly affect guest mobility; coffee machine failures reduce perceived breakfast quality; room condition comments lower ratings. Rapid corrective action will address safety exposure and protect guest satisfaction.",
+      "supporting_evidence": [
+        "Review (2024-10-14): 'Lift call buttons not working'.",
+        "Review (2024-10-19): 'The coffee machine in the breakfast room could be improved; it fails sometimes.'",
+        "Review (2024-10-14): 'The room was a bit worn but clean and nice!'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Ancillary pricing & fee transparency",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report surprise or dissatisfaction with separate charges (in-room safe, paid billiards) which were not clearly communicated in advance.",
+      "recommended_action": "Review how ancillary fees are presented on the hotel website and all OTA/confirmation communications and at check-in. Add clear signage in rooms and at reception listing paid items and prices. Consider a commercial decision to include the safe complimentary in the room rate or offer a clear value communication to reduce negative perception.",
+      "rationale": "Unexpected fees repeatedly appear in guest comments and can disproportionately affect perceived value and ratings; clearer disclosure or bundling can reduce complaints and improve satisfaction.",
+      "supporting_evidence": [
+        "Review (2024-10-18): 'The in-room safe is charged separately, despite the not insignificant cost of the room.'",
+        "Review (2024-10-19): 'Billiards table is paid for and this was not informed at the start of the game.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Pool/rooftop capacity & guest flow",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests note limited room around the rooftop pool and small room sizes; rooftop is important to guests (panoramic view, evening entertainment) but space constraints reduce comfort.",
+      "recommended_action": "Conduct a quick on-site assessment of pool deck layout and seating. Implement operational measures such as designated sitting zones, clearer signage, staff-managed seating during peak times or a simple reservation/time-slot system for peak hours. Explore low-cost additions (folding chairs, umbrellas) to increase usable space. Monitor impact before considering capital changes.",
+      "rationale": "Small investments and operational controls can improve guest comfort and perception of the rooftop amenity without heavy capex. Reviews show rooftop/pool is a valued asset but constrained.",
+      "supporting_evidence": [
+        "Review (2024-10-18): 'The rooftop pool - often with evening entertainment - is extremely useful...'",
+        "Review (2024-10-16): 'Not much room round the pool. The room was quite small.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Preserve and promote core service strengths",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Average rating declined in the period despite multiple positive mentions of staff friendliness, breakfast, location and cleanliness; these strengths should be preserved to limit further rating deterioration.",
+      "recommended_action": "Continue staff recognition and service training, maintain breakfast quality and variety, promote the central location and rooftop view in marketing, and keep cleanliness standards. Collect targeted positive feedback prompts at check-out to encourage more reviews when guests are satisfied.",
+      "rationale": "Multiple reviews praise staff, breakfast and location — sustaining these will keep the hotel's competitive advantage while other issues are remediated.",
+      "supporting_evidence": [
+        "Review (2024-10-19): 'The whole team was fantastic, helpful, especially Luís. The breakfast has quality and variety.'",
+        "Review (2024-10-13): 'The buffet breakfast is well organised... The room was a good size... Staff were friendly and welcoming.'",
+        "Multiple reviews praise location, breakfast, friendly staff and cleanliness."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff friendliness & helpfulness",
+      "reason": "Multiple reviews explicitly praise reception and staff by name; staff behaviour is a consistent positive in reviews.",
+      "management_implication": "Maintain training, recognition and staffing levels to preserve service quality; leverage staff as part of guest-issue resolution (e.g., proactively explain procedures)."
+    },
+    {
+      "area": "Breakfast quality & variety",
+      "reason": "Several reviews cite good/buffet breakfast, well organised with items refreshed.",
+      "management_implication": "Maintain breakfast variety and service standards; ensure backup equipment (coffee machine) is reliable to protect this strength."
+    },
+    {
+      "area": "Central location & rooftop/panoramic view",
+      "reason": "Many guests highlight location and rooftop as major positives for city stays.",
+      "management_implication": "Promote location and rooftop in marketing; manage rooftop operations to sustain positive experience."
+    },
+    {
+      "area": "Cleanliness and luggage storage service",
+      "reason": "Reviews note rooms and public areas are clean and that luggage storage is offered free-of-charge.",
+      "management_implication": "Preserve housekeeping standards and free luggage policy as part of value proposition."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average guest rating (weekly)",
+      "reason": "Direct measure of guest satisfaction trends.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews per week and percent 9-10 ratings",
+      "reason": "Track guest willingness to recommend and detect change in sentiment volume.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Count of front-desk related complaints (misinformation, picnic/key/fees)",
+      "reason": "Measures success of communication/process fixes.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Maintenance ticket volume and mean time-to-resolution for elevator/coffee machine/room repairs",
+      "reason": "Tracks responsiveness to maintenance issues and safety-related assets.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of complaints about unexpected charges (safe, billiards)",
+      "reason": "Monitors transparency improvements and guest perception of value.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest mentions of 'pool/rooftop' space or crowding in reviews",
+      "reason": "Tracks whether operational measures improve rooftop/pool experience.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Analysis is based only on the 20 most recent reviews provided and summary performance metrics; 34 reviews were available in the window but not all text was supplied.",
+    "Cannot infer causality between guest feedback and changes in financial or operational KPIs (RevPAR, TREVPAR, occupancy).",
+    "Some issues (extent of lift malfunction, full scope of room wear, financial impact of changing safe policy) require on-site assessment or financial data not provided here."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H32_20241014_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P011",
+    "case_id": "H32_20241014_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:53:27.205897+00:00",
+    "finished_at_utc": "2026-09-08T15:53:57.555775+00:00",
+    "elapsed_seconds": 30.348
+  }
+}

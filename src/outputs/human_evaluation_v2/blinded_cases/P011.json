@@ -1,0 +1,384 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P011",
+  "case_information": {
+    "case_id": "H32_20241014_L4",
+    "decision_week": "2024_W42",
+    "window_start": "2024-09-23",
+    "window_end": "2024-10-20",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 79.17586704738633,
+        "REVPOR_WEEK": 159.2170325966851,
+        "TREVPAR_WEEK": 117.99579653633684,
+        "TAXA_OCUPACAO": 99.45054945054946,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 8.142857142857142
+      },
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 87.62466189213083,
+        "REVPOR_WEEK": 183.44275517241377,
+        "TREVPAR_WEEK": 113.90844685565868,
+        "TAXA_OCUPACAO": 95.6043956043956,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 8.200000000000001
+      },
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 84.48127123055006,
+        "REVPOR_WEEK": 175.20488945868942,
+        "TREVPAR_WEEK": 104.20714501424496,
+        "TAXA_OCUPACAO": 96.42857142857144,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.571428571428571
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 86.81489314120721,
+        "REVPOR_WEEK": 153.33949660056652,
+        "TREVPAR_WEEK": 105.796681847897,
+        "TAXA_OCUPACAO": 96.97802197802196,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 7.7
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-10-20",
+        "rating": 5.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-20",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Australia",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 10.0,
+        "liked": "The hotel is excellent, well located and with all the necessary amenities for an excellent holiday in Funchal. The whole team was fantastic, helpful, especially Luís. The breakfast has quality and variety.",
+        "disliked": "Only the coffee machine in the breakfast room could be improved; it fails sometimes. The billiards table is paid for and this was not informed at the start of the game, only at the end. Otherwise impeccable.",
+        "country": "Germany",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-18",
+        "rating": 8.0,
+        "liked": "Very central location for staying in Funchal, a few dozen metres from the “salotto” of Via Arriaga and the Aerobus stop. The rooftop pool - often with evening entertainment - is extremely useful in a city practically without beaches. The very comfortable three-person orthopedic bed in the junior suite is very convenient; it also has two small enclosed verandah balconies with a garden view for pleasant relaxation without needing to go out in the evening.",
+        "disliked": "The in-room safe is charged separately, despite the not insignificant cost of the room. They have a trusted car rental with delivery and return of the vehicle to the hotel but — unlike other hotels with the same service — the reception does not take the key once the rental is concluded, and you have to wait for the rent-a-car staff to arrive.",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-16",
+        "rating": 8.0,
+        "liked": "The rooftop bar.",
+        "disliked": "Not much room round the pool. The room was quite small.",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-16",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-15",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Netherlands",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 9.0,
+        "liked": "Good breakfast, super friendly staff,",
+        "disliked": "The room was a bit worn but clean and nice!",
+        "country": "Sweden",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 8.0,
+        "liked": "Room and public areas were all clean and well maintained.",
+        "disliked": "Lift call buttons not working",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-13",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-13",
+        "rating": 8.0,
+        "liked": "The breakfast, the tranquility in the room, the decoration, the pool and above all the panoramic view.",
+        "disliked": "I received the wrong information about the picnic package to pick up on the day of our return at 6 a.m.; it was only after the third receptionist that we were told it had to be collected at the bar on the 5th floor. My friend, as a precaution, wanted to make sure it was at the ground-floor reception on the morning of departure, which was false — we would have left with nothing.",
+        "country": "France",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-13",
+        "rating": 10.0,
+        "liked": "Location is in a quiet area close to a park and within a short walk to the City Centre. The buffet breakfast is well organised with easy access for food and drinks. Each item was refreshed when needed. The room was a good size with a kettle and water supplied in addition to the normal hotel facilities. Staff were friendly and welcoming.",
+        "disliked": "There was nothing to complain about.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-10",
+        "rating": 7.0,
+        "liked": "Reception, location, cleanliness.",
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-09",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-08",
+        "rating": 9.0,
+        "liked": "Super friendly staff and top location",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-08",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-05",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-03",
+        "rating": 9.6,
+        "liked": "Very good breakfast. Very comfortable bed.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-01",
+        "rating": 9.0,
+        "liked": "Very good location, right in the city center. Good breakfast with a large selection. You can leave your luggage at the reception free of charge, both before and after the end of your stay. I recommend this hotel.",
+        "disliked": "No remarks.",
+        "country": "Poland",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Reviews show clear strengths (location, breakfast, friendly staff) but rising negative signals (PERC_REVIEWS_NEGATIVE up to 50%, declining sentiment) and several emerging, service-facing frictions (car-rental key handling, undisclosed billiards charge, coffee-machine reliability, limited pool space). Business metrics are mixed (REVPAR up but sentiment and some revenue metrics down), so vulnerabilities merit targeted action rather than emergency escalation.",
+    "executive_summary": "Preserve strong location, breakfast offering and staff friendliness while addressing a small set of operational/policy frictions that are generating expectation violations and emerging negative mentions. Priorities: (1) staff/process fixes around third-party services and paid-amenity disclosure, (2) ensure breakfast reliability (coffee machine + pickup/communication), (3) assess pool capacity/guest expectations, (4) clarify safe/price-value inclusions across channels, (5) immediate repair of lift call buttons and address dated/cleanliness perceptions as needed.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Staff and service (car-rental key handling; paid-amenity communication)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report inconsistent reception handling of third-party car-rental returns (requiring guests to wait for rental staff) and lack of transparent upfront disclosure about paid billiards usage/charges.",
+        "recommended_action": "Review and standardise front-desk procedures for handling third-party services (e.g., whether reception will accept/retain rental car keys on return). Update front-desk scripts and booking/arrival communications to ensure paid-amenity charges (billiards) are disclosed before use. Train reception staff to give consistent pickup/location instructions for ancillary services (e.g., picnic pick-up).",
+        "rationale": "Multiple recent reviews describe the same operational friction (car-rental key handling) and expectation violations around paid billiards charges and pick-up instructions. Underlying service strength (friendly staff) means a targeted policy/process and training fix can preserve the strength while removing specific friction."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast (coffee machine reliability and pickup/communication)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Breakfast is a clear strength but guests report occasional coffee-machine failures and at least one instance of inconsistent instructions about ancillary picnic-package pickup.",
+        "recommended_action": "Inspect/maintain the breakfast-room coffee machine(s) and put a simple contingency (backup machine/process) and staff checklist in place. Clarify and document the picnic/packed-breakfast pickup process in front-desk and bar teams to ensure consistent guest information at check-out.",
+        "rationale": "Breakfast receives frequent positive mentions (quality/variety), but recurring mentions of coffee-machine reliability and miscommunication about pickup create expectation violations that can erode a core strength if unaddressed."
+      },
+      {
+        "rank": 3,
+        "area": "Spa and pool (limited pool space / capacity)",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "mixed",
+        "problem": "Guests value the rooftop pool but report limited space around the pool (crowding/insufficient seating/room), an emerging negative topic.",
+        "recommended_action": "Assess rooftop-pool capacity and guest expectations: review layout, seating availability, peak use patterns and guest communications about pool size. Implement short-term operational steps (signage, usage guidance, booking/rotation if appropriate) and only consider capital changes after an assessment.",
+        "rationale": "Pool is repeatedly praised as an important amenity (useful in a city without beaches), yet multiple guests report 'not much room round the pool'. The issue is emerging and may require either operational management or, if structural, a capital assessment — start with a focused evaluation."
+      },
+      {
+        "rank": 4,
+        "area": "Price–value (in-room safe charged separately / disclosure)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest expected an in-room safe to be included at the room price and reported it as a negative expectation violation.",
+        "recommended_action": "Review how the in-room safe is presented across booking channels, the website and at check-in; if the safe is chargeable, ensure clear disclosure pre-booking and at check-in. Evaluate whether current messaging aligns with the price positioning and guest expectations and adjust communications or policy accordingly.",
+        "rationale": "Although this is a single explicit complaint, it represents a clear expectation violation about inclusions. The issue concerns perceived value for money and is straightforward to address through clearer disclosure and messaging before considering any pricing policy change."
+      },
+      {
+        "rank": 5,
+        "area": "Maintenance and safety of facilities (lift call buttons; dated/cleanliness perceptions)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests report non-functioning lift call buttons and some perceptions of the hotel being dated (which can be interpreted as cleanliness/maintenance concern). Malfunctioning lift controls impact guest convenience and may be a safety/instant-fix maintenance issue.",
+        "recommended_action": "Immediate technical inspection and repair of lift call buttons. Conduct a brief maintenance/housekeeping checklist review to confirm there are no systematic cleanliness issues (respond to the 'dated/appears dirty' perception) and correct any maintenance items identified.",
+        "rationale": "Lift call buttons not working is a concrete operational/maintenance fault reported in the window (2024-10-14) and should be addressed immediately. A dated appearance comment (2024-09-28) combined with mixed cleanliness mentions suggests a quick housekeeping/maintenance check to ensure standards are consistently met."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently positive mentions (8 mentions in managerial evidence; positive_share 1.0). Guests repeatedly cite very central location and easy access to city centre.",
+        "management_implication": "Preserve current positioning and continue to highlight location in guest communications and booking channels."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "High volume of positive mentions praising quality and variety (9 positive mentions; managerial evidence indicates a clear strength).",
+        "management_implication": "Maintain breakfast offering and monitor the coffee-machine reliability issue to keep this as a differentiator."
+      },
+      {
+        "area": "Staff friendliness",
+        "reason": "Multiple reviews and managerial evidence note friendly, helpful staff (staff & service positive mentions = 7).",
+        "management_implication": "Preserve through staff recognition and targeted training addressing the specific communication inconsistencies identified."
+      }
+    ],
+    "limitations": [
+      "Complaint sample is diagnostic (11 substantive complaints selected) and not fully representative of all guest feedback; prevalence judgments should rely on full review-window metadata.",
+      "Some issues are supported by single-review evidence (e.g., in-room safe charge); such items should be treated as expectation signals requiring confirmation before large interventions.",
+      "The evidence identifies operational/policy frictions and perceived maintenance/dating; it does not establish required capital scope or costs — assessments are recommended where scope is unclear (pool capacity, potential refurbishment).",
+      "Trend signals (e.g., PERC_OPERATIONAL_COMPLAINTS recent_reversal) must be interpreted separately from overall direction; some metrics show recent reversal while others remain deteriorating."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Occupancy remains very high but average rating and TREVPAR have declined and several recent reviews cite repeat operational and maintenance issues (lift, coffee machine, unclear fees, inconsistent front-desk information, small/ worn rooms, limited pool space). These issues are producing guest inconvenience and may further depress ratings if not addressed, but core strengths (friendly staff, breakfast, location) reduce immediate critical risk.",
+    "executive_summary": "Priorities are: (1) fix front-desk / guest-communication failures (misinformation about picnic, car key, paid billiards, safe charges); (2) address maintenance safety/quality issues (lift call buttons, breakfast coffee machine) and create a room-repair plan for worn rooms; (3) clarify and review ancillary charges and disclosures (in-room safe, paid billiards); (4) manage rooftop/pool capacity and guest flow; (5) preserve strengths—friendly staff, good breakfast, central location and cleanliness—while monitoring metrics. Actions should combine immediate repairs and short-term procedural fixes with a medium-term maintenance/refurbishment plan. Monitor guest complaints and review text for recurrence of specific issues.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front-desk operations & guest communication",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Multiple reviews report inconsistent or incorrect information from reception (wrong picnic pickup instructions, reception not taking rental-car keys, undisclosed paid billiards); this causes guest inconvenience and dissatisfaction.",
+        "recommended_action": "Implement standardized front-desk procedures and scripts for common guest interactions (early departures/picnic packages, rental car key handling, disclosure of paid services). Run short focused training/briefing sessions for all reception staff. Add clear signage and confirmation email text describing where to collect picnic packages, who holds rental-car keys, and which hotel services are charged.",
+        "rationale": "Several independent reviews cite the same class of operational failures. Standardizing information and training will reduce recurrence and is low-cost with immediate guest-impact improvement."
+      },
+      {
+        "rank": 2,
+        "area": "Maintenance & immediate equipment safety",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Reports of non-functional lift call buttons and a breakfast-room coffee machine that 'fails sometimes' indicate maintenance issues that affect guest experience and may pose safety or service continuity risks. Multiple comments also note worn room conditions.",
+        "recommended_action": "Request immediate technical inspection of the elevator (lift call/buttons) and arrange expedited repair. Replace or service the breakfast coffee machine (or provide backup equipment). Open a short-term maintenance ticket list for rooms identified as 'worn' and create a prioritized room refurbishment plan (patch/paint/upholstery replacement) for the medium term.",
+        "rationale": "Lift problems can be a safety/regulatory issue and directly affect guest mobility; coffee machine failures reduce perceived breakfast quality; room condition comments lower ratings. Rapid corrective action will address safety exposure and protect guest satisfaction."
+      },
+      {
+        "rank": 3,
+        "area": "Ancillary pricing & fee transparency",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report surprise or dissatisfaction with separate charges (in-room safe, paid billiards) which were not clearly communicated in advance.",
+        "recommended_action": "Review how ancillary fees are presented on the hotel website and all OTA/confirmation communications and at check-in. Add clear signage in rooms and at reception listing paid items and prices. Consider a commercial decision to include the safe complimentary in the room rate or offer a clear value communication to reduce negative perception.",
+        "rationale": "Unexpected fees repeatedly appear in guest comments and can disproportionately affect perceived value and ratings; clearer disclosure or bundling can reduce complaints and improve satisfaction."
+      },
+      {
+        "rank": 4,
+        "area": "Pool/rooftop capacity & guest flow",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests note limited room around the rooftop pool and small room sizes; rooftop is important to guests (panoramic view, evening entertainment) but space constraints reduce comfort.",
+        "recommended_action": "Conduct a quick on-site assessment of pool deck layout and seating. Implement operational measures such as designated sitting zones, clearer signage, staff-managed seating during peak times or a simple reservation/time-slot system for peak hours. Explore low-cost additions (folding chairs, umbrellas) to increase usable space. Monitor impact before considering capital changes.",
+        "rationale": "Small investments and operational controls can improve guest comfort and perception of the rooftop amenity without heavy capex. Reviews show rooftop/pool is a valued asset but constrained."
+      },
+      {
+        "rank": 5,
+        "area": "Preserve and promote core service strengths",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Average rating declined in the period despite multiple positive mentions of staff friendliness, breakfast, location and cleanliness; these strengths should be preserved to limit further rating deterioration.",
+        "recommended_action": "Continue staff recognition and service training, maintain breakfast quality and variety, promote the central location and rooftop view in marketing, and keep cleanliness standards. Collect targeted positive feedback prompts at check-out to encourage more reviews when guests are satisfied.",
+        "rationale": "Multiple reviews praise staff, breakfast and location — sustaining these will keep the hotel's competitive advantage while other issues are remediated."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff friendliness & helpfulness",
+        "reason": "Multiple reviews explicitly praise reception and staff by name; staff behaviour is a consistent positive in reviews.",
+        "management_implication": "Maintain training, recognition and staffing levels to preserve service quality; leverage staff as part of guest-issue resolution (e.g., proactively explain procedures)."
+      },
+      {
+        "area": "Breakfast quality & variety",
+        "reason": "Several reviews cite good/buffet breakfast, well organised with items refreshed.",
+        "management_implication": "Maintain breakfast variety and service standards; ensure backup equipment (coffee machine) is reliable to protect this strength."
+      },
+      {
+        "area": "Central location & rooftop/panoramic view",
+        "reason": "Many guests highlight location and rooftop as major positives for city stays.",
+        "management_implication": "Promote location and rooftop in marketing; manage rooftop operations to sustain positive experience."
+      },
+      {
+        "area": "Cleanliness and luggage storage service",
+        "reason": "Reviews note rooms and public areas are clean and that luggage storage is offered free-of-charge.",
+        "management_implication": "Preserve housekeeping standards and free luggage policy as part of value proposition."
+      }
+    ],
+    "limitations": [
+      "Analysis is based only on the 20 most recent reviews provided and summary performance metrics; 34 reviews were available in the window but not all text was supplied.",
+      "Cannot infer causality between guest feedback and changes in financial or operational KPIs (RevPAR, TREVPAR, occupancy).",
+      "Some issues (extent of lift malfunction, full scope of room wear, financial impact of changing safe policy) require on-site assessment or financial data not provided here."
+    ]
+  }
+}

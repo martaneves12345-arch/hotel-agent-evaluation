@@ -1,0 +1,379 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P019",
+  "case_information": {
+    "case_id": "H413_20240610_L4",
+    "decision_week": "2024_W24",
+    "window_start": "2024-05-20",
+    "window_end": "2024-06-16",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W21",
+        "week_date": "2024-05-20",
+        "REVPAR_WEEK": 110.44404624740682,
+        "REVPOR_WEEK": 278.88966204287533,
+        "TREVPAR_WEEK": 140.99099475572572,
+        "TAXA_OCUPACAO": 73.08755760368663,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 8.5
+      },
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 103.0903184662338,
+        "REVPOR_WEEK": 242.8191977997801,
+        "TREVPAR_WEEK": 141.43136064587134,
+        "TAXA_OCUPACAO": 83.77880184331798,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 8.538461538461538
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 124.21102042309236,
+        "REVPOR_WEEK": 295.54427221597314,
+        "TREVPAR_WEEK": 162.1177136913532,
+        "TAXA_OCUPACAO": 82.02764976958525,
+        "N_REVIEWS": 21.0,
+        "AVG_RATING": 8.714285714285714
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 110.2589757269641,
+        "REVPOR_WEEK": 284.972060526316,
+        "TREVPAR_WEEK": 148.75595530868992,
+        "TAXA_OCUPACAO": 77.14285714285715,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.5
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-06-16",
+        "rating": 7.0,
+        "liked": "Central location",
+        "disliked": "We went half board breakfast was good but dinner was not very good choices",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-15",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-15",
+        "rating": 3.0,
+        "liked": "Staff was helpful",
+        "disliked": "Old, nasty building",
+        "country": "Israel",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 10.0,
+        "liked": "everything as usual",
+        "disliked": "Hotter pots of Tea",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Saudi Arabia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-13",
+        "rating": 9.0,
+        "liked": "Very good breakfast.",
+        "disliked": "Pillow.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-12",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-12",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-11",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Denmark",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-11",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-11",
+        "rating": 7.0,
+        "liked": "Localização",
+        "disliked": "Old hotel, even renovated it doesn't have much comfort.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-10",
+        "rating": 5.0,
+        "liked": "The lobby was good",
+        "disliked": "The rooms were below par. Definitely needed an upgrade",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-06-10",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-10",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-06-09",
+        "rating": 10.0,
+        "liked": "Friendly and helpful staff, spotless and great food",
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-08",
+        "rating": 2.0,
+        "liked": "Bar staff/ breakfast staff were extremely and helpful, and that is the only positive thay can be drawn from this experience.",
+        "disliked": "I had spent up to €1600+ on a standard bedroom for 8 nights, including all extras (air con) only to discover it didn't work. When I complained a technician was asked to investigate and confirmed the air con was blowing out warm air on the conditioning function and that I should change rooms. The manager was informed, and they told me what there were no other rooms available. I decided to use this website to see if there was rooms available. Low and behold there was several rooms available. I approached the manager, informed him of this and that I wanted to change room to be met by his rude, short and unprofessional manner. Eventually I got to change rooms, only to discover that in this new room, that there was stale urine in the toilet, the sink was dirty, and the bedside lockers sticky. Disappointed and disgusted with this hotel!",
+        "country": "Ireland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-08",
+        "rating": 9.0,
+        "liked": "Thought was excellent value for money. Staff were polite and welcoming. Waiter service at pool a nice extra.",
+        "disliked": "The only thing that would make this a perfect stay would be to have mattresses on the sun beds as they weren’t very comfortable after a short while.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-08",
+        "rating": 9.0,
+        "liked": "The hotel's breakfast.",
+        "disliked": "The surroundings are just buildings.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-08",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-06-08",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Average sentiment is declining and emotional complexity is increasing while a cluster of operational and maintenance complaints (room comfort, bathroom cleanliness, pests, and dinner choices) have emerged recently. However staff, breakfast and location remain clear strengths that reduce immediate business risk. Issues include hygiene and a functioning air-conditioning complaint that warrant prompt attention.",
+    "executive_summary": "Key strengths: staff/service, breakfast, and location remain highly rated in reviews. Key vulnerabilities: (1) room comfort (AC failures, bed/pillow comfort, room hygiene) shows net-negative and expectation-violation signals and requires immediate operational/maintenance attention; (2) housekeeping/room-readiness processes (room cleanliness, sticky surfaces, missed sanitation) need a targeted short-term review to prevent repeat hygiene issues; (3) guest safety/quiet enjoyment concerns (reports of drunk guests making sleep difficult) should be addressed promptly; (4) food & beverage — specifically dinner menu/choices — is an emerging friction requiring short-term menu/offer review; (5) building condition and pest reports (old furniture, mosquitoes/small flies) suggest a medium-term maintenance/pest-control assessment. Recommendations prioritize immediate remediation of guest-facing hygiene and AC failures, short-term process reviews (housekeeping, F&B offerings), and a medium-term appraisal of building condition and pest control. Preserve staff and breakfast strengths while monitoring sentiment and operational complaint share.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort (AC, bed/pillow configuration, in-room hygiene)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Guests reported non-functioning air conditioning (blowing warm air), uncomfortable bed configurations/pillows, and serious in-room hygiene failures (stale urine, dirty sink, sticky furniture). These complaints include expectation violations and an emerging negative signal.",
+        "recommended_action": "Immediate operational response: prioritize inspection and repair of reported AC units and a targeted audit of recent room-cleaning and room-assignment processes. Expedite guest-room readiness checks for arriving/changing guests. Where hygiene or functioning amenities are compromised, ensure rooms are taken out of service until cleaned/repaired and consider temporary room-change protocols. Record and escalate recurring failures to maintenance for diagnostic and remedial action.",
+        "rationale": "AC failure and visible hygiene issues are concrete, guest-impacting failures that produced low ratings and explicit expectation violations. The problem is both operational (room readiness) and maintenance-related (AC function), so the hotel should act immediately to prevent further guest harm and complaints."
+      },
+      {
+        "rank": 2,
+        "area": "Housekeeping & room-readiness processes (cleanliness, inspection)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although cleanliness is generally positive, there are specific and serious hygiene complaints (e.g., stale urine, dirty sink, sticky bedside lockers) indicating failures in room check/cleaning procedures or quality control.",
+        "recommended_action": "Review housekeeping procedures and room-release checklist; implement/refresh pre-check standards for room handover (including toilet/sink cleanliness and surface stickiness). Provide focused retraining or refresher briefings for housekeeping staff and consider an audit/spot-check schedule to verify compliance. Track room-readiness failure incidents and escalate repeat issues for managerial review.",
+        "rationale": "Managerial evidence shows a predominantly positive cleanliness record but with violated expectations. The explicit hygiene examples (stale urine) are severe for guest experience and warrant targeted process correction rather than broad condemnation of housekeeping."
+      },
+      {
+        "rank": 3,
+        "area": "Guest safety / nighttime noise & security (reports of drunken guests disturbing sleep)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "At least one review reports security concerns and intoxicated guests preventing restful nights, indicating a potential threat to guest safety and sleep quality.",
+        "recommended_action": "Review nighttime security and quiet-enforcement procedures immediately. Evaluate staffing/rotation of security presence during peak hours, clarify policies for managing intoxicated or disruptive guests, and ensure front-desk/staff escalation paths are clear. Log incidents and, where appropriate, increase visible deterrence and enforcement until patterns are evaluated.",
+        "rationale": "Although the frequency in the sample is limited, complaints about drunks and security directly affect guest safety and sleep and therefore justify prompt operational review."
+      },
+      {
+        "rank": 4,
+        "area": "Restaurant / dinner choices (dinner menu options)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Dinner choices have surfaced as an emerging negative topic with some guests on half-board noting limited dinner options.",
+        "recommended_action": "Review dinner menu variety and guest feedback for half-board guests. Conduct a short review with F&B management to confirm whether menu rotation, portioning, or communication of half-board inclusions meets guest expectations. Consider a targeted short-term menu adjustment or clearer communication about dinner options while monitoring guest feedback.",
+        "rationale": "Managerial evidence shows the restaurant is overall positive but dinner choices are an emerging friction. This is primarily a service/offer design issue rather than an urgent safety or maintenance problem."
+      },
+      {
+        "rank": 5,
+        "area": "Building condition & pest control (old furniture, mosquitoes, small flies)",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews comment on an 'old' building, dated furniture and the presence of mosquitoes or small flies, suggesting recurring pest and refurbishment concerns that affect perceived comfort.",
+        "recommended_action": "Commission a medium-term assessment: (a) a pest-control inspection and treatment plan, and (b) a hotel-condition and furniture/fixtures review to identify priority refurbishment needs. Do not recommend capital works without assessment; first gather scope, frequency, and cost estimates.",
+        "rationale": "Several reviews mention age/condition and insects (mosquitoes, small flies). This appears recurrent across the window and affects guest comfort; it calls for inspection and planned maintenance rather than immediate capital spend without scope definition."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "High positive mentions (20 positive, 1 negative) and repeated guest praise for friendliness, helpfulness and personalized service.",
+        "management_implication": "Continue empowering staff to resolve guest issues and use staff strengths for effective on-the-spot recovery when operational/maintenance issues arise."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "Clear strength in guest comments (12 positive mentions, strong positive_share 0.857).",
+        "management_implication": "Maintain breakfast quality and communicate it as a guest-value point; ensure kitchen staffing/supply continuity while addressing dinner/menu issues separately."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Strongly positive in reviews (17 positive, 0 negative) and repeatedly praised by guests.",
+        "management_implication": "Preserve and market the property's central location; when implementing operational changes (e.g., security or parking adjustments), ensure they do not reduce perceived access benefits."
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of the full review set for the window; prevalence should be validated against complete review metadata.",
+      "The evidence identifies issues (e.g., AC failure, pests, hygiene) but does not provide technical scope, root-cause diagnostics, or cost estimates; recommendations to assess or inspect are therefore necessary before capital decisions.",
+      "Some areas overlap (room comfort, bathroom condition, housekeeping); where scope is unclear, further operational analysis is required to avoid duplicated efforts.",
+      "Recent business metrics show mixed signals (some recent reversals). Trend context should be considered when timing interventions."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Average guest rating fell sharply from 8.5 to 7.5 (-11.8%) during the window and multiple recent reviews cite serious cleanliness and maintenance problems (including a detailed complaint about an unclean room and broken air conditioning). However occupancy and TREVPAR are increasing and many reviews praise staff, breakfast and location, so reputation issues appear addressable if acted on promptly.",
+    "executive_summary": "Key issues from recent guest feedback are: (1) serious lapses in room cleanliness, (2) room maintenance and comfort problems (AC, dated rooms, mattresses), (3) a specific complaint about poor complaint-handling/manager behaviour, and (4) limited dinner choices. Strengths to preserve are friendly/helpful staff, very good breakfast, central location, lobby and pool service. Priorities focus on urgent remediation of hygiene and service-recovery, short-term maintenance fixes and a menu/food review to prevent further rating declines.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room cleanliness and housekeeping standards",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Multiple reviews describe unclean rooms (stale urine in toilet, dirty sink, sticky bedside lockers) and at least one very negative guest experience that indicates a failure of housekeeping quality control.",
+        "recommended_action": "Immediately launch an internal deep-clean audit of occupied and vacant rooms (focus on recently complained rooms), re-clean affected rooms, implement mandatory pre-check room inspections, increase random spot inspections by supervisors, retrain housekeeping on cleaning checklists and handover procedures, and temporarily increase housekeeping staffing/shift overlap if needed to meet standards. Offer affected guests apology and appropriate compensation and document corrective actions.",
+        "rationale": "The reviews contain detailed hygiene complaints that risk further rating declines and reputational damage; immediate visible action (audit, re-clean, compensation) reduces repeat negative reviews and restores guest trust."
+      },
+      {
+        "rank": 2,
+        "area": "Room maintenance and comfort (AC, furnishings, general condition)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests report non-functioning air conditioning (blowing warm air), old/dated rooms and lack of comfort (beds/pillows, sun-loungers without mattresses). One guest paid a high rate and experienced an AC failure and subsequent room issues.",
+        "recommended_action": "Open a prioritized maintenance log for HVAC failures and inspect all rooms for AC performance; repair or replace faulty units immediately and provide temporary remedies (fans, priority room moves) while fixing. Audit room furnishings (mattresses, pillows, sunbed cushions) and create a phased refurbishment and replacement plan (prioritize rooms with repeated complaints). Track costs and schedule capital/operational spend accordingly.",
+        "rationale": "Maintenance failures directly affect guest comfort and generate low ratings; fixing AC and addressing basic comfort items is likely to improve guest ratings and reduce complaints."
+      },
+      {
+        "rank": 3,
+        "area": "Guest complaint handling and front-office service recovery",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "A guest reports being handled rudely and unprofessionally by management when requesting a room change; that interaction exacerbated an already serious accommodation problem.",
+        "recommended_action": "Review and reinforce complaint-handling protocols with front-office and management staff (including escalation pathways and empowerment to offer immediate room changes or compensation). Provide short customer-service refresher training focused on empathy and de-escalation. Institute a monitoring mechanism (record of formal complaints and manager responses) and follow up with guests who reported issues to attempt recovery.",
+        "rationale": "Even when operational issues occur, professional and empathetic handling reduces negative reviews and guest escalation; one recent review explicitly links poor manager behaviour to a negative outcome."
+      },
+      {
+        "rank": 4,
+        "area": "Food & beverage — dinner quality and variety",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "At least one guest reports that half-board dinner choices were not very good; contrast with multiple positive comments about breakfast.",
+        "recommended_action": "Conduct a quick review of the dinner menu and guest usage/feedback (collect recent dinner satisfaction data), consider adding variety or theme nights, improve communication of dinner options to guests on half-board, and solicit in-stay feedback from guests to test menu changes.",
+        "rationale": "Breakfast is a clear strength; improving dinner can lift overall F&B satisfaction and guest ratings for half-board stays."
+      },
+      {
+        "rank": 5,
+        "area": "Guest comfort details (pillows, sun-loungers, small amenity improvements)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "mixed",
+        "problem": "Guests reported discomfort with pillows and lack of sunbed mattresses; multiple minor comfort issues reduce perceived value.",
+        "recommended_action": "Introduce a pillow-menu or extra pillow options, replace worn pillows, and procure cushions/mattresses for pool sunbeds. Communicate these small improvements to guests and staff to increase perceived comfort quickly.",
+        "rationale": "Relatively low-cost improvements that address repeated small complaints can boost guest satisfaction without major capital expense."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff helpfulness and friendliness",
+        "reason": "Numerous reviews explicitly praise staff as helpful, polite and welcoming; staff are cited as a positive even by guests who had other issues.",
+        "management_implication": "Preserve staffing approach and reinforce training; recognize and reward staff to maintain morale during remediation work."
+      },
+      {
+        "area": "Breakfast quality",
+        "reason": "Multiple positive comments cite 'very good breakfast' and 'fabuloso pequeno-almoço' in hotel amenities.",
+        "management_implication": "Avoid changes that reduce breakfast quality; use breakfast strength in marketing and cross-sell when improving dinner."
+      },
+      {
+        "area": "Location and lobby/pool experience",
+        "reason": "Guests frequently note the central location, good lobby and pool service (pool waiter praised).",
+        "management_implication": "Preserve guest-facing public areas and pool service standards; use these strengths to offset room limitations while rooms are being refurbished."
+      }
+    ],
+    "limitations": [
+      "Only 20 of 62 reviews from the decision window were provided; the sample may not represent all recent feedback.",
+      "No internal operational data (housekeeping staffing levels, maintenance logs, complaint logs) or financial constraints were supplied, so recommended remedial actions should be validated against available resources.",
+      "Cannot determine the prevalence of the reported problems across all rooms or how many guests were affected beyond the supplied reviews."
+    ]
+  }
+}

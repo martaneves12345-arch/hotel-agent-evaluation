@@ -1,0 +1,256 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business signals show declining RevPAR and TREVPAR with a recent partial reversal, and average sentiment has declined substantially. However several clear strengths (location, cleanliness, staff, breakfast) are consistently positive. Emerging negative mentions (bathroom/shower, parking, drying space) increase short-term operational risk and warrant targeted action.",
+  "executive_summary": "Preserve clear strengths (location, cleanliness, staff, breakfast). Address a small set of emerging guest frictions that are starting to appear in reviews: bathroom/shower usability, lack of parking availability or clarity, limited in-room drying options for towels/swimsuits, bed-size suitability for larger guests, and occasional traffic noise. Most issues are low-frequency but repeatable and customer-visible; start with short-term operational and communication fixes plus assessments where scope/cost is uncertain (parking, bed inventory, bathroom retrofit).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition (shower usability)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report shower fixtures that are not comfortable for some (shower head too high / not adjustable); this has appeared as an emerging negative topic.",
+      "recommended_action": "Inspect the affected bathroom fixtures (shower head and controls) to determine whether an adjustable/accessible shower head or simple fixture adjustment can resolve guest discomfort. If inspection shows minor maintenance can fix the issue, schedule prompt repairs. If structural work may be required, commission an assessment and cost estimate before committing to capital work. Meanwhile, update internal guest-facing notes for staff to help guests who report shower problems (alternative rooms, assistance).",
+      "rationale": "An explicit guest complaint about the shower being 'too high' / 'wasnt adjustable' is present and flagged as an emerging negative in managerial evidence. The issue directly affects guest comfort and has straightforward remediation paths (inspection, minor maintenance or retrofit). Evidence volume is limited but specific.",
+      "supporting_evidence": [
+        "2024-09-08 (rating 9.0): \"The shower was too high for me and it wasnt adjustable.\""
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise room cleanliness and comfort (rooms bright and clean; comfortable bed). These positive comments indicate general room condition is good aside from the isolated shower complaint."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: shower/bathroom",
+          "SENTIMENT_SCORE_AVG decreasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 2,
+      "area": "Parking (availability / guest information)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported not seeing a parking space for a rental car; parking appears as an emerging negative topic and may create expectation gaps for guests who arrive by car.",
+      "recommended_action": "Review how parking availability is communicated in the hotel listing and pre-arrival information. Compile and publish clear guidance for guests: nearest public parking options, paid lots, recommended drop-off points, and any partner/validated parking if available. If demand for dedicated parking appears recurrent, commission a feasibility assessment of local options (partnerships, reserved spaces) before any capital commitment.",
+      "rationale": "Parking appears as an emerging negative in managerial evidence and in a recent guest comment. The issue could be structural (lack of on-site parking) and affects some guests' trip planning; clarifying expectations and exploring local options can reduce negative experiences without immediate capital outlay.",
+      "supporting_evidence": [
+        "2024-09-25 (rating 10.0): \"I didn't see a parking space for a rental car. That wasn't a problem for me since I didn't have one.\""
+      ],
+      "positive_counterevidence": [
+        "Several reviews highlight the hotel's central location and convenience, which mitigates some guests' need for on-site parking."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: parking",
+          "REVPAR_WEEK decreasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 3,
+      "area": "In-room drying space for towels/swimsuits",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests noted there is no place in rooms to dry towels or swimsuits, which is a recurring expectation for travelers visiting swimming areas.",
+      "recommended_action": "Assess feasibility of low-cost, in-room or common-area drying solutions (e.g., racks or designated drying space in a common area). If physical changes are needed beyond small fixtures, obtain cost/feasibility information. Meanwhile, add clear pre-arrival information advising guests about current drying options and whether towels/swimsuits can be hung in rooms or in a common space.",
+      "rationale": "This topic appears multiple times across reviews (explicit requests for towel/swimsuit drying). The issue affects convenience for a segment of guests (swimmers) and can be addressed with modest operational changes or communication. Evidence is repeated across reviews, increasing diagnostic relevance.",
+      "supporting_evidence": [
+        "2024-09-17 (rating 9.0, fr): \"Lack of space to put towels or a swimsuit to dry them.\"",
+        "2024-09-08 (rating 10.0): \"I missed a place in the rooms where we could dry wet towels/swimsuits...\"",
+        "2024-09-08 (rating 9.0): positive context includes references to swimming opportunities on the island, implying drying needs."
+      ],
+      "positive_counterevidence": [
+        "Guests consistently praise the cleanliness and well-equipped shared kitchen; several reviewers described rooms as bright and clean, suggesting the issue is specific to drying facilities rather than overall room condition."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: room amenities",
+          "PERC_REVIEWS_NEGATIVE fluctuating"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "Room comfort — bed size suitability for larger guests",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported beds being 'too small for a big guy' while other guests report beds as comfortable. This indicates a segment-specific fit issue and/or expectation mismatch about bed dimensions.",
+      "recommended_action": "Inventory bed types and sizes by room and evaluate whether larger-bed options exist or can be offered. Update room descriptions to clarify bed sizes to manage expectations. If evidence from broader reviews/operations shows repeated complaints by larger guests, consider an assessment of whether some rooms can be adapted or whether alternative bedding options are feasible.",
+      "rationale": "Managerial evidence shows a mixed pattern (several positive and negative mentions) specifically referencing bed comfort and bed size suitability. Because the underlying strength (comfortable beds reported by many guests) is strong, this is a positive-with-friction issue: preserve the underlying comfort while clarifying/mitigating the size mismatch for some guests.",
+      "supporting_evidence": [
+        "2024-09-25 (rating 8.0): \"Disliked: Beds were too small for a big guy\"",
+        "2024-09-09 (rating 9.0): positive context: \"Comfortable bed.\"",
+        "2024-09-08 (rating 9.0): positive context: \"The single room was silent, clean, with a comfy bed.\""
+      ],
+      "positive_counterevidence": [
+        "Multiple reviewers explicitly describe beds as comfortable and rooms as spacious in some cases; managerial evidence shows 3 positive and 3 negative mentions for room comfort."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "Room comfort (managerial evidence: mixed mentions)",
+          "PERC_OPERATIONAL_COMPLAINTS decreasing (operational complaints overall are declining)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Traffic noise (sound isolation)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Several guests noted traffic noise is audible in rooms; for some this is only minor (with window closed 'barely audible'), but others flag it when seeking a very quiet room.",
+      "recommended_action": "Review room assignment and guest communication policies to identify and prioritize quieter rooms for guests who request them. Update listing and pre-arrival information to state that central-city rooms may experience traffic noise and offer guidance on quieter room choices where available. Consider simple operational measures (e.g., room placement guidance) and monitor whether noise complaints persist before considering capital soundproofing measures.",
+      "rationale": "There are multiple mentions of traffic noise across reviews, but many reviews still describe rooms as quiet or comfortable. This is a positive-with-friction issue where expectation management and room allocation can reduce friction without immediate capital work.",
+      "supporting_evidence": [
+        "2024-09-21 (rating 9.0): \"You can hear the traffic when you're in the room. If you're looking for a super quiet room, choose a hotel located further out the city centre.\"",
+        "2024-09-09 (rating 9.0): \"Traffic noise - with the window closed barely audible.\""
+      ],
+      "positive_counterevidence": [
+        "Some reviews describe the single room as 'silent' and praise overall room comfort; overall cleanliness and comfort are consistently positive."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "SENTIMENT_SCORE_AVG decreasing",
+          "EMOTION_ENTROPY increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.65
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently positive mentions (9 positive, 0 negative) describing central, convenient location.",
+      "management_implication": "Continue to highlight central location in marketing and pre-arrival information; leverage location strength when advising guests about parking and noise trade-offs."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Uniformly positive mentions (9 positive, 0 negative) indicating guests consistently find rooms clean.",
+      "management_implication": "Maintain current housekeeping standards and ensure new operational changes (drying racks, bathroom inspection) preserve cleanliness levels."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Positive mentions (5 positive, 0 negative) praising helpfulness (late check-in, friendly staff).",
+      "management_implication": "Empower staff with clear guidance and guest-information scripts to address the emerging frictions (parking guidance, drying options, shower assistance)."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Majority-positive evidence (7 positive, 1 negative) with guests calling breakfast delicious and ample.",
+      "management_implication": "Preserve menu quality and service; if pantry/space adjustments are made (drying racks, fixtures), ensure breakfast area is not negatively affected."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "RevPAR is decreasing over the window with a recent partial reversal; continue monitoring to detect whether interventions correlate with stabilization.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Average sentiment has declined notably; useful to monitor for changes after addressing guest frictions and communications.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EMERGING_NEGATIVE_TOPIC: parking / bathroom / room amenities",
+      "reason": "These topics appeared as emerging negatives in the latest window; track frequency to determine whether problems are isolated or growing.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints share has been decreasing in the window; monitor to ensure it does not rise after changes or as seasonality evolves.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Expectation gap metrics are low but can flag if new changes introduce misalignment; monitor if listing/communication changes are made.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Emerging negative topics (bathroom, parking, room amenities) are based on a small number of reviews; prevalence across all guests is uncertain.",
+    "Selected complaint examples are diagnostic and not statistically representative of the full review set; use the full-review metadata for prevalence estimates.",
+    "Evidence does not specify technical scope or cost for potential fixes (e.g., shower retrofit, dedicated parking); recommendations calling for investment are framed as assessments rather than prescriptions.",
+    "The link between review evidence and business metrics (RevPAR, sentiment) is correlational in this dataset; no causal claims are made."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P017",
+    "case_id": "H247_20240923_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:01:56.005918+00:00",
+    "finished_at_utc": "2026-09-08T16:02:56.263745+00:00",
+    "elapsed_seconds": 60.251
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest feedback shows repeated service and product-quality issues (food hygiene incident, buffet quality, restaurant service, bedding comfort, and in-room maintenance problems). These are currently affecting guest satisfaction but hotel commercial metrics (RevPAR, RevPOR) and average rating are stable to improving. The live caterpillar report raises an immediate food-safety concern deserving urgent attention.",
+  "executive_summary": "The property is highly valued for location, sea-view pools, breakfast, and generally friendly staff. Key recurring negative themes in recent reviews are: (1) a food-safety incident and buffet quality/repetition, (2) restaurant service and guests being charged for water/confusion over included items, (3) uncomfortable pillows/bedding affecting sleep, (4) room amenity and maintenance faults (TV streaming, USB ports, AC, laundry dryer), and (5) inconsistent spa service and poor indoor-pool signage plus restaurant opening schedules that create buffet crowding. Priorities focus on immediate food-safety investigation and corrective action, clarifying and adjusting F&B policy and service standards, replacing/upgrading bedding, targeted room maintenance, and frontline staff training/signage improvements.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Food safety and buffet quality",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "A guest reported finding a live caterpillar in a salad; multiple guests say the buffet dinner quality is poor or repetitive.",
+      "recommended_action": "Immediately initiate a food-safety investigation (kitchen audit of hygiene and procedures), isolate the affected service instance, review supplier and produce handling, retrain kitchen/front-of-house on hygiene controls, escalate corrective actions as required, and implement tighter QC checks for buffet items. In parallel, refresh buffet menus more frequently or rotate items to reduce repetition and communicate these improvements to guests.",
+      "rationale": "A visible food-safety failure threatens guest health and the hotel's reputation. Even a single reported event requires immediate root-cause analysis and corrective actions. Improving buffet variety addresses repeated guest dissatisfaction with dinner offerings.",
+      "supporting_evidence": [
+        "“At a lunch at Sabor a Mar I found a live caterpillar in my salad.”",
+        "Multiple reviews mention: “The buffet dinner could be improved; over the course of a week it becomes repetitive.”",
+        "Reviews describing dinner buffet as “not good” and “repetitive.”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Restaurant service and F&B policy (water & included items)",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Multiple guests complain about being charged for water at dinner, unclear half-board inclusions, and slow restaurant service (waits up to 10 minutes to order). These issues create a perception of poor value for a five-star property.",
+      "recommended_action": "Review and clarify the half-board and F&B pricing policy; consider providing complimentary tap water at dinner (or clear signage and pre-check-in information if policy remains). Train restaurant staff on prompt table service and standard response times for ordering. Ensure front desk and booking channels communicate what is and is not included in packages.",
+      "rationale": "Ambiguity about what is included (water, drinks) plus slow service aggravates guests' value perception and can disproportionately affect reviews. Clear policy and improved service speed are operational changes with immediate effect on guest satisfaction.",
+      "supporting_evidence": [
+        "“You had to pay for water at the dinner buffet!!!! The food at the dinner buffet was not good.”",
+        "“If you pay €300 to stay, you expect that a glass of water at dinner is given for free. Sometimes we had to wait up to ten minutes to order a glass of water.”",
+        "Multiple mentions that water in-room was only for first day and not replenished daily."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Bedding and pillows (sleep comfort)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Several guests report uncomfortable pillows and bedding that impair sleep (pillows too high/low, bedding needs changing).",
+      "recommended_action": "Perform an audit of pillows/mattresses across room inventory, implement a pillow menu and immediate pillow swaps at guest request, budget for phased replacement of poor-quality pillows/mattress toppers, and institute a housekeeping check to confirm bedding condition between stays.",
+      "rationale": "Sleep comfort is a core expectation at a 5-star property; repeated complaints directly affect perceived quality and repeat business. A pillow-menu/quick swaps provide fast relief while a replacement plan addresses the root cause.",
+      "supporting_evidence": [
+        "“The bedding needs to be changed; it's impossible to sleep properly.”",
+        "“Uncomfortable pillows on the bed: one huge, too high, and the other too low.”",
+        "“Pillows were not comfortable.”",
+        "“Rooms need to have ... softer pillows.”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Room amenities & maintenance (AC, TV streaming, USB ports, laundry dryer, coffee provision)",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report in-room maintenance and amenity issues: TV does not allow streaming, limited or non-working USB ports, air-conditioning could be better, no coffee maker (only teapot), and a dryer that does not dry.",
+      "recommended_action": "Implement a room-functionality checklist to be completed at housekeeping/maintenance handover; prioritize repairs of USB ports, TV streaming capability and AC performance. Evaluate adding in-room coffee makers or clearly communicate the tea/coffee setup and replenish bottled water policy. Repair or replace broken laundry dryers in self-service area.",
+      "rationale": "These are tangible, fixable defects that impact guest convenience and the 5-star expectation. Many fixes are operational/technical and will improve guest satisfaction quickly.",
+      "supporting_evidence": [
+        "“The room TV does not allow streaming.”",
+        "“Only 2 usb ports and one wasn't working.”",
+        "“Rooms need to have better air-conditioning and softer pillows.”",
+        "“They gave us a bottle of water in the room when we checked in, but after that it wasn't refreshed... it's only for 1st day.”",
+        "“the drier never dried from 1st time... receptionist knows about that problem.”",
+        "“They have a teapot in the room, but not a coffee maker.”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 5,
+      "area": "Service consistency and signage (spa staff, indoor pool signage, restaurant opening schedules)",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Reports of rude/unhelpful spa staff and poor signage to the indoor pool; inconsistent restaurant openings early in the week lead to crowding at buffet and guest inconvenience.",
+      "recommended_action": "Provide targeted customer-service training for spa and F&B staff, improve directional/signage to indoor-pool facilities, publish and communicate restaurant opening schedules and reservation rules to guests (booking confirmation, reception and on-site notices), and manage half-board allocations to reduce buffet overcrowding when restaurants are closed.",
+      "rationale": "Staff attitude and clear wayfinding materially affect guest experience. Better communication of restaurant availability reduces crowding and unmet expectations. Training and signage are relatively low-cost with quick impact.",
+      "supporting_evidence": [
+        "“The lady at the spa was very rude when we were looking for the indoor pool... Indoor pool is small and bit at the door better signage would be good.”",
+        "“With one of the restaurants closed at the beginning of the week... everyone rushes to the buffet when only 1–2 restaurants are open.”",
+        "“Majority of staff friendly and helpful.” (indicates training can focus on specific pockets)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and views",
+      "reason": "Multiple guests praise the hotel's location, ocean access, and views from higher floors.",
+      "management_implication": "Preserve room categories with ocean views, maintain outdoor areas and access to the sea as prime selling points."
+    },
+    {
+      "area": "Pools and outdoor facilities",
+      "reason": "Saltwater infinity pools and pool area repeatedly praised and a major driver of positive feedback.",
+      "management_implication": "Continue pool maintenance and presentation; prioritize pool-side guest experience (cleanliness, service, lifeguard/wellness presence)."
+    },
+    {
+      "area": "Breakfast offering and general food quality in a la carte restaurants",
+      "reason": "Breakfast is repeatedly described as excellent; several guests praise on-site restaurants despite buffet concerns.",
+      "management_implication": "Maintain breakfast standards and the quality of a la carte restaurants while addressing buffet and water/pricing issues."
+    },
+    {
+      "area": "Friendly staff (overall)",
+      "reason": "Many reviews highlight attentive and helpful staff; this is a key human differentiator for the property.",
+      "management_implication": "Preserve staff engagement through recognition/training; use friendly teams to help manage change communications (e.g., explaining inclusions)."
+    },
+    {
+      "area": "Free parking and resort facilities",
+      "reason": "Free parking, gym/classes, spa and family-friendly pool features are appreciated.",
+      "management_implication": "Ensure these amenities remain well-maintained and clearly communicated as benefits to guests."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of food-safety / hygiene complaints per week",
+      "reason": "Direct measure of any repeat food-hygiene issues after corrective actions.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Buffet dinner satisfaction score (from surveys or review sentiment)",
+      "reason": "Tracks perceived improvement in buffet quality and variety.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of complaints about paying for water / clarity of included items",
+      "reason": "Monitors whether policy communication or changes reduce guest confusion and dissatisfaction.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average restaurant table wait time to order (minutes)",
+      "reason": "Operational metric tied to service speed complaints (guests reported waits up to 10 minutes).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number / percentage of rooms flagged for pillow/mattress replacement or guest pillow-change requests",
+      "reason": "Monitors progress of bedding remediation program.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Room-maintenance defect backlog (open repairs for AC/TV/USB/dryer) and mean time to repair",
+      "reason": "Measures effectiveness of maintenance interventions.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of spa/indoor-pool service complaints and signage-related comments",
+      "reason": "Tracks impact of staff training and signage improvements.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average rating (window) and number of negative comments mentioning core issues",
+      "reason": "Higher-level outcome metric to confirm whether operational fixes improve guest sentiment.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Analysis is based only on the 20 reviews provided (most recent in the decision window); these may not represent the full guest population or frequency of issues across all stays.",
+    "No internal operational records, incident logs, or detailed F&B/maintenance checklists were available—recommendations presume accuracy of guest reports but require hotel verification.",
+    "Performance metrics supplied are high-level (RevPAR, RevPOR, TREVPAR, occupancy, average rating) and cannot be causally linked to review content; this report does not infer causation.",
+    "Some issues may be localized to particular room blocks or dates (e.g., a single food-safety event); further internal investigation is needed to determine scope and root causes."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H424_20240930_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P037",
+    "case_id": "H424_20240930_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:28:20.746193+00:00",
+    "finished_at_utc": "2026-09-08T16:28:56.481872+00:00",
+    "elapsed_seconds": 35.745
+  }
+}

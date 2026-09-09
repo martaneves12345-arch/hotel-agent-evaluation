@@ -1,0 +1,254 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Location and staff remain clear strengths, but multiple emerging and expectation-violating issues (bathroom condition with mold/plumbing, breakfast value/quality, housekeeping noise/process, in-room fridge/coffee, street noise/no blinds) increase negative reviews and expectation gap metrics. The bathroom reports include potential health-related evidence (mold), elevating urgency for that area.",
+  "executive_summary": "Preserve strong location and generally positive staff/cleanliness while addressing four customer-experience frictions that are driving expectation gaps and rising negative mentions. Immediate action is recommended for bathroom condition (possible mold/plumbing issues). Short-term reviews and operational fixes are recommended for breakfast inclusions/quality and housekeeping noise/process adherence. Evaluate in-room fridges and blinds/sound issues as they may require capital assessment before committing to changes. Monitor sentiment and expectation-gap metrics for signs of improvement.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple guest reports of old plumbing, slow drainage and visible black mold; mentions of water escaping from showers/shower curtain issues — potential health, hygiene and maintenance safety concern.",
+      "recommended_action": "Initiate immediate inspection of affected bathrooms (plumbing, drainage, mold presence). If inspection confirms mold or unsafe plumbing, arrange remediation/repairs and deep-cleaning. Log affected rooms, temporarily remove from sale if necessary until cleared, and communicate findings/actions to management. After inspection, determine whether short-term repairs suffice or whether a capital plan is needed.",
+      "rationale": "Complaints describe visible black mold and slow drainage — these are hygiene/safety-relevant and are flagged as an emerging negative topic (shower curtain). Evidence pattern is net-negative with expectation violation; prompt inspection is needed before prescribing repairs or capital work.",
+      "supporting_evidence": [
+        "2024-07-10: \"The bathroom plumbing is old; the bathwater drains very slowly. There is black mold on the bathroom floor.\"",
+        "Managerial evidence: matched topics include \"bathroom plumbing\", \"no water leakage from the shower\", \"shower curtain\" and is marked as an emerging_negative topic."
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence records 2 positive mentions for Bathroom condition (some guests gave neutral/positive comments about rooms overall)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: shower curtain",
+          "increasing_expectation_gap",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast / price–value expectations",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests express expectation violations around breakfast inclusion and breakfast quality (desire for fresh orange juice and better coffee). Some perceive the rate as expensive relative to the breakfast offering.",
+      "recommended_action": "Review how breakfast is positioned and communicated on booking channels (included vs optional). Operationally review breakfast quality components (coffee machine output, availability of real orange juice or clear alternatives) and consider low-cost service or communication changes to better align guest expectations with the product offering.",
+      "rationale": "Multiple guests commented that breakfast quality or inclusion did not match expectations; this area has substantial mention volume and is contributing to the growing expectation–experience gap metric while overall breakfast sentiment remains mixed-to-positive, indicating an underlying strength with specific frictions to address.",
+      "supporting_evidence": [
+        "2024-07-27 (es): \"Too expensive to not even include breakfast in the price, which is based on a very limited free buffet.\"",
+        "2024-07-27 (fr): \"We'd like real orange juice at breakfast... for 7.5 euros for breakfast, you can't ask for the moon either.\"",
+        "2024-07-08 (de): \"The coffee from the machine was poor.\""
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence records 8 positive mentions and several reviews praising breakfast as varied or very good."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 8,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "HIGH_MISALIGNMENT_SHARE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.72
+    },
+    {
+      "rank": 3,
+      "area": "Housekeeping process & staff noise (quiet mornings / DND adherence)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "While staff are described as friendly, there are recurring complaints about being woken by staff chatting outside doors and vacuuming at 9:30am, and at least one reported failure to clean a room with a subsequent contested housekeeping note — this indicates process adherence and scheduling issues affecting guest rest and trust.",
+      "recommended_action": "Review housekeeping schedules and staff areas of operation to minimize early-morning noise (confirm quiet-hours policy). Audit housekeeping DND/cleaning request procedures and records for recent incidents; retrain staff on DND compliance and communication standards. Investigate the reported case of an unmade bed and the note claiming the card was not placed.",
+      "rationale": "Multiple recent complaints cite noise from staff and housekeeping timing; one complaint alleges a housekeeping service failure and contested note. These are operational/policy issues that can be addressed via process review and training without immediate capital investment.",
+      "supporting_evidence": [
+        "2024-07-28: \"Being woke up on a Sunday by Staff chatting outside door. Vacuuming rooms next door at 9:30am... Very disappointed.\"",
+        "2024-07-27 (es): \"They didn't make our bed on the second day of our stay nor did they clean the room... shortly after complaining they left a note in the room saying that we hadn't placed the card to have the room cleaned properly, which was a lie.\""
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence: Staff and service has 18 positive mentions describing staff as friendly and helpful; cleanliness/housekeeping overall has 9 positive mentions."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 18,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC present for staff",
+          "increasing_emotion_entropy (emotional heterogeneity rising)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "In-room amenities (bar fridge / in-room coffee)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests requested in-room fridges and coffee (not only tea), especially during hot weather; absence of fridges is causing friction for some guests.",
+      "recommended_action": "Assess demand and operational feasibility for providing in-room fridges or alternative guest solutions (e.g., small fridges for specific room types, rental, or clear pre-arrival communication). If evidence suggests structural demand, proceed to cost/space assessment before committing to capital purchase.",
+      "rationale": "Several guests explicitly noted the lack of a mini-fridge and only tea in rooms; this is lower-frequency but recurring and could require capital if adopted. Rules require assessment before recommending capital investment.",
+      "supporting_evidence": [
+        "2024-07-14: \"No bar fridge - the weather was extremely hot... only tea was available in the room.\"",
+        "2024-07-28: \"Missed having a fridge in the room. My mistake for not checking.\""
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence shows 3 positive mentions for in-room amenities (some guests may have been satisfied)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "season: High",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Room comfort (street noise, blinds, room size)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "capital_assessment",
+      "problem": "Guests report street noise (rooms facing the street), lack of blinds and small room size impacting comfort for some visitors.",
+      "recommended_action": "Monitor frequency of noise/comfort complaints and review room descriptions for accuracy. If complaints persist or increase, commission a scoped assessment for soundproofing and blinds installation options for affected room types before pursuing capital works.",
+      "rationale": "Multiple reviews cite street noise and no blinds. While location is a clear strength, persistent noise complaints can erode satisfaction. Capital or retrofit solutions may be needed but require assessment to determine scope and cost.",
+      "supporting_evidence": [
+        "2024-07-18: \"Very small room. Bathroom with little light and no window.\"",
+        "2024-07-15: \"The street is noisy!\"",
+        "2024-07-26: \"There are no blinds, and there was some dirt on the floor.\""
+      ],
+      "positive_counterevidence": [
+        "Numerous reviews (27 positive mentions) praise the hotel's central location and accessibility."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "sentiment_score_avg decreasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Very high positive share (27 positive mentions, 0.964 positive_share). Guests consistently cite central location and walkability to the historic center.",
+      "management_implication": "Continue promoting central location in marketing and ensure communications highlight trade-offs (e.g., central vs. potential street noise) where appropriate."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Strong positive sentiment with 18 positive mentions and guests frequently describe staff as friendly and helpful.",
+      "management_implication": "Preserve staff friendliness through continued training and recognition; focus improvements on process adherence (housekeeping timing and DND procedures) without undermining service warmth."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Generally strong with 9 positive mentions and daily housekeeping referenced positively by many guests.",
+      "management_implication": "Maintain current housekeeping standards while addressing the isolated process non-compliance incidents noted in complaints."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Overall sentiment has been decreasing; track for reversal or continued decline after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "This metric is increasing and signals the gap between what guests expect and what they experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews has risen substantially and can indicate whether implemented fixes reduce negative mentions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Emerging_negative_topic: shower curtain / bathroom",
+      "reason": "Emerging topic related to bathroom/shower is directly tied to the highest-priority maintenance issue.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Mentions of housekeeping noise / early cleaning",
+      "reason": "Tracks whether scheduling/training changes reduce guest complaints about being woken by staff.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of the entire review set; prevalence should be assessed using full review-window data.",
+    "Evidence identifies problems but does not specify repair scope, costs, or exact technical solutions; where capital work may be required, a further assessment is recommended before investment.",
+    "Some issues (e.g., in-room fridge) may require operational, spatial, and financial feasibility review before deciding on a solution.",
+    "Trend signals show some recent reversals in business metrics (REVPAR/TREVPAR recent_reversal true) — do not conflate these financial signals with the customer-experience evidence provided here."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P040",
+    "case_id": "H533_20240722_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:33:54.169950+00:00",
+    "finished_at_utc": "2026-09-08T16:34:33.878799+00:00",
+    "elapsed_seconds": 39.713
+  }
+}

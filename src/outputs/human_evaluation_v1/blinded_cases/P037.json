@@ -1,0 +1,611 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P037",
+  "case_information": {
+    "case_id": "H424_20240930_L4",
+    "decision_week": "2024_W40",
+    "decision_date": "2024-09-30",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 136.63230625528308,
+        "REVPOR_WEEK": 293.25343057259755,
+        "TREVPAR_WEEK": 209.2691257046722,
+        "TAXA_OCUPACAO": 93.14285714285714,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.333333333333334,
+        "SENTIMENT_SCORE_AVG": 0.0363636363636363,
+        "SENTIMENT_SCORE_STD": 0.6249363603963644,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1999999999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.2166666666666666,
+        "EXPECTATION_VIOLATION_RATIO": 0.8571428571428571,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.2406705316766884,
+        "EXPECTATION_SHARE": 0.5,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.3333333333333333,
+        "PERC_REVIEWS_NEGATIVE": 83.33333333333334,
+        "PERC_OPERATIONAL_COMPLAINTS": 20.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5,
+        "COMPLEXITY_INDEX": 3.170179415036902,
+        "SENTIMENT_TREND_SLOPE": -0.0002458029655205
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 127.74760232377504,
+        "REVPOR_WEEK": 279.6510929092811,
+        "TREVPAR_WEEK": 192.05753595029807,
+        "TAXA_OCUPACAO": 91.52380952380952,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.0,
+        "SENTIMENT_SCORE_AVG": 0.2,
+        "SENTIMENT_SCORE_STD": 0.9899494936611664,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.35,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.35,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.0,
+        "EXPECTATION_SHARE": 0.3333333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 33.33333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 100.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.6666666666666666,
+        "COMPLEXITY_INDEX": 2.3322488896002307,
+        "SENTIMENT_TREND_SLOPE": -0.0002458029655205
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 129.54117428337793,
+        "REVPOR_WEEK": 289.2817190400003,
+        "TREVPAR_WEEK": 201.742375828269,
+        "TAXA_OCUPACAO": 89.47619047619048,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.4,
+        "SENTIMENT_SCORE_AVG": 0.0,
+        "SENTIMENT_SCORE_STD": 0.5142416206847171,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.25,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.25,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.2,
+        "EMOTION_ENTROPY": 1.4854752972273346,
+        "EXPECTATION_SHARE": 0.6,
+        "HIGH_EXPECTATION_SHARE": 0.2,
+        "HIGH_MISALIGNMENT_SHARE": 0.2,
+        "PERC_REVIEWS_NEGATIVE": 100.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 2.7134516645366795,
+        "SENTIMENT_TREND_SLOPE": -0.0002458029655205
+      },
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 146.78388143700977,
+        "REVPOR_WEEK": 322.0693712493463,
+        "TREVPAR_WEEK": 209.93524321101228,
+        "TAXA_OCUPACAO": 91.33333333333331,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.833333333333334,
+        "SENTIMENT_SCORE_AVG": -0.0166666666666666,
+        "SENTIMENT_SCORE_STD": 0.6735478206235002,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.3333333333333333,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.4333333333333333,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.459147917027245,
+        "EXPECTATION_SHARE": 0.3333333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.3333333333333333,
+        "PERC_REVIEWS_NEGATIVE": 50.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.6666666666666666,
+        "COMPLEXITY_INDEX": 2.5401617299733577,
+        "SENTIMENT_TREND_SLOPE": -0.0002458029655205
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-10-05",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-03",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-01",
+        "rating": 7.0,
+        "liked": "Very pleasant seawater pool.",
+        "disliked": "The bedding needs to be changed; it's impossible to sleep properly.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-01",
+        "rating": 10.0,
+        "liked": "everthing will be back again",
+        "disliked": "if it was for fee",
+        "country": "South Africa",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-30",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-30",
+        "rating": 8.0,
+        "liked": "The breakfast is great. Excellent location with direct access to the sea. We liked the gym and free classes. Free parking at the hotel. Option to exchange dinner for lunch if you want to eat out.",
+        "disliked": "Uncomfortable pillows on the bed: one huge, too high, and the other too low. The buffet dinner could be improved; over the course of a week it becomes repetitive. At a lunch at Sabor a Mar I found a live caterpillar in my salad. The room TV does not allow streaming.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-29",
+        "rating": 9.0,
+        "liked": "The view, the pool, the staff, the rooms, the restaurants.",
+        "disliked": "Everything went well but no pastei de nata for dessert 😜",
+        "country": "Belgium",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-29",
+        "rating": 9.0,
+        "liked": "Everything except for the manner of service in the restaurant.",
+        "disliked": "If you pay €300 to stay, you expect that a glass of water at dinner is given for free. Sometimes we had to wait up to ten minutes to order a glass of water. For a five-star hotel this is embarrassing.",
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 10.0,
+        "liked": "Very good stay! Spacious room. Ocean view. Pleasant spa. Very good breakfast and dinner buffet.",
+        "disliked": "Nothing.",
+        "country": "France",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 10.0,
+        "liked": "Location, the facilities, and the staff.",
+        "disliked": "Not having bottles of water in the room every day! The evening buffet is okay but nothing special; on the other hand the restaurants are very good.",
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-24",
+        "rating": 9.0,
+        "liked": "We loved the view from the 10th floor. Food was great",
+        "disliked": "Pillows were not comfortable",
+        "country": "Hungary",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-17",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Belgium",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 9.0,
+        "liked": "Loved the location. Great for walk into Funchal buses near by and hop on hop off bus. Hotel spacious and clean. Spa on offer snd three outdoor salt water pools with a fantastic view. Breakfast was excellent eggs cooked to order plenty of choice. Evening buffet good but liked the fact you had a credit yo try the other restaurants. Traditional Portuguese 🇵🇹 restaurant was great. Other options Italian or sushi but didn’t try them. Majority of staff friendly and helpful.",
+        "disliked": "The lady at the spa was very rude when we were looking for the indoor pool. I didn’t try any of the spa facilities as she was so rude. Indoor pool is small and bit at the door better signage would be good.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 9.0,
+        "liked": "Perfect location, seaside infinity pool, very well-arranged room, large resort located close to Funchal city center.",
+        "disliked": "The breakfast room is huge; it's really like a factory.",
+        "country": "France",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 8.0,
+        "liked": "Great breakfast. Excellent location. The dinner leaves something to be desired and ends up being repetitive... Good service. Hotel parking is free. We liked the gym classes and the direct access to the sea.",
+        "disliked": "Be careful when preparing meals at Sabor a Mar. High price of water at dinner, but it's to be expected.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 6.0,
+        "liked": "You had to pay for water at the dinner buffet!!!! The food at the dinner buffet was not good.",
+        "disliked": null,
+        "country": "Sweden",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 8.0,
+        "liked": "• The pools with the small paddling pool for the little ones. • Access to the ocean • Attentive and friendly staff • The small shop selling drinks and postcards. • Having a small fridge in the room. • 3 restaurants and a buffet for half board.",
+        "disliked": "Didn't like it much regarding half board. Yes, there are three restaurants and a buffet. But with one of the restaurants closed at the beginning of the week, another on Thursdays, etc., you quickly find that everyone rushes to the buffet when only 1–2 restaurants are open or that the times to reserve in the restaurant you want don't suit you.",
+        "country": "Switzerland",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-11",
+        "rating": 10.0,
+        "liked": "Everything",
+        "disliked": "There was nothing like that.",
+        "country": "Hungary",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-09",
+        "rating": 9.0,
+        "liked": "Location is walkable to downtown, shopping, and museum. Views are amazing - pools and ocean take your breath away. Staff multilingual and willing to help. The food is great, especially in the pool cafe. We tried Koi sushi restaurant, but personally, I don't like it, but everything was fresh. Lisboa bar is pretty good and has live music.",
+        "disliked": "Rooms need to have better air-conditioning and softer pillows. Another issue is only 2 usb ports and one wasn't working. At the dinner (I booked for half board, which includes breakfast and dinner), you need to pay for drinks, not just for alcohol but water and coffee as well, which I think is too much for 5 star hotel...but I would not rate it to high. They gave us a bottle of water in the room when we checked in, but after that it wasn't refreshed, when I asked the front desk, they told me that it's only for 1st day. For that money, it's not a 5 star hotel after that. Also, they have a teapot in the room, but not a coffee maker. If you need to do laundry, service at a hotel is very expensive, but in building #2, they have a washer and dryer. You can get tokens for 12 euros and 50 cents, but the drier never dried from 1st time, but the receptionist knows about that problem and always gives us extra tokens. Also, you can choose to have dinner at another 3 restaurants, but it's not free. You will have credit for 15 euros per person.",
+        "country": "United States",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest feedback shows repeated service and product-quality issues (food hygiene incident, buffet quality, restaurant service, bedding comfort, and in-room maintenance problems). These are currently affecting guest satisfaction but hotel commercial metrics (RevPAR, RevPOR) and average rating are stable to improving. The live caterpillar report raises an immediate food-safety concern deserving urgent attention.",
+    "executive_summary": "The property is highly valued for location, sea-view pools, breakfast, and generally friendly staff. Key recurring negative themes in recent reviews are: (1) a food-safety incident and buffet quality/repetition, (2) restaurant service and guests being charged for water/confusion over included items, (3) uncomfortable pillows/bedding affecting sleep, (4) room amenity and maintenance faults (TV streaming, USB ports, AC, laundry dryer), and (5) inconsistent spa service and poor indoor-pool signage plus restaurant opening schedules that create buffet crowding. Priorities focus on immediate food-safety investigation and corrective action, clarifying and adjusting F&B policy and service standards, replacing/upgrading bedding, targeted room maintenance, and frontline staff training/signage improvements.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Food safety and buffet quality",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "A guest reported finding a live caterpillar in a salad; multiple guests say the buffet dinner quality is poor or repetitive.",
+        "recommended_action": "Immediately initiate a food-safety investigation (kitchen audit of hygiene and procedures), isolate the affected service instance, review supplier and produce handling, retrain kitchen/front-of-house on hygiene controls, escalate corrective actions as required, and implement tighter QC checks for buffet items. In parallel, refresh buffet menus more frequently or rotate items to reduce repetition and communicate these improvements to guests.",
+        "rationale": "A visible food-safety failure threatens guest health and the hotel's reputation. Even a single reported event requires immediate root-cause analysis and corrective actions. Improving buffet variety addresses repeated guest dissatisfaction with dinner offerings.",
+        "supporting_evidence": [
+          "“At a lunch at Sabor a Mar I found a live caterpillar in my salad.”",
+          "Multiple reviews mention: “The buffet dinner could be improved; over the course of a week it becomes repetitive.”",
+          "Reviews describing dinner buffet as “not good” and “repetitive.”"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Restaurant service and F&B policy (water & included items)",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Multiple guests complain about being charged for water at dinner, unclear half-board inclusions, and slow restaurant service (waits up to 10 minutes to order). These issues create a perception of poor value for a five-star property.",
+        "recommended_action": "Review and clarify the half-board and F&B pricing policy; consider providing complimentary tap water at dinner (or clear signage and pre-check-in information if policy remains). Train restaurant staff on prompt table service and standard response times for ordering. Ensure front desk and booking channels communicate what is and is not included in packages.",
+        "rationale": "Ambiguity about what is included (water, drinks) plus slow service aggravates guests' value perception and can disproportionately affect reviews. Clear policy and improved service speed are operational changes with immediate effect on guest satisfaction.",
+        "supporting_evidence": [
+          "“You had to pay for water at the dinner buffet!!!! The food at the dinner buffet was not good.”",
+          "“If you pay €300 to stay, you expect that a glass of water at dinner is given for free. Sometimes we had to wait up to ten minutes to order a glass of water.”",
+          "Multiple mentions that water in-room was only for first day and not replenished daily."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 3,
+        "area": "Bedding and pillows (sleep comfort)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Several guests report uncomfortable pillows and bedding that impair sleep (pillows too high/low, bedding needs changing).",
+        "recommended_action": "Perform an audit of pillows/mattresses across room inventory, implement a pillow menu and immediate pillow swaps at guest request, budget for phased replacement of poor-quality pillows/mattress toppers, and institute a housekeeping check to confirm bedding condition between stays.",
+        "rationale": "Sleep comfort is a core expectation at a 5-star property; repeated complaints directly affect perceived quality and repeat business. A pillow-menu/quick swaps provide fast relief while a replacement plan addresses the root cause.",
+        "supporting_evidence": [
+          "“The bedding needs to be changed; it's impossible to sleep properly.”",
+          "“Uncomfortable pillows on the bed: one huge, too high, and the other too low.”",
+          "“Pillows were not comfortable.”",
+          "“Rooms need to have ... softer pillows.”"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 4,
+        "area": "Room amenities & maintenance (AC, TV streaming, USB ports, laundry dryer, coffee provision)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests report in-room maintenance and amenity issues: TV does not allow streaming, limited or non-working USB ports, air-conditioning could be better, no coffee maker (only teapot), and a dryer that does not dry.",
+        "recommended_action": "Implement a room-functionality checklist to be completed at housekeeping/maintenance handover; prioritize repairs of USB ports, TV streaming capability and AC performance. Evaluate adding in-room coffee makers or clearly communicate the tea/coffee setup and replenish bottled water policy. Repair or replace broken laundry dryers in self-service area.",
+        "rationale": "These are tangible, fixable defects that impact guest convenience and the 5-star expectation. Many fixes are operational/technical and will improve guest satisfaction quickly.",
+        "supporting_evidence": [
+          "“The room TV does not allow streaming.”",
+          "“Only 2 usb ports and one wasn't working.”",
+          "“Rooms need to have better air-conditioning and softer pillows.”",
+          "“They gave us a bottle of water in the room when we checked in, but after that it wasn't refreshed... it's only for 1st day.”",
+          "“the drier never dried from 1st time... receptionist knows about that problem.”",
+          "“They have a teapot in the room, but not a coffee maker.”"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 5,
+        "area": "Service consistency and signage (spa staff, indoor pool signage, restaurant opening schedules)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Reports of rude/unhelpful spa staff and poor signage to the indoor pool; inconsistent restaurant openings early in the week lead to crowding at buffet and guest inconvenience.",
+        "recommended_action": "Provide targeted customer-service training for spa and F&B staff, improve directional/signage to indoor-pool facilities, publish and communicate restaurant opening schedules and reservation rules to guests (booking confirmation, reception and on-site notices), and manage half-board allocations to reduce buffet overcrowding when restaurants are closed.",
+        "rationale": "Staff attitude and clear wayfinding materially affect guest experience. Better communication of restaurant availability reduces crowding and unmet expectations. Training and signage are relatively low-cost with quick impact.",
+        "supporting_evidence": [
+          "“The lady at the spa was very rude when we were looking for the indoor pool... Indoor pool is small and bit at the door better signage would be good.”",
+          "“With one of the restaurants closed at the beginning of the week... everyone rushes to the buffet when only 1–2 restaurants are open.”",
+          "“Majority of staff friendly and helpful.” (indicates training can focus on specific pockets)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and views",
+        "reason": "Multiple guests praise the hotel's location, ocean access, and views from higher floors.",
+        "management_implication": "Preserve room categories with ocean views, maintain outdoor areas and access to the sea as prime selling points."
+      },
+      {
+        "area": "Pools and outdoor facilities",
+        "reason": "Saltwater infinity pools and pool area repeatedly praised and a major driver of positive feedback.",
+        "management_implication": "Continue pool maintenance and presentation; prioritize pool-side guest experience (cleanliness, service, lifeguard/wellness presence)."
+      },
+      {
+        "area": "Breakfast offering and general food quality in a la carte restaurants",
+        "reason": "Breakfast is repeatedly described as excellent; several guests praise on-site restaurants despite buffet concerns.",
+        "management_implication": "Maintain breakfast standards and the quality of a la carte restaurants while addressing buffet and water/pricing issues."
+      },
+      {
+        "area": "Friendly staff (overall)",
+        "reason": "Many reviews highlight attentive and helpful staff; this is a key human differentiator for the property.",
+        "management_implication": "Preserve staff engagement through recognition/training; use friendly teams to help manage change communications (e.g., explaining inclusions)."
+      },
+      {
+        "area": "Free parking and resort facilities",
+        "reason": "Free parking, gym/classes, spa and family-friendly pool features are appreciated.",
+        "management_implication": "Ensure these amenities remain well-maintained and clearly communicated as benefits to guests."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Number of food-safety / hygiene complaints per week",
+        "reason": "Direct measure of any repeat food-hygiene issues after corrective actions.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Buffet dinner satisfaction score (from surveys or review sentiment)",
+        "reason": "Tracks perceived improvement in buffet quality and variety.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of complaints about paying for water / clarity of included items",
+        "reason": "Monitors whether policy communication or changes reduce guest confusion and dissatisfaction.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Average restaurant table wait time to order (minutes)",
+        "reason": "Operational metric tied to service speed complaints (guests reported waits up to 10 minutes).",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number / percentage of rooms flagged for pillow/mattress replacement or guest pillow-change requests",
+        "reason": "Monitors progress of bedding remediation program.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Room-maintenance defect backlog (open repairs for AC/TV/USB/dryer) and mean time to repair",
+        "reason": "Measures effectiveness of maintenance interventions.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of spa/indoor-pool service complaints and signage-related comments",
+        "reason": "Tracks impact of staff training and signage improvements.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Average rating (window) and number of negative comments mentioning core issues",
+        "reason": "Higher-level outcome metric to confirm whether operational fixes improve guest sentiment.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Analysis is based only on the 20 reviews provided (most recent in the decision window); these may not represent the full guest population or frequency of issues across all stays.",
+      "No internal operational records, incident logs, or detailed F&B/maintenance checklists were available—recommendations presume accuracy of guest reports but require hotel verification.",
+      "Performance metrics supplied are high-level (RevPAR, RevPOR, TREVPAR, occupancy, average rating) and cannot be causally linked to review content; this report does not infer causation.",
+      "Some issues may be localized to particular room blocks or dates (e.g., a single food-safety event); further internal investigation is needed to determine scope and root causes."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Hotel shows clear strengths (location, pools/spa, largely positive staff/service) and solid near-term commercial performance (REVPAR up). However, evidence signals an increasing expectation–experience gap and semantic misalignment plus several recurring guest complaints (room comfort, F&B reservations/pricing and at least one food-hygiene report). The mix of emerging negative topics and expectation violations raises operational and reputational risk that merits prompt attention.",
+    "executive_summary": "Preserve clear strengths (location, pools/spa, broadly positive staff) while addressing a small number of targeted frictions that are driving guest frustration: (1) room comfort (pillows, bedding, air-conditioning/USB issues), (2) restaurant operations and a recorded food-hygiene lapse, (3) clarity of F&B inclusions and drink/pricing communication (complaints about charged water and bottled water not refreshed), (4) breakfast experience at scale (perception of factory-like service and repeat buffet offerings), and (5) reinforce staff/service strengths while remedying isolated service lapses. Prioritize immediate action on food-safety and rapid assessment of room comfort; other items require short-term operational and policy/process reviews.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Restaurant and bar (food safety, reservations, dinner quality)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Guests report inconvenient restaurant availability/reservation times, repetitive buffet dinner quality, charged drinks including water (unexpected), and one review reported a caterpillar in a salad (food-hygiene incident). These issues represent expectation violations and include at least one food-safety signal.",
+        "recommended_action": "Immediate: investigate the reported food-hygiene incident and review kitchen/serving hygiene procedures; verify current restaurant opening schedules and reservation allocation to assess whether schedule or capacity changes are needed; review guest-facing communications and menus to ensure pricing/inclusions (drinks/water/credits) are clearly stated. If hygiene or safety gaps are found, take corrective measures and communicate actions to guests. Short-term: review dinner menu variety/timing and restaurant staffing/coverage to reduce buffet repetition and reservation friction.",
+        "rationale": "Multiple guests describe expectation violations around dinner (reservations, pricing, drink policy) and one explicit hygiene complaint (caterpillar in salad). Managerial_evidence shows 8 mentions (7 positive, 5 negative) with emerging_negative and violated_expectation weeks — the positive base does not eliminate the safety and process concerns. Food-safety issues justify immediate attention.",
+        "supporting_evidence": [
+          "managerial_evidence: Restaurant and bar — review_mentions_total 8, positive_mentions 7, negative_mentions 5, has_expectation_violation true, is_emerging_negative true",
+          "complaint_evidence 2024-09-30: 'The buffet dinner could be improved... I found a live caterpillar in my salad.'",
+          "complaint_evidence 2024-09-14: restaurant closures early in week lead to guests rushing to buffet and reservation times don't suit",
+          "complaint_evidence 2024-09-15: 'High price of water at dinner'",
+          "complaint_evidence 2024-09-29: waited up to ten minutes to order a glass of water; expectation that water should be complimentary"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.78
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (pillows, bedding, air-conditioning, in-room tech)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Repeated guest complaints about uncomfortable pillows and bedding, insufficient or ineffective air-conditioning, and limited/non-working USB ports and lack of an in-room coffee maker. These are persistent expectation violations that affect sleep and perceived 5-star quality.",
+        "recommended_action": "Short-term: perform an inspection/audit of room bedding (pillows/types and bedding condition), air-conditioning performance on a sample of rooms (including rooms in different buildings/floors) and in-room USB/charging points and TV streaming capability. Based on findings, define a remediation plan (replacement/repair or housekeeping/process changes). Communicate interim options to guests (pillow menu/alternatives) while assessment is completed.",
+        "rationale": "Multiple recent complaints across several dates describe the same discomforts (pillows and AC), and managerial_evidence marks this area as net_negative with expectation violation and emerging_negative. The recurring nature across rooms suggests a hotel-level operational or maintenance issue that needs inspection before prescribing capital investment.",
+        "supporting_evidence": [
+          "managerial_evidence: Room comfort — review_mentions_total 2, positive_mentions 0, negative_mentions 2, has_expectation_violation true, is_emerging_negative true",
+          "complaint_evidence 2024-10-01: 'The bedding needs to be changed; it's impossible to sleep properly.'",
+          "complaint_evidence 2024-09-30: 'Uncomfortable pillows... one huge, too high, and the other too low.'",
+          "complaint_evidence 2024-09-09: 'Rooms need to have better air-conditioning and softer pillows.'",
+          "complaint_evidence 2024-09-24: 'Pillows were not comfortable', and 2024-09-09 also notes USB port not working and no coffee maker"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Clarity of F&B pricing and inclusions (bottled water, dinner drink policy, restaurant credit)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report unclear expectations about what F&B items are included (e.g., bottled water in-room, water/coffee at dinner) and how dinner credits work; several guests expected complimentary water and felt surprised/upset when charged or when bottles were not refreshed.",
+        "recommended_action": "Review and, if needed, clarify guest-facing descriptions of half-board/dinner inclusions, restaurant credit rules, and in-room bottled water policy across booking channels, front-desk scripts, and in-room materials. Train F&B and front-desk staff to proactively communicate inclusions at check-in and when taking dinner reservations. Consider simple operational fixes (e.g., clear signs, menu notes) and monitor guest feedback.",
+        "rationale": "Multiple independent complaints state unexpected charges for water or lack of daily bottled water and express a perception gap for a 5-star property. Managerial_evidence lists 'dinner drinks policy' and 'restaurant credit' among matched topics, and reviews include expectation violations related to pricing and inclusions.",
+        "supporting_evidence": [
+          "managerial_evidence: Restaurant and bar — matched_topics include 'dinner drinks policy', 'dinner pricing', 'restaurant credit'",
+          "complaint_evidence 2024-09-09: bottled water given only on first day and not refreshed; guest surprised this was not daily",
+          "complaint_evidence 2024-09-29: expected a glass of water to be free at dinner and reported delays ordering water",
+          "complaint_evidence 2024-09-25: 'Not having bottles of water in the room every day!' and 2024-09-15: 'High price of water at dinner'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.72
+      },
+      {
+        "rank": 4,
+        "area": "Breakfast experience (scale/ambience and buffet variety)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although breakfast is frequently praised for quality (eggs to order, variety), some guests perceive the breakfast room as impersonal/over-large ('like a factory') and others note expectations around in-room coffee makers versus teapots; there are also comments tying buffet repetition across dinner and breakfast.",
+        "recommended_action": "Review breakfast room flow, seating mix and signage to reduce 'factory' feel where feasible (layout/ambience tweaks). Evaluate breakfast service mix (allocation of cooked-to-order stations) to ensure visible quality and consider options to reduce perceived repetitiveness. Ensure in-room beverage amenities are consistently described in pre-arrival materials and on-room information.",
+        "rationale": "Managerial_evidence shows 9 mentions with a positive majority but meaningful negative feedback (positive_with_friction). Preserving breakfast quality while addressing scale/ambience perception should improve guest experience and reduce expectation violations.",
+        "supporting_evidence": [
+          "managerial_evidence: Breakfast — review_mentions_total 9, positive_mentions 6, negative_mentions 5, has_expectation_violation true",
+          "complaint_evidence 2024-09-15: 'The breakfast room is huge; it's really like a factory.'",
+          "complaint_evidence 2024-09-30 and others praise breakfast quality (eggs cooked to order)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.62
+      },
+      {
+        "rank": 5,
+        "area": "Staff and service (preserve strength; address isolated service lapses)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Staff and service are a clear strength (many positive mentions), but isolated incidents (e.g., rudeness at spa, slow restaurant service to bring water) are emerging and have contributed to guest frustration.",
+        "recommended_action": "Preserve and reinforce service strengths via recognition of high-performing teams. Conduct targeted coaching or process reviews where isolated negative interactions occurred (spa reception interactions, restaurant service timing for water/orders). Ensure front-line staff have clear scripts and escalation paths for common expectation queries (inclusions, reservations, housekeeping requests).",
+        "rationale": "Managerial_evidence shows strong positive balance for staff (7 positive, 1 negative) but also marks an emerging expectation violation. Addressing isolated lapses with targeted coaching should protect the hotel's main service differentiator without overhauling systems.",
+        "supporting_evidence": [
+          "managerial_evidence: Staff and service — review_mentions_total 7, positive_mentions 7, negative_mentions 1, has_expectation_violation true, is_emerging_negative true",
+          "complaint_evidence 2024-09-16: 'The lady at the spa was very rude when we were looking for the indoor pool.'",
+          "complaint_evidence 2024-09-09: generally positive comments on multilingual and helpful staff but notes around laundry/dryer issues handled by receptionist"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.7
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently positive mentions (6 positive, 0 negative) praising location and direct sea access.",
+        "management_implication": "Maintain marketing emphasis on location and ensure upkeep of access/wayfinding; avoid operational changes that reduce direct sea access or guest-facing convenience."
+      },
+      {
+        "area": "Spa and pool (outdoor saline pools and views)",
+        "reason": "High positive share (7 positive, 1 negative) with multiple compliments on pools, ocean access and facilities.",
+        "management_implication": "Preserve pool and spa operational standards and guest experience; prioritize any scheduled maintenance outside peak guest times to avoid disruption."
+      },
+      {
+        "area": "Staff and service (overall)",
+        "reason": "Strongly positive (7 positive, 1 negative) with many guests noting attentive and friendly staff.",
+        "management_implication": "Recognize and reinforce service behaviors; use as anchor for guest recovery when operational frictions occur."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "This metric is increasing and aligns with multiple expectation-violation reports; monitoring will show whether interventions reduce the gap.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Increasing misalignment suggests marketing/communication may not match actual experience (e.g., inclusions, restaurant availability); monitor to detect improvement after clarifications.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG and AVG_RATING (weekly)",
+        "reason": "Sentiment is trending down and avg rating recently showed a reversal; track to ensure the overall guest sentiment stabilizes post interventions.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "PERC_OPERATIONAL_COMPLAINTS (F&B and rooms subcategories)",
+        "reason": "Operational complaints for F&B and rooms are the primary actionable complaints in this window; use to detect whether targeted fixes reduce complaint frequency.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "Complaint sample is diagnostic and not statistically representative of all guests; prevalence should be verified using full review dataset.",
+      "Managerial recommendations are evidence-bounded; where scope or root cause is unclear (e.g., whether pillows are an isolated inventory issue or a systematic bedding standard problem, whether AC failures are localized vs systemic), assessments/inspections are recommended before committing to capital works.",
+      "Some interventions require cross-departmental evaluation (F&B pricing/inclusion policy, housekeeping processes, engineering inspections) and additional operational detail that is not present in the supplied evidence.",
+      "No causal claims are made between complaints and commercial metrics (RevPAR/occupancy); observed commercial trends are reported but not used as causal evidence.",
+      "Selected complaint examples were used to illustrate patterns; they should not be treated as exhaustive evidence of all guest experiences."
+    ]
+  }
+}

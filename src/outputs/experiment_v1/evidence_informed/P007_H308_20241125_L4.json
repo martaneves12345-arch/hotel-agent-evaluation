@@ -1,0 +1,272 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Occupancy and RevPAR show sustained, material declines while expectation–experience gap and semantic misalignment are rising—signals of growing guest frustration and product/communication mismatch. Although many discrete service areas (breakfast, cleanliness, staff) are positive, the combination of worsening commercial metrics and rising expectation misalignment justifies a high overall risk assessment.",
+  "executive_summary": "Commercial performance (RevPAR, occupancy) is deteriorating and guest expectations are diverging from experience: expectation_gap and semantic_misalignment metrics rose notably over the window. Top actionable items are: (1) quickly review guest-facing descriptions and booking options to reduce misalignment; (2) address bed-configuration friction for couples through booking/room-assignment/process changes; (3) assess bathroom amenity expectations (handheld bidet) before committing to installation; (4) preserve and fine-tune the strong breakfast offering (espresso/coffee friction); and (5) monitor and investigate the commercial/sentiment decline with revenue and operations stakeholders. Strengths (breakfast, cleanliness, staff) should be preserved while addressing the targeted frictions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Expectation–experience alignment (guest-facing information, product fit)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Semantic misalignment and a growing expectation–experience gap: guests report specific expectation violations (e.g., bed configuration preference, missing handheld bidet) while aggregated indicators (EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG) increased sharply over the window.",
+      "recommended_action": "Conduct a cross-functional review of guest-facing content and booking rules: audit room-type descriptions, photographed room setups, amenity lists, and booking prompts (e.g., options for double vs twin beds). Map the specific expectation violations appearing in reviews (beds, bathroom fixtures) and decide whether to (a) clarify descriptions/amenity lists and/or (b) change booking/assignment processes. Track whether clarifications reduce future expectation-violation mentions.",
+      "rationale": "Metrics show a clear increase in expectation_gap (0.0833 -> 0.35) and semantic misalignment (0.0833 -> 0.7). Complaints exemplify concrete mismatches between what guests expect and what they receive (bed configuration for couples; missing bidet shower). Improving information and booking processes is the least invasive first step and directly targets the misalignment signal.",
+      "supporting_evidence": [
+        "EXPECTATION_EXPERIENCE_GAP_AVG increased from 0.0833 to 0.35 (experience_indicators).",
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG increased from 0.0833 to 0.7 (experience_indicators).",
+        "Complaint 2024-11-09: couple expected a double bed but found two single beds (complaint_evidence).",
+        "Complaint 2024-11-11: guest noted missing handheld bidet next to the toilet (complaint_evidence)."
+      ],
+      "positive_counterevidence": [
+        "Multiple areas (breakfast, cleanliness, staff) have strongly positive mentions indicating that the issue is misalignment rather than broad service failure (managerial_evidence).",
+        "Room comfort has more positive mentions than negative (managerial_evidence: 2 positive, 1 negative)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "EXPECTATION_SHARE increasing",
+          "HIGH_MISALIGNMENT_SHARE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort — bed configuration for couples",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests expecting a double bed for a couple sometimes receive two single beds; this is a repeated expectation-violation topic though overall room comfort is positively described.",
+      "recommended_action": "Review room inventory and booking-type descriptions to ensure guests can reliably request/receive double bed configurations when appropriate. Evaluate front-desk/housekeeping/room-assignment processes to reduce frequency of couple-facing twin-bed allocations. If the hotel has convertible configurations, ensure these are clearly described and bookable.",
+      "rationale": "Managerial evidence shows Room comfort is predominantly positive (3 mentions: 2 positive, 1 negative) but has an explicit expectation violation. The complaint (2024-11-09) is a concrete example of a mismatch that can materially affect guest satisfaction for couples and is relatively low-cost to address via process/booking changes.",
+      "supporting_evidence": [
+        "Managerial_evidence: Room comfort — 3 mentions (2 positive, 1 negative) with an expectation violation noted.",
+        "Complaint 2024-11-09: couple disliked two single beds instead of a double bed."
+      ],
+      "positive_counterevidence": [
+        "Overall room comfort was described as comfortable in other reviews (complaint_evidence positive_context)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing",
+          "SEMANTIC_MISALIGNMENT_SCORE_AVG increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Bathroom amenities and condition (handheld bidet expectation)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "maintenance",
+      "problem": "At least one guest explicitly expected a handheld bidet/shower next to the toilet; bathroom condition is otherwise described positively (spacious, new), so this is an amenity expectation mismatch rather than general bathroom failure.",
+      "recommended_action": "Assess whether the missing handheld bidet is an isolated expectation (cultural preference) or a broader guest expectation. If evidence suggests broader demand, commission a feasibility assessment (plumbing/maintenance) to estimate scope and cost before making capital decisions. Meanwhile, update amenity descriptions to set clear expectations.",
+      "rationale": "Managerial evidence flags Bathroom condition as mixed with a violated expectation. Complaint 2024-11-11 specifically cites absence of a bidet shower; other parts of the review call the bathroom 'spacious, new' and shower 'wonderful' — indicating the request is for a specific amenity rather than general quality.",
+      "supporting_evidence": [
+        "Managerial_evidence: Bathroom condition — 1 positive and 1 negative mention; has expectation violation.",
+        "Complaint 2024-11-11: 'The only thing missing was a bidet shower in the bathroom next to the toilet.'"
+      ],
+      "positive_counterevidence": [
+        "Same review that noted the missing bidet also praised bathroom as 'spacious, new' and the shower as 'wonderful', suggesting overall bathroom condition is strong."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_semantic_misalignment",
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast — preserve overall strength; address coffee/espresso friction",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Breakfast is a clear strength with many positive mentions, but customers flagged beverage/espresso quality as an expectation friction.",
+      "recommended_action": "Maintain current breakfast offering and service levels. Initiate targeted operational review of beverage/espresso preparation (supplies, machine calibration, staff process) to address isolated comments about coffee quality. Monitor guest feedback after any operational changes.",
+      "rationale": "Breakfast has the largest positive mention count (6 positive, 0 negative) but is also listed under violated expectation topics (espresso quality). Because breakfast is a clear strength, corrective action should be narrowly focused and operational rather than systemic.",
+      "supporting_evidence": [
+        "Managerial_evidence: Breakfast — 6 positive mentions, 0 negative; evidence_pattern = positive_with_friction.",
+        "Complaint entries reference 'wonderful breakfast' and mention 'espresso coffee quality' as a matched topic (complaint_evidence and managerial_evidence)."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise breakfast as wonderful and the hotel lists 'Fabuloso pequeno-almoço' among main amenities (hotel metadata)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "Breakfast matched topics in managerial_evidence"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Commercial performance & sentiment monitoring (RevPAR, occupancy, sentiment)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "RevPAR and occupancy have declined materially; sentiment and expectation indicators are moving in adverse directions. The combination suggests commercial and experience signals are converging negatively and warrant coordinated investigation.",
+      "recommended_action": "Bring revenue management, distribution and operations together for a short-term review: (a) analyze drivers of the occupancy and RevPAR decline (channel mix, pricing, seasonality), (b) correlate complaint/expectation trends with booking channels/guest mix if data available, and (c) set monitoring cadence to track SENTIMENT_SCORE_AVG, EXPECTATION_EXPERIENCE_GAP_AVG, AVG_RATING, REVPAR_WEEK and TAXA_OCUPACAO. Note the recent REVPOR_WEEK reversal (recent_movement = up) when interpreting short-term changes.",
+      "rationale": "Business performance metrics: REVPAR_WEEK decreased -33.4% across the window; TAXA_OCUPACAO decreased -50.4%. SENTIMENT_SCORE_AVG and EXPECTATION_EXPERIENCE_GAP_AVG also moved adversely. Coordinated review is needed to determine whether operational fixes or commercial changes are appropriate.",
+      "supporting_evidence": [
+        "REVPAR_WEEK decreased from 34.5664 to 23.0231 (-33.39%).",
+        "TAXA_OCUPACAO decreased from 77.551 to 38.4615 (-50.4%).",
+        "SENTIMENT_SCORE_AVG decreased from 0.4875 to -0.2.",
+        "EXPECTATION_EXPERIENCE_GAP_AVG increased (see earlier).",
+        "Note: REVPOR_WEEK shows a recent_reversal = true (recent movement up) and should be considered when interpreting short-term revenue dynamics."
+      ],
+      "positive_counterevidence": [
+        "AVG_RATING trended slightly up across the window (8.8 -> 9.0) though recent movement was down; positive area scores (breakfast, cleanliness, staff) suggest product strengths remain."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 4,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "declining_revpar",
+          "declining_sentiment",
+          "decreasing_taxa_ocupacao",
+          "REVPOR_WEEK recent_reversal"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast",
+      "reason": "Highest positive mention count in managerial evidence (6 positive mentions) and multiple explicit praises in reviews.",
+      "management_implication": "Preserve current offering and staffing; address narrow beverage/espresso friction without broad changes to the breakfast product."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Consistently positive mentions (4 positive mentions, no negatives).",
+      "management_implication": "Maintain housekeeping standards; use cleanliness as a highlighted strength in guest communications."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Positive mentions without negative evidence in the window.",
+      "management_implication": "Preserve service standards; consider communicating service strengths when clarifying expectations to guests."
+    },
+    {
+      "area": "Location, spa/pool, price–value",
+      "reason": "Positive mentions and listed as core amenities; no negative mentions in the managerial evidence.",
+      "management_implication": "Keep these features in marketing and guest communications while addressing identified frictions elsewhere."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Primary metric showing growing gap between expectations and experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Rising semantic misalignment indicates messaging/product mismatch.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Core commercial performance metrics are declining and need short-term review.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and AVG_RATING",
+      "reason": "Track guest sentiment and rating trends to detect early signs of deterioration or improvement after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Frequency of bed-configuration complaints and bathroom-amenity requests",
+      "reason": "Operational indicators to evaluate whether specific expectation violations are isolated or persistent.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Breakfast beverage/espresso mentions",
+      "reason": "Monitors effect of any operational adjustments to beverage preparation.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaints (3 substantive complaints) are diagnostic examples and are not statistically representative of all reviews (complaint_sample_metadata). Prevalence should be assessed with the full review set.",
+    "Managerial evidence counts are small for some areas (bathroom and bed-related mentions are low-frequency), so scope and structural nature of issues are uncertain.",
+    "Trends in commercial metrics (RevPAR, occupancy) cannot be causally attributed to the review evidence without additional commercial/channel data.",
+    "Some recommended actions (e.g., installing bathroom fixtures) may require technical and financial assessment; capital decisions were not justified by the supplied textual evidence and therefore require further assessment.",
+    "The recent REVPOR_WEEK reversal should be considered when interpreting short-term revenue movement—do not assume a continuous decline or improvement without further data."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P007",
+    "case_id": "H308_20241125_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:48:29.346447+00:00",
+    "finished_at_utc": "2026-09-08T15:49:23.636620+00:00",
+    "elapsed_seconds": 54.298
+  }
+}

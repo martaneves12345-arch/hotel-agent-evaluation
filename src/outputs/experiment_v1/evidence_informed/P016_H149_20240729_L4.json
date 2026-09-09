@@ -1,0 +1,257 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Revenue-related metrics (REVPAR, TREVPAR, occupancy) show consistent and sizable declines over the 4-week window while experience signals show an increasing share of negative reviews and operational complaints. Together these indicate elevated business and experience risk that warrants prioritized operational and maintenance actions.",
+  "executive_summary": "Hotel Mundial has clear customer-facing strengths (notably staff/service and generally positive cleanliness, rooftop and breakfast experiences) but several concentrated frictions are eroding guest experience during an on-site renovation period. The highest-evidence, highest-severity issues are bathroom condition (repeated reports of clogged drains, leaking tubs and musty/old bathrooms) and room comfort (noise/soundproofing, insufficient/outlet placement, tired rooms). Emerging operational friction surrounds rooftop/restaurant access and noise management (locked access, wayfinding confusion, loud rooftop music affecting sleep). Breakfast remains a strength overall but shows expectation friction related to reduced capacity/seat scheduling and dietary accommodation. Technology (Wi‑Fi/TV/remote/outlets) shows net-negative mentions and should be assessed. Recommended next steps emphasize immediate safety/maintenance inspection for bathrooms, short-term operational fixes and policy reviews (guest communications about renovation, rooftop access, breakfast scheduling), and technical assessment for technology issues. Preserve and communicate the strong staff performance while tracking operational complaint share and RevPAR closely.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple reports of poor bathroom condition (clogged shower drains, leaking bathtub that floods floor, musty smell, stained towels) that create guest dissatisfaction and potential safety/hygiene problems.",
+      "recommended_action": "Initiate immediate maintenance and safety inspection of bathroom plumbing and ventilation on a sample of rooms and prioritize repairs where drains/clogs, leaking tubs, extractor absence, or hygiene issues are found. If inspections indicate a wider structural or renovation need, commission a scoped assessment before capital decisions. Meanwhile implement an operational protocol to respond rapidly to guest reports (e.g., immediate room move or prioritized repair) and communicate transparently with arriving guests about ongoing renovation impacts.",
+      "rationale": "High frequency and severity of negative mentions for bathrooms (managerial evidence: 10 negative vs 2 positive; diagnostic vulnerability top-ranked). Complaint examples describe clogged drains and flooding after showers and musty/old bathrooms, indicating both guest discomfort and potential hygiene/safety concerns. Immediate inspection is warranted prior to committing to capital works.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — review_mentions_total 12; positive_mentions 2; negative_mentions 10; evidence_pattern: net_negative; matched_topics include 'bathroom cleanliness' and 'bathroom renovation/upgrade'.",
+        "Complaint (2024-08-01): 'bathroom/shower had a completely clogged drain.'",
+        "Complaint (2024-07-08): 'bathtub-shower ... leaked water, so it flooded the bathroom after every shower; it didn't have an extractor fan.'",
+        "Complaint (2024-07-13): 'very old rooms, musty smell ...' "
+      ],
+      "positive_counterevidence": [
+        "Some cleanliness mentions elsewhere are positive (Cleanliness and housekeeping: positive_mentions 18, negative_mentions 3), indicating housekeeping performance is generally good in many areas."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 10,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "PERC_REVIEWS_NEGATIVE (increasing)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort (noise, bed/outlets, tired rooms)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guest complaints about insufficient soundproofing (internal and rooftop noise), inconvenient or insufficient power outlets, and generally tired room condition are recurring and affect sleep and perceived value.",
+      "recommended_action": "Conduct a focused operational review combining: a) noise-management practices (evaluate rooftop event/music scheduling, sound-limits, and guest-room placement policies), b) a facilities checklist for rooms to identify common quick fixes (power outlet placement solutions, kettle/tea provisioning gaps, linen/towel replacement where stained), and c) a prioritized maintenance plan for room refurbishment where repeated issues emerge. Communicate remedial steps to guests, especially during renovation periods.",
+      "rationale": "Room comfort shows net-negative pattern with 11 negative vs 8 positive mentions and multiple complaint examples citing thin walls, machine noise, noisy rooftop music preventing sleep, and lack or poor placement of electrical outlets. These issues appear across weeks and include concrete operational frictions that can be mitigated by targeted maintenance and process changes.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — review_mentions_total 18; positive_mentions 8; negative_mentions 11; evidence_pattern: net_negative; matched_topics include 'bed comfort', 'bedside power outlets', 'room size'.",
+        "Complaint (2024-07-09): 'Old-fashioned, thin-walled.'",
+        "Complaint (2024-07-19): 'extremely loud music from the rooftop bar ... impossible to sleep.'",
+        "Complaint (2024-07-25): 'There are not enough electrical outlets in the room and they are not convenient ... Towels of poor quality and stained.'",
+        "Complaint (2024-07-24): 'moved us to ... noisy because of the hotel's machines.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests still describe rooms as 'pleasant' or 'well maintained' (selected complaints include positive_context comments about rooms)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 8,
+        "negative_mentions": 11,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "PERC_REVIEWS_NEGATIVE (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Restaurant & rooftop access and noise management",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "While rooftop and bar are valued assets, there are emerging access/wayfinding issues for guests (locked access requiring phone, unclear elevator directions), accessibility concerns for guests with reduced mobility, and noise from rooftop music that has disrupted sleep for some guests.",
+      "recommended_action": "Review rooftop access policy and wayfinding (signage, elevator guidance, clear instructions for guests) and implement an operational protocol to ensure step-free access or clear alternatives for guests with mobility needs. Assess rooftop opening/service procedures and event/noise controls (schedules, staff coverage, amplifier levels) to reduce sleep disturbance. Communicate any temporary access restrictions or renovation impacts to guests at booking and check-in.",
+      "rationale": "Managerial evidence flags Restaurant and bar as an emerging negative topic despite predominantly positive mentions. Complaints describe locked access to rooftop (phone-ahead required), wayfinding confusion, and loud rooftop music causing sleep loss. Because the rooftop/bar is a notable strength for the property, preserving its value while removing access/noise friction is high priority.",
+      "supporting_evidence": [
+        "Managerial evidence: Restaurant and bar — review_mentions_total 33; positive_mentions 24; negative_mentions 10; evidence_pattern: positive_with_friction; emerging_negative_weeks: 1; matched_topics include 'better directions/wayfinding' and 'accessible (step-free) access to rooftop bar'.",
+        "Complaint (2024-07-10): 'rooftop bar only accessible by stairs unless you phone ahead to be permitted access from floor 9 ... not ideal for hotel guest with limited mobility.'",
+        "Complaint (2024-07-19): 'extremely loud music from the rooftop bar ... impossible to sleep.'",
+        "Complaint (2024-07-31): 'removed the social lobby and the bar there ... no suitable place for guests to socialize; breakfast room reduced in size.'"
+      ],
+      "positive_counterevidence": [
+        "Multiple guests praise the rooftop view and recommend the rooftop terrace bar (complaint positive_context references rooftop terrace as 'highly recommended').",
+        "Restaurant/bar has many positive mentions (24 positive vs 10 negative)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 24,
+        "negative_mentions": 10,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC list (bar, rooftop, directions)",
+          "PERC_OPERATIONAL_COMPLAINTS (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast (capacity, scheduling, dietary accommodation)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although breakfast is generally praised, guests report friction from reduced breakfast capacity/seat allocation during renovations, required time-slot reservations for breakfast, occasional waits, and limited options for those with food intolerances.",
+      "recommended_action": "Review breakfast service flow and capacity during renovation (assess seating allocation across service areas, reservation/time-slot policy, and overflow handling). Evaluate whether additional dietary options or clearer communication about available alternatives can be provided. Update pre-arrival and check-in communication to set clear expectations about breakfast arrangements while renovation is ongoing.",
+      "rationale": "Breakfast has a high positive share (49 positive vs 12 negative), but there are repeated mentions of enforced reservation times, smaller breakfast area leading to waits, and limited dietary alternatives — all expectation-friction points during renovation that can negatively affect perception if not managed.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast — review_mentions_total 57; positive_mentions 49; negative_mentions 12; evidence_pattern: positive_with_friction; matched_topics include 'accommodation for dietary intolerances at breakfast' and 'adequate breakfast room size'.",
+        "Complaint (2024-07-10): 'asked to provide a time we wished breakfast as breakfast was being served between 2 areas ... small resulting in a 15 wait on day 2.'",
+        "Complaint (2024-07-31): 'breakfast room has also been reduced in size and the quality of the ingredients offered has worsened.'",
+        "Complaint (2024-07-25): 'The breakfast was decent but without alternatives for those with intolerances.'"
+      ],
+      "positive_counterevidence": [
+        "Many guests praise breakfast (positive mentions 49) and highlight good views from breakfast areas."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 49,
+        "negative_mentions": 12,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EXPECTATION_SHARE (increasing)",
+          "PERC_OPERATIONAL_COMPLAINTS (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Wi‑Fi and technology (connectivity/TV/remote/outlets)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report problems with in-room technology (Wi‑Fi/television/remote control) and inconvenient or insufficient electrical outlets; technology mentions are net-negative in the sample.",
+      "recommended_action": "Commission a technical check of guest-area Wi‑Fi performance and in-room AV/remote-control systems and a rooms checklist to identify and remediate obvious faults (replace malfunctioning remotes, ensure TV functionality). For outlets, evaluate low-cost operational fixes (power-strip options or accessible outlet solutions) and document findings for potential broader refurbishment if systemic deficits are found.",
+      "rationale": "Managerial evidence shows Wi‑Fi & technology as net_negative (review_mentions_total 10; positive 3; negative 7). Complaint examples reference inconvenient or insufficient outlets and missing expected in-room items (kettle/no tea bags), and the emerging negative topic list includes 'remote control problems' and 'television issues'. The evidence supports a technical assessment before committing to larger investments.",
+      "supporting_evidence": [
+        "Managerial evidence: Wi‑Fi and technology — review_mentions_total 10; positive_mentions 3; negative_mentions 7; evidence_pattern: net_negative.",
+        "Emerging negative topics include 'remote control problems' and 'television issues'.",
+        "Complaint (2024-07-25): 'There are not enough electrical outlets in the room ... There was a kettle but no tea bags.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests report satisfactory rooms and amenities in other respects (selected complaints include positive_context indicating rooms were pleasant)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 7,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC list (remote control problems, television issues)",
+          "PERC_OPERATIONAL_COMPLAINTS (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.55
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "High positive share (positive_mentions 54 vs negative 8) and frequent praise for staff friendliness and assistance.",
+      "management_implication": "Preserve and highlight staff performance in guest communications; ensure staff are supported to handle increased operational friction during renovation periods."
+    },
+    {
+      "area": "Rooftop and breakfast experiences",
+      "reason": "Both rooftop access and breakfast receive many positive mentions (Rooftop positive_mentions 21; Breakfast positive_mentions 49) and are cited as important guest highlights (views, terrace bar).",
+      "management_implication": "Protect the guest experience in these areas while addressing access, noise and capacity frictions; use positive rooftop/breakfast experience in guest communications about temporary changes."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints are trending up and indicate where guest friction is concentrated.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Revenue and occupancy are declining; monitor for recovery or further deterioration as experience fixes are implemented.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews is increasing substantially; track to assess whether interventions reduce negative share.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_SHARE and EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Expectation-related signals are rising and identify mismatches between marketing/booking expectations and actual experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Sentiment has improved but should be tracked to verify that service strengths offset operational frictions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of all reviews; prevalence should be assessed using the full review window.",
+    "The evidence identifies the presence of problems (e.g., clogged drains, noise, access friction) but does not determine the technical scope, cost, or exact remediation required; inspections and scoped assessments are recommended where indicated.",
+    "Some priorities (Wi‑Fi/technology, room refurbishment needs) require technical checks before capital decisions can be recommended.",
+    "Business-performance declines are concurrent with renovation activity in complaints; the evidence does not establish causality between customer complaints and RevPAR/occupancy changes."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P016",
+    "case_id": "H149_20240729_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:00:29.414913+00:00",
+    "finished_at_utc": "2026-09-08T16:01:16.873349+00:00",
+    "elapsed_seconds": 47.459
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Customer sentiment and RevPAR show consistent downward movement while average rating is stable-to-improving; multiple operational/expectation issues (bathroom layout, in-room amenities, breakfast variety, small/noisy rooms) are present but the hotel retains clear strengths (cleanliness, location, largely positive staff). The combination of declining revenue metrics and rising share of negative reviews justifies a moderate overall risk classification and prompt managerial attention.",
+  "executive_summary": "Hotel Portuense performs well on cleanliness, location and staff friendliness, and many guests value the breakfast. Recent evidence shows rising negative-review share and falling RevPAR and sentiment. The most actionable issues supported by the review evidence are: (1) bathroom condition/toilet location (emerging net-negative topic), (2) in-room amenities expectations (minibar/fridge/safe absent), (3) breakfast variety and included items (positive overall but repeated friction), (4) room size, lack of surfaces and noise/renovation perceptions, and (5) a need to monitor and link declining RevPAR and sentiment to guest-feedback trends. Recommendations prioritize assessment and low-cost operational fixes where appropriate, with inspections/assessments before any capital decisions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "maintenance",
+      "problem": "Multiple reviews flagged bathroom-related issues (matched topics: 'bathroom type', 'toilet location'); this is an emerging negative topic with exclusively negative mentions in the window.",
+      "recommended_action": "Commission a focused inspection and condition assessment of bathroom layouts and fittings (toilet placement/ergonomics and related guest impacts). If inspection indicates structural constraints, prepare a scope/cost estimate for targeted maintenance or redesign; otherwise implement maintenance/room-level adjustments. Communicate findings to front desk/guest information if certain room types have atypical layouts.",
+      "rationale": "Evidence shows 4 negative mentions and 0 positive mentions, and 'toilet location' is flagged as an emerging_negative_topic. The reviews suggest a structural/layout friction rather than a single isolated incident; capital or maintenance may be required but scope is unclear, so an assessment is the prudent first step.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — review_mentions_total: 4, positive_mentions: 0, negative_mentions: 4, evidence_pattern: net_negative, matched_topics: ['bathroom type','toilet location'], is_emerging_negative: true.",
+        "Latest context: emerging_negative_topic includes 'toilet location'."
+      ],
+      "positive_counterevidence": [],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: toilet location",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 2,
+      "area": "In-room amenities",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report missing expected in-room amenities (minibar/fridge, safe) leading to an expectation violation; some guests explicitly cite lack of minibar/fridge/safe.",
+      "recommended_action": "Review room-type amenity descriptions and guest-facing communications to ensure expectations match actual offerings. Evaluate demand and feasibility (operational and cost implications) of adding small amenities (e.g., minibar/fridge, in-room safe) for specific room types, and if adding is considered, conduct a cost/benefit assessment. In the short term, provide clear information at booking and at check-in about which rooms include which amenities.",
+      "rationale": "Managerial evidence shows 3 negative mentions, 0 positives, and has an explicit expectation_violation flag; complaint text includes direct mention of 'No minibar. No safe in the room.' The problem appears to be an expectation mismatch that could be mitigated by clearer communication or evaluated for operational change.",
+      "supporting_evidence": [
+        "Managerial evidence: In-room amenities — review_mentions_total: 3, positive_mentions: 0, negative_mentions: 3, evidence_pattern: net_negative, matched_topics: ['in-room fridge availability','minibar/fridge in room'].",
+        "Complaint 2024-07-26 (rating 8): 'The room was very small for 3. We didn't have space to open suitcases. No minibar. No safe in the room.'"
+      ],
+      "positive_counterevidence": [],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_VIOLATION_RATIO increasing",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "While breakfast is often praised, multiple guests report limited variety and that some beverages/items required additional payment; this creates an expectation gap for some guests.",
+      "recommended_action": "Review what is currently included vs. offered as paid extras and ensure booking descriptions are accurate. Consider operational changes to improve perceived variety within cost constraints (menu rotation, signage, or clearer communication about paid items). Monitor guest feedback after changes.",
+      "rationale": "Breakfast has 26 mentions with 20 positive and 6 negative; guests praise specific items (eggs, fresh orange juice) while also reporting limited choices and extra charges for typical beverages. Because breakfast is a visible strength, targeted operational fixes or clearer communication can preserve the strength and reduce expectation violations.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast — review_mentions_total: 26, positive_mentions: 20, negative_mentions: 6, evidence_pattern: positive_with_friction, matched_topics: ['breakfast quality','breakfast variety','greater breakfast variety/offerings'].",
+        "Complaint 2024-07-16 (rating 4): 'The breakfast was very basic, limited choices but good. The egg was really good.'",
+        "Complaint 2024-07-08 (rating 7): 'The breakfast needs improvement because it required an additional payment to have most of the typical breakfast beverages. In fact, only hot water for a tea infusion or American coffee was offered.'",
+        "Complaint 2024-08-03 (rating 8): 'Simple breakfast. It could offer a greater variety of items.'",
+        "Complaint 2024-07-09 (rating 7): 'Takeaway breakfast option' (listed as disliked)."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise breakfast items: 'egg was really good', 'fresh orange juice made on the spot is a standout', positive_mentions: 20."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 20,
+        "negative_mentions": 6,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "EXPECTATION_VIOLATION_RATIO increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Room comfort (size, noise, renovation perception)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Several guests describe very small rooms (difficulty fitting suitcases, lack of surfaces), audible street noise through windows, and some generic calls for renovation.",
+      "recommended_action": "In the short term, review room descriptions and photos to ensure accurate representation of room size and features; implement low-cost operational fixes where possible (add shelves/surfaces, luggage racks). Commission a scoped assessment of noisier rooms (window seals, glazing) and a higher-level renovation plan only if the assessment indicates structural need and business case justification.",
+      "rationale": "Evidence is balanced: 3 positive and 3 negative mentions for room comfort. Multiple complaints describe cramped triple rooms with no surfaces and audible street noise. Because some fixes are operational (surfaces, clearer descriptions) and others may be capital (renovation, soundproofing), the recommended approach is immediate communications/operational remedies plus assessment before capital spend.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — review_mentions_total: 6, positive_mentions: 3, negative_mentions: 3, evidence_pattern: mixed, matched_topic: ['room size'].",
+        "Complaint 2024-07-16 (rating 4): 'the room was very small... no table or shelf to put your things so we had to keep everything in the luggage.'",
+        "Complaint 2024-07-26 (rating 5): 'a triple in which there wasn't even a surface to put things on, and it was difficult to fit 3 suitcases.'",
+        "Complaint 2024-07-09 (rating 7): 'The windows do not block noise and you can hear everything from the street.'",
+        "Complaint 2024-07-26 (rating 8): 'The room was very small for 3. We didn't have space to open suitcases.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests describe rooms as 'simple but sufficient' and praise cleanliness; managerial evidence shows 3 positive mentions for room comfort."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "REVPAR_WEEK decreasing",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Business performance & sentiment monitoring",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "RevPAR, TREVPAR and occupancy show consistent decreases; average sentiment and sentiment_score_avg are decreasing while the share of negative reviews has risen substantially.",
+      "recommended_action": "Initiate a short cross-functional review linking guest feedback trends to commercial performance: (1) monitor RevPAR, sentiment and negative-review share weekly, (2) map negative-feedback themes (bathroom, amenities, breakfast, room-size/noise) to booking channels/room types to identify prioritized corrective actions, and (3) report findings to revenue/operations for coordinated responses. Escalate if metrics continue to worsen after operational fixes.",
+      "rationale": "Business metrics show consistent downward movement (REVPAR and TREVPAR decreasing consistently over 4 weeks) while PERC_REVIEWS_NEGATIVE and SENTIMENT_SCORE_AVG indicate a worsening sentiment profile. Coordinated monitoring will help prioritize actions and measure impact of operational changes.",
+      "supporting_evidence": [
+        "Business performance: REVPAR_WEEK — first_value 104.866 → last_value 91.2171 (−13.02%), direction: decreasing, trend_strength: consistent, n_observations: 4.",
+        "Business performance: SENTIMENT_SCORE_AVG — first_value 0.3444 → last_value 0.15 (−56%), direction: decreasing, trend_strength: consistent.",
+        "Experience indicators: PERC_REVIEWS_NEGATIVE increased from 30.0% to 61.5385% over the window."
+      ],
+      "positive_counterevidence": [
+        "AVG_RATING increased modestly from 8.3 to 8.4615 (direction: increasing)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "REVPAR_WEEK decreasing",
+          "TREVPAR_WEEK decreasing",
+          "SENTIMENT_SCORE_AVG decreasing",
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "EXPECTATION_VIOLATION_RATIO increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "18 positive mentions, positive_share 1.0; multiple reviews praise cleanliness and room cleanliness.",
+      "management_implication": "Maintain current housekeeping standards and communicate this strength externally; ensure staffing and processes are preserved during any operational changes."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "33 mentions with 32 positive (positive_share 0.97); many guests cite central/quiet location as a key benefit.",
+      "management_implication": "Preserve location messaging in distribution and remind staff to highlight proximity to attractions at check-in."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "25 mentions with 24 positive (positive_share 0.923); many guests explicitly praise friendliness and helpfulness.",
+      "management_implication": "Recognize and reinforce staff behavior via briefings and acknowledgements; investigate isolated negative interaction (see complaint about a joke) with training/review if needed."
+    },
+    {
+      "area": "Breakfast (as a relative strength)",
+      "reason": "20 positive mentions praising items like eggs and fresh orange juice despite some negative remarks on variety/charges.",
+      "management_implication": "Preserve the positive elements (specific items guests like) while addressing variety/communication issues described in priorities."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "Consistent decrease in RevPAR over the 4-week window; important financial signal to monitor as guest-experience fixes are applied.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Large decrease in sentiment score signals worsening guest tone; track to assess whether interventions restore sentiment.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews increased substantially; useful to monitor whether targeted changes reduce negative share.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Bathroom-related negative mentions ('toilet location')",
+      "reason": "Emerging negative topic; monitor frequency to determine if the issue spreads beyond the current window.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Breakfast negative mentions / complaints about included items",
+      "reason": "Breakfast is a strength but repeated friction; monitor negative mentions to evaluate impact of operational or communication changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of the full review distribution; prevalence should be interpreted using managerial_evidence aggregates.",
+    "Managerial evidence flags (e.g., 'toilet location') are derived from text-topic matching rather than detailed technical inspection; scope and cost of maintenance or capital work cannot be determined from review text alone—an on-site assessment is required before committing to renovation.",
+    "Some issues combine operational fixes and potential capital needs (room layouts, soundproofing). Recommendations therefore emphasize assessment before capital expenditure.",
+    "Temporal scope is four weeks; recent_reversal signals exist for some experience metrics and must be considered (e.g., EXPECTATION_VIOLATION_RATIO recent_reversal = true).",
+    "Guest-proposed remedies included in reviews were used only as indications of perceived friction; they are not adopted verbatim as managerial solutions unless supported by broader evidence."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P009",
+    "case_id": "H363_20240729_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:51:06.910321+00:00",
+    "finished_at_utc": "2026-09-08T15:52:06.675348+00:00",
+    "elapsed_seconds": 59.755
+  }
+}

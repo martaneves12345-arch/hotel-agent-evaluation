@@ -1,0 +1,251 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Average sentiment is declining and emotional complexity is increasing while a cluster of operational and maintenance complaints (room comfort, bathroom cleanliness, pests, and dinner choices) have emerged recently. However staff, breakfast and location remain clear strengths that reduce immediate business risk. Issues include hygiene and a functioning air-conditioning complaint that warrant prompt attention.",
+  "executive_summary": "Key strengths: staff/service, breakfast, and location remain highly rated in reviews. Key vulnerabilities: (1) room comfort (AC failures, bed/pillow comfort, room hygiene) shows net-negative and expectation-violation signals and requires immediate operational/maintenance attention; (2) housekeeping/room-readiness processes (room cleanliness, sticky surfaces, missed sanitation) need a targeted short-term review to prevent repeat hygiene issues; (3) guest safety/quiet enjoyment concerns (reports of drunk guests making sleep difficult) should be addressed promptly; (4) food & beverage — specifically dinner menu/choices — is an emerging friction requiring short-term menu/offer review; (5) building condition and pest reports (old furniture, mosquitoes/small flies) suggest a medium-term maintenance/pest-control assessment. Recommendations prioritize immediate remediation of guest-facing hygiene and AC failures, short-term process reviews (housekeeping, F&B offerings), and a medium-term appraisal of building condition and pest control. Preserve staff and breakfast strengths while monitoring sentiment and operational complaint share.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort (AC, bed/pillow configuration, in-room hygiene)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guests reported non-functioning air conditioning (blowing warm air), uncomfortable bed configurations/pillows, and serious in-room hygiene failures (stale urine, dirty sink, sticky furniture). These complaints include expectation violations and an emerging negative signal.",
+      "recommended_action": "Immediate operational response: prioritize inspection and repair of reported AC units and a targeted audit of recent room-cleaning and room-assignment processes. Expedite guest-room readiness checks for arriving/changing guests. Where hygiene or functioning amenities are compromised, ensure rooms are taken out of service until cleaned/repaired and consider temporary room-change protocols. Record and escalate recurring failures to maintenance for diagnostic and remedial action.",
+      "rationale": "AC failure and visible hygiene issues are concrete, guest-impacting failures that produced low ratings and explicit expectation violations. The problem is both operational (room readiness) and maintenance-related (AC function), so the hotel should act immediately to prevent further guest harm and complaints.",
+      "supporting_evidence": [
+        "2024-06-08 complaint: air con blowing warm air; technician confirmed issue; manager initially said no rooms available; moved rooms then found stale urine in toilet, dirty sink, sticky bedside lockers.",
+        "Managerial evidence: Room comfort — 4 mentions (1 positive, 3 negative), evidence_pattern = net_negative, has_expectation_violation = true, is_emerging_negative = true.",
+        "2024-06-07 complaint: beds could be better; 2 singles posing as a double bed/not comfortable."
+      ],
+      "positive_counterevidence": [
+        "There is 1 positive mention for room comfort in managerial_evidence (positive_mentions = 1).",
+        "Staff and service are highly rated (20 positive mentions) which can help with guest recovery and communication when issues occur."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "PERC_OPERATIONAL_COMPLAINTS (recent up)",
+          "EMOTION_ENTROPY (increasing)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Housekeeping & room-readiness processes (cleanliness, inspection)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although cleanliness is generally positive, there are specific and serious hygiene complaints (e.g., stale urine, dirty sink, sticky bedside lockers) indicating failures in room check/cleaning procedures or quality control.",
+      "recommended_action": "Review housekeeping procedures and room-release checklist; implement/refresh pre-check standards for room handover (including toilet/sink cleanliness and surface stickiness). Provide focused retraining or refresher briefings for housekeeping staff and consider an audit/spot-check schedule to verify compliance. Track room-readiness failure incidents and escalate repeat issues for managerial review.",
+      "rationale": "Managerial evidence shows a predominantly positive cleanliness record but with violated expectations. The explicit hygiene examples (stale urine) are severe for guest experience and warrant targeted process correction rather than broad condemnation of housekeeping.",
+      "supporting_evidence": [
+        "Managerial evidence: Cleanliness and housekeeping — 6 mentions (4 positive, 2 negative), evidence_pattern = positive_with_friction, has_expectation_violation = true.",
+        "2024-06-08 complaint: second room had stale urine in the toilet, dirty sink, and sticky bedside lockers."
+      ],
+      "positive_counterevidence": [
+        "Majority of cleanliness mentions are positive (positive_share = 0.667).",
+        "Several reviews explicitly note clean rooms (e.g., 2024-05-28 positive context: 'Clean rooms')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS (recent up)",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Guest safety / nighttime noise & security (reports of drunken guests disturbing sleep)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "At least one review reports security concerns and intoxicated guests preventing restful nights, indicating a potential threat to guest safety and sleep quality.",
+      "recommended_action": "Review nighttime security and quiet-enforcement procedures immediately. Evaluate staffing/rotation of security presence during peak hours, clarify policies for managing intoxicated or disruptive guests, and ensure front-desk/staff escalation paths are clear. Log incidents and, where appropriate, increase visible deterrence and enforcement until patterns are evaluated.",
+      "rationale": "Although the frequency in the sample is limited, complaints about drunks and security directly affect guest safety and sleep and therefore justify prompt operational review.",
+      "supporting_evidence": [
+        "2024-05-25 complaint: 'Security and the drunks who don't let you rest at night.'",
+        "Preliminary signals indicate declining sentiment and increased emotion entropy, consistent with some guest frustration around experience disruptions."
+      ],
+      "positive_counterevidence": [
+        "Many guests praised staff helpfulness and friendliness (managerial_evidence: Staff and service — 20 positive mentions), which may mitigate issues if staff intervene effectively."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "EMOTION_ENTROPY (increasing)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Restaurant / dinner choices (dinner menu options)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Dinner choices have surfaced as an emerging negative topic with some guests on half-board noting limited dinner options.",
+      "recommended_action": "Review dinner menu variety and guest feedback for half-board guests. Conduct a short review with F&B management to confirm whether menu rotation, portioning, or communication of half-board inclusions meets guest expectations. Consider a targeted short-term menu adjustment or clearer communication about dinner options while monitoring guest feedback.",
+      "rationale": "Managerial evidence shows the restaurant is overall positive but dinner choices are an emerging friction. This is primarily a service/offer design issue rather than an urgent safety or maintenance problem.",
+      "supporting_evidence": [
+        "Managerial evidence: Restaurant and bar — 5 mentions (3 positive, 2 negative), evidence_pattern = positive_with_friction, is_emerging_negative = true.",
+        "2024-06-16 complaint: 'half board breakfast was good but dinner was not very good choices.'"
+      ],
+      "positive_counterevidence": [
+        "Restaurant and pool areas also have positive mentions (positive_share = 0.6), and breakfast is a clear strength."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: dinner choices"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Building condition & pest control (old furniture, mosquitoes, small flies)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "maintenance",
+      "problem": "Multiple reviews comment on an 'old' building, dated furniture and the presence of mosquitoes or small flies, suggesting recurring pest and refurbishment concerns that affect perceived comfort.",
+      "recommended_action": "Commission a medium-term assessment: (a) a pest-control inspection and treatment plan, and (b) a hotel-condition and furniture/fixtures review to identify priority refurbishment needs. Do not recommend capital works without assessment; first gather scope, frequency, and cost estimates.",
+      "rationale": "Several reviews mention age/condition and insects (mosquitoes, small flies). This appears recurrent across the window and affects guest comfort; it calls for inspection and planned maintenance rather than immediate capital spend without scope definition.",
+      "supporting_evidence": [
+        "2024-06-15 complaint: 'Old, nasty building.'",
+        "2024-06-02 complaint: 'The furniture is really old... and there were many mosquitoes in the room.'",
+        "2024-06-11 complaint: 'Old hotel, even renovated it doesn't have much comfort.'",
+        "2024-06-07 complaint: 'Small flies in the room.'"
+      ],
+      "positive_counterevidence": [
+        "Location and staff are strong positives, and some guests still rate stays 7-8 despite these concerns.",
+        "There are no explicit claims requiring immediate capital works; the evidence supports assessment first."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: building condition",
+          "complaint examples referencing mosquitoes/small flies and 'old' building"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "High positive mentions (20 positive, 1 negative) and repeated guest praise for friendliness, helpfulness and personalized service.",
+      "management_implication": "Continue empowering staff to resolve guest issues and use staff strengths for effective on-the-spot recovery when operational/maintenance issues arise."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Clear strength in guest comments (12 positive mentions, strong positive_share 0.857).",
+      "management_implication": "Maintain breakfast quality and communicate it as a guest-value point; ensure kitchen staffing/supply continuity while addressing dinner/menu issues separately."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Strongly positive in reviews (17 positive, 0 negative) and repeatedly praised by guests.",
+      "management_implication": "Preserve and market the property's central location; when implementing operational changes (e.g., security or parking adjustments), ensure they do not reduce perceived access benefits."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Overall sentiment is declining; track to assess whether interventions reverse the trend.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints recently increased; useful to monitor housekeeping/room-readiness and service failures.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "EXPECTATION_VIOLATION_RATIO",
+      "reason": "Expectation violations amplify complaint relevance; monitor to see if corrective actions reduce violations.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EMOTION_ENTROPY",
+      "reason": "Rising emotional complexity indicates more varied guest emotions and can signal emerging friction; monitor for stabilization.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of the full review set for the window; prevalence should be validated against complete review metadata.",
+    "The evidence identifies issues (e.g., AC failure, pests, hygiene) but does not provide technical scope, root-cause diagnostics, or cost estimates; recommendations to assess or inspect are therefore necessary before capital decisions.",
+    "Some areas overlap (room comfort, bathroom condition, housekeeping); where scope is unclear, further operational analysis is required to avoid duplicated efforts.",
+    "Recent business metrics show mixed signals (some recent reversals). Trend context should be considered when timing interventions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P019",
+    "case_id": "H413_20240610_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:04:51.961769+00:00",
+    "finished_at_utc": "2026-09-08T16:05:34.423580+00:00",
+    "elapsed_seconds": 42.462
+  }
+}

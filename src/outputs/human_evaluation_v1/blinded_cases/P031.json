@@ -1,0 +1,592 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P031",
+  "case_information": {
+    "case_id": "H51_20240129_L4",
+    "decision_week": "2024_W05",
+    "decision_date": "2024-01-29",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W02",
+        "week_date": "2024-01-08",
+        "REVPAR_WEEK": 34.43593966329966,
+        "REVPOR_WEEK": 154.62446666666668,
+        "TREVPAR_WEEK": 38.471787727272726,
+        "TAXA_OCUPACAO": 43.83116883116883,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.0,
+        "SENTIMENT_SCORE_AVG": 0.325,
+        "SENTIMENT_SCORE_STD": 0.5940997773560813,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0499999999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0499999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5,
+        "EXPECTATION_SHARE": 0.0833333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 41.66666666666667,
+        "PERC_OPERATIONAL_COMPLAINTS": 66.66666666666666,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8333333333333334,
+        "COMPLEXITY_INDEX": 2.336485897777674,
+        "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+      },
+      {
+        "WEEK_YEAR": "2024_W03",
+        "week_date": "2024-01-15",
+        "REVPAR_WEEK": 31.53634980769231,
+        "REVPOR_WEEK": 148.9953676923077,
+        "TREVPAR_WEEK": 35.14506347902099,
+        "TAXA_OCUPACAO": 42.2077922077922,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.88888888888889,
+        "SENTIMENT_SCORE_AVG": 0.4769230769230769,
+        "SENTIMENT_SCORE_STD": 0.6326582096649107,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0857142857142857,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1142857142857143,
+        "EXPECTATION_VIOLATION_RATIO": 0.6666666666666666,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.8904916402194913,
+        "EXPECTATION_SHARE": 0.3333333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1111111111111111,
+        "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+        "PERC_OPERATIONAL_COMPLAINTS": 50.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.6666666666666666,
+        "COMPLEXITY_INDEX": 2.0886425638102373,
+        "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+      },
+      {
+        "WEEK_YEAR": "2024_W04",
+        "week_date": "2024-01-22",
+        "REVPAR_WEEK": 52.82006447302698,
+        "REVPOR_WEEK": 167.99843516483517,
+        "TREVPAR_WEEK": 59.10109615384617,
+        "TAXA_OCUPACAO": 59.09090909090909,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.1,
+        "SENTIMENT_SCORE_AVG": 0.4666666666666666,
+        "SENTIMENT_SCORE_STD": 0.6282250127674532,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.2516291673878228,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 10.0,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.7,
+        "COMPLEXITY_INDEX": 2.2382550585990675,
+        "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+      },
+      {
+        "WEEK_YEAR": "2024_W05",
+        "week_date": "2024-01-29",
+        "REVPAR_WEEK": 44.22993358722359,
+        "REVPOR_WEEK": 142.1747967567568,
+        "TREVPAR_WEEK": 49.69595620393122,
+        "TAXA_OCUPACAO": 60.06493506493506,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.0,
+        "SENTIMENT_SCORE_AVG": 0.4571428571428572,
+        "SENTIMENT_SCORE_STD": 0.6294366339755545,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.12,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1399999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.8631205685666311,
+        "EXPECTATION_SHARE": 0.125,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.125,
+        "PERC_REVIEWS_NEGATIVE": 25.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 100.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.625,
+        "COMPLEXITY_INDEX": 2.151415609358996,
+        "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-02-01",
+        "rating": 9.0,
+        "liked": "Modern room",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-02-01",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-31",
+        "rating": 10.0,
+        "liked": "Very good hotel. Location in front of the metro, making it much easier to get anywhere.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-30",
+        "rating": 7.0,
+        "liked": "The bathroom/WC door bothered me quite a bit. It doesn't insulate either noise or ... . I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself. I would have, but there was nowhere to separate them 🤣🤣",
+        "disliked": null,
+        "country": "Slovakia",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 10.0,
+        "liked": "Everything clean and organized. Staff always cordial and offering prompt service. Simply perfect!",
+        "disliked": "I liked everything!",
+        "country": "Brazil",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-29",
+        "rating": 8.0,
+        "liked": "Hotel next to the Metro station. Clean rooms with well-distributed space. Polite reception. Very good Wi-Fi. An honest 3-star.",
+        "disliked": "The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+        "country": "Brazil",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-28",
+        "rating": 9.0,
+        "liked": "You can smell sewage odors.",
+        "disliked": null,
+        "country": "Poland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-28",
+        "rating": 10.0,
+        "liked": "Wonderful hotel! Congratulations on your customer service, very good facilities, comfortable, beautiful, cozy and extremely clean room, attentive care and little treats for the guest. Excellent breakfast and a privileged location. Definitely recommended and will always be my place to stay. Thank you for everything.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-26",
+        "rating": 8.0,
+        "liked": "Smart, Bright clean and tidy.",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-25",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-25",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-01-24",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Singapore",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-23",
+        "rating": 9.0,
+        "liked": "I like to stay here. Top location, buses and subways in front of the building. Rooms at the back are quiet.",
+        "disliked": "Nothing.",
+        "country": "Switzerland",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-01-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-01-22",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Greece",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-01-22",
+        "rating": 10.0,
+        "liked": "Super well located for those coming from the airport, whether by metro or taxi. Very pleasant room, very tasty breakfast, attentive staff.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-01-19",
+        "rating": 10.0,
+        "liked": "Everything. New, modern, very clean facility. Very convenient for getting around: the metro stop is in front of the hotel and the bus stop is a few steps away. The rooms are modern and spotless; every day they would bring you a bottle of water, fruit and chocolates. The staff were very kind and always available; at the end of the vacation they gave us a little gift as a memento. If I had to return to Lisbona I would definitely come back. Thanks for everything.",
+        "disliked": "Nothing — everything perfect.",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-01-18",
+        "rating": 8.0,
+        "liked": "Good location",
+        "disliked": "Parking is very expensive, breakfast quite limited.",
+        "country": "Brazil",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Most guest evidence is positive (cleanliness, staff, location), but there are clear emerging and persistent signals of expectation–experience misalignment (increasing expectation gap and semantic misalignment) and a cluster of operational complaints (breakfast variety/quality, some maintenance/noise and a small number of value/parking complaints). The combination of an existing priority alert, increasing operational complaints, and rising expectation-gap metrics justifies a moderate overall risk classification.",
+    "executive_summary": "The hotel shows clear strengths in cleanliness, staff helpfulness and location. Priority vulnerabilities are: (1) Breakfast (limited variety, some crowding) — net-negative and flagged as an emerging negative topic; (2) a rising expectation–experience / semantic misalignment signal that is cross-cutting and may be driving perception gaps; (3) operational/maintenance frictions (doors slamming, corridor noise, housekeeping conduct) that need prompt review; (4) bed-configuration / room-setup expectation friction (staff generally resolves but the mismatch recurs); and (5) parking/price–value concerns (fewer mentions but visible). Recommended actions emphasize targeted operational/process reviews and short assessments before any capital decisions.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast (food variety, capacity)",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests report limited breakfast variety, a cramped breakfast space and at least one violated expectation about breakfast quality/variety; topic is an emerging negative.",
+        "recommended_action": "Review breakfast offering and service process: (a) conduct a short operational review with F&B staff to map current menu/stocking, service flow, and peak-time capacity; (b) review guest-facing descriptions/inclusions about breakfast so expectations align with offering; (c) if the review indicates space constraints or recurring supply limitations, commission an assessment to determine whether operational changes suffice or a capital/space solution is required.",
+        "rationale": "Managerial_evidence shows 7 mentions (3 positive, 4 negative) with has_expectation_violation=true and is_emerging_negative=true; complaints in the sample repeatedly cite limited variety and cramped space. Because this is an emerging, repeated area of negative feedback and ties to the rising expectation gap, it should be reviewed promptly to avoid further erosion of perceived value.",
+        "supporting_evidence": [
+          "Managerial_evidence (Breakfast): 7 mentions, positive=3, negative=4, has_expectation_violation=true, is_emerging_negative=true.",
+          "Complaint 2024-01-14: 'breakfast has quality products but few options; it could have a bit more variety.'",
+          "Complaint 2024-01-29: 'breakfast is very poor. Few fruits, processed foods, and a cramped space.'",
+          "Complaint 2024-01-09: 'Breakfast repetitive.'",
+          "Preliminary signals: 'emerging_negative_topic' includes 'food variety'; increasing expectation_gap and semantic_misalignment signals are present."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Expectation–experience alignment / messaging",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Systemic increase in expectation–experience gap and semantic misalignment suggests guest expectations (what is promised or implied) are drifting from what guests experience across several areas (including breakfast and room features).",
+        "recommended_action": "Conduct a cross-functional review of guest-facing messaging and package/inclusion descriptions (website, booking channels, confirmation emails, and front-desk scripts) to identify and correct points where expectations may be overstated or ambiguous. Include F&B, rooms, and reservations teams. Implement simple remedial clarifications quickly (e.g., clear statements about what breakfast includes) and monitor guest feedback.",
+        "rationale": "Experience indicators show rising EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG (moderate trend strength). These are cross-cutting signals that can amplify specific complaints (e.g., breakfast, bed configuration). Addressing messaging/policy alignment is lower-cost and should precede assuming major operational changes.",
+        "supporting_evidence": [
+          "Experience_indicators: EXPECTATION_EXPERIENCE_GAP_AVG increased from 0.05 to 0.12 (n=4) and SEMANTIC_MISALIGNMENT_SCORE_AVG increased from 0.05 to 0.14.",
+          "Preliminary_signals: 'increasing_expectation_gap' and 'increasing_misalignment' flagged as high severity.",
+          "Managerial_evidence notes multiple areas with has_expectation_violation=true (Breakfast, Staff and service, Room comfort, Location)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Noise/doors and housekeeping conduct (corridor acoustics, doors slamming, housekeeping on phone)",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "At least one guest reported poor corridor acoustics, heavy door springs causing doors to slam, and housekeeping staff using phones while cleaning — causing disturbance and inability to remain in the room during cleaning.",
+        "recommended_action": "Immediate actions: (a) instruct housekeeping on phone-use policy and guest disturbance minimization; (b) have maintenance inspect door-closing mechanisms and corridor acoustics to identify quick mitigations (adjust door closers, add soft-close mechanisms or signage) and report back with recommended repairs; (c) monitor guest feedback for recurrence. If inspection shows structural acoustics issues, commission a further assessment.",
+        "rationale": "Complaint 2024-01-14 describes multiple operational annoyances together (slamming doors, housekeeping on phone) that directly affect guest comfort. Because these are concrete, addressable operational and maintenance items, a prompt operational and maintenance review is justified. Door mechanisms may require technical assessment before capital decisions.",
+        "supporting_evidence": [
+          "Complaint 2024-01-14: 'corridor acoustics are poor and the doors have very heavy springs that make them slam... the staff member who cleaned the floor was on her phone all the time every morning, and it was impossible to stay in the room because of the conversation and the doors slamming.'",
+          "Preliminary_signals: increasing_operational_complaints flagged as high severity."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.66
+      },
+      {
+        "rank": 4,
+        "area": "Room bed-configuration / room-setup expectation mismatch",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests generally praise room comfort, but managerial evidence flags repeated expectation friction around bed configuration (staff assistance needed to resolve bed configuration).",
+        "recommended_action": "Review reservation and room-allocation processes and front-desk check-in protocols to identify whether bed-configuration options are clearly offered at booking and whether room types are correctly assigned. Train front-desk staff to confirm bed setup at check-in and capture any recurring patterns (e.g., booking channel miscommunication).",
+        "rationale": "Managerial_evidence lists 'staff assistance to resolve bed configuration' as a matched topic under Staff and Room Comfort and shows bed comfort is otherwise positive; resolving process/messaging and reservation matching should reduce these expectation violations without capital expense.",
+        "supporting_evidence": [
+          "Managerial_evidence (Staff and service): matched topic 'staff assistance to resolve bed configuration'; positive_with_friction pattern (11 positive, 2 negative mentions).",
+          "Managerial_evidence (Room comfort): matched topics include 'bed comfort' and 'staff assistance to resolve bed configuration' (5 positive, 2 negative mentions)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.6
+      },
+      {
+        "rank": 5,
+        "area": "Parking and price–value perceptions",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "policy_process",
+        "problem": "A small number of guests reported parking as expensive and some negative price–value comments exist (low volume but negative share), which can affect perceived value for certain segments.",
+        "recommended_action": "Monitor frequency of parking and price–value complaints. If complaints persist or increase, review parking pricing communication (what is included vs. outsourced parking) and consider whether clearer messaging or partnership options should be presented to guests. Begin with a short review of booking-channel pricing statements and front-desk messaging.",
+        "rationale": "Managerial_evidence: Parking has 1 negative mention; Price–value has 2 negative mentions (net_negative pattern) but low volume. Given limited evidence, recommend monitoring and targeted review before operational or capital action.",
+        "supporting_evidence": [
+          "Complaint 2024-01-18: 'Parking is very expensive.'",
+          "Managerial_evidence (Price–value): 2 positive mentions = 1, negative_mentions = 2 (net_negative).",
+          "Managerial_evidence (Parking): 1 negative mention."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.45
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "High positive share in reviews (9 positive, 1 negative); multiple reviews explicitly praise cleanliness and daily room service.",
+        "management_implication": "Maintain current housekeeping standards and recognize/communicate them to staff; use cleanliness as a marketing highlight while addressing isolated conduct issues."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Strong positive mentions (11 positive, 2 negative) describing attentiveness, friendliness, helpful problem resolution and thoughtful touches (water, chocolates, gifts).",
+        "management_implication": "Preserve and reinforce service behaviours with training and recognition; leverage staff strength when clarifying expectations to guests."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently praised (12 positive, 1 negative) for proximity to metro and transport links.",
+        "management_implication": "Continue to highlight location in guest communications and booking channels; ensure messaging about transport connections is accurate to avoid expectation mismatch for certain travellers."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Rising gap is a cross-cutting signal tied to multiple complaints and emerging negative topics.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Increasing misalignment indicates guest descriptions and hotel messaging may be diverging; monitor to assess effect of messaging/process changes.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+        "reason": "Operational complaints are rising; this tracks the severity and frequency of door/noise/housekeeping and service-process issues.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE",
+        "reason": "Overall negative review share recently decreased but shows recent reversal; monitor to ensure no renewed deterioration.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "Complaints mentioning 'breakfast' or 'food variety' (count)",
+        "reason": "Breakfast is an emerging negative topic and should be tracked separately to measure effectiveness of interventions.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "The complaint_sample is diagnostic and not statistically representative of all reviews in the window (selected subset of substantive 'disliked' text). Prevalence should be assessed using the full review set.",
+      "Some issues (e.g., whether breakfast limitations reflect staffing, supplier, or space constraints; or whether door-closing mechanisms require repair vs. adjustment) cannot be resolved from review text and require on-site operational or technical assessment before committing capital.",
+      "Evidence for bed-configuration friction is derived from managerial topic matching rather than explicit complaint examples in the selected complaints; further operational review will clarify scope.",
+      "The experience indicators show trending problems (expectation gap and misalignment) but do not identify precise causal channels; recommended actions focus on review and alignment rather than prescriptive capital solutions."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest feedback is largely positive (average rating steady at 9.0) and commercial indicators (REVPAR, occupancy, TREVPAR) improved over the window. However, recurring operational complaints (sewage odour, bathroom/room privacy, inconsistent breakfast quality and cramped breakfast area, parking cost) present reputational and potential health/hygiene risks if not addressed. These issues are actionable but require prompt maintenance and operational changes.",
+    "executive_summary": "The hotel performs well on location, cleanliness, staff service and guest amenities, and commercial metrics show recent improvement. Primary managerial priorities are: (1) resolve plumbing/odour and room privacy/bed-configuration issues; (2) address inconsistent breakfast quality and limited breakfast space; (3) clarify and/or mitigate parking cost concerns; (4) improve consistency in room setup and front-desk handling of guest requests; (5) monitor review volume and complaint trends. Actions should combine immediate maintenance checks, operational adjustments, staff training, and short-term capacity/pricing reviews.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Plumbing / room privacy / bed configuration",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests report smelling sewage and issues with bathroom doors not insulating noise; a guest also reported being given two pushed-together beds and being told to separate them themselves (but unable to). These affect comfort, privacy and may indicate plumbing faults.",
+        "recommended_action": "Open urgent maintenance inspection for plumbing and drainage in affected floors/rooms; check and repair traps, vents, seals and drainage to eliminate sewage odour. Inspect bathroom doors for fit/insulation; repair or replace seals/doors to improve acoustic/privacy performance. Audit bed configurations and provide appropriate bed bases/frames that can be separated or clearly record/pre-prepare requested twin configuration prior to arrival. Update front-desk SOP to escalate and resolve bed-configuration and room privacy requests immediately (offer room change, onsite handyman or housekeeping assistance).",
+        "rationale": "Sewage odour suggests a plumbing or ventilation defect requiring technical repair; bathroom-door and bed-setup issues reduce guest comfort and can lead to complaints and negative reviews if left unresolved. Prompt fixes protect health, safety and reputation.",
+        "supporting_evidence": [
+          "You can smell sewage odors.",
+          "The bathroom/WC door bothered me quite a bit. It doesn't insulate either noise or ... .",
+          "I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself. I would have, but there was nowhere to separate them 🤣🤣"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast quality and dining capacity",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guest feedback on breakfast is mixed: some guests praise breakfast as excellent, others report it is poor (few fruits, processed foods) and that the breakfast area is cramped.",
+        "recommended_action": "Conduct a service review of breakfast offerings and layout: increase fresh fruit and healthier options, reduce overly processed items, and optimize buffet layout to reduce crowding. Consider staggered breakfast time slots or signage to manage peak flow. Train breakfast staff on replenishment cadence and guest engagement. Communicate breakfast details and peak times during booking and check-in.",
+        "rationale": "Breakfast is a frequently-cited touchpoint; inconsistent quality or cramped space can produce negative reviews even if other areas are strong. Improving product consistency and flow can raise guest satisfaction and perceived value.",
+        "supporting_evidence": [
+          "The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+          "Parking is very expensive, breakfast quite limited.",
+          "Very tasty breakfast, attentive staff."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.78
+      },
+      {
+        "rank": 3,
+        "area": "Parking pricing & guest communication",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Some guests find on-site parking expensive; perception of high parking cost can reduce perceived value of stay.",
+        "recommended_action": "Review parking pricing and options (internal rate vs. third-party lots). If rates cannot be lowered, improve transparency by publishing parking rate and alternatives on the hotel website and at booking. Negotiate validated or discounted rates with nearby lots where possible, or offer packaged deals (e.g., included parking for direct bookings or during low-demand periods).",
+        "rationale": "Parking is an explicitly mentioned negative point; clearer communication or price mitigation can reduce complaints and improve guest satisfaction.",
+        "supporting_evidence": [
+          "Parking is very expensive, breakfast quite limited."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      },
+      {
+        "rank": 4,
+        "area": "Consistency in room setup and front-desk handling",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "A guest was given a bed layout different from the reservation and told to fix it themselves; this indicates gaps in check-in processes and staff handling of simple room requests.",
+        "recommended_action": "Introduce or reinforce a pre-arrival room checklist confirming bed configuration for reservations specifying twin/double. Train reception staff on procedures for handling room-setup requests and empower them to dispatch housekeeping/maintenance immediately or offer alternative rooms. Track time-to-resolution for such requests and include in staff KPIs.",
+        "rationale": "Prompt, consistent handling of room-setup requests prevents avoidable dissatisfaction and supports the hotel's strong service reputation.",
+        "supporting_evidence": [
+          "I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.75
+      },
+      {
+        "rank": 5,
+        "area": "Monitor review volume and complaint themes",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Number of reviews in the window decreased by 33% while average rating remained steady; theme-level complaints (odour, breakfast, parking, room setup) appear intermittently and should be tracked to detect escalation.",
+        "recommended_action": "Implement a simple weekly dashboard tracking number of reviews, average rating, and counts of complaints by theme (plumbing/odour, breakfast, parking, room-setup). Use post-stay surveys or targeted follow-up emails to gather structured feedback on breakfast and room setup. Escalate recurring themes to operations weekly.",
+        "rationale": "Monitoring helps detect whether isolated complaints become trends and provides timely input to operations and maintenance.",
+        "supporting_evidence": [
+          "AVG_RATING stable at 9.0 while N_REVIEWS decreased by 33.3%.",
+          "Multiple reviews cite breakfast issues, a sewage odour and a bed-configuration problem."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location",
+        "reason": "Many guests highlight the hotel being in front of the metro, convenient for airport and city transport.",
+        "management_implication": "Keep clear communication of transport advantages in marketing and booking materials; preserve front-of-house guidance for transit."
+      },
+      {
+        "area": "Cleanliness and modern rooms",
+        "reason": "Multiple reviews praise spotless, modern and well-maintained rooms.",
+        "management_implication": "Maintain housekeeping standards and regular room checks; continue small in-room touches that guests value (water, fruit, chocolates)."
+      },
+      {
+        "area": "Staff service and hospitality",
+        "reason": "Frequent comments praise cordial, attentive and helpful staff.",
+        "management_implication": "Preserve service culture through training, recognition and staffing levels that support current service performance."
+      },
+      {
+        "area": "Wi‑Fi and amenities",
+        "reason": "Guests note very good Wi-Fi and appropriate amenities for a 3-star property.",
+        "management_implication": "Maintain network performance and amenity availability; communicate these features clearly in guest-facing materials."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Number of reviews per week",
+        "reason": "Detect changes in guest engagement and volume of feedback after interventions.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Average rating (weekly)",
+        "reason": "Track overall guest satisfaction stability or change.",
+        "desired_direction": "stable"
+      },
+      {
+        "indicator": "Count of complaints referencing sewage/odour",
+        "reason": "Direct measure of recurrence of a potentially hazardous issue.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Count of breakfast-related complaints / breakfast satisfaction score",
+        "reason": "Monitor consistency of breakfast quality and space adequacy after changes.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of bed-configuration/room-setup service requests and average resolution time",
+        "reason": "Measure effectiveness of front-desk and housekeeping processes for guest room requests.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of parking complaints / guest feedback mentioning parking price",
+        "reason": "Assess whether communication or pricing changes reduce complaints.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Open maintenance tickets related to plumbing and time-to-resolution",
+        "reason": "Ensure plumbing issues are diagnosed and fixed promptly.",
+        "desired_direction": "decrease"
+      }
+    ],
+    "limitations": [
+      "Review sample provided to the model is a subset (20 of 39 reviews in the window); other reviews in the window may contain additional relevant information not examined here.",
+      "No room-level frequency data available (unable to determine how many rooms are affected by sewage odour or if issues are isolated).",
+      "No operational or cost data provided for breakfast or parking; recommendations on pricing or menu changes should be validated against budgets and supplier options.",
+      "Cannot infer causality between reviews and commercial performance metrics; only associations and actionable guest-reported issues are identified."
+    ]
+  }
+}

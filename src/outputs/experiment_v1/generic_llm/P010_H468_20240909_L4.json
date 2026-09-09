@@ -1,0 +1,176 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Multiple recent guest comments consistently point to property-wide maintenance and service issues (aging rooms, poor bedding, pool cleanliness, hot-water/shower failures, breakfast service problems) at a time when REVPAR and TREVPAR have dropped ~31% and average rating fell ~8%. These issues risk further reputation damage and continued revenue underperformance if not addressed.",
+  "executive_summary": "Guests consistently praise location, views and breakfast, but repeatedly report aging rooms and bedding, neglected gardens, pool cleanliness and equipment problems, intermittent hot water and inconsistent housekeeping/food service. Priorities are: (1) address room/property maintenance and refurbishment, (2) fix pool cleanliness/equipment and layout issues, (3) restore reliable hot water/shower performance, (4) improve breakfast quality and clearing/service, (5) tighten housekeeping and grounds maintenance. Actions should combine immediate operational fixes and a short-to-medium term CAPEX/maintenance plan.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room and property maintenance / refurbishment",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests report aging suites and fittings, poor-quality bedding (mattresses with springs), outdated kitchenettes and some windows that do not close; several guests state the place 'needs renovation' or looks 'old and neglected'.",
+      "recommended_action": "Run a room-condition audit to identify highest-impact defects. Immediately replace or repair faulty mattresses/bed bases in worst rooms and provide mattress toppers as a temporary measure. Repair windows/locks and replace failing kitchenette appliances (e.g., microwave) where safety/comfort is affected. Produce a phased CAPEX plan for suite refurbishment and prioritize guest-facing rooms and those with repeated complaints.",
+      "rationale": "Directly addresses numerous consistent guest complaints about comfort and perceived value; targeted repairs will improve guest satisfaction quickly while a CAPEX plan manages longer-term investment.",
+      "supporting_evidence": [
+        "2024-09-13: 'The suites (although aging) are spacious... bedding of poor quality (mattress springs). The kitchenette available in the suite is outdated, the microwave has seen better days.'",
+        "2024-09-09: 'Place need renovation'",
+        "2024-09-08: 'Room with a window that I could not close, old and neglected appearance.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Pool & outdoor-area upkeep and guest experience",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests report pools are not cleaned, not heated, sunbeds and parasols are worn, and pool areas feel crowded or small—reducing perceived value and comfort.",
+      "recommended_action": "Perform immediate deep clean and chemical testing of pools; establish and document a daily pool-cleaning and maintenance schedule. Replace or repair worn sunbeds and parasols starting with the most-used areas. Review pool layout and guest-flow to reduce crowding (e.g., manage sunbed placement or set occupancy guidance). Assess feasibility and business case for pool heating (medium-term).",
+      "rationale": "Pool and outdoor areas are central to guest enjoyment (views and pools cited frequently). Visible cleanliness and functioning equipment deliver quick perceptible improvements to guest satisfaction.",
+      "supporting_evidence": [
+        "2024-09-13: 'The pools are not heated and not cleaned. The sunbeds and parasols are worn.'",
+        "2024-09-15: '...little space by the pool.'",
+        "2024-09-05: 'the pool, which has sea views.' (positive on view but indicates pool importance)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Hot-water and bathroom functionality",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Several guests experienced ice-cold showers at different times (morning and evening); some commented on awkward shower configurations (shower in bathtub).",
+      "recommended_action": "Dispatch maintenance technicians to immediately inspect hot-water system(s) and affected rooms; prioritize repairs in rooms with reported incidents. Create a log of hot-water complaints to identify patterns (time/zone). Where immediate repair is not possible, proactively inform guests at check-in and offer room changes when available.",
+      "rationale": "Reliable hot water is a basic expectation; fixing it addresses strong negative guest feedback and reduces risk of negative reviews.",
+      "supporting_evidence": [
+        "2024-09-10: 'Both in the evening and in the morning an ice-cold shower.'",
+        "2024-09-14: 'The shower in the bathtub.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast quality and service/clearing",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "While breakfast is generally described as abundant and a strength, guests note poor product quality (e.g., juice from a dispenser) and slow clearing/cleaning of tables which lowers perceived value.",
+      "recommended_action": "Review breakfast product sourcing (replace low-quality items such as suspect juice dispensers with fresher options) and adjust service/clearing procedures — consider reallocating or rostering staff at peak breakfast times to clear tables more frequently. Introduce a short guest-feedback card/survey about breakfast to track improvement.",
+      "rationale": "Guests repeatedly praise breakfast; improving quality and service hygiene can quickly raise overall satisfaction and perceived value.",
+      "supporting_evidence": [
+        "2024-09-13: 'Breakfast is well provided both savory and sweet but the products are of poor quality (fruit juice from a dispenser...). The tables are not cleared quickly nor cleaned.'",
+        "2024-09-05: 'Hearty breakfast...'",
+        "2024-09-04: 'excellente breakfast'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 5,
+      "area": "Housekeeping consistency and grounds maintenance",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Some rooms reported as 'not very clean' and multiple guests describe the garden/grounds as 'uncared for' or 'somewhat abandoned', undermining the strong natural setting.",
+      "recommended_action": "Implement strengthened housekeeping checklists and random room inspections; retrain or reallocate housekeeping teams to ensure consistent standards. Create a grounds-maintenance checklist and schedule for daily/weekly tasks (weed control, pruning, litter pick) and inspect visible guest-paths and terraces daily.",
+      "rationale": "Clean rooms and an cared-for garden preserve the property's unique selling points (views and serenity) and will reduce negative comments that affect ratings.",
+      "supporting_evidence": [
+        "2024-09-13: 'Lack of general maintenance of the grounds...you get the feeling it has been somewhat abandoned.'",
+        "2024-09-08: 'the garden is uncared for.'",
+        "2024-09-04: 'Rooms not very clean.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and views",
+      "reason": "Many guests praise the cliff-top location, sea views and easy walking to nearby villages—this is repeatedly highlighted as a core appeal.",
+      "management_implication": "Keep guest access to viewpoints and walking paths clear; emphasize location in marketing while aligning expectations about beach access."
+    },
+    {
+      "area": "Breakfast offering",
+      "reason": "Breakfast is repeatedly described as 'hearty', 'excellent' and a reason guests extended stays.",
+      "management_implication": "Maintain variety and quantity while improving product quality and service pace."
+    },
+    {
+      "area": "Friendly staff & easy parking",
+      "reason": "Guests comment on friendly reception staff and very easy parking as positives.",
+      "management_implication": "Preserve staff service culture through training and recognition; retain parking convenience in guest communications."
+    },
+    {
+      "area": "Spacious suites and private outdoor areas",
+      "reason": "Guests note suites are spacious with pleasant private outdoor areas—valuable attribute despite aging condition.",
+      "management_implication": "Prioritize refurbishment work that preserves the layout and outdoor privacy while upgrading finishes and fixtures."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average guest rating (weekly)",
+      "reason": "Overall indicator of guest satisfaction trends after interventions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "REVPAR and TREVPAR (weekly/monthly)",
+      "reason": "Track revenue performance alongside satisfaction improvements.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews mentioning 'maintenance', 'garden', 'pool', 'cold shower', 'clean/dirty' (weekly)",
+      "reason": "Directly monitors frequency of the specific issues raised by guests.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of maintenance work orders open and average time-to-resolution",
+      "reason": "Operational measure of responsiveness to guest-facing faults (hot water, windows, mattresses).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Housekeeping inspection pass rate (internal audit)",
+      "reason": "Ensures room cleanliness standards are met consistently.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Pool water-quality test results and maintenance logs",
+      "reason": "Objective measure of pool hygiene and safety.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Breakfast satisfaction score (short survey or comment share)",
+      "reason": "Measures perceived improvement after product/service changes.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Analysis based only on the 20 most recent reviews provided (the case notes 40 reviews available in window); sample may not represent all guest feedback.",
+    "No internal operational, staffing, budget or maintenance-log data supplied to assess feasibility or costs of recommended CAPEX or staffing changes.",
+    "Cannot infer causal link between guest review content and the observed REVPAR/TREVPAR declines; revenue metrics are provided but drivers are not identified in the case data.",
+    "No health & safety incident reports or engineering diagnostics provided; recommendations requiring technical detail assume a follow-up assessment by maintenance/engineering teams."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H468_20240909_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P010",
+    "case_id": "H468_20240909_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:52:06.935691+00:00",
+    "finished_at_utc": "2026-09-08T15:52:43.114190+00:00",
+    "elapsed_seconds": 36.177
+  }
+}

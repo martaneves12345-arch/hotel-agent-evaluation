@@ -1,0 +1,224 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business-level metrics show clear downward movement (REVPAR, REVPOR, TREVPAR, occupancy and sentiment). However the guest review sample still contains many strong positives (staff, location, breakfast, cleanliness) and the substantive complaint volume is small. The combination of deteriorating commercial indicators and worsening sentiment justifies a proactive managerial response, but the evidential scope does not support labeling the situation as critical.",
+  "executive_summary": "Recent weeks show declining commercial performance (RevPAR, RevPOR, TREVPAR) and a substantial drop in average sentiment, while core guest-facing strengths (staff, location, breakfast, cleanliness) remain strongly positive. Complaints are few and dispersed: the most consistent operational signal is a single room-comfort issue (air conditioning). Recommend (1) immediate managerial review of recent commercial and sentiment trends to identify root causes; (2) prompt inspection/maintenance check of air conditioning(s); (3) short-term housekeeping/grounds check for the outdoor area; (4) review of minor room-amenity expectations (wardrobe/hangers/pillows) and room description alignment; and (5) actively preserve and communicate current strengths (staff service, breakfast, location, cleanliness).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Commercial performance & guest sentiment trends",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "monitoring",
+      "problem": "Consistent downward movement in revenue and sentiment metrics over the 4-week window without a clearly identified cause in the review sample.",
+      "recommended_action": "Initiate an immediate managerial review to diagnose recent declines: (a) assemble recent booking, pricing and channel data and compare to prior periods; (b) review recent guest feedback in full (all reviews in the window) to identify emerging themes beyond the complaint sample; (c) check whether any operational or market changes (closures, channel changes, promotions) coincided with the decline; (d) establish short-list of candidate causes and next-step owners. Monitor REVPAR, SENTIMENT_SCORE_AVG and share of negative reviews closely over next 2–4 weeks.",
+      "rationale": "REVPAR, REVPOR and TREVPAR show moderate downward trends (REVPAR -12.9% over window). SENTIMENT_SCORE_AVG decreased consistently (from 0.92 to 0.40, -56.5%). PERC_REVIEWS_NEGATIVE rose to 50% in the experience indicators. These commercial and sentiment signals are high-severity and warrant prompt diagnostic review before selecting operational or capital responses.",
+      "supporting_evidence": [
+        "REVPAR_WEEK: first 143.66 -> last 125.11 (−12.91%)",
+        "REVPOR_WEEK and TREVPAR_WEEK also decreasing over the 4-week window",
+        "SENTIMENT_SCORE_AVG: 0.92 -> 0.40 (consistent decrease)",
+        "PERC_REVIEWS_NEGATIVE increased to 50.0 in the experience indicators",
+        "Priority alert flag = 1.0 in latest_context"
+      ],
+      "positive_counterevidence": [
+        "AVG_RATING remains high (last_value 9.0) and many reviews are strongly positive",
+        "Clear strengths in staff (13 positive mentions), location (9), breakfast (8), cleanliness (5) in managerial_evidence"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "declining_revpar",
+          "declining_sentiment",
+          "increasing_emotional_complexity",
+          "perc_reviews_negative (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort — air conditioning",
+      "evidence_pattern": "predominantly_positive",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "A guest explicitly reported dislike of the air conditioning; room-comfort is a high-priority domain in managerial_evidence (default_priority = high).",
+      "recommended_action": "Perform a targeted maintenance/operational check of air conditioning units in rooms (starting with the room referenced if identifiable). Verify setpoint behavior, noise, and ability to maintain temperature. Log any required repairs or replacements and schedule fixes. If multiple rooms show intermittent issues, escalate to a broader HVAC assessment.",
+      "rationale": "Room comfort is flagged in managerial_evidence with 3 mentions (2 positive, 1 negative) and the matched topic explicitly includes 'air conditioning'. While most room comments are positive, an AC complaint during high season risks guest discomfort; a short-term maintenance check is proportionate.",
+      "supporting_evidence": [
+        "Managerial_evidence: 'Room comfort' — review_mentions_total 3, positive 2, negative 1, matched_topics includes 'air conditioning'",
+        "Complaint (2024-08-26): 'Disliked: The air conditioning.'"
+      ],
+      "positive_counterevidence": [
+        "Room comfort has more positive than negative mentions in managerial_evidence (positive_share 0.667)",
+        "Multiple reviews praise room size, decoration and cleanliness"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "none specifically tied to AC; declining sentiment included as contextual signal"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 3,
+      "area": "Outside area / garden condition",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "An otherwise positive-stated stay included a comment that the outside area/garden was 'a bit untidy'.",
+      "recommended_action": "Assign housekeeping/grounds staff to inspect the outside/garden area and, if needed, tidy and adjust maintenance schedule. Record whether the untidiness is episodic (e.g., after weather or deliveries) or persistent and act accordingly.",
+      "rationale": "Cleanliness and housekeeping are a clear strength overall (5 positive mentions). A single substantive complaint about the outside area suggests a localized or episodic maintenance gap; a short-term inspection and tidy action is proportionate and preserves the broader cleanliness strength.",
+      "supporting_evidence": [
+        "Complaint (2024-08-19): 'Disliked: outside area/garden was a bit untidy'",
+        "Managerial_evidence: 'Cleanliness and housekeeping' — positive_mentions 5, negative_mentions 0 (clear strength)"
+      ],
+      "positive_counterevidence": [
+        "Housekeeping/cleanliness is strongly positive in managerial_evidence (positive_share 1.0)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": []
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Minor room-amenity friction (wardrobe/hangers/pillows)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "A small number of guests mentioned minor amenity/friction items (no wardrobe, pillows not to guest preference) that did not prevent high satisfaction but indicate an expectation/fit gap.",
+      "recommended_action": "Review room amenity inventory and public room descriptions to ensure they align (e.g., clarify storage options if full wardrobe is not present). Consider simple, low-cost operational responses first (extra hangers, temporary storage solutions, pillow options) or document for future review. Do not recommend capital investment without further assessment.",
+      "rationale": "Two substantive complaints reference wardrobe/hangers and pillows (2024-08-29 and 2024-08-17). Both reviews are otherwise highly positive. The issue appears to be an expectation/fit gap rather than a systemic failure; verify whether room descriptions communicate available storage and whether low-cost operational fixes suffice.",
+      "supporting_evidence": [
+        "Complaint (2024-08-29): 'Disliked: Lack of a wardrobe in the room... The hangers also worked.'",
+        "Complaint (2024-08-17): 'Disliked: If I have to mention one drawback: the pillows.'",
+        "Managerial_evidence: 'Room comfort' positive mentions exist (2 positives) and overall room/bathroom comments are positive"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise room size, decor and cleanliness; the wardrobe/hanger note did not prevent a 10/10 rating",
+        "Hangers functioned according to the guest comment"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_experience_gap (weak upward movement in experience indicators)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Managerial_evidence: 13 positive mentions, 0 negatives; matched topics include staff friendliness and helpfulness. Multiple reviews explicitly praise reception/service.",
+      "management_implication": "Ensure staffing and service protocols continue; incorporate staff praise into marketing and guest communication while avoiding operational changes that could degrade this strength."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Managerial_evidence: 9 positive mentions, 0 negatives; many reviews cite excellent location and proximity to metro/old centre.",
+      "management_implication": "Preserve and highlight location advantages in guest communications and pre-arrival materials."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Managerial_evidence: 8 positive mentions, 0 negatives; 'breakfast quality' repeatedly praised.",
+      "management_implication": "Maintain current breakfast standards and consider making this visible in booking channels as a differentiator."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Managerial_evidence: 5 positive mentions, 0 negatives; cleanliness repeatedly praised in reviews.",
+      "management_implication": "Maintain housekeeping standards and audit the outside/garden area periodically to prevent localized lapses."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK and related revenue metrics",
+      "reason": "Direct commercial measure showing consistent decreases over the 4-week window; useful for tracking recovery after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and share of negative reviews",
+      "reason": "Sentiment has fallen markedly; tracking sentiment and PERC_REVIEWS_NEGATIVE will help detect if guest experience deterioration is broadening.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Guest feedback mentioning air conditioning or room temperature",
+      "reason": "Targeted indicator to verify whether AC complaint is isolated or recurring.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Outside/garden cleanliness observations",
+      "reason": "To confirm whether the untidy outside area was episodic and to prevent recurrence.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of wardrobes/storage/pillows in 'disliked' text and expectation_gap metrics",
+      "reason": "To detect emerging expectation misalignment around room amenities.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is complaint-focused and not representative of all reviews; prevalence of issues should be assessed using the full review set for the window (26 total reviews, 7 with 'disliked').",
+    "Many priorities rely on single-review mentions (AC, outside area, wardrobe/pillows); these may be isolated incidents and require verification before larger interventions.",
+    "Business-metric declines are evident but the evidence does not establish causal links between specific complaints and revenue movement.",
+    "Scope and cost of any required maintenance or capital works (e.g., HVAC replacement, structural wardrobe installation) cannot be determined from the supplied evidence — recommend assessment before capital decisions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P014",
+    "case_id": "H121_20240826_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:58:02.543378+00:00",
+    "finished_at_utc": "2026-09-08T15:58:54.297183+00:00",
+    "elapsed_seconds": 51.75
+  }
+}

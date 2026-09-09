@@ -1,0 +1,213 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Multiple operational and expectation-failure signals (increasing expectation–experience gap, rising operational complaints, emerging negative topic for bathrooms) combined with declining sentiment and recent downward REVPAR trend justify elevated attention. Several issues (shared-bathroom drainage/cleanliness, inconsistent staff information around refunds/fees) are concrete and repeated in complaints.",
+  "executive_summary": "Preserve the clear strength in location and existing positives for room comfort (AC). Prioritize immediate action on shared-bathroom condition (cleanliness, drainage, supplies) because it is an emerging negative with hygiene and guest-expectation implications. Next, address staff communication and booking/fee transparency to restore trust and remove expectation violations. Tackle night-time noise/soundproofing through short-term operational steps and a medium-term inspection of windows/doors. Finally, inventory and repair in-room appliances and basic amenities (fridge, stove, bedding/towels). Monitor expectation-gap, operational-complaint share and sentiment closely while these actions are implemented.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition (shared bathrooms) ",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Repeated guest reports of shared bathroom cleanliness issues, lack of basic amenities (toilet paper, soap, hand towels), water accumulation/drainage in shared shower; identified as an emerging negative and violated expectation.",
+      "recommended_action": "Immediate: verify cleanliness and supplies for all shared bathrooms; increase frequency/coverage of housekeeping inspections and ensure consumables are consistently available. Inspect and address drainage/pooling in the 2nd-floor shared shower (operational maintenance). If inspection indicates structural drainage problems, escalate to a technical assessment for corrective works. Communicate to incoming guests clear information about bathroom arrangements and any temporary measures while fixes are performed.",
+      "rationale": "Hygiene and drainage complaints are repeated, flagged as emerging negative and expectation-violating in managerial evidence; shared-bathroom problems can cause immediate guest dissatisfaction and are tractable operationally but may require technical assessment if drainage is structural.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — 5 mentions, 4 negative, emerging_negative = true, has_expectation_violation = true.",
+        "Matched topics: bathroom cleanliness and amenities; better maintenance / drainage of shared bathroom.",
+        "Complaints: 2024-07-13 'shared bathroom on the 2nd floor accumulates water in the shower tray'; 2024-07-09 'shared shower looked dirty'; 2024-07-01 single bathroom for 3 rooms noted as potential issue; 2024-07-09 (another) mentions shared shower dirty."
+      ],
+      "positive_counterevidence": [
+        "Some reviews note overall cleanliness for private rooms (e.g., 2024-07-01 positive context: 'comfortable and very clean room')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_operational_complaints",
+          "EMERGING_NEGATIVE_TOPIC"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Staff communication, booking accuracy and late check-in/fees transparency",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Multiple guests report inconsistent or misleading information from staff (refunds, rooms provided) and unclear/changed late check-in charges, producing expectation violations and damaged trust.",
+      "recommended_action": "Review front-desk procedures and written communication for reservations, refunds and late-check-in fees. Audit recent booking records to confirm whether fees/room allocations matched communicated terms. Reinforce staff training on clear, consistent guest communication and escalation for disputes. Update publicly visible booking/confirmation text so fees and late check-in policies are explicit. If internal policy ambiguity is found, revise policy and document procedures for refunds and fee disclosures.",
+      "rationale": "Managerial evidence shows net-negative mentions and violated expectations for staff/service and booking/payment; complaint examples document staff saying refunds would be given then contradicted and guests being charged different late-check-in fees than quoted.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Staff and service' — 3 mentions (1 positive, 3 negative), has_expectation_violation = true.",
+        "Managerial evidence: 'Price–value' and 'Booking and payment' entries show violated expectations around fees and refunds.",
+        "Complaints: 2024-07-24 'staff lied... promised refund then said none given'; 2024-07-21 'late check in charges were not clear — told €20 then charged €30'; 2024-07-09 'No staff till 4pm' and 2024-07-14 'Employee, a rude woman'."
+      ],
+      "positive_counterevidence": [
+        "Some guests note staff were friendly when present (2024-07-09 positive context: 'Staff friendly when there')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 6,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 3,
+        "violated_expectation_weeks": 3,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment_score_avg"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Night-time noise and soundproofing",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Frequent guest reports of poor soundproofing, street noise and broken windows/doors allowing noise into rooms — recurring sleep disturbance complaints.",
+      "recommended_action": "Short-term: implement operational mitigations (offer quieter room allocation where available, provide earplugs, ensure clear pre-arrival information about street noise and window opening). Medium-term: schedule an inspection of windows/doors and room doors to determine whether repairs or replacement are needed (capital assessment). If noise is predictable (nightlife area), ensure placements of guests who require quiet are prioritized where possible and document noise expectations at booking.",
+      "rationale": "Multiple complaints across several dates describe noise, poor acoustics and broken windows; this is persistent and affects sleep quality and guest satisfaction. Some mitigation can be operationally implemented quickly while physical inspection determines scope of capital work.",
+      "supporting_evidence": [
+        "Complaints: 2024-07-09 'Often noisy at night with drunk people coming back'; 2024-07-13 'Very poor soundproofing... replace the doors would help'; 2024-07-18 'too much noise at night. Broken windows that let the noise through'; 2024-07-02 'room acoustics were very poor'; 2024-07-09 'shared shower looked dirty and it was very noisy'."
+      ],
+      "positive_counterevidence": [
+        "Some guests accept street noise as part of local experience (2024-07-01 positive context: 'that is part of Lisbon's great energy')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 6,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_emotion_entropy",
+          "increasing_operational_complaints",
+          "declining_sentiment_score_avg"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "In-room amenities and basic maintenance (broken fridge/appliances, bedding, kitchen facilities)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests reported broken fridge, non-working appliances, missing kitchen equipment (no stove/refrigerator in kitchen), small bed/bedding issues and requests for additional hand towels.",
+      "recommended_action": "Perform an inventory and functional check of in-room and communal kitchen appliances and fittings. Repair or replace non-functioning units where appropriate. Ensure housekeeping supplies (extra hand towels) protocol is adhered to. If kitchen listings/amenity descriptions are ambiguous, update public descriptions to match actual facilities.",
+      "rationale": "Complaints include a broken fridge, 'half of the appliances do not work', missing kitchen stove/refrigerator and bedding issues; these are operational/maintenance issues that can largely be resolved with targeted repairs and clearer amenity descriptions.",
+      "supporting_evidence": [
+        "Managerial evidence: In-room amenities — 3 mentions (1 positive, 2 negative).",
+        "Complaints: 2024-07-28 'Broken fridge'; 2024-07-16 'kitchen on the 1st floor had no stove or refrigerator'; 2024-07-24 'facilities are old and half of the appliances do not work'; 2024-07-14 'A few extra hand towels would also have been nice'; 2024-07-14 'The bed is small and the bedding absolutely does not stay in place.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests note AC and bed comfort positively (managerial evidence: Room comfort positive mentions)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "declining_sentiment_score_avg"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently strong and frequent positive mentions (12 positive, 0 negative). Location is repeatedly cited as the primary reason guests choose the property.",
+      "management_implication": "Preserve marketing and operational emphasis on central location in guest communications; avoid interventions that would reduce this core advantage."
+    },
+    {
+      "area": "Room comfort — air conditioning and bed comfort",
+      "reason": "Managerial evidence indicates predominantly positive mentions for air conditioning and bed comfort (Room comfort: 6 mentions, 4 positive). Several complaints nonetheless mention specific bedding issues, but overall AC and bed comfort are strengths.",
+      "management_implication": "Maintain AC reliability and bedding quality standards; when addressing bedding-specific complaints, treat them as targeted fixes rather than broad replacements."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Has shown a moderate increasing trend and links to repeated expectation-violation complaints (fees, refunds, bathroom condition).",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Share of operational complaints is increasing (managerial signal) and underpins several priorities (bathroom, amenities, repairs).",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Overall sentiment is declining; improvements in operations/communications should be reflected here.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Business performance shows moderate declines with recent reversal; monitor for sustained recovery or further deterioration as experience improvements are made.",
+      "desired_direction": "context_dependent",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Guest complaints mentioning 'bathroom' and 'refund/fee' keywords (volume)",
+      "reason": "Directly tracks priority areas and will indicate whether operational/process changes reduce complaint frequency.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not fully representative of all guest feedback; prevalence estimates should use the full review window.",
+    "Some priorities (noise soundproofing, drainage) may require technical inspection to determine scope and cost; this assessment did not include technical or financial analysis.",
+    "Evidence does not specify exact staff schedules or staffing levels; recommended actions focus on process review and communication rather than staffing quotas.",
+    "Managerial recommendations avoid prescribing specific capital solutions or product choices; where capital works may be required, the recommendation is to assess/inspect first."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P004",
+    "case_id": "H220_20240722_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:44:06.838906+00:00",
+    "finished_at_utc": "2026-09-08T15:44:55.771266+00:00",
+    "elapsed_seconds": 48.939
+  }
+}

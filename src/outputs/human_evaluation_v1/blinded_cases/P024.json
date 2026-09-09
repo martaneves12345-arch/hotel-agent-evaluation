@@ -1,0 +1,561 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P024",
+  "case_information": {
+    "case_id": "H131_20240923_L4",
+    "decision_week": "2024_W39",
+    "decision_date": "2024-09-23",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 81.89365110083992,
+        "REVPOR_WEEK": 104.6808526912181,
+        "TREVPAR_WEEK": 90.84328861885592,
+        "TAXA_OCUPACAO": 88.97243107769424,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.555555555555555,
+        "SENTIMENT_SCORE_AVG": -0.25,
+        "SENTIMENT_SCORE_STD": 0.2886751345948128,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.375,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.375,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.1111111111111111,
+        "EMOTION_ENTROPY": 1.0,
+        "EXPECTATION_SHARE": 0.1111111111111111,
+        "HIGH_EXPECTATION_SHARE": 0.1111111111111111,
+        "HIGH_MISALIGNMENT_SHARE": 0.1111111111111111,
+        "PERC_REVIEWS_NEGATIVE": 22.22222222222222,
+        "PERC_OPERATIONAL_COMPLAINTS": 100.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2222222222222222,
+        "COMPLEXITY_INDEX": 1.25,
+        "SENTIMENT_TREND_SLOPE": 0.0008657994923306
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 45.74428638179607,
+        "REVPOR_WEEK": 115.44233696369636,
+        "TREVPAR_WEEK": 52.72503677262462,
+        "TAXA_OCUPACAO": 73.1829573934837,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.642857142857143,
+        "SENTIMENT_SCORE_AVG": 0.17,
+        "SENTIMENT_SCORE_STD": 0.6766748767974832,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0916666666666666,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0916666666666666,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.360964047443681,
+        "EXPECTATION_SHARE": 0.0714285714285714,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0714285714285714,
+        "PERC_REVIEWS_NEGATIVE": 28.57142857142857,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.3571428571428571,
+        "COMPLEXITY_INDEX": 2.4342783926868305,
+        "SENTIMENT_TREND_SLOPE": 0.0008657994923306
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 78.45733628808864,
+        "REVPOR_WEEK": 157.38479133126935,
+        "TREVPAR_WEEK": 106.4312013904731,
+        "TAXA_OCUPACAO": 74.18546365914787,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.428571428571429,
+        "SENTIMENT_SCORE_AVG": 0.1428571428571428,
+        "SENTIMENT_SCORE_STD": 0.6754187413675136,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0875,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0875,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.448815635725185,
+        "EXPECTATION_SHARE": 0.1428571428571428,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 42.85714285714285,
+        "PERC_OPERATIONAL_COMPLAINTS": 50.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5714285714285714,
+        "COMPLEXITY_INDEX": 2.5278761839502533,
+        "SENTIMENT_TREND_SLOPE": 0.0008657994923306
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 98.09983581222676,
+        "REVPOR_WEEK": 186.5292914675768,
+        "TREVPAR_WEEK": 131.06714182983052,
+        "TAXA_OCUPACAO": 68.92230576441104,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 7.833333333333333,
+        "SENTIMENT_SCORE_AVG": 0.125,
+        "SENTIMENT_SCORE_STD": 0.55,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 33.33333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5,
+        "COMPLEXITY_INDEX": 2.375814583693912,
+        "SENTIMENT_TREND_SLOPE": 0.0008657994923306
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-09-26",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 9.0,
+        "liked": "I liked everything.",
+        "disliked": "The weather was not cooperative.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 4.0,
+        "liked": "Localização",
+        "disliked": "Limpeza",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "China",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-22",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-21",
+        "rating": 10.0,
+        "liked": "Everything. Scenery, hotel amenities, staff, food,",
+        "disliked": "Nada",
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-19",
+        "rating": 8.0,
+        "liked": "Good with very nice views",
+        "disliked": "Facilities on the top floor were not working.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-17",
+        "rating": 9.0,
+        "liked": "Spa jacuzzi out of service",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ukraine",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 9.0,
+        "liked": "Beautiful ocean view, clean, comfortable, quiet rooms. The breakfast is tasty, the coffee too! Parking was possible in front of the hotel. Great value for money! The staff are kind.",
+        "disliked": "They provided very few toiletries, only a hotel soap and a shower gel in the bathroom. There was no shampoo, and the shower gel dispenser dispensed microscopic amounts. We chose the hotel because of the jacuzzis, but they closed the wellness area very soon, so there was no chance to use it.",
+        "country": "Hungary",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-15",
+        "rating": 9.0,
+        "liked": "Excellent location.",
+        "disliked": "We arrived at half past midnight and there was nothing to eat anywhere.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-13",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-12",
+        "rating": 6.0,
+        "liked": "Quite a nice hotel, 5 mins from beach Nice restaurant to have breakfast in overlooking the sea",
+        "disliked": "Reception staff have an attitude problem and should not be dealing with customers unless they get some training Our room wasn't ready for check in on time, we had to wait an extra hour. That was no big problem but they didn't even apologise and just left us sitting about and when the room was ready they didn't even bother to come and tell us. They were arrogant and disinterested and spoilt our stay.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest ratings are generally positive (avg rating increased slightly to 7.83) and revenue metrics improved, but repeated negative comments about spa/facilities, front-desk service, cleanliness and supplies create a moderate reputational and operational risk if not addressed promptly.",
+    "executive_summary": "Recent reviews show strengths in location, ocean views, breakfast quality and many positive staff interactions, but recurring operational issues require attention: (1) front-desk service and check-in handling, (2) wellness/spa and top-floor facilities out of service, (3) cleanliness concerns, (4) guest supplies and late-night food availability, and (5) inconsistent guest communication about operating hours/closures. Addressing these with immediate operational fixes, targeted maintenance, staff training and clearer guest communication should protect reputation and guest repeat business.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front-desk service & check-in process",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Multiple reviews cite reception staff 'attitude problems', arrogance and poor handling of late/ delayed check-ins (room not ready, no apology, no proactive communication). This directly affects guest experience and perceived service quality.",
+        "recommended_action": "Run immediate refresher training for front-desk staff on service standards, empathy and communication. Implement a standard operating procedure (SOP) for delayed room readiness including proactive guest notification, apology script, and offered compensation (drink/discount/early breakfast). Institute a simple front-desk feedback metric (post-check-in micro-survey) and weekly coaching based on responses.",
+        "rationale": "A single negative interaction at check-in is highly salient and several reviews describe the same problem; fixing behavior and communication is low-cost and high-impact on guest satisfaction.",
+        "supporting_evidence": [
+          "2024-09-12 review: 'Reception staff have an attitude problem... Our room wasn't ready for check in on time... they didn't even apologise and just left us sitting about... arrogant and disinterested and spoilt our stay.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Wellness / spa & top-floor facilities functioning",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple guests report jacuzzi/spa and top-floor facilities being out of service or closed early; this undermines expectations for a 4-star property and for guests who specifically booked for wellness facilities.",
+        "recommended_action": "Conduct an immediate technical inspection of the wellness area and top-floor facilities to diagnose faults and establish a repair timeline. If immediate repair is not possible, close affected areas formally with clear signage, update OTAs/website and pre-arrival communications, and offer affected guests compensation (waiver, discount, or alternate amenity). Review maintenance scheduling and spare-parts stock to reduce recurrence. If recurring breakdowns are frequent, initiate a capital assessment for replacement.",
+        "rationale": "Repeated mentions across reviews indicate this is not a one-off issue. Proactive repair + clear communications restore trust and limit negative reviews/bookings from disappointed guests.",
+        "supporting_evidence": [
+          "2024-09-17 review: 'Spa jacuzzi out of service'",
+          "2024-09-19 review: 'Facilities on the top floor were not working.'",
+          "2024-09-16 review: 'We chose the hotel because of the jacuzzis, but they closed the wellness area very soon, so there was no chance to use it.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping / cleanliness",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "At least one review scores the stay low specifically because of cleanliness issues ('Limpeza'), indicating a housekeeping lapse that can strongly reduce guest satisfaction.",
+        "recommended_action": "Perform an immediate housekeeping audit (spot checks) of recently departed rooms and common areas. Retrain housekeeping staff on checklist standards, introduce a short per-room checklist signed at inspection, increase supervisor inspections for a period, and respond to the negative review publicly explaining corrective actions taken.",
+        "rationale": "Cleanliness is a baseline expectation; addressing housekeeping lapses improves guest comfort and prevents negative word-of-mouth.",
+        "supporting_evidence": [
+          "2024-09-23 review (rating 4): 'Limpeza'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 4,
+        "area": "Guest supplies & late-night food availability",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported minimal toiletries (no shampoo, tiny dispenser output) and lack of food options for very late arrivals ('arrived at half past midnight and there was nothing to eat'). These reduce perceived value and convenience.",
+        "recommended_action": "Review and standardize in-room toiletry provisioning (add shampoo, check dispenser flow rates and refill schedule). Establish a late-arrival offering (small grab-and-go snacks or a simple refrigerated shelf, or partner with a nearby vendor/room-service on-call). Ensure front desk informs late arrivals about available options.",
+        "rationale": "These are relatively low-cost fixes that improve guest experience and perceived value, especially for guests who arrive late or expect basic amenities.",
+        "supporting_evidence": [
+          "2024-09-16 review: 'They provided very few toiletries, only a hotel soap and a shower gel... There was no shampoo, and the shower gel dispenser dispensed microscopic amounts.'",
+          "2024-09-15 review: 'We arrived at half past midnight and there was nothing to eat anywhere.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 5,
+        "area": "Guest communication & expectations about operating hours/closures",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Guests expected to use wellness facilities but encountered unexpected closures or early closing times; lack of proactive communication amplified disappointment.",
+        "recommended_action": "Update all booking channels (hotel website, OTAs) with current wellness hours and any temporary closures. Add a pre-arrival email and front-desk script to inform guests about operating hours and alternative options. Train reservations staff to mention operating hours during booking for guests who request spa/wellness.",
+        "rationale": "Clear, proactive communication reduces expectation gaps and avoids negative reviews from preventable disappointments.",
+        "supporting_evidence": [
+          "2024-09-16 review: 'We chose the hotel because of the jacuzzis, but they closed the wellness area very soon...'",
+          "2024-09-19 review: 'Facilities on the top floor were not working.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.8
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location & ocean views",
+        "reason": "Multiple reviews praise location and very nice views; location is a clear differentiator and attraction for guests.",
+        "management_implication": "Preserve room types/views allocation, promote views in marketing, ensure public spaces / breakfast area continue to capitalize on scenery."
+      },
+      {
+        "area": "Breakfast quality & coffee",
+        "reason": "Several guests describe the breakfast as tasty and the coffee positively; breakfast is a recurring positive touchpoint.",
+        "management_implication": "Keep breakfast standards and offerings, maintain consistency in service and food quality."
+      },
+      {
+        "area": "Friendly staff interactions (where present) and value for money",
+        "reason": "Some reviews explicitly praise staff kindness, parking availability and value for money.",
+        "management_implication": "Recognize and reward staff who receive positive comments; replicate behaviors through training and staff briefings."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Average guest rating (weekly)",
+        "reason": "Broad measure of guest satisfaction trends.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of reviews mentioning 'spa' / 'jacuzzi' downtime or 'facilities not working' (monthly)",
+        "reason": "Tracks recurrence and guest impact of wellness-area problems.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of front-desk complaints / negative check-in comments (monthly) and post-check-in micro-survey score",
+        "reason": "Measures improvement in check-in service and staff attitude.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Housekeeping audit pass rate (percent of inspected rooms meeting standards)",
+        "reason": "Direct measure of cleanliness performance.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Incidents of toiletry stockouts or dispenser refill intervals (weekly)",
+        "reason": "Monitors supply issues that lead to guest complaints.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of late-arrival food requests unmet / guest complaints about food availability at night",
+        "reason": "Monitors effectiveness of late-night food offering.",
+        "desired_direction": "decrease"
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the supplied 20 most-recent reviews (out of 36 available in the window); frequency estimates of issues may be imprecise.",
+      "Customer comments are qualitative and may reflect individual experiences; they do not establish causation for financial performance changes.",
+      "Some problems (e.g., how often wellness facilities break down) require operational data/maintenance logs for full root-cause diagnosis.",
+      "No breakdown provided of which room types or arrival channels most affected by the issues; targeted interventions may need additional segmentation data."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business metrics (RevPAR/RevPOR/TREVPAR) are improving, but there is an existing priority alert and emerging negative evidence about the wellness area plus recent reversals in average rating and sentiment. Customer feedback shows a small number of recurring expectation violations (wellness/jacuzzi availability, front-desk communication) and mixed cleanliness signals. These combined make the current situation moderate risk requiring targeted action and monitoring.",
+    "executive_summary": "Preserve clear strengths (location, breakfast) while addressing a small set of expectation-driven frictions. Highest actionable priority is the wellness area (jacuzzi/upper-floor facilities): multiple recent complaints indicate unavailability/closures that violated guest expectations. Second priority is front-desk service and guest communications (check-in delays, lack of apology/notifications). Third is mixed cleanliness/housekeeping signals including in-room toiletries/dispensing. Also monitor recent reversals in average rating, sentiment and occupancy decline alongside increasing emotional complexity and polarization. Recommend targeted operational/process reviews and inspections; where scope or capital needs are unclear, begin with assessments rather than immediate investment.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Spa and pool",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests expected functional wellness facilities (jacuzzi/wellness/top-floor facilities) but multiple recent reviews report closures, non-working jacuzzi or restricted hours — an expectation violation and an emerging negative topic.",
+        "recommended_action": "Immediate operational check and guest-communication review: (a) inspect jacuzzi and associated wellness equipment to confirm functionality and identify required maintenance; (b) review and, if needed, adjust opening hours and staffing so advertised facilities are available during core guest usage times; (c) proactively communicate current status and availability of wellness facilities at booking, pre-arrival, and at check-in. If inspection shows structural or capital issues, commission a technical assessment before proposing capital works.",
+        "rationale": "Managerial evidence shows expectation violation and emerging negative (expectation_weeks=1, violated_expectation_weeks=1, emerging_negative_weeks=1). Three complaint examples reference non-working or closed wellness facilities (jacuzzi does not work; top-floor facilities not working; wellness area closed early). Underlines a current mismatch between advertised amenities and guest experience, increasing risk of disappointed guests despite otherwise positive comments about the hotel.",
+        "supporting_evidence": [
+          "Managerial evidence: Spa and pool — review_mentions_total=3, positive_mentions=2, negative_mentions=1; has_expectation_violation=true; is_emerging_negative=true.",
+          "Complaint 2024-09-08: 'Jacuzzi does not work'.",
+          "Complaint 2024-09-19: 'Facilities on the top floor were not working.'",
+          "Complaint 2024-09-16: 'They closed the wellness area very soon, so there was no chance to use it.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Staff and service (front desk communication & attitude)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Although staff are generally described positively, there is at least one clear expectation violation around front-desk behaviour and check-in communication (attitude, failing to inform guests when rooms are ready, lack of apology for delays).",
+        "recommended_action": "Review front-desk check-in procedures and service recovery expectations: (a) audit recent check-in flow and delays; (b) reinforce a simple protocol for communicating delays and apologising (check-in delays, room-ready notifications); (c) deliver targeted coaching/refresher on guest communication and acknowledgement; (d) monitor for recurrence through guest feedback and front-desk incident logging.",
+        "rationale": "Managerial evidence shows strong positive mentions but a violated expectation week (expectation_weeks=1, violated_expectation_weeks=1). A substantive complaint describes reception staff as 'arrogant and disinterested', and a late room-ready notification without apology. Preserving the broadly positive staff reputation requires addressing this specific friction.",
+        "supporting_evidence": [
+          "Managerial evidence: Staff and service — review_mentions_total=4, positive_mentions=3, negative_mentions=1, has_expectation_violation=true.",
+          "Complaint 2024-09-12: Reception staff attitude problem; room not ready, no apology and staff didn't notify when room was ready."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Cleanliness and housekeeping (including toiletries replenishment)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Mixed signals: several mentions praise cleanliness but there are persistent negative mentions (including limited toiletries and weak dispenser output) suggesting housekeeping or amenities replenishment inconsistencies.",
+        "recommended_action": "Operational housekeeping/process review: (a) audit housekeeping checklists and toiletries replenishment policy (dispensers vs individual bottles) and execution; (b) perform spot audits of rooms before guest arrival and after housekeeping; (c) retrain or clarify expectations where gaps are found; (d) if dispensers are failing to deliver adequate quantities, inspect/replace equipment or adjust refill cadence.",
+        "rationale": "Managerial evidence shows mixed experience (review_mentions_total=4, positive_mentions=2, negative_mentions=2, experience_weeks=2 indicating persistence). Complaint 2024-09-16 reports 'very few toiletries' and ineffective dispenser delivery. Because this affects perceived room readiness and value, operational fixes and an inspection are warranted before considering capital choices.",
+        "supporting_evidence": [
+          "Managerial evidence: Cleanliness and housekeeping — review_mentions_total=4, positive_mentions=2, negative_mentions=2, evidence_pattern=mixed, experience_weeks=2.",
+          "Complaint 2024-09-16: 'They provided very few toiletries ... the shower gel dispenser dispensed microscopic amounts.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.65
+      },
+      {
+        "rank": 4,
+        "area": "Monitor: recent rating/sentiment reversals and occupancy decline",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Business and experience indicators show mixed signals: RevPAR and RevPOR rising while occupancy is declining and average rating/sentiment show recent reversals. Emotional complexity and polarization are increasing, indicating more heterogeneous guest experiences.",
+        "recommended_action": "Monitor weekly and investigate segmentation/operational drivers: (a) track AVG_RATING and SENTIMENT_SCORE_AVG closely for additional reversals; (b) analyze whether declining occupancy is concentrated in particular segments/dates; (c) correlate guest complaint themes (wellness, check-in, housekeeping) with timing and guest segments; (d) if patterns persist, commission a deeper root-cause review (requires further assessment).",
+        "rationale": "Metrics show TAXA_OCUPACAO decreasing (-22.5% over window) while RevPAR is increasing. AVG_RATING and SENTIMENT_SCORE_AVG have recent_reversal=true. Experience indicators show EMOTION_ENTROPY increasing and POLARIZATION_INDEX increasing. These are monitoring priorities to detect escalation and inform targeted interventions.",
+        "supporting_evidence": [
+          "Business performance: TAXA_OCUPACAO decreasing (first 88.97 to last 68.92, -22.54%), AVG_RATING recent_reversal=true, SENTIMENT_SCORE_AVG recent_reversal=true.",
+          "Experience indicators: EMOTION_ENTROPY increasing, POLARIZATION_INDEX increasing, PERC_REVIEWS_NEGATIVE rose then recent movement down (recent_reversal=true)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently strong positive evidence (managerial_evidence: positive_mentions=5, positive_share=1.0; complaints repeatedly cite 'perfect location' and seaside location).",
+        "management_implication": "Keep marketing and guest communications emphasising the seaside location and maintain facilities that support this strength (parking, signage, beach access info)."
+      },
+      {
+        "area": "Breakfast (food & beverage)",
+        "reason": "Multiple positive mentions about breakfast quality and buffet (managerial_evidence: positive_mentions=4, positive_share=1.0; complaint positive_contexts reference tasty breakfast and good restaurant).",
+        "management_implication": "Preserve current breakfast offerings and operational standards; ensure breakfast staff and supply continuity during peak season."
+      },
+      {
+        "area": "Overall staff positive interactions",
+        "reason": "Managerial evidence shows majority positive staff mentions (staff positive_mentions=3 of 4) and some complaint positive_contexts praise staff kindness.",
+        "management_implication": "Maintain training and staffing levels that support current perceived professionalism; address the isolated negative front-desk behaviour through targeted process review rather than broad staffing changes."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Wellness facility availability notifications (guest-facing)",
+        "reason": "Expectation violations and emerging negative topic centred on jacuzzi/wellness closures.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "Frequency of front-desk check-in delay complaints and recorded incidents",
+        "reason": "Complaint cited room not ready and lack of notification/apology; monitoring will show recurrence.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Room-amenities/ toiletries complaint count (per 100 reviews)",
+        "reason": "Specific negative comment about inadequate toiletries and dispenser issues.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "AVG_RATING and SENTIMENT_SCORE_AVG weekly movement",
+        "reason": "Both metrics show recent reversals that require early detection of continued decline.",
+        "desired_direction": "stable",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "TAXA_OCUPACAO (occupancy) weekly trend by segment/date",
+        "reason": "Significant decline over the window (-22.5%) while revenue metrics rose; segmentation may reveal causes.",
+        "desired_direction": "stable",
+        "monitoring_horizon": "ongoing"
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of all guest feedback; prevalence should be checked against the full review set.",
+      "Some problems (e.g., wellness equipment faults) may require technical inspection to determine scope or capital needs; evidence does not indicate repair costs or required capital investment.",
+      "Weather-related complaints are out-of-hotel factors and should be treated as external noise rather than operational failure.",
+      "Managerial evidence relies on small absolute counts (e.g., spa mentions=3); this constrains confidence and supports a phased assessment-first approach."
+    ]
+  }
+}

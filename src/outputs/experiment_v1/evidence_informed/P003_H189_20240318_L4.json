@@ -1,0 +1,226 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business metrics and experience signals show contemporaneous weakening (REVPAR, occupancy, sentiment down) and clear increases in expectation–experience gaps and semantic misalignment. However many operational areas (staff, breakfast, cleanliness, spa/pool) are strongly positive, and most complaints are isolated rather than systemic. The net profile is moderate risk requiring targeted corrective actions rather than broad emergency measures.",
+  "executive_summary": "Prioritize (1) urgent inspection and remediation of the reported bathroom leakage/shower screen (safety & guest comfort); (2) review restaurant/rooftop ambience relative to the hotel's character to address recurring expectation friction; (3) review guest-facing messaging, fee descriptions and amenity inclusions to reduce growing expectation–experience misalignment; (4) address night-time exterior lighting and other controllable sleep disturbances. Preserve strengths in staff service, breakfast, cleanliness and leisure facilities while monitoring expectation and sentiment metrics closely.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition (shower screen / water leakage)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guest report of shower screen that is too short/fixed and causes bathroom flooding (water leakage). This is an emerging negative topic and may cause slip/mold/damage if persistent.",
+      "recommended_action": "Arrange an immediate inspection of the room(s) cited for shower screen fit and water leakage. If leakage is confirmed, perform repairs or containment (e.g., shower screen/door adjustment, sealant) and document remediation. Log affected room(s) and monitor for recurrence in subsequent reviews. Communicate completed fix to recent guests where appropriate.",
+      "rationale": "Concrete complaint (2024-03-03) describes shower screen design causing bathroom to fill with water; managerial evidence flags 'bathroom water leakage' as an emerging negative with net-negative pattern. Potential guest safety/comfort and room damage risk justify prompt inspection and remediation.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — review_mentions_total:1, negative_mentions:1; matched_topics include 'bathroom water leakage' and 'shower screen'.",
+        "Complaint 2024-03-03: 'the shower screen is fixed and short and fills the bathroom with water.'",
+        "Latest_context: 'emerging_negative_topic' includes 'hotel charm', 'restaurant ambiance', 'security' and managerial evidence flags bathroom as emerging negative."
+      ],
+      "positive_counterevidence": [],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Restaurant and rooftop bar ambience (alignment with hotel character)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Some guests perceive the restaurant/rooftop bar ambience as lacking the 'charm' or character they expect from the hotel; expectation violation is flagged despite predominantly positive experience mentions.",
+      "recommended_action": "Review restaurant/rooftop guest feedback and the on-property guest experience (ambience, décor, music, service cues) to identify specific mismatches with the hotel's marketed character. Convene a short cross-functional review (F&B manager, general manager, marketing) to determine whether operational changes, staff cues, or small ambience adjustments can better align the experience. If scope is unclear, commission a targeted assessment (audit of ambience and guest flow) before committing to capital changes.",
+      "rationale": "Managerial evidence shows 'Restaurant and bar' is predominantly positive (7 positive / 1 negative) but flagged as 'positive_with_friction' with expectation violation and emerging negative signal. Complaint 2024-03-21 explicitly: 'The restaurant, a pity: no charm compared to the character of the hotel.' Preserving the underlying strength (positive mentions and rooftop bar praise) suggests targeted adjustments rather than wholesale replacement.",
+      "supporting_evidence": [
+        "Managerial evidence: Restaurant and bar — review_mentions_total:8 (positive:7, negative:1), has_expectation_violation: true, is_emerging_negative: true.",
+        "Complaint 2024-03-21 (fr): 'The restaurant, a pity: no charm compared to the character of the hotel.'",
+        "Complaint 2024-03-12 praising rooftop bar and restaurant facilities indicates positive counterevidence exists."
+      ],
+      "positive_counterevidence": [
+        "Multiple positive mentions of rooftop bar and restaurant in managerial evidence (positive_mentions:7/8).",
+        "Complaint 2024-03-12: detailed praise for rooftop bar, restaurant and overall premium feel."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "semantic_misalignment_score_avg",
+          "increasing_expectation_gap",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Expectation alignment: guest-facing messaging, fee descriptions and amenity inclusions",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Rising expectation–experience gap and semantic misalignment indicate guests increasingly find actual offerings or fees inconsistent with their expectations (examples: charge for safe, expected jacuzzi slippers, comments about bedding and amenities).",
+      "recommended_action": "Conduct a focused review of reservation and marketing copy, room/amenity descriptions, and fee disclosures (e.g., safe charges, included amenities like slippers or bathrobes). Identify where wording may create inflated expectations and update descriptions or clearly disclose fees/inclusions. Consider a small on-property checklist to ensure advertised amenities are consistently delivered. If unclear whether policy or operational change is required, perform a short evaluation of guest communications and front-desk procedures.",
+      "rationale": "Experience indicators show an increasing EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG. Complaint examples cite perceived unfair fees ('4 Euros a day for using a safe'), amenity expectations ('slippers for the jacuzzi'), bedding material concerns, and other small mismatches. Reducing expectation mismatch is aligned with improving sentiment and lowering negative review share.",
+      "supporting_evidence": [
+        "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG increasing (0.0563 -> 0.2667); SEMANTIC_MISALIGNMENT_SCORE_AVG increasing (0.0312 -> 0.4).",
+        "Complaint 2024-03-21: 'I also didn't think it was fair to charge 4 Euros a day for using a safe.'",
+        "Spa/pool managerial evidence: 'slippers for the jacuzzi (amenity expected)'.",
+        "Other complaints referencing bedding type and expectations (synthetic bedding, bed comfort)."
+      ],
+      "positive_counterevidence": [
+        "Many positive service and amenity mentions (staff, breakfast, spa/pool) indicate core offerings are well-received; this suggests misalignment is often about specifics or disclosure rather than overall service quality."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG",
+          "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+          "PERC_REVIEWS_NEGATIVE"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Night-time exterior lighting and controllable sleep disturbances",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guest reports of bright exterior lighting outside windows causing sleep disruption; ocean proximity and humidity/noise noted by guests as atmospheric but sometimes bothersome. Lighting is a controllable factor that can improve guest sleep experience.",
+      "recommended_action": "Inspect exterior lighting adjacent to guest rooms for fixtures that can be redirected, dimmed, or scheduled to turn off during night hours. Audit room blackout capability (blinds/curtains) and repair any inoperable blinds/blackout curtains (complaint 2024-03-03 noted a non-working window blind). Consider providing guidance at check-in about room orientation and potential night noise, and offer practical room-level mitigations (e.g., temporary eye masks) while longer-term fixes are implemented.",
+      "rationale": "Complaint 2024-03-06 reports exterior lighting left on all night causing wakefulness; another complaint mentions ocean noise/humidity. Exterior lighting is actionable through maintenance and may materially improve guest sleep and sentiment without large capital expenditure.",
+      "supporting_evidence": [
+        "Complaint 2024-03-06: 'Bright exterior lighting just outside our window was left on all night, so our room wasn't dark.'",
+        "Complaint 2024-03-03: 'The window blind didn't work' (reduces ability to block light).",
+        "Complaint 2024-03-17: 'High humidity... The ocean at night is indeed loud, but it has its own atmosphere.' (context on noise/humidity)."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise comfortable beds and overall room comfort in other examples (e.g., 2024-02-29, 2024-03-12)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "EXPECTATION_EXPERIENCE_GAP_AVG"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Consistently strong positive mentions (11 positive, 0 negative) across all weeks; guests repeatedly cite staff friendliness and helpfulness.",
+      "management_implication": "Preserve current staffing/service standards; use staff as an ally when communicating amenity inclusions and addressing expectation issues."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "High positive share (6 positive mentions, 0 negative); guests praise breakfast quality and attentive service.",
+      "management_implication": "Maintain breakfast quality and staffing; feature breakfast as a stable strength in guest communications."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Strong positive evidence (6 positive mentions, 0 negative).",
+      "management_implication": "Sustain housekeeping processes and standards; leverage this in communications when addressing expectation alignment."
+    },
+    {
+      "area": "Spa and pool (including rooftop leisure areas)",
+      "reason": "High positive mentions (8 positive, 0 negative) though with a small expectation friction about slippers for the jacuzzi.",
+      "management_implication": "Keep spa/pool operations and guest experience consistent; consider small amenity adjustments if they align with guest expectations and costs."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Primary quantitative signal of growing expectation misalignment that motivated policy/process review.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Tracks lexical misalignment between guest expectations and experience; relevant to restaurant and amenity messaging issues.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and PERC_REVIEWS_NEGATIVE",
+      "reason": "Overall guest sentiment and share of negative reviews reflect the success of remedial actions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Logged bathroom leakage recurrence (internal defect log)",
+      "reason": "Direct operational indicator to confirm remediation success and scope of maintenance issue.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Guest reports about restaurant ambience (qualitative) and rooftop bar sentiment",
+      "reason": "To verify whether any ambience adjustments reduce expectation friction without harming positive elements.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "The complaint sample is diagnostic and not statistically representative of all guests; prevalence of issues should be validated against the full review set.",
+    "Evidence identifies problems but does not determine appropriate technical solutions or costs; where scope is unclear the recommendations call for assessment rather than specifying interventions.",
+    "The 'security' mention appears in the latest_context emerging negatives list but is not supported by specific complaint text in the selected samples; further investigation is required before action.",
+    "Trend signals (REVPAR, sentiment, expectation gap) show directionality but do not establish causality between specific complaints and business performance."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P003",
+    "case_id": "H189_20240318_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:42:52.250976+00:00",
+    "finished_at_utc": "2026-09-08T15:43:35.476852+00:00",
+    "elapsed_seconds": 43.229
+  }
+}

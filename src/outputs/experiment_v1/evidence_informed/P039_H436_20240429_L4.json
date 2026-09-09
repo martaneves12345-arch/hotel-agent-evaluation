@@ -1,0 +1,256 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Strong location and cleanliness reduce immediate commercial risk, but emerging and persistent operational/maintenance complaints (room comfort, bathroom odor), plus a consistent increase in operational complaints and documented expectation violations around reception/breakfast create a moderate risk to guest satisfaction if not addressed.",
+  "executive_summary": "Reviews show clear strengths in location and cleanliness, and generally positive staff and breakfast experiences — but specific frictions are emerging. Highest evidence-backed priorities are: (1) room comfort (beds/sofa-bed, mattress hardness, limited outlets/storage), (2) bathroom condition (drain/odor, tight space), (3) staff communication and reception/breakfast expectations (surprise about no reception/breakfast, responsiveness for late check-out and guest issues), (4) breakfast value/expectation alignment, and (5) address the broader rise in operational complaints and emerging exterior/check-out friction through a focused process review and monitoring. Recommendations emphasize inspection, clearer pre-arrival communication, targeted operational fixes, and monitoring rather than prescribing capital solutions without assessment.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests reported insufficient bed comfort (hard mattress, small beds), sofa-bed unusable for restful sleep (metal bar), limited electrical outlets and limited storage surface — recurring across reviews and weeks.",
+      "recommended_action": "Conduct a targeted assessment of sleeping surfaces and in-room ergonomics: inspect mattresses/sofa-bed mechanisms, check available electrical outlets and bedside surfaces/storage. Where cause/scope is unclear, commission a short maintenance/room-audit to identify repair vs replacement needs and document quick operational mitigations (e.g., temporary mattress toppers, plug extenders, additional small shelving) while longer-term decisions are evaluated.",
+      "rationale": "Room comfort is net-negative across 3 weeks of experience evidence and is an emerging negative topic. Complaints are concrete (mattress hardness, sofa-bed metal bar, small beds, lack of outlets/storage) and have recurred in multiple reviews, indicating both frequency and tangible guest impact on rest. The evidence supports assessment before committing to capital replacement.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — 8 mentions (3 positive / 5 negative); is_emerging_negative = true; matched topics include bed comfort, sofa bed restful sleep, room comfort.",
+        "Guest complaints: 'I found the bed / mattress to be very hard and uncomfortable' (2024-05-01).",
+        "Guest complaints: 'To nitpick, the beds were very small.' (2024-04-16).",
+        "Guest complaints: 'sofa bed had a metal bar in the middle... prevented optimal rest.' (2024-04-22).",
+        "Guest complaints: 'Not enough electrical outlets (no plug extenders). No place to put items (coffee table is very small, no shelves).' (2024-04-18)."
+      ],
+      "positive_counterevidence": [
+        "Some reviews describe beds and sheets as comfortable and rooms very clean (e.g., 2024-04-28 positive context).",
+        "Managerial evidence shows 3 positive mentions under Room comfort supporting partial satisfaction."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 5,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: room comfort",
+          "PERC_OPERATIONAL_COMPLAINTS increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Bathroom condition",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Reports of strong drain/odor in the bathroom and constrained bathroom space in some rooms — recent negative mentions indicate an emerging maintenance/housekeeping issue.",
+      "recommended_action": "Perform an immediate maintenance inspection of plumbing/drain systems in affected rooms to identify source of smell and rectify (cleaning, trap checks, plumbing repair). Also audit bathroom ventilation and housekeeping procedures for under-bed/under-furniture cleaning. If the issue is intermittent or systemic, schedule a follow-up technical assessment.",
+      "rationale": "Bathroom condition is flagged as an emerging negative with negative mentions and specific guest complaints describing a strong smell of drains — this is a maintenance issue that can materially affect guest comfort and should be addressed promptly.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — 3 mentions (1 positive / 2 negative); is_emerging_negative = true; matched topics include bathroom odor and bathroom space.",
+        "Guest complaint: 'There was a strong smell of drains in the bathroom.' (2024-04-20).",
+        "Managerial matched topics explicitly include 'bathroom odor' and 'bathroom space'."
+      ],
+      "positive_counterevidence": [
+        "Some reviews praise bathroom size and amenities (e.g., 2024-04-18 'Very large, comfortable bathroom... Spotlessly clean')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: building exterior",
+          "emerging_negative_topic: bathroom condition"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Staff and communication (reception & check-out expectations)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Guests report expectation violations around the absence of on-site reception and breakfast, and instances of low responsiveness (e.g., late check-out support, unresolved room access door issues). Some guests said they were surprised by the lack of reception and worried about assistance for elderly guests in emergencies.",
+      "recommended_action": "Immediately update all public-facing channels (booking platforms, website, and pre-arrival communications) to clearly state the absence of a staffed reception and clarify breakfast arrangements. Review and document staff response procedures for late check-out requests, guest repairs and emergency assistance; provide targeted reminders/training to on-call staff. Evaluate whether additional process changes or signage at check-in points are needed to manage expectations and safety perceptions for guests with special needs.",
+      "rationale": "This area is predominantly positive overall, but has a clear expectation-violation signal (managerial evidence shows expectation weeks and violated_expectation_weeks) and multiple guest reports describing surprise and reduced responsiveness. Clear communication and faster processes can reduce repeated expectation failures and potential safety concerns for vulnerable guests.",
+      "supporting_evidence": [
+        "Managerial evidence: Staff and service — 11 mentions (9 positive / 3 negative); has_expectation_violation = true; matched topics include clear prior communication about absence of reception/breakfast and staff responsiveness.",
+        "Guest complaint: 'Breakfast served outside the building at a hotel next door... Staff not available to support the late check-out (20 min) and above all not responsive.' (2024-05-03).",
+        "Guest complaint: 'there is no reception and no breakfast... I only noticed the lack of a reception when I arrived; for older people I think that could be inappropriate in case of an emergency.' (2024-04-28).",
+        "Guest complaint: 'the access door was defective... We requested that it be fixed but they did not give us any solution.' (2024-04-22)."
+      ],
+      "positive_counterevidence": [
+        "Majority of staff/service mentions are positive (9 positive, 3 negative) and several guests describe staff as 'lovely' and 'very friendly and accommodating.'"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 9,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_misalignment",
+          "increasing_expectation_gap",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast & price–value alignment",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Although most mentions of breakfast are positive, some guests reported dissatisfaction with breakfast arrangements (served off-site) and perceived poor value for price — this is tied to expectation miscommunication and price–value perceptions.",
+      "recommended_action": "Review how breakfast is described across booking channels (is it advertised/included?), ensure clarity on whether breakfast is on-site or provided at a partner location, and consider whether current pricing and communicated inclusions reflect guest expectations. If messaging is accurate but value complaints persist, evaluate whether alternative partner arrangements or improved value communication are required.",
+      "rationale": "Breakfast is a relative strength (9 positive / 3 negative) but has flagged expectation violations. Correcting communication and reviewing value positioning is likely to reduce friction without heavy investment.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast — 11 mentions (9 positive / 3 negative); has_expectation_violation = true; matched topics include 'breakfast value for price' and 'clear prior communication about absence of reception/breakfast'.",
+        "Guest complaint: 'Breakfast served outside the building at a hotel next door. Breakfast poor compared to the price paid.' (2024-05-03).",
+        "Guest complaint: 'there is no reception and no breakfast... breakfast must be taken outside; the bakery A Portuguesa is about 50 meters away.' (2024-04-28)."
+      ],
+      "positive_counterevidence": [
+        "Some guests called the breakfast 'superb' (2024-04-29) indicating variability but overall positive mentions dominate."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 9,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Operational complaint trend & property presentation (building exterior / check-out process)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "The share of operational complaints is rising (consistent increase), and recent emerging negative topics include building exterior and check-out process — these may indicate process or presentation issues that could erode satisfaction if they spread.",
+      "recommended_action": "Initiate a root-cause review of operational complaints over the past weeks: categorize recent operational issues (check-out delays, exterior appearance, access/door problems, maintenance requests), quantify frequency, and assign corrective owners. For building exterior concerns, perform a visual audit and document whether repair/maintenance/cleaning is required. Track operational complaints weekly and set short-term KPIs to confirm whether interventions reduce the PERC_OPERATIONAL_COMPLAINTS share.",
+      "rationale": "PERC_OPERATIONAL_COMPLAINTS shows a consistent increase (to 50%) and preliminary_signals flag increasing_operational_complaints as high severity. Emerging mentions of 'building exterior' and 'check-out process' were identified in the latest context and the complaint sample (e.g., exterior comment and check-out responsiveness). A structured review will determine if action is capital, maintenance or purely process-based.",
+      "supporting_evidence": [
+        "Preliminary signals: 'increasing_operational_complaints' (severity: high) and 'emerging_negative_topic: building exterior, check-out process'.",
+        "Managerial evidence: Operational complaints metric increased consistently (PERC_OPERATIONAL_COMPLAINTS: 0 -> 50%).",
+        "Guest complaints: 'The exterior of the building.' (2024-04-29) and 'Staff not available to support the late check-out... not responsive.' (2024-05-03); also the door access issue (2024-04-22)."
+      ],
+      "positive_counterevidence": [
+        "Many operational areas (cleanliness, location) remain strongly positive and occupancy is high, suggesting complaints are concentrated rather than widespread."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS increasing",
+          "emerging_negative_topic: building exterior",
+          "emerging_negative_topic: check-out process"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Very strong, consistent positive evidence (23 positive mentions, 4 weeks of experience mentions) highlighting central location.",
+      "management_implication": "Preserve marketing positioning and ensure continued clarity in listings about proximity to attractions; avoid operational changes that would reduce the location advantage."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Consistently excellent cleanliness (17 positive mentions, 0 negative).",
+      "management_implication": "Maintain current housekeeping standards and schedules; communicate this strength in guest communications and training to sustain this advantage."
+    },
+    {
+      "area": "Staff and service (positive aspects)",
+      "reason": "Majority of staff mentions are positive (9 positive / 3 negative) — staff are described as friendly and accommodating in multiple reviews.",
+      "management_implication": "Preserve staff behaviors that generate positive feedback; incorporate them into training and use as the baseline when addressing responsiveness/communication friction."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "This metric shows a consistent increase and is flagged as a high-severity preliminary signal; it should be watched weekly to assess effectiveness of process changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and AVG_RATING",
+      "reason": "Average sentiment and rating are decreasing over the window; monitor for further deterioration or reversal after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Both metrics rose over the lookback window indicating misalignment between marketing/communication and on-site experience; track to confirm improvements after communication updates.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Guest mentions of 'bed/mattress' and 'bathroom odor' in reviews",
+      "reason": "Concrete complaint themes underlying highest-priority issues — monitor mention counts and sentiment to detect persistence or resolution.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic (selected from substantive disliked text) and not statistically representative of all reviews in the window; prevalence estimates should use full review metadata.",
+    "The evidence identifies problems (e.g., mattress discomfort, bathroom odor, lack of reception) but does not determine technical scope or capital costs; inspections and assessments are recommended before capital commitments.",
+    "Some matched topics and managerial counts indicate more negative mentions than appear in the selected complaint examples; underlying raw review dataset may contain additional details not shown here.",
+    "Recent metrics show several reversals (sentiment and expectation-gap recent movement), so trends should be interpreted with caution and re-assessed after short-term interventions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P039",
+    "case_id": "H436_20240429_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:32:18.945590+00:00",
+    "finished_at_utc": "2026-09-08T16:33:12.661047+00:00",
+    "elapsed_seconds": 53.715
+  }
+}

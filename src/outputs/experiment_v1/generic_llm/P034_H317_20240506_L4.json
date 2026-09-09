@@ -1,0 +1,170 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Customer sentiment is generally strong (average rating improved to 9.43) and guests consistently praise location, staff and cleanliness, which supports reputation. However there are repeated operational complaints about breakfast and a measurable drop in review volume and occupancy (-30% reviews, -12.8% occupancy) that warrant management attention to avoid erosion of demand or reputation.",
+  "executive_summary": "Priority actions: 1) improve the breakfast offering and service hours (frequent guest complaints); 2) preserve and reinforce the hotel's strong location and high-quality staff service; 3) address room light/curtain issues that affect guest comfort; 4) investigate the occupancy decline and revenue mix to ensure pricing and distribution remain optimal; 5) increase review volume and respond to occasional low ratings. Many recent reviews praise location, staff, cleanliness and comfortable rooms — these strengths should be maintained while operational fixes are implemented.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast offering and service hours",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Multiple guests report limited breakfast options, lack of vegetables and an early cut-off time (breakfast ends at 10:00), reducing satisfaction for some guests.",
+      "recommended_action": "Conduct an immediate review of breakfast menu and service hours. Add a few low-cost, high-impact options (e.g., fresh vegetables/fruit, more hot and cold choices, vegetarian options), consider extending breakfast hours or offering a later continental option, and train breakfast staff to ensure consistent presentation. Pilot changes on high-occupancy days and collect guest feedback.",
+      "rationale": "Several recent reviews explicitly mention breakfast limitations and timing as a negative point; improving this addresses a recurring negative theme and could improve overall guest satisfaction.",
+      "supporting_evidence": [
+        "2024-05-06 review: 'Breakfast needs improvement.'",
+        "2024-04-26 review: 'Breakfast was good but there were no vegetables in it.'",
+        "2024-04-25 review: 'Lots of light come through the shade in the morning and breakfast ends at 10am' (breakfast timing noted)",
+        "2024-04-25 review: 'That the options at breakfast are limited.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Service quality and guest experience (staff & location)",
+      "managerial_priority": "high",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Although service and location are strong, maintaining these strengths requires ongoing attention (staffing, training and local positioning) to preserve reputation.",
+      "recommended_action": "Continue to recognize and support front-desk and F&B staff (routine briefings, reinforce service standards). Highlight proximity to the Sanctuary in marketing and on-site signage. Monitor staff levels during peak periods to keep service consistently attentive.",
+      "rationale": "Reviews repeatedly praise the location and the welcome/attentive staff; preserving these strengths protects the hotel's brand and repeat business.",
+      "supporting_evidence": [
+        "Multiple reviews: 'Perfect location. Very attentive staff.' (2024-05-11), 'Very friendly attendants.' (2024-05-06), 'The welcome we received... feeling of true hospitality' (2024-05-10).",
+        "Review: 'The location is fantastic, right next to the Basilica.' (2024-04-30)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 3,
+      "area": "Room comfort — light control / window shades",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Some guests report that shades allow morning light into rooms, disturbing sleep for families and early risers.",
+      "recommended_action": "Audit rooms for light infiltration (check shades/curtains). Implement targeted fixes: repair or replace problematic blinds/curtains, provide temporary solutions (eye masks) where immediate replacement isn't possible, and prioritize suite/ family rooms if budgets are constrained.",
+      "rationale": "Guest sleep quality affects perceived value; a few reviews explicitly call out excessive morning light as a negative despite otherwise comfortable rooms.",
+      "supporting_evidence": [
+        "2024-04-25 review: 'Lots of light come through the shade in the morning...' ",
+        "General comments praising room comfort (e.g., 'comfortable bed', 'rooms are very spacious') indicate targeted fixes could preserve positive impressions."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Occupancy and revenue mix review",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "policy_process",
+      "problem": "Observed occupancy declined by ~12.8% over the lookback period while revenue metrics increased substantially; management should ensure pricing, channel mix and packages are aligned with demand and guest expectations.",
+      "recommended_action": "Carry out a medium-term analysis of distribution channels, pricing and package mix (including breakfast-included vs not). Check group vs transient booking patterns and adjust channel strategy, yields and packaged offers. Use this analysis to decide whether to adjust rates, minimum stays or promotions.",
+      "rationale": "Basic performance shows a notable fall in occupancy alongside rising RevPAR and RevPOR; a structured review can confirm whether the revenue mix is optimal and whether any operational changes (e.g., breakfast improvements, packages) should be tied to pricing.",
+      "supporting_evidence": [
+        "TAXA_OCUPACAO: first_value 54.05 → last_value 47.14 (percentage_change -12.7753).",
+        "REVPAR_WEEK increased from 38.93 to 114.95 (≈ +195%).",
+        "REVPOR_WEEK increased from 60.09 to 148.28 (≈ +147%)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Reviews volume and reputation management",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "The number of reviews in the decision window decreased (from 10 to 7); there is also an isolated low score (5.0) with no text — both reduce the clarity of guest feedback and may affect perceived reliability of ratings.",
+      "recommended_action": "Encourage satisfied guests to leave reviews (post-checkout prompts, e-mail reminders) and implement a consistent policy for responding to online feedback, including following up on low scores to understand and address underlying causes. Track and investigate any recurring issues behind low scores.",
+      "rationale": "Volume of feedback fell by 30% in the provided metric and a single unexplained low rating exists; increasing feedback volume and addressing low scores will help maintain reputation and give clearer signals for improvement.",
+      "supporting_evidence": [
+        "N_REVIEWS: first_value 10.0 → last_value 7.0 (percentage_change -30%).",
+        "Single 5.0 rating on 2024-04-29 with no text (Canada)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Repeated, explicit praise that the hotel is right next to the Basilica/Sanctuary and bus station, which is a primary draw for guests.",
+      "management_implication": "Continue promoting proximity in marketing materials and ensure signage/front-desk information highlights local access; protect nearby positioning in guest communications."
+    },
+    {
+      "area": "Staff service (welcome & attentiveness)",
+      "reason": "Many reviews specifically mention friendly, attentive staff and warm welcome; staff hospitality is a key driver of positive guest sentiment.",
+      "management_implication": "Maintain staffing levels and service standards, continue recognition and basic training programs to sustain morale and performance."
+    },
+    {
+      "area": "Cleanliness and room comfort",
+      "reason": "Guests frequently note rooms are clean, spacious and comfortable (beds comfortable, well-furnished rooms).",
+      "management_implication": "Preserve housekeeping standards and maintenance schedules; prioritize any room upgrades that maintain or improve comfort without compromising cleanliness."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of breakfast-related complaints (per week)",
+      "reason": "Direct measure of whether breakfast changes reduce recurring negative feedback.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Breakfast satisfaction score (post-stay survey)",
+      "reason": "Quantifies guest perception after menu/hours adjustments.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Occupancy rate (weekly)",
+      "reason": "Track demand trends and impacts of pricing or package changes.",
+      "desired_direction": "context_dependent"
+    },
+    {
+      "indicator": "RevPAR and RevPOR (weekly)",
+      "reason": "Monitor revenue performance alongside occupancy to ensure profitable mix.",
+      "desired_direction": "context_dependent"
+    },
+    {
+      "indicator": "Number of new online reviews per week and average rating",
+      "reason": "Measure review volume recovery and overall guest sentiment.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Count of reviews mentioning 'light', 'shade', 'curtain' (weekly)",
+      "reason": "Track whether room light-control remediation is effective.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of ratings <=6 (weekly)",
+      "reason": "Early warning of emerging problems or outliers requiring follow-up.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Only 20 of 35 available reviews were provided for text analysis; conclusions are drawn from this subset and may not capture the full distribution of feedback.",
+    "Customer comments are qualitative and do not provide operational constraints (costs, kitchen capacity, staffing schedules) needed to estimate feasibility of recommended changes.",
+    "Observed changes in occupancy and revenue metrics are reported but no causal link between reviews and financial performance can be inferred from the supplied data.",
+    "Some reviews lack detail (many 'null' disliked fields), limiting specificity of root-cause identification for isolated low ratings."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H317_20240506_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P034",
+    "case_id": "H317_20240506_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:24:07.443712+00:00",
+    "finished_at_utc": "2026-09-08T16:24:57.533633+00:00",
+    "elapsed_seconds": 50.086
+  }
+}

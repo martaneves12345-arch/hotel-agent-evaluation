@@ -1,0 +1,395 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P017",
+  "case_information": {
+    "case_id": "H247_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 63.30742748568454,
+        "REVPOR_WEEK": 66.61368849557522,
+        "TREVPAR_WEEK": 71.97551629359708,
+        "TAXA_OCUPACAO": 94.9579831932773,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.5
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 62.51318956014839,
+        "REVPOR_WEEK": 66.56808468468469,
+        "TREVPAR_WEEK": 70.8100642289348,
+        "TAXA_OCUPACAO": 93.27731092436974,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.8
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 54.61344414463033,
+        "REVPOR_WEEK": 59.29057339449541,
+        "TREVPAR_WEEK": 62.52937447382623,
+        "TAXA_OCUPACAO": 96.63865546218489,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 56.8913466511357,
+        "REVPOR_WEEK": 65.53636633663366,
+        "TREVPAR_WEEK": 65.00588043098428,
+        "TAXA_OCUPACAO": 89.91596638655463,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-09-28",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-26",
+        "rating": 10.0,
+        "liked": "Cleanliness, food, location.",
+        "disliked": null,
+        "country": "Poland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 8.0,
+        "liked": "Location and cleanliness",
+        "disliked": "Beds were too small for a big guy",
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 9.0,
+        "liked": "Location, cleanliness, breakfast.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-25",
+        "rating": 10.0,
+        "liked": "Everything was clean and bright. The location is also great. The breakfast had a great selection.",
+        "disliked": "I didn't see a parking space for a rental car. That wasn't a problem for me since I didn't have one.",
+        "country": "Germany",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-24",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-21",
+        "rating": 9.0,
+        "liked": "This hostel feels brand new. It feels clean, practical, convenient and has all the comfort you need. I liked the common room on the 3rd floor. Overall, a perfect place to start your Azores adventure. The central location is super convenient as well. Breakfast was delicious.",
+        "disliked": "You can hear the traffic when you're in the room. If you're looking for a super quiet room, choose a hotel located further out the city centre.",
+        "country": "Netherlands",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-17",
+        "rating": 9.0,
+        "liked": "Ease of check-in at any hour, very comfortable bed, spacious room, very good kitchen, and breakfast was good too.",
+        "disliked": "Lack of space to put towels or a swimsuit to dry them.",
+        "country": "Switzerland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 8.0,
+        "liked": "They helped us to do the check in even after hours (our plane was delayed and arrived super late when the reception was not open).",
+        "disliked": "Everything was good.",
+        "country": "Netherlands",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-09-16",
+        "rating": 10.0,
+        "liked": "The location, the comfort.",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-14",
+        "rating": 10.0,
+        "liked": "The location, the cleanliness, the hearty breakfast, very pleasant and helpful staff, and a quiet establishment.",
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-11",
+        "rating": 10.0,
+        "liked": "This was awesome",
+        "disliked": "Just can’t figure out any",
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-09",
+        "rating": 9.0,
+        "liked": "Perfect location in the old town of Ponta Delgada. Comfortable bed. Small, fine breakfast with fruit and fresh pastries, plus toast, muesli and lots of coffee. Late-night check-in with an access code was trouble-free and easy.",
+        "disliked": "Traffic noise - with the window closed barely audible. Small room, little storage space.",
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-09",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Czech Republic",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-09-09",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ukraine",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-08",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Lithuania",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-08",
+        "rating": 9.0,
+        "liked": "Location couldn't be better. The single room was silent, clean, with a comfy bed. The staff was super friendly. The breakfast area was nice.",
+        "disliked": "The breakfast options were limited, mostly bread-based, and the fruit wasn't good. The shower was too high for me and it wasnt adjustable.",
+        "country": "Norway",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-09-08",
+        "rating": 10.0,
+        "liked": "The rooms were bright and clean. The shared kitchen was fully equipped for preparing meals. In price included good brekfast. Friendly staff, possible check-in before official time, they called us a taxi to go home. A very nice experience, if I come back to the Azores I would love to stay again.",
+        "disliked": "I missed a place in the rooms where we could dry wet towels/swimsuits, which are often present in our traveling bags due to the many possibilities of swimming on the Azore island. :)",
+        "country": "Slovenia",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-09-07",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Poland",
+        "stay_type": "Solo traveller"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business signals show declining RevPAR and TREVPAR with a recent partial reversal, and average sentiment has declined substantially. However several clear strengths (location, cleanliness, staff, breakfast) are consistently positive. Emerging negative mentions (bathroom/shower, parking, drying space) increase short-term operational risk and warrant targeted action.",
+    "executive_summary": "Preserve clear strengths (location, cleanliness, staff, breakfast). Address a small set of emerging guest frictions that are starting to appear in reviews: bathroom/shower usability, lack of parking availability or clarity, limited in-room drying options for towels/swimsuits, bed-size suitability for larger guests, and occasional traffic noise. Most issues are low-frequency but repeatable and customer-visible; start with short-term operational and communication fixes plus assessments where scope/cost is uncertain (parking, bed inventory, bathroom retrofit).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shower usability)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests report shower fixtures that are not comfortable for some (shower head too high / not adjustable); this has appeared as an emerging negative topic.",
+        "recommended_action": "Inspect the affected bathroom fixtures (shower head and controls) to determine whether an adjustable/accessible shower head or simple fixture adjustment can resolve guest discomfort. If inspection shows minor maintenance can fix the issue, schedule prompt repairs. If structural work may be required, commission an assessment and cost estimate before committing to capital work. Meanwhile, update internal guest-facing notes for staff to help guests who report shower problems (alternative rooms, assistance).",
+        "rationale": "An explicit guest complaint about the shower being 'too high' / 'wasnt adjustable' is present and flagged as an emerging negative in managerial evidence. The issue directly affects guest comfort and has straightforward remediation paths (inspection, minor maintenance or retrofit). Evidence volume is limited but specific."
+      },
+      {
+        "rank": 2,
+        "area": "Parking (availability / guest information)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported not seeing a parking space for a rental car; parking appears as an emerging negative topic and may create expectation gaps for guests who arrive by car.",
+        "recommended_action": "Review how parking availability is communicated in the hotel listing and pre-arrival information. Compile and publish clear guidance for guests: nearest public parking options, paid lots, recommended drop-off points, and any partner/validated parking if available. If demand for dedicated parking appears recurrent, commission a feasibility assessment of local options (partnerships, reserved spaces) before any capital commitment.",
+        "rationale": "Parking appears as an emerging negative in managerial evidence and in a recent guest comment. The issue could be structural (lack of on-site parking) and affects some guests' trip planning; clarifying expectations and exploring local options can reduce negative experiences without immediate capital outlay."
+      },
+      {
+        "rank": 3,
+        "area": "In-room drying space for towels/swimsuits",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests noted there is no place in rooms to dry towels or swimsuits, which is a recurring expectation for travelers visiting swimming areas.",
+        "recommended_action": "Assess feasibility of low-cost, in-room or common-area drying solutions (e.g., racks or designated drying space in a common area). If physical changes are needed beyond small fixtures, obtain cost/feasibility information. Meanwhile, add clear pre-arrival information advising guests about current drying options and whether towels/swimsuits can be hung in rooms or in a common space.",
+        "rationale": "This topic appears multiple times across reviews (explicit requests for towel/swimsuit drying). The issue affects convenience for a segment of guests (swimmers) and can be addressed with modest operational changes or communication. Evidence is repeated across reviews, increasing diagnostic relevance."
+      },
+      {
+        "rank": 4,
+        "area": "Room comfort — bed size suitability for larger guests",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported beds being 'too small for a big guy' while other guests report beds as comfortable. This indicates a segment-specific fit issue and/or expectation mismatch about bed dimensions.",
+        "recommended_action": "Inventory bed types and sizes by room and evaluate whether larger-bed options exist or can be offered. Update room descriptions to clarify bed sizes to manage expectations. If evidence from broader reviews/operations shows repeated complaints by larger guests, consider an assessment of whether some rooms can be adapted or whether alternative bedding options are feasible.",
+        "rationale": "Managerial evidence shows a mixed pattern (several positive and negative mentions) specifically referencing bed comfort and bed size suitability. Because the underlying strength (comfortable beds reported by many guests) is strong, this is a positive-with-friction issue: preserve the underlying comfort while clarifying/mitigating the size mismatch for some guests."
+      },
+      {
+        "rank": 5,
+        "area": "Traffic noise (sound isolation)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Several guests noted traffic noise is audible in rooms; for some this is only minor (with window closed 'barely audible'), but others flag it when seeking a very quiet room.",
+        "recommended_action": "Review room assignment and guest communication policies to identify and prioritize quieter rooms for guests who request them. Update listing and pre-arrival information to state that central-city rooms may experience traffic noise and offer guidance on quieter room choices where available. Consider simple operational measures (e.g., room placement guidance) and monitor whether noise complaints persist before considering capital soundproofing measures.",
+        "rationale": "There are multiple mentions of traffic noise across reviews, but many reviews still describe rooms as quiet or comfortable. This is a positive-with-friction issue where expectation management and room allocation can reduce friction without immediate capital work."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Consistently positive mentions (9 positive, 0 negative) describing central, convenient location.",
+        "management_implication": "Continue to highlight central location in marketing and pre-arrival information; leverage location strength when advising guests about parking and noise trade-offs."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Uniformly positive mentions (9 positive, 0 negative) indicating guests consistently find rooms clean.",
+        "management_implication": "Maintain current housekeeping standards and ensure new operational changes (drying racks, bathroom inspection) preserve cleanliness levels."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Positive mentions (5 positive, 0 negative) praising helpfulness (late check-in, friendly staff).",
+        "management_implication": "Empower staff with clear guidance and guest-information scripts to address the emerging frictions (parking guidance, drying options, shower assistance)."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "Majority-positive evidence (7 positive, 1 negative) with guests calling breakfast delicious and ample.",
+        "management_implication": "Preserve menu quality and service; if pantry/space adjustments are made (drying racks, fixtures), ensure breakfast area is not negatively affected."
+      }
+    ],
+    "limitations": [
+      "Emerging negative topics (bathroom, parking, room amenities) are based on a small number of reviews; prevalence across all guests is uncertain.",
+      "Selected complaint examples are diagnostic and not statistically representative of the full review set; use the full-review metadata for prevalence estimates.",
+      "Evidence does not specify technical scope or cost for potential fixes (e.g., shower retrofit, dedicated parking); recommendations calling for investment are framed as assessments rather than prescriptions.",
+      "The link between review evidence and business metrics (RevPAR, sentiment) is correlational in this dataset; no causal claims are made."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Revenue and total-revenue metrics show noticeable short-term declines (REVPAR -10%, TREVPAR -9.7%, occupancy -5.3%) while guest satisfaction remains high (average rating still ~9.0). Recent reviews highlight several recurring operational issues that can be addressed quickly; because fundamentals (cleanliness, location, staff, breakfast) are strong, the situation appears manageable but deserves prompt action to prevent further revenue erosion.",
+    "executive_summary": "Monturi Hostel has strong guest sentiment around cleanliness, central location, breakfast and flexible staff-driven services, but recent weeks show declines in REVPAR, TREVPAR and occupancy. Recurrent guest complaints are focused on limited room storage/bed size, lack of drying space for towels/swimsuits, occasional traffic noise, shower fit/height, and unclear parking options. Priorities: (1) address short-term revenue/occupancy pressure, (2) fix room comfort and amenity gaps (beds, shower, storage), (3) provide drying solutions for wet gear, (4) mitigate and communicate about traffic noise, (5) clarify parking/arrival information. Actions mix immediate low-cost fixes (hooks, drying racks, clear web information, promotions) and medium-term investments (bath/shower hardware, bed options, physical sound mitigation).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue & occupancy performance",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "REVPAR (-10%), TREVPAR (-9.7%) and occupancy (-5.3%) have fallen over the 4-week window, indicating recent weakening in revenue performance.",
+        "recommended_action": "Run immediate short-term revenue measures (targeted promotions, packages that leverage the strong breakfast and central location, review channel pricing and availability). Monitor booking pace and cancellation trends. In the medium term, analyze distribution channels, group and solo-traveller segmentation and adjust offers for the dominant guest types (solo travellers, couples, groups).",
+        "rationale": "Small, targeted promotions and clearer packages can help recover demand quickly while medium-term channel and product adjustments can stabilize RevPAR. Actions leverage documented strengths (location, breakfast, cleanliness) without large capital outlay."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort and amenities (beds, shower, storage)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews report beds too small for some guests, small rooms and limited storage; one review notes the shower head is too high / not adjustable.",
+        "recommended_action": "Conduct an inventory/audit of bed sizes and mattress condition and prioritize replacing or upselling rooms with larger beds where feasible. Fit adjustable/handheld shower heads where showers are not adjustable. Implement low-cost storage improvements (shelves, hooks, luggage racks) immediately; consider offering distinct room-type descriptions stating bed sizes to match guest expectations.",
+        "rationale": "Comfort issues (bed size, shower usability, storage) are recurring and affect guest comfort and ratings. Many fixes are low- to medium-cost and will improve guest satisfaction quickly."
+      },
+      {
+        "rank": 3,
+        "area": "Provision of drying space for wet towels/swimsuits",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Several guests reported the absence of a place in rooms to dry wet towels or swimsuits — a recurring need for travelers visiting the Azores.",
+        "recommended_action": "Provide immediate low-cost drying options: portable drying racks, in-room hooks, towel rails and a designated ventilated drying area or communal drying line in a back area. Communicate availability of drying options in booking information and at check-in. If demand is sustained, assess investment in a small drying room or coin-operated dryers.",
+        "rationale": "Multiple independent reviews mention this missing amenity; providing drying solutions is low-cost, addresses a frequent guest need specific to island travel, and can prevent secondary issues (damp odors, guest complaints)."
+      },
+      {
+        "rank": 4,
+        "area": "Traffic noise and room allocation",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Some guests report traffic noise audible in rooms; other guests describe the property as quiet, indicating variability by room/location.",
+        "recommended_action": "Map which rooms are most affected by street noise and use this for targeted allocation or to inform guests at booking. Offer earplugs and recommend quieter rooms when possible. In the medium term, consider physical mitigation (secondary glazing or sealing) where cost-effective.",
+        "rationale": "Noise complaints are intermittent but noted; better room allocation and transparent communication can prevent dissatisfaction without immediate capital spend. Physical mitigation may be considered if complaints persist."
+      },
+      {
+        "rank": 5,
+        "area": "Parking availability & arrival information",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest noted there was no visible parking space for a rental car and it was unclear beforehand.",
+        "recommended_action": "Clarify parking availability and guidance on the website, booking channels and pre-arrival messages. Establish partnerships or negotiated rates with nearby public/private parking and provide directions. If possible, reserve a nearby spot or offer paid nearby parking guidance.",
+        "rationale": "Guests arriving by car need clear information to avoid frustration; resolving or communicating parking options is low-cost and reduces arrival complaints."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Cleanliness",
+        "reason": "Repeatedly praised by guests across multiple reviews (clean, bright rooms).",
+        "management_implication": "Maintain housekeeping standards and staff routines; preserve checklists and quality inspections that produce these positive comments."
+      },
+      {
+        "area": "Central location",
+        "reason": "Many guests cite 'perfect location in the old town' and convenience for Azores activities.",
+        "management_implication": "Continue to promote location in marketing and leverage it in packages and local partnerships."
+      },
+      {
+        "area": "Breakfast offering",
+        "reason": "Breakfast is often called 'hearty', 'great selection' and a reason for high ratings.",
+        "management_implication": "Preserve breakfast quality and selection; consider small improvements (more fruit choices) rather than cutting back."
+      },
+      {
+        "area": "Helpful / flexible staff and check‑in process",
+        "reason": "Multiple reviews praise late-night/after-hours check-in and helpful staff.",
+        "management_implication": "Keep procedures for flexible arrivals and staff empowerment; document and train to maintain consistency."
+      },
+      {
+        "area": "Common areas / bright rooms",
+        "reason": "Guests liked the bright rooms and common room on the 3rd floor.",
+        "management_implication": "Maintain common area cleanliness and comfort; use as a selling point for social travellers and solo guests."
+      }
+    ],
+    "limitations": [
+      "Recommendations are based only on the supplied hotel metrics and 20 recent reviews; sample is limited to the most recent feedback in the decision window.",
+      "No competitor or market-level data available to benchmark pricing or demand strategies.",
+      "No room-by-room inventory, floorplan or capital budget information; feasibility and cost estimates for physical interventions (beds, glazing, drying room) require further on-site assessment.",
+      "Cannot attribute revenue changes to specific guest feedback items; revenue actions are recommended based on observed financial trends and review themes but causality is not established."
+    ]
+  }
+}

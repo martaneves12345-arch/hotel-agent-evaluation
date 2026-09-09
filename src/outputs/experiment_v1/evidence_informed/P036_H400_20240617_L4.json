@@ -1,0 +1,221 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business performance and ratings are improving, but multiple signal streams show increasing expectation–experience gap, semantic misalignment, and declining sentiment. Complaints are few (3 substantive) but cluster on property condition and daytime F&B service; these represent manageable risks that merit targeted operational fixes and a property-condition assessment.",
+  "executive_summary": "Strengths: staff friendliness/helpfulness, good breakfast, convenient location, improving RevPAR/occupancy and average rating. Priorities: (1) address daytime bar/restaurant service responsiveness for busy periods/events (operational/process); (2) assess and plan for interior/exterior maintenance and renovation where guests report needed repairs (maintenance/capital assessment); (3) review price–value positioning given at least one expectation violation tied to property condition; (4) monitor and act on rising expectation–experience gap and semantic misalignment to prevent broader sentiment decline. Preserve current service behaviors that guests praise (staff helpfulness, breakfast quality).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Restaurant and bar (daytime service responsiveness)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests report slow daytime bar/restaurant service during busy periods and events; perceived understaffing relative to hotel capacity led to service delays and expectation violations for a 4-star property.",
+      "recommended_action": "Review daytime F&B service model and event support processes: (a) evaluate whether staffing deployment and service processes during daytime and group events match expected capacity; (b) assess whether menu/service scope during daytime meets guest expectations for a four‑star hotel; (c) implement operational changes (scheduling, process adjustments, or service-level clarifications) as appropriate. Do not assume capital hire/changes until operational review is completed.",
+      "rationale": "Concrete guest complaint describes slow bar service for a 40-person group and explicitly ties the issue to insufficient staff for the hotel's capacity. Managerial evidence links 'daytime bar/restaurant service' and 'faster bar/service responsiveness' as matched topics. The issue is an expectation violation (guests expect adequate daytime service for a 4-star property) but sits against an overall service strength, so targeted operational fixes are appropriate.",
+      "supporting_evidence": [
+        "Complaint 2024-06-18: 'bar service was slow because there are too few staff for the hotel's capacity' (group of 40).",
+        "Managerial evidence for 'Restaurant and bar' matches 'daytime bar/restaurant service' and 'faster bar/service responsiveness'.",
+        "Managerial evidence for 'Staff and service' shows many positive mentions of staff helpfulness, indicating an underlying service strength that can be preserved while addressing specific friction."
+      ],
+      "positive_counterevidence": [
+        "Staff and service has 6 positive mentions and is characterized as a strength_with_friction (staff friendliness/helpfulness noted).",
+        "Overall positive comments about service in other reviews (e.g., 'the team's full willingness to always try to find a solution')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Property condition — interior & exterior maintenance / renovation",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple reviews identify the need for interior and exterior remodeling and/or repairs; one review notes 'maintenance in progress' and another describes aspects that 'urgently need repair.' This is an emerging negative topic in the latest context.",
+      "recommended_action": "Commission a focused property-condition assessment/inspection to determine scope and urgency of maintenance and remodeling needs (interior and exterior). Prioritize any safety/urgent repairs identified. Based on the assessment, prepare a maintenance plan and timeline and communicate ongoing/planned works transparently to guests until remediation is complete.",
+      "rationale": "Three substantive complaints in the window reference remodeling/repairs/maintenance in progress; 'interior renovation' and 'exterior renovation' are listed as emerging negative topics. The evidence indicates potential structural/maintenance issues that cannot be scoped from guest comments alone, so an inspection/assessment is needed before recommending capital investment.",
+      "supporting_evidence": [
+        "Complaint 2024-06-05: 'need some remodeling, an update given the price per night, and some aspects urgently need repair.'",
+        "Complaint 2024-06-18: 'The hotel needs interior and exterior remodeling.'",
+        "Complaint 2024-06-21: 'Maintenance in progress.'",
+        "Latest_context lists 'exterior renovation' and 'interior renovation' as emerging_negative_topic."
+      ],
+      "positive_counterevidence": [
+        "Some guests still praise the rooms and general service ('rooms are large', 'the staff are friendly'), suggesting the property remains functional while repairs are needed."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 3,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: interior renovation",
+          "emerging_negative_topic: exterior renovation",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Price–value (perception relative to condition/price)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest explicitly states the facilities do not match the price per night and links this to a need for remodeling — an expectation violation about value for money.",
+      "recommended_action": "Review pricing and value positioning relative to current property condition and competitive set. Consider: (a) whether current rates reflect the guest experience and property condition; (b) improved communication of what is included and any ongoing maintenance; (c) near-term offers or adjustments only after condition assessment. Where scope of required investment is unclear, link any pricing decisions to the results of the property-condition assessment.",
+      "rationale": "Managerial and complaint evidence shows a price–value expectation violation tied to perceived need for updates. Evidence is limited to a small number of mentions but is amplified by maintenance/renovation signals; a pricing/value review is prudent and should be informed by the maintenance assessment.",
+      "supporting_evidence": [
+        "Complaint 2024-06-05: 'need some remodeling, an update given the price per night.'",
+        "Diagnostic 'Price–value' area: 1 negative mention and flagged as an expectation violation in managerial evidence."
+      ],
+      "positive_counterevidence": [
+        "Majority of reviews in the window still praise service, breakfast, and location — these are value elements to preserve and emphasize."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Expectation–experience alignment and guest messaging",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Analytic indicators show rising expectation–experience gap, increasing semantic misalignment, and declining average sentiment — early warning that guest expectations are slipping relative to delivery or messaging.",
+      "recommended_action": "Monitor these metrics closely and (a) review guest-facing descriptions (online content, property descriptions) for semantic alignment with actual guest experience; (b) solicit brief targeted guest feedback on expectations at check-in or post-stay to diagnose misalignment causes; (c) track sentiment, expectation_gap, and high_misalignment_share weekly and escalate operationally if negative trends persist.",
+      "rationale": "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG are both increasing; EXPECTATION_VIOLATION_RATIO increased and SENTIMENT_SCORE_AVG is decreasing. These are trend signals rather than numerous complaints, so monitoring plus targeted messaging/process reviews is appropriate before heavier interventions.",
+      "supporting_evidence": [
+        "Experience indicators: Expectation–experience gap increased (0.0 -> 0.15), semantic misalignment increased (0.0 -> 0.2333), expectation_violation_ratio increased (1.0 -> 1.3333).",
+        "Preliminary signals list 'increasing_expectation_gap' and 'increasing_misalignment' with high severity."
+      ],
+      "positive_counterevidence": [
+        "Average rating and RevPAR, TREVPAR and occupancy are increasing, and staff/breakfast/location are perceived positively — suggesting core experiences remain appreciated even as alignment slips."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 4,
+        "violated_expectation_weeks": 2,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Six positive mentions highlight staff friendliness, helpfulness, and responsiveness; service level noted as matching advertised star rating in multiple reviews.",
+      "management_implication": "Preserve current staffing culture and service practices while addressing specific daytime service friction; use staff as ambassadors to communicate maintenance/works to guests."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Four positive mentions; breakfast quality repeatedly praised.",
+      "management_implication": "Maintain breakfast offering and consider emphasizing it in guest communications as a core value element while other issues are addressed."
+    },
+    {
+      "area": "Location and room comfort",
+      "reason": "Multiple positive mentions about location (calm, peace) and rooms described as large and comfortable.",
+      "management_implication": "Highlight location and room comfort in guest messaging and marketing; ensure any renovation work minimizes disruption to these valued aspects."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Rising gap is an early warning of misaligned expectations and service delivery.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Increased semantic misalignment suggests marketing/content may not reflect actual guest experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and PERC_REVIEWS_NEGATIVE",
+      "reason": "Sentiment is declining and the share of negative reviews increased in the window; useful to detect whether interventions reverse the trend.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Mentions of 'interior/exterior renovation' and 'maintenance in progress' in reviews",
+      "reason": "Track prevalence to know if remediation reduces guest mentions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Complaints about daytime bar/restaurant service responsiveness",
+      "reason": "Directly tied to operational priority; track to evaluate effectiveness of service/process changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "The complaint sample is small: 3 substantive 'disliked' comments out of 30 reviews in the window; selected complaints are diagnostic and not fully representative.",
+    "Property-condition issues are described by guests but the scope, cost, and technical requirements of renovations/repairs cannot be determined from reviews; an on-site assessment is required before recommending capital investment.",
+    "The analytic indicators show trends (expectation gap, misalignment, sentiment) but do not identify specific causal operational failures; recommended operational reviews and targeted monitoring are needed to diagnose root causes.",
+    "Some evidence items (e.g., price–value concern) are single-mention signals and should be calibrated against broader feedback after corrective actions or further monitoring."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P036",
+    "case_id": "H400_20240617_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:27:32.648447+00:00",
+    "finished_at_utc": "2026-09-08T16:28:20.526173+00:00",
+    "elapsed_seconds": 47.874
+  }
+}

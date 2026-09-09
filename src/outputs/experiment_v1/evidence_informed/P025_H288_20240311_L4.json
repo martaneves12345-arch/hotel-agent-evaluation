@@ -1,0 +1,248 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Evidence shows multiple, traceable guest frictions (parking costs/space, breakfast value, amenity disclosure, occasional room maintenance) but several areas remain positive (staff friendliness, bathroom condition, overall value). Some issues are emerging (parking, AC/amenity disclosure) and include expectation violations; business metrics show modest positive trends with recent short-term reversals. Taken together this indicates manageable but material customer-experience risk requiring targeted action rather than major capital investment.",
+  "executive_summary": "Priorities: (1) Address parking policy, pricing transparency and garage constraints (net-negative, emerging); (2) Correct guest-facing information and improve front-desk communication (address, late check-out, amenity disclosure) — immediate fixes available; (3) Investigate and remediate room comfort issues (air conditioning, noise, textiles/paint) while ensuring accurate amenity descriptions; (4) Review price–value alignment for breakfast and in-room amenity expectations (minibar, gym/pool) and ensure transparent messaging; (5) Monitor guest expectations regarding leisure amenities (pool/gym) and align marketing/disclosures. Preserve strengths in staff friendliness, bathroom condition, and generally good location/value perception. Recommend assessments and targeted operational/policy changes; require further technical/financial assessment where scope is uncertain.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Parking",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests report paid parking, high perceived parking cost, tight garage for large cars, and expectation that parking should be included or clearer; issue is emerging and has caused repeated negative mentions.",
+      "recommended_action": "Review and clarify parking policy and pricing in all guest-facing channels (website, booking platforms, confirmation emails). Audit garage capacity/clearance and guest suitability (large cars). Provide clear pre-arrival information about parking options (cost, size constraints, alternative nearby parking). Evaluate whether operational changes (e.g., allocation process, validated rates, negotiated external parking) are appropriate; if structural constraints are suspected, commission a capacity/space assessment before proposing capital solutions.",
+      "rationale": "Parking has the largest negative mention count (6 negative, 0 positive), includes violated expectations and an emerging negative signal. Several complaints reference both price and tight garage space, indicating both value and operational/access friction that affects guest satisfaction and is likely resolvable through communication, operational changes, or a targeted assessment.",
+      "supporting_evidence": [
+        "Managerial evidence: Parking — 6 mentions, 6 negative, has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaints: 2024-02-25 (paid underground parking, €65/night; 'hotel parking is paid'), 2024-02-26 (parking €6.50), 2024-02-19 ('parking was paid'), 2024-03-08 ('Daily extra charge to park in the hotel's own parking'), 2024-03-06 ('Garage very tight for large cars')."
+      ],
+      "positive_counterevidence": [
+        "No positive mentions of parking in the supplied managerial evidence or complaint sample."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 6,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 6,
+        "relevant_trend_signals": [
+          "has_expectation_violation",
+          "is_emerging_negative",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Guest-facing information & front-desk communication",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Inaccurate or unclear guest-facing information (incorrect hotel address on website) and front-desk communication lapses (late check-out not communicated to guests; misleading amenity descriptions such as 'air vent' vs 'air conditioning'). These caused travel delays, expectation violations and guest frustration.",
+      "recommended_action": "Immediately correct factual errors in public information (e.g., website address and any booking-channel data). Review and tighten front-desk communication processes for check-out/check-in changes (late check-out notifications) and standardize how room amenities (AC, vents, minibar) are described across channels. Implement a short checklist or script for front-desk staff to confirm and communicate key guest-arrival and service changes. Monitor compliance for a defined period.",
+      "rationale": "Errors in location/address and failures to communicate operational changes are concrete, low-cost fixes with high impact on guest frustration. Evidence includes explicit guest reports of incorrect address causing delays and cases of missed communication of late check-out; inaccurate amenity descriptions have also been reported.",
+      "supporting_evidence": [
+        "Complaint 2024-03-17: 'hotel's address given on the website is incorrect... This caused delays and difficulty reaching the destination.'",
+        "Complaint 2024-02-27: 'Poor communication among staff (it was not communicated that we had been given a late check-out).'",
+        "Complaint 2024-02-26: 'Room didn't have AC, but some sort of air vent that is misleading (called reception and they told me it wasn't AC)'."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews note courteous and friendly staff; this suggests staff willingness to assist even when processes fail."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "existing_priority_alert",
+          "EXPECTATION_VIOLATION_RATIO (fluctuating)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 3,
+      "area": "Room comfort & maintenance (AC, noise, textiles/paint)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guest reports of non-functioning or misleadingly-described air conditioning, noise issues at windows, and textile/paint wear indicate maintenance and/or disclosure gaps that reduce perceived room comfort despite several positive room comments.",
+      "recommended_action": "Initiate an operational maintenance sweep focused on room climate control (inspect AC capability in representative rooms) and room fabric/finish issues (windows/noise sealing, textiles, paint). Ensure booking and in-room information accurately describe how climate control functions (e.g., if ventilation is not AC). If inspections identify recurring or systemic faults, commission a technical assessment to determine scope and required investment.",
+      "rationale": "Room comfort is overall positive but shows repeated, concrete expectation violations (AC not working / misleading disclosure) and other maintenance suggestions (noise, textiles, paint). Operational inspection and targeted remediation are appropriate before considering larger capital interventions.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — 5 mentions (3 positive, 2 negative), has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaints: 2024-02-26 ('Room didn't have AC... misleading'), 2024-02-19 ('air conditioning unfortunately didn't work'), 2024-03-09 ('windows need noise improvements rooms need textile improvements paint improvements')."
+      ],
+      "positive_counterevidence": [
+        "Several guests praised room comfort, bed size, and bathroom decoration (e.g., 2024-02-25: 'Comfortable room'; 2024-02-19: 'Value for money... Pleasant view and bathroom decoration')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "has_expectation_violation",
+          "is_emerging_negative",
+          "EMOTION_ENTROPY increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Price–value for breakfast and in-room amenities (minibar, gym/pool expectations)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests perceive breakfast as overpriced (mentions of 12.50€ and low inclusions such as no eggs) and expect additional in-room or leisure amenities (minibar, gym/pool) or clearer value communication. Price–value concerns are linked to both breakfast pricing and perceived amenity shortfalls.",
+      "recommended_action": "Review breakfast offering and pricing relative to local competitor expectations and ensure clear communication about what is included in the breakfast buffet. Review online descriptions for in-room amenities (presence/absence of minibar) and leisure facilities; where amenities are not present, ensure this is explicit in marketing and booking channels. Consider a managerial evaluation of whether the current breakfast price and content are aligned with the hotel's positioning; if not enough evidence to change pricing/program, consider non-capital mitigations (clear messaging, optional add-ons).",
+      "rationale": "Price–value is broadly positive but contains reproducible expectation violations (breakfast price/contents) and negative mentions about missing amenities; these impact perceived value and are addressable via communication, offering review, and managerial evaluation.",
+      "supporting_evidence": [
+        "Managerial evidence: Price–value — 8 mentions (4 positive, 2 negative), has_expectation_violation=true.",
+        "Complaints: 2024-02-26 ('Overpriced breakfast, 12,50 euros... no eggs'), 2024-03-10 ('I found the breakfast expensive'), 2024-03-08 ('No minibar in the room'), 2024-02-25 ('Few amenities, no gym, no pool')."
+      ],
+      "positive_counterevidence": [
+        "Multiple guests explicitly state 'value for money' and overall fair pricing for location/price (e.g., 2024-03-03: 'Great value for money')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "has_expectation_violation",
+          "PERC_REVIEWS_NEGATIVE decreasing (monitor)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Leisure amenities expectation (pool/gym)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "A small number of guests expected leisure facilities (pool/gym) that are not available, producing disappointment; evidence is limited but flagged as an emerging negative topic.",
+      "recommended_action": "Monitor mentions of leisure-amenity expectations in ongoing reviews and audit marketing/booking descriptions for any implication that such facilities exist. If mention frequency increases, conduct a review of whether messaging or offering should be adjusted or whether feasibility assessment of adding amenities is warranted.",
+      "rationale": "Currently low-frequency but emerging negative mention; best managed by monitoring and ensuring messaging is not inadvertently suggesting unavailable amenities.",
+      "supporting_evidence": [
+        "Managerial evidence: Spa and pool — 1 negative mention, emerging_negative_weeks=1.",
+        "Complaint 2024-02-25: 'Few amenities, no gym, no pool'; Complaint 2024-02-22: 'There is no option for dinner on-site... A simple hotel without many facilities.'"
+      ],
+      "positive_counterevidence": [
+        "Many guests accept the hotel as a simple, clean, value option and comment positively on staff and room comfort, suggesting leisure amenities are not universally expected."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "is_emerging_negative"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Managerial evidence shows predominantly positive mentions (5 positive, 3 negative) and many complaint texts praise staff friendliness and courtesy.",
+      "management_implication": "Preserve through staff recognition, maintain training that supports current strengths, and leverage staff goodwill when implementing process changes (e.g., communication checklists)."
+    },
+    {
+      "area": "Bathroom condition",
+      "reason": "Managerial evidence reports 2 positive mentions and complaint excerpts praise bathroom decoration and condition.",
+      "management_implication": "Maintain current cleaning and maintenance standards for bathrooms; prioritize any maintenance resources toward other room-finish issues first (e.g., paint/textiles) since bathrooms are viewed positively."
+    },
+    {
+      "area": "Location / value for money given location",
+      "reason": "Multiple guests cited location positively and value for money relative to location/price in managerial evidence.",
+      "management_implication": "Preserve location messaging in marketing and ensure any changes to pricing or inclusions retain the perceived location-value proposition."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Track whether the share of negative reviews continues to decline or reverses, indicating change in overall sentiment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "This metric recently decreased to 0; monitor to ensure expectation violations (e.g., parking, AC, breakfast) do not cause it to rise again.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EMOTION_ENTROPY",
+      "reason": "Emotional heterogeneity is increasing; monitor for growing polarization or new negative-emotion clusters corresponding to emerging issues (parking, amenities).",
+      "desired_direction": "context_dependent",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "REVPAR_WEEK recent_reversal flag",
+      "reason": "Business performance shows a recent reversal; track short-term movements to identify whether operational issues align with commercial trends.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic (14 substantive complaints / 68 total reviews in window) and not statistically representative of all guests; prevalence should be validated against full-review metrics before large investments.",
+    "Evidence identifies expectation violations and operational frictions but does not quantify parking infrastructure constraints or the capital cost of garage modification; recommend assessment before proposing capital solutions.",
+    "Breakfast pricing and amenity decisions require commercial analysis (competitor benchmarking, margin analysis) which is outside the supplied evidence; recommendations here are to review and evaluate rather than to change price or offerings immediately.",
+    "Reported AC issues indicate potential technical faults but the dataset does not specify scope (single rooms vs building-wide); a physical inspection is required before recommending capital works.",
+    "No evidence in the supplied data supports causal claims linking review themes to RevPAR or other financial metrics; business-trend observations are contextual only."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P025",
+    "case_id": "H288_20240311_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:12:53.791436+00:00",
+    "finished_at_utc": "2026-09-08T16:13:44.373784+00:00",
+    "elapsed_seconds": 50.584
+  }
+}

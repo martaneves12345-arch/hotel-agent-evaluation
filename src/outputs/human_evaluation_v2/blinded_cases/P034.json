@@ -1,0 +1,370 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P034",
+  "case_information": {
+    "case_id": "H317_20240506_L4",
+    "decision_week": "2024_W19",
+    "window_start": "2024-04-15",
+    "window_end": "2024-05-12",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 38.92708179148312,
+        "REVPOR_WEEK": 60.08645110132159,
+        "TREVPAR_WEEK": 48.86634878854625,
+        "TAXA_OCUPACAO": 54.04761904761904,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 8.7
+      },
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 37.88988739935586,
+        "REVPOR_WEEK": 62.34618212560385,
+        "TREVPAR_WEEK": 42.25438929951689,
+        "TAXA_OCUPACAO": 49.28571428571429,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 43.837528825910944,
+        "REVPOR_WEEK": 62.85425101214576,
+        "TREVPAR_WEEK": 51.12249591093116,
+        "TAXA_OCUPACAO": 58.80952380952381,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.666666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 114.9529135858586,
+        "REVPOR_WEEK": 148.27997474747477,
+        "TREVPAR_WEEK": 124.87845922558934,
+        "TAXA_OCUPACAO": 47.14285714285714,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.428571428571429
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-05-12",
+        "rating": 9.0,
+        "liked": "Very nice hotel with very friendly staff. The location couldn't be better. We hope to see you again. Many thanks!",
+        "disliked": "We liked everything, thank God.",
+        "country": "Germany",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-11",
+        "rating": 10.0,
+        "liked": "Perfect location. Very attentive staff.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-10",
+        "rating": 10.0,
+        "liked": "Location",
+        "disliked": "Nada",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-10",
+        "rating": 9.0,
+        "liked": "The hotel is in a strategic position, between the bus station and the sanctuary, both a few steps away. We stayed from Saturday to Easter Sunday. We were struck by the welcome we received because, after a tiring day between Lisbon and the arrival in Fatima, the possibility of dining on-site relaxed us (they offered us caldo verde soup, in the paid meal, which we greatly appreciated), giving us the feeling of true hospitality to the pilgrim. The rooms are very spacious; we had the suite with the single and the double, clean and very comfortable. Highly recommended.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-08",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 10.0,
+        "liked": "Incredible hotel, fantastic location, comfortable bed. Very friendly attendants.",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 10.0,
+        "liked": "Excellent position close to the Sanctuary. Room well furnished and clean. Welcoming and helpful staff.",
+        "disliked": "Breakfast needs improvement.",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-05",
+        "rating": 9.0,
+        "liked": "Everything excellent!!",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-05",
+        "rating": 9.0,
+        "liked": "Great location, right next to the grounds. Attentive staff. Good facilities and cleanliness. We opted for breakfast and dinner, everything was great!",
+        "disliked": "Everything OK",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-03",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-02",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-02",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-30",
+        "rating": 9.0,
+        "liked": "The location is fantastic, right next to the Basilica.",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-29",
+        "rating": 10.0,
+        "liked": "I always stay at this hotel. I'm a fan!",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-29",
+        "rating": 5.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-29",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-04-27",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-04-26",
+        "rating": 8.0,
+        "liked": "We were in Fatima for one 24-hour period. We wanted a location close to the shrine. The hotel met our expectations. The lady at the front desk lent us a kettle and cups so we could make tea in the evening.",
+        "disliked": "Breakfast was good but there were no vegetables in it.",
+        "country": "Poland",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-25",
+        "rating": 8.0,
+        "liked": "Very nice room and balcony for family of 4. Bed for everyone Very close to Fatima square and churches",
+        "disliked": "Lots of light come through the shade in the morning and breakfast ends at 10am",
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-04-25",
+        "rating": 8.0,
+        "liked": "The location",
+        "disliked": "That the options at breakfast are limited.",
+        "country": "Spain",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Customer sentiment is generally strong (average rating improved to 9.43) and guests consistently praise location, staff and cleanliness, which supports reputation. However there are repeated operational complaints about breakfast and a measurable drop in review volume and occupancy (-30% reviews, -12.8% occupancy) that warrant management attention to avoid erosion of demand or reputation.",
+    "executive_summary": "Priority actions: 1) improve the breakfast offering and service hours (frequent guest complaints); 2) preserve and reinforce the hotel's strong location and high-quality staff service; 3) address room light/curtain issues that affect guest comfort; 4) investigate the occupancy decline and revenue mix to ensure pricing and distribution remain optimal; 5) increase review volume and respond to occasional low ratings. Many recent reviews praise location, staff, cleanliness and comfortable rooms — these strengths should be maintained while operational fixes are implemented.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast offering and service hours",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Multiple guests report limited breakfast options, lack of vegetables and an early cut-off time (breakfast ends at 10:00), reducing satisfaction for some guests.",
+        "recommended_action": "Conduct an immediate review of breakfast menu and service hours. Add a few low-cost, high-impact options (e.g., fresh vegetables/fruit, more hot and cold choices, vegetarian options), consider extending breakfast hours or offering a later continental option, and train breakfast staff to ensure consistent presentation. Pilot changes on high-occupancy days and collect guest feedback.",
+        "rationale": "Several recent reviews explicitly mention breakfast limitations and timing as a negative point; improving this addresses a recurring negative theme and could improve overall guest satisfaction."
+      },
+      {
+        "rank": 2,
+        "area": "Service quality and guest experience (staff & location)",
+        "managerial_priority": "high",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Although service and location are strong, maintaining these strengths requires ongoing attention (staffing, training and local positioning) to preserve reputation.",
+        "recommended_action": "Continue to recognize and support front-desk and F&B staff (routine briefings, reinforce service standards). Highlight proximity to the Sanctuary in marketing and on-site signage. Monitor staff levels during peak periods to keep service consistently attentive.",
+        "rationale": "Reviews repeatedly praise the location and the welcome/attentive staff; preserving these strengths protects the hotel's brand and repeat business."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort — light control / window shades",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Some guests report that shades allow morning light into rooms, disturbing sleep for families and early risers.",
+        "recommended_action": "Audit rooms for light infiltration (check shades/curtains). Implement targeted fixes: repair or replace problematic blinds/curtains, provide temporary solutions (eye masks) where immediate replacement isn't possible, and prioritize suite/ family rooms if budgets are constrained.",
+        "rationale": "Guest sleep quality affects perceived value; a few reviews explicitly call out excessive morning light as a negative despite otherwise comfortable rooms."
+      },
+      {
+        "rank": 4,
+        "area": "Occupancy and revenue mix review",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "policy_process",
+        "problem": "Observed occupancy declined by ~12.8% over the lookback period while revenue metrics increased substantially; management should ensure pricing, channel mix and packages are aligned with demand and guest expectations.",
+        "recommended_action": "Carry out a medium-term analysis of distribution channels, pricing and package mix (including breakfast-included vs not). Check group vs transient booking patterns and adjust channel strategy, yields and packaged offers. Use this analysis to decide whether to adjust rates, minimum stays or promotions.",
+        "rationale": "Basic performance shows a notable fall in occupancy alongside rising RevPAR and RevPOR; a structured review can confirm whether the revenue mix is optimal and whether any operational changes (e.g., breakfast improvements, packages) should be tied to pricing."
+      },
+      {
+        "rank": 5,
+        "area": "Reviews volume and reputation management",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "The number of reviews in the decision window decreased (from 10 to 7); there is also an isolated low score (5.0) with no text — both reduce the clarity of guest feedback and may affect perceived reliability of ratings.",
+        "recommended_action": "Encourage satisfied guests to leave reviews (post-checkout prompts, e-mail reminders) and implement a consistent policy for responding to online feedback, including following up on low scores to understand and address underlying causes. Track and investigate any recurring issues behind low scores.",
+        "rationale": "Volume of feedback fell by 30% in the provided metric and a single unexplained low rating exists; increasing feedback volume and addressing low scores will help maintain reputation and give clearer signals for improvement."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location",
+        "reason": "Repeated, explicit praise that the hotel is right next to the Basilica/Sanctuary and bus station, which is a primary draw for guests.",
+        "management_implication": "Continue promoting proximity in marketing materials and ensure signage/front-desk information highlights local access; protect nearby positioning in guest communications."
+      },
+      {
+        "area": "Staff service (welcome & attentiveness)",
+        "reason": "Many reviews specifically mention friendly, attentive staff and warm welcome; staff hospitality is a key driver of positive guest sentiment.",
+        "management_implication": "Maintain staffing levels and service standards, continue recognition and basic training programs to sustain morale and performance."
+      },
+      {
+        "area": "Cleanliness and room comfort",
+        "reason": "Guests frequently note rooms are clean, spacious and comfortable (beds comfortable, well-furnished rooms).",
+        "management_implication": "Preserve housekeeping standards and maintenance schedules; prioritize any room upgrades that maintain or improve comfort without compromising cleanliness."
+      }
+    ],
+    "limitations": [
+      "Only 20 of 35 available reviews were provided for text analysis; conclusions are drawn from this subset and may not capture the full distribution of feedback.",
+      "Customer comments are qualitative and do not provide operational constraints (costs, kitchen capacity, staffing schedules) needed to estimate feasibility of recommended changes.",
+      "Observed changes in occupancy and revenue metrics are reported but no causal link between reviews and financial performance can be inferred from the supplied data.",
+      "Some reviews lack detail (many 'null' disliked fields), limiting specificity of root-cause identification for isolated low ratings."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "There is a clear and persistent signal of expectation–experience misalignment and an increase in operational complaints (priority alert flag = 1; rising EXPECTATION_EXPERIENCE_GAP_AVG, SEMANTIC_MISALIGNMENT_SCORE_AVG and PERC_OPERATIONAL_COMPLAINTS). However, core strengths (location, staff, cleanliness) are strongly positive and financial indicators (RevPAR/RevPOR/TREVPAR) are improving, which reduces immediate business risk. The combination of rising negative-review share and misalignment warrants prioritized operational and communications actions.",
+    "executive_summary": "Preserve strong location, cleanliness and staff performance. Top operational priority: address breakfast experience (quality/variety and hours/expectations). Concurrently, review guest-facing communications and descriptions to reduce semantic misalignment. Immediately investigate the rising operational-complaints share to identify root causes. Inspect reported mattress firmness to determine scope and remedy. Prioritize operational/process fixes and targeted assessments before any capital decisions.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Multiple guests report limited breakfast options, lack of vegetables and an expressed expectation violation about the breakfast offering/hours.",
+        "recommended_action": "Review breakfast offering and operations: evaluate variety (including vegetable/healthy options), portioning and service hours; review kitchen/ordering processes and supplier availability; update pre-arrival and front-desk information about breakfast times and contents. Use guest feedback to set specific, measurable changes and monitor response.",
+        "rationale": "Breakfast has 6 mentions (5 negative, 1 positive) across 3 weeks with an explicit violated expectation. Multiple complaint examples cite limited options, no vegetables and a general need for improvement. This is a service-quality issue affecting guest experience and expectation alignment but does not yet establish a structural capital requirement."
+      },
+      {
+        "rank": 2,
+        "area": "Expectation–experience alignment / communications",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Rising expectation–experience gap and semantic misalignment indicate that some advertised or assumed guest expectations are not being met or are communicated unclearly.",
+        "recommended_action": "Review guest-facing descriptions (booking pages, confirmation emails, on-site signage) and pre-arrival communications to ensure they accurately describe facilities, breakfast contents/hours and services. Train front-desk staff to set clear expectations at check-in. Monitor whether clearer messaging reduces expectation-violation mentions.",
+        "rationale": "Experience indicators show increasing EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG; EXPECTATION_VIOLATION_RATIO rose to 1.0 in the sample. Several complaints about breakfast content/hours point to mismatched expectations. Addressing communications is lower-cost and targets the root of misalignment."
+      },
+      {
+        "rank": 3,
+        "area": "Rising operational-complaints share (root-cause review)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "The share of operational complaints has increased substantially (PERC_OPERATIONAL_COMPLAINTS up to 100 in the sample), indicating a possible operational or process issue that requires prompt managerial review.",
+        "recommended_action": "Immediately audit operational areas linked to guest complaints (breakfast service, check-in/check-out procedures, housekeeping handoffs). Convene a short cross-functional review (F&B, front desk, housekeeping) to identify process bottlenecks and quick fixes. Implement short-cycle monitoring of operational-complaint counts and guest feedback for the next 2–4 weeks.",
+        "rationale": "Preliminary signal flags 'increasing_operational_complaints' as high severity and the PERC_OPERATIONAL_COMPLAINTS metric rose sharply in the window. Although sample size is limited, the trend and priority alert justify a prompt managerial review to prevent escalation."
+      },
+      {
+        "rank": 4,
+        "area": "Room comfort — mattress firmness",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Isolated reports of very hard mattresses that reduce sleep comfort for some guests.",
+        "recommended_action": "Carry out a targeted inspection of mattress condition and firmness across a representative sample of rooms. If firmness is inconsistent with typical guest comfort expectations, evaluate soft-top or replacement options after inspection. In the short term, consider providing temporary solutions (e.g., mattress toppers) only after confirming scope and cost.",
+        "rationale": "Room comfort is generally positive (3 positive vs 1 negative mention) but the negative comment about 'The bed matress are very hard' indicates a specific friction that affects comfort. The evidence is limited to a small number of guests, so inspection should precede any procurement or replacement decision."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Location received uniformly positive mentions (10 positive, 0 negative) and is repeatedly praised as close to the shrine and Fatima square in multiple reviews.",
+        "management_implication": "Continue to highlight proximity in marketing and ensure front-desk directions/assistance maintain this advantage."
+      },
+      {
+        "area": "Staff and service (attentiveness)",
+        "reason": "Eight positive mentions and multiple reviews praise helpful, welcoming staff; front desk staff provided practical help (e.g., lending a kettle).",
+        "management_implication": "Preserve current training and recognition practices; involve front-desk staff in communications updates so they can set accurate guest expectations."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Multiple reviews specifically praise room cleanliness and housekeeping performance (4 positive mentions, 0 negative).",
+        "management_implication": "Maintain existing housekeeping standards and schedule to preserve this clear strength."
+      }
+    ],
+    "limitations": [
+      "Selected complaint sample is diagnostic and not statistically representative of all guests; prevalence should be interpreted using full review-window metadata.",
+      "Evidence indicates expectation and operational issues but does not determine the operational root causes or the cost/scope of any capital remedies.",
+      "Where evidence suggests a potential need for equipment replacement (e.g., mattresses), a targeted inspection is required before prescribing remedial investment.",
+      "No direct evidence links guest comments to financial metrics; avoid assuming causality between reviews and RevPAR or occupancy changes."
+    ]
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P032",
+  "case_information": {
+    "case_id": "H83_20241021_L4",
+    "decision_week": "2024_W43",
+    "decision_date": "2024-10-21",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 38.1069135574495,
+        "REVPOR_WEEK": 71.76573106060609,
+        "TREVPAR_WEEK": 40.615019207702034,
+        "TAXA_OCUPACAO": 43.45238095238096,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 7.473684210526316,
+        "SENTIMENT_SCORE_AVG": -0.0133333333333333,
+        "SENTIMENT_SCORE_STD": 0.4838338951491907,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.7819370635467042,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 31.57894736842105,
+        "PERC_OPERATIONAL_COMPLAINTS": 75.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2631578947368421,
+        "COMPLEXITY_INDEX": 2.6247740900560004,
+        "SENTIMENT_TREND_SLOPE": -0.0012356788690656
+      },
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 45.14589138374488,
+        "REVPOR_WEEK": 60.80725987654324,
+        "TREVPAR_WEEK": 46.71378512088479,
+        "TAXA_OCUPACAO": 49.10714285714285,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.642857142857143,
+        "SENTIMENT_SCORE_AVG": 0.3153846153846154,
+        "SENTIMENT_SCORE_STD": 0.6375031422748099,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1375,
+        "EXPECTATION_VIOLATION_RATIO": 0.6666666666666666,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.419556298571613,
+        "EXPECTATION_SHARE": 0.2142857142857142,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0714285714285714,
+        "PERC_REVIEWS_NEGATIVE": 35.714285714285715,
+        "PERC_OPERATIONAL_COMPLAINTS": 25.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.3571428571428571,
+        "COMPLEXITY_INDEX": 2.5407032321294456,
+        "SENTIMENT_TREND_SLOPE": -0.0012356788690656
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 49.78699923708922,
+        "REVPOR_WEEK": 92.60862887323944,
+        "TREVPAR_WEEK": 52.237606455399074,
+        "TAXA_OCUPACAO": 42.55952380952381,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 7.583333333333333,
+        "SENTIMENT_SCORE_AVG": 0.0318181818181817,
+        "SENTIMENT_SCORE_STD": 0.5302229376746762,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0666666666666666,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0666666666666666,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.3221793455166666,
+        "EXPECTATION_SHARE": 0.0833333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 41.66666666666667,
+        "PERC_OPERATIONAL_COMPLAINTS": 60.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.1666666666666666,
+        "COMPLEXITY_INDEX": 2.356492413796824,
+        "SENTIMENT_TREND_SLOPE": -0.0012356788690656
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 37.90165977128625,
+        "REVPOR_WEEK": 56.37793097826089,
+        "TREVPAR_WEEK": 40.06307650588769,
+        "TAXA_OCUPACAO": 56.54761904761904,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.444444444444445,
+        "SENTIMENT_SCORE_AVG": 0.1714285714285714,
+        "SENTIMENT_SCORE_STD": 0.6626066850308855,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.175,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.175,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.9852281360342516,
+        "EXPECTATION_SHARE": 0.2222222222222222,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 33.33333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2222222222222222,
+        "COMPLEXITY_INDEX": 2.006107484696769,
+        "SENTIMENT_TREND_SLOPE": -0.0012356788690656
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-10-27",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Slovenia",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-10-26",
+        "rating": 3.0,
+        "liked": "Easy access, welcoming staff.",
+        "disliked": "The noise 😱 No soundproofing, we felt like we were sleeping on a motorway! The bedding was from the 80s, no comfort. The breakfast was very basic.",
+        "country": "France",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-26",
+        "rating": 8.0,
+        "liked": "That this hotel has been modernized.",
+        "disliked": "Little choice for breakfast.",
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-25",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-24",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-23",
+        "rating": 10.0,
+        "liked": "Good value for money, close to Porto. I only suggest 2 or 3 varieties of fruit at breakfast. The rooms should be better lit. Otherwise everything was great!",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-23",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-21",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-21",
+        "rating": 8.0,
+        "liked": "Everything overall, and the balcony was excellent!",
+        "disliked": "Neighbors next door made noise at dawn.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-20",
+        "rating": 7.0,
+        "liked": "The room was small, but it didn't matter because we only slept there for one night. There was parking and the staff was friendly.",
+        "disliked": "small room",
+        "country": "Slovenia",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-20",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-20",
+        "rating": 8.0,
+        "liked": "Good",
+        "disliked": "The bed was too hard. I would recommend a mattress topper. Then it would have been great.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-18",
+        "rating": 8.0,
+        "liked": "Very good value for money.",
+        "disliked": "The breakfast can vary.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-18",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 6.0,
+        "liked": "Friendliness.",
+        "disliked": "The breakfast was very poor!!! Parking was very far from the entrance.",
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 10.0,
+        "liked": "Cleanliness",
+        "disliked": "Very poor breakfast with no variety.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-14",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Denmark",
+        "stay_type": "Group"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Evidence shows clear strengths (cleanliness, friendly staff, generally positive price–value) but also several operational/maintenance complaints that include safety-relevant items (mould smell, clogged shower drain, smoke infiltration) and increasing expectation–experience misalignment signals. The mix of strong positives and isolated but important negatives supports a moderate overall risk that warrants prompt targeted actions and some immediate inspections.",
+    "executive_summary": "Preserve strong housekeeping and friendly service while addressing a cluster of room-comfort and maintenance issues that are producing expectation violations and occasional health/comfort risks. Primary immediate attention should be given to room-level maintenance and any safety/health hazards (mould, clogged drains, significant noise, smoke infiltration). Short-term actions should review breakfast offering (variety/temperature/start time) and review guest-facing descriptions/policies to reduce semantic misalignment. Monitor an emerging perception issue around price–value even though current reviews largely remain positive.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort & urgent maintenance (mattresses, noise, mould, clogged drains, smoke infiltration)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Multiple reviews report uncomfortable beds (too hard/old), loud/noisy rooms (poor soundproofing), mouldy odour, a flooded bathroom from a clogged drain, and restaurant smoke entering rooms designated for smokers—some of these have health/safety relevance and constitute expectation violations.",
+        "recommended_action": "Immediately inspect affected rooms for mould and ventilation/airflow issues, inspect/repair shower drainage in any reported rooms, evaluate mattress condition and compile a prioritized replacement/topper plan, and investigate routes by which restaurant smoke reaches guest rooms. If hazards (mould, persistent water ingress, major ventilation issues) are confirmed, take immediate remediation steps and escalate to maintenance contractors. Record and respond to affected guest complaints directly.",
+        "rationale": "High frequency of negative mentions for room comfort (managerial evidence: 8 mentions, 7 negative) combined with complaint examples describing mould smell (2024-10-04), clogged/flooded shower (2024-10-12), very hard/old bedding and noise (2024-10-26; 2024-10-20; 2024-10-01). Some items are safety/health relevant and therefore require immediate inspection rather than delayed planning.",
+        "supporting_evidence": [
+          "Managerial evidence — Room comfort: 8 mentions (1 positive, 7 negative), has expectation violation.",
+          "Complaint 2024-10-26: 'No soundproofing... bedding from the 80s...'",
+          "Complaint 2024-10-04: 'Strong smell of mold.'",
+          "Complaint 2024-10-12: clogged shower drain resulted in bathroom flooding; also reported restaurant smoke entering the room.",
+          "Complaint 2024-10-20 and 2024-10-01: bed too hard / furniture/bed complaints."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast quality, variety and service (food & beverage)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although many guests note acceptable breakfast, a substantial subset describes the breakfast as poor/basic, cold, limited in variety (especially hot options and fruit variety), and perhaps constrained by start times—this is an expectation violation for some guests.",
+        "recommended_action": "Review breakfast offering and service times with F&B staff: evaluate menu variety (especially hot items and fruit selection), timing/availability, and guest communication about what is included. Implement operational adjustments that can be done quickly (menu tweaks, staffing/timing) and measure guest feedback after changes.",
+        "rationale": "Managerial evidence shows a mixed but significant number of breakfast mentions (15 total; 8 positive, 7 negative) and has a recorded expectation violation. Multiple customer complaints refer specifically to limited/poor breakfast quality and cold items.",
+        "supporting_evidence": [
+          "Managerial evidence — Breakfast: 15 mentions (8 positive, 7 negative), evidence_pattern = positive_with_friction, has expectation violation.",
+          "Complaint 2024-10-26: 'The breakfast was very basic.'",
+          "Complaint 2024-10-14: 'The breakfast was very poor!!!'",
+          "Complaint 2024-10-01 (cs): 'Breakfast poor, only cold.'",
+          "Complaint 2024-10-09: 'the breakfast buffet was somewhat limited' (but food quality described as excellent)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 3,
+        "area": "Guest-facing descriptions and expectation alignment (marketing & communications)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Several reviews indicate semantic misalignment between what is advertised and guest experience (examples: proximity to airport, lack of disclosure about balcony shutters/security measures, and undisclosed downsides of the smoker-room option). The semantic misalignment and growing expectation gap metrics suggest this is not isolated.",
+        "recommended_action": "Review online descriptions, booking pages, and guest-facing communications to ensure accurate representation of distance to local points (e.g., airport), room characteristics (locked/shuttered balconies when applicable), the smoker-room arrangement and any associated trade-offs, and renovation-related impacts. Where limitations exist for safety/security reasons (e.g., shuttered balconies), update descriptions so guests have correct expectations. Establish a short checklist for front-desk communication at check-in to confirm any known room constraints.",
+        "rationale": "Direct complaints cite misleading proximity claims (2024-10-13), undisclosed consequences of the smoker-room option (2024-10-12), and shuttered balcony windows that affected guest comfort (2024-10-09). Experience indicators show increasing semantic misalignment and expectation–experience gap.",
+        "supporting_evidence": [
+          "Complaint 2024-10-13: 'It said it was very close to the airport; in fact it was 10 km away.'",
+          "Complaint 2024-10-12: smoker-room received restaurant smoke; guest said they would have declined if informed.",
+          "Complaint 2024-10-09: balcony door locked and shuttered (no natural light) due to past break-ins — guest surprised by this."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 4,
+        "area": "Access & room allocation friction: parking distance and smoker-room external smoke ingress",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported parking being far from the entrance and that a smoker-room option allowed restaurant smoke to enter the room—both are operational frictions affecting comfort and perceived value.",
+        "recommended_action": "Review parking signage and guest instructions (clear directions from entrance to parking and communication at booking). Investigate the pathway of smoke ingress from restaurant to smoker rooms and determine operational mitigations (room allocation, sealing airflow pathways, or clearer pre-booking communication) after inspection.",
+        "rationale": "Complaints include 'Parking was very far from the entrance' (2024-10-14) and detailed report of smoke entering the smoker room and affecting clothing (2024-10-12). Parking and accessibility mentions are mixed in the managerial evidence but these specific operational frictions affect guest comfort.",
+        "supporting_evidence": [
+          "Managerial evidence — Parking: 2 mentions (1 positive, 1 negative).",
+          "Complaint 2024-10-14: 'Parking was very far from the entrance.'",
+          "Complaint 2024-10-12: smoker-room received restaurant smoke, making the stay uncomfortable."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      },
+      {
+        "rank": 5,
+        "area": "Price–value perception (monitor emerging negative signals)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Price–value is generally reported positively but there is an emerging negative mention; expectation alignment and value perceptions should be tracked to prevent reputation drift.",
+        "recommended_action": "Monitor guest comments related to price and value over the next few weeks and, if mentions of poor value increase, conduct a targeted review of rate positioning, inclusions (e.g., what breakfast includes), and guest expectations. No immediate price changes recommended based solely on current evidence; first confirm trend.",
+        "rationale": "Managerial evidence shows strong positive mentions (7 positive, 1 negative) but an 'emerging_negative_weeks' flag is present and the experience indicators show an increasing expectation–experience gap that could affect perceived value.",
+        "supporting_evidence": [
+          "Managerial evidence — Price–value: 9 mentions (7 positive, 1 negative), is_emerging_negative = true.",
+          "Complaint 2024-10-01: 'Bed. Price.' (negative mention), while multiple other reviews explicitly endorse good price–quality."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Consistently positive evidence: 7 positive mentions, 0 negative; multiple guests explicitly praised room cleanliness and plentiful towels.",
+        "management_implication": "Maintain current housekeeping standards and staffing; highlight cleanliness in guest communications and training to preserve this competitive advantage."
+      },
+      {
+        "area": "Staff and service (24-hour reception, friendliness)",
+        "reason": "Predominantly positive experience evidence: 8 positive mentions, 1 negative; guests repeatedly comment on friendly, helpful staff and 24-hour reception.",
+        "management_implication": "Preserve staffing approach and service training that produce friendly interactions; use front-desk staff to proactively set expectations (see priority 3)."
+      },
+      {
+        "area": "Price–value (current perception)",
+        "reason": "Majority of mentions are positive (7 positive, 1 negative) and several guests explicitly note excellent price–quality.",
+        "management_implication": "Monitor perception but avoid hasty price changes; use pricing as a selling point while ensuring inclusions and descriptions align with guest expectations."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Increasing gap signals growing mismatch between advertised/expected and actual guest experience.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Rising semantic misalignment supports priority to review descriptions and guest communications.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Mentions of 'bed' / 'mattress' 'hard' / 'old' in reviews",
+        "reason": "Directly tracks persistence of mattress/bed comfort complaints to assess impact of any remedial actions.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "Mentions of 'breakfast' negative (quality/variety/temperature)",
+        "reason": "Measures whether operational changes to breakfast reduce negative mentions.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Mentions of mould / smell / clogged drain / smoke ingress",
+        "reason": "Safety/health-related and comfort complaints should be tracked closely after inspections/repairs.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE (share of negative reviews)",
+        "reason": "Business-level indicator to detect wider shifts in sentiment (recently showed mixed movement; monitor for reversal).",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "Complaint sample is diagnostic (selected by recency, rating, and text length) and is not statistically representative of all guest feedback in the full review window.",
+      "Managerial recommendations are bounded to the supplied evidence; the case does not provide technical details (e.g., extent of mould, number of affected rooms, mattress age or specifications) so some recommendations require on-site inspection before specific capital decisions.",
+      "Trends (e.g., increasing expectation gap and semantic misalignment) are based on aggregated indicators; confirm with ongoing monitoring and the full review population before committing to larger investments.",
+      "Where evidence identifies a problem but not an implementation, advice is to assess/inspect rather than to prescribe specific technical solutions or capital spend."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Recent reviews show recurring operational issues (breakfast quality/variety, room comfort, noise, parking access) that reduce guest satisfaction (avg rating ~7.4) even though occupancy rose. These issues are fixable but can harm repeat business and reputation if unchanged.",
+    "executive_summary": "Main guest concerns in the latest reviews are (1) limited/poor breakfast, (2) noise (traffic and neighboring guests), (3) bedding/mattress comfort, (4) parking location/distance from entrance, and (5) small rooms/poor room lighting. Management strengths to preserve include friendly staff, cleanliness, perceived value for money, recent modernization and free parking. Priorities should focus on operational fixes that can be implemented quickly (breakfast improvements, temporary bedding fixes, guest-facing mitigation for noise/parking) while planning medium-term capital/maintenance (soundproofing, mattress replacement, lighting upgrades).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast quality & consistency",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests report breakfast is very poor, basic, or has little variety; inconsistency in breakfast offering.",
+        "recommended_action": "Immediate: standardize a slightly expanded continental offering (add 2–3 fruit varieties, a hot item rotation and clear signage). Train/brief breakfast staff to maintain consistent presentation and replenishment. Short term: review supplier costs and test modest menu upgrades and portion control. Communicate improvements in booking channels.",
+        "rationale": "Breakfast is repeatedly cited across reviews as a negative point and is low-cost to pilot improvements (fruit variety, rotation). Consistency will improve perceived value and guest satisfaction.",
+        "supporting_evidence": [
+          "\"The breakfast was very basic.\"",
+          "\"Little choice for breakfast.\"",
+          "\"The breakfast was very poor!!! Parking was very far from the entrance.\"",
+          "\"Very poor breakfast with no variety.\"",
+          "\"I only suggest 2 or 3 varieties of fruit at breakfast.\"",
+          "\"The breakfast can vary.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Noise and soundproofing (traffic and neighbouring guests)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests report high external noise (described as 'like sleeping on a motorway') and disturbances from neighbours at dawn, reducing sleep quality.",
+        "recommended_action": "Immediate/short-term: offer earplugs at check-in, proactively reassign guests who request quiet rooms away from the road, and add quiet-hours reminders. Medium-term: conduct a noise audit (identify primary noise sources and worst-affected rooms) and cost a program of soundproofing (door/window seals, double glazing, acoustic panels) and updated booking notes to set expectations.",
+        "rationale": "Sleep quality is central to guest satisfaction. Short-term operational mitigations reduce immediate complaints while a targeted capital plan addresses root cause.",
+        "supporting_evidence": [
+          "\"The noise 😱 No soundproofing, we felt like we were sleeping on a motorway!\"",
+          "\"Neighbors next door made noise at dawn.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Bedding and mattress comfort",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests report old bedding and hard mattresses; specific comments include 'bedding from the 80s' and 'bed was too hard'.",
+        "recommended_action": "Short-term: provide mattress toppers and additional pillows as immediate comfort improvements and replace visibly worn bedding/linens. Implement a schedule to assess mattress condition and plan phased mattress replacement (capital assessment) based on room inventory and budget.",
+        "rationale": "Mattress comfort directly influences sleep satisfaction; mattress toppers are low-cost short-term fixes while a phased replacement addresses a structural issue.",
+        "supporting_evidence": [
+          "\"The bedding was from the 80s, no comfort.\"",
+          "\"The bed was too hard. I would recommend a mattress topper.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 4,
+        "area": "Parking access and distance to entrance",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Several guests say parking is far from the entrance; one described 'Parking was very far from the entrance.' This reduces convenience, particularly for short-stay guests or those with luggage/mobility needs.",
+        "recommended_action": "Short-term: improve signage to clearly show the shortest walking route between parking and entrance, offer porter assistance when available, and reserve a few closer spaces for guests with mobility needs. Update booking information to explain parking location and walking distance. Medium-term: evaluate feasibility of reorganizing parking for closer guest access.",
+        "rationale": "Given parking is listed as a key amenity, ensuring the guest experience after parking (visibility, assistance) will reduce dissatisfaction without major capital expenditure.",
+        "supporting_evidence": [
+          "\"Parking was very far from the entrance.\""
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 5,
+        "area": "Room size and lighting",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests note rooms are small and not well lit ('room was small', 'rooms should be better lit').",
+        "recommended_action": "Immediate/short-term: add task/reading lamps and brighter LED bulbs where possible, declutter rooms to increase perceived space, and ensure room descriptions on booking channels set accurate size expectations. Medium-term: review room layout and lighting upgrades as part of regular maintenance.",
+        "rationale": "Improving lighting and presentation can enhance perceived room quality at low cost and reduce complaints about cramped rooms.",
+        "supporting_evidence": [
+          "\"The room was small...\"",
+          "\"The rooms should be better lit.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff service and friendliness",
+        "reason": "Multiple reviews cite welcoming and friendly staff; this is a strong driver of positive guest experiences.",
+        "management_implication": "Keep focusing on front-desk and service training; use staff as ambassadors for immediate mitigations (earplugs, explaining parking, breakfast improvements)."
+      },
+      {
+        "area": "Value for money",
+        "reason": "Guests comment on good value and very good value for money, which supports pricing positioning.",
+        "management_implication": "Preserve value positioning while selectively investing in low-cost improvements (breakfast variety, mattress toppers) that increase perceived value."
+      },
+      {
+        "area": "Cleanliness and recent modernization",
+        "reason": "Reviews mention cleanliness and that the hotel has been modernized; these are important positives.",
+        "management_implication": "Maintain housekeeping standards and continue visible upkeep; highlight modernization in marketing."
+      },
+      {
+        "area": "Free parking and location",
+        "reason": "Free parking and proximity to Porto are listed/outlined as advantages in reviews and hotel amenities.",
+        "management_implication": "Preserve free parking and improve guest awareness of location/parking logistics."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Average review rating (weekly)",
+        "reason": "Tracks overall guest satisfaction and response to implemented changes.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of reviews mentioning 'breakfast' and breakfast sentiment",
+        "reason": "Direct measure of whether breakfast improvements reduce complaints.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of noise/sound complaints (per week) and time-of-day distribution",
+        "reason": "Measures impact of noise mitigation steps and identifies problem times/rooms.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Mentions of bed/mattress comfort in reviews and internal room condition audit results",
+        "reason": "Monitors effectiveness of mattress-topper provision and replacement program.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Complaints about parking distance or number of guests requesting porter assistance",
+        "reason": "Tracks parking-access improvements and guest convenience.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "RevPOR and RevPAR (weekly/monthly)",
+        "reason": "Financial indicators to monitor revenue efficiency per occupied room and per available room while service actions are implemented.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of reviews (volume)",
+        "reason": "Lower review volume was observed; monitoring ensures response rates and a representative feedback stream.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the 20 most recent reviews provided though 54 reviews were available in the window; findings are based on this sampled subset.",
+      "No internal operational, cost, or floorplan data provided (e.g., exact parking layout, mattress age/inventory, noise measurements), so capital feasibility and precise corrective costs cannot be estimated.",
+      "Cannot infer causality between customer reviews and changes in financial metrics (RevPAR, RevPOR, occupancy); recommendations focus on guest experience only.",
+      "No direct information about staff capacity, supplier agreements, or current breakfast menu items/food costs to specify exact menu changes."
+    ]
+  }
+}

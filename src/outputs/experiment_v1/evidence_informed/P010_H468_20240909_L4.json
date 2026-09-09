@@ -1,0 +1,265 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Customer sentiment and expectation–experience gap are worsening (consistent decline in SENTIMENT_SCORE_AVG and moderate increase in EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT). Multiple emerging negative topics (cold shower, pool space, table service) and frequent comments about dated rooms and poor value-for-money create a structurally concerning pattern. RevPAR has declined substantially over the window (recent partial reversal noted) which, together with the experiential signals, justifies a high attention level.",
+  "executive_summary": "Preserve clear strengths (breakfast quality, location, generally friendly staff) while addressing urgent maintenance and value-perception issues. Immediate priority: investigate and remediate hot-water/ bathroom failures (multiple guest reports of cold/low-pressure showers). Short-term: review pricing/value positioning and operational F&B/table clearing processes plus Wi‑Fi coverage. Medium-term: assess scope and cost of broader room and grounds refurbishment (mattresses, dated furniture, garden, sunbeds, pool maintenance). Monitor sentiment, expectation gap, and RevPAR for response.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition / hot water and sanitary maintenance",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple guests report lack of hot water/poor shower pressure and generally dated sanitary fittings; several recent complaints reference 'cold shower' or 'no hot water pressure'.",
+      "recommended_action": "Initiate immediate technical inspection of hot-water supply, pressure and temperature controls for affected blocks/rooms. If faults are found, perform repairs to restore hot-water reliability. Log affected room numbers and offer remediation/compensation per guest-relations policy. If the issue is intermittent or systemic, commission a system assessment to determine scope (boiler, pumps, piping).",
+      "rationale": "Cold or no hot water directly degrades guest experience and has high operational urgency. Issue is mentioned multiple times in the recent window and flagged as an emerging negative topic ('cold shower'). Immediate inspection is needed before prescribing larger capital work.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Bathroom condition' — evidence_pattern: net_negative; matched_topics: 'cold shower'.",
+        "Complaint 2024-09-02: 'NO HOT WATER PRESSURE FOR SHOWERS...we had to use barely a trickle of warm/cold water.'",
+        "Complaint 2024-09-10: 'Both in the evening and in the morning an ice-cold shower.'",
+        "Complaint 2024-09-01: 'sanitary facilities are from another era.'"
+      ],
+      "positive_counterevidence": [
+        "No positive mentions were recorded for bathroom condition in managerial_evidence."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Price–value perception",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Several guests express that price paid does not match perceived condition or inclusions (mentions of poor value-for-money, price too high, missing small inclusions like tea bags). Expectation violations are present.",
+      "recommended_action": "Review current pricing and value positioning relative to the hotel's condition and included amenities. Evaluate whether room rates, published photos/descriptions, and inclusions (e.g., in-room tea/coffee items or communicated services) align with guest expectations. Consider short-term messaging/communication updates to set clearer expectations and a pricing/value review with revenue/marketing teams. If adjustments are considered, perform a value-assessment before changing rates or inclusions.",
+      "rationale": "Price–value is a net-negative area with explicit expectation violations across weeks; perceptions of poor value are repeated and may influence future booking decisions. The issue is primarily about alignment between price, product condition, and guest expectation rather than a single operational failure.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Price–value' — evidence_pattern: net_negative; has_expectation_violation: true.",
+        "Complaint 2024-09-01: 'it is in no way worth the price of 230 euros for one night.'",
+        "Complaint 2024-09-02: 'price per night €161/night... poor value for money, I do not recommend and will not return.'",
+        "Complaint 2024-09-13: 'Poor value for money in my opinion.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests praise breakfast, location and staff which are perceived as strengths (these can be emphasized in communications)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 2,
+        "violated_expectation_weeks": 2,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "declining_sentiment",
+          "declining_revpar"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.72
+    },
+    {
+      "rank": 3,
+      "area": "Room condition and grounds (mattresses, dated furnishings, garden maintenance)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Multiple guests describe dated rooms, worn bedding/mattresses, aging kitchenettes/microwave, and neglected gardens/grounds. These comments point to broader maintenance/refurbishment needs that affect perceived value.",
+      "recommended_action": "Commission a systematic condition assessment of a representative sample of rooms, bedding/mattresses, in‑room equipment and external grounds (garden, sunbeds, parasols). Use the assessment to estimate scope and prioritize targeted refurbishment (phased plan). Until assessment is complete, implement interim fixes where feasible (replace visibly worn mattresses or bedding, repair windows/terraces that don't close).",
+      "rationale": "Evidence is consistent and recurrent across several reviews indicating a structural maintenance/appearance issue that affects perceived value. The appropriate managerial response is an assessment to determine scope/cost rather than immediate capital works without data.",
+      "supporting_evidence": [
+        "Complaint 2024-09-01: 'The hotel needs a major, major refurbishment. The bedding needs to be changed... furniture and the sanitary facilities are from another era.'",
+        "Complaint 2024-08-28: 'completely in need of renovation, very dated decoration. The garden could be magnificent with maintenance.'",
+        "Complaint 2024-09-13: 'The suites are aging, bedding of poor quality (mattress springs). The kitchenette... is outdated, the microwave has seen better days.'",
+        "Complaint 2024-09-08: 'old and neglected appearance. I don't think the published photos correspond to reality.'",
+        "Complaint 2024-09-15: 'The beds, little space by the pool.'"
+      ],
+      "positive_counterevidence": [
+        "Guests still praise location, large/pleasant rooms in some cases, and friendly staff which should be preserved during refurbishment planning."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "declining_sentiment",
+          "declining_revpar"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "Pool operations and sunbed availability / pool maintenance",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Pools are a strength but guests report friction: limited pool space/crowding, worn sunbeds/parasols, and at least one mention of pools not heated/cleaned.",
+      "recommended_action": "Review pool-area operations: observe peak-time lounger demand and allocation, ensure cleaning and maintenance schedules are documented and followed, inspect condition of sunbeds/parasols. If capacity shortfalls are structural, consider operational controls (booking windows, signage, reallocation of loungers) and plan any necessary repairs/replacements following cost assessment.",
+      "rationale": "Spa/pool is generally praised (positive mentions dominate) but emerging negative comments about space and maintenance indicate friction that can reduce satisfaction. Operational and maintenance fixes should be prioritized before capital changes.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Spa and pool' — evidence_pattern: positive_with_friction; matched_topics: 'pool maintenance/heating', 'pool space'.",
+        "Complaint 2024-09-13: 'The pools are not heated and not cleaned. The sunbeds and parasols are worn.'",
+        "Complaint 2024-09-10: 'Maintenance of some parts of the park is somewhat overdue...'",
+        "Complaint 2024-09-15: 'little space by the pool.'"
+      ],
+      "positive_counterevidence": [
+        "Several guests explicitly praised the pools and availability of sunbeds (e.g., 2024-09-02: 'well-maintained pools with availability of sunbeds'; 2024-08-19: 'always managed to get a lounger at the pool')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_emotional_complexity",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.68
+    },
+    {
+      "rank": 5,
+      "area": "Operational service friction: Wi‑Fi coverage & breakfast table service (clearing)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests report poor Wi‑Fi coverage in rooms and isolated issues with table clearing/service speed at breakfast (tables not cleared quickly).",
+      "recommended_action": "For Wi‑Fi: run a technical coverage audit to identify dead zones and instability, log affected rooms and engage IT/ISP for remediation. For table service: review breakfast service workflows and clearing frequency during peak times (staffing patterns, clearing responsibilities). Address with process adjustments and training where appropriate.",
+      "rationale": "Both problems are operational and fixable but can degrade perceived quality. Wi‑Fi complaints are an emerging negative tech topic; table-clearing complaints contradict otherwise strong breakfast product and risk eroding that strength.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Wi‑Fi and technology' — evidence_pattern: net_negative; matched_topics: 'internet connectivity'.",
+        "Complaint 2024-09-02: 'The Wi‑Fi did not reach the room, there was little coverage and I had difficulty connecting to the internet.'",
+        "Complaint 2024-08-19: 'the Wi‑Fi was not available in our room 405!'",
+        "Complaint 2024-09-13: 'The tables are not cleared quickly nor cleaned.'"
+      ],
+      "positive_counterevidence": [
+        "Breakfast product quality remains a clear strength (managerial evidence: 12 positive mentions vs 1 negative). Staff friendliness is consistently praised."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_misalignment",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast",
+      "reason": "Strongly positive evidence: 12 positive mentions vs 1 negative; guests describe breakfast as varied, plentiful and a highlight.",
+      "management_implication": "Maintain breakfast product quality and consider highlighting it in communications while addressing the occasional table-clearing friction."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently positive mentions (11 positive, 1 negative); guests value the location and parking.",
+      "management_implication": "Preserve and promote location advantages in marketing and guest communications."
+    },
+    {
+      "area": "Staff and service (friendliness)",
+      "reason": "All positive mentions for staff (7 positive, 0 negative); staff friendliness is repeatedly cited.",
+      "management_implication": "Preserve service standards and leverage staff in guest recovery when issues (e.g., maintenance or value complaints) arise."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Rising gap indicates worsening alignment between guest expectations and delivery; relevant to price–value and room condition priorities.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Consistent decline in sentiment is an early-warning of broader guest dissatisfaction.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "Substantial decline over the window signals possible commercial impact; recent partial reversal should be tracked separately.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of 'cold shower' / bathroom complaints (lexical count)",
+      "reason": "Directly tied to urgent maintenance priority; track frequency and room distribution.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Mentions of 'value for money' / price complaints (lexical count)",
+      "reason": "Tracks improvement or deterioration in price‑value perception after any interventions or messaging changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic and not statistically representative of all guests (see complaint_sample_metadata). Prevalence should be validated against the full review window.",
+    "Evidence identifies maintenance and perception problems but does not specify technical scope, cost, or exact rooms affected; technical inspections and a condition survey are required before committing to capital expenditure.",
+    "Recommended pricing/value actions require commercial analysis with revenue management and marketing—this assessment does not prescribe specific price changes.",
+    "Wi‑Fi technical remediation may require IT/ISP diagnostics—this report recommends assessment rather than prescriptive technical fixes."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P010",
+    "case_id": "H468_20240909_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:52:43.114190+00:00",
+    "finished_at_utc": "2026-09-08T15:53:26.973548+00:00",
+    "elapsed_seconds": 43.853
+  }
+}

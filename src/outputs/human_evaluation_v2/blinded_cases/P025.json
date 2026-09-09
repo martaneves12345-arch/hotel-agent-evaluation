@@ -1,0 +1,370 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P025",
+  "case_information": {
+    "case_id": "H288_20240311_L4",
+    "decision_week": "2024_W11",
+    "window_start": "2024-02-19",
+    "window_end": "2024-03-17",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W08",
+        "week_date": "2024-02-19",
+        "REVPAR_WEEK": 34.09859260215054,
+        "REVPOR_WEEK": 101.16409978494625,
+        "TREVPAR_WEEK": 38.788847992519926,
+        "TAXA_OCUPACAO": 57.88819875776397,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 34.903175176883614,
+        "REVPOR_WEEK": 113.05945879917188,
+        "TREVPAR_WEEK": 38.53737617427316,
+        "TAXA_OCUPACAO": 60.0,
+        "N_REVIEWS": 21.0,
+        "AVG_RATING": 7.904761904761905
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 37.68309025278059,
+        "REVPOR_WEEK": 99.88846363636368,
+        "TREVPAR_WEEK": 41.74983808622121,
+        "TAXA_OCUPACAO": 59.25465838509317,
+        "N_REVIEWS": 22.0,
+        "AVG_RATING": 8.818181818181818
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 35.71845287182872,
+        "REVPOR_WEEK": 105.84995770065076,
+        "TREVPAR_WEEK": 39.809255305102354,
+        "TAXA_OCUPACAO": 57.267080745341616,
+        "N_REVIEWS": 16.0,
+        "AVG_RATING": 8.375
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-03-17",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 8.0,
+        "liked": "Location too far from the center of Lisbon.",
+        "disliked": "Location. For your information, the hotel's address given on the website is incorrect; the correct one is: Moov Hotel Oeira Avenida Santa Casa da Misericordia 2740-281 Porto Salvo. This caused delays and difficulty reaching the destination.",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-14",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-13",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-11",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-11",
+        "rating": 9.0,
+        "liked": "Everything in general",
+        "disliked": "All good",
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-11",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-11",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-10",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-10",
+        "rating": 9.0,
+        "liked": "About the room in general. Friendliness of the staff",
+        "disliked": "I found the breakfast expensive, so I chose not to have it.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-09",
+        "rating": 8.0,
+        "liked": "Quality of beds bathroom wall panels Staff",
+        "disliked": "windows need noise improvements rooms need textile improvements paint improvements",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-03-09",
+        "rating": 6.0,
+        "liked": "Localização",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest feedback is broadly positive (average rating increased to 8.375) and commercial indicators show modest revenue improvement. However, recurring operational/asset issues (incorrect online address causing arrival problems; noise and fabric/paint condition in rooms) and some negative comments about breakfast value create reputational and guest-experience risks if not addressed.",
+    "executive_summary": "Recent reviews are mostly positive but flag four actionable issues: (1) incorrect/unclear hotel address and guest directions that caused delays; (2) room condition problems (noise through windows and need for textile/paint improvements); (3) perceived high breakfast price/value mismatch for some guests; (4) preserve strengths (friendly staff, good beds/bathrooms) that drive current positive ratings. Addressing the first two should be prioritized (addressing the address immediately; planning maintenance for rooms), while breakfast pricing and preservation of service quality are short-term/ongoing priorities.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Online information & arrivals (address & directions)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported the hotel's website shows an incorrect address which caused arrival delays and difficulty reaching the property; other guests also commented on the location being far from Lisbon.",
+        "recommended_action": "Immediately verify and correct the address on the hotel website and all major booking/distribution channels (OTAs, Google Maps, GDS). Post clear arrival instructions on the website (nearest public transport stops, typical travel times from Lisbon, parking directions) and provide printable directions and local contact numbers in booking confirmations. Train front‑desk staff to proactively send directions to arriving guests on request.",
+        "rationale": "Incorrect address causes guest delays, frustration and poor first impressions; clear directions will reduce arrival problems and support guest satisfaction."
+      },
+      {
+        "rank": 2,
+        "area": "Room condition & soundproofing (windows, textiles, paint)",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests reported noise issues through windows and requested improvements to room textiles and paint, indicating the rooms could be perceived as lower quality or less comfortable.",
+        "recommended_action": "Carry out a targeted room-condition audit (identify worst rooms by floor/exposure). Short-term: add soft furnishings (curtains, rugs) and low-cost fixes (seal/caulk windows, drop-in weatherstrips) where noise is worst. Medium-term: plan capital maintenance (window upgrades, repainting, replacement of worn textiles) prioritized by guest-impact and cost-effectiveness. Communicate progress to guests (e.g., \"ongoing refurbishment\") to set expectations.",
+        "rationale": "Noise and visible wear reduce perceived value and can lower repeat business and ratings; staged maintenance allows prioritization against budget while delivering visible improvements."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast pricing and perceived value",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest found the breakfast too expensive and opted not to take it, suggesting perceived misalignment between price and guest willingness to purchase.",
+        "recommended_action": "Review breakfast price and composition versus local market and guest expectations. Consider offering tiered breakfast options (basic/economy vs full buffet), promotional packages (room+breakfast bundled), or clear communication of menu and price at booking so guests can decide in advance. Evaluate breakfast uptake and guest feedback for a 4–8 week period after changes.",
+        "rationale": "Adjusting price/packaging or clarifying value can increase uptake and guest satisfaction without large capital cost."
+      },
+      {
+        "rank": 4,
+        "area": "Service standards & strengths preservation (staff friendliness, beds/bathrooms)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "operational",
+        "problem": "While reviews show several strengths (friendly staff, good beds and bathrooms) these positive drivers should be preserved so improvements in other areas do not erode the current advantage.",
+        "recommended_action": "Reinforce training and recognition programs for front-line staff to sustain friendliness and service. Maintain housekeeping standards focused on bed quality and bathroom condition; ensure ongoing checks during room audits. Capture and share positive guest comments internally as examples of desirable behaviour.",
+        "rationale": "Staff friendliness and core room quality are cited as reasons for high ratings; preserving these will help maintain the upward trend in average ratings and guest satisfaction while other fixes are implemented."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff friendliness and service",
+        "reason": "Several recent reviews explicitly praise staff friendliness and general service; these contribute to high individual ratings (8–10).",
+        "management_implication": "Prioritize staff training, recognition and scheduling to maintain service levels, especially while other initiatives (maintenance/refurbishment) are underway."
+      },
+      {
+        "area": "Bed and bathroom quality",
+        "reason": "Guests specifically noted quality of beds and bathroom wall panels as positive aspects.",
+        "management_implication": "Keep housekeeping and maintenance standards for beds/bathrooms high; include these items in room audits and quality checklists."
+      },
+      {
+        "area": "Overall guest satisfaction trend",
+        "reason": "Average rating increased (8.0 to 8.375) and RevPAR/RevPOR show modest positive movement.",
+        "management_implication": "Build on current positioning by addressing identified operational issues without undermining strengths."
+      }
+    ],
+    "limitations": [
+      "Recommendations are based only on the 20 most recent reviews provided (out of 68 available in the decision window); broader review content may provide additional context or issues.",
+      "Review comments are qualitative and selective; frequency counts from the full review set should be used to validate prevalence of flagged problems before large capital expenditure.",
+      "Commercial indicators (REVPAR, occupancy) improved modestly over the window but no causal link between specific reviews and financial performance can be inferred from the supplied data."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Evidence shows multiple, traceable guest frictions (parking costs/space, breakfast value, amenity disclosure, occasional room maintenance) but several areas remain positive (staff friendliness, bathroom condition, overall value). Some issues are emerging (parking, AC/amenity disclosure) and include expectation violations; business metrics show modest positive trends with recent short-term reversals. Taken together this indicates manageable but material customer-experience risk requiring targeted action rather than major capital investment.",
+    "executive_summary": "Priorities: (1) Address parking policy, pricing transparency and garage constraints (net-negative, emerging); (2) Correct guest-facing information and improve front-desk communication (address, late check-out, amenity disclosure) — immediate fixes available; (3) Investigate and remediate room comfort issues (air conditioning, noise, textiles/paint) while ensuring accurate amenity descriptions; (4) Review price–value alignment for breakfast and in-room amenity expectations (minibar, gym/pool) and ensure transparent messaging; (5) Monitor guest expectations regarding leisure amenities (pool/gym) and align marketing/disclosures. Preserve strengths in staff friendliness, bathroom condition, and generally good location/value perception. Recommend assessments and targeted operational/policy changes; require further technical/financial assessment where scope is uncertain.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Parking",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests report paid parking, high perceived parking cost, tight garage for large cars, and expectation that parking should be included or clearer; issue is emerging and has caused repeated negative mentions.",
+        "recommended_action": "Review and clarify parking policy and pricing in all guest-facing channels (website, booking platforms, confirmation emails). Audit garage capacity/clearance and guest suitability (large cars). Provide clear pre-arrival information about parking options (cost, size constraints, alternative nearby parking). Evaluate whether operational changes (e.g., allocation process, validated rates, negotiated external parking) are appropriate; if structural constraints are suspected, commission a capacity/space assessment before proposing capital solutions.",
+        "rationale": "Parking has the largest negative mention count (6 negative, 0 positive), includes violated expectations and an emerging negative signal. Several complaints reference both price and tight garage space, indicating both value and operational/access friction that affects guest satisfaction and is likely resolvable through communication, operational changes, or a targeted assessment."
+      },
+      {
+        "rank": 2,
+        "area": "Guest-facing information & front-desk communication",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Inaccurate or unclear guest-facing information (incorrect hotel address on website) and front-desk communication lapses (late check-out not communicated to guests; misleading amenity descriptions such as 'air vent' vs 'air conditioning'). These caused travel delays, expectation violations and guest frustration.",
+        "recommended_action": "Immediately correct factual errors in public information (e.g., website address and any booking-channel data). Review and tighten front-desk communication processes for check-out/check-in changes (late check-out notifications) and standardize how room amenities (AC, vents, minibar) are described across channels. Implement a short checklist or script for front-desk staff to confirm and communicate key guest-arrival and service changes. Monitor compliance for a defined period.",
+        "rationale": "Errors in location/address and failures to communicate operational changes are concrete, low-cost fixes with high impact on guest frustration. Evidence includes explicit guest reports of incorrect address causing delays and cases of missed communication of late check-out; inaccurate amenity descriptions have also been reported."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort & maintenance (AC, noise, textiles/paint)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guest reports of non-functioning or misleadingly-described air conditioning, noise issues at windows, and textile/paint wear indicate maintenance and/or disclosure gaps that reduce perceived room comfort despite several positive room comments.",
+        "recommended_action": "Initiate an operational maintenance sweep focused on room climate control (inspect AC capability in representative rooms) and room fabric/finish issues (windows/noise sealing, textiles, paint). Ensure booking and in-room information accurately describe how climate control functions (e.g., if ventilation is not AC). If inspections identify recurring or systemic faults, commission a technical assessment to determine scope and required investment.",
+        "rationale": "Room comfort is overall positive but shows repeated, concrete expectation violations (AC not working / misleading disclosure) and other maintenance suggestions (noise, textiles, paint). Operational inspection and targeted remediation are appropriate before considering larger capital interventions."
+      },
+      {
+        "rank": 4,
+        "area": "Price–value for breakfast and in-room amenities (minibar, gym/pool expectations)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests perceive breakfast as overpriced (mentions of 12.50€ and low inclusions such as no eggs) and expect additional in-room or leisure amenities (minibar, gym/pool) or clearer value communication. Price–value concerns are linked to both breakfast pricing and perceived amenity shortfalls.",
+        "recommended_action": "Review breakfast offering and pricing relative to local competitor expectations and ensure clear communication about what is included in the breakfast buffet. Review online descriptions for in-room amenities (presence/absence of minibar) and leisure facilities; where amenities are not present, ensure this is explicit in marketing and booking channels. Consider a managerial evaluation of whether the current breakfast price and content are aligned with the hotel's positioning; if not enough evidence to change pricing/program, consider non-capital mitigations (clear messaging, optional add-ons).",
+        "rationale": "Price–value is broadly positive but contains reproducible expectation violations (breakfast price/contents) and negative mentions about missing amenities; these impact perceived value and are addressable via communication, offering review, and managerial evaluation."
+      },
+      {
+        "rank": 5,
+        "area": "Leisure amenities expectation (pool/gym)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "A small number of guests expected leisure facilities (pool/gym) that are not available, producing disappointment; evidence is limited but flagged as an emerging negative topic.",
+        "recommended_action": "Monitor mentions of leisure-amenity expectations in ongoing reviews and audit marketing/booking descriptions for any implication that such facilities exist. If mention frequency increases, conduct a review of whether messaging or offering should be adjusted or whether feasibility assessment of adding amenities is warranted.",
+        "rationale": "Currently low-frequency but emerging negative mention; best managed by monitoring and ensuring messaging is not inadvertently suggesting unavailable amenities."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Managerial evidence shows predominantly positive mentions (5 positive, 3 negative) and many complaint texts praise staff friendliness and courtesy.",
+        "management_implication": "Preserve through staff recognition, maintain training that supports current strengths, and leverage staff goodwill when implementing process changes (e.g., communication checklists)."
+      },
+      {
+        "area": "Bathroom condition",
+        "reason": "Managerial evidence reports 2 positive mentions and complaint excerpts praise bathroom decoration and condition.",
+        "management_implication": "Maintain current cleaning and maintenance standards for bathrooms; prioritize any maintenance resources toward other room-finish issues first (e.g., paint/textiles) since bathrooms are viewed positively."
+      },
+      {
+        "area": "Location / value for money given location",
+        "reason": "Multiple guests cited location positively and value for money relative to location/price in managerial evidence.",
+        "management_implication": "Preserve location messaging in marketing and ensure any changes to pricing or inclusions retain the perceived location-value proposition."
+      }
+    ],
+    "limitations": [
+      "Complaint sample is diagnostic (14 substantive complaints / 68 total reviews in window) and not statistically representative of all guests; prevalence should be validated against full-review metrics before large investments.",
+      "Evidence identifies expectation violations and operational frictions but does not quantify parking infrastructure constraints or the capital cost of garage modification; recommend assessment before proposing capital solutions.",
+      "Breakfast pricing and amenity decisions require commercial analysis (competitor benchmarking, margin analysis) which is outside the supplied evidence; recommendations here are to review and evaluate rather than to change price or offerings immediately.",
+      "Reported AC issues indicate potential technical faults but the dataset does not specify scope (single rooms vs building-wide); a physical inspection is required before recommending capital works.",
+      "No evidence in the supplied data supports causal claims linking review themes to RevPAR or other financial metrics; business-trend observations are contextual only."
+    ]
+  }
+}

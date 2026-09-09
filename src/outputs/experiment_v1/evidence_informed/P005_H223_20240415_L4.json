@@ -1,0 +1,266 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business metrics show a moderate but consistent decline in RevPAR, TREVPAR and occupancy while average rating and sentiment remain strong. Review evidence shows several positive strengths (location, cleanliness, friendly staff) but multiple targeted expectation violations and an emerging parking topic. The combination of declining revenue metrics and emerging expectation gaps justifies a moderate overall risk classification.",
+  "executive_summary": "Thomar Boutique Hotel has clear strengths (location, cleanliness, friendly staff, generally positive breakfast) but current evidence points to a small set of targeted frictions that are actionable: (1) an emerging parking/access friction with expectation violations; (2) operational friction at check-in / limited daytime staffing causing slow check-in; (3) repeated guest comments that breakfast is limited relative to expectations; (4) room-level maintenance/housekeeping items (showers, odors, stained carpet, curtains) that warrant inspection; and (5) a business-monitor signal: declining RevPAR and rising expectation–experience gap that should be monitored and diagnostically investigated. Priorities emphasize short-term operational/process fixes and inspections before any capital decisions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Parking",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests report inconsistent/limited parking availability and unclear parking access; topic is emerging as a negative and has produced expectation violations.",
+      "recommended_action": "Review and clarify parking access policy and guest communication; map actual parking capacity (on‑site and preferred nearby options), confirm whether spaces can be pre-allocated or reserved for arriving guests, and update booking/arrival instructions. If capacity appears insufficient, assess options (partner agreements, signage, clear pre-arrival instructions) before proposing capital changes.",
+      "rationale": "Managerial evidence shows parking is an emerging negative topic with expectation violations (managerial_evidence: positive_with_friction; emerging_negative_weeks=1). Multiple reviews explicitly mention 'no parking' or difficulty finding parking, while others note staff offering an indoor space—indicating inconsistent handling and unmet expectations that affect guest arrival experience.",
+      "supporting_evidence": [
+        "Complaint 2024-04-02: 'It was a pity that there was no parking.'",
+        "Complaint 2024-03-27: 'We had to look for parking on arrival, but the lady at reception offered us one of the indoor parking spaces available for hotel guests...' (shows ad-hoc solution)",
+        "Managerial evidence: Parking — review_mentions_total 9; positive_mentions 6, negative_mentions 3; is_emerging_negative = true; has_expectation_violation = true"
+      ],
+      "positive_counterevidence": [
+        "Several reviews note 'parking nearby' or receptionist offering parking (e.g., 2024-03-29 and 2024-03-27), indicating parking exists though access may be inconsistent.",
+        "Location and accessibility are otherwise highly praised (managerial_evidence: Location and accessibility positive_mentions 28)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: parking",
+          "EXPECTATION_EXPERIENCE_GAP_AVG (increasing trend)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 2,
+      "area": "Staff & check-in process",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Reports of slow check-in and periods with too few staff on duty that increase guest friction despite generally very positive staff feedback.",
+      "recommended_action": "Review front‑desk staffing patterns and check‑in process (peak arrival times, handoffs, documentation) to identify operational fixes (process simplification, cross‑coverage, check‑in communication). Capture check‑in wait instances in a short audit to decide if changes are needed.",
+      "rationale": "Multiple complaints reference 'slow check-in' and 'small number of staff during part of the day' while many reviews praise staff helpfulness—indicating a strong service culture with specific operational friction (expectation violation) rather than a general service weakness.",
+      "supporting_evidence": [
+        "Complaint 2024-03-29 (en): 'Slow check-in.'",
+        "Complaint 2024-04-18 (pt-br): 'Slow check-in.'",
+        "Complaint 2024-03-29 (pt): 'small number of staff during part of the day, which required an enormous effort from those on duty...'; positive context praises staff helpfulness (Sara).",
+        "Managerial evidence: Staff and service — review_mentions_total 24; positive_mentions 18, negative_mentions 3; has_expectation_violation = true"
+      ],
+      "positive_counterevidence": [
+        "High positive mentions for staff (18 positive mentions); many reviews praise 'helpful and friendly' staff and specific staff (e.g., Sara)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 18,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS (recently higher)",
+          "EXPECTATION_EXPERIENCE_GAP_AVG (increasing trend)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast / F&B expectation (quality & variety)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Several guests describe the breakfast as 'limited' or 'nothing special' despite many positive comments; this indicates an expectation gap on variety/distinctiveness.",
+      "recommended_action": "Review breakfast offering relative to guest expectations: inventory what is currently provided, collect quick guest feedback on desired variety, and evaluate if small operational changes (timing, signage, minor additions) or repositioning communications could close the perceived gap. If changes require investment, assess cost/benefit before committing.",
+      "rationale": "Breakfast is frequently mentioned positively (18 positive, 2 negative) but there are repeated expectation‑violation comments that breakfast is somewhat limited or could be improved—suggesting targeted enhancements or communication rather than wholesale replacement.",
+      "supporting_evidence": [
+        "Complaint 2024-04-19: 'Breakfast was similar to many in Portugal, but nothing special.'",
+        "Complaint 2024-04-08: 'Breakfast could be improved upon Somewhat limited.'",
+        "Managerial evidence: Breakfast — review_mentions_total 20; positive_mentions 18, negative_mentions 2; evidence_pattern = positive_with_friction"
+      ],
+      "positive_counterevidence": [
+        "Large number of positive breakfast mentions (18) and multiple reviews explicitly praise breakfast quality."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 18,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG (increasing trend)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Room maintenance & housekeeping details (showers, odors, carpet, curtains)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Isolated but concrete room-level issues: shower cleaning/protection, a stained carpet, curtain/blackout letting light in, and occasional room odors—these create expectation violations in otherwise clean rooms.",
+      "recommended_action": "Conduct a room inspection sweep and housekeeping process review: verify shower door/protection condition, address carpet staining (assess cleaning vs replacement), check curtain/blackout effectiveness and eliminate odors with deep‑clean where needed. If scope or replacement is required, commission a maintenance assessment before capital decisions.",
+      "rationale": "Managerial evidence lists bathroom condition with an expectation violation (shower side protection). Complaints include 'don’t spend too much time in cleaning the showers', 'carpet stained', 'curtains/blackout let in a lot of light', and 'room smelled a bit'—showing multiple discrete maintenance/housekeeping frictions that reduce expected room quality.",
+      "supporting_evidence": [
+        "Complaint 2024-04-13: 'It seems most places we have stayed in don’t spend to much time in cleaning the showers.'",
+        "Complaint 2024-04-09: 'Everything was perfect except the carpet, which was stained and not appealing.'",
+        "Complaint 2024-03-25: 'the curtains/blackout let in a lot of light.'",
+        "Managerial evidence: Bathroom condition — review_mentions_total 4; positive_mentions 3, negative_mentions 1; has_expectation_violation = true"
+      ],
+      "positive_counterevidence": [
+        "Overall cleanliness and housekeeping are strong (managerial_evidence: Cleanliness and housekeeping positive_mentions 9, negative_mentions 0)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS (recent increase)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Monitor: Declining RevPAR and rising expectation–experience gap",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "RevPAR, TREVPAR and occupancy show moderate decreasing trends while expectation–experience gap and semantic misalignment have increased overall (though recent single-week reversals exist). This combination suggests monitoring and diagnostic investigation is warranted.",
+      "recommended_action": "Initiate a diagnostic review to understand contributors to revenue decline and rising expectation gap: analyze channel mix, length of stay patterns (emerging topic), guest segmentation, recent booking windows, and align marketing/room descriptions with actual guest experience. Continue tracking RevPAR, occupancy, EXPECTATION_EXPERIENCE_GAP and percentage of operational complaints weekly. Do not assume causality from reviews; use analytics plus qualitative review follow-up.",
+      "rationale": "Business performance: REVPAR_WEEK decreasing (-8.7% over window) and TREVPAR decreasing; experience indicators show EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG increasing (both marked as recent_reversal = true). A priority alert flag is present. These signals justify a monitored diagnostic effort rather than immediate capital or pricing actions.",
+      "supporting_evidence": [
+        "Business metrics: REVPAR_WEEK decreased from 91.25 to 83.34 (-8.67%).",
+        "Business metrics: TREVPAR_WEEK decreased (-9.1%).",
+        "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG increased (26% change across window) and SEMANTIC_MISALIGNMENT_SCORE_AVG increased.",
+        "Latest_context contains priority_alert_flag = 1.0 and emerging_negative_topic includes 'length of stay' and 'elevator' (monitor these emerging topics)."
+      ],
+      "positive_counterevidence": [
+        "Average rating (AVG_RATING) is increasing (9.04 to 9.48) and SENTIMENT_SCORE_AVG is slightly up, indicating core guest satisfaction remains solid despite revenue trends."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 4,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 2,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "declining_revpar",
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "priority_alert_flag"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Very high positive mentions (28 positive, 0 negative); guests repeatedly praise the central location and ease of walking to historic sites.",
+      "management_implication": "Continue to communicate the hotel's central location in marketing and ensure arrival/parking guidance is clear so location remains a differentiator."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "High positive mentions (9 positive, 0 negative); general cleanliness is a clear strength.",
+      "management_implication": "Preserve current housekeeping standards; targeted inspections should resolve isolated issues without changing overall procedures."
+    },
+    {
+      "area": "Staff friendliness/helpfulness",
+      "reason": "Many reviews praise staff (positive_mentions 18) and name specific helpful staff.",
+      "management_implication": "Maintain staff training and recognition; when addressing check‑in friction, preserve the service culture that guests praise."
+    },
+    {
+      "area": "Breakfast (overall positive)",
+      "reason": "High positive mentions (18) though with some expectation friction on variety.",
+      "management_implication": "Retain core breakfast offering while evaluating modest changes to address perceived limited variety."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Weekly REVPAR",
+      "reason": "Primary revenue trend is decreasing; track for further declines or reversals.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Rising expectation gap signals misalignment between communications/positioning and guest experience.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Share of reviews mentioning parking / parking complaints",
+      "reason": "Parking is an emerging negative topic; measure frequency to evaluate trend and impact of any policy changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of 'slow check-in' or front-desk wait",
+      "reason": "Operational friction that is actionable and currently recurring in complaints.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Percentage of operational complaints (PERC_OPERATIONAL_COMPLAINTS)",
+      "reason": "Operational complaints have increased in parts of the window and inform staffing/process priorities.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of all reviews; prevalence should be validated against full review-window metadata.",
+    "Some trends show recent single-week reversals (expectation gap and emotion entropy); interpret global trends separately from recent movement.",
+    "Evidence identifies the existence of parking friction but does not determine physical capacity, required capital, or precise costs—assessment is needed before capital decisions.",
+    "Business metric declines (RevPAR, TREVPAR) are descriptive signals; the evidence does not establish causal links between specific review topics and revenue changes.",
+    "Staffing/process recommendations are based on review mentions of slow check-in and small staff periods; operational audits are required to confirm scheduling-level solutions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P005",
+    "case_id": "H223_20240415_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:45:28.893675+00:00",
+    "finished_at_utc": "2026-09-08T15:46:24.547425+00:00",
+    "elapsed_seconds": 55.657
+  }
+}

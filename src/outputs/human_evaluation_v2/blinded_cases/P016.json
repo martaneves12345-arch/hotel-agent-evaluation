@@ -1,0 +1,380 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P016",
+  "case_information": {
+    "case_id": "H149_20240729_L4",
+    "decision_week": "2024_W31",
+    "window_start": "2024-07-08",
+    "window_end": "2024-08-04",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 134.57839641038177,
+        "REVPOR_WEEK": 230.87512389824445,
+        "TREVPAR_WEEK": 177.4568243924636,
+        "TAXA_OCUPACAO": 80.55669259107655,
+        "N_REVIEWS": 43.0,
+        "AVG_RATING": 8.046511627906977
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 109.31831768363412,
+        "REVPOR_WEEK": 175.6908739230517,
+        "TREVPAR_WEEK": 157.34075017049548,
+        "TAXA_OCUPACAO": 69.91404011461319,
+        "N_REVIEWS": 51.0,
+        "AVG_RATING": 8.705882352941176
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 111.51476056486592,
+        "REVPOR_WEEK": 221.00723130860175,
+        "TREVPAR_WEEK": 146.35130413971626,
+        "TAXA_OCUPACAO": 71.22390503479329,
+        "N_REVIEWS": 42.0,
+        "AVG_RATING": 8.69047619047619
+      },
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 87.16439258911635,
+        "REVPOR_WEEK": 216.99708008150773,
+        "TREVPAR_WEEK": 116.44191931696132,
+        "TAXA_OCUPACAO": 58.6573884568154,
+        "N_REVIEWS": 45.0,
+        "AVG_RATING": 8.688888888888888
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-08-04",
+        "rating": 10.0,
+        "liked": "Hospitality of this place was amazing. You can hardly find so high quality of stuff and welcoming. This is an amazing experience in common. Room was better than we expected, view just unbelievable. You can see city from the top and everything around. Breakfast very tasty and always fresh. Restaurant view also unbelievable. When i come to Lisbon again - definitely only Mundial.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-04",
+        "rating": 9.0,
+        "liked": "Fantastic location,.incredible views from the rooftop bar and city view rooms. Great choice available for breakfast. Staff extremely helpful and friendly. Would stay again.",
+        "disliked": "Nothing!",
+        "country": "United Kingdom",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-08-04",
+        "rating": 10.0,
+        "liked": "The kindness of the staff, the welcome drink, the central location. Spectacular view of the city. Excellent and very varied breakfast. Highly recommended!",
+        "disliked": "Nulla",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-04",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 10.0,
+        "liked": "Roof top deck",
+        "disliked": "Bathrooms could use updating",
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 9.0,
+        "liked": "Central location, good breakfast, parking",
+        "disliked": "Few TV channels: no Spanish, no international, no entertainment channels.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 8.0,
+        "liked": "Location",
+        "disliked": "Insufficient power in the room.",
+        "country": "Netherlands",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 7.0,
+        "liked": "A fairly big room, was quite in a fairly easy location to get get around Lisbon.",
+        "disliked": "Our room overlooked the tram stop and Praça Martim Moniz which meant most nights it was quite noisy with people outside and sirens.",
+        "country": "Hong Kong",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 8.0,
+        "liked": "Excellent location, very helpful staff, comfortable bed, very clean.",
+        "disliked": "First day the air conditioning was not working, staff helped us. Breakfast repetitive, no changes at all. Bit too expensive.",
+        "country": "Hungary",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 9.0,
+        "liked": "The perfect location since it's central; they gave us some treats on arrival, the staff were very kind and attentive, the rooms were spacious, the bed very comfortable, upstairs there was a bar where you could have a drink quietly with great views of Lisbon, the hotel has its own parking, breakfast was varied and delicious",
+        "disliked": "Nada",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 9.0,
+        "liked": "Attentive service, very clean room and strategic location. Everything about this hotel makes it worth staying at. I recommend having breakfast (an extraordinary view and abundance with options for every need). Also enjoy the rooftop for an aperitif, one of the best views of the city!",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 10.0,
+        "liked": "Very spacious, excellent view",
+        "disliked": "Beds, baths, bed linen and towels are unthinkable.",
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 9.0,
+        "liked": "The breakfast and the view are exceptional. The room is very good and comfortable.",
+        "disliked": "Insufficient signage in the corridors inside the hotel. Too many ads when you turn on the television and the remote control had problems (later resolved).",
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 10.0,
+        "liked": "Excellent location, everything nearby, excellent breakfast, clean rooms, helpful staff",
+        "disliked": "Entrance to the hotel,",
+        "country": "Czech Republic",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 10.0,
+        "liked": "We've stayed at Hotel Mundiale several times and love the location and great staff. We love the biscuits/cheeses and port on arrival and before we leave. The breakfasts are amazing.",
+        "disliked": "Having to book in for breakfast although we realise that this has to be done with the renovations in progress.",
+        "country": "New Zealand",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 9.0,
+        "liked": "Very good breakfast, excellent courtesy of the staff, very good location, great cleanliness, good value for money.",
+        "disliked": "Since the hotel is very large with many corridors, the signage could be better on the floors, indicating exits, reception, and restaurant.",
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 8.0,
+        "liked": "I especially liked the bed linens and mattress. The bed linens were beautiful, soft cotton, something rare and hotels today. Also my room had a magnificent view of the hillside with the castle on top.",
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 6.0,
+        "liked": "Good location in the middle of the city, although it felt like a troubled neighborhood where we didn't really feel comfortable. Breakfast in the room with a view was wonderful and sufficient; the rooftop terrace bar is highly recommended — great location for it!",
+        "disliked": "The bathroom/shower had a completely clogged drain. The room was merely standard and, unfortunately, no more, which does not seem justified given the overnight prices.",
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-31",
+        "rating": 8.0,
+        "liked": "Excellent location for exploring the city on foot. Delicious breakfast with a wonderful view. Highlight: the rooftop bar! We were a bit unlucky because the hotel was being renovated and we were apparently served at a temporary reception. Everything worked perfectly, but everything looked a bit makeshift (which is understandable and not particularly disturbing). The construction work hardly affected us since we were out during the day anyway. Very nice and attentive staff!",
+        "disliked": "The window was open a crack and there was no way to close it completely, so the street noise was very audible. Poorly resolved: there are no sockets for a phone charger at the bed. Not so favorable: behind the curtain above the windows — mold!",
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "overall_risk_rationale": "Revenue-related metrics (REVPAR, TREVPAR, occupancy) show consistent and sizable declines over the 4-week window while experience signals show an increasing share of negative reviews and operational complaints. Together these indicate elevated business and experience risk that warrants prioritized operational and maintenance actions.",
+    "executive_summary": "Hotel Mundial has clear customer-facing strengths (notably staff/service and generally positive cleanliness, rooftop and breakfast experiences) but several concentrated frictions are eroding guest experience during an on-site renovation period. The highest-evidence, highest-severity issues are bathroom condition (repeated reports of clogged drains, leaking tubs and musty/old bathrooms) and room comfort (noise/soundproofing, insufficient/outlet placement, tired rooms). Emerging operational friction surrounds rooftop/restaurant access and noise management (locked access, wayfinding confusion, loud rooftop music affecting sleep). Breakfast remains a strength overall but shows expectation friction related to reduced capacity/seat scheduling and dietary accommodation. Technology (Wi‑Fi/TV/remote/outlets) shows net-negative mentions and should be assessed. Recommended next steps emphasize immediate safety/maintenance inspection for bathrooms, short-term operational fixes and policy reviews (guest communications about renovation, rooftop access, breakfast scheduling), and technical assessment for technology issues. Preserve and communicate the strong staff performance while tracking operational complaint share and RevPAR closely.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reports of poor bathroom condition (clogged shower drains, leaking bathtub that floods floor, musty smell, stained towels) that create guest dissatisfaction and potential safety/hygiene problems.",
+        "recommended_action": "Initiate immediate maintenance and safety inspection of bathroom plumbing and ventilation on a sample of rooms and prioritize repairs where drains/clogs, leaking tubs, extractor absence, or hygiene issues are found. If inspections indicate a wider structural or renovation need, commission a scoped assessment before capital decisions. Meanwhile implement an operational protocol to respond rapidly to guest reports (e.g., immediate room move or prioritized repair) and communicate transparently with arriving guests about ongoing renovation impacts.",
+        "rationale": "High frequency and severity of negative mentions for bathrooms (managerial evidence: 10 negative vs 2 positive; diagnostic vulnerability top-ranked). Complaint examples describe clogged drains and flooding after showers and musty/old bathrooms, indicating both guest discomfort and potential hygiene/safety concerns. Immediate inspection is warranted prior to committing to capital works."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (noise, bed/outlets, tired rooms)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guest complaints about insufficient soundproofing (internal and rooftop noise), inconvenient or insufficient power outlets, and generally tired room condition are recurring and affect sleep and perceived value.",
+        "recommended_action": "Conduct a focused operational review combining: a) noise-management practices (evaluate rooftop event/music scheduling, sound-limits, and guest-room placement policies), b) a facilities checklist for rooms to identify common quick fixes (power outlet placement solutions, kettle/tea provisioning gaps, linen/towel replacement where stained), and c) a prioritized maintenance plan for room refurbishment where repeated issues emerge. Communicate remedial steps to guests, especially during renovation periods.",
+        "rationale": "Room comfort shows net-negative pattern with 11 negative vs 8 positive mentions and multiple complaint examples citing thin walls, machine noise, noisy rooftop music preventing sleep, and lack or poor placement of electrical outlets. These issues appear across weeks and include concrete operational frictions that can be mitigated by targeted maintenance and process changes."
+      },
+      {
+        "rank": 3,
+        "area": "Restaurant & rooftop access and noise management",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "While rooftop and bar are valued assets, there are emerging access/wayfinding issues for guests (locked access requiring phone, unclear elevator directions), accessibility concerns for guests with reduced mobility, and noise from rooftop music that has disrupted sleep for some guests.",
+        "recommended_action": "Review rooftop access policy and wayfinding (signage, elevator guidance, clear instructions for guests) and implement an operational protocol to ensure step-free access or clear alternatives for guests with mobility needs. Assess rooftop opening/service procedures and event/noise controls (schedules, staff coverage, amplifier levels) to reduce sleep disturbance. Communicate any temporary access restrictions or renovation impacts to guests at booking and check-in.",
+        "rationale": "Managerial evidence flags Restaurant and bar as an emerging negative topic despite predominantly positive mentions. Complaints describe locked access to rooftop (phone-ahead required), wayfinding confusion, and loud rooftop music causing sleep loss. Because the rooftop/bar is a notable strength for the property, preserving its value while removing access/noise friction is high priority."
+      },
+      {
+        "rank": 4,
+        "area": "Breakfast (capacity, scheduling, dietary accommodation)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although breakfast is generally praised, guests report friction from reduced breakfast capacity/seat allocation during renovations, required time-slot reservations for breakfast, occasional waits, and limited options for those with food intolerances.",
+        "recommended_action": "Review breakfast service flow and capacity during renovation (assess seating allocation across service areas, reservation/time-slot policy, and overflow handling). Evaluate whether additional dietary options or clearer communication about available alternatives can be provided. Update pre-arrival and check-in communication to set clear expectations about breakfast arrangements while renovation is ongoing.",
+        "rationale": "Breakfast has a high positive share (49 positive vs 12 negative), but there are repeated mentions of enforced reservation times, smaller breakfast area leading to waits, and limited dietary alternatives — all expectation-friction points during renovation that can negatively affect perception if not managed."
+      },
+      {
+        "rank": 5,
+        "area": "Wi‑Fi and technology (connectivity/TV/remote/outlets)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests report problems with in-room technology (Wi‑Fi/television/remote control) and inconvenient or insufficient electrical outlets; technology mentions are net-negative in the sample.",
+        "recommended_action": "Commission a technical check of guest-area Wi‑Fi performance and in-room AV/remote-control systems and a rooms checklist to identify and remediate obvious faults (replace malfunctioning remotes, ensure TV functionality). For outlets, evaluate low-cost operational fixes (power-strip options or accessible outlet solutions) and document findings for potential broader refurbishment if systemic deficits are found.",
+        "rationale": "Managerial evidence shows Wi‑Fi & technology as net_negative (review_mentions_total 10; positive 3; negative 7). Complaint examples reference inconvenient or insufficient outlets and missing expected in-room items (kettle/no tea bags), and the emerging negative topic list includes 'remote control problems' and 'television issues'. The evidence supports a technical assessment before committing to larger investments."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "High positive share (positive_mentions 54 vs negative 8) and frequent praise for staff friendliness and assistance.",
+        "management_implication": "Preserve and highlight staff performance in guest communications; ensure staff are supported to handle increased operational friction during renovation periods."
+      },
+      {
+        "area": "Rooftop and breakfast experiences",
+        "reason": "Both rooftop access and breakfast receive many positive mentions (Rooftop positive_mentions 21; Breakfast positive_mentions 49) and are cited as important guest highlights (views, terrace bar).",
+        "management_implication": "Protect the guest experience in these areas while addressing access, noise and capacity frictions; use positive rooftop/breakfast experience in guest communications about temporary changes."
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of all reviews; prevalence should be assessed using the full review window.",
+      "The evidence identifies the presence of problems (e.g., clogged drains, noise, access friction) but does not determine the technical scope, cost, or exact remediation required; inspections and scoped assessments are recommended where indicated.",
+      "Some priorities (Wi‑Fi/technology, room refurbishment needs) require technical checks before capital decisions can be recommended.",
+      "Business-performance declines are concurrent with renovation activity in complaints; the evidence does not establish causality between customer complaints and RevPAR/occupancy changes."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest ratings remain strong (avg rating up to 8.69) and many reviews praise location, rooftop and staff, but recurring operational/maintenance issues (mold, clogged drains, AC problems, insufficient sockets, noisy windows, signage, temporary reception/renovation impacts) combined with large recent drops in occupancy and revenue metrics indicate a material risk to guest satisfaction and future demand if not addressed promptly.",
+    "executive_summary": "Recent reviews highlight strong strengths (central location, rooftop views, generous breakfast, helpful staff) but also recurring maintenance and guest-experience problems: room hygiene/repairs (mold, clogged drains, bathrooms needing updating, AC), in-room facilities (insufficient bedside power, limited TV channels/remote failures), noise/security (windows not closing, street/tram noise), and wayfinding/communication challenges linked to ongoing renovations (temporary reception, breakfast booking, signage, entrance). Priorities are: 1) immediate remediation of health/safety-related maintenance items; 2) fix in-room power and entertainment; 3) mitigate noise and ensure windows/security; 4) improve signage and guest communications around renovations and breakfast booking; 5) formal capital plan to refurbish bathrooms. Actions combine urgent maintenance work-orders, operational changes, and a capital assessment. Monitoring should focus on maintenance complaint volume and resolution times, cleanliness and room-condition sub-scores, and continued monitoring of guest mentions of rooftop/breakfast/staff to preserve strengths.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room maintenance & hygiene",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple recent reviews report mold behind curtains, clogged drains, non-working air conditioning on arrival, and generally ageing/broken bathroom elements — issues that affect comfort and may pose health risks.",
+        "recommended_action": "Initiate an immediate inspection sweep of occupied and vacant rooms to identify and remediate mold, blocked drains and failing HVAC units. Open emergency maintenance work orders with target SLA (e.g., repair within 24–48 hours). For identified mold or hygiene issues, perform deep-cleaning and professional remediation; relocate guests if rooms require work. Log defects in a central maintenance tracker and report weekly to operations leadership.",
+        "rationale": "Mold and plumbing/HVAC failures recur in guest comments and can cause health complaints and reputational damage; quick remediation reduces risk of negative reviews and guest complaints."
+      },
+      {
+        "rank": 2,
+        "area": "In-room electrical and entertainment facilities",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report insufficient bedside power outlets/phone charging points, reports of 'insufficient power in the room', and problems with TV channels and remote controls (limited channels, too many ads, remote problems). These reduce perceived value of stay and cause frustration.",
+        "recommended_action": "Perform a quick audit of a representative sample of room types to verify number and location of power outlets and TV/remote functionality. Install bedside power sockets/USB chargers where missing (quick retrofit), replace faulty remotes, and review TV supplier/content options to reduce intrusive ads and increase language/international channels where feasible. Track completion of retrofits and guest feedback post-installation.",
+        "rationale": "Simple, relatively low-cost fixes (additional sockets, remotes, software/contract changes) deliver rapid improvement in guest comfort and remove frequent sources of complaint."
+      },
+      {
+        "rank": 3,
+        "area": "Noise, window repairs and room security",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Several guests reported that windows could not be closed fully, leading to high street/tram noise at night and reduced security/comfort. Noise complaints and an inability to close windows directly affect sleep quality and perceived safety.",
+        "recommended_action": "Survey rooms facing Praça Martim Moniz/tram routes for window functionality and glazing condition. Prioritize repairs or replacement of seals/fittings for windows that won’t close, and assess feasibility of installing secondary glazing or noise-reducing seals in most-affected room blocks. In the short term, proactively offer earplugs, white-noise devices, or room reassignments away from noisy façades for guests who request them.",
+        "rationale": "Addressing window closure and soundproofing will reduce a recurring source of low-scoring comments about noise and security and improve guest sleep quality."
+      },
+      {
+        "rank": 4,
+        "area": "Signage, entrance visibility and guest communication during renovations",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Guests noted poor internal signage (corridors/floors), issues with the hotel entrance, and confusion related to temporary reception and mandatory breakfast booking during renovations. Poor wayfinding increases perceived disorganization and can negatively impact guest experience, and unclear communication about renovation impacts leads to frustration.",
+        "recommended_action": "Install clear temporary and permanent directional signage (exits, reception, restaurant) along corridors and floors immediately. Improve entrance signage/lighting and ensure staff are visible to direct arrivals. Update pre-arrival and on-site communications (email, website, front-desk script, in-room notices) to explain renovation-related changes (temporary reception, breakfast booking policy) and give guests simple instructions. Train staff to proactively explain changes at check-in and offer assistance (e.g., escorting to rooms).",
+        "rationale": "Clear signage and proactive communication reduce guest friction, perceived chaos from renovations, and repetitive complaints about wayfinding and breakfast procedures."
+      },
+      {
+        "rank": 5,
+        "area": "Bathroom refurbishment capital planning",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Multiple guests describe bathrooms as dated or needing updating; one guest described bathroom, beds and linens as 'unthinkable' in relation to price. While some guests praise cleanliness and linens, inconsistent bathroom standards are a recurring theme.",
+        "recommended_action": "Commission a capital assessment and cost estimate for phased bathroom refurbishment prioritizing room types most complained about. Develop a phased renovation schedule aligned with occupancy patterns and current renovation activity to minimize disruption. Consider interim cosmetic fixes (grout refresh, new showerheads, improved drainage) in rooms scheduled for later phases to reduce complaints in the short term.",
+        "rationale": "A planned capital investment will resolve a persistent source of dissatisfaction and align physical product with the hotel's 4-star positioning; phased works mitigate revenue/profit impact while improving long-term guest experience."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Rooftop bar and city views",
+        "reason": "Multiple reviews praise the rooftop deck/bar and spectacular city views as a highlight and a differentiator.",
+        "management_implication": "Ensure rooftop access, cleanliness and service levels remain high during renovations; protect rooftop operating hours and staff training to preserve this key selling point."
+      },
+      {
+        "area": "Breakfast quality and variety",
+        "reason": "Several reviews call the breakfast 'very tasty', 'excellent and very varied', and an 'extraordinary view and abundance of options'.",
+        "management_implication": "Preserve food quality and variety; manage booking process so guests experience consistently positive breakfast service despite renovation logistics."
+      },
+      {
+        "area": "Staff hospitality and helpfulness",
+        "reason": "Many guests praise 'attentive service', 'staff extremely helpful and friendly', and welcome treats on arrival.",
+        "management_implication": "Maintain frontline staffing levels and training; recognize and reinforce staff behaviors that generate positive reviews."
+      },
+      {
+        "area": "Central location and parking",
+        "reason": "Multiple mentions of 'perfect/central location' and 'hotel has its own parking' as positives supporting guest convenience.",
+        "management_implication": "Continue to highlight location and parking proactively in marketing and guest communications; ensure parking operations remain smooth."
+      }
+    ],
+    "limitations": [
+      "Only 20 of 181 reviews in the decision window were provided to the model; recommendations are based on this sampled set of recent reviews and the supplied hotel performance metrics.",
+      "Cannot determine the full scope, schedule or contractor status of ongoing renovations from the provided data; proposed actions assume management control over maintenance and renovation timing.",
+      "Financial performance metrics show declines in occupancy and revenue measures but no causal link between review content and financials can be inferred from the supplied information; recommendations focus on operational fixes raised in reviews.",
+      "Some guest comments describe isolated incidents; the sample may over- or under-represent the prevalence of specific problems across all rooms and dates."
+    ]
+  }
+}

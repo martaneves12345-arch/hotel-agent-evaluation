@@ -1,0 +1,1551 @@
+{
+  "case_metadata": {
+    "case_id": "H65_20240819_L4",
+    "hotel_id": 65,
+    "decision_week": "2024_W34",
+    "decision_date": "2024-08-19",
+    "window_start": "2024-07-29",
+    "window_end": "2024-08-25",
+    "lookback_weeks_requested": 4,
+    "panel_weeks_available": 4,
+    "complete_window": true
+  },
+  "hotel_profile": {
+    "ID_HOTEL": 65,
+    "NAME": "Palm OÃ¡sis",
+    "NOME_HOTEL_URL": "the-navigator-palm-oasis-alvor",
+    "ID_LOCAL": "PortimÃ£o",
+    "N_ROOMS": 151,
+    "STARS": null,
+    "PRINCIPAIS_COMODIDADES": "Piscina exterior, Acesso Wi-Fi gratuito, Estacionamento gratuito, Quartos familiares, Quartos para não fumadores, Restaurante, Bar, Muito bom pequeno-almoço"
+  },
+  "latest_context": {
+    "dominant_emotion": "frustration",
+    "dominant_expectation_experience_label": "experience_only",
+    "season": "High",
+    "priority_alert_flag": 0.0,
+    "emerging_negative_topic": [
+      "furniture",
+      "chlorine smell",
+      "facilities",
+      "electrical outlets"
+    ]
+  },
+  "metric_definitions": {
+    "REVPAR_WEEK": {
+      "label": "Weekly RevPAR",
+      "meaning": "Weekly revenue per available room.",
+      "higher_is_generally_better": true
+    },
+    "REVPOR_WEEK": {
+      "label": "Weekly RevPOR",
+      "meaning": "Weekly revenue per occupied room.",
+      "higher_is_generally_better": true
+    },
+    "TREVPAR_WEEK": {
+      "label": "Weekly TRevPAR",
+      "meaning": "Weekly total revenue per available room.",
+      "higher_is_generally_better": true
+    },
+    "TAXA_OCUPACAO": {
+      "label": "Occupancy rate",
+      "meaning": "Percentage of available room capacity occupied.",
+      "higher_is_generally_better": true
+    },
+    "N_REVIEWS": {
+      "label": "Number of reviews",
+      "meaning": "Number of reviews associated with the hotel-week.",
+      "higher_is_generally_better": null
+    },
+    "AVG_RATING": {
+      "label": "Average rating",
+      "meaning": "Average numerical review rating.",
+      "higher_is_generally_better": true
+    },
+    "SENTIMENT_SCORE_AVG": {
+      "label": "Average sentiment",
+      "meaning": "Average sentiment score extracted from review text.",
+      "higher_is_generally_better": true
+    },
+    "SENTIMENT_SCORE_STD": {
+      "label": "Sentiment dispersion",
+      "meaning": "Dispersion of sentiment across reviews.",
+      "higher_is_generally_better": null
+    },
+    "EXPECTATION_EXPERIENCE_GAP_AVG": {
+      "label": "Expectation–experience gap",
+      "meaning": "Average discrepancy between expressed expectations and reported experience.",
+      "higher_is_generally_better": false
+    },
+    "SEMANTIC_MISALIGNMENT_SCORE_AVG": {
+      "label": "Semantic misalignment",
+      "meaning": "Average semantic divergence between expectations and reported experience.",
+      "higher_is_generally_better": false
+    },
+    "EXPECTATION_VIOLATION_RATIO": {
+      "label": "Expectation violation ratio",
+      "meaning": "Share or ratio of expectation-related observations classified as violated.",
+      "higher_is_generally_better": false
+    },
+    "MAJOR_MISALIGNMENT_SHARE": {
+      "label": "Major misalignment share",
+      "meaning": "Share of reviews or review structures showing major expectation–experience misalignment.",
+      "higher_is_generally_better": false
+    },
+    "EMOTION_ENTROPY": {
+      "label": "Emotional complexity",
+      "meaning": "Entropy-based heterogeneity of emotions expressed across reviews.",
+      "higher_is_generally_better": null
+    },
+    "EXPECTATION_SHARE": {
+      "label": "Expectation share",
+      "meaning": "Share of reviews containing identifiable expectations.",
+      "higher_is_generally_better": null
+    },
+    "HIGH_EXPECTATION_SHARE": {
+      "label": "High-expectation share",
+      "meaning": "Share of reviews containing high-intensity expectations.",
+      "higher_is_generally_better": null
+    },
+    "HIGH_MISALIGNMENT_SHARE": {
+      "label": "High-misalignment share",
+      "meaning": "Share of observations with high semantic misalignment.",
+      "higher_is_generally_better": false
+    },
+    "PERC_REVIEWS_NEGATIVE": {
+      "label": "Reviews containing negative/disliked content",
+      "meaning": "Percentage of reviews containing a negative or disliked text component. It does not mean that the full review or numerical rating is negative.",
+      "higher_is_generally_better": false,
+      "critical_interpretation_warning": "Do not interpret this variable as the percentage of guests giving a negative overall evaluation."
+    },
+    "PERC_OPERATIONAL_COMPLAINTS": {
+      "label": "Operational complaint share",
+      "meaning": "Percentage of complaint content associated with operational or service-delivery issues.",
+      "higher_is_generally_better": false
+    },
+    "PERC_PRICE_VALUE_MENTIONS": {
+      "label": "Price–value mention share",
+      "meaning": "Percentage of review content mentioning price or perceived value.",
+      "higher_is_generally_better": null
+    },
+    "POLARIZATION_INDEX": {
+      "label": "Review polarization",
+      "meaning": "Degree to which review experiences are divided or polarized.",
+      "higher_is_generally_better": false
+    },
+    "COMPLEXITY_INDEX": {
+      "label": "Experience complexity index",
+      "meaning": "Composite indicator of heterogeneous and layered customer experience signals.",
+      "higher_is_generally_better": null
+    },
+    "SENTIMENT_TREND_SLOPE": {
+      "label": "Precomputed sentiment trend slope",
+      "meaning": "Trend slope calculated previously in the source panel. Do not confuse it with the case-window trend recalculated by the Case Builder.",
+      "higher_is_generally_better": null
+    }
+  },
+  "weekly_history": [
+    {
+      "WEEK_YEAR": "2024_W31",
+      "week_date": "2024-07-29",
+      "REVPAR_WEEK": 41.755866355202826,
+      "REVPOR_WEEK": 87.89574696356274,
+      "TREVPAR_WEEK": 85.43385528728848,
+      "TAXA_OCUPACAO": 47.01986754966888,
+      "N_REVIEWS": 3.0,
+      "AVG_RATING": 5.333333333333333,
+      "SENTIMENT_SCORE_AVG": -0.15,
+      "SENTIMENT_SCORE_STD": 0.7593857166596345,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.575,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.725,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.3333333333333333,
+      "EMOTION_ENTROPY": 1.5,
+      "EXPECTATION_SHARE": 0.6666666666666666,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.6666666666666666,
+      "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+      "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.3333333333333333,
+      "COMPLEXITY_INDEX": 2.636778631137593,
+      "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+    },
+    {
+      "WEEK_YEAR": "2024_W32",
+      "week_date": "2024-08-05",
+      "REVPAR_WEEK": 90.9319640998164,
+      "REVPOR_WEEK": 103.29989385113268,
+      "TREVPAR_WEEK": 171.03248158840387,
+      "TAXA_OCUPACAO": 88.74172185430463,
+      "N_REVIEWS": 11.0,
+      "AVG_RATING": 7.909090909090909,
+      "SENTIMENT_SCORE_AVG": -0.16,
+      "SENTIMENT_SCORE_STD": 0.2190890230020664,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.3333333333333333,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.4333333333333333,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 0.9709505944546688,
+      "EXPECTATION_SHARE": 0.1818181818181818,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.1818181818181818,
+      "PERC_REVIEWS_NEGATIVE": 18.181818181818183,
+      "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.2727272727272727,
+      "COMPLEXITY_INDEX": 2.246295615398993,
+      "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+    },
+    {
+      "WEEK_YEAR": "2024_W33",
+      "week_date": "2024-08-12",
+      "REVPAR_WEEK": 87.307824001753,
+      "REVPOR_WEEK": 96.43767594537812,
+      "TREVPAR_WEEK": 178.32303646697116,
+      "TAXA_OCUPACAO": 92.80983916745508,
+      "N_REVIEWS": 18.0,
+      "AVG_RATING": 7.555555555555555,
+      "SENTIMENT_SCORE_AVG": 0.0833333333333333,
+      "SENTIMENT_SCORE_STD": 0.6322263399507618,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1038461538461538,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1384615384615384,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 1.678770585643888,
+      "EXPECTATION_SHARE": 0.1666666666666666,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.1111111111111111,
+      "PERC_REVIEWS_NEGATIVE": 61.11111111111112,
+      "PERC_OPERATIONAL_COMPLAINTS": 11.11111111111111,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.2222222222222222,
+      "COMPLEXITY_INDEX": 3.1734098218198894,
+      "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+    },
+    {
+      "WEEK_YEAR": "2024_W34",
+      "week_date": "2024-08-19",
+      "REVPAR_WEEK": 84.90560157431818,
+      "REVPOR_WEEK": 93.65109122257051,
+      "TREVPAR_WEEK": 178.11669600503782,
+      "TAXA_OCUPACAO": 92.80983916745508,
+      "N_REVIEWS": 11.0,
+      "AVG_RATING": 7.272727272727272,
+      "SENTIMENT_SCORE_AVG": 0.1071428571428571,
+      "SENTIMENT_SCORE_STD": 0.541315045072625,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.28125,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.33125,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 1.448815635725185,
+      "EXPECTATION_SHARE": 0.3636363636363636,
+      "HIGH_EXPECTATION_SHARE": 0.0909090909090909,
+      "HIGH_MISALIGNMENT_SHARE": 0.3636363636363636,
+      "PERC_REVIEWS_NEGATIVE": 54.54545454545454,
+      "PERC_OPERATIONAL_COMPLAINTS": 16.666666666666664,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.2727272727272727,
+      "COMPLEXITY_INDEX": 3.0290996994989854,
+      "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+    }
+  ],
+  "trends": {
+    "REVPAR_WEEK": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 41.755866355202826,
+      "last_value": 84.90560157431818,
+      "minimum_value": 41.755866355202826,
+      "maximum_value": 90.9319640998164,
+      "absolute_change": 43.14973521911536,
+      "percentage_change": 103.33813901034974,
+      "slope": 12.582506555928259,
+      "standardized_slope": 0.6286152173909448,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -2.402222427434822,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "REVPOR_WEEK": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 87.89574696356274,
+      "last_value": 93.65109122257051,
+      "minimum_value": 87.89574696356274,
+      "maximum_value": 103.29989385113268,
+      "absolute_change": 5.755344259007771,
+      "percentage_change": 6.547921211015652,
+      "slope": 1.0403814871268682,
+      "standardized_slope": 0.1877438110736511,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -2.7865847228076035,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "TREVPAR_WEEK": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 85.43385528728848,
+      "last_value": 178.11669600503782,
+      "minimum_value": 85.43385528728848,
+      "maximum_value": 178.32303646697116,
+      "absolute_change": 92.68284071774934,
+      "percentage_change": 108.48490964862197,
+      "slope": 28.533907703181526,
+      "standardized_slope": 0.7269783244787728,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.20634046193333688,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "TAXA_OCUPACAO": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 47.01986754966888,
+      "last_value": 92.80983916745508,
+      "minimum_value": 47.01986754966888,
+      "maximum_value": 92.80983916745508,
+      "absolute_change": 45.7899716177862,
+      "percentage_change": 97.38430583501008,
+      "slope": 14.143803216650898,
+      "standardized_slope": 0.7323840672049062,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "N_REVIEWS": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 3.0,
+      "last_value": 11.0,
+      "minimum_value": 3.0,
+      "maximum_value": 18.0,
+      "absolute_change": 8.0,
+      "percentage_change": 266.66666666666663,
+      "slope": 3.1,
+      "standardized_slope": 0.5838931955915337,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -7.0,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "AVG_RATING": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 5.333333333333333,
+      "last_value": 7.272727272727272,
+      "minimum_value": 5.333333333333333,
+      "maximum_value": 7.909090909090909,
+      "absolute_change": 1.9393939393939386,
+      "percentage_change": 36.363636363636346,
+      "slope": 0.5464646464646461,
+      "standardized_slope": 0.5474237294874332,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.28282828282828376,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "SENTIMENT_SCORE_AVG": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": -0.15,
+      "last_value": 0.1071428571428571,
+      "minimum_value": -0.16,
+      "maximum_value": 0.1071428571428571,
+      "absolute_change": 0.2571428571428571,
+      "percentage_change": 171.42857142857142,
+      "slope": 0.10147619047619048,
+      "standardized_slope": 0.8088863072935277,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.023809523809523794,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "SENTIMENT_SCORE_STD": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 0.7593857166596345,
+      "last_value": 0.541315045072625,
+      "minimum_value": 0.2190890230020664,
+      "maximum_value": 0.7593857166596345,
+      "absolute_change": -0.21807067158700955,
+      "percentage_change": -28.716720212522954,
+      "slope": -0.024107469781233456,
+      "standardized_slope": -0.12068624713148902,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.09091129487813687,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EXPECTATION_EXPERIENCE_GAP_AVG": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.575,
+      "last_value": 0.28125,
+      "minimum_value": 0.1038461538461538,
+      "maximum_value": 0.575,
+      "absolute_change": -0.29374999999999996,
+      "percentage_change": -51.086956521739125,
+      "slope": -0.11107371794871805,
+      "standardized_slope": -0.6597353429177982,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.1774038461538462,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "SEMANTIC_MISALIGNMENT_SCORE_AVG": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.725,
+      "last_value": 0.33125,
+      "minimum_value": 0.1384615384615384,
+      "maximum_value": 0.725,
+      "absolute_change": -0.39375,
+      "percentage_change": -54.310344827586206,
+      "slope": -0.1476121794871796,
+      "standardized_slope": -0.6964923070983339,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.19278846153846158,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "EXPECTATION_VIOLATION_RATIO": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 1.0,
+      "last_value": 1.0,
+      "minimum_value": 1.0,
+      "maximum_value": 1.0,
+      "absolute_change": 0.0,
+      "percentage_change": 0.0,
+      "slope": -2.0083673326242142e-16,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "MAJOR_MISALIGNMENT_SHARE": {
+      "direction": "decreasing",
+      "trend_strength": "weak",
+      "first_value": 0.3333333333333333,
+      "last_value": 0.0,
+      "minimum_value": 0.0,
+      "maximum_value": 0.3333333333333333,
+      "absolute_change": -0.3333333333333333,
+      "percentage_change": -100.0,
+      "slope": -0.10000000000000005,
+      "standardized_slope": -0.6928203230275511,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EMOTION_ENTROPY": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 1.5,
+      "last_value": 1.448815635725185,
+      "minimum_value": 0.9709505944546688,
+      "maximum_value": 1.678770585643888,
+      "absolute_change": -0.0511843642748151,
+      "percentage_change": -3.41229095165434,
+      "slope": 0.05542668983647717,
+      "standardized_slope": 0.211705408331186,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.22995494991870302,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EXPECTATION_SHARE": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.6666666666666666,
+      "last_value": 0.3636363636363636,
+      "minimum_value": 0.1666666666666666,
+      "maximum_value": 0.6666666666666666,
+      "absolute_change": -0.30303030303030304,
+      "percentage_change": -45.45454545454546,
+      "slope": -0.09242424242424253,
+      "standardized_slope": -0.4589093667189621,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.196969696969697,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "HIGH_EXPECTATION_SHARE": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 0.0,
+      "last_value": 0.0909090909090909,
+      "minimum_value": 0.0,
+      "maximum_value": 0.0909090909090909,
+      "absolute_change": 0.0909090909090909,
+      "percentage_change": null,
+      "slope": 0.02727272727272727,
+      "standardized_slope": 0.6928203230275509,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.0909090909090909,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "HIGH_MISALIGNMENT_SHARE": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.6666666666666666,
+      "last_value": 0.3636363636363636,
+      "minimum_value": 0.1111111111111111,
+      "maximum_value": 0.6666666666666666,
+      "absolute_change": -0.30303030303030304,
+      "percentage_change": -45.45454545454546,
+      "slope": -0.09797979797979811,
+      "standardized_slope": -0.4564074220289126,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.2525252525252525,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "PERC_REVIEWS_NEGATIVE": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 66.66666666666666,
+      "last_value": 54.54545454545454,
+      "minimum_value": 18.181818181818183,
+      "maximum_value": 66.66666666666666,
+      "absolute_change": -12.121212121212118,
+      "percentage_change": -18.18181818181818,
+      "slope": 0.6565656565656512,
+      "standardized_slope": 0.034673602080693304,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -6.565656565656582,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "PERC_OPERATIONAL_COMPLAINTS": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 0.0,
+      "last_value": 16.666666666666664,
+      "minimum_value": 0.0,
+      "maximum_value": 16.666666666666664,
+      "absolute_change": 16.666666666666664,
+      "percentage_change": null,
+      "slope": 6.111111111111112,
+      "standardized_slope": 0.8467803948114512,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 5.555555555555554,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "PERC_PRICE_VALUE_MENTIONS": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 0.0,
+      "last_value": 0.0,
+      "minimum_value": 0.0,
+      "maximum_value": 0.0,
+      "absolute_change": 0.0,
+      "percentage_change": null,
+      "slope": 0.0,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "POLARIZATION_INDEX": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.3333333333333333,
+      "last_value": 0.2727272727272727,
+      "minimum_value": 0.2222222222222222,
+      "maximum_value": 0.3333333333333333,
+      "absolute_change": -0.06060606060606061,
+      "percentage_change": -18.181818181818183,
+      "slope": -0.02323232323232328,
+      "standardized_slope": -0.5901802751716186,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.0505050505050505,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "COMPLEXITY_INDEX": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 2.636778631137593,
+      "last_value": 3.0290996994989854,
+      "minimum_value": 2.246295615398993,
+      "maximum_value": 3.1734098218198894,
+      "absolute_change": 0.39232106836139247,
+      "percentage_change": 14.878801873183123,
+      "slope": 0.2104077411505067,
+      "standardized_slope": 0.5825148243324737,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.144310122320904,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "SENTIMENT_TREND_SLOPE": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": -0.0006937555449776,
+      "last_value": -0.0006937555449776,
+      "minimum_value": -0.0006937555449776,
+      "maximum_value": -0.0006937555449776,
+      "absolute_change": 0.0,
+      "percentage_change": 0.0,
+      "slope": 1.3761387697124102e-19,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    }
+  },
+  "topic_summary": {
+    "raw_weekly_topics": {
+      "EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "value for money",
+          "weeks_present": 2
+        },
+        {
+          "topic": "acceptable food quality",
+          "weeks_present": 1
+        },
+        {
+          "topic": "availability of barbecue/grilled fish",
+          "weeks_present": 1
+        },
+        {
+          "topic": "availability of cheese platter",
+          "weeks_present": 1
+        },
+        {
+          "topic": "breakfast variety (muffins/pancakes)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "clean pool",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dessert variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining room capacity / tables for larger groups",
+          "weeks_present": 1
+        },
+        {
+          "topic": "higher food quality for the all-inclusive price",
+          "weeks_present": 1
+        },
+        {
+          "topic": "hotel renovation/updated condition",
+          "weeks_present": 1
+        }
+      ],
+      "EXPERIENCE_TOPICS_UNIQUE": [
+        {
+          "topic": "cleanliness",
+          "weeks_present": 2
+        },
+        {
+          "topic": "pool",
+          "weeks_present": 2
+        },
+        {
+          "topic": "room condition",
+          "weeks_present": 2
+        },
+        {
+          "topic": "room size",
+          "weeks_present": 2
+        },
+        {
+          "topic": "value for money",
+          "weeks_present": 2
+        },
+        {
+          "topic": "air conditioning",
+          "weeks_present": 1
+        },
+        {
+          "topic": "air conditioning repair/room maintenance",
+          "weeks_present": 1
+        },
+        {
+          "topic": "all-inclusive board",
+          "weeks_present": 1
+        },
+        {
+          "topic": "all-inclusive offerings (breakfast, lunch, snack, dinner, ice cream, cocktails)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "animation staff (entertainment manager)",
+          "weeks_present": 1
+        }
+      ],
+      "VIOLATED_EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "value for money",
+          "weeks_present": 2
+        },
+        {
+          "topic": "acceptable food quality",
+          "weeks_present": 1
+        },
+        {
+          "topic": "availability of barbecue/grilled fish",
+          "weeks_present": 1
+        },
+        {
+          "topic": "availability of cheese platter",
+          "weeks_present": 1
+        },
+        {
+          "topic": "breakfast variety (muffins/pancakes)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "clean pool",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dessert variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining room capacity / tables for larger groups",
+          "weeks_present": 1
+        },
+        {
+          "topic": "higher food quality for the all-inclusive price",
+          "weeks_present": 1
+        },
+        {
+          "topic": "hotel renovation/updated condition",
+          "weeks_present": 1
+        }
+      ],
+      "LATENT_EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "basic cleanliness standard",
+          "weeks_present": 1
+        },
+        {
+          "topic": "breakfast variety (muffins/pancakes)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "clean pool",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining room capacity / tables for larger groups",
+          "weeks_present": 1
+        },
+        {
+          "topic": "earlier pool bar opening hours",
+          "weeks_present": 1
+        },
+        {
+          "topic": "higher food quality for the all-inclusive price",
+          "weeks_present": 1
+        },
+        {
+          "topic": "hotel renovation/updated condition",
+          "weeks_present": 1
+        },
+        {
+          "topic": "housekeeping frequency / sheets changed regularly",
+          "weeks_present": 1
+        },
+        {
+          "topic": "improved dining room layout / better queue management to reduce waiting time",
+          "weeks_present": 1
+        },
+        {
+          "topic": "larger buffet / greater food capacity",
+          "weeks_present": 1
+        }
+      ],
+      "EMERGING_NEGATIVE_TOPIC": [
+        {
+          "topic": "accessibility",
+          "weeks_present": 1
+        },
+        {
+          "topic": "cheese platter",
+          "weeks_present": 1
+        },
+        {
+          "topic": "chlorine smell",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining area",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining area lighting",
+          "weeks_present": 1
+        },
+        {
+          "topic": "dining area size",
+          "weeks_present": 1
+        },
+        {
+          "topic": "electrical outlets",
+          "weeks_present": 1
+        },
+        {
+          "topic": "facilities",
+          "weeks_present": 1
+        },
+        {
+          "topic": "food options",
+          "weeks_present": 1
+        },
+        {
+          "topic": "furniture",
+          "weeks_present": 1
+        }
+      ]
+    },
+    "managerial_categories": [
+      {
+        "category": "breakfast",
+        "label": "Breakfast",
+        "managerial_domain": "food_and_beverage",
+        "default_priority": "medium",
+        "weeks_present": 1,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 5,
+        "review_mentions_total": 8,
+        "positive_review_mentions": 2,
+        "negative_review_mentions": 7,
+        "net_sentiment_mentions": -5,
+        "matched_raw_topics": [
+          "all-inclusive offerings (breakfast, lunch, snack, dinner, ice cream, cocktails)",
+          "breakfast variety (muffins/pancakes)",
+          "larger buffet / greater food capacity"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "price_value",
+        "label": "Price–value",
+        "managerial_domain": "pricing_and_value",
+        "default_priority": "high",
+        "weeks_present": 2,
+        "experience_weeks": 2,
+        "expectation_weeks": 2,
+        "violated_expectation_weeks": 2,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 9,
+        "review_mentions_total": 5,
+        "positive_review_mentions": 2,
+        "negative_review_mentions": 3,
+        "net_sentiment_mentions": -1,
+        "matched_raw_topics": [
+          "higher food quality for the all-inclusive price",
+          "value for money"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "spa_pool",
+        "label": "Spa and pool",
+        "managerial_domain": "leisure_facilities",
+        "default_priority": "medium",
+        "weeks_present": 2,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 6,
+        "review_mentions_total": 13,
+        "positive_review_mentions": 11,
+        "negative_review_mentions": 3,
+        "net_sentiment_mentions": 8,
+        "matched_raw_topics": [
+          "clean pool",
+          "earlier pool bar opening hours",
+          "pool"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "restaurant_bar",
+        "label": "Restaurant and bar",
+        "managerial_domain": "food_and_beverage",
+        "default_priority": "medium",
+        "weeks_present": 1,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 2,
+        "review_mentions_total": 5,
+        "positive_review_mentions": 3,
+        "negative_review_mentions": 3,
+        "net_sentiment_mentions": 0,
+        "matched_raw_topics": [
+          "all-inclusive offerings (breakfast, lunch, snack, dinner, ice cream, cocktails)",
+          "earlier pool bar opening hours"
+        ],
+        "source_columns": [
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "cleanliness",
+        "label": "Cleanliness and housekeeping",
+        "managerial_domain": "housekeeping",
+        "default_priority": "high",
+        "weeks_present": 2,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 7,
+        "review_mentions_total": 4,
+        "positive_review_mentions": 2,
+        "negative_review_mentions": 2,
+        "net_sentiment_mentions": 0,
+        "matched_raw_topics": [
+          "basic cleanliness standard",
+          "clean pool",
+          "cleanliness",
+          "housekeeping frequency / sheets changed regularly"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "wifi_technology",
+        "label": "Wi-Fi and technology",
+        "managerial_domain": "technology",
+        "default_priority": "medium",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 2,
+        "positive_review_mentions": 0,
+        "negative_review_mentions": 2,
+        "net_sentiment_mentions": -2,
+        "matched_raw_topics": [],
+        "source_columns": []
+      },
+      {
+        "category": "room_comfort",
+        "label": "Room comfort",
+        "managerial_domain": "rooms_and_maintenance",
+        "default_priority": "high",
+        "weeks_present": 2,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 4,
+        "review_mentions_total": 7,
+        "positive_review_mentions": 6,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": 5,
+        "matched_raw_topics": [
+          "air conditioning",
+          "air conditioning repair/room maintenance",
+          "room size"
+        ],
+        "source_columns": [
+          "EXPERIENCE_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "staff_service",
+        "label": "Staff and service",
+        "managerial_domain": "service_delivery",
+        "default_priority": "high",
+        "weeks_present": 1,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 1,
+        "review_mentions_total": 7,
+        "positive_review_mentions": 6,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": 5,
+        "matched_raw_topics": [
+          "animation staff (entertainment manager)"
+        ],
+        "source_columns": [
+          "EXPERIENCE_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "room_amenities",
+        "label": "In-room amenities",
+        "managerial_domain": "rooms_and_maintenance",
+        "default_priority": "medium",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 1,
+        "positive_review_mentions": 0,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": -1,
+        "matched_raw_topics": [],
+        "source_columns": []
+      },
+      {
+        "category": "location_access",
+        "label": "Location and accessibility",
+        "managerial_domain": "location_and_access",
+        "default_priority": "low",
+        "weeks_present": 1,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "cross_structure_topic_occurrences": 1,
+        "review_mentions_total": 2,
+        "positive_review_mentions": 2,
+        "negative_review_mentions": 0,
+        "net_sentiment_mentions": 2,
+        "matched_raw_topics": [
+          "accessibility"
+        ],
+        "source_columns": [
+          "EMERGING_NEGATIVE_TOPIC"
+        ]
+      }
+    ],
+    "interpretation_note": "Topic-source metrics must be interpreted separately. experience_weeks may include positive or neutral experiences. violated_expectation_weeks and emerging_negative_weeks indicate negative evidence. negative_review_mentions are based only on review_text_disliked. Cross-structure topic occurrences may refer to the same underlying issue and are not independent complaints."
+  },
+  "preliminary_signals": [
+    {
+      "signal": "increasing_operational_complaints",
+      "severity": "high",
+      "metric": "PERC_OPERATIONAL_COMPLAINTS",
+      "description": "The share of operational complaints shows a global increasing trend.",
+      "trend_strength": "moderate",
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_reversal": false
+    }
+  ],
+  "review_sample": [
+    {
+      "review_date": "2024-08-25",
+      "rating": 8.0,
+      "language": "pt",
+      "title": "Óptimo",
+      "liked": "Always tidy and comfortable space.",
+      "disliked": "It needs to be renovated and have a larger buffet; at least in August it's too small for so many people.",
+      "country": "Portugal",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-23",
+      "rating": 3.0,
+      "language": "es",
+      "title": "Poor",
+      "liked": "Family atmosphere.",
+      "disliked": "Poor value for money; mediocre buffet; the performances are very outdated.",
+      "country": "Spain",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-22",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Cumplió lo esperado. La comida es aceptable y los servicios en general bastante bien.",
+      "liked": "The landscaped outdoor area and the entertainment.",
+      "disliked": "The outdoor pool was somewhat dirty.",
+      "country": "Spain",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-20",
+      "rating": 7.0,
+      "language": "pt",
+      "title": "Cumpriu a função",
+      "liked": "Cleanliness",
+      "disliked": "Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment. The pool has cloudy water and a strong smell of chlorine.",
+      "country": "Portugal",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-08-20",
+      "rating": 8.0,
+      "language": "es",
+      "title": "La relacion precio con el servicio, instalaciones esta bastante aceptable",
+      "liked": "Comfortable beds, outdoor area and the hotel's entertainment manager.",
+      "disliked": "The rooms need renovating; they are outdated, and they should add a few more dishes to the buffet.",
+      "country": "Spain",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-20",
+      "rating": 9.0,
+      "language": "es",
+      "title": "Superb",
+      "liked": null,
+      "disliked": null,
+      "country": "Spain",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 9.0,
+      "language": "pt",
+      "title": "Superb",
+      "liked": "Outdoor space and cocktails.",
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 7.0,
+      "language": "pt",
+      "title": "Relaxante",
+      "liked": "The outdoor area, the garden, the children's playground, the pools, the children's games room and the entertainment.",
+      "disliked": "The room was a bit small, the food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.",
+      "country": "Portugal",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 8.0,
+      "language": "pt",
+      "title": "Very good",
+      "liked": null,
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 9.0,
+      "language": "pt",
+      "title": "Superb",
+      "liked": "Hotel with good facilities for families. Good food.",
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 4.0,
+      "language": "pt",
+      "title": "Disappointing",
+      "liked": null,
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 7.0,
+      "language": "en",
+      "title": "Good",
+      "liked": "Nice rooms. Good air conditioning. Amazing value for money. Lots of drink options. Good outdoor pool bar. Went for afronation and was only 20 mins to travel by car",
+      "disliked": "One rude member of staff",
+      "country": "United Kingdom",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 10.0,
+      "language": "pt",
+      "title": "Férias perfeitas",
+      "liked": "Spectacular accommodation, starting with the very comfortable room, pools and shared spaces always very clean and organized, very good food with many options to please everyone, friendly and very helpful staff, hotel with a family atmosphere perfect for trips with a child, my son for example loved the Kids Club with various activities—I recommend it and I will certainly return.",
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 6.0,
+      "language": "it",
+      "title": "Pleasant",
+      "liked": "The buffet has little choice, the restaurant is similar to a canteen, the room is spacious but vintage-style.",
+      "disliked": null,
+      "country": "Italy",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 9.0,
+      "language": "pt",
+      "title": "Superb",
+      "liked": "The meals, the friendliness of the staff and the pool.",
+      "disliked": "The internet was really very poor.",
+      "country": "Portugal",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-16",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Very good",
+      "liked": "The all-inclusive plan, the hotel's location and the pool, as well as the staff",
+      "disliked": "The pillows that are not comfortable at all, the limited variety of the buffet, and the low lighting in the dining room at dinnertime.",
+      "country": "Spain",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-08-15",
+      "rating": 8.0,
+      "language": "de",
+      "title": "Very good",
+      "liked": "The outdoor areas are lovely and very well maintained",
+      "disliked": "Room somewhat outdated and worn.",
+      "country": "Germany",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-08-15",
+      "rating": 9.0,
+      "language": "pt",
+      "title": "Superb",
+      "liked": null,
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-15",
+      "rating": 6.0,
+      "language": "pt",
+      "title": "Pleasant",
+      "liked": "Piscina",
+      "disliked": "Meals",
+      "country": "Portugal",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-08-14",
+      "rating": 8.0,
+      "language": "en",
+      "title": "Very good",
+      "liked": null,
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Family"
+    }
+  ],
+  "review_sample_metadata": {
+    "total_reviews_in_window": 43,
+    "total_reviews_selected": 20,
+    "selection_strategy": "Neutral recent-review sampling. Reviews are ordered by review_date descending and the most recent reviews are selected. No filtering or ranking based on rating, sentiment, complaint severity or text length is used.",
+    "interpretation_warning": "The sample represents the most recent reviews in the decision window, not necessarily the full review distribution."
+  },
+  "complaints": [
+    {
+      "review_date": "2024-07-30",
+      "rating": 1.0,
+      "language": "en",
+      "title": "WASTE OF MONEY DO NOT BOOK",
+      "complaint_text": "Disliked: THE FOOD WAS HORRIBLE. BOILED MEAT AND ROTTEN CHIPS. aBSOLUTELY CRAP FOOT. I CANNOT EXPRESS HOW BAD THE FOOD IS. PLEASE DO NOT BOOK THIS HOTEL UNLESS YOU WANT TO BUY FOOD AND EAT ELSEWHERE. ITS NOT WORTH THE MONEY. I PAID OVER 1.5K WHICH WAS FOR JUST 3 PEOPLE 2 ADULTS AND A BABY. HONESTLY IF YOU'RE FROM THE UK AND KNOW TRAVEL ALOT THIS IS WORSE THAN TRAVEL LODGE. IMAGINE WEATHERSPOONS ON A SATURDAY NIGHT. THE DIDNT CHANGE SHEETS EVEN EVERY OTHER DAY. THE CLEANING IS VERY SHALLOW. THE DRINKS ARE DILUTED.",
+      "disliked": "THE FOOD WAS HORRIBLE. BOILED MEAT AND ROTTEN CHIPS. aBSOLUTELY CRAP FOOT. I CANNOT EXPRESS HOW BAD THE FOOD IS. PLEASE DO NOT BOOK THIS HOTEL UNLESS YOU WANT TO BUY FOOD AND EAT ELSEWHERE. ITS NOT WORTH THE MONEY. I PAID OVER 1.5K WHICH WAS FOR JUST 3 PEOPLE 2 ADULTS AND A BABY. HONESTLY IF YOU'RE FROM THE UK AND KNOW TRAVEL ALOT THIS IS WORSE THAN TRAVEL LODGE. IMAGINE WEATHERSPOONS ON A SATURDAY NIGHT. THE DIDNT CHANGE SHEETS EVEN EVERY OTHER DAY. THE CLEANING IS VERY SHALLOW. THE DRINKS ARE DILUTED.",
+      "liked_context": "The snacks were edible",
+      "country": "United Kingdom",
+      "stay_type": "Family",
+      "disliked_word_count": 94
+    },
+    {
+      "review_date": "2024-08-23",
+      "rating": 3.0,
+      "language": "es",
+      "title": "Poor",
+      "complaint_text": "Disliked: Poor value for money; mediocre buffet; the performances are very outdated.",
+      "disliked": "Poor value for money; mediocre buffet; the performances are very outdated.",
+      "liked_context": "Family atmosphere.",
+      "country": "Spain",
+      "stay_type": "Family",
+      "disliked_word_count": 10
+    },
+    {
+      "review_date": "2024-08-12",
+      "rating": 4.0,
+      "language": "es",
+      "title": "Decepcionado 🫤",
+      "complaint_text": "Disliked: The food was awful; they reuse leftover food from one day to the next—for example, you can find kiwi in the chicken, peach in syrup in the potato salad... little variety, queues to get to the food and when you arrive items are always missing and you have to wait quite a while for more to be put out. There wasn't a meal that didn't lack ice, plates, ... and the breakfast coffee machine was always out of coffee. Not to mention the drinks—very few bottles and not a single known brand, even the tonic in a plastic bottle.... In short, I won't repeat the experience....",
+      "disliked": "The food was awful; they reuse leftover food from one day to the next—for example, you can find kiwi in the chicken, peach in syrup in the potato salad... little variety, queues to get to the food and when you arrive items are always missing and you have to wait quite a while for more to be put out. There wasn't a meal that didn't lack ice, plates, ... and the breakfast coffee machine was always out of coffee. Not to mention the drinks—very few bottles and not a single known brand, even the tonic in a plastic bottle.... In short, I won't repeat the experience....",
+      "liked_context": "Pool area and gardens. Although the pool was a bit cloudy and people do not respect the rules—ball games in the pool, they bother you while you're lying down—I had different expectations when I arrived.",
+      "country": "Spain",
+      "stay_type": "Family",
+      "disliked_word_count": 94
+    },
+    {
+      "review_date": "2024-08-06",
+      "rating": 5.0,
+      "language": "pt",
+      "title": "Passable",
+      "complaint_text": "Disliked: The pool bar opening time starts very late at 11:00. Food is basically always the same and sometimes poorly prepared; what can be called reasonable is the breakfast. The room where we stayed, for 2 adults + 2 children, had little storage and little space. There's no music at the pool; it's always nice to have some music.",
+      "disliked": "The pool bar opening time starts very late at 11:00. Food is basically always the same and sometimes poorly prepared; what can be called reasonable is the breakfast. The room where we stayed, for 2 adults + 2 children, had little storage and little space. There's no music at the pool; it's always nice to have some music.",
+      "liked_context": "The spaces and the outdoor pool",
+      "country": "Portugal",
+      "stay_type": "Family",
+      "disliked_word_count": 56
+    },
+    {
+      "review_date": "2024-08-12",
+      "rating": 6.0,
+      "language": "pt",
+      "title": "Pleasant",
+      "complaint_text": "Disliked: No television for the whole week, the internet was bad, rooms urgently need renovation, hotel with very old infrastructure.",
+      "disliked": "No television for the whole week, the internet was bad, rooms urgently need renovation, hotel with very old infrastructure.",
+      "liked_context": "The friendliness of the staff.",
+      "country": "Portugal",
+      "stay_type": "Family",
+      "disliked_word_count": 22
+    },
+    {
+      "review_date": "2024-08-19",
+      "rating": 7.0,
+      "language": "pt",
+      "title": "Relaxante",
+      "complaint_text": "Disliked: The room was a bit small, the food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.",
+      "disliked": "The room was a bit small, the food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.",
+      "liked_context": "The outdoor area, the garden, the children's playground, the pools, the children's games room and the entertainment.",
+      "country": "Portugal",
+      "stay_type": "Family",
+      "disliked_word_count": 29
+    },
+    {
+      "review_date": "2024-08-20",
+      "rating": 7.0,
+      "language": "pt",
+      "title": "Cumpriu a função",
+      "complaint_text": "Disliked: Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment. The pool has cloudy water and a strong smell of chlorine.",
+      "disliked": "Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment. The pool has cloudy water and a strong smell of chlorine.",
+      "liked_context": "Cleanliness",
+      "country": "Portugal",
+      "stay_type": "Group",
+      "disliked_word_count": 21
+    },
+    {
+      "review_date": "2024-08-07",
+      "rating": 7.0,
+      "language": "pt",
+      "title": "Boa piscina",
+      "complaint_text": "Disliked: The room needs renovation.",
+      "disliked": "The room needs renovation.",
+      "liked_context": "The pool and the green space around it",
+      "country": "Portugal",
+      "stay_type": "Family",
+      "disliked_word_count": 6
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 7.0,
+      "language": "en",
+      "title": "Good",
+      "complaint_text": "Disliked: One rude member of staff",
+      "disliked": "One rude member of staff",
+      "liked_context": "Nice rooms. Good air conditioning. Amazing value for money. Lots of drink options. Good outdoor pool bar. Went for afronation and was only 20 mins to travel by car",
+      "country": "United Kingdom",
+      "stay_type": "Group",
+      "disliked_word_count": 5
+    },
+    {
+      "review_date": "2024-08-13",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Very good",
+      "complaint_text": "Disliked: To mention one drawback, the dining room is a bit small; they don't have tables for larger groups of more than 8 but usually they adapt you well to two tables. And they don't have an outdoor dining area which especially for breakfast and dinner would have been useful. The breakfast buffet is the most meager—there is quite a bit to choose from, but items like muffins or pancakes were missing... For lunch and dinner there are always options among one fish, one meat and chicken, plus salads, fruit, cakes....",
+      "disliked": "To mention one drawback, the dining room is a bit small; they don't have tables for larger groups of more than 8 but usually they adapt you well to two tables. And they don't have an outdoor dining area which especially for breakfast and dinner would have been useful. The breakfast buffet is the most meager—there is quite a bit to choose from, but items like muffins or pancakes were missing... For lunch and dinner there are always options among one fish, one meat and chicken, plus salads, fruit, cakes....",
+      "liked_context": "The staff are very attentive. In one of the rooms the air conditioning was broken and they changed it for us without any problem. For the children we had been assigned bunk beds; however, since they were older children (13 and 16 years), they gave us the adjoining room so they could sleep in single beds. It is well located in the center of the Algarve's points of interest and has an area of shops, restaurants and a promenade a 15-minute walk away. The all-inclusive is wonderful: breakfast, lunch, snack, dinner, ice creams, cocktails,....",
+      "country": "Spain",
+      "stay_type": "Group",
+      "disliked_word_count": 81
+    },
+    {
+      "review_date": "2024-08-13",
+      "rating": 8.0,
+      "language": "en",
+      "title": "Very good",
+      "complaint_text": "Disliked: Regarding the rooms, they need renovation, as they are old-fashioned and not compatible with the exterior of the Hotel. At lunch and dinner, the layout of the room can be improved to facilitate access to numerous guests and reduce waiting time (double line).",
+      "disliked": "Regarding the rooms, they need renovation, as they are old-fashioned and not compatible with the exterior of the Hotel. At lunch and dinner, the layout of the room can be improved to facilitate access to numerous guests and reduce waiting time (double line).",
+      "liked_context": "The surrounding areas are incredible and well maintained, with space for visitors, whether for the pool area or leisure. For kids it's a great hotel. The food itself is good and sufficient. Very positive note for the fruits - variety and quality.",
+      "country": "Portugal",
+      "stay_type": "Couple",
+      "disliked_word_count": 43
+    },
+    {
+      "review_date": "2024-08-13",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Very good",
+      "complaint_text": "Disliked: Maybe the dining room is small and when there are more than four people it's sometimes difficult to find a place to sit. We were nine and some waiter tried to give us trouble....",
+      "disliked": "Maybe the dining room is small and when there are more than four people it's sometimes difficult to find a place to sit. We were nine and some waiter tried to give us trouble....",
+      "liked_context": "It is in a quiet area and very well connected with other points. The pool is very good, the garden with different areas is very spacious, the rooms are large.",
+      "country": "Spain",
+      "stay_type": "Couple",
+      "disliked_word_count": 29
+    },
+    {
+      "review_date": "2024-08-16",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Very good",
+      "complaint_text": "Disliked: The pillows that are not comfortable at all, the limited variety of the buffet, and the low lighting in the dining room at dinnertime.",
+      "disliked": "The pillows that are not comfortable at all, the limited variety of the buffet, and the low lighting in the dining room at dinnertime.",
+      "liked_context": "The all-inclusive plan, the hotel's location and the pool, as well as the staff",
+      "country": "Spain",
+      "stay_type": "Group",
+      "disliked_word_count": 23
+    },
+    {
+      "review_date": "2024-08-01",
+      "rating": 8.0,
+      "language": "fr",
+      "title": "Séjour agréable mais prestation moyenne",
+      "complaint_text": "Disliked: Lack of variety for meals. No barbecue nor grilled fish. No cheese platter. Always the same cakes...",
+      "disliked": "Lack of variety for meals. No barbecue nor grilled fish. No cheese platter. Always the same cakes...",
+      "liked_context": "Location and surroundings Comfortable hotel with a very pleasant garden area Large pool Friendly staff",
+      "country": "France",
+      "stay_type": "Family",
+      "disliked_word_count": 21
+    },
+    {
+      "review_date": "2024-08-25",
+      "rating": 8.0,
+      "language": "pt",
+      "title": "Óptimo",
+      "complaint_text": "Disliked: It needs to be renovated and have a larger buffet; at least in August it's too small for so many people.",
+      "disliked": "It needs to be renovated and have a larger buffet; at least in August it's too small for so many people.",
+      "liked_context": "Always tidy and comfortable space.",
+      "country": "Portugal",
+      "stay_type": "Family",
+      "disliked_word_count": 17
+    },
+    {
+      "review_date": "2024-08-20",
+      "rating": 8.0,
+      "language": "es",
+      "title": "La relacion precio con el servicio, instalaciones esta bastante aceptable",
+      "complaint_text": "Disliked: The rooms need renovating; they are outdated, and they should add a few more dishes to the buffet.",
+      "disliked": "The rooms need renovating; they are outdated, and they should add a few more dishes to the buffet.",
+      "liked_context": "Comfortable beds, outdoor area and the hotel's entertainment manager.",
+      "country": "Spain",
+      "stay_type": "Family",
+      "disliked_word_count": 16
+    },
+    {
+      "review_date": "2024-08-15",
+      "rating": 8.0,
+      "language": "de",
+      "title": "Very good",
+      "complaint_text": "Disliked: Room somewhat outdated and worn.",
+      "disliked": "Room somewhat outdated and worn.",
+      "liked_context": "The outdoor areas are lovely and very well maintained",
+      "country": "Germany",
+      "stay_type": "Group",
+      "disliked_word_count": 5
+    },
+    {
+      "review_date": "2024-08-22",
+      "rating": 8.0,
+      "language": "es",
+      "title": "Cumplió lo esperado. La comida es aceptable y los servicios en general bastante bien.",
+      "complaint_text": "Disliked: The outdoor pool was somewhat dirty.",
+      "disliked": "The outdoor pool was somewhat dirty.",
+      "liked_context": "The landscaped outdoor area and the entertainment.",
+      "country": "Spain",
+      "stay_type": "Family",
+      "disliked_word_count": 4
+    },
+    {
+      "review_date": "2024-08-18",
+      "rating": 9.0,
+      "language": "pt",
+      "title": "Superb",
+      "complaint_text": "Disliked: The internet was really very poor.",
+      "disliked": "The internet was really very poor.",
+      "liked_context": "The meals, the friendliness of the staff and the pool.",
+      "country": "Portugal",
+      "stay_type": "Couple",
+      "disliked_word_count": 6
+    }
+  ],
+  "complaint_metadata": {
+    "total_reviews_in_window": 43,
+    "total_reviews_with_disliked": 21,
+    "share_reviews_with_disliked": 0.4883720930232558,
+    "total_substantive_complaints_available": 19,
+    "total_complaints_selected": 19,
+    "selection_strategy": "Complaint-focused diagnostic sampling. Only reviews with substantive content in review_text_disliked are eligible. Complaints are ranked by lower rating, longer disliked text and recency.",
+    "interpretation_warning": "Selected complaints are diagnostic evidence and are not representative of the complete review distribution. Prevalence should be assessed using the full review-window metadata and managerial evidence."
+  }
+}

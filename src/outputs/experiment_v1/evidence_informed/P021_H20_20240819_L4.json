@@ -1,0 +1,282 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Multiple consistent complaints about bathroom condition (dilapidated/corroded bathtubs, lack of shelves/hooks, noisy fans) combined with several safety-relevant accessibility reports (high/difficult bathtubs, many stairs, elevator entrapment) and persistent room-comfort issues (very uncomfortable beds, thin walls, noisy AC) create a concentrated operational and safety vulnerability. These occur despite clear strengths (location, staff, cleanliness), so risk to guest experience and potential safety exposure is elevated and requires urgent attention.",
+  "executive_summary": "Preserve strengths (location, friendly staff, cleanliness, breakfast) while urgently addressing safety-relevant bathroom and access issues and fixing room-comfort frictions. Priorities: (1) inspect and remediate bathroom safety/fixtures, (2) review and mitigate accessibility/elevator risks and clarify building layout to guests, (3) address room comfort (beds, soundproofing, AC), (4) remedy missing/basic in-room fixtures (towel hooks, shelves, mini-fridge expectations), (5) improve pre-arrival communication and room-assignment transparency. Several items require technical/maintenance assessment before capital decisions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition & safety",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Frequent guest reports of corroded/dilapidated bathtubs, unsafe/high bathtubs, lack of bathroom shelves/towel hooks, noisy fans and other bathroom faults; topic flagged as emerging negative and identified as violated expectation.",
+      "recommended_action": "Immediate safety assessment of bathtubs/showers (slip/trip risk and corrosion), inspection of bathroom fixtures (shelves, towel hooks, lighting, fan noise) and quick remediation of the most hazardous defects. If inspection suggests structural or capital work is required, commission a detailed maintenance/engineering assessment and prioritize rooms most-used by guests for temporary closure or remedial work until safe.",
+      "rationale": "Bathroom topic has strong negative evidence (12 negative, 3 positive mentions), is an emerging negative with violated expectations and direct safety implications (high/unsafe bathtubs reported). Several recent reviews describe corroded tubs, unsafe/high bathtubs and missing hooks/shelves indicating both safety and usability failures requiring prompt action.",
+      "supporting_evidence": [
+        "2024-08-04: 'The bathtub is high and unsafe and had some stains on it!'",
+        "2024-08-01: 'Dilapidated bathtub... Bathroom without shelves to place toiletries and without towel hooks.'",
+        "2024-08-17: 'the bathtub was corroded by rust; the bathroom bulb would sometimes go out by itself; very noisy bathroom fan.'",
+        "2024-08-23: 'the bathroom—seemed to be falling to pieces... terrible.'",
+        "2024-08-07: 'Poor cleanliness of the room; I found hairs stuck to the shower on our arrival.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests reported rooms that 'looked renovated' (2024-08-19) and general praise for cleanliness across many reviews.",
+        "Cleanliness and housekeeping are overall a clear strength in managerial evidence (23 positive vs. 5 negative mentions)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 12,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: slippery bathtub/shower",
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "EXPECTATION_VIOLATION_RATIO = 1.0"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Accessibility, stairs and elevator safety/clarity",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Multiple reports of many stairs/no elevator for rooms/apartments, trapped guests in elevator, and guests being assigned rooms in separate buildings/floors without clear pre-arrival notice — a cluster of accessibility and safety concerns.",
+      "recommended_action": "Immediately review guest-facing information about building layout, floors, and elevator availability. Conduct an operational safety check of elevators (including recent entrapment report) and stair access; if safety defects are found, take remedial action and communicate alternative arrangements to affected guests. Update pre-arrival communications to state clearly when rooms are in a separate building or on upper floors without elevator access.",
+      "rationale": "Several recent complaints describe guests having to climb multiple flights of stairs (including assignments to 5th floor without elevator), a 12-minute elevator entrapment, and general accessibility hardship; safety and guest-experience implications are immediate. Clear corrective steps include safety checks plus improved communication to reduce expectation violations.",
+      "supporting_evidence": [
+        "2024-08-19: 'apartments are located in a separate building 5 minutes away... we found we were at the 5th floor (with no elevator!!).' ",
+        "2024-08-23: 'you have to climb three flights of stairs with no elevator... I really don't recommend it.'",
+        "2024-08-12: 'We were trapped in the elevator for 12 minutes. Very old.'",
+        "2024-08-04: 'Many stairs, accessibility terrible!'",
+        "2024-08-17: 'no elevator from the ground floor and the one that exists is tiny.'"
+      ],
+      "positive_counterevidence": [
+        "Location and accessibility is a clear strength overall (57 positive vs. 3 negative mentions) — the hotel is centrally located and guests value that.",
+        "Staff received praise for helpfulness in managing situations (e.g., 2024-08-19 'The girl at the reception did a great job')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 57,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: entrance stairs",
+          "complaint examples of elevator entrapment",
+          "EXPECTATION_VIOLATION_RATIO = 1.0"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Room comfort (beds, soundproofing, air conditioning, floor condition)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Repeated guest complaints about uncomfortable beds, sofa beds not as booked, noisy or thin walls (poor soundproofing), sloping/noisy floors, and noisy air conditioning reducing sleep quality and satisfaction.",
+      "recommended_action": "Conduct a room-level survey/report to identify rooms with the worst bed comfort, floor damage, and AC noise. Prioritize replacement/repair of mattresses or sofa-bed mechanisms where feasible and implement simple soundproofing mitigations (door sweep, soft furnishings) where possible. For AC noise or faulty units, schedule maintenance service. If scope of repairs or replacements is large, commission cost/scoping assessment.",
+      "rationale": "Room comfort shows consistent negative mentions (13 negative, 8 positive) across multiple weeks; complaints include uncomfortable beds, sofa bed short/not as booked, noisy floors and thin walls—these affect the core sleep experience and were explicitly mentioned in multiple low-rating reviews.",
+      "supporting_evidence": [
+        "2024-08-04: 'Extremely uncomfortable bed! ... no soundproofing — the ad is nonsense!'",
+        "2024-08-01: 'No mini-fridge in the room. ... Sloping floor. ... Room with no soundproofing.'",
+        "2024-08-21: 'We booked with one double bed, and 2 sofa beds... we had on sofa bed short.'",
+        "2024-08-17: 'noisy air conditioning, its noise woke me from sleep; very thin walls, I could hear music coming from the adjacent room.'",
+        "2024-07-31: 'Our room was very dated and needed repairs to the floor.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests reported 'comfortable and clean room' and specific apartments that 'looked renovated' (2024-07-31, 2024-08-19).",
+        "Cleanliness and staff remain strong which can mitigate some discomfort during resolution."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 8,
+        "negative_mentions": 13,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "Room comfort managerial evidence: negative_share 0.619",
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "EMOTION_ENTROPY increasing (emotional heterogeneity)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "In-room/basic amenities (towel hooks, shelves, mini-fridge) and fixture completeness",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report missing basic bathroom fixtures (towel hooks, shelves), lack of mini-fridge/minibar in rooms where expected, and inadequate small amenities (trash bin, tissue placement, sink shelf). This creates expectation gaps and reduced perceived value.",
+      "recommended_action": "Perform an amenities inventory across room types to identify missing basic fixtures (towel hooks, shelves, trash bins, tissue placement). Provide a prioritized remediation list for quick fixes (install hooks/shelves) and update room descriptions to reflect amenity presence/absence. If some amenity gaps are intentional (cost/room-type decisions), ensure booking channels clearly communicate what is included.",
+      "rationale": "In-room amenities appear as an emerging negative (4 negative, 1 positive) and are tied to expectation violations (guests expecting a mini-fridge or basic bathroom fixtures). Many of these interventions are low-to-moderate cost and can be completed quickly, or alternatively clarified in guest information.",
+      "supporting_evidence": [
+        "2024-08-01: 'No mini-fridge in the room... Bathroom without shelves to place toiletries and without towel hooks.'",
+        "2024-08-21: 'ants in the flat, coming from the balcony. ... Spacious apartment with AC, fridge and all essentials' (evidence of inconsistency across units).",
+        "Managerial evidence: in-room amenities: 5 mentions (1 positive, 4 negative) and flagged emerging_negative."
+      ],
+      "positive_counterevidence": [
+        "At least one apartment was reported as having a fridge and essentials (2024-08-21), indicating variability across units rather than uniform absence.",
+        "Cleanliness and staff strengths may reduce friction while amenities are addressed."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "In-room amenities managerial evidence: emerging_negative_week = 1",
+          "Guest comments citing missing mini-fridge and missing bathroom hooks/shelves"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Pre-arrival communication and room-assignment transparency",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests experienced unexpected room assignments (separate building, upper floors without elevator), inconsistent check-in treatment and unhelpful/automated pre-arrival messages that did not respond to inquiries — creating strong expectation violations.",
+      "recommended_action": "Review pre-arrival messaging, reservation notes and check-in procedures to ensure (a) guests are informed in advance if their room is in a separate building or on upper floors without elevator, (b) automated messages include clear contact instructions for urgent pre-arrival queries and (c) front-desk check-in practices are consistent. Consider a short process audit of reservation-to-check-in handoff and OTA listing accuracy for room photos/descriptions.",
+      "rationale": "Several moderate-to-low rated reviews describe being told very late about room location in a separate building and inconsistent check-in access (one guest denied early check-in while another allowed early), plus automated messages that did not answer specific questions. These are operational/policy failures that increase expectation-violation ratio and guest dissatisfaction and can be mitigated through communication/process fixes.",
+      "supporting_evidence": [
+        "2024-08-19: 'We booked the apartment months ahead and received only few days before checking in the information that the apartments are located in a separate building 5 minutes away... we received an automatic message with no reply to our question.'",
+        "2024-08-04: 'We returned to check in and the receptionist asked us to wait... a French couple arrived and they were allowed to check in immediately!'",
+        "2024-08-07: 'room not ready even though I had requested it and had received a confirmation message to that effect.'",
+        "2024-08-18 & 2024-08-01: multiple mentions that photos did not match reality or that rooms differed from booking expectations."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise the reception staff for helpfulness when present (e.g., 2024-08-19 'The girl at the reception did a great job'), suggesting staff can mitigate some communication gaps.",
+        "Location strength reduces some friction tied to late changes in room location."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "EXPECTATION_VIOLATION_RATIO = 1.0",
+          "Selected complaint examples describing late notification of separate building/5th-floor assignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Extremely strong positive evidence (57 positive vs. 3 negative mentions) and many reviews highlight central position and convenience.",
+      "management_implication": "Continue to emphasize and preserve central location in communications and marketing; ensure operational changes (e.g., building assignments) do not reduce perceived central convenience."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "High positive share (25 positive vs. 3 negative); multiple reviews single out helpful, friendly reception staff.",
+      "management_implication": "Preserve staff training/recognition and ensure staff are empowered to mitigate guest issues (e.g., communicate building layout, assist with stairs)."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Predominantly positive (23 positive vs. 5 negative) with consistent praise across weeks.",
+      "management_implication": "Maintain current housekeeping standards and investigate isolated reports (ants, hairs) as operational exceptions rather than systemic failures."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "Generally positive mentions (14 positive vs. 2 negative).",
+      "management_implication": "Preserve breakfast quality and variety as a differentiator while monitoring guest comments on freshness/quality."
+    },
+    {
+      "area": "Price–value",
+      "reason": "Mostly positive mentions and contributes to guest satisfaction for many visitors.",
+      "management_implication": "Retain current value positioning but ensure amenities and descriptions align with the value proposition communicated to guests."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Share of reviews mentioning bathroom defects (bathtub corrosion, lack of hooks/shelves, noisy fan)",
+      "reason": "Directly tracks persistence or improvement of the top-priority bathroom safety/usability issue.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Number of complaints referencing stairs/elevator access or trapped elevator incidents",
+      "reason": "Monitors accessibility and elevator-safety complaints flagged as urgent.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Share of reviews citing bed comfort/soundproofing/AC noise",
+      "reason": "Tracks core sleep-experience friction affecting room comfort priority.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Incidents of pre-arrival/reservation complaints about building assignment or incorrect room description",
+      "reason": "Measures effectiveness of communication/booking-process fixes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_VIOLATION_RATIO and PERC_REVIEWS_NEGATIVE",
+      "reason": "High-level indicators showing whether expectation violations and overall negative share are changing after interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint sample is diagnostic and not statistically representative of the full review population; prevalence should be assessed using the full window metadata.",
+    "Evidence identifies problems but does not specify technical scope or costs (e.g., whether bathtubs require minor repair or full replacement) — assessments/inspections are required before capital decisions.",
+    "Some issues (amenity variability across units) suggest heterogeneity across room types; remediation scope should be determined by an inventory and unit-level inspection.",
+    "Cannot infer causal effects on revenue or occupancy from the review evidence; business-metric reversals (recent_reversal flags) are acknowledged but not causally linked to specific complaints.",
+    "Guest-suggested remedies present in reviews were treated as evidence of expectation/friction only and were not adopted wholesale as managerial solutions without broader supporting evidence."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P021",
+    "case_id": "H20_20240819_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:07:25.835730+00:00",
+    "finished_at_utc": "2026-09-08T16:08:21.911079+00:00",
+    "elapsed_seconds": 56.067
+  }
+}

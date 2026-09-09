@@ -1,0 +1,575 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P003",
+  "case_information": {
+    "case_id": "H189_20240318_L4",
+    "decision_week": "2024_W12",
+    "decision_date": "2024-03-18",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 55.220789563567365,
+        "REVPOR_WEEK": 104.3082935483871,
+        "TREVPAR_WEEK": 55.220789563567365,
+        "TAXA_OCUPACAO": 70.58823529411765,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 9.444444444444445,
+        "SENTIMENT_SCORE_AVG": 0.5153846153846154,
+        "SENTIMENT_SCORE_STD": 0.55654612544118,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.05625,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.03125,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.198183947911799,
+        "EXPECTATION_SHARE": 0.1111111111111111,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 55.55555555555556,
+        "PERC_OPERATIONAL_COMPLAINTS": 50.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8888888888888888,
+        "COMPLEXITY_INDEX": 2.440740012442588,
+        "SENTIMENT_TREND_SLOPE": 0.0014266155206542
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 60.92883840000001,
+        "REVPOR_WEEK": 99.35344960000002,
+        "TREVPAR_WEEK": 61.64106131764706,
+        "TAXA_OCUPACAO": 86.5546218487395,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.88888888888889,
+        "SENTIMENT_SCORE_AVG": 0.5142857142857143,
+        "SENTIMENT_SCORE_STD": 0.625642526870234,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.8631205685666311,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 22.22222222222222,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.6666666666666666,
+        "COMPLEXITY_INDEX": 1.9745845904398347,
+        "SENTIMENT_TREND_SLOPE": 0.0014266155206542
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 51.15754823529412,
+        "REVPOR_WEEK": 95.96209,
+        "TREVPAR_WEEK": 53.28465117647059,
+        "TAXA_OCUPACAO": 63.02521008403361,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.2,
+        "SENTIMENT_SCORE_AVG": 0.5428571428571428,
+        "SENTIMENT_SCORE_STD": 0.5826867164470197,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.05,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.05,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.1488348542809168,
+        "EXPECTATION_SHARE": 0.1,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 20.0,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8,
+        "COMPLEXITY_INDEX": 2.9253892096207683,
+        "SENTIMENT_TREND_SLOPE": 0.0014266155206542
+      },
+      {
+        "WEEK_YEAR": "2024_W12",
+        "week_date": "2024-03-18",
+        "REVPAR_WEEK": 43.294179452054806,
+        "REVPOR_WEEK": 109.72289726027398,
+        "TREVPAR_WEEK": 45.13031224818696,
+        "TAXA_OCUPACAO": 56.30252100840336,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 8.75,
+        "SENTIMENT_SCORE_AVG": 0.25,
+        "SENTIMENT_SCORE_STD": 0.5890670590009257,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.2666666666666666,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.3999999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.459147917027245,
+        "EXPECTATION_SHARE": 0.5,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.5,
+        "PERC_REVIEWS_NEGATIVE": 75.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5,
+        "COMPLEXITY_INDEX": 2.6729950525791284,
+        "SENTIMENT_TREND_SLOPE": 0.0014266155206542
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-03-23",
+        "rating": 10.0,
+        "liked": "The hotel is nice and clean, with some spa facilities. Breakfast was alao fresh and good.",
+        "disliked": "-",
+        "country": "Romania",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-21",
+        "rating": 8.0,
+        "liked": "It's a nice hotel with a solid breakfast, and the location is excellent. There's some parking if you have a rental. The pool and hot tub are great for relaxing after a day of hiking. The staff is very friendly.",
+        "disliked": "The beds could be a bit more comfortable, but that's preference. I also didn't think it was fair to charge 4 Euros a day for using a safe (although the place is secure).",
+        "country": "Canada",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-21",
+        "rating": 8.0,
+        "liked": "The pleasant setting",
+        "disliked": "The restaurant, a pity: no charm compared to the character of the hotel.",
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-19",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ukraine",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 9.0,
+        "liked": "Modern furnishings. Nice and friendly staff. Great features, like a bar with a view of the beach and a whirlpool.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 9.0,
+        "liked": "Fantastic location, amazing atmosphere, proximity to the ocean and the vertical cliffs hanging above it. Close to many restaurants, a shop, as well as cafes and pastry shops.",
+        "disliked": "High humidity caused by the proximity of the rough ocean. The ocean at night is indeed loud, but it has its own atmosphere.",
+        "country": "Poland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 8.0,
+        "liked": "The hotel's café music was unbearable, too loud and too late. Electrical equipment in the room overloaded a socket. Broken blind. No slippers to go to the jacuzzi.",
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-14",
+        "rating": 10.0,
+        "liked": "Location directly on the beach. View of the sea from the room and balcony. There is a hotel bar with a top view; many good restaurants are right nearby. The best base for getting to know the north coast of Madeira at an excellent price/performance ratio.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-13",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Poland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-12",
+        "rating": 10.0,
+        "liked": "\"This hotel was an absolute shock for the price. Everything felt so premium, from the kindness of the staff that gave us a very nice room, with ocean view, to the pool and jacuzzi, also with ocean view. There's an amazing rooftop bar, a children's playground, a great restaurant, a lot of places to sit and relax. The room is extremely cosy, with bright colors. There's also a minibar in the room and some bathrobes are available. A market is located downstairs, with some great local beers. All other restaurants are minutes away. A lot of parking spaces are available in front of the hotel, in the street or the small parking lot. P.S. Try the \"\"Porto de abrigo\"\" bar",
+        "disliked": "next to the hotel. You won't regret it\"",
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-12",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Colombia",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-10",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-09",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Austria",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-09",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-08",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Austria",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-06",
+        "rating": 10.0,
+        "liked": "Hotel completely renovated, very clean and very nicely decorated. Very friendly and welcoming team. Very well located by the sea and very convenient for visiting the whole island.",
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-06",
+        "rating": 9.0,
+        "liked": "Lovely clean room. Comfortable bed. Friendly receptionist.",
+        "disliked": "Bright exterior lighting just outside our window was left on all night, so our room wasn't dark. Kept waking up thinking it was morning.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Occupancy (-20%) and RevPAR (-22%) have fallen over the 4-week window and average rating declined modestly (-7%). Most reviews remain highly positive about location, staff, cleanliness and facilities, but there are specific operational and maintenance issues (electrical socket overload, broken blind, noise/lighting complaints) that pose reputational and potential safety risk if not addressed promptly.",
+    "executive_summary": "The hotel retains strong assets (beachfront location, sea views, friendly staff, clean renovated rooms, pool/jacuzzi and good breakfast) that drive high guest satisfaction. Top priorities are addressing maintenance and electrical-safety issues, improving guest sleep comfort (noise and exterior lighting), resolving amenity/comfort concerns (beds, slippers, safe charging policy), and improving the restaurant F&B offering. Parallel short-term actions to stabilise guest experience and a targeted review solicitation/response program should be implemented to protect revenue and ratings.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Maintenance & electrical safety",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guest report of electrical equipment overloading a socket and a broken blind indicate room-level maintenance defects and a potential electrical safety hazard.",
+        "recommended_action": "Immediately schedule an electrical safety check of all guest rooms and common-area sockets. Repair/replace any faulty sockets and damaged blinds. Institute an inspection checklist for room turn-down and maintenance rounds to catch hazards before guests arrive. Log corrective actions and any incidents.",
+        "rationale": "An overloaded socket is a tangible safety hazard; repairing sockets and blinds reduces risk, protects guests and avoids potential incident-driven reputational damage.",
+        "supporting_evidence": [
+          "Review: \"Electrical equipment in the room overloaded a socket. Broken blind.\" (2024-03-15)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Sleep quality — noise and exterior lighting",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Guests reported late, loud café music and exterior lighting left on all night; another noted loud ocean noise and high humidity affecting sleep.",
+        "recommended_action": "Implement and enforce an on-premise entertainment curfew/maximum volume policy for the café/bar (communicate to staff and guests). Audit exterior lighting and adjust/timer lights so rooms are dark overnight while maintaining safety lighting where needed. Offer practical mitigations to guests (earplugs, blackout curtains/ensure functioning blinds, dehumidifiers or AC settings) and add this info to pre-arrival communications.",
+        "rationale": "Sleep disturbance directly affects guest satisfaction and ratings; low-effort mitigations (volume policy, lighting timers, earplugs, functioning blackout) can quickly improve reviews.",
+        "supporting_evidence": [
+          "Review: \"The hotel's café music was unbearable, too loud and too late.\" (2024-03-15)",
+          "Review: \"Bright exterior lighting just outside our window was left on all night, so our room wasn't dark.\" (2024-03-06)",
+          "Review: \"High humidity caused by the proximity of the rough ocean. The ocean at night is indeed loud...\" (2024-03-17)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Guest comfort & amenity policy (beds, slippers, safe fee)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Some guests noted mattress comfort issues and lack of slippers for the jacuzzi; one guest complained about a 4 EUR/day safe charge that felt unfair.",
+        "recommended_action": "Audit mattresses for wear and develop a replacement or rotation plan (prioritise worst rooms). Provide complimentary slippers or clarify robe/slipper availability for pool/jacuzzi users. Review safe-fee policy and communication: either include safe in room rate or ensure the charge is clearly stated at booking and reception; consider removing the fee if it harms guest perception.",
+        "rationale": "Addressing mattress condition and small amenity gaps improves perceived value and reduces avoidable complaints. Clear, fair pricing for safes prevents negative guest sentiment.",
+        "supporting_evidence": [
+          "Review: \"The beds could be a bit more comfortable...\" (2024-03-21)",
+          "Review: \"No slippers to go to the jacuzzi.\" (2024-03-15)",
+          "Review: \"I also didn't think it was fair to charge 4 Euros a day for using a safe...\" (2024-03-21)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 4,
+        "area": "Restaurant & F&B experience",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "operational",
+        "problem": "At least one guest felt the restaurant lacked the charm that matches the hotel's character, despite several mentions of a solid breakfast.",
+        "recommended_action": "Gather targeted feedback from recent guests about dinner/restaurant expectations and run a short review of menu, presentation and ambience. Consider modest service or décor changes to align the restaurant's atmosphere with the hotel's character; promote the strong breakfast offering while improvements are planned.",
+        "rationale": "F&B is a recurring element of guest experience; improving restaurant character and alignment with hotel ambience can raise satisfaction and ADR potential.",
+        "supporting_evidence": [
+          "Review: \"The restaurant, a pity: no charm compared to the character of the hotel.\" (2024-03-21)",
+          "Multiple reviews praising \"solid breakfast\" and “good breakfast.”"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 5,
+        "area": "Reputation management & review volume",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "monitoring",
+        "problem": "Number of reviews in the window available to the system declined (-55.6% reported N_REVIEWS), and average rating decreased slightly. Sustaining high ratings and review flow is important for visibility and bookings.",
+        "recommended_action": "Implement a structured post-stay review solicitation (email/SMS), ensure timely responses to reviews (thank positives, address issues), and highlight consistent strengths (location, staff, cleanliness, pool, rooftop bar, breakfast) in marketing to convert satisfied guests into reviews. Track review volume and sentiment weekly.",
+        "rationale": "Boosting review counts and addressing negative themes quickly helps protect search positioning and future bookings.",
+        "supporting_evidence": [
+          "Basic performance: N_REVIEWS decreased from 9 to 4 (−55.6%) and AVG_RATING fell from 9.44 to 8.75.",
+          "Many recent guest comments are highly positive and can be leveraged for review campaigns."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.7
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Beachfront location & sea views",
+        "reason": "Repeatedly cited as 'fantastic location', direct beach access, sea view from rooms and balcony — a principal differentiator.",
+        "management_implication": "Continue promoting rooms with sea views, maintain rooftop bar and viewpoints; avoid changes that reduce view/access."
+      },
+      {
+        "area": "Friendly, welcoming staff",
+        "reason": "Multiple reviews praise staff as 'very friendly' and 'welcoming', contributing strongly to high ratings.",
+        "management_implication": "Preserve through ongoing staff training, recognition programs and staffing levels that maintain service quality."
+      },
+      {
+        "area": "Clean, renovated rooms and attractive decor",
+        "reason": "Guests note recent renovation, cleanliness and modern furnishings as positive attributes.",
+        "management_implication": "Maintain housekeeping standards and planned maintenance to keep décor fresh."
+      },
+      {
+        "area": "Pool, jacuzzi and rooftop bar",
+        "reason": "Pool, hot tub and rooftop bar with ocean views are repeatedly mentioned as highlights.",
+        "management_implication": "Ensure these facilities remain well maintained, clean and operational; manage pool-area amenities (slippers/robes) for guest convenience."
+      },
+      {
+        "area": "Breakfast quality and parking availability",
+        "reason": "Breakfast described as 'solid' and 'good'; parking availability is noted as convenient for guests with rental cars.",
+        "management_implication": "Preserve breakfast standards and clearly communicate parking options to guests."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Weekly number of guest reviews received",
+        "reason": "Tracks recovery or further decline in guest feedback volume and visibility.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Average guest rating (weekly rolling average)",
+        "reason": "Monitors changes in perceived quality following interventions.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Count of maintenance/safety incidents reported (monthly)",
+        "reason": "Detect trends in room-level defects (electrical, blinds, sockets) and assess effectiveness of maintenance program.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of sleep-related complaints (noise/light) per week",
+        "reason": "Directly measures the impact of noise/lighting interventions on guest sleep quality.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Occupancy and RevPAR (weekly)",
+        "reason": "Tracks commercial performance and whether service/quality fixes correlate with revenue recovery.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the supplied review texts and hotel performance metrics; no additional property inspection or operational data were available.",
+      "Provided review sample contains 20 recent reviews out of 32 available in the window; conclusions rely on these texts and the summarised performance indicators.",
+      "Cannot attribute causality between guest reviews and observed changes in occupancy or RevPAR using the supplied data."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business metrics and experience signals show contemporaneous weakening (REVPAR, occupancy, sentiment down) and clear increases in expectation–experience gaps and semantic misalignment. However many operational areas (staff, breakfast, cleanliness, spa/pool) are strongly positive, and most complaints are isolated rather than systemic. The net profile is moderate risk requiring targeted corrective actions rather than broad emergency measures.",
+    "executive_summary": "Prioritize (1) urgent inspection and remediation of the reported bathroom leakage/shower screen (safety & guest comfort); (2) review restaurant/rooftop ambience relative to the hotel's character to address recurring expectation friction; (3) review guest-facing messaging, fee descriptions and amenity inclusions to reduce growing expectation–experience misalignment; (4) address night-time exterior lighting and other controllable sleep disturbances. Preserve strengths in staff service, breakfast, cleanliness and leisure facilities while monitoring expectation and sentiment metrics closely.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shower screen / water leakage)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guest report of shower screen that is too short/fixed and causes bathroom flooding (water leakage). This is an emerging negative topic and may cause slip/mold/damage if persistent.",
+        "recommended_action": "Arrange an immediate inspection of the room(s) cited for shower screen fit and water leakage. If leakage is confirmed, perform repairs or containment (e.g., shower screen/door adjustment, sealant) and document remediation. Log affected room(s) and monitor for recurrence in subsequent reviews. Communicate completed fix to recent guests where appropriate.",
+        "rationale": "Concrete complaint (2024-03-03) describes shower screen design causing bathroom to fill with water; managerial evidence flags 'bathroom water leakage' as an emerging negative with net-negative pattern. Potential guest safety/comfort and room damage risk justify prompt inspection and remediation.",
+        "supporting_evidence": [
+          "Managerial evidence: Bathroom condition — review_mentions_total:1, negative_mentions:1; matched_topics include 'bathroom water leakage' and 'shower screen'.",
+          "Complaint 2024-03-03: 'the shower screen is fixed and short and fills the bathroom with water.'",
+          "Latest_context: 'emerging_negative_topic' includes 'hotel charm', 'restaurant ambiance', 'security' and managerial evidence flags bathroom as emerging negative."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Restaurant and rooftop bar ambience (alignment with hotel character)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Some guests perceive the restaurant/rooftop bar ambience as lacking the 'charm' or character they expect from the hotel; expectation violation is flagged despite predominantly positive experience mentions.",
+        "recommended_action": "Review restaurant/rooftop guest feedback and the on-property guest experience (ambience, décor, music, service cues) to identify specific mismatches with the hotel's marketed character. Convene a short cross-functional review (F&B manager, general manager, marketing) to determine whether operational changes, staff cues, or small ambience adjustments can better align the experience. If scope is unclear, commission a targeted assessment (audit of ambience and guest flow) before committing to capital changes.",
+        "rationale": "Managerial evidence shows 'Restaurant and bar' is predominantly positive (7 positive / 1 negative) but flagged as 'positive_with_friction' with expectation violation and emerging negative signal. Complaint 2024-03-21 explicitly: 'The restaurant, a pity: no charm compared to the character of the hotel.' Preserving the underlying strength (positive mentions and rooftop bar praise) suggests targeted adjustments rather than wholesale replacement.",
+        "supporting_evidence": [
+          "Managerial evidence: Restaurant and bar — review_mentions_total:8 (positive:7, negative:1), has_expectation_violation: true, is_emerging_negative: true.",
+          "Complaint 2024-03-21 (fr): 'The restaurant, a pity: no charm compared to the character of the hotel.'",
+          "Complaint 2024-03-12 praising rooftop bar and restaurant facilities indicates positive counterevidence exists."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 3,
+        "area": "Expectation alignment: guest-facing messaging, fee descriptions and amenity inclusions",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Rising expectation–experience gap and semantic misalignment indicate guests increasingly find actual offerings or fees inconsistent with their expectations (examples: charge for safe, expected jacuzzi slippers, comments about bedding and amenities).",
+        "recommended_action": "Conduct a focused review of reservation and marketing copy, room/amenity descriptions, and fee disclosures (e.g., safe charges, included amenities like slippers or bathrobes). Identify where wording may create inflated expectations and update descriptions or clearly disclose fees/inclusions. Consider a small on-property checklist to ensure advertised amenities are consistently delivered. If unclear whether policy or operational change is required, perform a short evaluation of guest communications and front-desk procedures.",
+        "rationale": "Experience indicators show an increasing EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG. Complaint examples cite perceived unfair fees ('4 Euros a day for using a safe'), amenity expectations ('slippers for the jacuzzi'), bedding material concerns, and other small mismatches. Reducing expectation mismatch is aligned with improving sentiment and lowering negative review share.",
+        "supporting_evidence": [
+          "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG increasing (0.0563 -> 0.2667); SEMANTIC_MISALIGNMENT_SCORE_AVG increasing (0.0312 -> 0.4).",
+          "Complaint 2024-03-21: 'I also didn't think it was fair to charge 4 Euros a day for using a safe.'",
+          "Spa/pool managerial evidence: 'slippers for the jacuzzi (amenity expected)'.",
+          "Other complaints referencing bedding type and expectations (synthetic bedding, bed comfort)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 4,
+        "area": "Night-time exterior lighting and controllable sleep disturbances",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guest reports of bright exterior lighting outside windows causing sleep disruption; ocean proximity and humidity/noise noted by guests as atmospheric but sometimes bothersome. Lighting is a controllable factor that can improve guest sleep experience.",
+        "recommended_action": "Inspect exterior lighting adjacent to guest rooms for fixtures that can be redirected, dimmed, or scheduled to turn off during night hours. Audit room blackout capability (blinds/curtains) and repair any inoperable blinds/blackout curtains (complaint 2024-03-03 noted a non-working window blind). Consider providing guidance at check-in about room orientation and potential night noise, and offer practical room-level mitigations (e.g., temporary eye masks) while longer-term fixes are implemented.",
+        "rationale": "Complaint 2024-03-06 reports exterior lighting left on all night causing wakefulness; another complaint mentions ocean noise/humidity. Exterior lighting is actionable through maintenance and may materially improve guest sleep and sentiment without large capital expenditure.",
+        "supporting_evidence": [
+          "Complaint 2024-03-06: 'Bright exterior lighting just outside our window was left on all night, so our room wasn't dark.'",
+          "Complaint 2024-03-03: 'The window blind didn't work' (reduces ability to block light).",
+          "Complaint 2024-03-17: 'High humidity... The ocean at night is indeed loud, but it has its own atmosphere.' (context on noise/humidity)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Consistently strong positive mentions (11 positive, 0 negative) across all weeks; guests repeatedly cite staff friendliness and helpfulness.",
+        "management_implication": "Preserve current staffing/service standards; use staff as an ally when communicating amenity inclusions and addressing expectation issues."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "High positive share (6 positive mentions, 0 negative); guests praise breakfast quality and attentive service.",
+        "management_implication": "Maintain breakfast quality and staffing; feature breakfast as a stable strength in guest communications."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Strong positive evidence (6 positive mentions, 0 negative).",
+        "management_implication": "Sustain housekeeping processes and standards; leverage this in communications when addressing expectation alignment."
+      },
+      {
+        "area": "Spa and pool (including rooftop leisure areas)",
+        "reason": "High positive mentions (8 positive, 0 negative) though with a small expectation friction about slippers for the jacuzzi.",
+        "management_implication": "Keep spa/pool operations and guest experience consistent; consider small amenity adjustments if they align with guest expectations and costs."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Primary quantitative signal of growing expectation misalignment that motivated policy/process review.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Tracks lexical misalignment between guest expectations and experience; relevant to restaurant and amenity messaging issues.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG and PERC_REVIEWS_NEGATIVE",
+        "reason": "Overall guest sentiment and share of negative reviews reflect the success of remedial actions.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Logged bathroom leakage recurrence (internal defect log)",
+        "reason": "Direct operational indicator to confirm remediation success and scope of maintenance issue.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "Guest reports about restaurant ambience (qualitative) and rooftop bar sentiment",
+        "reason": "To verify whether any ambience adjustments reduce expectation friction without harming positive elements.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "The complaint sample is diagnostic and not statistically representative of all guests; prevalence of issues should be validated against the full review set.",
+      "Evidence identifies problems but does not determine appropriate technical solutions or costs; where scope is unclear the recommendations call for assessment rather than specifying interventions.",
+      "The 'security' mention appears in the latest_context emerging negatives list but is not supported by specific complaint text in the selected samples; further investigation is required before action.",
+      "Trend signals (REVPAR, sentiment, expectation gap) show directionality but do not establish causality between specific complaints and business performance."
+    ]
+  }
+}

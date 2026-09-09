@@ -1,0 +1,157 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Customer ratings are strong and improving (AVG_RATING +12.5%) and many reviews praise rooms, beds, staff and free parking. However, commercial metrics show meaningful declines in revenue metrics (REVPAR -12.2%, REVPOR -11.0%, TREVPAR -13.9%) despite occupancy increasing (+7.7%), and multiple reviews flag breakfast and a small number raise operational issues (in-room noise, minor cleanliness). These mixed signals create a moderate operational and commercial risk that warrants prioritized managerial action.",
+  "executive_summary": "Hotel Moutados is receiving very good guest ratings and frequent praise for core product elements (comfortable beds, new bathrooms, cleanliness, friendly staff and free parking). At the same time revenue-per-available metrics have fallen by ~11–14% over the lookback period while occupancy has risen, suggesting a revenue mix or pricing issue. The most frequent guest concern in recent reviews is breakfast variety/choice; isolated but impactful operational issues (in-room equipment/noise, one small carpet cleanliness comment) were also reported. Priorities: 1) review revenue management/pricing and distribution, 2) address breakfast offer and presentation, 3) fix in-room equipment/control and night-noise issues, 4) tighten housekeeping/detail quality control. Preserve the hotel’s strengths (beds, bathrooms, staff, parking, cleanliness) while monitoring relevant indicators.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Revenue management / commercial performance",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "capital_assessment",
+      "problem": "REVPAR, REVPOR and TREVPAR have declined ~11–14% over the window while occupancy increased ~7.7%, indicating revenue per room and ancillary revenue are falling even as rooms sell.",
+      "recommended_action": "Initiate an immediate commercial review: analyze rate/ADR and channel mix (OTAs, direct, corporate), length-of-stay and segments, and ancillary revenue streams. Convene revenue manager/GM to test rate adjustments, targeted packages, and promotion of paid services (restaurant, room upgrades). Monitor distribution costs and consider negotiating channel commissions or shifting marketing to higher-yield channels.",
+      "rationale": "Declining revenue metrics materially affect hotel profitability even with higher occupancy. A focused commercial review will identify whether lower rates, discounting, poor upsell performance or reduced ancillary spend are driving the fall.",
+      "supporting_evidence": [
+        "REVPAR_WEEK percentage_change: -12.165759564090138",
+        "REVPOR_WEEK percentage_change: -11.040411008597742",
+        "TREVPAR_WEEK percentage_change: -13.921853401728432",
+        "TAXA_OCUPACAO percentage_change: 7.6923076923076925"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast offering (quality / variety / presentation)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Multiple recent reviews mention breakfast being \"a bit light in terms of choice\" or express dissatisfaction, though some guests say breakfast was nice. The feedback is mixed but recurring.",
+      "recommended_action": "Perform a breakfast audit: review current menu items, portioning, replenishment frequency and guest flow. Gather quick guest feedback (short in-stay survey or comment cards) focused on breakfast preferences. Adjust menu/rotation to add a few higher-impact options (fruit, hot items, local specialties, vegetarian choices) and monitor food costs. Train breakfast staff on replenishment and presentation.",
+      "rationale": "Breakfast appears as a recurring theme in guest comments; improving perceived variety and availability can increase guest satisfaction and positive reviews at low-to-moderate cost.",
+      "supporting_evidence": [
+        "Review 2024-09-29 disliked: \"The breakfast is a bit light in terms of choice.\"",
+        "Review 2024-09-27 disliked: \"About the breakfast.\"",
+        "Review 2024-09-24 liked: \"Very nice breakfast.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "In-room equipment / night noise and guest control",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "At least one guest reported an in-room device (likely HVAC or fan) that could not be turned off and made a lot of noise, requiring reception to intervene at 2 a.m. This disturbed the guest’s sleep.",
+      "recommended_action": "Order an immediate maintenance inspection of in-room HVAC/ventilation and electrical controls to identify devices that cannot be controlled from the room. Implement a fast-fix protocol for any room where guests cannot control equipment (temporary manual control by staff or replacement). Instruct front desk staff to prioritize late-night technical complaints and document occurrences. Provide clear in-room instructions for controls and a visible night contact number.",
+      "rationale": "Night-time noise that cannot be controlled directly impacts guest sleep and satisfaction and can lead to late-night service calls and negative reviews. Fixing controls is a relatively contained maintenance action with high impact on guest experience.",
+      "supporting_evidence": [
+        "Review 2024-09-16 disliked: \"I couldn't turn it off despite the times I tried. Only after a call to reception at 2 a.m., when I lay down, was it turned off. Also, it makes a lot of noise when it's on.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "Housekeeping detail and small cleanliness issues",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "While many reviews praise cleanliness, at least one review noted a slightly dirty small entrance carpet. Small cleanliness/detail issues can undermine otherwise strong cleanliness perceptions.",
+      "recommended_action": "Reinforce housekeeping checklists with an emphasis on visible touchpoints (entrance carpet, entry mat, high-touch areas). Implement random housekeeping spot checks, weekly deep-clean schedule for carpets/mats and a feedback loop for front desk to report small defects. Share positive guest comments with staff to maintain motivation.",
+      "rationale": "Maintaining consistently high cleanliness down to small details preserves the high average rating and prevents escalation of minor issues into larger complaints.",
+      "supporting_evidence": [
+        "Review 2024-09-21 disliked: \"The small entrance carpet was slightly dirty, nothing major.\"",
+        "Multiple reviews praising cleanliness (e.g., 2024-09-27 liked: \"Cleanliness.\")"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Room comfort and bathrooms",
+      "reason": "Multiple reviews mention \"extremely comfortable bed\", \"completely new bathroom\", \"spacious and clean\" and large bathrooms.",
+      "management_implication": "Maintain standard of bedding and bathroom upkeep; continue any recent refurbishment standards and prioritize maintenance to preserve these differentiators."
+    },
+    {
+      "area": "Cleanliness",
+      "reason": "Several reviews explicitly praise cleanliness and rooms being clean.",
+      "management_implication": "Preserve housekeeping staffing levels, training and routines that deliver current cleanliness performance."
+    },
+    {
+      "area": "Staff friendliness and service",
+      "reason": "Reviews describe \"very pleasant staff\" and positive service (reception intervened on noise issue).",
+      "management_implication": "Continue staff customer-service training and recognize behaviors that drive positive guest comments; ensure staff empowerment for late-night issues."
+    },
+    {
+      "area": "Free parking and location",
+      "reason": "Guests noted \"Free parking\" and good walking distance to town as positives.",
+      "management_implication": "Keep parking policies and guest information about location advantages visible in marketing and on-property materials."
+    },
+    {
+      "area": "Overall guest satisfaction",
+      "reason": "Average rating improved from 8.0 to 9.0 and many 9–10 ratings in recent reviews.",
+      "management_implication": "Leverage high ratings in distribution and marketing; continue monitoring to sustain improvements."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR, REVPOR, TREVPAR (weekly)",
+      "reason": "Track commercial performance trends and assess effectiveness of revenue actions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Occupancy (weekly)",
+      "reason": "Monitor volume and assess mix against revenue metrics.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Average guest rating (AVG_RATING) and N_REVIEWS (weekly)",
+      "reason": "Monitor guest sentiment and volume of feedback; changes can signal service/product shifts.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of breakfast-related complaints / breakfast satisfaction score (per week)",
+      "reason": "Directly measure impact of breakfast changes on guest experience.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of in-room equipment / night-noise incidents reported (per month)",
+      "reason": "Measure frequency of disruptive technical issues and responsiveness.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Housekeeping spot-check pass rate (%)",
+      "reason": "Ensure small cleanliness details are maintained; provides operational control.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Review sample provided to the LLM is the 20 most recent of 34 available reviews; findings may not represent all guest feedback in the window.",
+    "Case data does not include ADR, channel mix, guest segmentation detail or cost structure—these are needed to diagnose revenue declines precisely.",
+    "Customer comments are qualitative and relatively few cite specific operational failures; some issues (e.g., noise) come from single reviews and require inspection/verification before large capital investment.",
+    "Recommendations assume management capacity to perform commercial analysis and maintenance actions; specific budget impacts are not provided in the case."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H345_20240923_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P008",
+    "case_id": "H345_20240923_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:49:23.814429+00:00",
+    "finished_at_utc": "2026-09-08T15:49:53.987538+00:00",
+    "elapsed_seconds": 30.174
+  }
+}

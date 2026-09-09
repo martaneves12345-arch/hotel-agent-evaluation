@@ -1,0 +1,175 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Recent reviews show recurring operational issues (breakfast quality/variety, room comfort, noise, parking access) that reduce guest satisfaction (avg rating ~7.4) even though occupancy rose. These issues are fixable but can harm repeat business and reputation if unchanged.",
+  "executive_summary": "Main guest concerns in the latest reviews are (1) limited/poor breakfast, (2) noise (traffic and neighboring guests), (3) bedding/mattress comfort, (4) parking location/distance from entrance, and (5) small rooms/poor room lighting. Management strengths to preserve include friendly staff, cleanliness, perceived value for money, recent modernization and free parking. Priorities should focus on operational fixes that can be implemented quickly (breakfast improvements, temporary bedding fixes, guest-facing mitigation for noise/parking) while planning medium-term capital/maintenance (soundproofing, mattress replacement, lighting upgrades).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast quality & consistency",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests report breakfast is very poor, basic, or has little variety; inconsistency in breakfast offering.",
+      "recommended_action": "Immediate: standardize a slightly expanded continental offering (add 2–3 fruit varieties, a hot item rotation and clear signage). Train/brief breakfast staff to maintain consistent presentation and replenishment. Short term: review supplier costs and test modest menu upgrades and portion control. Communicate improvements in booking channels.",
+      "rationale": "Breakfast is repeatedly cited across reviews as a negative point and is low-cost to pilot improvements (fruit variety, rotation). Consistency will improve perceived value and guest satisfaction.",
+      "supporting_evidence": [
+        "\"The breakfast was very basic.\"",
+        "\"Little choice for breakfast.\"",
+        "\"The breakfast was very poor!!! Parking was very far from the entrance.\"",
+        "\"Very poor breakfast with no variety.\"",
+        "\"I only suggest 2 or 3 varieties of fruit at breakfast.\"",
+        "\"The breakfast can vary.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Noise and soundproofing (traffic and neighbouring guests)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests report high external noise (described as 'like sleeping on a motorway') and disturbances from neighbours at dawn, reducing sleep quality.",
+      "recommended_action": "Immediate/short-term: offer earplugs at check-in, proactively reassign guests who request quiet rooms away from the road, and add quiet-hours reminders. Medium-term: conduct a noise audit (identify primary noise sources and worst-affected rooms) and cost a program of soundproofing (door/window seals, double glazing, acoustic panels) and updated booking notes to set expectations.",
+      "rationale": "Sleep quality is central to guest satisfaction. Short-term operational mitigations reduce immediate complaints while a targeted capital plan addresses root cause.",
+      "supporting_evidence": [
+        "\"The noise 😱 No soundproofing, we felt like we were sleeping on a motorway!\"",
+        "\"Neighbors next door made noise at dawn.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Bedding and mattress comfort",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests report old bedding and hard mattresses; specific comments include 'bedding from the 80s' and 'bed was too hard'.",
+      "recommended_action": "Short-term: provide mattress toppers and additional pillows as immediate comfort improvements and replace visibly worn bedding/linens. Implement a schedule to assess mattress condition and plan phased mattress replacement (capital assessment) based on room inventory and budget.",
+      "rationale": "Mattress comfort directly influences sleep satisfaction; mattress toppers are low-cost short-term fixes while a phased replacement addresses a structural issue.",
+      "supporting_evidence": [
+        "\"The bedding was from the 80s, no comfort.\"",
+        "\"The bed was too hard. I would recommend a mattress topper.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 4,
+      "area": "Parking access and distance to entrance",
+      "managerial_priority": "medium",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Several guests say parking is far from the entrance; one described 'Parking was very far from the entrance.' This reduces convenience, particularly for short-stay guests or those with luggage/mobility needs.",
+      "recommended_action": "Short-term: improve signage to clearly show the shortest walking route between parking and entrance, offer porter assistance when available, and reserve a few closer spaces for guests with mobility needs. Update booking information to explain parking location and walking distance. Medium-term: evaluate feasibility of reorganizing parking for closer guest access.",
+      "rationale": "Given parking is listed as a key amenity, ensuring the guest experience after parking (visibility, assistance) will reduce dissatisfaction without major capital expenditure.",
+      "supporting_evidence": [
+        "\"Parking was very far from the entrance.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Room size and lighting",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests note rooms are small and not well lit ('room was small', 'rooms should be better lit').",
+      "recommended_action": "Immediate/short-term: add task/reading lamps and brighter LED bulbs where possible, declutter rooms to increase perceived space, and ensure room descriptions on booking channels set accurate size expectations. Medium-term: review room layout and lighting upgrades as part of regular maintenance.",
+      "rationale": "Improving lighting and presentation can enhance perceived room quality at low cost and reduce complaints about cramped rooms.",
+      "supporting_evidence": [
+        "\"The room was small...\"",
+        "\"The rooms should be better lit.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff service and friendliness",
+      "reason": "Multiple reviews cite welcoming and friendly staff; this is a strong driver of positive guest experiences.",
+      "management_implication": "Keep focusing on front-desk and service training; use staff as ambassadors for immediate mitigations (earplugs, explaining parking, breakfast improvements)."
+    },
+    {
+      "area": "Value for money",
+      "reason": "Guests comment on good value and very good value for money, which supports pricing positioning.",
+      "management_implication": "Preserve value positioning while selectively investing in low-cost improvements (breakfast variety, mattress toppers) that increase perceived value."
+    },
+    {
+      "area": "Cleanliness and recent modernization",
+      "reason": "Reviews mention cleanliness and that the hotel has been modernized; these are important positives.",
+      "management_implication": "Maintain housekeeping standards and continue visible upkeep; highlight modernization in marketing."
+    },
+    {
+      "area": "Free parking and location",
+      "reason": "Free parking and proximity to Porto are listed/outlined as advantages in reviews and hotel amenities.",
+      "management_implication": "Preserve free parking and improve guest awareness of location/parking logistics."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average review rating (weekly)",
+      "reason": "Tracks overall guest satisfaction and response to implemented changes.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews mentioning 'breakfast' and breakfast sentiment",
+      "reason": "Direct measure of whether breakfast improvements reduce complaints.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of noise/sound complaints (per week) and time-of-day distribution",
+      "reason": "Measures impact of noise mitigation steps and identifies problem times/rooms.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Mentions of bed/mattress comfort in reviews and internal room condition audit results",
+      "reason": "Monitors effectiveness of mattress-topper provision and replacement program.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Complaints about parking distance or number of guests requesting porter assistance",
+      "reason": "Tracks parking-access improvements and guest convenience.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "RevPOR and RevPAR (weekly/monthly)",
+      "reason": "Financial indicators to monitor revenue efficiency per occupied room and per available room while service actions are implemented.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews (volume)",
+      "reason": "Lower review volume was observed; monitoring ensures response rates and a representative feedback stream.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Analysis uses only the 20 most recent reviews provided though 54 reviews were available in the window; findings are based on this sampled subset.",
+    "No internal operational, cost, or floorplan data provided (e.g., exact parking layout, mattress age/inventory, noise measurements), so capital feasibility and precise corrective costs cannot be estimated.",
+    "Cannot infer causality between customer reviews and changes in financial metrics (RevPAR, RevPOR, occupancy); recommendations focus on guest experience only.",
+    "No direct information about staff capacity, supplier agreements, or current breakfast menu items/food costs to specify exact menu changes."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H83_20241021_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P032",
+    "case_id": "H83_20241021_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:21:22.488929+00:00",
+    "finished_at_utc": "2026-09-08T16:21:55.940216+00:00",
+    "elapsed_seconds": 33.451
+  }
+}

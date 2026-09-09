@@ -1,0 +1,4 @@
+experiment_version,pilot_id,case_id,system,status,elapsed_seconds,started_at_utc,finished_at_utc,error_type,error_message,output_path
+pilot_v1,P001,H3_20241028_L4,frequency_baseline,success,0.001,2026-09-08T15:26:05.859818+00:00,2026-09-08T15:26:05.859818+00:00,,,..\outputs\experiment_v1_test\frequency_baseline\P001_H3_20241028_L4.json
+pilot_v1,P001,H3_20241028_L4,generic_llm,success,31.581,2026-09-08T15:26:05.872366+00:00,2026-09-08T15:26:37.448824+00:00,,,..\outputs\experiment_v1_test\generic_llm\P001_H3_20241028_L4.json
+pilot_v1,P001,H3_20241028_L4,evidence_informed,success,38.219,2026-09-08T15:26:37.462881+00:00,2026-09-08T15:27:15.674369+00:00,,,..\outputs\experiment_v1_test\evidence_informed\P001_H3_20241028_L4.json

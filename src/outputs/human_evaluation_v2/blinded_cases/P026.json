@@ -1,0 +1,379 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P026",
+  "case_information": {
+    "case_id": "H300_20240617_L4",
+    "decision_week": "2024_W25",
+    "window_start": "2024-05-27",
+    "window_end": "2024-06-23",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 36.79051495901638,
+        "REVPOR_WEEK": 58.11938688524588,
+        "TREVPAR_WEEK": 48.1136325819672,
+        "TAXA_OCUPACAO": 80.35714285714286,
+        "N_REVIEWS": 2.0,
+        "AVG_RATING": 10.0
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 78.67981512499999,
+        "REVPOR_WEEK": 129.27355799999998,
+        "TREVPAR_WEEK": 89.83025774999999,
+        "TAXA_OCUPACAO": 70.53571428571429,
+        "N_REVIEWS": 2.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 43.062885987903215,
+        "REVPOR_WEEK": 69.50697903225806,
+        "TREVPAR_WEEK": 43.13157681451612,
+        "TAXA_OCUPACAO": 55.35714285714286,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W25",
+        "week_date": "2024-06-17",
+        "REVPAR_WEEK": 47.32545787499999,
+        "REVPOR_WEEK": 66.47639599999998,
+        "TREVPAR_WEEK": 47.32545787499999,
+        "TAXA_OCUPACAO": 44.642857142857146,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.75
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-06-23",
+        "rating": 6.0,
+        "liked": "Location, friendly staff.",
+        "disliked": "Shower.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-23",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-23",
+        "rating": 9.0,
+        "liked": "Reception service and breakfast 5 stars, spacious room, comfortable bed.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-21",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-20",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-20",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-19",
+        "rating": 9.0,
+        "liked": "We felt very comfortable, a very peaceful place to disconnect. The breakfast was complete and there was a welcome gesture. Close to an urban center with all services. A car is essential.",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-18",
+        "rating": 8.0,
+        "liked": "I really liked the breakfast, and the staff were very attentive.",
+        "disliked": "nada",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-18",
+        "rating": 10.0,
+        "liked": "The welcome from the start in a superb mountain setting. Then the cleanliness of the premises and the magnificent breakfast.",
+        "disliked": "The noise of the refrigerator in the room (which I ultimately turned off).",
+        "country": "France",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-18",
+        "rating": 9.0,
+        "liked": "Calm place surrounded by nature, perfect for a stress-free weekend.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-17",
+        "rating": 8.0,
+        "liked": "The location if you want nature and tranquility.",
+        "disliked": "That, despite having an indoor pool, it is not heated so you can enjoy it when it rains or even at dusk.",
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-06-17",
+        "rating": 9.0,
+        "liked": "Carla's friendliness was extraordinary, as she volunteered to provide us with breakfast earlier because we had an activity scheduled and needed to leave early.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-16",
+        "rating": 9.0,
+        "liked": "Location, amenities and cleanliness. Great breakfast. Cable TV in the living room and in the rooms and air conditioning in the rooms. Very comfortable beds. The villa is gorgeous and quite spacious and comfortable.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 10.0,
+        "liked": "Location. Cleanliness — actually everything. Because we had to leave very early, we couldn't make use of the delicious breakfast, but they packed one for us!! How kind!!!",
+        "disliked": "Nothing.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-13",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-12",
+        "rating": 9.0,
+        "liked": "Very quiet hotel. Comfortable room with access to the garden. Breakfast with lots of fruit and natural juice and fewer pastries.",
+        "disliked": "To say something, it's a bit removed from the center of Arouca, but if you're looking for tranquility and nature it's fine.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-12",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Most guest feedback is positive (breakfast, location, staff, cleanliness) but there are emerging, service-impacting frictions clustered in rooms/amenities (bathroom toiletries/hairdryer, room noise/temperature) and a clear expectation violation about the indoor pool. Concurrently, occupancy and rating show material declines that merit prompt review. Problems appear solvable via operational fixes and targeted assessment rather than immediate large capital outlay.",
+    "executive_summary": "Preserve strong performance of breakfast, location/accessibility and staff. Address room-level frictions: bathroom provisioning and noisy/temperature issues (operational/maintenance and policy review, short-term). Assess indoor pool usability/heating as an expectation violation (technical assessment before capital decisions, medium-term). Review amenity and F&B access policies (hairdryer, toiletries, afternoon drink availability). Separately, investigate the marked occupancy and rating decline with data/market analysis to identify causes (short-term assessment and monitoring).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition and in-room toiletries",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple guest mentions of inadequate bathroom amenities (no hairdryer, bath products provided only for one guest in double rooms) and noise from bathroom fan — an expectation violation and emerging negative topic.",
+        "recommended_action": "Review and correct in-room bathroom provisioning policy and perform targeted maintenance checks. Specifically: (a) verify current inventory/provisioning practice for toiletries and hairdryers across room types; (b) correct provisioning so double rooms reliably receive amenities for two guests; (c) inspect/repair noisy bathroom fans where identified. Track implementation and guest feedback.",
+        "rationale": "Managerial evidence shows 3 negative mentions and an expectation violation for bathroom amenities. A recent guest explicitly reported no hairdryer, single set of bath products for a double room and noisy bathroom fan (2024-06-05). These are concrete operational/maintenance failures that can be addressed by policy/stocking and targeted maintenance."
+      },
+      {
+        "rank": 2,
+        "area": "Indoor pool usability / spa expectations",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Guest expectation that the indoor pool be climatized/heated and usable in rain or at dusk is unmet (explicit expectation violation).",
+        "recommended_action": "Conduct a technical and commercial assessment to determine whether the indoor pool is designed/intended to be heated/climatized and whether making it usable in adverse conditions is feasible and aligned with positioning. Steps: (a) inspect pool systems and operational constraints; (b) estimate options and costs for heating/climatization or operational adjustments (e.g., scheduled availability, clear communication); (c) decide whether to invest, adjust guest communications, or alter operating hours.",
+        "rationale": "Managerial evidence (Spa and pool) shows an expectation violation and emerging negative mention. A recent guest explicitly noted the indoor pool is not heated and therefore not usable in rain or at dusk (2024-06-17). The evidence indicates an expectation mismatch that could require technical assessment rather than immediate capital commitment."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort — noise and temperature control",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "While room comfort is generally praised, there are recurring friction points: noisiness of rooms (including refrigerator noise), shower/bath configuration complaints, and temperature control issues.",
+        "recommended_action": "Perform an operational review combining maintenance checks and guest-facing mitigations: (a) identify and service noisy equipment (fridges, fans) in affected rooms; (b) review room temperature control systems and provide clear guidance to guests on operation; (c) evaluate noise sources and mitigation (insulation, maintenance) where recurring. Track affected room numbers and guest feedback post-action.",
+        "rationale": "Room comfort has more positive than negative mentions overall, but evidence indicates emerging negative issues (temperature control, noise). Complaints include general room noisiness and a noisy refrigerator turned off by a guest (2024-06-10; 2024-06-18). Because the underlying strength should be preserved, targeted maintenance and clearer guest guidance are the appropriate responses."
+      },
+      {
+        "rank": 4,
+        "area": "Amenity provisioning and F&B access (hairdryer, toiletries, afternoon drinks)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Isolated but meaningful complaints about missing in-room hairdryers, single-person toiletries in double rooms, and limited availability of drinks outside breakfast (restaurant only open in morning) — an expectation/ value gap for some guests.",
+        "recommended_action": "Review amenity provisioning policy and guest communications: (a) confirm what is included in each room type and operationalize reliable stocking of hairdryers and toiletries for double rooms; (b) review F&B opening hours and guest expectations about drink availability (consider clearer pre-arrival information or small operational adjustments to offer drinks outside breakfast hours). Document any policy changes and communicate them to reservations/front desk.",
+        "rationale": "Managerial evidence shows in-room amenities as an emerging topic (2 mentions, mixed). Complaints include no hairdryer and a note that the restaurant is only open in the morning so drinks are not available in the afternoon (2024-06-05; 2024-06-10). These are process/policy issues that can be remedied without assuming capital investment."
+      },
+      {
+        "rank": 5,
+        "area": "Investigate occupancy and rating decline",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "monitoring",
+        "problem": "Occupancy (TAXA_OCUPACAO) has fallen sharply over the 4-week window (–44.44% absolute change). Average rating and some sentiment indicators are also decreasing. The cause is not determinable from review text alone.",
+        "recommended_action": "Initiate a short-term commercial and guest-experience review: (a) analyze booking channels, pricing, cancellation patterns and segmentation for the period of decline; (b) correlate timing of operational/experience issues (e.g., complaints about rooms, pool) with booking/rating movement; (c) monitor incoming reviews for persistence or escalation of guest issues. Do not assume causality from reviews—use data analysis and, where needed, deeper guest feedback collection.",
+        "rationale": "Business-performance metrics show a consistent and large drop in occupancy (TAXA_OCUPACAO from 80.36 to 44.64, –35.71 absolute) and a declining average rating (10.0 to 8.75). These changes are severe enough to justify prompt managerial analysis even though the root causes are not established in the supplied review evidence."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast",
+        "reason": "Strong and consistent positive evidence: 12 positive mentions, high praise for quality and variety.",
+        "management_implication": "Maintain current breakfast quality and service; avoid changes that could undermine this clear guest-perceived strength."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Multiple positive mentions (7) praising location, tranquillity and accessibility (including for reduced mobility).",
+        "management_implication": "Continue to highlight location in marketing and preserve accessibility features; ensure directions/parking information remains clear to guests."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Consistently positive mentions of friendly and helpful staff (5 positive mentions).",
+        "management_implication": "Preserve staffing approach and guest welcome standards; use staff strengths when communicating about any short-term service adjustments."
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic examples drawn from a subset of reviews and are not statistically representative of all guest feedback (total reviews in window = 27).",
+      "Managerial evidence counts (positive/negative mentions) summarize lexical signals but do not provide full prevalence or room-by-room mapping; further operational checks are needed to determine scope.",
+      "Business-performance declines (occupancy, rating) are documented in metrics but their causes are not identifiable from the supplied review text; causality must not be assumed.",
+      "Some actionable details (e.g., cost and technical feasibility of pool heating) are not available in the evidence and require technical/financial assessment before committing to capital investment."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest sentiment remains positive overall (many 9–10 ratings) and core strengths (breakfast, staff, cleanliness, location) are repeatedly praised, but a drop in average rating (10.0 → 8.75) and a marked fall in occupancy (-44%) combined with specific recurring complaints about in-room equipment and pool usability create a moderate operational and reputational risk if unaddressed.",
+    "executive_summary": "Primary short‑term focus should be on fixing in‑room maintenance issues (shower, noisy refrigerator) and on reputation management (responding to reviews, tracking satisfaction) while assessing the business reasons for the occupancy decline. Preserve standout strengths—exceptional breakfast, attentive staff, cleanliness and tranquil location—while improving guest communications about amenities (car required, pool heating status).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "In-room maintenance and guest comfort",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple guests reported in-room issues: a problematic shower (explicitly disliked in one review) and disruptive refrigerator noise (one guest turned it off). These reduce guest comfort and can produce lower ratings.",
+        "recommended_action": "Open immediate maintenance tickets to inspect showers and in‑room refrigerators. Repair or replace shower fixtures where flow/temperature or drainage problems exist; service or replace noisy fridges. Create a short-term checklist for housekeeping to flag any room equipment issues at check-in/check-out. Log and track resolution times.",
+        "rationale": "Addressing tangible comfort faults typically yields quick improvements in guest satisfaction and prevents repeat low scores from avoidable issues."
+      },
+      {
+        "rank": 2,
+        "area": "Pool usability and amenity expectations",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "capital_assessment",
+        "problem": "At least one guest noted the indoor pool is not heated and thus not usable in rain or at dusk; this may reduce perceived value of the amenity and lead to disappointment when guests expect a usable pool.",
+        "recommended_action": "Assess feasibility and cost of heating the indoor pool (energy, permits, timeline). Meanwhile, update pre‑arrival communications and the website to state current pool heating status and typical usable hours/seasonality. If heating is not feasible, consider compensating offers (e.g., scheduled heated outdoor times if available, discounted access to partner facilities) during shoulder weather.",
+        "rationale": "Clear communication prevents mismatched expectations; a formal capital assessment will determine whether pool‑heating is a justified investment to improve guest experience and potentially increase occupancy or rates."
+      },
+      {
+        "rank": 3,
+        "area": "Reputation and review management",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Average rating has declined from 10.0 to 8.75 in the lookback period while the number of reviews rose sharply (from 2 to 12 in the reported weeks). A falling average with rising review volume risks longer‑term reputational impact if not actively managed.",
+        "recommended_action": "Implement a structured review response process: acknowledge all recent reviews (thank positive reviewers; respond constructively to lower scores and describe remedial actions). Proactively solicit private feedback at check‑out to catch issues early. Track weekly average rating and the count of reviews, and assign responsibility for responses and follow-up.",
+        "rationale": "Timely, professional engagement with reviews reduces reputational erosion, demonstrates responsiveness to guests, and can recover some negative impressions."
+      },
+      {
+        "rank": 4,
+        "area": "Demand, pricing and occupancy analysis",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "monitoring",
+        "problem": "Occupancy fell substantially in the period reported (from ~80% to ~45%) while REVPAR rose (+28.6%). The descent in occupancy could indicate demand shifts, distribution or pricing misalignment, seasonality, or other market factors that need investigation.",
+        "recommended_action": "Conduct a short analysis of bookings and channels for the period (dates, sources, cancellation patterns, ADR trends). Review pricing strategy and distribution mix for the low‑occupancy weeks; consider targeted promotions for low‑demand days, packages emphasizing strengths (breakfast, tranquility), or distribution adjustments. Monitor occupancy, REVPAR and booking pace weekly for early detection.",
+        "rationale": "Understanding drivers of occupancy decline is necessary to protect revenue and guide marketing/pricing decisions; the revenue metrics show mixed signals and warrant investigation rather than assumptions."
+      },
+      {
+        "rank": 5,
+        "area": "Pre‑stay communication and guest expectations (transport and amenities)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Several reviews state a car is essential and guests value tranquility/remoteness; if this is not clearly communicated, guests may arrive unprepared. Similarly, ad copy for amenities (e.g., pool heating) may create mismatched expectations.",
+        "recommended_action": "Update website, booking pages and confirmation emails to clearly state 'car recommended/required' and the current status of amenities (pool heating, hours, parking). Provide practical local guidance (nearest services in Arouca, taxi/provider contacts) and optional add‑ons (arranged transfers) if feasible.",
+        "rationale": "Clear pre-arrival information reduces guest frustration and complaints, improves perceived value, and can lower negative reviews driven by unmet expectations."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast",
+        "reason": "Many reviews explicitly praise the breakfast as 'exceptional', 'complete', 'packed for early departure' and 'magnificent'.",
+        "management_implication": "Keep food quality, variety (fruit/natural juice), and flexibility (early/packed breakfasts) high; maintain staffing and supply plans that support consistent breakfast delivery."
+      },
+      {
+        "area": "Staff friendliness and service",
+        "reason": "Reception service and named staff (Carla) received multiple commendations for attentiveness and helpfulness.",
+        "management_implication": "Preserve personalized service through recognition and training; ensure staffing levels support the observed high service standard."
+      },
+      {
+        "area": "Cleanliness, quiet location and comfort",
+        "reason": "Cleanliness, quiet/nature setting, comfortable beds and spacious rooms are repeatedly noted positively.",
+        "management_implication": "Maintain housekeeping standards, property grounds, and room comfort (bedding upkeep) as priorities in operating budgets and staff routines."
+      }
+    ],
+    "limitations": [
+      "Assessment is based only on review text and the summary performance metrics supplied for a four‑week window; causal links between reviews and financial metrics cannot be inferred from these data.",
+      "No granular operational data (repair logs, booking channel breakdown, ADR by date) were provided, limiting the specificity of pricing/occupancy recommendations.",
+      "Reviews provided to the LLM are a subset (20 of 27 available in the window); sampling was 'most recent' and may not reflect other guest feedback outside that subset."
+    ]
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P009",
+  "case_information": {
+    "case_id": "H363_20240729_L4",
+    "decision_week": "2024_W31",
+    "window_start": "2024-07-08",
+    "window_end": "2024-08-04",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 104.8660189125,
+        "REVPOR_WEEK": 142.064299,
+        "TREVPAR_WEEK": 104.90956687500002,
+        "TAXA_OCUPACAO": 71.42857142857143,
+        "N_REVIEWS": 20.0,
+        "AVG_RATING": 8.3
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 98.88355974358971,
+        "REVPOR_WEEK": 134.26066307692307,
+        "TREVPAR_WEEK": 99.0774307051282,
+        "TAXA_OCUPACAO": 69.64285714285714,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 91.55925335597826,
+        "REVPOR_WEEK": 138.63566902173912,
+        "TREVPAR_WEEK": 91.55925335597826,
+        "TAXA_OCUPACAO": 65.71428571428571,
+        "N_REVIEWS": 16.0,
+        "AVG_RATING": 8.125
+      },
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 91.21713670765028,
+        "REVPOR_WEEK": 139.37287486338798,
+        "TREVPAR_WEEK": 91.26211863387977,
+        "TAXA_OCUPACAO": 65.35714285714286,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 8.461538461538462
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-08-04",
+        "rating": 8.0,
+        "liked": "Centrally located, quietly situated.",
+        "disliked": "Breakfast could be more extensive.",
+        "country": "Belgium",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-04",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Mozambique",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 8.0,
+        "liked": "Location, cleanliness, and courtesy of the staff.",
+        "disliked": "Simple breakfast. It could offer a greater variety of items.",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Austria",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-03",
+        "rating": 6.0,
+        "liked": "Simple but sufficient. Good breakfast, very good location, clean rooms, quiet air conditioning, elevators in working order. Close to the main tourist attractions.",
+        "disliked": "\"A hotel employee received us, on 22/07/2024, with a 'JOKE' in very poor taste. He said we were Portuguese from Brazil; I replied that we were Brazilians with much pride to end the conversation. So the said employee",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 10.0,
+        "liked": "Clean hotel, extremely convenient location, and the owners are super kind and very helpful.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-02",
+        "rating": 9.0,
+        "liked": "Perfect location, very central, and despite being on a street with dining venues, very quiet. All the staff were very friendly.",
+        "disliked": "If you stay more than 4 days the breakfast might become repetitive but it was good.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-01",
+        "rating": 10.0,
+        "liked": "It was clean, the staff allowed us to store our luggage before we received our room as we came in early. Also the daily room cleaning was phenomenal.",
+        "disliked": "The location of the toilet in the bathroom. It was right beside the sink making it extremely hard and awkward to sit properly.",
+        "country": "Canada",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-30",
+        "rating": 8.0,
+        "liked": "The location",
+        "disliked": "The room is a bit small.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-29",
+        "rating": 8.0,
+        "liked": "The proximity to the center.",
+        "disliked": "the breakfast",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-29",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Luxembourg",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-29",
+        "rating": 9.0,
+        "liked": "The location!",
+        "disliked": "The room's television was very small.",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-28",
+        "rating": 7.0,
+        "liked": "Exceptional location for visiting Lisboa.",
+        "disliked": "It needs to be renovated.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-28",
+        "rating": 8.0,
+        "liked": "The location is exceptional.",
+        "disliked": "The bathroom had a bathtub.",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-27",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-27",
+        "rating": 5.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Turkey",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-07-26",
+        "rating": 5.0,
+        "liked": "Really great location from which many attractions can be reached, good breakfast, friendly and helpful staff. But it is exactly a clean 2-star and nothing more; contrary to what other reviews claim, it is only suitable for those who don't want to stay in the hotel except to sleep.",
+        "disliked": "The room was really too basic, a triple in which there wasn't even a surface to put things on, and it was difficult to fit 3 suitcases; basically there was space only for the beds and there was little room even just to pass.",
+        "country": "Italy",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-26",
+        "rating": 8.0,
+        "liked": "Perfect location. Average breakfast.",
+        "disliked": "The room was very small for 3. We didn't have space to open suitcases. No minibar. No safe in the room.",
+        "country": "Argentina",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-26",
+        "rating": 10.0,
+        "liked": "Family-run hotel, with attentive staff, clean rooms and a great location.",
+        "disliked": "There was no minibar in the room.",
+        "country": "Brazil",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Operational performance indicators show declining revenue and occupancy (RevPAR -13%, occupancy -8.5%) while average rating is stable-high (8.46). Multiple recent reviews repeatedly flag a small/repetitive breakfast offering and small/basic rooms; one report alleges inappropriate staff behaviour. These issues risk further occupancy/revenue erosion and reputational damage if not managed, but strengths (location, cleanliness, friendly staff) reduce immediate criticality.",
+    "executive_summary": "Priority actions: (1) improve breakfast variety and presentation to address frequent guest comments; (2) assess and remediate room condition/amenities and communicate room size clearly; (3) investigate and resolve the reported staff misconduct and deliver immediate cultural-sensitivity/customer-service training; (4) apply short-term revenue/occupancy measures (targeted offers, breakfast packages, distribution adjustments) to counter recent RevPAR and occupancy declines; (5) preserve and promote clear strengths (location, cleanliness, attentive staff).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast offering",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Multiple guests describe breakfast as 'simple', 'repetitive' or 'could be more extensive'. Repeated comments reduce perceived value for longer stays.",
+        "recommended_action": "Implement a short-term refresh of the breakfast selection: add rotating items (e.g., fruit, local pastries, one hot item rotation), improve presentation, and display a weekly variation to reduce repetition. Track incremental cost and guest feedback; consider a paid 'breakfast upgrade' option if supply cost is a concern.",
+        "rationale": "Breakfast is a recurring, low-to-medium-cost operational improvement that directly addresses consistent negative comments in recent reviews and can increase perceived value for guests and win better reviews."
+      },
+      {
+        "rank": 2,
+        "area": "Room condition, size expectations and in-room amenities",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Several guests report small rooms, lack of basic in-room amenities (no minibar, no safe), small TV, awkward bathroom layout and comments that the property 'needs to be renovated'. These affect guest comfort and expectation alignment for some room types (triples especially).",
+        "recommended_action": "Conduct a room-condition audit to identify priority low-cost improvements (install larger TVs where feasible, add shelving/small tables, provide in-room safes or centralized secure storage, address bathroom usability issues if low-cost fixes exist). For larger condition issues, develop a medium-term renovation plan and budget. Immediately ensure room sizes and amenity lists are accurately communicated online to set proper expectations.",
+        "rationale": "Addressing tangible in-room deficiencies will improve guest comfort and reduce negative comments tied to value perception; clear online communication prevents mismatched expectations for small rooms/triples."
+      },
+      {
+        "rank": 3,
+        "area": "Staff conduct and guest cultural sensitivity",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported an on-property employee making a 'joke in very poor taste' regarding guests' nationality, causing offense and lowering satisfaction (rating 6).",
+        "recommended_action": "Immediately investigate the incident and, if contactable, offer a sincere apology to the guest. Hold an all-staff briefing to reaffirm behaviour standards and launch mandatory customer-service and cultural-sensitivity training. Update staff conduct policy and require supervisors to document completion. Monitor future reviews closely for related incidents.",
+        "rationale": "Even a single reported incident of offensive behaviour can harm reputation and deter guests from affected markets; swift, visible action protects brand and guest trust."
+      },
+      {
+        "rank": 4,
+        "area": "Revenue & occupancy management",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Key performance indicators show recent declines: RevPAR -13.0% and TRevPAR -13.0% over the lookback period, and occupancy down 8.5%. Number of reviews also fell by 35% (possible lower guest volume or engagement).",
+        "recommended_action": "Implement short-term revenue tactics to stimulate demand: tactical rate promotions for shoulder dates, bundle breakfast with room rate (especially after improving breakfast), strengthen OTA/marketing copy highlighting exceptional location and friendly staff, and consider limited-time packages for groups/families. Track booking lead times and channel performance to refine offers. Use guest strengths in marketing to improve conversion.",
+        "rationale": "The hotel's strengths (central location, friendly staff, cleanliness) can be leveraged in promotions and messaging to halt revenue and occupancy decline while operational fixes are implemented."
+      },
+      {
+        "rank": 5,
+        "area": "Preserve core strengths: location, cleanliness, friendly/family-run service",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "While many reviews praise location, cleanliness and staff helpfulness, these strengths must be maintained to support recovery and reputation.",
+        "recommended_action": "Continue current cleaning standards and staffing practices; acknowledge and reward staff for positive guest feedback; incorporate these strengths prominently into marketing and confirmation messaging. Monitor for any decline in these areas as other changes are implemented.",
+        "rationale": "These attributes are consistently cited positively and are key differentiators for this 2-star, centrally located property; preserving them supports repeat business and positive word-of-mouth."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location",
+        "reason": "Many guests describe the hotel's location as 'perfect', 'exceptional' and 'centrally located', which is a primary driver of guest choice.",
+        "management_implication": "Continue to highlight proximity to attractions in marketing and booking channels; use location in package design."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Multiple reviews praise cleanliness and 'phenomenal' daily room cleaning.",
+        "management_implication": "Maintain current housekeeping standards and staffing levels; use positive cleanliness feedback in guest communications."
+      },
+      {
+        "area": "Friendly, helpful staff / family-run feel",
+        "reason": "Several reviews note owners and staff are 'super kind', 'very friendly', and 'helpful'.",
+        "management_implication": "Preserve personable service through staff recognition and training while addressing the isolated misconduct incident."
+      }
+    ],
+    "limitations": [
+      "Analysis used only the 20 most recent reviews provided (of 61 available in the decision window); themes may shift when considering the full set.",
+      "Customer comments are not linked causally to financial performance changes; the provided performance metrics show declines but causality cannot be inferred from the reviews alone.",
+      "Some issues (e.g., room renovation scope/costs, staffing incident details) require internal investigation and physical inspection before definitive capital or disciplinary actions are taken."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Customer sentiment and RevPAR show consistent downward movement while average rating is stable-to-improving; multiple operational/expectation issues (bathroom layout, in-room amenities, breakfast variety, small/noisy rooms) are present but the hotel retains clear strengths (cleanliness, location, largely positive staff). The combination of declining revenue metrics and rising share of negative reviews justifies a moderate overall risk classification and prompt managerial attention.",
+    "executive_summary": "Hotel Portuense performs well on cleanliness, location and staff friendliness, and many guests value the breakfast. Recent evidence shows rising negative-review share and falling RevPAR and sentiment. The most actionable issues supported by the review evidence are: (1) bathroom condition/toilet location (emerging net-negative topic), (2) in-room amenities expectations (minibar/fridge/safe absent), (3) breakfast variety and included items (positive overall but repeated friction), (4) room size, lack of surfaces and noise/renovation perceptions, and (5) a need to monitor and link declining RevPAR and sentiment to guest-feedback trends. Recommendations prioritize assessment and low-cost operational fixes where appropriate, with inspections/assessments before any capital decisions.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews flagged bathroom-related issues (matched topics: 'bathroom type', 'toilet location'); this is an emerging negative topic with exclusively negative mentions in the window.",
+        "recommended_action": "Commission a focused inspection and condition assessment of bathroom layouts and fittings (toilet placement/ergonomics and related guest impacts). If inspection indicates structural constraints, prepare a scope/cost estimate for targeted maintenance or redesign; otherwise implement maintenance/room-level adjustments. Communicate findings to front desk/guest information if certain room types have atypical layouts.",
+        "rationale": "Evidence shows 4 negative mentions and 0 positive mentions, and 'toilet location' is flagged as an emerging_negative_topic. The reviews suggest a structural/layout friction rather than a single isolated incident; capital or maintenance may be required but scope is unclear, so an assessment is the prudent first step."
+      },
+      {
+        "rank": 2,
+        "area": "In-room amenities",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report missing expected in-room amenities (minibar/fridge, safe) leading to an expectation violation; some guests explicitly cite lack of minibar/fridge/safe.",
+        "recommended_action": "Review room-type amenity descriptions and guest-facing communications to ensure expectations match actual offerings. Evaluate demand and feasibility (operational and cost implications) of adding small amenities (e.g., minibar/fridge, in-room safe) for specific room types, and if adding is considered, conduct a cost/benefit assessment. In the short term, provide clear information at booking and at check-in about which rooms include which amenities.",
+        "rationale": "Managerial evidence shows 3 negative mentions, 0 positives, and has an explicit expectation_violation flag; complaint text includes direct mention of 'No minibar. No safe in the room.' The problem appears to be an expectation mismatch that could be mitigated by clearer communication or evaluated for operational change."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "While breakfast is often praised, multiple guests report limited variety and that some beverages/items required additional payment; this creates an expectation gap for some guests.",
+        "recommended_action": "Review what is currently included vs. offered as paid extras and ensure booking descriptions are accurate. Consider operational changes to improve perceived variety within cost constraints (menu rotation, signage, or clearer communication about paid items). Monitor guest feedback after changes.",
+        "rationale": "Breakfast has 26 mentions with 20 positive and 6 negative; guests praise specific items (eggs, fresh orange juice) while also reporting limited choices and extra charges for typical beverages. Because breakfast is a visible strength, targeted operational fixes or clearer communication can preserve the strength and reduce expectation violations."
+      },
+      {
+        "rank": 4,
+        "area": "Room comfort (size, noise, renovation perception)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Several guests describe very small rooms (difficulty fitting suitcases, lack of surfaces), audible street noise through windows, and some generic calls for renovation.",
+        "recommended_action": "In the short term, review room descriptions and photos to ensure accurate representation of room size and features; implement low-cost operational fixes where possible (add shelves/surfaces, luggage racks). Commission a scoped assessment of noisier rooms (window seals, glazing) and a higher-level renovation plan only if the assessment indicates structural need and business case justification.",
+        "rationale": "Evidence is balanced: 3 positive and 3 negative mentions for room comfort. Multiple complaints describe cramped triple rooms with no surfaces and audible street noise. Because some fixes are operational (surfaces, clearer descriptions) and others may be capital (renovation, soundproofing), the recommended approach is immediate communications/operational remedies plus assessment before capital spend."
+      },
+      {
+        "rank": 5,
+        "area": "Business performance & sentiment monitoring",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "RevPAR, TREVPAR and occupancy show consistent decreases; average sentiment and sentiment_score_avg are decreasing while the share of negative reviews has risen substantially.",
+        "recommended_action": "Initiate a short cross-functional review linking guest feedback trends to commercial performance: (1) monitor RevPAR, sentiment and negative-review share weekly, (2) map negative-feedback themes (bathroom, amenities, breakfast, room-size/noise) to booking channels/room types to identify prioritized corrective actions, and (3) report findings to revenue/operations for coordinated responses. Escalate if metrics continue to worsen after operational fixes.",
+        "rationale": "Business metrics show consistent downward movement (REVPAR and TREVPAR decreasing consistently over 4 weeks) while PERC_REVIEWS_NEGATIVE and SENTIMENT_SCORE_AVG indicate a worsening sentiment profile. Coordinated monitoring will help prioritize actions and measure impact of operational changes."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "18 positive mentions, positive_share 1.0; multiple reviews praise cleanliness and room cleanliness.",
+        "management_implication": "Maintain current housekeeping standards and communicate this strength externally; ensure staffing and processes are preserved during any operational changes."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "33 mentions with 32 positive (positive_share 0.97); many guests cite central/quiet location as a key benefit.",
+        "management_implication": "Preserve location messaging in distribution and remind staff to highlight proximity to attractions at check-in."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "25 mentions with 24 positive (positive_share 0.923); many guests explicitly praise friendliness and helpfulness.",
+        "management_implication": "Recognize and reinforce staff behavior via briefings and acknowledgements; investigate isolated negative interaction (see complaint about a joke) with training/review if needed."
+      },
+      {
+        "area": "Breakfast (as a relative strength)",
+        "reason": "20 positive mentions praising items like eggs and fresh orange juice despite some negative remarks on variety/charges.",
+        "management_implication": "Preserve the positive elements (specific items guests like) while addressing variety/communication issues described in priorities."
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of the full review distribution; prevalence should be interpreted using managerial_evidence aggregates.",
+      "Managerial evidence flags (e.g., 'toilet location') are derived from text-topic matching rather than detailed technical inspection; scope and cost of maintenance or capital work cannot be determined from review text alone—an on-site assessment is required before committing to renovation.",
+      "Some issues combine operational fixes and potential capital needs (room layouts, soundproofing). Recommendations therefore emphasize assessment before capital expenditure.",
+      "Temporal scope is four weeks; recent_reversal signals exist for some experience metrics and must be considered (e.g., EXPECTATION_VIOLATION_RATIO recent_reversal = true).",
+      "Guest-proposed remedies included in reviews were used only as indications of perceived friction; they are not adopted verbatim as managerial solutions unless supported by broader evidence."
+    ]
+  }
+}

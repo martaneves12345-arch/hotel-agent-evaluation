@@ -1,0 +1,163 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Average guest rating fell sharply from 8.5 to 7.5 (-11.8%) during the window and multiple recent reviews cite serious cleanliness and maintenance problems (including a detailed complaint about an unclean room and broken air conditioning). However occupancy and TREVPAR are increasing and many reviews praise staff, breakfast and location, so reputation issues appear addressable if acted on promptly.",
+  "executive_summary": "Key issues from recent guest feedback are: (1) serious lapses in room cleanliness, (2) room maintenance and comfort problems (AC, dated rooms, mattresses), (3) a specific complaint about poor complaint-handling/manager behaviour, and (4) limited dinner choices. Strengths to preserve are friendly/helpful staff, very good breakfast, central location, lobby and pool service. Priorities focus on urgent remediation of hygiene and service-recovery, short-term maintenance fixes and a menu/food review to prevent further rating declines.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room cleanliness and housekeeping standards",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Multiple reviews describe unclean rooms (stale urine in toilet, dirty sink, sticky bedside lockers) and at least one very negative guest experience that indicates a failure of housekeeping quality control.",
+      "recommended_action": "Immediately launch an internal deep-clean audit of occupied and vacant rooms (focus on recently complained rooms), re-clean affected rooms, implement mandatory pre-check room inspections, increase random spot inspections by supervisors, retrain housekeeping on cleaning checklists and handover procedures, and temporarily increase housekeeping staffing/shift overlap if needed to meet standards. Offer affected guests apology and appropriate compensation and document corrective actions.",
+      "rationale": "The reviews contain detailed hygiene complaints that risk further rating declines and reputational damage; immediate visible action (audit, re-clean, compensation) reduces repeat negative reviews and restores guest trust.",
+      "supporting_evidence": [
+        "I decided to use this website to see if there was rooms available...Eventually I got to change rooms, only to discover that in this new room, that there was stale urine in the toilet, the sink was dirty, and the bedside lockers sticky.",
+        "The rooms were below par. Definitely needed an upgrade"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Room maintenance and comfort (AC, furnishings, general condition)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report non-functioning air conditioning (blowing warm air), old/dated rooms and lack of comfort (beds/pillows, sun-loungers without mattresses). One guest paid a high rate and experienced an AC failure and subsequent room issues.",
+      "recommended_action": "Open a prioritized maintenance log for HVAC failures and inspect all rooms for AC performance; repair or replace faulty units immediately and provide temporary remedies (fans, priority room moves) while fixing. Audit room furnishings (mattresses, pillows, sunbed cushions) and create a phased refurbishment and replacement plan (prioritize rooms with repeated complaints). Track costs and schedule capital/operational spend accordingly.",
+      "rationale": "Maintenance failures directly affect guest comfort and generate low ratings; fixing AC and addressing basic comfort items is likely to improve guest ratings and reduce complaints.",
+      "supporting_evidence": [
+        "technician ... confirmed the air con was blowing out warm air on the conditioning function and that I should change rooms.",
+        "Old hotel, even renovated it doesn't have much comfort.",
+        "Pillow.",
+        "The only thing that would make this a perfect stay would be to have mattresses on the sun beds as they weren’t very comfortable after a short while."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Guest complaint handling and front-office service recovery",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "A guest reports being handled rudely and unprofessionally by management when requesting a room change; that interaction exacerbated an already serious accommodation problem.",
+      "recommended_action": "Review and reinforce complaint-handling protocols with front-office and management staff (including escalation pathways and empowerment to offer immediate room changes or compensation). Provide short customer-service refresher training focused on empathy and de-escalation. Institute a monitoring mechanism (record of formal complaints and manager responses) and follow up with guests who reported issues to attempt recovery.",
+      "rationale": "Even when operational issues occur, professional and empathetic handling reduces negative reviews and guest escalation; one recent review explicitly links poor manager behaviour to a negative outcome.",
+      "supporting_evidence": [
+        "When I complained ... The manager was informed, and they told me what there were no other rooms available... I approached the manager, informed him of this and that I wanted to change room to be met by his rude, short and unprofessional manner."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Food & beverage — dinner quality and variety",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "At least one guest reports that half-board dinner choices were not very good; contrast with multiple positive comments about breakfast.",
+      "recommended_action": "Conduct a quick review of the dinner menu and guest usage/feedback (collect recent dinner satisfaction data), consider adding variety or theme nights, improve communication of dinner options to guests on half-board, and solicit in-stay feedback from guests to test menu changes.",
+      "rationale": "Breakfast is a clear strength; improving dinner can lift overall F&B satisfaction and guest ratings for half-board stays.",
+      "supporting_evidence": [
+        "We went half board breakfast was good but dinner was not very good choices",
+        "Very good breakfast.",
+        "The hotel's breakfast."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 5,
+      "area": "Guest comfort details (pillows, sun-loungers, small amenity improvements)",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "mixed",
+      "problem": "Guests reported discomfort with pillows and lack of sunbed mattresses; multiple minor comfort issues reduce perceived value.",
+      "recommended_action": "Introduce a pillow-menu or extra pillow options, replace worn pillows, and procure cushions/mattresses for pool sunbeds. Communicate these small improvements to guests and staff to increase perceived comfort quickly.",
+      "rationale": "Relatively low-cost improvements that address repeated small complaints can boost guest satisfaction without major capital expense.",
+      "supporting_evidence": [
+        "Pillow.",
+        "The only thing that would make this a perfect stay would be to have mattresses on the sun beds"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff helpfulness and friendliness",
+      "reason": "Numerous reviews explicitly praise staff as helpful, polite and welcoming; staff are cited as a positive even by guests who had other issues.",
+      "management_implication": "Preserve staffing approach and reinforce training; recognize and reward staff to maintain morale during remediation work."
+    },
+    {
+      "area": "Breakfast quality",
+      "reason": "Multiple positive comments cite 'very good breakfast' and 'fabuloso pequeno-almoço' in hotel amenities.",
+      "management_implication": "Avoid changes that reduce breakfast quality; use breakfast strength in marketing and cross-sell when improving dinner."
+    },
+    {
+      "area": "Location and lobby/pool experience",
+      "reason": "Guests frequently note the central location, good lobby and pool service (pool waiter praised).",
+      "management_implication": "Preserve guest-facing public areas and pool service standards; use these strengths to offset room limitations while rooms are being refurbished."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average guest rating (weekly)",
+      "reason": "Primary indicator of reputation trends; has declined sharply in the window.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of cleanliness/housekeeping complaints (weekly)",
+      "reason": "Direct measure of the hygiene issue that produced severe negative feedback.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of maintenance tickets open for HVAC and time-to-resolution",
+      "reason": "Tracks AC failures and repair responsiveness (source of major complaint).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of documented complaint escalations citing staff/manager behaviour",
+      "reason": "Monitors customer service handling and risk of further reputation damage from poor interactions.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Dinner satisfaction score / F&B evening covers & feedback",
+      "reason": "Measures impact of menu changes and guests' perception of dinner quality for half-board guests.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Occupancy and TREVPAR (weekly)",
+      "reason": "Track business performance alongside guest satisfaction to ensure remediation doesn't hurt commercial metrics.",
+      "desired_direction": "stable"
+    }
+  ],
+  "limitations": [
+    "Only 20 of 62 reviews from the decision window were provided; the sample may not represent all recent feedback.",
+    "No internal operational data (housekeeping staffing levels, maintenance logs, complaint logs) or financial constraints were supplied, so recommended remedial actions should be validated against available resources.",
+    "Cannot determine the prevalence of the reported problems across all rooms or how many guests were affected beyond the supplied reviews."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H413_20240610_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P019",
+    "case_id": "H413_20240610_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:04:27.367690+00:00",
+    "finished_at_utc": "2026-09-08T16:04:51.937176+00:00",
+    "elapsed_seconds": 24.569
+  }
+}

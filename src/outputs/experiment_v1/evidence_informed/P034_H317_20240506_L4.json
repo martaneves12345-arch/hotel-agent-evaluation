@@ -1,0 +1,221 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "There is a clear and persistent signal of expectation–experience misalignment and an increase in operational complaints (priority alert flag = 1; rising EXPECTATION_EXPERIENCE_GAP_AVG, SEMANTIC_MISALIGNMENT_SCORE_AVG and PERC_OPERATIONAL_COMPLAINTS). However, core strengths (location, staff, cleanliness) are strongly positive and financial indicators (RevPAR/RevPOR/TREVPAR) are improving, which reduces immediate business risk. The combination of rising negative-review share and misalignment warrants prioritized operational and communications actions.",
+  "executive_summary": "Preserve strong location, cleanliness and staff performance. Top operational priority: address breakfast experience (quality/variety and hours/expectations). Concurrently, review guest-facing communications and descriptions to reduce semantic misalignment. Immediately investigate the rising operational-complaints share to identify root causes. Inspect reported mattress firmness to determine scope and remedy. Prioritize operational/process fixes and targeted assessments before any capital decisions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Multiple guests report limited breakfast options, lack of vegetables and an expressed expectation violation about the breakfast offering/hours.",
+      "recommended_action": "Review breakfast offering and operations: evaluate variety (including vegetable/healthy options), portioning and service hours; review kitchen/ordering processes and supplier availability; update pre-arrival and front-desk information about breakfast times and contents. Use guest feedback to set specific, measurable changes and monitor response.",
+      "rationale": "Breakfast has 6 mentions (5 negative, 1 positive) across 3 weeks with an explicit violated expectation. Multiple complaint examples cite limited options, no vegetables and a general need for improvement. This is a service-quality issue affecting guest experience and expectation alignment but does not yet establish a structural capital requirement.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast — 6 mentions, 5 negative, has_expectation_violation = true, experience_weeks = 3.",
+        "Complaint 2024-04-26: 'Breakfast was good but there were no vegetables in it.'",
+        "Complaint 2024-04-25: 'That the options at breakfast are limited.'",
+        "Complaint 2024-05-06: 'Breakfast needs improvement.'",
+        "Complaint 2024-04-25 (en-us): 'breakfast ends at 10am' (guest expectation about hours)."
+      ],
+      "positive_counterevidence": [
+        "Complaint 2024-05-05: 'We opted for breakfast and dinner, everything was great!'",
+        "Complaint 2024-04-26: 'Breakfast was good' (but lacked vegetables)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Expectation–experience alignment / communications",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Rising expectation–experience gap and semantic misalignment indicate that some advertised or assumed guest expectations are not being met or are communicated unclearly.",
+      "recommended_action": "Review guest-facing descriptions (booking pages, confirmation emails, on-site signage) and pre-arrival communications to ensure they accurately describe facilities, breakfast contents/hours and services. Train front-desk staff to set clear expectations at check-in. Monitor whether clearer messaging reduces expectation-violation mentions.",
+      "rationale": "Experience indicators show increasing EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG; EXPECTATION_VIOLATION_RATIO rose to 1.0 in the sample. Several complaints about breakfast content/hours point to mismatched expectations. Addressing communications is lower-cost and targets the root of misalignment.",
+      "supporting_evidence": [
+        "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG both increasing.",
+        "EXPECTATION_VIOLATION_RATIO increased to 1.0.",
+        "Complaint 2024-04-25: 'breakfast ends at 10am' (timing expectation).",
+        "Complaint 2024-04-26: 'Breakfast was good but there were no vegetables in it.' (content expectation)."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise staff helpfulness and location, indicating frontline staff could be effective communicators (e.g., 2024-05-05, 2024-04-22)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Rising operational-complaints share (root-cause review)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "The share of operational complaints has increased substantially (PERC_OPERATIONAL_COMPLAINTS up to 100 in the sample), indicating a possible operational or process issue that requires prompt managerial review.",
+      "recommended_action": "Immediately audit operational areas linked to guest complaints (breakfast service, check-in/check-out procedures, housekeeping handoffs). Convene a short cross-functional review (F&B, front desk, housekeeping) to identify process bottlenecks and quick fixes. Implement short-cycle monitoring of operational-complaint counts and guest feedback for the next 2–4 weeks.",
+      "rationale": "Preliminary signal flags 'increasing_operational_complaints' as high severity and the PERC_OPERATIONAL_COMPLAINTS metric rose sharply in the window. Although sample size is limited, the trend and priority alert justify a prompt managerial review to prevent escalation.",
+      "supporting_evidence": [
+        "Preliminary signals: 'increasing_operational_complaints' flagged as high severity.",
+        "Experience indicators: PERC_OPERATIONAL_COMPLAINTS moved from 0 to 100 (managerial evidence).",
+        "PERC_REVIEWS_NEGATIVE increased from 10% to 42.9% across the window."
+      ],
+      "positive_counterevidence": [
+        "Several reviews show strong service and cleanliness (suggesting problems may be concentrated in a few operational areas rather than global)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 3,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Room comfort — mattress firmness",
+      "evidence_pattern": "predominantly_positive",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Isolated reports of very hard mattresses that reduce sleep comfort for some guests.",
+      "recommended_action": "Carry out a targeted inspection of mattress condition and firmness across a representative sample of rooms. If firmness is inconsistent with typical guest comfort expectations, evaluate soft-top or replacement options after inspection. In the short term, consider providing temporary solutions (e.g., mattress toppers) only after confirming scope and cost.",
+      "rationale": "Room comfort is generally positive (3 positive vs 1 negative mention) but the negative comment about 'The bed matress are very hard' indicates a specific friction that affects comfort. The evidence is limited to a small number of guests, so inspection should precede any procurement or replacement decision.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — 4 mentions, 3 positive, 1 negative (predominantly_positive).",
+        "Complaint 2024-04-21: 'The bed matress are very hard.'"
+      ],
+      "positive_counterevidence": [
+        "Room comfort overall has more positive than negative mentions (positive_share = 0.75)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": []
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Location received uniformly positive mentions (10 positive, 0 negative) and is repeatedly praised as close to the shrine and Fatima square in multiple reviews.",
+      "management_implication": "Continue to highlight proximity in marketing and ensure front-desk directions/assistance maintain this advantage."
+    },
+    {
+      "area": "Staff and service (attentiveness)",
+      "reason": "Eight positive mentions and multiple reviews praise helpful, welcoming staff; front desk staff provided practical help (e.g., lending a kettle).",
+      "management_implication": "Preserve current training and recognition practices; involve front-desk staff in communications updates so they can set accurate guest expectations."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Multiple reviews specifically praise room cleanliness and housekeeping performance (4 positive mentions, 0 negative).",
+      "management_implication": "Maintain existing housekeeping standards and schedule to preserve this clear strength."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Direct measure of the gap between what guests expect and what they experience; currently trending up.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Tracks how descriptions/expectations differ from actual guest language; currently increasing and relevant to complaints about breakfast and offerings.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints share jumped in the window; monitoring will show if process fixes reduce this metric.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Overall negative review share increased substantially in the window; useful to track whether interventions reduce negative mentions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "AVG_RATING",
+      "reason": "General gauge of guest satisfaction; trend is currently improving but should be watched alongside operational indicators.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint sample is diagnostic and not statistically representative of all guests; prevalence should be interpreted using full review-window metadata.",
+    "Evidence indicates expectation and operational issues but does not determine the operational root causes or the cost/scope of any capital remedies.",
+    "Where evidence suggests a potential need for equipment replacement (e.g., mattresses), a targeted inspection is required before prescribing remedial investment.",
+    "No direct evidence links guest comments to financial metrics; avoid assuming causality between reviews and RevPAR or occupancy changes."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P034",
+    "case_id": "H317_20240506_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:24:57.533633+00:00",
+    "finished_at_utc": "2026-09-08T16:25:55.821128+00:00",
+    "elapsed_seconds": 58.279
+  }
+}

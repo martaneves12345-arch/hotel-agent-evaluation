@@ -1,0 +1,257 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business indicators show meaningful declines (REVPAR, occupancy, sentiment) and a consistent increase in operational complaints. Customer reviews nevertheless show clear strengths (cleanliness, friendly staff, satisfactory breakfast and parking). The combination of declining commercial metrics and emerging operational friction (bathroom/shower issues, mattress/room comfort expectation violations) warrants active managerial attention but does not indicate an immediate safety crisis.",
+  "executive_summary": "Preserve strong housekeeping and service performance while addressing a small set of operational/maintenance frictions that are beginning to affect guest expectations: (1) bathroom/shower functionality and layout obstructions (emerging); (2) room comfort (mattress condition and perceived cramped layouts); (3) rising operational complaints (process/reliability review); (4) expectation alignment on price–value messaging. Also monitor declining commercial metrics (RevPAR, occupancy, sentiment) to see whether guest experience issues are contributing. Prioritize assessment where capital or structural action may be required; otherwise pursue operational and policy/process fixes in the short term.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition (shower and access)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Emerging reports of shower/handheld shower malfunction and bathroom access partially obstructed by furniture; guests still describe bathrooms positively overall but recent negative mentions are visible.",
+      "recommended_action": "Inspect rooms to verify shower/handheld functionality and check whether furniture placement is obstructing bathroom access; perform repairs as required and clarify any housekeeping/setup standards to avoid blocked access. If inspections find recurring hardware failures or layout constraints, schedule a maintenance assessment to scope repairs or modifications.",
+      "rationale": "Managerial evidence marks bathroom as 'positive_with_friction' with emerging_negative_weeks = 1 and matched topics including 'shower' and 'access to bathroom obstructed by furniture'. There is a recent concrete complaint about a handheld shower not working (2024-11-08) and a complaint describing furniture obstructing access (2024-11-04). These are actionable maintenance/operational issues that can erode the otherwise positive bathroom experience.",
+      "supporting_evidence": [
+        "Managerial evidence: Bathroom condition — review_mentions_total 4, positive_mentions 3, negative_mentions 2, is_emerging_negative = true, evidence_pattern = positive_with_friction",
+        "Emerging_negative_topic flagged: 'shower' in latest_context",
+        "Complaint 2024-11-08: 'handheld shower wasn't working properly.'",
+        "Complaint 2024-11-04: 'room was very tight; you almost have to move the chair to get to the bathroom.'"
+      ],
+      "positive_counterevidence": [
+        "Bathroom mentions are mostly positive (positive_mentions 3 of 4) and guests also describe bathtubs and hot showers positively in other reviews."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 3,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: shower",
+          "PERC_OPERATIONAL_COMPLAINTS increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.78
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort (mattress condition and compact room layouts)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Guest-reported mattress sagging (sunken mattress) and recurring comments about limited room space for some configurations (e.g., three-person room, moving furniture to access bathroom).",
+      "recommended_action": "Conduct a targeted inspection program to assess mattress condition across room types and evaluate whether mattress replacement is warranted. Review room layouts/room type assignments (e.g., three-person configurations) and in-room furniture placement standards to reduce access friction. If inspections indicate widespread mattress deterioration or structural layout constraints, develop a replacement or refit plan (start with most-complained rooms).",
+      "rationale": "Managerial evidence labels 'Room comfort' as 'mixed' with an explicit expectation violation (violated_expectation_weeks = 1) and matched topic 'mattress replacement / bed quality'. Complaints include a guest stating the mattress is 'very sunken' and another noting cramped space for three people. Because mattress replacement is potentially capital-intensive, an assessment is appropriate before committing to capital outlay.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — review_mentions_total 4, positive_mentions 2, negative_mentions 2, has_expectation_violation = true, evidence_pattern = mixed",
+        "Complaint 2024-11-04: 'The mattress needs replacing, it's very sunken.'",
+        "Complaint 2024-10-16: 'We had a three-person room, and space was limited.'"
+      ],
+      "positive_counterevidence": [
+        "Some reviews describe rooms as 'spacious' and 'good quality bed linen' (e.g., 2024-10-23 and 2024-10-20), indicating the issue may not affect all room types or may be localized."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "Room comfort (managerial_evidence) — expectation violation present",
+          "Guest complaints referencing mattress quality and limited room space"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.72
+    },
+    {
+      "rank": 3,
+      "area": "Operational complaints and process reliability",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Share of operational complaints has risen sharply (evidence of increasing operational issues), indicating process reliability or maintenance responsiveness may be weakening.",
+      "recommended_action": "Perform a short-term operational review to identify common operational failure modes (e.g., in-room fixtures, housekeeping setup, furniture placement). Track and root-cause recent operational complaints, verify response times for maintenance requests, and update standard operating procedures to reduce recurrence. Use a simple weekly log to monitor whether corrective actions reduce the operational complaint share.",
+      "rationale": "Experience indicators show PERC_OPERATIONAL_COMPLAINTS increasing consistently to 50.0 (experience_weeks n=2) and preliminary_signals flagged 'increasing_operational_complaints' with high severity. Specific operational examples in complaints include a malfunctioning handheld shower and obstructed bathroom access. Addressing process reliability can reduce friction quickly without immediate capital investment.",
+      "supporting_evidence": [
+        "Experience indicator: PERC_OPERATIONAL_COMPLAINTS moved from 0 to 50.0 (consistent increase)",
+        "Preliminary signal: 'increasing_operational_complaints' (severity: high)",
+        "Complaint examples: 2024-11-08 (handheld shower not working), 2024-11-04 (furniture obstructing bathroom access)"
+      ],
+      "positive_counterevidence": [
+        "Many operational aspects remain positive in reviews (cleanliness and staff) suggesting core housekeeping processes are functioning; issues appear concentrated in specific maintenance/fixture areas."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "PERC_OPERATIONAL_COMPLAINTS increasing",
+          "Preliminary signal: increasing_operational_complaints"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Price–value expectation alignment",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Although most guests report good value for money, there is evidence of expectation violation for some guests about price–value balance.",
+      "recommended_action": "Review guest-facing descriptions and pricing/value positioning to ensure they align with what the property offers (room size, amenities, breakfast, parking). Consider clarifying room type descriptions (e.g., space for three people) and what is included to reduce expectation mismatches. If reviews reveal consistent mismatches, evaluate whether packaging or communicated inclusions should be adjusted.",
+      "rationale": "Managerial evidence shows 'Price–value' as positive_with_friction (5 mentions, 4 positive, 1 negative) with violated_expectation_weeks = 1 and matched topic 'value for money'. Several reviews praise value while one references a fair trade-off, indicating an expectation gap for a minority of guests.",
+      "supporting_evidence": [
+        "Managerial evidence: Price–value — review_mentions_total 5, positive_mentions 4, negative_mentions 1, has_expectation_violation = true",
+        "Complaint examples: 2024-11-04 (value for money/quality fair), 2024-10-20 and 2024-10-23 references to competitive price and excellent value for money"
+      ],
+      "positive_counterevidence": [
+        "Majority of mentions are positive (positive_share 0.8), with multiple reviews explicitly noting 'excellent value for money' and satisfaction with included breakfast and parking."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing",
+          "EXPECTATION_VIOLATION_RATIO increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.68
+    },
+    {
+      "rank": 5,
+      "area": "Monitor business performance and guest sentiment",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Commercial metrics (REVPAR, TREVPAR, occupancy) are decreasing and average sentiment has fallen; recent trend reversals in average rating warrant attention to see if guest experience issues are contributing.",
+      "recommended_action": "Monitor weekly RevPAR, occupancy, average rating, and sentiment alongside counts of operational complaints and expectation-violation mentions. If declines persist or correlate with rising complaint indicators, commission a short diagnostic linking guest-feedback themes to commercial performance. Do not assume causality without further analysis.",
+      "rationale": "Multiple business performance metrics show decreases (REVPAR -31.5% over window, occupancy -29.9%), and SENTIMENT_SCORE_AVG decreased substantially. The hotel also shows increased expectation and semantic misalignment metrics. These combined signals justify closer monitoring and a diagnostic if downward trends continue.",
+      "supporting_evidence": [
+        "Business performance: REVPAR_WEEK decreased from 15.12 to 10.35 (-31.5%), TAXA_OCUPACAO decreased from 34.52 to 24.21 (-29.9%)",
+        "SENTIMENT_SCORE_AVG decreased markedly (first_value 0.525 to last_value 0.075)",
+        "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG increasing"
+      ],
+      "positive_counterevidence": [
+        "Average rating increased over the full window (7.6 to 8.18) though this metric shows a recent reversal; not all reputation metrics are uniformly negative."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "declining_revpar",
+          "declining_sentiment",
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.64
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Consistently strong evidence: managerial_evidence shows 5 positive mentions and 0 negatives; guests explicitly praise room cleanliness.",
+      "management_implication": "Maintain current housekeeping standards and recognize/communicate this strength in staff training and guest messaging."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Managerial evidence: 4 positive mentions, 0 negatives; reviews describe staff as friendly and welcoming.",
+      "management_implication": "Preserve staff behaviors through recognition and training; leverage staff friendliness when addressing operational issues with guests."
+    },
+    {
+      "area": "Breakfast and parking",
+      "reason": "Breakfast is described as 'very satisfactory' for a simple hotel and parking is reported positively; both contribute to value-for-money perceptions.",
+      "management_implication": "Keep breakfast and parking at current standards; highlight these inclusions clearly in guest communication to reinforce perceived value."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS (share)",
+      "reason": "Direct signal of operational friction (recent consistent increase to 50.0).",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Commercial performance is declining; track for continued deterioration or stabilization.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG and EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Measure linkage between guest sentiment/expectation gaps and operational issues.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Counts of complaints mentioning 'shower' or 'mattress' or 'room cramped'",
+      "reason": "Directly track the frequency of the specific topics identified in priorities 1 and 2.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Average rating (AVG_RATING) — watch for further reversals",
+      "reason": "Has shown an increase over the window but a recent reversal; useful early-warning metric.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is small and selected for substantive disliked text; selected complaints are diagnostic and not statistically representative of all reviews in the window.",
+    "The evidence identifies issues (e.g., mattress deterioration, shower malfunction) but does not specify scope, extent, or cost; capital/structural recommendations require physical inspection and cost assessment.",
+    "Some issues are room-type specific (positive counterevidence exists), so city-wide or hotel-wide assumptions about scale should be avoided without further assessment.",
+    "Experience and business-performance trends are concurrent but causality between guest feedback themes and commercial metrics is not established by the supplied evidence."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P006",
+    "case_id": "H225_20241104_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:47:00.576741+00:00",
+    "finished_at_utc": "2026-09-08T15:47:52.517906+00:00",
+    "elapsed_seconds": 51.929
+  }
+}

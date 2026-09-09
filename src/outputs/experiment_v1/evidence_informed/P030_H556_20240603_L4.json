@@ -1,0 +1,229 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business metrics (REVPAR, REVPOR, TREVPAR) are trending up and many room/housekeeping signals are strongly positive, but an existing priority alert and recurring guest complaints about the spa/pool (temperature and towel condition) plus mixed/expectation-violating comments about evening buffet/restaurant justify a moderate risk level that needs targeted management action.",
+  "executive_summary": "The hotel's core room experience and housekeeping are strong and financial performance is improving. Key customer-friction areas in this window are: (1) spa/pool (cold pool, damaged/worn pool towels) — an emerging negative with expectation violations that warrants prompt inspection and operational fixes; (2) food & beverage (evening buffet quality, vegetarian variety and perceived price-to-quality) — mixed evidence, requires operational and menu/process review; (3) wifi/connectivity — isolated but clear negative mention that should be checked. Prioritize an immediate inspection of pool systems and towel replacement process, and short-term reviews of evening buffet quality, menu variety and pricing communication. Preserve strengths in room comfort, cleanliness, bathroom condition and staff service.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Spa and pool",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guests reported the pool being cold and several mentions of worn or damaged beach/pool towels; topic is flagged as an emerging negative and an expectation violation.",
+      "recommended_action": "Initiate an immediate operational and facilities check: (a) inspect pool heating/circulation systems and confirm actual water temperature logs; (b) review indoor-pool availability/guest communication (several guests noted no indoor pool); (c) audit towel inventory/rotation and replace worn/damaged pool/beach towels; (d) if inspection indicates mechanical issues, escalate to maintenance assessment and schedule repairs. Communicate proactively to guests (on-site and in booking info) about pool availability/temperature while issues are investigated.",
+      "rationale": "Multiple recent guest complaints specifically cite cold pool and damaged/worn pool towels; managerial evidence flags this area as emerging_negative and shows expectation_violation. Because pool temperature may reflect a maintenance failing and towels directly affect guest perception of care/quality, this requires prompt inspection and operational fixes. The intervention mixes maintenance inspection and operational supply/process (towel replacement).",
+      "supporting_evidence": [
+        "Managerial_evidence: Spa and pool — review_mentions_total 9, positive_mentions 6, negative_mentions 4, has_expectation_violation true, is_emerging_negative true",
+        "Complaint 2024-05-29: 'Disliked: cold swimming pool' (rating 7)",
+        "Complaint 2024-05-17: 'The pool towels were worn and need replacing' (rating 10)",
+        "Complaint 2024-06-03: 'beach/pool towels: every day I had a \"bonus\" of receiving a damaged towel' (rating 9)",
+        "Complaint 2024-05-26: 'It's a shame that there is no indoor pool.' (rating 9)"
+      ],
+      "positive_counterevidence": [
+        "Managerial_evidence shows positive_mentions 6 (positive share 0.6) indicating many guests still appreciate the pool/facilities",
+        "Several complaint reviews include positive context referencing 'beautiful pool area' and 'good amenities'"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "emerging_negative_topic",
+          "violated_expectation_weeks (spa/pool)",
+          "REVPAR_WEEK increasing (context: strong business performance)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast / Restaurant (evening buffet & menu variety)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Several guests raised expectation violations around evening buffet quality (mentions of frozen/unappetizing products), requested more vegetarian options, and questioned restaurant price-to-quality value.",
+      "recommended_action": "Conduct a short-term operational and culinary review: (a) audit evening buffet sourcing and preparation processes to identify causes of perceived low quality (e.g., frozen products on buffet); (b) review menu composition and availability of vegetarian options at dinner; (c) review dinner pricing vs. perceived value and how value is communicated to guests (menu descriptions, signage); (d) consider a kitchen/FOH briefing to ensure consistent presentation and portioning. If root causes are unclear, commission a managerial assessment of F&B processes and supplier/product choices.",
+      "rationale": "Multiple reviews cite evening buffet problems and limited vegetarian options; managerial_evidence shows breakfast and restaurant have mixed mentions and flagged expectation violations. This affects guest experience and value perception but is operational/culinary in nature rather than clearly capital-intensive, so a focused process and quality review is appropriate before larger changes.",
+      "supporting_evidence": [
+        "Managerial_evidence: Breakfast — review_mentions_total 6, positive 4, negative 4, has_expectation_violation true",
+        "Managerial_evidence: Restaurant and bar — matched topics include 'more vegetarian options at the restaurant buffet dinner' and 'restaurant price-to-quality value'",
+        "Complaint 2024-05-20: 'The evening buffet was really not good at all: frozen products and not very appetizing' (rating 9)",
+        "Complaint 2024-05-31: 'the restaurant buffet dinner could have had more vegetarian options' (rating 10)",
+        "Complaint 2024-05-15: 'Restaurant expensive considering the dishes presented' (rating 8)"
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise breakfast ('The breakfast is incredible', 'The breakfast was really good') indicating breakfast remains a relative strength",
+        "Managerial_evidence shows positive_mentions for breakfast and restaurant (breakfast positive_mentions 4)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "EXPECTATION_VIOLATION_RATIO stable (shows violations persist)",
+          "PERC_REVIEWS_NEGATIVE decreasing (context: overall negative reviews are falling)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Wi‑Fi and technology (connectivity)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guest reported intermittent Wi‑Fi disconnections in certain hotel areas.",
+      "recommended_action": "Perform a targeted IT/coverage check: identify areas with reported disconnects, review access-point coverage and logs, and implement corrective actions (reposition access points, reboot/patch equipment, or adjust capacity) as appropriate. Monitor guest feedback for recurrence over the next weeks.",
+      "rationale": "Although only a single negative mention in this window, connectivity problems directly affect guest convenience and were described concretely. It is operational and normally resolvable without capital assessment, so a short-term technical check is appropriate.",
+      "supporting_evidence": [
+        "Managerial_evidence: Wi‑Fi and technology — review_mentions_total 1, positive 0, negative 1, evidence_pattern net_negative",
+        "Complaint 2024-06-05: 'The wifi kept disconnecting in certain areas of the hotel.' (rating 9)"
+      ],
+      "positive_counterevidence": [
+        "Most reviews otherwise praise facilities and staff; no multiple reports of widespread connectivity failure in this window"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "diagnostic_vulnerabilities Wi‑Fi net_negative"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    },
+    {
+      "rank": 4,
+      "area": "Price–value perception (restaurant / overall guest value)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Some guests perceive restaurant prices as not matching quality/value; this is tied to evening buffet quality comments and general price-to-quality expectations.",
+      "recommended_action": "Review F&B pricing communication and perceived value: evaluate whether menu pricing, portioning, and item descriptions align with guest expectations; assess whether pricing is being perceived differently by segments (families, couples). Do not prescribe price changes without analysis — instead commission a short review comparing menu offerings, price points and guest feedback, and evaluate messaging about inclusions/quality.",
+      "rationale": "Managerial evidence flagged price–value as a diagnostic vulnerability (default_priority high) with expectation violation. Evidence is limited in frequency but has high sensitivity because price perception affects satisfaction. The appropriate next step is a managerial review of pricing/value positioning and how it is communicated to guests.",
+      "supporting_evidence": [
+        "Managerial_evidence: Price–value — review_mentions_total 2, positive 1, negative 1, has_expectation_violation true, default_priority high",
+        "Complaint 2024-05-15: 'Restaurant expensive considering the dishes presented.' (rating 8)"
+      ],
+      "positive_counterevidence": [
+        "Many reviews praise food (notably breakfast) and overall facilities, indicating that price-value concerns are limited rather than widespread"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "diagnostic_vulnerabilities price–value (default_priority high)",
+          "managerial_evidence matched topic 'restaurant price-to-quality value'"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.55
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Room comfort",
+      "reason": "Managerial evidence: 4 mentions, all positive; complaints repeatedly praise room size, beds and bathrooms.",
+      "management_implication": "Continue existing room maintenance, housekeeping standards, and guest room amenities to preserve this clear strength."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Managerial evidence: 4 mentions, positive_share 1.0; multiple reviews explicitly note exceptional cleanliness.",
+      "management_implication": "Sustain current housekeeping processes and staffing focus; leverage this strength in guest communication."
+    },
+    {
+      "area": "Bathroom condition & in-room amenities",
+      "reason": "Positive mentions for bathroom cleanliness and amenities; guests repeatedly cite comfortable bathrooms and good amenities.",
+      "management_implication": "Maintain supplies and inspection checklists that support this positive guest perception."
+    },
+    {
+      "area": "Location and accessibility (quiet location, parking)",
+      "reason": "Predominantly positive mentions; guests appreciate quiet location and ample parking even if some find it far from town.",
+      "management_implication": "Preserve messaging about location (quiet, parking available) and ensure transportation/guest guidance information is clear."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Weekly count of negative mentions referencing pool temperature or towel condition",
+      "reason": "Directly tracks whether spa/pool emerging negative is persisting or resolving after interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Number of substantive evening buffet/restaurant quality or vegetarian-option complaints per week",
+      "reason": "Monitors the effectiveness of F&B quality and menu adjustments.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Weekly Wi‑Fi/connectivity incident reports by hotel area",
+      "reason": "Tracks recurrence of the reported disconnects and identifies problem locations.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Guest feedback on perceived restaurant price-to-quality (qualitative mentions) per week",
+      "reason": "Monitors whether price-value perception is improving after communication/menu reviews.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE (overall) and EXPECTATION_VIOLATION_RATIO weekly",
+      "reason": "Contextual indicators to ensure that targeted fixes are contributing to broader expectation alignment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaints sampled are diagnostic and not statistically representative of all guest feedback; prevalence should be validated using the full review set.",
+    "Evidence does not determine whether pool temperature issues are due to mechanical failure, scheduling (pool hours), or seasonal settings — an inspection is required before prescribing repairs or capital work.",
+    "Restaurant/food quality evidence identifies perceived quality issues but does not specify root causes (kitchen processes, supplier quality, staffing, or menu design). A culinary/process review is needed.",
+    "Wi‑Fi evidence is limited to a single negative mention in this window; technical assessment should confirm scope before committing resources.",
+    "Recommendations avoid prescribing specific technical solutions, pricing changes or staffing levels because the supplied evidence does not support those specifics."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P030",
+    "case_id": "H556_20240603_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:19:27.015835+00:00",
+    "finished_at_utc": "2026-09-08T16:20:09.638698+00:00",
+    "elapsed_seconds": 42.624
+  }
+}

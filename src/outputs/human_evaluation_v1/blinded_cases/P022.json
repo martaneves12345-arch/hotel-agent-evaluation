@@ -1,0 +1,598 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P022",
+  "case_information": {
+    "case_id": "H65_20240819_L4",
+    "decision_week": "2024_W34",
+    "decision_date": "2024-08-19",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 41.755866355202826,
+        "REVPOR_WEEK": 87.89574696356274,
+        "TREVPAR_WEEK": 85.43385528728848,
+        "TAXA_OCUPACAO": 47.01986754966888,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 5.333333333333333,
+        "SENTIMENT_SCORE_AVG": -0.15,
+        "SENTIMENT_SCORE_STD": 0.7593857166596345,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.575,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.725,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.3333333333333333,
+        "EMOTION_ENTROPY": 1.5,
+        "EXPECTATION_SHARE": 0.6666666666666666,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.6666666666666666,
+        "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.3333333333333333,
+        "COMPLEXITY_INDEX": 2.636778631137593,
+        "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+      },
+      {
+        "WEEK_YEAR": "2024_W32",
+        "week_date": "2024-08-05",
+        "REVPAR_WEEK": 90.9319640998164,
+        "REVPOR_WEEK": 103.29989385113268,
+        "TREVPAR_WEEK": 171.03248158840387,
+        "TAXA_OCUPACAO": 88.74172185430463,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.909090909090909,
+        "SENTIMENT_SCORE_AVG": -0.16,
+        "SENTIMENT_SCORE_STD": 0.2190890230020664,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.3333333333333333,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.4333333333333333,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.9709505944546688,
+        "EXPECTATION_SHARE": 0.1818181818181818,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1818181818181818,
+        "PERC_REVIEWS_NEGATIVE": 18.181818181818183,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2727272727272727,
+        "COMPLEXITY_INDEX": 2.246295615398993,
+        "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+      },
+      {
+        "WEEK_YEAR": "2024_W33",
+        "week_date": "2024-08-12",
+        "REVPAR_WEEK": 87.307824001753,
+        "REVPOR_WEEK": 96.43767594537812,
+        "TREVPAR_WEEK": 178.32303646697116,
+        "TAXA_OCUPACAO": 92.80983916745508,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 7.555555555555555,
+        "SENTIMENT_SCORE_AVG": 0.0833333333333333,
+        "SENTIMENT_SCORE_STD": 0.6322263399507618,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1038461538461538,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1384615384615384,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.678770585643888,
+        "EXPECTATION_SHARE": 0.1666666666666666,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1111111111111111,
+        "PERC_REVIEWS_NEGATIVE": 61.11111111111112,
+        "PERC_OPERATIONAL_COMPLAINTS": 11.11111111111111,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2222222222222222,
+        "COMPLEXITY_INDEX": 3.1734098218198894,
+        "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+      },
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 84.90560157431818,
+        "REVPOR_WEEK": 93.65109122257051,
+        "TREVPAR_WEEK": 178.11669600503782,
+        "TAXA_OCUPACAO": 92.80983916745508,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.272727272727272,
+        "SENTIMENT_SCORE_AVG": 0.1071428571428571,
+        "SENTIMENT_SCORE_STD": 0.541315045072625,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.28125,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.33125,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.448815635725185,
+        "EXPECTATION_SHARE": 0.3636363636363636,
+        "HIGH_EXPECTATION_SHARE": 0.0909090909090909,
+        "HIGH_MISALIGNMENT_SHARE": 0.3636363636363636,
+        "PERC_REVIEWS_NEGATIVE": 54.54545454545454,
+        "PERC_OPERATIONAL_COMPLAINTS": 16.666666666666664,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2727272727272727,
+        "COMPLEXITY_INDEX": 3.0290996994989854,
+        "SENTIMENT_TREND_SLOPE": -0.0006937555449776
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-08-25",
+        "rating": 8.0,
+        "liked": "Always tidy and comfortable space.",
+        "disliked": "It needs to be renovated and have a larger buffet; at least in August it's too small for so many people.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-23",
+        "rating": 3.0,
+        "liked": "Family atmosphere.",
+        "disliked": "Poor value for money; mediocre buffet; the performances are very outdated.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-22",
+        "rating": 8.0,
+        "liked": "The landscaped outdoor area and the entertainment.",
+        "disliked": "The outdoor pool was somewhat dirty.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-20",
+        "rating": 7.0,
+        "liked": "Cleanliness",
+        "disliked": "Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment. The pool has cloudy water and a strong smell of chlorine.",
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-20",
+        "rating": 8.0,
+        "liked": "Comfortable beds, outdoor area and the hotel's entertainment manager.",
+        "disliked": "The rooms need renovating; they are outdated, and they should add a few more dishes to the buffet.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-20",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 9.0,
+        "liked": "Outdoor space and cocktails.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 7.0,
+        "liked": "The outdoor area, the garden, the children's playground, the pools, the children's games room and the entertainment.",
+        "disliked": "The room was a bit small, the food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 9.0,
+        "liked": "Hotel with good facilities for families. Good food.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 4.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 7.0,
+        "liked": "Nice rooms. Good air conditioning. Amazing value for money. Lots of drink options. Good outdoor pool bar. Went for afronation and was only 20 mins to travel by car",
+        "disliked": "One rude member of staff",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 10.0,
+        "liked": "Spectacular accommodation, starting with the very comfortable room, pools and shared spaces always very clean and organized, very good food with many options to please everyone, friendly and very helpful staff, hotel with a family atmosphere perfect for trips with a child, my son for example loved the Kids Club with various activities—I recommend it and I will certainly return.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 6.0,
+        "liked": "The buffet has little choice, the restaurant is similar to a canteen, the room is spacious but vintage-style.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 9.0,
+        "liked": "The meals, the friendliness of the staff and the pool.",
+        "disliked": "The internet was really very poor.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-16",
+        "rating": 8.0,
+        "liked": "The all-inclusive plan, the hotel's location and the pool, as well as the staff",
+        "disliked": "The pillows that are not comfortable at all, the limited variety of the buffet, and the low lighting in the dining room at dinnertime.",
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-15",
+        "rating": 8.0,
+        "liked": "The outdoor areas are lovely and very well maintained",
+        "disliked": "Room somewhat outdated and worn.",
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-15",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-15",
+        "rating": 6.0,
+        "liked": "Piscina",
+        "disliked": "Meals",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-14",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Recent operational performance is strong (occupancy, RevPAR, TRevPAR up and average rating improving), but multiple guest comments repeatedly call out food/buffet limits, outdated rooms, and pool water quality (including cloudy water and strong chlorine smell). The pool water issues have potential safety/health implications and require rapid response; other issues are reputational and medium-term capital/operational priorities.",
+    "executive_summary": "Priority actions: (1) immediate check and remediation of pool water/maintenance due to repeated guest reports of cloudy/dirty water and strong chlorine odor; (2) address guest dissatisfaction with buffet capacity and variety through operational changes and targeted menu tweaks; (3) plan and budget phased room refurbishment and quick wins (pillows, lighting, outlets); (4) resolve poor internet performance and add charging points; (5) reinforce front-line service consistency with brief training and recovery protocols. Preserve strong outdoor spaces, entertainment/kids programming and generally friendly staff while monitoring complaint counts and guest satisfaction for the targeted areas.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Pool water quality & maintenance",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple recent reviews report cloudy or dirty outdoor pool water and a strong smell of chlorine, indicating possible chemical imbalance or filtration problems.",
+        "recommended_action": "Immediately test pool water chemistry (free/total chlorine, pH, combined chlorine/chloramines), turbidity and filtration performance; increase cleaning and backwash frequency while corrective chemistry adjustments are made; consider temporary pool closure if unsafe; document water quality logs and post visible signage on remedial actions for guest reassurance. Assign maintenance to conduct a short audit of filtration pumps and schedule remedial repairs if needed.",
+        "rationale": "Guest comments specifically mention cloudy water and strong chlorine odor (Aug 20, Aug 22). Pool water issues can affect guest perception and have potential health/safety implications if chemical balance or filtration is inadequate.",
+        "supporting_evidence": [
+          "2024-08-22: \"The outdoor pool was somewhat dirty.\"",
+          "2024-08-20: \"The pool has cloudy water and a strong smell of chlorine.\"",
+          "2024-08-20: \"Piscina\" (guest-mentioned issues with pool)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Food quality, buffet variety & service capacity",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Several guests report limited buffet variety, repetitive menus, perceived poor value for money and overcrowded buffet lines in peak season (August).",
+        "recommended_action": "Conduct a rapid operational review of food service: increase variety at key meal periods (add rotating/station items or themed nights), improve presentation, review buffet layout and staffing to reduce bottlenecks (add serving stations or staggered service times). Collect targeted guest feedback on menu preferences and track food waste to tune offerings. Communicate improvements to guests in marketing and at check-in.",
+        "rationale": "Multiple reviews mention 'mediocre buffet', 'little choice', 'food repetitive', and 'too small for so many people', indicating consistent guest dissatisfaction with F&B variety and capacity rather than isolated incidents.",
+        "supporting_evidence": [
+          "2024-08-25: \"It needs to be renovated and have a larger buffet; at least in August it's too small for so many people.\"",
+          "2024-08-23: \"Poor value for money; mediocre buffet; the performances are very outdated.\"",
+          "2024-08-20: \"The food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.\"",
+          "2024-08-18: \"The buffet has little choice, the restaurant is similar to a canteen\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Room condition, furnishings and in-room amenities",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Frequent guest comments describe rooms and furniture as outdated, worn or in need of renovation; specific in-room amenity issues include uncomfortable pillows and low lighting.",
+        "recommended_action": "Commission a room-condition audit to identify priority items (beds/pillows, lighting, carpeting/furniture, paint). Create a phased renovation plan prioritizing high-impact, lower-cost fixes (new pillows, improved lighting, bedside outlets or USB chargers) while budgeting for a longer-term refurbishment of room finishes. Consider a pilot of renovated rooms to measure guest uplift.",
+        "rationale": "Repeated comments across dates indicate perception of aging rooms and furniture which affects guest satisfaction and perceived value. Quick wins (pillows, lighting, outlets) can be implemented rapidly while larger capital works are planned.",
+        "supporting_evidence": [
+          "2024-08-25: \"It needs to be renovated...\"",
+          "2024-08-20: \"Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment.\"",
+          "2024-08-20: \"The rooms need renovating; they are outdated...\"",
+          "2024-08-15: \"Room somewhat outdated and worn.\"",
+          "2024-08-16: \"The pillows that are not comfortable at all\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 4,
+        "area": "Internet performance & charging infrastructure",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "At least one guest reports very poor internet and multiple guests note a shortage of power outlets for charging devices.",
+        "recommended_action": "Run an IT/coverage assessment (speed tests in sample rooms and public areas) and upgrade bandwidth or Wi‑Fi access points as needed. Add additional accessible charging points or provide USB-chargers/power strips in rooms as an immediate fix. Communicate Wi‑Fi details and any planned improvements to guests.",
+        "rationale": "Poor internet and lack of charging infrastructure negatively impact guest experience, especially for groups/families. These fixes can be operationally fast and relatively low-cost compared to renovation.",
+        "supporting_evidence": [
+          "2024-08-18: \"The internet was really very poor.\"",
+          "2024-08-20: \"There is a lack of outlets to charge electronic equipment.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 5,
+        "area": "Service consistency & guest interaction",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "While many reviews praise friendly and helpful staff, there is at least one report of a rude staff member—indicating occasional lapses in service consistency.",
+        "recommended_action": "Deliver a short customer service refresher for front-line teams, clarify expected behaviors and recovery protocols for complaints, and ensure managers monitor and address any service reports quickly. Use guest feedback to highlight positives and coach where needed.",
+        "rationale": "Most reviews praise staff and entertainment, so reinforcing customer service consistency preserves a strength and prevents escalation of isolated negative interactions.",
+        "supporting_evidence": [
+          "2024-08-18: \"One rude member of staff\"",
+          "Multiple reviews praising staff: e.g., 2024-08-18: \"friendly and very helpful staff\"; 2024-08-20: \"the hotel's entertainment manager\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Outdoor areas and landscaping",
+        "reason": "Multiple guests praise the well-maintained outdoor spaces, gardens and pools as a key positive.",
+        "management_implication": "Keep current landscaping and outdoor maintenance schedules; prioritize any pool repairs in a way that minimizes disruption to the attractive outdoor environment."
+      },
+      {
+        "area": "Family-friendly entertainment and Kids Club",
+        "reason": "Several reviews highlight entertainment, kids club and activities as a major reason families choose the hotel.",
+        "management_implication": "Preserve entertainment programming and staff; consider promoting these strengths in marketing while operational changes are applied elsewhere."
+      },
+      {
+        "area": "Friendly/helpful staff and cleanliness",
+        "reason": "Multiple positive comments refer to friendly staff and overall cleanliness.",
+        "management_implication": "Maintain staffing levels and training that support this culture; use staff as ambassadors for communicating short-term remedial measures to guests."
+      },
+      {
+        "area": "Comfortable beds and general value perception for many guests",
+        "reason": "Several guests reported comfortable beds and good value/price.",
+        "management_implication": "Keep mattress quality and bedding standards while addressing other room condition items."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Number of guest reviews mentioning 'pool', 'cloudy', 'chlorine' (weekly)",
+        "reason": "Directly tracks persistence or improvement of pool water complaints after interventions.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Pool water quality log (chlorine ppm, pH, turbidity) — daily",
+        "reason": "Objective measure of pool safety and chemical balance.",
+        "desired_direction": "stable"
+      },
+      {
+        "indicator": "Number of guest reviews mentioning 'buffet', 'food', 'variety' (weekly) and F&B satisfaction subscore",
+        "reason": "Monitors impact of menu and service changes on guest perception of food quality and capacity.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of guest reviews mentioning 'room', 'outdated', 'pillows', 'lighting' (weekly) and room satisfaction subscore",
+        "reason": "Tracks response to quick-room fixes and longer-term refurbishment.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Average Wi‑Fi speed (Mbps) in rooms/public areas and number of complaints about internet or outlets",
+        "reason": "Measures whether internet upgrades and charging additions are effective.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Guest service incident reports / service recovery log entries",
+        "reason": "Monitors service consistency and effectiveness of training and recovery policies.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Overall average rating and number of reviews (weekly)",
+        "reason": "High-level measure of guest sentiment and whether interventions influence perception and word-of-mouth.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the 20 most recent reviews provided (out of 43 available in the window); comments may not represent the entire guest population this period.",
+      "No technical or operational data provided for pool systems, F&B throughput, IT infrastructure, or a room-condition audit—recommended actions assume typical causes but require on-site assessment before major capital works.",
+      "Cannot attribute changes in financial performance to the customer reviews; financial metrics are provided but causal links are not established in this review.",
+      "Timing and scale of fixes (especially renovations) will require internal budgetary and capacity assessment not available in the supplied information."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Customer frustration is visible and operational complaints are rising (PERC_OPERATIONAL_COMPLAINTS increasing). The strongest, recurring net-negative signal is food / breakfast quality and all-inclusive value; some complaints imply potential food-hygiene concerns. Other issues (pool water clarity/chlorine smell; aging rooms and limited outlets) are noticeable but mixed with clear strengths (room comfort, friendly staff, well-regarded pool areas). Business metrics are improving overall but show a recent short-term reversal, so near-term attention to operational and safety-relevant items is prudent.",
+    "executive_summary": "Prioritize (1) food & beverage — immediate review for food-safety and buffet operations; (2) pricing/value positioning and the all-inclusive offer — short-term review of inclusions and guest expectations; (3) pool water quality, pool-bar hours and rule enforcement — address safety and guest-friction quickly while preserving the strong pool asset; (4) property condition and in-room electrical/tech gaps — medium-term assessment/plan for renovation and outlets/TV/Wi‑Fi; (5) operational throughput in dining/housekeeping — short-term process review to reduce queues, improve buffet replenishment and housekeeping consistency. Preserve strengths in room comfort and staff service while monitoring operational complaint share and expectation metrics. Further technical/financial assessment is recommended where capital or technical scope is unclear.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast / Food & Beverage (All‑inclusive buffet)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Frequent and severe negative reports about food quality, limited variety, buffet items missing or reused, diluted drinks, and superficial housekeeping of dining areas. Some complaints describe reuse of food and rotten items — a potential food-safety/hygiene concern that violates guest expectations of the all‑inclusive offering.",
+        "recommended_action": "Immediately trigger a food-safety and operational review: (a) verify kitchen and buffet hygiene and food-handling practices (inspection by qualified staff or third party as appropriate); (b) review buffet replenishment, variety and meal-period staffing; (c) review whether current all-inclusive inclusions align with guest expectations and communicated quality; (d) implement near-term operational fixes (replenishment protocols, monitoring during peak service) and remedial training. If inspections identify structural or systemic hygiene failures, initiate corrective maintenance and escalation.",
+        "rationale": "High frequency of strongly negative mentions about food and repeated expectation violations for the all-inclusive product. Some complaints include descriptions that raise food-safety concerns, which justify immediate managerial attention. The issue spans operational practice (replenishment, staffing) and offer positioning (value expectations).",
+        "supporting_evidence": [
+          "2024-07-30: “THE FOOD WAS HORRIBLE... ROTTEN CHIPS... DIDNT CHANGE SHEETS... DRINKS ARE DILUTED.”",
+          "2024-08-12 (es): “The food was awful; they reuse leftover food from one day to the next... queues to get to the food and when you arrive items are always missing.”",
+          "2024-08-06 (pt): “Food is basically always the same and sometimes poorly prepared; what can be called reasonable is the breakfast.”",
+          "2024-08-19 (pt): “food was repetitive, sometimes lacking seasoning, and I expected a higher level of food given the price of the all-inclusive.”",
+          "Managerial evidence: Breakfast area — 8 mentions, positive 2 / negative 7, has_expectation_violation = true."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Price–value and all-inclusive value positioning",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report a mismatch between price (or perceived price) and the quality/value of the all-inclusive offering — particularly food quality and branded drink expectations.",
+        "recommended_action": "Review pricing communication and the all‑inclusive inclusions (what guests expect vs. what is provided). Evaluate whether product descriptions, price points and actual on-site delivery are aligned. Consider short-term adjustments to guest communication and the all‑inclusive menu/brands where operationally feasible; if a structural gap is found, plan a medium-term value/offer review.",
+        "rationale": "Multiple complaints explicitly reference value-for-money and expectations tied to the all-inclusive price; expectations were violated in multiple weeks. This contributes to guest frustration even where some other services are positive.",
+        "supporting_evidence": [
+          "2024-07-30: “I PAID OVER 1.5K... ITS NOT WORTH THE MONEY.”",
+          "2024-08-23 (es): “Poor value for money; mediocre buffet.”",
+          "2024-08-19 (pt): “I expected a higher level of food given the price of the all-inclusive.”",
+          "Managerial evidence: Price–value — 5 mentions, positive 2 / negative 3, has_expectation_violation = true."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 3,
+        "area": "Spa / Pool water quality, pool-bar hours and rule enforcement",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Pool is a clear strength but multiple reviews report cloudy water, strong chlorine smell, late pool-bar opening (11:00) and poor enforcement of pool behaviour/rules. Cloudy water and strong chlorine smell could indicate maintenance or water-treatment issues; bar hours and enforcement affect guest experience.",
+        "recommended_action": "Immediate pool-water quality check and maintenance inspection (chemical balance, filtration). Review pool-bar opening hours relative to guest use patterns and consider operational change if appropriate. Strengthen pool-area rules enforcement and guest communication (safety/comfort). If water-quality issues require technical remediation, commission a maintenance assessment.",
+        "rationale": "Spa and pool is overall positively mentioned (11 positive / 3 negative) but the negative mentions involve water clarity and chlorine smell — issues that can affect guest perception and health. Pool-bar hours and weak rule enforcement are recurring friction points that degrade an otherwise strong asset.",
+        "supporting_evidence": [
+          "2024-08-20 (pt): “The pool has cloudy water and a strong smell of chlorine.”",
+          "2024-08-12 (es): “Although the pool was a bit cloudy and people do not respect the rules—ball games in the pool….”",
+          "2024-08-06 (pt): “The pool bar opening time starts very late at 11:00.”",
+          "Managerial evidence: Spa and pool — 13 mentions, positive 11 / negative 3, evidence_pattern = positive_with_friction."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 4,
+        "area": "Facilities, furniture and in-room technology (rooms condition, outlets, TV, Wi‑Fi)",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Multiple reviews describe aging infrastructure and rooms needing renovation, missing or non-functioning TV, poor internet and insufficient electrical outlets for charging — producing guest frustration despite generally positive comments on room comfort and air conditioning.",
+        "recommended_action": "Commission a property condition and technology gap assessment to quantify scope (rooms, furniture, outlets, TV replacement, Wi‑Fi). Prioritize fixes that strongly affect guest satisfaction and safety (e.g., electrical outlets condition, connectivity). Use the assessment to create a phased renovation and investment plan; implement short-term low-cost fixes where feasible (e.g., additional power strips where safe and permitted) while the medium-term plan is developed.",
+        "rationale": "Several independent reviews mention renovation needs, lack of outlets and broken TV/internet. These are recurring and relate to the emerging_negative topic list (furniture, electrical outlets, facilities). Because scope and cost are not determined by the reviews, a formal assessment before capital investment is appropriate.",
+        "supporting_evidence": [
+          "2024-08-12 (pt): “No television for the whole week, the internet was bad, rooms urgently need renovation, hotel with very old infrastructure.”",
+          "2024-08-07 (pt): “The room needs renovation.”",
+          "2024-08-20 (pt): “Facilities and furniture are somewhat old. There is a lack of outlets to charge electronic equipment.”",
+          "Experience indicator: EMERGING_NEGATIVE_TOPIC includes 'furniture' and 'electrical outlets'."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      },
+      {
+        "rank": 5,
+        "area": "Operational throughput & service processes (dining queues, buffet replenishment, housekeeping frequency)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report long queues, missing buffet items, limited dining-room seating for larger groups and inconsistent housekeeping (sheets not changed every other day reported). Operational friction appears to be reducing perceived quality, especially during peak meal periods.",
+        "recommended_action": "Perform a short-term operational review of meal-period staffing, buffet replenishment protocols, plate/utensil/ice management and dining-room seating flows. Review housekeeping schedules and quality checks to ensure consistent execution. Implement immediate operational adjustments (staffing redeployment, queue management tactics, replenishment monitoring) while tracking PERC_OPERATIONAL_COMPLAINTS for improvement.",
+        "rationale": "Operational complaints are increasing (recognized preliminary signal) and several complaints describe queues, missing items and seating problems. These are operational (not necessarily capital) and can be mitigated with process and staffing adjustments.",
+        "supporting_evidence": [
+          "2024-08-12 (es): “queues to get to the food and when you arrive items are always missing and you have to wait quite a while for more to be put out.”",
+          "2024-08-13 (en): “At lunch and dinner, the layout of the room can be improved to facilitate access to numerous guests and reduce waiting time (double line).”",
+          "2024-07-30: “THEY DIDNT CHANGE SHEETS EVEN EVERY OTHER DAY. THE CLEANING IS VERY SHALLOW.”",
+          "Preliminary signal: increasing_operational_complaints (severity: high)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.75
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Room comfort",
+        "reason": "High positive mention share (6 positive / 1 negative) praising air conditioning, room size and comfort.",
+        "management_implication": "Avoid interventions that disrupt current room comfort; prioritize cosmetic/technology upgrades that preserve room functionality and comfort."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Frequent positive comments about friendly and helpful staff; staff responsiveness cited in room changes and guest interactions.",
+        "management_implication": "Preserve staff training and recognition programs; when implementing operational/process changes, involve staff to maintain service levels."
+      },
+      {
+        "area": "Spa and pool (overall)",
+        "reason": "Multiple reviewers highlight the pool, gardens and outdoor spaces as a key positive aspect and family-friendly asset.",
+        "management_implication": "Preserve pool-area aesthetics and guest programming while addressing the targeted water-quality and hours/rules frictions."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+        "reason": "Operational complaints are flagged as increasing and relate to buffet, seating and housekeeping issues; track to assess effectiveness of operational fixes.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Measures overall expectation alignment; improvements would indicate better alignment of all-inclusive delivery with guest expectations.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "EMERGING_NEGATIVE_TOPIC presence (chlorine smell, furniture, electrical outlets)",
+        "reason": "Track whether topics increase or dissipate to prioritize maintenance vs operations.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "REVPAR_WEEK recent_reversal flag",
+        "reason": "Business metrics show recent short-term reversal despite longer-term improvement; monitor to ensure experience issues do not widen the reversal.",
+        "desired_direction": "stable",
+        "monitoring_horizon": "ongoing"
+      }
+    ],
+    "limitations": [
+      "Selected complaint sample is diagnostic and not statistically representative of all guests; prevalence should be validated using the complete review set.",
+      "Complaint texts are translated and condensed—nuance may be lost; countersignals exist where some guests praise the same areas others criticise.",
+      "The evidence identifies potential food‑safety and water‑quality concerns but does not provide technical test results or operational staffing/shift details; inspections are required before prescribing technical remediation or capital investment.",
+      "Scope and cost of renovation or technology upgrades cannot be determined from reviews; require a property condition and cost assessment before capital decisions."
+    ]
+  }
+}

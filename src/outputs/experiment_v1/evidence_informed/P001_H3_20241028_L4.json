@@ -1,0 +1,262 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Customer-frustration signals are rising (expectation–experience gap, increasing operational complaints, rising share of negative reviews) while business metrics (RevPAR, occupancy, sentiment, rating) are trending down. Strengths (cleanliness, staff, breakfast broadly positive) reduce immediate criticality, but multiple emerging operational and maintenance issues warrant timely managerial attention.",
+  "executive_summary": "Reviews in the 4-week window show strong positives for cleanliness and staff but growing and persistent friction in room comfort (dated rooms, beds, noise, tight/small bathrooms, occasional bugs) and several operational expectation gaps around breakfast service/policies and in‑room consumables/amenities (water, sockets, minibar cleanliness). Hot-water reliability and some bathroom concerns are emerging negatives. Operational complaints and the expectation–experience gap are increasing and correlate with falling sentiment and RevPAR. Recommend five focused priorities: (1) room comfort & maintenance assessment (including soundproofing and pest/hygiene checks); (2) review breakfast operations and takeaway policy consistency; (3) address bathroom hot-water reliability and ventilation/cleanliness issues; (4) ensure in-room amenity consistency (water provision, sockets, minibar cleanliness); (5) review parking/payment transparency. Preserve strong housekeeping and staff service while monitoring outcome indicators.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort (beds, furniture, noise, room condition, pests)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Multiple reviews report dated/ scratched furniture, uncomfortable beds, poor soundproofing/doors slamming, tight/small room layouts and isolated reports of bugs and a broken window. These issues are repeated across weeks and are part of an emerging negative signal for room comfort.",
+      "recommended_action": "Initiate a targeted room-condition assessment (inspection of bedding/mattresses, furniture, door hinges/closure noise, soundproofing points and pest/hygiene inspection). Prioritize corrective maintenance where safety or hygiene concerns are found and compile a scope/cost estimate for medium-term refurbishment where multiple rooms show structural deterioration.",
+      "rationale": "Room comfort complaints are frequent (19 mentions, net-negative) and persistent across the 4-week window; noise and bed comfort affect sleep quality and guest satisfaction. Evidence also includes hygiene-related comments (bugs, harsh towels) and an unattended fire-alarm event that points to a broader guest-experience and safety-communication risk. The pattern suggests some issues are operational/maintenance and some may be structural, so inspection is needed before prescribing capital work.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort — 19 mentions (9 positive, 11 negative); evidence_pattern: net_negative; is_emerging_negative = true",
+        "Complaints: 2024-10-29 (outdated furniture, uncomfortable bed, bathroom congested, rough towels); 2024-10-28 (outdated furniture, bugs); 2024-10-13 (broken window); 2024-10-21 & 2024-10-28 (noise/soundproofing); 2024-10-07 (heavy door hinge causing slamming)",
+        "Preliminary signals: increasing_operational_complaints; increasing_expectation_gap; declining_sentiment"
+      ],
+      "positive_counterevidence": [
+        "Some guests still describe rooms as clean and adequately maintained (e.g., managerial evidence positive mentions = 9; some complaint positives mention clean rooms and good bathrooms).",
+        "Strengths: housekeeping is a clear strength, which supports remediation execution (clean rooms noted in several reviews)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 9,
+        "negative_mentions": 11,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 9,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "increasing_expectation_gap",
+          "declining_sentiment",
+          "declining_revpar"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast operations & takeaway policy",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Breakfast is a clear strength overall but shows recurring friction: crowding/coffee wait times, repetitive/limited variety for a 4-star expectation, and at least one perceived discriminatory enforcement of a no-takeaway rule.",
+      "recommended_action": "Review breakfast service capacity and flow (e.g., coffee station throughput, queue management) and audit breakfast variety/quality relative to 4-star positioning. Review the breakfast takeaway policy and how staff communicate/enforce it to ensure consistent, non-discriminatory application; consider operational adjustments (e.g., small packaged options or clear signage) only after managerial review.",
+      "rationale": "Breakfast has high positive volume (33 positive vs 8 negative), so preserve the strength while removing specific frictions that generate expectation violations and complaints. The takeaway-policy complaint and coffee/wait issues are expectation-related and can generate disproportionate frustration despite overall positive sentiment.",
+      "supporting_evidence": [
+        "Managerial evidence: Breakfast — 39 mentions (33 positive, 8 negative); evidence_pattern: positive_with_friction; has_expectation_violation = true",
+        "Complaint examples: 2024-10-29 (breakfast good but very crowded); 2024-10-28 (discriminatory enforcement of no-takeaway; guest felt singled out); other complaints referencing repetitive/average breakfast and coffee capacity",
+        "Experience indicators: Expectation–experience gap increasing; EXPECTATION_SHARE increasing"
+      ],
+      "positive_counterevidence": [
+        "Large majority of breakfast mentions are positive (positive_share 0.805).",
+        "Several reviews explicitly praise the breakfast as excellent or above average."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 33,
+        "negative_mentions": 8,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "PERC_REVIEWS_NEGATIVE"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Bathroom condition & hot-water reliability",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Reports of barely warm hot water, bathroom congestion/small bathrooms, ventilation concerns and occasional minor pest reports. 'Hot water' appears among emerging negative topics in the latest context.",
+      "recommended_action": "Perform immediate operational checks on hot-water systems (temperature consistency and flow) and inspect bathrooms for ventilation and hygiene issues. If failures are isolated, repair; if systemic, commission a technical assessment to determine scope and cost for corrective work.",
+      "rationale": "Hot-water reliability and bathroom ventilation affect core guest comfort and are present in both the emerging_negative_topic list and complaints. Some items may be simple maintenance; others could require technical inspection. Because hot-water problems directly degrade stays, prompt assessment is warranted.",
+      "supporting_evidence": [
+        "Latest context emerging_negative_topic includes 'hot water'.",
+        "Managerial evidence: Bathroom condition — 12 mentions (7 positive, 5 negative); is_emerging_negative = true; evidence_pattern: positive_with_friction",
+        "Complaint example: 2024-11-03 ('The hot water in the bathroom is barely warm.'); other complaints note congested/small bathrooms and minor bugs in bathrooms."
+      ],
+      "positive_counterevidence": [
+        "Some guests report good bathrooms with instant hot water (one complaint lists 'good updated bathroom, very white, good shower and hot water instantly').",
+        "Bathroom mentions include positive comments (positive_share 0.583)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 5,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: hot water",
+          "increasing_operational_complaints"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "In-room amenities & consumable consistency (water, sockets/USB, minibar cleanliness)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests report inconsistent provision of bottled water (given only on first day for some guests), limited electrical sockets/USB ports by beds, and minibar cleanliness issues (drinks stuck to shelves). These are expectation gaps for a 4-star property.",
+      "recommended_action": "Audit in-room amenity checklist and housekeeping/room-turn procedures to ensure consistent delivery of replenishable consumables (water) and that minibar/room fixtures are clean and functional. Review room amenity specifications versus guest expectations (sockets/USB availability) and assess whether communication about available amenities is clear in booking descriptions.",
+      "rationale": "Although fewer mentions overall, these are clear, actionable operational deficiencies that affect perceived value and convenience. They can often be corrected through checklists, staff reminders, and clearer guest communication without immediate capital outlay, though socket/USB shortfalls may require later assessment.",
+      "supporting_evidence": [
+        "Managerial evidence: In-room amenities — 3 mentions (1 positive, 2 negative); has_expectation_violation = true; matched topic: additional coffee machine / reduced coffee waiting time (indirect amenity expectation).",
+        "Complaints: 2024-10-28 (water only on first day); 2024-10-28 (only 1 plug near one bedside); 2024-11-02 (mini bar drinks stuck and needed cleaning); 2024-10-17 (only one bottle of water at check-in noted vs expectation)."
+      ],
+      "positive_counterevidence": [
+        "Some guests report that housekeeping is good and rooms are cleaned well, which supports consistent amenity delivery if process adjusted.",
+        "Not all guests complained about amenities; issues are reported but not yet widespread."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "PERC_OPERATIONAL_COMPLAINTS"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Booking/payment transparency & parking access",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "policy_process",
+      "problem": "A small set of reviews flags unexpected charges or confusion about payment requirements and difficulties with a narrow onsite parking area (price noted but concerns about narrowness and maneuverability for larger cars).",
+      "recommended_action": "Review communication about parking (size constraints, price) on booking channels and the hotel website to ensure transparency. Review payment and extra-charge communications at check-in and booking to reduce surprise charges; if parking is physically constrained, consider clearer size/entry guidance or an access/booking policy for parking.",
+      "rationale": "Issue frequency is low (booking/payment mentions = 3; parking mixed) but it is an emerging negative topic and directly affects arrival/guest convenience. Because evidence is limited, begin with a policy/communication review rather than operational changes.",
+      "supporting_evidence": [
+        "Managerial evidence: Booking and payment — 3 mentions (1 positive, 2 negative); emerging_negative_weeks = 1; matched topic: 'payment required'.",
+        "Complaints: 2024-11-03 (noted parking cheap €10/day but very narrow and difficult to drive in for a large car); other comments indicating guests opted to park nearby on weekends."
+      ],
+      "positive_counterevidence": [
+        "Some guests view parking as inexpensive and acceptable; parking comments are mixed (managerial evidence: Parking positive_mentions = 7, negative_mentions = 7).",
+        "Low volume of booking/payment complaints relative to overall review set."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "expectation_share (increasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "High positive share (13 positive vs 3 negative); multiple reviews praise room cleanliness and daily cleaning.",
+      "management_implication": "Preserve current housekeeping standards and leverage this team when implementing room-condition remediation and in-room amenity checklist changes."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Strong positive mentions (23 positive vs 6 negative); staff friendliness and helpfulness are frequently noted.",
+      "management_implication": "Maintain front-desk and service training; involve staff in clearer communication of breakfast and parking policies to reduce perception-of-unfairness and to improve handling of operational incidents (e.g., fire alarm communication)."
+    },
+    {
+      "area": "Breakfast (overall)",
+      "reason": "High overall positive mentions (33 positive) indicating breakfast is a perceived strength despite friction points.",
+      "management_implication": "Correct targeted breakfast operational frictions while preserving menu items and staff practices that guests appreciate."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints are rising and track issues such as room maintenance, hot water, and amenities.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "An increasing gap indicates rising expectation violations; monitoring will show if interventions reduce the gap.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews has increased substantially; reduction would indicate restored guest satisfaction.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Average sentiment is trending downward; track to detect improvements following interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "Commercial performance is declining in parallel with experience signals; monitor for stabilization after guest-experience fixes.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic examples and are not statistically representative of the full review population; prevalence should be assessed with the complete review dataset.",
+    "Evidence identifies issues (e.g., dated rooms, hot-water problems) but does not specify technical scope or cost; where scope is unclear, recommendations call for inspection/assessment before capital decisions.",
+    "Causality between review evidence and commercial metrics (RevPAR, occupancy) cannot be inferred from the supplied data.",
+    "Some items (e.g., soundproofing, refurbishment) may require capital investment but the case evidence does not quantify extent or cost—further technical evaluation is required before budgeting.",
+    "Guest-suggested solutions (e.g., breakfast bags) are treated as indicators of expectation; they are not adopted as managerial prescriptions without broader evidence."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P001",
+    "case_id": "H3_20241028_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:39:34.958794+00:00",
+    "finished_at_utc": "2026-09-08T15:40:25.440034+00:00",
+    "elapsed_seconds": 50.488
+  }
+}

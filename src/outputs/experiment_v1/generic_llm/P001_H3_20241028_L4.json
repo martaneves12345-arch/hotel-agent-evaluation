@@ -1,0 +1,175 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Multiple consistent guest complaints about room condition, parking, breakfast crowding and a safety-related event (fire alarm with no explanation) combined with declines in RevPAR, TRevPAR, occupancy and average rating indicate a moderate operational risk to guest satisfaction and short-term performance. Issues appear addressable via operational, housekeeping and targeted maintenance actions.",
+  "executive_summary": "Recent reviews show strength in location, friendly staff and generally good breakfast, but recurring problems are: (1) a fire-alarm activation and poor emergency communication (safety-relevant); (2) narrow/tight paid parking that frustrates guests; (3) room maintenance and housekeeping lapses (dirty curtains/windows, sticky minibar, rough towels, hard beds, weak hot water); (4) breakfast congestion because of groups; and (5) front-desk delays and inconsistent handling of complaints. Priorities address immediate safety/communication, parking information/operations, focused room maintenance and housekeeping improvements, breakfast crowd management, and front-desk staffing & service recovery procedures.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Emergency procedures & guest communication",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "A recent fire alarm activation lasted several minutes and guests report no explanation or reassurance from reception. This raises safety and reputational risk.",
+      "recommended_action": "Immediately audit recent alarm event and confirm whether it was a false alarm or a system issue. Ensure front-desk SOPs require immediate loudspeaker/phone announcement and face-to-face reassurance after any alarm activation; train staff on emergency communication scripts. Verify alarm system maintenance history and schedule any required service/inspections. Log and report all alarm activations centrally.",
+      "rationale": "Guest reports: 'At 4:00 a.m. the fire alarm sounded for a few minutes...no one at reception told us the cause...nor explained that there was no danger.' Prompt communication and verified maintenance reduce safety risk and guest anxiety.",
+      "supporting_evidence": [
+        "\"At 4:00 a.m. the fire alarm sounded for a few minutes...no one at reception told us the cause of the activation nor explained that there was no danger.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Parking operations & guest information",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Multiple guests report the on-site paid parking is very narrow and difficult to drive in/turn, yet guests are charged for it. This generates repeated complaints and damaged perception of value.",
+      "recommended_action": "Inspect and document dimensions/turning radii of the parking facility; add clear pre-arrival communications about dimensions, vehicle-size restrictions and price. Place signage at entrance warning about tight spaces; offer alternative nearby parking options or a discounted external lot if possible. If physical constraints permit, adjust traffic flow, marking and staff assistance during check-in for drivers. Consider re-pricing or making parking optional to reduce frustration.",
+      "rationale": "Multiple reviews cite difficulty and narrow spaces: 'very narrow and difficult to drive in', 'Tight parking, the car can't make the turns and you still have to pay', and 'I didn't use the parking services...it was very narrow'. Clear communication and operational changes reduce repeat complaints and potential vehicle damage claims.",
+      "supporting_evidence": [
+        "\"I didn't use the parking services because...it was very narrow and difficult to drive in and I was driving a large car.\"",
+        "\"Tight parking, the car can't make the turns and you still have to pay\"",
+        "\"Maybe it would have been acceptable...\" (guest complaint referencing parking)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Room maintenance & housekeeping quality",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Recurring comments about dated or poorly maintained rooms, dirty curtains/windows, sticky minibar items, rough towels, uncomfortable (very hard) beds and weak hot water supply negatively impact comfort and perceived cleanliness.",
+      "recommended_action": "Implement a short-term deep-clean and inspection checklist for rooms to address dirty curtains/windows, minibar cleanliness and towel quality. Identify top-priority rooms for mattress/towel replacement and repair (hot water system diagnostics in affected wings). Create a rolling capital plan for room refurbishment (replace mattresses, update furnishings) and a preventive maintenance schedule for hot water/heating. Tighten minibar and housekeeping checklists and verification sign-off.",
+      "rationale": "Multiple reviews mention: 'curtains and the room's windows are dirty', 'mini bar the drinks were stuck to the shelves needed cleaning', 'towels provided are like Sand paper', 'The bed is not comfortable. Very hard', and 'The hot water in the bathroom is barely warm.' These are frequent guest pain points affecting the overall rating.",
+      "supporting_evidence": [
+        "\"The curtains and the room's windows are dirty\"",
+        "\"mini bar the drinks were stuck to the shelves needed cleaning\"",
+        "\"towels provided are like Sand paper and can rip your skin off!!\"",
+        "\"The bed is not comfortable. Very hard.\"",
+        "\"The hot water in the bathroom is barely warm.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast crowd management & group handling",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Although breakfast quality is frequently praised, guests report it is very crowded and chaotic at peak times because of group bookings, reducing enjoyment for solo travelers and couples.",
+      "recommended_action": "Adjust breakfast operations: consider staggered group breakfast slots, designate a specific area or time window for groups, extend breakfast service hours during high-group periods and add staff at peak times. Communicate recommended breakfast times at check-in and offer reservation for busy slots when groups are present.",
+      "rationale": "Guest comments: 'because the hotel works with groups, breakfast from 7 to 8 is very crowded', 'breakfast buffet spread is good...but very crowded'. The hotel already receives positive comments about breakfast; managing flow can preserve the strength.",
+      "supporting_evidence": [
+        "\"Because the hotel works with groups, breakfast from 7 to 8 is very crowded and a bit chaotic for solo travelers or couples.\"",
+        "\"breakfast buffet spread is good...but very crowded\"",
+        "\"Very good breakfast\" (shows importance to guests)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 5,
+      "area": "Front-desk staffing & guest recovery",
+      "managerial_priority": "medium",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Guests report long check-in waits with no acknowledgment and inconsistent handling of service failures (e.g., charge for returned room-service dish). This harms perceived service quality despite positive staff feedback elsewhere.",
+      "recommended_action": "Review front-desk staffing levels during expected peaks; implement a standard acknowledgement protocol for waiting guests (queue acknowledgement within 1–2 minutes). Provide refresher training on complaint handling and compensation policy for F&B issues, empower staff with clear authority to resolve minor food complaints without escalation, and log incidents for follow-up.",
+      "rationale": "Examples: 'Check in took a long time due to only one person...no acknowledgment of our wait' and 'I ordered a room service dish that was bad and returned it...They claimed that everyone had eaten that food, did not compensate me, and charged me for the dish.' Better front-line processes will protect ratings and repeat guests.",
+      "supporting_evidence": [
+        "\"Check in took a long time due to only one person...there was no acknowledgment of our wait\"",
+        "\"I ordered a room service dish that was bad and returned it...did not compensate me, and charged me for the dish.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Multiple guests praise the hotel's location near the Gulbenkian Museum and park and describe it as convenient and quiet.",
+      "management_implication": "Maintain marketing emphasis on proximity to cultural attractions; ensure wayfinding and local recommendations remain updated at front desk and in-room materials."
+    },
+    {
+      "area": "Breakfast quality",
+      "reason": "Many reviews say breakfast is 'very good' or 'plentiful' and some guests note improvement over time.",
+      "management_implication": "Preserve menu quality and variety while improving service flow and space allocation to prevent crowding."
+    },
+    {
+      "area": "Staff courtesy & service improvements",
+      "reason": "Several reviews praise staff as 'efficient and courteous' and note service improvements on repeat visits.",
+      "management_implication": "Keep investing in staff training and recognition; use staff praised in reviews as models/mentors for others."
+    },
+    {
+      "area": "Clean, spacious rooms (where applicable)",
+      "reason": "Some guests explicitly report rooms are 'spacious and very clean' and comfortable.",
+      "management_implication": "Preserve housekeeping standards and audit to ensure this level is consistent across all rooms."
+    },
+    {
+      "area": "Value for money & amenities",
+      "reason": "Reviews cite 'value for money', fast Wi-Fi, a welcoming lobby/bar and small touches (welcome cakes).",
+      "management_implication": "Maintain these guest-facing amenities and small gestures which contribute positively to guest perception."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average review rating (weekly)",
+      "reason": "Overall guest satisfaction trend; recent decline seen in average rating.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews mentioning parking",
+      "reason": "Tracks whether parking complaints decline after operational changes.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Breakfast peak-time crowding score (e.g., wait time or % of occupied seats at 07:00-08:00)",
+      "reason": "Measures effectiveness of crowd-management measures for breakfast and group handling.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Room maintenance defect rate (reported issues per occupied room: dirty curtains, minibar problems, towels, hot water complaints)",
+      "reason": "Direct measure of housekeeping and maintenance performance.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Check-in wait time and % of guests acknowledged within 2 minutes",
+      "reason": "Monitors front-desk responsiveness and staffing adequacy.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of alarm activations and time-to-communication after activation",
+      "reason": "Tracks safety incidents and response quality after the reported fire alarm event.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Analysis based only on the 20 most recent reviews provided to the model (of 115 available in the window); frequency and severity estimates may change if full sample differs.",
+    "Operational performance metrics (RevPAR, TRevPAR, occupancy, average rating) are provided but this assessment does not attribute causation between reviews and financial performance.",
+    "Some guest comments are subjective and may reflect isolated experiences; recommended actions include further internal assessment (maintenance logs, alarm system reports, parking layout survey) before capital decisions."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H3_20241028_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P001",
+    "case_id": "H3_20241028_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:39:01.276650+00:00",
+    "finished_at_utc": "2026-09-08T15:39:34.942062+00:00",
+    "elapsed_seconds": 33.673
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "system": "frequency_baseline",
+  "method": "negative_review_frequency",
+  "case_id": "H77_20241202_L4",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast",
+      "managerial_domain": "food_and_beverage",
+      "managerial_priority": "high",
+      "negative_mentions": 3,
+      "positive_mentions": 2,
+      "negative_share": 0.6,
+      "rationale": "Breakfast was ranked #1 because it contains 3 negative review mentions."
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "medium",
+      "negative_mentions": 2,
+      "positive_mentions": 0,
+      "negative_share": 1.0,
+      "rationale": "Room comfort was ranked #2 because it contains 2 negative review mentions."
+    },
+    {
+      "rank": 3,
+      "area": "Bathroom condition",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "medium",
+      "negative_mentions": 2,
+      "positive_mentions": 1,
+      "negative_share": 0.6667,
+      "rationale": "Bathroom condition was ranked #3 because it contains 2 negative review mentions."
+    },
+    {
+      "rank": 4,
+      "area": "Restaurant and bar",
+      "managerial_domain": "food_and_beverage",
+      "managerial_priority": "low",
+      "negative_mentions": 1,
+      "positive_mentions": 0,
+      "negative_share": 1.0,
+      "rationale": "Restaurant and bar was ranked #4 because it contains 1 negative review mentions."
+    },
+    {
+      "rank": 5,
+      "area": "Wi-Fi and technology",
+      "managerial_domain": "technology",
+      "managerial_priority": "low",
+      "negative_mentions": 1,
+      "positive_mentions": 0,
+      "negative_share": 1.0,
+      "rationale": "Wi-Fi and technology was ranked #5 because it contains 1 negative review mentions."
+    }
+  ],
+  "methodological_note": "Categories are ranked using negative review-mention frequency only. No LLM reasoning, expectation indicators, trend information, complaint severity, safety interpretation, or diagnostic score is used.",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P012",
+    "case_id": "H77_20241202_L4",
+    "system": "frequency_baseline",
+    "started_at_utc": "2026-09-08T15:54:55.382500+00:00",
+    "finished_at_utc": "2026-09-08T15:54:55.382500+00:00",
+    "elapsed_seconds": 0.0
+  }
+}

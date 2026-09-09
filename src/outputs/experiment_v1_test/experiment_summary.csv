@@ -1,0 +1,2 @@
+pilot_id,case_id,hotel_id,decision_week,frequency_status,generic_status,evidence_status
+P001,H3_20241028_L4,3,2024_W44,success,success,success

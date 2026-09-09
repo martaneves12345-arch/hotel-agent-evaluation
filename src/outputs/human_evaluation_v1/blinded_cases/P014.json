@@ -1,0 +1,566 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P014",
+  "case_information": {
+    "case_id": "H121_20240826_L4",
+    "decision_week": "2024_W35",
+    "decision_date": "2024-08-26",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W32",
+        "week_date": "2024-08-05",
+        "REVPAR_WEEK": 143.65893245614035,
+        "REVPOR_WEEK": 164.58474385964914,
+        "TREVPAR_WEEK": 155.5853550438596,
+        "TAXA_OCUPACAO": 89.28571428571429,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.125,
+        "SENTIMENT_SCORE_AVG": 0.92,
+        "SENTIMENT_SCORE_STD": 0.0447213595499957,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.0,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 0.0,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.625,
+        "COMPLEXITY_INDEX": 1.48982934749966,
+        "SENTIMENT_TREND_SLOPE": -0.0003578735797668
+      },
+      {
+        "WEEK_YEAR": "2024_W33",
+        "week_date": "2024-08-12",
+        "REVPAR_WEEK": 135.8945631465517,
+        "REVPOR_WEEK": 150.80611896551724,
+        "TREVPAR_WEEK": 148.2787349137931,
+        "TAXA_OCUPACAO": 91.07142857142856,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.8,
+        "SENTIMENT_SCORE_AVG": 0.6625,
+        "SENTIMENT_SCORE_STD": 0.4749060057376768,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.061278124459133,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 30.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 2.1496418199688403,
+        "SENTIMENT_TREND_SLOPE": -0.0003578735797668
+      },
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 147.91321995192308,
+        "REVPOR_WEEK": 154.68415192307697,
+        "TREVPAR_WEEK": 159.488084375,
+        "TAXA_OCUPACAO": 91.07142857142856,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 10.0,
+        "SENTIMENT_SCORE_AVG": 0.5833333333333334,
+        "SENTIMENT_SCORE_STD": 0.4996665554814197,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.2516291673878228,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 50.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 1.0,
+        "COMPLEXITY_INDEX": 2.0897140688413045,
+        "SENTIMENT_TREND_SLOPE": -0.0003578735797668
+      },
+      {
+        "WEEK_YEAR": "2024_W35",
+        "week_date": "2024-08-26",
+        "REVPAR_WEEK": 125.11263244680852,
+        "REVPOR_WEEK": 148.9620659574468,
+        "TREVPAR_WEEK": 134.0090845744681,
+        "TAXA_OCUPACAO": 80.35714285714286,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 9.0,
+        "SENTIMENT_SCORE_AVG": 0.4,
+        "SENTIMENT_SCORE_STD": 0.5830951894845301,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5,
+        "EXPECTATION_SHARE": 0.25,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 50.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.75,
+        "COMPLEXITY_INDEX": 2.001629167387823,
+        "SENTIMENT_TREND_SLOPE": -0.0003578735797668
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-09-01",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Israel",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-08-29",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-29",
+        "rating": 10.0,
+        "liked": "Great location, great staff, great hotel for a couple of days stay. I like the balcony in my room. The breakfast was delicious, the staf was polite and helpful.",
+        "disliked": "Lack of a wardrobe in the room... But not a big problem when I consider the positive sides. The hangers also worked.",
+        "country": "Turkey",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-08-26",
+        "rating": 9.0,
+        "liked": "The excellent service of the receptionists.",
+        "disliked": "The air conditioning.",
+        "country": "Mozambique",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-21",
+        "rating": 10.0,
+        "liked": "Friendly, tidy decor, lots of space, excellent breakfast, centrally located close to the metro and buses.",
+        "disliked": "No negative points.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-21",
+        "rating": 10.0,
+        "liked": "Centrally located property well cared for in the details. Very welcoming staff and excellent breakfast.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-20",
+        "rating": 10.0,
+        "liked": "A small, cute place in an excellent location. Very nice staff who help with everything. Very tasty, homely breakfast, considerate of all needs. Clean and pleasant.",
+        "disliked": null,
+        "country": "Israel",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-19",
+        "rating": 10.0,
+        "liked": "+ Personal 👍 friendly, sympathic, attentive! + Size of the room + Location",
+        "disliked": "outside area/garden was a bit untidy",
+        "country": "Austria",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-18",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-17",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Bulgaria",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-17",
+        "rating": 9.0,
+        "liked": "Property entirely matching the descriptions. Very easy to reach from the airport (one direct metro line, about 25 minutes) and to get around the city. Smiling, welcoming and very helpful staff, cleanliness and services completely up to standard. Absolutely recommended!",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-08-17",
+        "rating": 10.0,
+        "liked": "Super attentive and friendly staff, always willing to help. The room is tastefully decorated and very spacious, with a very large bathroom. Everything very clean. If we return to Lisbon we'll definitely stay again.",
+        "disliked": "If I have to mention one drawback: the pillows.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-16",
+        "rating": 10.0,
+        "liked": "The room was perfect, with a lovely, spacious balcony that revealed a part of the city (with 2 sights). The furniture was very classy and the bed really comfortable. It was very clean. The breakfast was perfect. The personnel was more than friendly and helpful in every aspect. They all work with their heart it seemed and are there for all guest requests. A true - feel at home - experience. We hope to return some day in the future.",
+        "disliked": null,
+        "country": "Austria",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-08-14",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-14",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-13",
+        "rating": 10.0,
+        "liked": "The room was great and for a city hotel very spacious!",
+        "disliked": "Nichts",
+        "country": "Germany",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-08-13",
+        "rating": 10.0,
+        "liked": "The location is simply perfect. Close to the old centre, very nice staff, good breakfast and a lovely atmosphere.",
+        "disliked": "Nothing. It was perfect.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-11",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-08-11",
+        "rating": 10.0,
+        "liked": "We liked everything: the location, the room, but above all the staff who work there. Always ready to help us with everything and very attentive to ensure we lacked absolutely nothing. If we return to Porto, without a doubt we will repeat the experience at Aladina Smart Luxury.",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business-level metrics show clear downward movement (REVPAR, REVPOR, TREVPAR, occupancy and sentiment). However the guest review sample still contains many strong positives (staff, location, breakfast, cleanliness) and the substantive complaint volume is small. The combination of deteriorating commercial indicators and worsening sentiment justifies a proactive managerial response, but the evidential scope does not support labeling the situation as critical.",
+    "executive_summary": "Recent weeks show declining commercial performance (RevPAR, RevPOR, TREVPAR) and a substantial drop in average sentiment, while core guest-facing strengths (staff, location, breakfast, cleanliness) remain strongly positive. Complaints are few and dispersed: the most consistent operational signal is a single room-comfort issue (air conditioning). Recommend (1) immediate managerial review of recent commercial and sentiment trends to identify root causes; (2) prompt inspection/maintenance check of air conditioning(s); (3) short-term housekeeping/grounds check for the outdoor area; (4) review of minor room-amenity expectations (wardrobe/hangers/pillows) and room description alignment; and (5) actively preserve and communicate current strengths (staff service, breakfast, location, cleanliness).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial performance & guest sentiment trends",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "monitoring",
+        "problem": "Consistent downward movement in revenue and sentiment metrics over the 4-week window without a clearly identified cause in the review sample.",
+        "recommended_action": "Initiate an immediate managerial review to diagnose recent declines: (a) assemble recent booking, pricing and channel data and compare to prior periods; (b) review recent guest feedback in full (all reviews in the window) to identify emerging themes beyond the complaint sample; (c) check whether any operational or market changes (closures, channel changes, promotions) coincided with the decline; (d) establish short-list of candidate causes and next-step owners. Monitor REVPAR, SENTIMENT_SCORE_AVG and share of negative reviews closely over next 2–4 weeks.",
+        "rationale": "REVPAR, REVPOR and TREVPAR show moderate downward trends (REVPAR -12.9% over window). SENTIMENT_SCORE_AVG decreased consistently (from 0.92 to 0.40, -56.5%). PERC_REVIEWS_NEGATIVE rose to 50% in the experience indicators. These commercial and sentiment signals are high-severity and warrant prompt diagnostic review before selecting operational or capital responses.",
+        "supporting_evidence": [
+          "REVPAR_WEEK: first 143.66 -> last 125.11 (−12.91%)",
+          "REVPOR_WEEK and TREVPAR_WEEK also decreasing over the 4-week window",
+          "SENTIMENT_SCORE_AVG: 0.92 -> 0.40 (consistent decrease)",
+          "PERC_REVIEWS_NEGATIVE increased to 50.0 in the experience indicators",
+          "Priority alert flag = 1.0 in latest_context"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort — air conditioning",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "A guest explicitly reported dislike of the air conditioning; room-comfort is a high-priority domain in managerial_evidence (default_priority = high).",
+        "recommended_action": "Perform a targeted maintenance/operational check of air conditioning units in rooms (starting with the room referenced if identifiable). Verify setpoint behavior, noise, and ability to maintain temperature. Log any required repairs or replacements and schedule fixes. If multiple rooms show intermittent issues, escalate to a broader HVAC assessment.",
+        "rationale": "Room comfort is flagged in managerial_evidence with 3 mentions (2 positive, 1 negative) and the matched topic explicitly includes 'air conditioning'. While most room comments are positive, an AC complaint during high season risks guest discomfort; a short-term maintenance check is proportionate.",
+        "supporting_evidence": [
+          "Managerial_evidence: 'Room comfort' — review_mentions_total 3, positive 2, negative 1, matched_topics includes 'air conditioning'",
+          "Complaint (2024-08-26): 'Disliked: The air conditioning.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      },
+      {
+        "rank": 3,
+        "area": "Outside area / garden condition",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "An otherwise positive-stated stay included a comment that the outside area/garden was 'a bit untidy'.",
+        "recommended_action": "Assign housekeeping/grounds staff to inspect the outside/garden area and, if needed, tidy and adjust maintenance schedule. Record whether the untidiness is episodic (e.g., after weather or deliveries) or persistent and act accordingly.",
+        "rationale": "Cleanliness and housekeeping are a clear strength overall (5 positive mentions). A single substantive complaint about the outside area suggests a localized or episodic maintenance gap; a short-term inspection and tidy action is proportionate and preserves the broader cleanliness strength.",
+        "supporting_evidence": [
+          "Complaint (2024-08-19): 'Disliked: outside area/garden was a bit untidy'",
+          "Managerial_evidence: 'Cleanliness and housekeeping' — positive_mentions 5, negative_mentions 0 (clear strength)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.6
+      },
+      {
+        "rank": 4,
+        "area": "Minor room-amenity friction (wardrobe/hangers/pillows)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "A small number of guests mentioned minor amenity/friction items (no wardrobe, pillows not to guest preference) that did not prevent high satisfaction but indicate an expectation/fit gap.",
+        "recommended_action": "Review room amenity inventory and public room descriptions to ensure they align (e.g., clarify storage options if full wardrobe is not present). Consider simple, low-cost operational responses first (extra hangers, temporary storage solutions, pillow options) or document for future review. Do not recommend capital investment without further assessment.",
+        "rationale": "Two substantive complaints reference wardrobe/hangers and pillows (2024-08-29 and 2024-08-17). Both reviews are otherwise highly positive. The issue appears to be an expectation/fit gap rather than a systemic failure; verify whether room descriptions communicate available storage and whether low-cost operational fixes suffice.",
+        "supporting_evidence": [
+          "Complaint (2024-08-29): 'Disliked: Lack of a wardrobe in the room... The hangers also worked.'",
+          "Complaint (2024-08-17): 'Disliked: If I have to mention one drawback: the pillows.'",
+          "Managerial_evidence: 'Room comfort' positive mentions exist (2 positives) and overall room/bathroom comments are positive"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.5
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Managerial_evidence: 13 positive mentions, 0 negatives; matched topics include staff friendliness and helpfulness. Multiple reviews explicitly praise reception/service.",
+        "management_implication": "Ensure staffing and service protocols continue; incorporate staff praise into marketing and guest communication while avoiding operational changes that could degrade this strength."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Managerial_evidence: 9 positive mentions, 0 negatives; many reviews cite excellent location and proximity to metro/old centre.",
+        "management_implication": "Preserve and highlight location advantages in guest communications and pre-arrival materials."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "Managerial_evidence: 8 positive mentions, 0 negatives; 'breakfast quality' repeatedly praised.",
+        "management_implication": "Maintain current breakfast standards and consider making this visible in booking channels as a differentiator."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Managerial_evidence: 5 positive mentions, 0 negatives; cleanliness repeatedly praised in reviews.",
+        "management_implication": "Maintain housekeeping standards and audit the outside/garden area periodically to prevent localized lapses."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "REVPAR_WEEK and related revenue metrics",
+        "reason": "Direct commercial measure showing consistent decreases over the 4-week window; useful for tracking recovery after interventions.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG and share of negative reviews",
+        "reason": "Sentiment has fallen markedly; tracking sentiment and PERC_REVIEWS_NEGATIVE will help detect if guest experience deterioration is broadening.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "Guest feedback mentioning air conditioning or room temperature",
+        "reason": "Targeted indicator to verify whether AC complaint is isolated or recurring.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Outside/garden cleanliness observations",
+        "reason": "To confirm whether the untidy outside area was episodic and to prevent recurrence.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Mentions of wardrobes/storage/pillows in 'disliked' text and expectation_gap metrics",
+        "reason": "To detect emerging expectation misalignment around room amenities.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "Complaint sample is complaint-focused and not representative of all reviews; prevalence of issues should be assessed using the full review set for the window (26 total reviews, 7 with 'disliked').",
+      "Many priorities rely on single-review mentions (AC, outside area, wardrobe/pillows); these may be isolated incidents and require verification before larger interventions.",
+      "Business-metric declines are evident but the evidence does not establish causal links between specific complaints and revenue movement.",
+      "Scope and cost of any required maintenance or capital works (e.g., HVAC replacement, structural wardrobe installation) cannot be determined from the supplied evidence — recommend assessment before capital decisions."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Key revenue indicators and occupancy have fallen over the 4-week window (REVPAR -12.9%, TREVPAR -13.9%, occupancy -10%). Average rating remains high (≈9.0) and many recent reviews praise staff, breakfast and location, which mitigates risk. The declines are material for an 8‑room property but do not yet coincide with large-scale service failures in the reviews, so risk is moderate rather than critical.",
+    "executive_summary": "Almadina Smart Luxury shows strong guest satisfaction strengths (staff, breakfast, location, cleanliness, room size) but is experiencing a measurable drop in occupancy and revenue metrics over the last month. Guest feedback is overwhelmingly positive, with a small number of repeat operational/comfort items (air conditioning, lack of wardrobe/storage, pillows, and an untidy outside area) that can be addressed with targeted maintenance and small investments. Priority actions: (1) address short-term revenue/marketing levers and review solicitation, (2) inspect and repair HVAC, (3) improve room storage and bedding options, (4) tidy and maintain exterior/garden, and (5) preserve and formalize the strengths in staff service and breakfast and use them in marketing and guest communications.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue & demand management",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "REVPAR (-12.9%), TREVPAR (-13.9%), REVPOR (-9.5%) and occupancy (-10%) all declined in the 4‑week window. Number of collected/recorded reviews also dropped (-50%), which can reduce visibility/conversion if sustained.",
+        "recommended_action": "Quick revenue check: review pricing and availability for coming weeks, assess channel performance (OTAs, direct), run targeted promotions for low/shoulder dates (e.g., include the well‑rated breakfast or airport transfer), and increase active review solicitation after checkout (simple follow-up email/SMS). Monitor bookings and conversion daily while implementing short promotional windows. Consider modest rate adjustments or packages to stimulate immediate demand.",
+        "rationale": "Declines across multiple revenue metrics and occupancy indicate short‑term demand pressure. The hotel has strong guest satisfaction elements (staff, breakfast, location) that can be highlighted in messaging and packages to improve conversion quickly. Raising review volume will help listing algorithms and consumer trust.",
+        "supporting_evidence": [
+          "REVPAR_week percentage_change: -12.909952546803236",
+          "TREVPAR_week percentage_change: -13.86780295825989",
+          "TAXA_OCUPACAO percentage_change: -10.0",
+          "N_REVIEWS percentage_change: -50.0",
+          "Reviews consistently praise location, staff and breakfast (positive selling points to highlight in promotions)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 2,
+        "area": "HVAC / air conditioning",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "At least one recent guest explicitly reported a problem with the air conditioning; poor cooling/heating reduces comfort and can generate negative reviews.",
+        "recommended_action": "Carry out an immediate technical inspection of air conditioning units (all rooms). Repair or replace faulty units or filters as required. Ensure front desk has clear instructions to assist guests (e.g., provide portable fans or guidance on controls) while repairs are scheduled and log incidents in a maintenance tracker.",
+        "rationale": "HVAC problems directly affect guest comfort and can translate into negative scores. An immediate check prevents further complaints and protects the hotel's strong reputation for comfort and cleanliness.",
+        "supporting_evidence": [
+          "Review dated 2024-08-26: 'The air conditioning.' (listed as a dislike)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 3,
+        "area": "Room amenities — storage and bedding",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Some guests noted lack of a wardrobe/storage and commented on pillows (comfort). Limited storage and suboptimal pillows reduce perceived room quality for certain guests.",
+        "recommended_action": "Audit room furniture and bedding in all 8 rooms. Provide low-cost storage solutions where wardrobe is absent (e.g., luggage racks, shelves, hooks, compact wardrobes) and upgrade or offer a pillow choice (spare pillows or quick pillow exchange). Update room description online to set accurate expectations and note available hangers.",
+        "rationale": "Guests mentioned wardrobe absence and pillows; addressing these items is relatively low cost and will reduce specific complaints while preserving high ratings.",
+        "supporting_evidence": [
+          "Review dated 2024-08-29: 'Lack of a wardrobe in the room... The hangers also worked.'",
+          "Review dated 2024-08-17: 'If I have to mention one drawback: the pillows.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 4,
+        "area": "Exterior / outside area (garden) maintenance",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "At least one guest described the outside area/garden as 'a bit untidy', which can negatively affect first impressions and perceived overall property care.",
+        "recommended_action": "Inspect and tidy external and garden areas immediately (litter pick, pruning, sweeping). Establish a regular exterior maintenance checklist and assign responsibility. Consider small aesthetic improvements (planters, signage) if budget permits.",
+        "rationale": "First impressions matter, particularly for a small boutique property where exterior appearance affects online photos and guest expectations. Quick maintenance will address the specific complaint and improve curb appeal.",
+        "supporting_evidence": [
+          "Review dated 2024-08-19: 'outside area/garden was a bit untidy'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.65
+      },
+      {
+        "rank": 5,
+        "area": "Preserve and leverage staff service & breakfast",
+        "managerial_priority": "high",
+        "action_horizon": "monitor",
+        "intervention_type": "policy_process",
+        "problem": "Strong points (staff, breakfast, location, cleanliness) are key competitive advantages but should be actively preserved and used to counteract recent revenue declines.",
+        "recommended_action": "Formalize best practices that staff are using (welcome scripts, problem response procedures), ensure staffing levels/training maintain current service levels, and use guest praise (with permission) in marketing copy and OTA descriptions. Continue to emphasize 'very good breakfast' in promotional material and packages.",
+        "rationale": "Most reviews repeatedly praise the reception, friendliness, helpfulness and breakfast. Maintaining these strengths is essential to sustaining high ratings and conversion while other operational fixes are implemented.",
+        "supporting_evidence": [
+          "Multiple reviews praise staff: 'friendly, tidy decor', 'excellent service of the receptionists', 'Super attentive and friendly staff'",
+          "Multiple mentions of 'excellent breakfast' and 'very tasty, homely breakfast'",
+          "Frequent praise for location, cleanliness and room size."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.9
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff service",
+        "reason": "Many reviews highlight friendly, attentive, helpful reception and staff; guests repeatedly mention staff as a reason they'd return.",
+        "management_implication": "Keep staffing levels, formalize positive service behaviours, and include staff strengths in marketing and training to maintain guest satisfaction."
+      },
+      {
+        "area": "Breakfast offering",
+        "reason": "Breakfast is described consistently as 'excellent', 'delicious' and 'very tasty, homely'.",
+        "management_implication": "Maintain breakfast quality and consider featuring it in OTA content and short-term promotional packages."
+      },
+      {
+        "area": "Location and room quality (size, cleanliness, balcony)",
+        "reason": "Reviews repeatedly praise the central location, spacious rooms, cleanliness and balcony views.",
+        "management_implication": "Ensure room upkeep and accurate property descriptions; use these attributes in promotional materials to improve conversion."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Weekly REVPAR",
+        "reason": "Direct measure of revenue performance; currently declining and should be monitored to assess the effectiveness of revenue actions.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Weekly TREVPAR and REVPOR",
+        "reason": "Track total revenue and revenue per occupied room to capture broader revenue mix and F&B impact (breakfast is a strength).",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Weekly occupancy rate (TAXA_OCUPACAO)",
+        "reason": "Occupancy fell ~10% in the window; a key metric for an 8‑room property.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of new reviews per week and average rating",
+        "reason": "Review volume recently decreased (‑50% in the metric). Maintaining review flow and high average rating supports visibility and conversion.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Count of guest complaints mentioning HVAC / air conditioning, pillows, wardrobe, outside area (tracked from review texts and front‑desk reports)",
+        "reason": "Specific operational issues have been raised in reviews; tracking frequency will show whether fixes are effective.",
+        "desired_direction": "decrease"
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the supplied recent review excerpts and the provided weekly metrics; there is no visibility into booking sources, pricing, distribution, or competitor activity.",
+      "Review text is missing for several recent reviews, limiting the ability to detect other issues; reported complaints (AC, pillows, garden, wardrobe) appear in a small number of reviews and may not indicate widespread failures without further assessment.",
+      "The hotel is very small (8 rooms); weekly revenue and occupancy metrics can fluctuate significantly with a few bookings or cancellations, so short‑term percentage changes may overstate persistent trends.",
+      "Recommendations assume the accuracy of the supplied metrics and review sample; operational and financial actions should be validated with internal PMS/channel/maintenance data before implementation."
+    ]
+  }
+}

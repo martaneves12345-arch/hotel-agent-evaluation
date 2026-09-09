@@ -1,0 +1,167 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest feedback is strongly positive on service, pool/outdoor areas and breakfast, supporting current revenue and occupancy gains. However there are recurring operational complaints (scalding hot water incident, bed discomfort, noise) and the average rating fell from 10.0 to 8.71 while reviews increased. With occupancy and revenue rising, unresolved issues could degrade reputation and repeat-business; the hot-water report is also a direct safety concern that should be addressed immediately.",
+  "executive_summary": "Quinta da Boavista is performing well commercially (large increases in REVPAR, occupancy and other revenue metrics) and receives many positive comments about staff, pool/outdoor areas and breakfast. Key issues in recent reviews that warrant managerial attention are: (1) a scalding hot-water incident (safety), (2) reports of uncomfortable beds causing back pain, (3) recurring noise complaints (including from local paddle tennis), and (4) the risk of service quality slipping as occupancy/revenues increase. Priorities should focus on immediate safety checks, planned maintenance or replacement of bedding, noise-mitigation measures and short-term operational capacity adjustments to preserve the hotel’s strong service and cleanliness reputation.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Hot water safety / plumbing",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "At least one guest experienced sudden extremely hot water while showering ('suddenly the water became very hot, scalding'), indicating a possible thermostat/mixing valve or plumbing malfunction that poses a burn risk.",
+      "recommended_action": "Immediately inspect and test all guest-room thermostatic mixing valves, water heaters and temperature controls; implement an emergency preventive maintenance check of hot-water systems for all rooms. If any unit does not reliably limit outlet temperature, repair or replace it before the next arrivals. Record tests and, if needed, post temporary guidance for guests until fixed.",
+      "rationale": "A scalding event is a direct guest-safety hazard and can lead to injury and reputational/legal exposure. The issue appeared in a recent review and should be resolved before further occupancy growth.",
+      "supporting_evidence": [
+        "Review 2024-04-26 (rating 8): 'While taking a shower, and in the middle of it, suddenly the water became very hot, scalding.'",
+        "Basic performance shows occupancy and revenue rising (e.g., TAXA_OCUPACAO +103.8%), increasing the number of guests exposed if the problem persists."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Bed/mattress comfort",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Several guests reported bed discomfort and related back pain ('The bed was a bit uncomfortable and we ended up with back pain.'), indicating mattresses or bedding may be worn or not suited to guest expectations.",
+      "recommended_action": "Audit mattress condition across all rooms (firmness, sagging, age). For rooms with worn mattresses, schedule replacement or rotation. In the short term, offer mattress toppers or pillow options and capture guest preferences at check-in. Track and budget mattress replacements as part of a capital plan if multiple units need renewal.",
+      "rationale": "Comfortable beds are a core driver of guest satisfaction; unresolved bedding issues can cause negative reviews and repeat-guest loss even if other facilities are strong.",
+      "supporting_evidence": [
+        "Review 2024-04-22 (rating 8): 'The bed was a bit uncomfortable and we ended up with back pain.'",
+        "Multiple other reviews praise room quality and comfort, so bedding is a targeted issue rather than general room condition."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Noise management (local paddle tennis and general noise)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Several guests noted noise disturbance—specifically noise from local paddle tennis players and general noise—affecting guest comfort ('The noise from the local paddle tennis players.'; 'A bit too noisy.').",
+      "recommended_action": "Identify sources and timing of noise (map rooms most affected). Engage with local facility owners/organisers about quiet hours or scheduling; consider installing signage, offering quieter room allocations, adding soundproofing/secondary glazing where cost-effective, and informing guests at booking/check-in about potential noise and mitigation options (earplugs, room changes).",
+      "rationale": "Noise is a recurring complaint that reduces perceived tranquility—a key attribute for many guests at this property—and could undermine strong attributes like the outdoor/pool experience.",
+      "supporting_evidence": [
+        "Review 2024-04-21 (rating 10): 'The noise from the local paddle tennis players.'",
+        "Review 2024-04-17 (rating 9): 'A bit too noisy.'",
+        "Multiple reviews emphasize the value guests place on the relaxed vibe and pleasant outdoor areas, so noise threatens that proposition."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Maintain high service, breakfast and cleanliness standards as occupancy grows",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Revenue and occupancy indicators rose markedly (REVPAR +248%, TAXA_OCUPACAO +104%) while average rating declined from 10.0 to 8.71. Higher demand can strain service and facilities; without attention, guest satisfaction could drop further.",
+      "recommended_action": "Review staffing levels and shift patterns for front desk, breakfast, housekeeping and bar/pool service relative to the new occupancy; consider temporary staff or reallocations for peak periods. Standardize breakfast setup/stocking procedures, and ensure cleaning checklists are maintained. Monitor guest feedback closely for early signs of service decline.",
+      "rationale": "Many reviews praise staff friendliness, breakfast and cleanliness—these strengths support revenue growth. Protecting service quality as occupancy increases will preserve ratings and repeat business.",
+      "supporting_evidence": [
+        "Basic performance: REVPAR_WEEK increased from 21.30 to 74.14 (+248.0%); TAXA_OCUPACAO increased from 26.53% to 54.08% (+103.8%).",
+        "Multiple reviews cite 'customer care', 'kindness and friendliness of the staff', 'very good breakfast', 'all very clean'."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 5,
+      "area": "Preserve and promote family-friendly facilities and outdoor/pool experience",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "While this is a strength rather than a problem, increased usage and guest expectations require active preservation to prevent erosion of these advantages (pool, children's area, bar, outdoor spaces).",
+      "recommended_action": "Maintain routine pool and outdoor-area maintenance, ensure toys/children’s areas are safe and tidy, and promote these features to target segments. Monitor guest feedback specifically about pool, bar and children's facilities and ensure adequate lifeguard/supervision policies or staff coverage if usage rises.",
+      "rationale": "Reviews repeatedly praise the pool, outdoor area and children's area—core differentiators for families. Preserving them supports positive ratings and revenue.",
+      "supporting_evidence": [
+        "Reviews: 'The space is extremely pleasant. The pool and bar area was also very inviting.'; 'Very pleasant outdoor area. Excellent pool and a wonderful children's area'; 'Amazing pool and staff.'",
+        "Hotel amenities list includes 'Piscina exterior' and 'Quartos familiares'."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff friendliness and customer care",
+      "reason": "Many reviews highlight 'kindness and friendliness of the staff', warm welcome and attentive service; this drives guest satisfaction and repeat stays.",
+      "management_implication": "Keep front-of-house training, staffing levels and service standards; reward staff behaviours that produce positive feedback and train new hires to the same standards."
+    },
+    {
+      "area": "Breakfast quality",
+      "reason": "Several reviews praise 'very good' or 'excellent' breakfast and the attentive breakfast staff.",
+      "management_implication": "Maintain product quality, presentation, and staffing at breakfast; monitor inventory and preparation routines to sustain consistency with growing occupancy."
+    },
+    {
+      "area": "Pool, outdoor areas and family facilities",
+      "reason": "Frequent positive mentions of pool, bar and children's area; core differentiator for family and leisure guests.",
+      "management_implication": "Prioritise ongoing maintenance, cleanliness and safety oversight of these areas and promote them in marketing to sustain demand."
+    },
+    {
+      "area": "Cleanliness and room presentation",
+      "reason": "Multiple reviews note rooms are tidy and clean, with toiletries and water appreciated.",
+      "management_implication": "Preserve housekeeping standards and supply provisioning; use checklists and occasional audits to ensure consistency as occupancy increases."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of hot-water/scalding incidents or related maintenance tickets",
+      "reason": "Direct measure of safety issue recurrence and effectiveness of repairs",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Count of bedding/mattress complaints and guest ratings mentioning 'bed' or 'back pain'",
+      "reason": "Tracks whether mattress interventions are resolving comfort complaints",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of noise complaints (by source/time/room) and nightly noise-related service requests",
+      "reason": "Monitors effectiveness of noise mitigation (room allocation, engagement with local facilities, soundproofing)",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average guest rating (weekly) and proportion of 9–10 reviews",
+      "reason": "Overall measure of guest satisfaction trends following interventions",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Breakfast satisfaction (guest comments referencing breakfast / direct quick survey at check-out)",
+      "reason": "Keeps focus on preserving a frequently cited strength as occupancy grows",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Housekeeping turnaround times and staff-to-room ratio during peak days",
+      "reason": "Operational metric to ensure service quality with higher occupancy",
+      "desired_direction": "context_dependent"
+    }
+  ],
+  "limitations": [
+    "Recommendations and problem identification are based only on the supplied recent reviews (20 reviews provided) and basic performance summary; not all guest feedback from the full review set (25 available) was provided.",
+    "No room-by-room maintenance logs, plumbing inspection reports, mattress ages or staff schedules were provided, so technical scope and precise causes require on-site assessment.",
+    "The case supplies aggregated weekly revenue and occupancy changes but does not include seasonal context, competitive set or detailed booking lead-times; financial trends are descriptive only and not attributed to review content."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H137_20240422_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P015",
+    "case_id": "H137_20240422_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:58:54.477148+00:00",
+    "finished_at_utc": "2026-09-08T15:59:21.389930+00:00",
+    "elapsed_seconds": 26.915
+  }
+}

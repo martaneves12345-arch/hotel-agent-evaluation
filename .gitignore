@@ -1,0 +1,52 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Private evaluation material
+src/outputs/human_evaluation_v2/PRIVATE_blinding_key.csv
+
+# Local responses
+evaluation_responses/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment-specific Streamlit agent skills
+.agents/
+.claude/
+
+.streamlit/secrets.toml
+.env
+evaluation_responses/
+src/outputs/human_evaluation_v2/PRIVATE_blinding_key.csv
+.env
+.streamlit/secrets.toml
+evaluation_responses/
+src/outputs/human_evaluation_v2/PRIVATE_blinding_key.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw / processed datasets
+src/data/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Private evaluation key
+src/outputs/human_evaluation_v2/PRIVATE_blinding_key.csv
+
+# Local responses
+evaluation_responses/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/

@@ -1,0 +1,170 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest ratings remain strong (avg rating up to 8.69) and many reviews praise location, rooftop and staff, but recurring operational/maintenance issues (mold, clogged drains, AC problems, insufficient sockets, noisy windows, signage, temporary reception/renovation impacts) combined with large recent drops in occupancy and revenue metrics indicate a material risk to guest satisfaction and future demand if not addressed promptly.",
+  "executive_summary": "Recent reviews highlight strong strengths (central location, rooftop views, generous breakfast, helpful staff) but also recurring maintenance and guest-experience problems: room hygiene/repairs (mold, clogged drains, bathrooms needing updating, AC), in-room facilities (insufficient bedside power, limited TV channels/remote failures), noise/security (windows not closing, street/tram noise), and wayfinding/communication challenges linked to ongoing renovations (temporary reception, breakfast booking, signage, entrance). Priorities are: 1) immediate remediation of health/safety-related maintenance items; 2) fix in-room power and entertainment; 3) mitigate noise and ensure windows/security; 4) improve signage and guest communications around renovations and breakfast booking; 5) formal capital plan to refurbish bathrooms. Actions combine urgent maintenance work-orders, operational changes, and a capital assessment. Monitoring should focus on maintenance complaint volume and resolution times, cleanliness and room-condition sub-scores, and continued monitoring of guest mentions of rooftop/breakfast/staff to preserve strengths.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room maintenance & hygiene",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple recent reviews report mold behind curtains, clogged drains, non-working air conditioning on arrival, and generally ageing/broken bathroom elements — issues that affect comfort and may pose health risks.",
+      "recommended_action": "Initiate an immediate inspection sweep of occupied and vacant rooms to identify and remediate mold, blocked drains and failing HVAC units. Open emergency maintenance work orders with target SLA (e.g., repair within 24–48 hours). For identified mold or hygiene issues, perform deep-cleaning and professional remediation; relocate guests if rooms require work. Log defects in a central maintenance tracker and report weekly to operations leadership.",
+      "rationale": "Mold and plumbing/HVAC failures recur in guest comments and can cause health complaints and reputational damage; quick remediation reduces risk of negative reviews and guest complaints.",
+      "supporting_evidence": [
+        "Review: \"behind the curtain above the windows — mold!\"",
+        "Review: \"The bathroom/shower had a completely clogged drain.\"",
+        "Review: \"First day the air conditioning was not working, staff helped us.\"",
+        "Review: \"Bathrooms could use updating\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.95
+    },
+    {
+      "rank": 2,
+      "area": "In-room electrical and entertainment facilities",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests report insufficient bedside power outlets/phone charging points, reports of 'insufficient power in the room', and problems with TV channels and remote controls (limited channels, too many ads, remote problems). These reduce perceived value of stay and cause frustration.",
+      "recommended_action": "Perform a quick audit of a representative sample of room types to verify number and location of power outlets and TV/remote functionality. Install bedside power sockets/USB chargers where missing (quick retrofit), replace faulty remotes, and review TV supplier/content options to reduce intrusive ads and increase language/international channels where feasible. Track completion of retrofits and guest feedback post-installation.",
+      "rationale": "Simple, relatively low-cost fixes (additional sockets, remotes, software/contract changes) deliver rapid improvement in guest comfort and remove frequent sources of complaint.",
+      "supporting_evidence": [
+        "Review: \"Insufficient power in the room.\"",
+        "Review: \"Poorly resolved: there are no sockets for a phone charger at the bed.\"",
+        "Review: \"Few TV channels: no Spanish, no international, no entertainment channels.\"",
+        "Review: \"Too many ads when you turn on the television and the remote control had problems (later resolved).\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 3,
+      "area": "Noise, window repairs and room security",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Several guests reported that windows could not be closed fully, leading to high street/tram noise at night and reduced security/comfort. Noise complaints and an inability to close windows directly affect sleep quality and perceived safety.",
+      "recommended_action": "Survey rooms facing Praça Martim Moniz/tram routes for window functionality and glazing condition. Prioritize repairs or replacement of seals/fittings for windows that won’t close, and assess feasibility of installing secondary glazing or noise-reducing seals in most-affected room blocks. In the short term, proactively offer earplugs, white-noise devices, or room reassignments away from noisy façades for guests who request them.",
+      "rationale": "Addressing window closure and soundproofing will reduce a recurring source of low-scoring comments about noise and security and improve guest sleep quality.",
+      "supporting_evidence": [
+        "Review: \"Our room overlooked the tram stop and Praça Martim Moniz which meant most nights it was quite noisy\"",
+        "Review: \"The window was open a crack and there was no way to close it completely, so the street noise was very audible.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.88
+    },
+    {
+      "rank": 4,
+      "area": "Signage, entrance visibility and guest communication during renovations",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Guests noted poor internal signage (corridors/floors), issues with the hotel entrance, and confusion related to temporary reception and mandatory breakfast booking during renovations. Poor wayfinding increases perceived disorganization and can negatively impact guest experience, and unclear communication about renovation impacts leads to frustration.",
+      "recommended_action": "Install clear temporary and permanent directional signage (exits, reception, restaurant) along corridors and floors immediately. Improve entrance signage/lighting and ensure staff are visible to direct arrivals. Update pre-arrival and on-site communications (email, website, front-desk script, in-room notices) to explain renovation-related changes (temporary reception, breakfast booking policy) and give guests simple instructions. Train staff to proactively explain changes at check-in and offer assistance (e.g., escorting to rooms).",
+      "rationale": "Clear signage and proactive communication reduce guest friction, perceived chaos from renovations, and repetitive complaints about wayfinding and breakfast procedures.",
+      "supporting_evidence": [
+        "Review: \"Insufficient signage in the corridors inside the hotel.\"",
+        "Review: \"Entrance to the hotel,\"",
+        "Review: \"Having to book in for breakfast although we realise that this has to be done with the renovations in progress.\"",
+        "Review: \"the hotel was being renovated and we were apparently served at a temporary reception... everything looked a bit makeshift\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.87
+    },
+    {
+      "rank": 5,
+      "area": "Bathroom refurbishment capital planning",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Multiple guests describe bathrooms as dated or needing updating; one guest described bathroom, beds and linens as 'unthinkable' in relation to price. While some guests praise cleanliness and linens, inconsistent bathroom standards are a recurring theme.",
+      "recommended_action": "Commission a capital assessment and cost estimate for phased bathroom refurbishment prioritizing room types most complained about. Develop a phased renovation schedule aligned with occupancy patterns and current renovation activity to minimize disruption. Consider interim cosmetic fixes (grout refresh, new showerheads, improved drainage) in rooms scheduled for later phases to reduce complaints in the short term.",
+      "rationale": "A planned capital investment will resolve a persistent source of dissatisfaction and align physical product with the hotel's 4-star positioning; phased works mitigate revenue/profit impact while improving long-term guest experience.",
+      "supporting_evidence": [
+        "Review: \"Bathrooms could use updating\"",
+        "Review: \"The bathroom/shower had a completely clogged drain.\"",
+        "Review: \"The room was merely standard and, unfortunately, no more, which does not seem justified given the overnight prices.\"",
+        "Review: \"Beds, baths, bed linen and towels are unthinkable.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Rooftop bar and city views",
+      "reason": "Multiple reviews praise the rooftop deck/bar and spectacular city views as a highlight and a differentiator.",
+      "management_implication": "Ensure rooftop access, cleanliness and service levels remain high during renovations; protect rooftop operating hours and staff training to preserve this key selling point."
+    },
+    {
+      "area": "Breakfast quality and variety",
+      "reason": "Several reviews call the breakfast 'very tasty', 'excellent and very varied', and an 'extraordinary view and abundance of options'.",
+      "management_implication": "Preserve food quality and variety; manage booking process so guests experience consistently positive breakfast service despite renovation logistics."
+    },
+    {
+      "area": "Staff hospitality and helpfulness",
+      "reason": "Many guests praise 'attentive service', 'staff extremely helpful and friendly', and welcome treats on arrival.",
+      "management_implication": "Maintain frontline staffing levels and training; recognize and reinforce staff behaviors that generate positive reviews."
+    },
+    {
+      "area": "Central location and parking",
+      "reason": "Multiple mentions of 'perfect/central location' and 'hotel has its own parking' as positives supporting guest convenience.",
+      "management_implication": "Continue to highlight location and parking proactively in marketing and guest communications; ensure parking operations remain smooth."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of maintenance-related complaints per week (mold, drains, AC, windows)",
+      "reason": "Direct measure of whether remediation actions reduce recurring issues",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average time to close maintenance work orders (hours/days)",
+      "reason": "Ensures the maintenance team meets SLAs and reduces guest impact",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest cleanliness/room-condition sub-score (from post-stay surveys or review text tags)",
+      "reason": "Track perceived improvement in hygiene and bathroom condition",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of noise/window-related complaints and number of rooms reassigned for noise",
+      "reason": "Measures effectiveness of window repairs and short-term mitigation",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Mentions of breakfast/rooftop/staff in reviews (positive sentiment share)",
+      "reason": "Monitor preservation of core strengths while other works proceed",
+      "desired_direction": "stable"
+    }
+  ],
+  "limitations": [
+    "Only 20 of 181 reviews in the decision window were provided to the model; recommendations are based on this sampled set of recent reviews and the supplied hotel performance metrics.",
+    "Cannot determine the full scope, schedule or contractor status of ongoing renovations from the provided data; proposed actions assume management control over maintenance and renovation timing.",
+    "Financial performance metrics show declines in occupancy and revenue measures but no causal link between review content and financials can be inferred from the supplied information; recommendations focus on operational fixes raised in reviews.",
+    "Some guest comments describe isolated incidents; the sample may over- or under-represent the prevalence of specific problems across all rooms and dates."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H149_20240729_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P016",
+    "case_id": "H149_20240729_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:59:56.892528+00:00",
+    "finished_at_utc": "2026-09-08T16:00:29.403984+00:00",
+    "elapsed_seconds": 32.511
+  }
+}

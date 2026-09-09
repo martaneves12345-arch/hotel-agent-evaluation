@@ -1,0 +1,254 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Reviews show clear strengths (location, breakfast, friendly staff) but rising negative signals (PERC_REVIEWS_NEGATIVE up to 50%, declining sentiment) and several emerging, service-facing frictions (car-rental key handling, undisclosed billiards charge, coffee-machine reliability, limited pool space). Business metrics are mixed (REVPAR up but sentiment and some revenue metrics down), so vulnerabilities merit targeted action rather than emergency escalation.",
+  "executive_summary": "Preserve strong location, breakfast offering and staff friendliness while addressing a small set of operational/policy frictions that are generating expectation violations and emerging negative mentions. Priorities: (1) staff/process fixes around third-party services and paid-amenity disclosure, (2) ensure breakfast reliability (coffee machine + pickup/communication), (3) assess pool capacity/guest expectations, (4) clarify safe/price-value inclusions across channels, (5) immediate repair of lift call buttons and address dated/cleanliness perceptions as needed.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Staff and service (car-rental key handling; paid-amenity communication)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report inconsistent reception handling of third-party car-rental returns (requiring guests to wait for rental staff) and lack of transparent upfront disclosure about paid billiards usage/charges.",
+      "recommended_action": "Review and standardise front-desk procedures for handling third-party services (e.g., whether reception will accept/retain rental car keys on return). Update front-desk scripts and booking/arrival communications to ensure paid-amenity charges (billiards) are disclosed before use. Train reception staff to give consistent pickup/location instructions for ancillary services (e.g., picnic pick-up).",
+      "rationale": "Multiple recent reviews describe the same operational friction (car-rental key handling) and expectation violations around paid billiards charges and pick-up instructions. Underlying service strength (friendly staff) means a targeted policy/process and training fix can preserve the strength while removing specific friction.",
+      "supporting_evidence": [
+        "2024-10-18 (IT): Reception does not take car-rental key after return; guests must wait for rental staff.",
+        "2024-10-19 (DE): Billiards table charged and this was not informed at start of game; customer reported lack of upfront disclosure.",
+        "2024-10-13 (FR): Miscommunication about picnic package pick-up location; several receptionists gave inconsistent information."
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence: Staff and service has 10 mentions with 7 positive (friendly/helpful staff).",
+        "Multiple reviews praise staff friendliness and helpfulness (e.g., 2024-10-19: 'The whole team was fantastic, helpful, especially Luís')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 7,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "EMERGING_NEGATIVE_TOPIC: car rental service"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.78
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast (coffee machine reliability and pickup/communication)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Breakfast is a clear strength but guests report occasional coffee-machine failures and at least one instance of inconsistent instructions about ancillary picnic-package pickup.",
+      "recommended_action": "Inspect/maintain the breakfast-room coffee machine(s) and put a simple contingency (backup machine/process) and staff checklist in place. Clarify and document the picnic/packed-breakfast pickup process in front-desk and bar teams to ensure consistent guest information at check-out.",
+      "rationale": "Breakfast receives frequent positive mentions (quality/variety), but recurring mentions of coffee-machine reliability and miscommunication about pickup create expectation violations that can erode a core strength if unaddressed.",
+      "supporting_evidence": [
+        "2024-10-19 (DE): 'Only the coffee machine in the breakfast room could be improved; it fails sometimes.'",
+        "2024-09-24 (PT): Guest praised breakfast quality and also noted staff stored luggage after check-out — indicates operational capability but need for consistent procedures.",
+        "2024-10-13 (FR): Miscommunication about picnic package pick-up (staff-level inconsistency)."
+      ],
+      "positive_counterevidence": [
+        "Managerial evidence: Breakfast has 10 mentions; 9 positive, praised as 'good, wide selection' and 'quality and variety'.",
+        "Multiple reviews highlight well-organised buffet and refreshed items (2024-10-13 EN, 2024-09-24 PT)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 9,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "EXPECTATION_SHARE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.72
+    },
+    {
+      "rank": 3,
+      "area": "Spa and pool (limited pool space / capacity)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Guests value the rooftop pool but report limited space around the pool (crowding/insufficient seating/room), an emerging negative topic.",
+      "recommended_action": "Assess rooftop-pool capacity and guest expectations: review layout, seating availability, peak use patterns and guest communications about pool size. Implement short-term operational steps (signage, usage guidance, booking/rotation if appropriate) and only consider capital changes after an assessment.",
+      "rationale": "Pool is repeatedly praised as an important amenity (useful in a city without beaches), yet multiple guests report 'not much room round the pool'. The issue is emerging and may require either operational management or, if structural, a capital assessment — start with a focused evaluation.",
+      "supporting_evidence": [
+        "2024-10-16 (EN): 'Not much room round the pool.'",
+        "2024-10-18 (IT): Positive reference to rooftop pool being useful; indicates high guest value for the facility."
+      ],
+      "positive_counterevidence": [
+        "Guests describe the rooftop pool as 'extremely useful' and note evening entertainment (2024-10-18, 2024-10-19).",
+        "Managerial evidence: Spa and pool has more positive than negative mentions (2 positive, 1 negative) but is flagged as emerging_negative."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: pool space"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.64
+    },
+    {
+      "rank": 4,
+      "area": "Price–value (in-room safe charged separately / disclosure)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest expected an in-room safe to be included at the room price and reported it as a negative expectation violation.",
+      "recommended_action": "Review how the in-room safe is presented across booking channels, the website and at check-in; if the safe is chargeable, ensure clear disclosure pre-booking and at check-in. Evaluate whether current messaging aligns with the price positioning and guest expectations and adjust communications or policy accordingly.",
+      "rationale": "Although this is a single explicit complaint, it represents a clear expectation violation about inclusions. The issue concerns perceived value for money and is straightforward to address through clearer disclosure and messaging before considering any pricing policy change.",
+      "supporting_evidence": [
+        "2024-10-18 (IT): 'The in-room safe is charged separately, despite the not insignificant cost of the room.'"
+      ],
+      "positive_counterevidence": [
+        "Overall hotel strengths (location, breakfast, friendly staff) remain positive, indicating this is a narrow expectation issue rather than broad value failure."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_VIOLATION_RATIO stable"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.62
+    },
+    {
+      "rank": 5,
+      "area": "Maintenance and safety of facilities (lift call buttons; dated/cleanliness perceptions)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests report non-functioning lift call buttons and some perceptions of the hotel being dated (which can be interpreted as cleanliness/maintenance concern). Malfunctioning lift controls impact guest convenience and may be a safety/instant-fix maintenance issue.",
+      "recommended_action": "Immediate technical inspection and repair of lift call buttons. Conduct a brief maintenance/housekeeping checklist review to confirm there are no systematic cleanliness issues (respond to the 'dated/appears dirty' perception) and correct any maintenance items identified.",
+      "rationale": "Lift call buttons not working is a concrete operational/maintenance fault reported in the window (2024-10-14) and should be addressed immediately. A dated appearance comment (2024-09-28) combined with mixed cleanliness mentions suggests a quick housekeeping/maintenance check to ensure standards are consistently met.",
+      "supporting_evidence": [
+        "2024-10-14 (EN): 'Lift call buttons not working.'",
+        "2024-09-28 (DE): 'The hotel is very dated and therefore seems a bit dirty. Also, the photos suggest a higher-quality finish than is actually present.'"
+      ],
+      "positive_counterevidence": [
+        "Several reviews explicitly state rooms and public areas were clean and well maintained (e.g., 2024-10-14 EN positive context).",
+        "Managerial evidence: Cleanliness and housekeeping shows mixed mentions (2 positive, 2 negative)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently positive mentions (8 mentions in managerial evidence; positive_share 1.0). Guests repeatedly cite very central location and easy access to city centre.",
+      "management_implication": "Preserve current positioning and continue to highlight location in guest communications and booking channels."
+    },
+    {
+      "area": "Breakfast",
+      "reason": "High volume of positive mentions praising quality and variety (9 positive mentions; managerial evidence indicates a clear strength).",
+      "management_implication": "Maintain breakfast offering and monitor the coffee-machine reliability issue to keep this as a differentiator."
+    },
+    {
+      "area": "Staff friendliness",
+      "reason": "Multiple reviews and managerial evidence note friendly, helpful staff (staff & service positive mentions = 7).",
+      "management_implication": "Preserve through staff recognition and targeted training addressing the specific communication inconsistencies identified."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Has increased sharply (to 50% in the window); track to see if recent operational fixes reduce negative share.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Overall sentiment is declining; relevant to guest perception after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints were rising (but recent reversal flagged); monitor to validate whether short-term operational changes reduce operational complaint share.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "EXPECTATION_SHARE / HIGH_MISALIGNMENT_SHARE",
+      "reason": "Expectation-share and high-misalignment share are increasing and indicate growing expectation violations; track to ensure communications and process updates reduce misalignment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Guest mentions of 'pool space' and 'car rental'",
+      "reason": "These are emerging-negative topics; monitor weekly to detect persistence or spread.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Complaint sample is diagnostic (11 substantive complaints selected) and not fully representative of all guest feedback; prevalence judgments should rely on full review-window metadata.",
+    "Some issues are supported by single-review evidence (e.g., in-room safe charge); such items should be treated as expectation signals requiring confirmation before large interventions.",
+    "The evidence identifies operational/policy frictions and perceived maintenance/dating; it does not establish required capital scope or costs — assessments are recommended where scope is unclear (pool capacity, potential refurbishment).",
+    "Trend signals (e.g., PERC_OPERATIONAL_COMPLAINTS recent_reversal) must be interpreted separately from overall direction; some metrics show recent reversal while others remain deteriorating."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P011",
+    "case_id": "H32_20241014_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:53:57.560786+00:00",
+    "finished_at_utc": "2026-09-08T15:54:55.203231+00:00",
+    "elapsed_seconds": 57.646
+  }
+}

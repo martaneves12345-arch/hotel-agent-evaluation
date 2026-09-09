@@ -1,0 +1,260 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Business trends show large recent declines in RevPAR and occupancy with declining sentiment and increasing expectation gap, while review evidence points to emerging room-condition friction. Strengths (location, staff, cleanliness) persist, and recent-week movement shows partial reversal, so the situation is concerning but not critical.",
+  "executive_summary": "Preserve clear strengths (location, staff, cleanliness). Primary managerial attention should focus on room-condition and fabric issues (aging materials, lighting, soundproofing, linen odor) because multiple recent reviews and the emerging_negative topic point to expectation failures. Near-term operational fixes and policy reviews (breakfast variety, in-room complimentary items, laundry/detergent practices, guest disturbance enforcement) should be implemented or reviewed quickly. Where evidence suggests potential structural causes (soundproofing, general fabric deterioration) request an inspection/assessment before committing capital.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room condition / property fabric (lighting, worn materials, general state)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Guests report ageing/worn facilities, scarce lighting and a general impression that the hotel is more dated than expected; this is flagged as an emerging negative topic (room condition) and indicates expectation failure for a 4-star property.",
+      "recommended_action": "Commission an immediate managerial inspection of room fabric and public-area finishes to scope the extent of wear (lighting levels, materials, fixtures). Based on the inspection, prepare a phased remediation plan (prioritise safety/guest-impact items). Implement short-term mitigations where feasible (improve lighting intensity/fixtures in affected rooms, replace visibly worn items, communicate clearly about planned remediation). Do not commit to capital expenditure without an inspection and costed assessment.",
+      "rationale": "Multiple recent reviews describe aged/worn materials and scarce lighting; 'room condition' is flagged as an emerging negative topic in the context. The problem is likely structural in part and may require phased maintenance or refurbishment; however, inspection is needed to determine scope and cost.",
+      "supporting_evidence": [
+        "2024-01-21: 'The facilities are quite old... The lighting is extremely scarce'",
+        "2024-01-20: 'Materials very worn and outdated. It already requires renovation.'",
+        "latest_context.emerging_negative_topic: 'room condition'"
+      ],
+      "positive_counterevidence": [
+        "2024-01-20 positive context: 'Comfortable bed and room temperature.'",
+        "managerial_evidence: Room comfort positive_mentions = 2 (functioning air conditioning, comfortable bed)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "emerging_negative_topic: room condition",
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing",
+          "PERC_REVIEWS_NEGATIVE increasing",
+          "declining_revpar (recent_reversal true)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast offering (variety / showcase of regional products)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Some guests perceive breakfast as having limited variety and not showcasing regional products, an expectation violation despite other guests praising breakfast.",
+      "recommended_action": "Review the breakfast menu and supplier arrangements with the food & beverage team. Evaluate whether adding or rotating regional items or increasing variety can be piloted without large capital outlay. Collect guest preference feedback (e.g., simple survey) during breakfast to confirm demand for regional offerings before implementing lasting changes.",
+      "rationale": "Managerial evidence classifies Breakfast as 'positive_with_friction' with an explicit violated expectation week. One recent complaint described limited breakfast variety; however other guests note 'delicious breakfast', indicating an underlying strength to preserve while addressing the specific friction.",
+      "supporting_evidence": [
+        "2024-01-20: 'Breakfast has little variety, not taking the opportunity to showcase regional products.'",
+        "2024-01-08 positive context: 'Cleanliness, the staff, the location, and the delicious breakfast.'"
+      ],
+      "positive_counterevidence": [
+        "2024-01-08: Explicit praise 'delicious breakfast'",
+        "managerial_evidence: Breakfast positive_mentions = 2, negative_mentions = 1"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EXPECTATION_SHARE increasing",
+          "HIGH_MISALIGNMENT_SHARE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 3,
+      "area": "In-room complimentary items / basic bathroom provisioning",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported absence of small expected courtesies (bottle of water, body cream), indicating an expectation mismatch around what is provided in-room.",
+      "recommended_action": "Review and clarify the in-room provisioning policy (water, basic toiletries). Implement or reinforce a simple housekeeping checklist to ensure consistent delivery of included items; ensure front-desk communications and online descriptions accurately reflect what is provided. If a policy change is considered, evaluate costs and guest-value alignment before adopting.",
+      "rationale": "Complaint specifically mentioned missing bottle of water and body cream; managerial evidence for 'bathroom condition' includes an expectation violation week though experience mentions are limited. This appears to be an operational/policy gap that can be addressed without major capital investment.",
+      "supporting_evidence": [
+        "2024-01-21: 'small courtesies that are nice to have are missing, such as providing a bottle of water or body cream in the room.'",
+        "managerial_evidence: Bathroom condition has_expectation_violation = true (violated_expectation_weeks = 1)"
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise cleanliness and staff; no other reviews in the sample reported missing basics."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Housekeeping / laundry practice (linen odor / disinfectant smell)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "At least one guest reported bed linen with a strong smell of disinfectant/detergent, suggesting a possible laundry or product-use issue that can negatively affect perceived cleanliness despite otherwise positive housekeeping mentions.",
+      "recommended_action": "Audit laundry and room-cleaning chemical usage and processes (internal or third-party laundry), including product types and concentrations. Trial adjustments or alternative products in a subset of rooms and solicit guest feedback. Retrain housekeeping on drying/ventilation practices where appropriate. If supplied by a vendor, request documentation and quality checks.",
+      "rationale": "There is a single explicit complaint about linen odor amid otherwise positive cleanliness mentions. This looks like an operational/process issue that can be investigated and trialed quickly; a focused audit will determine if wider action is required.",
+      "supporting_evidence": [
+        "2023-12-29: 'Bed linen with a strong smell of disinfectant/detergent.'",
+        "managerial_evidence: Cleanliness and housekeeping have positive_mentions = 3"
+      ],
+      "positive_counterevidence": [
+        "managerial_evidence: Cleanliness positive_mentions = 3; reviews otherwise praise cleanliness and staff."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "SENTIMENT_SCORE_AVG decreasing",
+          "EMOTION_ENTROPY increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.55
+    },
+    {
+      "rank": 5,
+      "area": "Noise/disturbance and soundproofing",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Guests reported both poor soundproofing and disturbance from a noisy group; this combines an operational/policy issue (guest behaviour enforcement, group management) and a possible structural issue (soundproofing).",
+      "recommended_action": "Short term: review front-desk and on-site procedures for handling noisy guests and group bookings (quiet-hours messaging, escalation/resolution process). Medium term: schedule a technical assessment of room-to-room and external sound insulation to determine whether remedial works are required. Do not commit to capital works before the assessment.",
+      "rationale": "Two recent reviews describe noise issues: one describes poor soundproofing; another describes a disruptive guest group until 00:30 despite reminders. Operational policy changes can reduce recurrence; if the soundproofing assessment shows structural weakness, plan remediation based on scoped findings.",
+      "supporting_evidence": [
+        "2024-01-20: 'Poor soundproofing of the rooms.'",
+        "2024-01-08: 'presence of a group... disrupted part of the evening and continued until 12:30 AM despite my reminders to keep order'"
+      ],
+      "positive_counterevidence": [
+        "managerial_evidence: Staff and service positive_mentions = 3 (staff praised), which supports effective guest-facing handling in many cases."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EMOTION_ENTROPY increasing",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Multiple reviews (and managerial_evidence) consistently praise the hotel's central location and views.",
+      "management_implication": "Maintain marketing emphasis on central location; ensure any operational changes (e.g., signage, access) do not reduce perceived convenience."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Several reviews highlight helpful staff and recommend the hotel; managerial_evidence shows staff and service as a clear strength.",
+      "management_implication": "Preserve service standards; consider staff briefing on how to communicate short-term remediation actions to guests (e.g., expected improvements, handling noisy groups)."
+    },
+    {
+      "area": "Cleanliness / housekeeping (generally positive)",
+      "reason": "Managerial evidence shows consistently positive cleanliness mentions across weeks.",
+      "management_implication": "Preserve existing housekeeping protocols while auditing specific laundry/chemical practices to address isolated linen-odor reports."
+    },
+    {
+      "area": "Comfort (bed, AC, Wi‑Fi)",
+      "reason": "Guests report comfortable beds, working air conditioning and good Wi‑Fi in multiple reviews.",
+      "management_implication": "Maintain current maintenance schedules for HVAC and room amenities; monitor any remediation work to avoid disrupting these strengths."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Mentions of 'room condition' / 'facilities old' in reviews",
+      "reason": "Used to detect whether the emerging negative topic is widening.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Rising share of negative reviews signals broader sentiment deterioration.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Increasing gap indicates expectation violations; useful to track effect of remediation efforts.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "REVPAR_WEEK (watch recent reversal)",
+      "reason": "Revenue trend has been strongly negative with a recent upward movement; monitor to see if upward movement persists as experience changes.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Breakfast negative mentions / suggestions for regional products",
+      "reason": "Direct measure of whether breakfast changes reduce the specific friction.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaints (5) are diagnostic examples and may not represent the full review population (total reviews in window = 22). Prevalence should be assessed using full review metadata before major investments.",
+    "Evidence identifies several potential structural issues (soundproofing, fabric ageing) but does not provide scope, technical detail, or cost—recommend inspection/assessment before capital decisions.",
+    "Some recommendations (e.g., changes to breakfast offering, laundry processes) assume operational feasibility and supplier availability; further internal operational review is required.",
+    "Temporal signals show recent reversals in revenue metrics; interpret business trends and customer-experience changes separately and re-evaluate after a new data window."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P013",
+    "case_id": "H97_20240115_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:56:43.093455+00:00",
+    "finished_at_utc": "2026-09-08T15:57:32.952399+00:00",
+    "elapsed_seconds": 49.869
+  }
+}

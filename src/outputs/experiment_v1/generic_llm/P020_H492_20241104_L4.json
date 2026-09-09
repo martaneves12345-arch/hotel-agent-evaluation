@@ -1,0 +1,149 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest satisfaction remains high (avg rating ~9.1) and occupancy increased slightly, but revenue metrics (RevPAR, RevPOR, TRevPAR) declined notably while number of reviews fell. Recent reviews show consistent operational strengths (breakfast, staff, cleanliness) but recurring service/comfort issues (noise, in-room equipment/usability, access with luggage) that can affect repeat business and word-of-mouth if not addressed.",
+  "executive_summary": "Paço do Bispo Boutique House receives strong praise for breakfast, friendly staff, cleanliness, parking and pleasant facilities. Key actionable issues emerging from recent reviews are guest disturbance from noise (nearby racetrack/events, dog barking, minibar noise), in-room usability/fit-and-finish (TV usability, decor mismatch), and guest mobility/luggage handling for upper floors. Management should prioritize immediate low-cost operational fixes (guest communication, earplugs, minibar settings, TV instructions, luggage assistance) while planning medium-term maintenance or capital choices (soundproofing, TV/minibar replacement, accessibility solutions). Also investigate the decline in RevPAR/RevPOR and lower review volume with revenue/marketing review and continued monitoring of guest feedback.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Noise/disturbance management",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Guests report noise disturbances from the nearby motor racetrack (especially on event dates), occasional dog barking, and a noisy minibar at night. Noise reduces perceived comfort and may impact sleep quality for some guests.",
+      "recommended_action": "Immediately: provide clear pre-arrival information about potential racetrack event noise and advise guests to check event dates; make earplugs available at reception; add a note at check-in about the minibar mute/turn-off option and ensure staff can switch noisy units off at night. Short-term: log noise complaints by date/room to identify patterns and high-impact dates; consider scheduling quieter room allocations for noise-sensitive guests. Medium-term: assess cost/benefit of targeted soundproofing for the most affected rooms and evaluate relocating/servicing noisy minibars or replacing with quieter models.",
+      "rationale": "Multiple recent reviews mention racetrack noise, dog barking and minibar noise at night; many guests otherwise praise the hotel but noise is a recurring negative. Low-cost immediate mitigations can improve sleep quality while an evidence-based maintenance plan is developed.",
+      "supporting_evidence": [
+        "Review: \"However, there is the downside that it is close to a motor racetrack which creates quite a bit of noise. So check the dates for events at the racetrack.\" (2024-10-19)",
+        "Review: \"Occasional dog barking and engines on the circuit; it didn't really bother us...\" (2024-11-01)",
+        "Review: \"Noise from the minibar in the silence of the night (can be turned off).\" (2024-11-01)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "In-room equipment & presentation (TV, minibar, decor consistency)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Some guests find the bedroom TV hard to operate and note that bedroom decor feels less modern than the bathroom; minibar noise is noted (see priority 1). These affect perceived value and guest experience despite high overall cleanliness and comfort.",
+      "recommended_action": "Short-term: prepare simple, visible TV/remote instructions in rooms and train staff to assist at check-in; confirm minibar power/mode settings and offer to disable at night. Medium-term: audit in-room equipment usability (TV models, remotes, minibar units) and plan phased replacements or upgrades where cost-effective; consider small décor refreshes in bedrooms to match bathrooms when budgets allow.",
+      "rationale": "Recent reviews explicitly mention difficulty with the TV and a decor mismatch; addressing usability quickly is low-cost and will improve guest satisfaction. Replacements/refreshes preserve positive perceptions of modern bathrooms.",
+      "supporting_evidence": [
+        "Review: \"Tv in the bedroom is hard to work with. The bedroom decoration didnt feel as modern as the bathroom but it was okay.\" (2024-11-04)",
+        "Review: \"Noise from the minibar in the silence of the night (can be turned off).\" (2024-11-01)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Guest access / luggage handling for upper floors",
+      "managerial_priority": "medium",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Guests with heavy luggage reported difficulty reaching upper floor rooms (stairs). This can reduce comfort for families or guests with mobility or luggage needs and may create safety risk when carrying heavy items.",
+      "recommended_action": "Immediately: offer proactive help with luggage at check-in, provide a luggage trolley if available, and note on the booking/website that some rooms require stairs so guests can select accordingly. Train staff to offer carry assistance and prioritize lower-floor rooms for guests requesting easier access. Medium-term: evaluate feasibility of accessibility improvements or redistributing room assignments to accommodate guests with heavy luggage or mobility concerns.",
+      "rationale": "A recent review explicitly mentioned exhaustion from stairs with heavy luggage. Small operational changes reduce guest effort and possible injury while longer-term solutions can be assessed.",
+      "supporting_evidence": [
+        "Review: \"We had a lot of luggages, and we were on the top floor. So we were super exhausted from the stairs after!\" (2024-10-24)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Revenue & review volume monitoring and response",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "Key revenue metrics declined over the review window (RevPAR -9.1%, RevPOR -16.7%, TRevPAR -8.7%) and number of reviews decreased (-27%). Occupancy increased slightly and average rating remained high. Management needs to understand drivers of revenue decline and the drop in review volume.",
+      "recommended_action": "Short-term: run a revenue-management review to check pricing, channel mix, and package/board offers across the last month; verify whether booking channels or distribution changes could explain RevPAR/RevPOR declines. Monitor review solicitation processes (are fewer guests being invited to review?) and consider targeted follow-up to recover review volume. Use the guest strengths (breakfast, staff) in marketing communications to support pricing and bookings.",
+      "rationale": "Financial metrics moved unfavorably despite stable ratings and higher occupancy; a focused review of pricing/distribution and review solicitation practices will help identify actionable causes. Preserve marketing of noted strengths while adjustments are tested.",
+      "supporting_evidence": [
+        "Basic performance: RevPAR -9.12%, RevPOR -16.67%, TRevPAR -8.73%, Occupancy +6.25%, Avg rating ~9.1, N_reviews -27.27%."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast offering",
+      "reason": "Multiple reviews describe breakfast as 'fabulous', 'excellent', 'great' and 'abundant'—a repeat headline strength for the property.",
+      "management_implication": "Keep menu variety and service level; highlight breakfast in marketing and on booking channels to support pricing and guest satisfaction."
+    },
+    {
+      "area": "Staff friendliness and helpfulness",
+      "reason": "Numerous reviews praise 'very friendly lovely host', 'very polite and friendly staff', helpful recommendations and welcoming reception.",
+      "management_implication": "Maintain staff training and empowerment to continue personalized service; use staff strengths in guest communications and review responses."
+    },
+    {
+      "area": "Cleanliness and room presentation (bathroom modernity)",
+      "reason": "Guests consistently note cleanliness and modern, clean bathrooms as positive features.",
+      "management_implication": "Sustain housekeeping standards and preserve modern bathroom features when planning any room refreshes."
+    },
+    {
+      "area": "Parking and facilities (pool, lounge)",
+      "reason": "Reviews highlight free parking, pool/lounge use after checkout and comfortable outdoor facilities as valuable differentiators.",
+      "management_implication": "Ensure parking and pool/lounges remain accessible and well-maintained; promote these amenities in pre-arrival and booking materials."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of noise-related complaints per week",
+      "reason": "To evaluate effectiveness of immediate noise mitigations and to identify event dates/rooms most affected.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest-reported in-room equipment issues (TV/minibar) per month",
+      "reason": "Tracks whether instruction/maintenance actions reduce usability complaints.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Requests for luggage assistance / incidents related to stairs",
+      "reason": "Monitors demand for help and potential safety incidents; informs need for operational changes or accessibility investments.",
+      "desired_direction": "context_dependent"
+    },
+    {
+      "indicator": "RevPAR and RevPOR (weekly)",
+      "reason": "Continue monitoring revenue performance to assess whether operational fixes and marketing actions correlate with revenue recovery.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of post-stay reviews collected per week",
+      "reason": "Detects the drop in review volume and the impact of any changes to solicitation or guest follow-up.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average rating and distribution of recent reviews (weekly rolling)",
+      "reason": "Ensures that overall guest satisfaction remains high while specific issues are addressed.",
+      "desired_direction": "stable"
+    }
+  ],
+  "limitations": [
+    "Analysis is based only on the supplied recent reviews (20 provided out of 28 available in the decision window) and the basic performance metrics in the case; broader datasets (full review texts, operational logs, booking channel reports) are not available here.",
+    "No direct evidence links customer comments to the observed revenue declines; the revenue changes and guest comments are reported contemporaneously but causal relationships cannot be inferred from the provided information.",
+    "The sample of reviews includes many positive comments; frequency of certain complaints is limited to a small number of reviews, so prevalence across all guests should be confirmed with additional data collection (complaint logs, front-office notes).",
+    "Property physical details (e.g., presence or absence of an elevator) are not specified; recommendations avoid assuming facts not in the case."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H492_20241104_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P020",
+    "case_id": "H492_20241104_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:05:34.804645+00:00",
+    "finished_at_utc": "2026-09-08T16:06:02.724075+00:00",
+    "elapsed_seconds": 27.919
+  }
+}

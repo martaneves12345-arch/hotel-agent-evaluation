@@ -1,0 +1,221 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Operational complaint share, expectation–experience gap, and semantic misalignment are rising (preliminary signals flagged as high). However average rating and occupancy are trending up and many topic-level mentions are positive, so the situation is concerning but not critical. Recent small reversal in RevPAR should be monitored separately.",
+  "executive_summary": "Focus on four priorities: (1) address breakfast expectation friction (variety/quality perceptions) while preserving its positive aspects; (2) immediate inspection of the in-room equipment/control that guests could not switch off and that made noise; (3) review night-time guest-response and escalation processes after a late-night intervention was required; (4) audit front-facing descriptions and on-property communications to reduce semantic misalignment and the growing expectation–experience gap. All priorities are evidence-traceable to guest complaints, manager-level topic counts, and experience indicators. Preserve strengths in cleanliness, staff friendliness, and bathroom condition.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast (offer & perceived variety)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests generally praise breakfast but some guests report the offering is 'a bit light' and there is at least one expectation violation related to breakfast variety/quality.",
+      "recommended_action": "Review the current breakfast offering and how it is communicated to guests; compare actual variety/quality to guest expectations and identify targeted operational adjustments (menu/stocking/communication). Implement changes where operationally feasible and monitor guest feedback.",
+      "rationale": "Managerial evidence shows 7 mentions with 5 positive and 2 negative (positive_share 0.714) and has_expectation_violation=true. Complaint examples explicitly cite 'breakfast a bit light' and 'About the breakfast.' Expectation-gap and semantic-misalignment metrics are rising generally, making breakfast expectation friction more diagnostically relevant.",
+      "supporting_evidence": [
+        "managerial_evidence: Breakfast — 7 mentions (5 positive, 2 negative), evidence_pattern=positive_with_friction, has_expectation_violation=true",
+        "complaint_evidence: 2024-09-29 (\"the breakfast is a bit light in terms of choice\")",
+        "complaint_evidence: 2024-09-27 (\"Disliked: About the breakfast.\")",
+        "experience_indicators: EXPECTATION_EXPERIENCE_GAP_AVG increasing; SEMANTIC_MISALIGNMENT_SCORE_AVG increasing"
+      ],
+      "positive_counterevidence": [
+        "managerial_evidence: Breakfast positive_mentions=5 (majority positive)",
+        "complaint_evidence: 2024-09-09 positive_context includes breakfast ('Comfort, breakfast.')"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.82
+    },
+    {
+      "rank": 2,
+      "area": "In-room equipment/control failure and noise (guest could not turn it off)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "A guest reported being unable to turn off an in-room device and that it made a lot of noise; staff ultimately intervened at 2 a.m.",
+      "recommended_action": "Initiate an immediate maintenance inspection of room control systems (e.g., HVAC/fans/other electrical controls) to identify malfunctioning units or control issues. Prioritize rooms reported and verify that controls function correctly and quietly. If scope is unclear, schedule a technical diagnostic.",
+      "rationale": "Complaint (2024-09-16) describes inability to turn off a noisy device and required reception intervention at 2 a.m. This is a concrete operational/maintenance failure affecting guest sleep; it therefore requires prompt inspection. Managerial room-comfort evidence shows mixed mentions (1 positive, 1 negative) supporting that room-equipment incidents exist but are not yet widespread in the sample.",
+      "supporting_evidence": [
+        "complaint_evidence: 2024-09-16 (couldn't turn it off; noisy; reception had to intervene at 2 a.m.)",
+        "managerial_evidence: Room comfort — review_mentions_total=2 (positive=1, negative=1), evidence_pattern=mixed"
+      ],
+      "positive_counterevidence": [
+        "managerial_evidence: Room comfort has some positive mentions (positive_share=0.5) and bathroom condition is rated positively in other reviews"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.78
+    },
+    {
+      "rank": 3,
+      "area": "Night-time guest-response & escalation protocol",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guest needed front-desk intervention at 2 a.m. to address a noisy/uncontrollable device; this indicates potential gaps in night-time response, escalation, or preventive maintenance notification.",
+      "recommended_action": "Review night-time response procedures and escalation training for reception/maintenance (how quickly staff can respond, who is on-call, and how issues are logged and followed up). Consider clarifying internal SLAs for urgent in-room issues and ensure guests are informed about expected response times.",
+      "rationale": "Complaint documents a late-night call to reception to fix an in-room issue. PERC_OPERATIONAL_COMPLAINTS is rising and the priority alert flag is present, suggesting operational complaints are becoming more influential. Improving response processes can reduce guest disturbance impacts even before full maintenance fixes are completed.",
+      "supporting_evidence": [
+        "complaint_evidence: 2024-09-16 (reception responded at 2 a.m.)",
+        "experience_indicators: PERC_OPERATIONAL_COMPLAINTS increasing; preliminary_signals includes increasing_operational_complaints and existing_priority_alert"
+      ],
+      "positive_counterevidence": [
+        "managerial_evidence: Staff and service have mostly positive mentions (positive_mentions=4, negative_mentions=1), indicating staff friendliness is a relative strength"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.74
+    },
+    {
+      "rank": 4,
+      "area": "Expectation alignment / semantic misalignment (marketing & on-property communications)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Experience indicators show rising semantic misalignment and an increasing expectation–experience gap, suggesting guests may be arriving with expectations that are not fully met or that descriptions do not match delivery.",
+      "recommended_action": "Conduct an audit of front-facing descriptions (website/booking engine/third-party profiles) and on-property signage/guest information to ensure accuracy and alignment with what the hotel actually provides (notably breakfast inclusions and amenities). Where mismatches are found, update content or operational delivery and monitor changes in expectation-violation metrics.",
+      "rationale": "SEMANTIC_MISALIGNMENT_SCORE_AVG and EXPECTATION_EXPERIENCE_GAP_AVG are both increasing (moderate trend strength). EXPECTATION_VIOLATION_RATIO increased from 0.5 to 1.0 (n_obs=2). Addressing misalignment can reduce expectation violations that are showing up in guest feedback (breakfast-related expectation violation present).",
+      "supporting_evidence": [
+        "experience_indicators: SEMANTIC_MISALIGNMENT_SCORE_AVG increasing; EXPECTATION_EXPERIENCE_GAP_AVG increasing; EXPECTATION_VIOLATION_RATIO increased to 1.0",
+        "managerial_evidence: Breakfast has has_expectation_violation=true",
+        "complaint_evidence: 2024-09-29 (guest perceives breakfast as insufficient relative to expectations)"
+      ],
+      "positive_counterevidence": [
+        "business_performance: AVG_RATING is increasing (8.0 to 9.0) and occupancy is increasing, indicating strong elements to build on"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 4,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "EXPECTATION_VIOLATION_RATIO"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Managerial evidence: 5 mentions with positive_share 0.8 and no expectation violations; multiple reviews note rooms as spacious and clean.",
+      "management_implication": "Preserve current housekeeping standards and ensure staffing/supply continuity so cleanliness remains a visible strength."
+    },
+    {
+      "area": "Staff and service (friendliness)",
+      "reason": "Managerial evidence: Staff and service positive_mentions=4, negative_mentions=1; complaint evidence shows staff intervened when contacted.",
+      "management_implication": "Maintain staff training and recognize effective guest-facing behaviors; leverage this strength when addressing operational frictions."
+    },
+    {
+      "area": "Bathroom condition",
+      "reason": "Managerial evidence: bathroom condition has positive_mentions=2 and reviews describe 'completely new bathroom' and 'large bathroom.'",
+      "management_implication": "Preserve bathroom maintenance and cleanliness as it contributes positively to guest satisfaction."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Rising metric indicates growing mismatch between guest expectations and delivered experience; directly related to breakfast complaints and semantic misalignment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Increasing misalignment suggests marketing/description vs reality gaps that should be audited after corrective actions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Share of operational complaints is rising (consistent trend); useful to track whether maintenance and response changes reduce operational issues.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "RevPAR has been decreasing over the window with a recent small reversal; monitor separately as business context.",
+      "desired_direction": "context_dependent",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Proportion of negative reviews rose to 28.6%; track whether operational and expectation interventions reduce negative share.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative; prevalence should be assessed using the full review window (total_reviews_in_window=34, share_reviews_with_disliked=0.176).",
+    "Managerial evidence counts are small for some areas (e.g., Room comfort n=2), limiting ability to generalize scope or frequency across the entire guest population.",
+    "Complaint text does not identify the specific in-room device or technical cause; an on-site inspection is required before prescribing technical fixes or capital investment.",
+    "Cannot determine from the supplied evidence whether addressing breakfast variety requires capital, supplier changes, or minor operational adjustments — recommend operational review before committing resources.",
+    "No explicit safety incidents were reported; however, late-night equipment malfunction may warrant prioritized maintenance despite lack of explicit safety harm."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P008",
+    "case_id": "H345_20240923_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:49:53.987538+00:00",
+    "finished_at_utc": "2026-09-08T15:50:36.787514+00:00",
+    "elapsed_seconds": 42.793
+  }
+}

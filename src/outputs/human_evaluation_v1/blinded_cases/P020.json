@@ -1,0 +1,561 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P020",
+  "case_information": {
+    "case_id": "H492_20241104_L4",
+    "decision_week": "2024_W45",
+    "decision_date": "2024-11-04",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 87.63663578336559,
+        "REVPOR_WEEK": 136.61714468085106,
+        "TREVPAR_WEEK": 88.01404700193423,
+        "TAXA_OCUPACAO": 62.33766233766234,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 9.090909090909092,
+        "SENTIMENT_SCORE_AVG": 0.3642857142857142,
+        "SENTIMENT_SCORE_STD": 0.6096747466504552,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.075,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.075,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.3787834934861756,
+        "EXPECTATION_SHARE": 0.0909090909090909,
+        "HIGH_EXPECTATION_SHARE": 0.0909090909090909,
+        "HIGH_MISALIGNMENT_SHARE": 0.0909090909090909,
+        "PERC_REVIEWS_NEGATIVE": 54.54545454545454,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.9090909090909092,
+        "COMPLEXITY_INDEX": 2.4591946002019376,
+        "SENTIMENT_TREND_SLOPE": 0.0006852556451812
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 74.37663923444977,
+        "REVPOR_WEEK": 130.5945947368421,
+        "TREVPAR_WEEK": 74.86817224880383,
+        "TAXA_OCUPACAO": 49.35064935064935,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.333333333333334,
+        "SENTIMENT_SCORE_AVG": 0.5333333333333333,
+        "SENTIMENT_SCORE_STD": 0.6350852961085884,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.9182958340544894,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 33.33333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.6666666666666666,
+        "COMPLEXITY_INDEX": 1.916136453618621,
+        "SENTIMENT_TREND_SLOPE": 0.0006852556451812
+      },
+      {
+        "WEEK_YEAR": "2024_W44",
+        "week_date": "2024-10-28",
+        "REVPAR_WEEK": 83.05578646934462,
+        "REVPOR_WEEK": 122.63602325581398,
+        "TREVPAR_WEEK": 83.83664545454546,
+        "TAXA_OCUPACAO": 55.84415584415584,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.0,
+        "SENTIMENT_SCORE_AVG": 0.25,
+        "SENTIMENT_SCORE_STD": 0.5319774431308155,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.459147917027245,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 50.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8333333333333334,
+        "COMPLEXITY_INDEX": 2.3169110745029435,
+        "SENTIMENT_TREND_SLOPE": 0.0006852556451812
+      },
+      {
+        "WEEK_YEAR": "2024_W45",
+        "week_date": "2024-11-04",
+        "REVPAR_WEEK": 79.64764636363635,
+        "REVPOR_WEEK": 113.838108,
+        "TREVPAR_WEEK": 80.32827127272726,
+        "TAXA_OCUPACAO": 66.23376623376623,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.125,
+        "SENTIMENT_SCORE_AVG": 0.7571428571428571,
+        "SENTIMENT_SCORE_STD": 0.4237025012007948,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 0.5916727785823274,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 25.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.75,
+        "COMPLEXITY_INDEX": 2.1155976492884165,
+        "SENTIMENT_TREND_SLOPE": 0.0006852556451812
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-11-09",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Israel",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-09",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-11-07",
+        "rating": 10.0,
+        "liked": "Very friendly lovely host & clean room",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-07",
+        "rating": 10.0,
+        "liked": "Fabulous location Excellent breakfast",
+        "disliked": "Loved everything",
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-04",
+        "rating": 9.0,
+        "liked": "Staff was very helpful and nice. The sir that checked us in gave us some restaurant recommendations and we ended up going to one of those places and it was beautiful! Breakfast was generous and tasty. Bathroom was clean and very modern. Parking avaiable made our stay much more comfortable.",
+        "disliked": "Tv in the bedroom is hard to work with. The bedroom decoration didnt feel as modern as the bathroom but it was okay.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-04",
+        "rating": 10.0,
+        "liked": "We liked everything! Comfort, cleanliness, very beautiful place, very polite and friendly staff! I would definitely repeat the experience!",
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-04",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-04",
+        "rating": 9.0,
+        "liked": "The breakfast was fabulous, plenty of choice and great service",
+        "disliked": null,
+        "country": "Australia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-03",
+        "rating": 9.0,
+        "liked": "Everything! Very kind staff, beautiful room and a very hospitable and quiet property. Varied breakfast with fresh fruit. Comfortable bed.",
+        "disliked": "Nulla",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 8.0,
+        "liked": "Heated bathroom floor, breakfast.",
+        "disliked": "Noise from the minibar in the silence of the night (can be turned off).",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-11-01",
+        "rating": 10.0,
+        "liked": "Very beautiful, spacious room and received an upgrade, a special experience, welcoming reception.",
+        "disliked": "Occasional dog barking and engines on the circuit; it didn't really bother us because we were out during the day.",
+        "country": "Netherlands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-24",
+        "rating": 10.0,
+        "liked": "The breakfast was great, the rooms were beautiful and the staffs were super helpful when we needed help with booking our uber to the palaces. After we checked out, we were able to hang out with our family in the lounge and pool area while waiting for our baby to wake up from his nap. Being able to relax in the facilities definitely helped give us a great start to our day.",
+        "disliked": "We had a lot of luggages, and we were on the top floor. So we were super exhausted from the stairs after! But great work out I guess.",
+        "country": "Canada",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-10-23",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-22",
+        "rating": 10.0,
+        "liked": "The breakfast was really good.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 9.0,
+        "liked": "Perfect stay",
+        "disliked": "However, there is the downside that it is close to a motor racetrack which creates quite a bit of noise. So check the dates for events at the racetrack.",
+        "country": "Denmark",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 9.0,
+        "liked": "Novel and visually attractive",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-10-19",
+        "rating": 9.0,
+        "liked": "The breakfast is excellent and abundant, the room is indulgent and spacious. The staff was very kind and offered us recommendations for the area. There is a large parking area and you can leave your car there while you go sightseeing.",
+        "disliked": "The location is a bit far, but worth it.",
+        "country": "Israel",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Most guest feedback is positive (strong praise for breakfast, cleanliness, and staff) but there are several emerging, service-impacting issues (Wi‑Fi/TV, bathroom drainage, after-hours reception reachability) and a noticeable RevPAR decline. Issues are limited in frequency but include at least one safety/maintenance concern (shower drain overflow) and service-access friction that justify prioritized attention.",
+    "executive_summary": "Preserve strengths in breakfast, cleanliness and the broadly positive staff experience while addressing a small set of operational and maintenance frictions that have recently emerged: after-hours reception/reachability, in‑room technology (internet/TV), and bathroom functional issues (clogged drain and decor inconsistency). Also address a minor in‑room amenity annoyance (minibar noise) and monitor a single price–value mention. Prioritise immediate maintenance inspection for the shower drainage, short-term review of after‑hours contact procedures and a short-term technical assessment of internet/TV usability. Several items require further operational or technical assessment before committing to capital works.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Staff and service (reception after‑hours reachability)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported reception closed after 8 PM and unreachable by phone; staff is otherwise frequently praised but this after‑hours unreachability is an emerging friction and has potential safety/guest-support implications.",
+        "recommended_action": "Immediately review and confirm after‑hours guest contact procedures and phone reachability. Verify that published guest instructions about after‑hours contact are correct and reachable. Track any additional occurrences and, if unreachable incidents persist, perform a short-term process review of after‑hours coverage and guest communications. Do not assume staffing level changes are required without further review.",
+        "rationale": "Although staff is a clear strength (many positive mentions), the specific friction (unreachable reception after 20:00) is an emerging expectation failure and could affect guest safety/support and perceived reliability. Addressing procedures and communication is operational and can often be implemented quickly.",
+        "supporting_evidence": [
+          "Complaint 2024-10-14 (rating 6): \"reception closed after 8 PM, unreachable by phone.\"",
+          "managerial_evidence: 'Staff and service' — 11 mentions (10 positive, 2 negative); evidence_pattern: positive_with_friction; matched topic: reception availability/reachability after 20:00; emerging_negative_weeks = 1."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 2,
+        "area": "Wi‑Fi and in‑room technology (internet and TV)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported unreliable internet (couldn't connect to company network, poor reception) and TV usability problems; managerial evidence shows only negative mentions for technology topics (TV, internet connection).",
+        "recommended_action": "Conduct a short-term technical assessment of guest Wi‑Fi reliability (coverage, bandwidth, authentication) and the TV/user interface in rooms. Collect logs or vendor reports to identify whether issues are intermittent, scope (single room vs property), and whether corporate/VPN connectivity is affected. If assessment indicates systemic infrastructure shortcomings, plan a technical remediation; otherwise implement operational fixes (instructions, resets, signage).",
+        "rationale": "Technology failures materially affect working travellers' experience and are an emerging topic in the window (net-negative). The evidence does not specify technical root causes, so a focused technical assessment is necessary before deciding on capital or vendor changes.",
+        "supporting_evidence": [
+          "Complaint 2024-10-16 (rating 9): \"The internet connection... functional but I couldn't connect to my company's network... reception wasn't great.\"",
+          "Complaint 2024-11-04 (rating 9): \"Tv in the bedroom is hard to work with.\"",
+          "managerial_evidence: 'Wi‑Fi and technology' — 2 mentions (0 positive, 2 negative); evidence_pattern: net_negative; matched topics: TV, internet connection; emerging_negative_weeks = 1."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom condition (functional drainage and decor consistency)",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "There is at least one report of a clogged shower drain that overflowed into the bathroom (maintenance/hygiene concern) and other comments about bathroom decor inconsistency (some guests find decor less modern than other areas). Managerial evidence shows bathroom as an emerging negative topic.",
+        "recommended_action": "Immediate maintenance inspection of shower drainage and plumbing in the affected room(s) to address the overflow/clogging safety/hygiene issue. Separately, evaluate bathroom decor consistency across room types as a medium‑term assessment to determine whether selective refurbishment or cosmetic updates are warranted. Do not propose capital works without an assessment of scope and cost.",
+        "rationale": "The clogged drain represents a tangible functional and potential hygiene/safety issue that warrants prompt inspection. Decor comments are less urgent but indicate an expectation mismatch in finish/appearance that should be assessed before committing to refurbishment.",
+        "supporting_evidence": [
+          "Complaint 2024-10-14 (rating 6): \"Shower drain clogged, which overflows into the bathroom.\"",
+          "Complaint 2024-11-04 (rating 9): \"The bedroom decoration didnt feel as modern as the bathroom but it was okay.\"",
+          "managerial_evidence: 'Bathroom condition' — 3 mentions (2 positive, 2 negative); evidence_pattern: mixed; matched topics: bathroom cleanliness, bathroom decor, functional bathroom drainage/maintenance; emerging_negative_weeks = 1."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.78
+      },
+      {
+        "rank": 4,
+        "area": "In‑room amenities (minibar noise and towel provisioning as related operational frictions)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "At least one guest reported noise from the minibar at night; another guest reported insufficient towel provisioning (one towel for two). These are low-frequency but tangible friction points for comfort.",
+        "recommended_action": "Operationally verify minibar placements/noise and whether units can be secured or instructions provided to guests to reduce noise. Reconfirm towel provisioning standards with housekeeping and ensure rooms are checked for adequate towels during cleaning. Track recurrence; if minibar noise is a recurring issue, include it in equipment assessment.",
+        "rationale": "Complaints are limited in number but directly affect guest comfort during stays. Operational checks and housekeeping process confirmation are appropriate first steps before any equipment replacement decisions.",
+        "supporting_evidence": [
+          "Complaint 2024-11-01 (rating 8): \"Noise from the minibar in the silence of the night (can be turned off).\"",
+          "Complaint 2024-10-14 (rating 6): \"Only one towel for two...\"",
+          "managerial_evidence: 'In-room amenities' — 1 mention (0 positive, 1 negative); evidence_pattern: net_negative."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.55
+      },
+      {
+        "rank": 5,
+        "area": "Price–value perception",
+        "managerial_priority": "low",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "There is a single managerial_evidence negative mention about price–value. No substantive complaint example in the supplied sample clarifies scope or cause.",
+        "recommended_action": "Monitor mentions of price–value in the next review window. If additional negative evidence appears, review packaging, inclusions (e.g., what is communicated as included), and value positioning. Do not change pricing or offerings based on a single mention without further evidence.",
+        "rationale": "Only one negative data point for price–value is available; this is insufficient to justify operational or pricing changes now but merits monitoring given the RevPAR decline context.",
+        "supporting_evidence": [
+          "managerial_evidence: 'Price–value' — 1 mention (0 positive, 1 negative); evidence_pattern: net_negative",
+          "business_performance context: RevPAR trending down (first_value 87.6366 to last_value 79.6476; -9.12%)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.4
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast",
+        "reason": "Consistently high positive mentions (11 positive, 0 negative); multiple guest comments describe the breakfast as excellent, generous and varied.",
+        "management_implication": "Preserve current breakfast quality and presentation. Use breakfast as a positive differentiator in guest communications and monitor for any future negative mentions."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "All mentions in the window are positive (5 positive, 0 negative); guests praise bathroom cleanliness and overall cleanliness.",
+        "management_implication": "Maintain housekeeping standards and monitor for any operational slips; ensure housekeeping receives recognition for consistent performance."
+      },
+      {
+        "area": "Staff and service (general)",
+        "reason": "High positive share (10 positive vs 2 negative); many guests compliment helpfulness and local recommendations.",
+        "management_implication": "Continue to emphasize front‑of‑house guest service training and preserve current guest interaction practices while addressing the specific after‑hours reachability friction."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "REVPAR_WEEK",
+        "reason": "RevPAR has a moderate, consistent decreasing trend over the panel window and sets context for prioritisation and monitoring of experience issues.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE",
+        "reason": "Share of negative reviews is decreasing over the window; continue monitoring to detect re‑emergence of negative mentions after interventions.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG",
+        "reason": "Average sentiment is increasing strongly, which is positive context; monitor whether operational fixes maintain sentiment improvements.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "TAXA_OCUPACAO (occupancy)",
+        "reason": "Occupancy is increasing; monitor together with RevPAR to understand revenue mix and guest composition (e.g., more leisure vs business guests could affect technology expectations).",
+        "desired_direction": "context_dependent",
+        "monitoring_horizon": "ongoing"
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic and not statistically representative of all guest feedback in the window; frequency and prevalence should be assessed using the full review set.",
+      "Managerial evidence indicates some issues with low absolute counts (e.g., price–value has only one negative mention); avoid overreacting to isolated mentions.",
+      "Technical root causes for Wi‑Fi and TV problems are not provided; recommended technical assessment before vendor/ capital decisions.",
+      "Bathroom decor comments point to perceived mismatch but the scope (number of rooms affected) and cost implications are unclear — recommend assessment before planning capital works."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest satisfaction remains high (avg rating ~9.1) and occupancy increased slightly, but revenue metrics (RevPAR, RevPOR, TRevPAR) declined notably while number of reviews fell. Recent reviews show consistent operational strengths (breakfast, staff, cleanliness) but recurring service/comfort issues (noise, in-room equipment/usability, access with luggage) that can affect repeat business and word-of-mouth if not addressed.",
+    "executive_summary": "Paço do Bispo Boutique House receives strong praise for breakfast, friendly staff, cleanliness, parking and pleasant facilities. Key actionable issues emerging from recent reviews are guest disturbance from noise (nearby racetrack/events, dog barking, minibar noise), in-room usability/fit-and-finish (TV usability, decor mismatch), and guest mobility/luggage handling for upper floors. Management should prioritize immediate low-cost operational fixes (guest communication, earplugs, minibar settings, TV instructions, luggage assistance) while planning medium-term maintenance or capital choices (soundproofing, TV/minibar replacement, accessibility solutions). Also investigate the decline in RevPAR/RevPOR and lower review volume with revenue/marketing review and continued monitoring of guest feedback.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Noise/disturbance management",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Guests report noise disturbances from the nearby motor racetrack (especially on event dates), occasional dog barking, and a noisy minibar at night. Noise reduces perceived comfort and may impact sleep quality for some guests.",
+        "recommended_action": "Immediately: provide clear pre-arrival information about potential racetrack event noise and advise guests to check event dates; make earplugs available at reception; add a note at check-in about the minibar mute/turn-off option and ensure staff can switch noisy units off at night. Short-term: log noise complaints by date/room to identify patterns and high-impact dates; consider scheduling quieter room allocations for noise-sensitive guests. Medium-term: assess cost/benefit of targeted soundproofing for the most affected rooms and evaluate relocating/servicing noisy minibars or replacing with quieter models.",
+        "rationale": "Multiple recent reviews mention racetrack noise, dog barking and minibar noise at night; many guests otherwise praise the hotel but noise is a recurring negative. Low-cost immediate mitigations can improve sleep quality while an evidence-based maintenance plan is developed.",
+        "supporting_evidence": [
+          "Review: \"However, there is the downside that it is close to a motor racetrack which creates quite a bit of noise. So check the dates for events at the racetrack.\" (2024-10-19)",
+          "Review: \"Occasional dog barking and engines on the circuit; it didn't really bother us...\" (2024-11-01)",
+          "Review: \"Noise from the minibar in the silence of the night (can be turned off).\" (2024-11-01)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "In-room equipment & presentation (TV, minibar, decor consistency)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Some guests find the bedroom TV hard to operate and note that bedroom decor feels less modern than the bathroom; minibar noise is noted (see priority 1). These affect perceived value and guest experience despite high overall cleanliness and comfort.",
+        "recommended_action": "Short-term: prepare simple, visible TV/remote instructions in rooms and train staff to assist at check-in; confirm minibar power/mode settings and offer to disable at night. Medium-term: audit in-room equipment usability (TV models, remotes, minibar units) and plan phased replacements or upgrades where cost-effective; consider small décor refreshes in bedrooms to match bathrooms when budgets allow.",
+        "rationale": "Recent reviews explicitly mention difficulty with the TV and a decor mismatch; addressing usability quickly is low-cost and will improve guest satisfaction. Replacements/refreshes preserve positive perceptions of modern bathrooms.",
+        "supporting_evidence": [
+          "Review: \"Tv in the bedroom is hard to work with. The bedroom decoration didnt feel as modern as the bathroom but it was okay.\" (2024-11-04)",
+          "Review: \"Noise from the minibar in the silence of the night (can be turned off).\" (2024-11-01)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 3,
+        "area": "Guest access / luggage handling for upper floors",
+        "managerial_priority": "medium",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Guests with heavy luggage reported difficulty reaching upper floor rooms (stairs). This can reduce comfort for families or guests with mobility or luggage needs and may create safety risk when carrying heavy items.",
+        "recommended_action": "Immediately: offer proactive help with luggage at check-in, provide a luggage trolley if available, and note on the booking/website that some rooms require stairs so guests can select accordingly. Train staff to offer carry assistance and prioritize lower-floor rooms for guests requesting easier access. Medium-term: evaluate feasibility of accessibility improvements or redistributing room assignments to accommodate guests with heavy luggage or mobility concerns.",
+        "rationale": "A recent review explicitly mentioned exhaustion from stairs with heavy luggage. Small operational changes reduce guest effort and possible injury while longer-term solutions can be assessed.",
+        "supporting_evidence": [
+          "Review: \"We had a lot of luggages, and we were on the top floor. So we were super exhausted from the stairs after!\" (2024-10-24)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": false,
+        "confidence": 0.8
+      },
+      {
+        "rank": 4,
+        "area": "Revenue & review volume monitoring and response",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "monitoring",
+        "problem": "Key revenue metrics declined over the review window (RevPAR -9.1%, RevPOR -16.7%, TRevPAR -8.7%) and number of reviews decreased (-27%). Occupancy increased slightly and average rating remained high. Management needs to understand drivers of revenue decline and the drop in review volume.",
+        "recommended_action": "Short-term: run a revenue-management review to check pricing, channel mix, and package/board offers across the last month; verify whether booking channels or distribution changes could explain RevPAR/RevPOR declines. Monitor review solicitation processes (are fewer guests being invited to review?) and consider targeted follow-up to recover review volume. Use the guest strengths (breakfast, staff) in marketing communications to support pricing and bookings.",
+        "rationale": "Financial metrics moved unfavorably despite stable ratings and higher occupancy; a focused review of pricing/distribution and review solicitation practices will help identify actionable causes. Preserve marketing of noted strengths while adjustments are tested.",
+        "supporting_evidence": [
+          "Basic performance: RevPAR -9.12%, RevPOR -16.67%, TRevPAR -8.73%, Occupancy +6.25%, Avg rating ~9.1, N_reviews -27.27%."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast offering",
+        "reason": "Multiple reviews describe breakfast as 'fabulous', 'excellent', 'great' and 'abundant'—a repeat headline strength for the property.",
+        "management_implication": "Keep menu variety and service level; highlight breakfast in marketing and on booking channels to support pricing and guest satisfaction."
+      },
+      {
+        "area": "Staff friendliness and helpfulness",
+        "reason": "Numerous reviews praise 'very friendly lovely host', 'very polite and friendly staff', helpful recommendations and welcoming reception.",
+        "management_implication": "Maintain staff training and empowerment to continue personalized service; use staff strengths in guest communications and review responses."
+      },
+      {
+        "area": "Cleanliness and room presentation (bathroom modernity)",
+        "reason": "Guests consistently note cleanliness and modern, clean bathrooms as positive features.",
+        "management_implication": "Sustain housekeeping standards and preserve modern bathroom features when planning any room refreshes."
+      },
+      {
+        "area": "Parking and facilities (pool, lounge)",
+        "reason": "Reviews highlight free parking, pool/lounge use after checkout and comfortable outdoor facilities as valuable differentiators.",
+        "management_implication": "Ensure parking and pool/lounges remain accessible and well-maintained; promote these amenities in pre-arrival and booking materials."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Number of noise-related complaints per week",
+        "reason": "To evaluate effectiveness of immediate noise mitigations and to identify event dates/rooms most affected.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Guest-reported in-room equipment issues (TV/minibar) per month",
+        "reason": "Tracks whether instruction/maintenance actions reduce usability complaints.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Requests for luggage assistance / incidents related to stairs",
+        "reason": "Monitors demand for help and potential safety incidents; informs need for operational changes or accessibility investments.",
+        "desired_direction": "context_dependent"
+      },
+      {
+        "indicator": "RevPAR and RevPOR (weekly)",
+        "reason": "Continue monitoring revenue performance to assess whether operational fixes and marketing actions correlate with revenue recovery.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of post-stay reviews collected per week",
+        "reason": "Detects the drop in review volume and the impact of any changes to solicitation or guest follow-up.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Average rating and distribution of recent reviews (weekly rolling)",
+        "reason": "Ensures that overall guest satisfaction remains high while specific issues are addressed.",
+        "desired_direction": "stable"
+      }
+    ],
+    "limitations": [
+      "Analysis is based only on the supplied recent reviews (20 provided out of 28 available in the decision window) and the basic performance metrics in the case; broader datasets (full review texts, operational logs, booking channel reports) are not available here.",
+      "No direct evidence links customer comments to the observed revenue declines; the revenue changes and guest comments are reported contemporaneously but causal relationships cannot be inferred from the provided information.",
+      "The sample of reviews includes many positive comments; frequency of certain complaints is limited to a small number of reviews, so prevalence across all guests should be confirmed with additional data collection (complaint logs, front-office notes).",
+      "Property physical details (e.g., presence or absence of an elevator) are not specified; recommendations avoid assuming facts not in the case."
+    ]
+  }
+}

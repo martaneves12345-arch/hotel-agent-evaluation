@@ -1,0 +1,167 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest satisfaction remains high (avg rating rose to 9.0 and many positive comments about breakfast, cleanliness, staff and facilities) but commercial performance shows a substantial near-term deterioration (REVPAR -33%, occupancy -50%, TREVPAR -21%). The combination of strong guest experience but sharply lower occupancy/revenue suggests commercial/placement and demand-recovery actions are the priority; reputational or safety risks appear low.",
+  "executive_summary": "The hotel has strong guest feedback on breakfast, cleanliness, friendly staff and facilities (indoor pool), but recent weekly commercial metrics deteriorated substantially (occupancy and revenue down). Managerial priorities are: (1) arrest/reverse the occupancy and revenue decline through revenue & distribution actions; (2) protect and refine breakfast quality and variety; (3) address room configuration expectations (double vs twin beds); (4) actively leverage positive guest experience in marketing to accelerate demand recovery; (5) increase solicitation and monitoring of guest feedback to detect emerging issues early. Most items are operational/policy actions; safety concerns are not evident from reviews.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Commercial / Revenue Management",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Weekly occupancy and revenue have dropped sharply (TAXA_OCUPACAO down ~50%, REVPAR down ~33%, TREVPAR down ~21%), risking short-term cashflow and utilization of fixed-cost assets.",
+      "recommended_action": "Initiate a rapid revenue-management review: check booking pace and channels, evaluate ADR and promotions, reassess rate parity and channel mix, run targeted promotions for local/regional demand (families/groups given guest profile), contact past guests and group leads, and coordinate with sales/OTA partners to fill near-term inventory. Set short-term tactical offers and a 90-day commercial recovery plan.",
+      "rationale": "Significant drops in occupancy and revenue require immediate commercial action to restore demand; guest sentiment is positive, so conversion opportunities exist if distribution and pricing are adjusted quickly.",
+      "supporting_evidence": [
+        "TAXA_OCUPACAO decreased from 77.55% to 38.46% (-50.4%)",
+        "REVPAR decreased from 34.57 to 23.02 (-33.4%)",
+        "TREVPAR decreased from 59.76 to 47.19 (-21.0%)",
+        "Many recent reviews indicate strong guest satisfaction (average rating increased from 8.8 to 9.0)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Food & Beverage — Breakfast quality and variety",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "While breakfast is frequently praised, several guests noted issues: inconsistency in beverage quality (orange juice taste, espresso quality) and limited day-to-day variety.",
+      "recommended_action": "Audit breakfast operations: test and, if needed, replace or service coffee machine; review orange juice supplier/process (fresh vs concentrate) and tasting protocols; introduce a day-to-day rotation for certain items to increase perceived variety; train staff on beverage preparation and presentation; collect targeted guest feedback after changes.",
+      "rationale": "Breakfast is a repeatedly-cited strength; small quality or variety issues can erode repeat business and word-of-mouth. Fixing beverage quality and adding variety are relatively low-cost operational improvements with visible guest impact.",
+      "supporting_evidence": [
+        "Multiple positive comments: 'The breakfast was divine', 'Extensive Breakfast', 'Wonderful breakfast'.",
+        "Negative/specific comments: 'the orange juice had a taste very different...', 'the taste of the espresso—I expected better!', 'no variety day to day.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Room configuration and product description",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest expected a double bed but found two single beds; this may cause dissatisfaction among couples and reduce repeat bookings in that segment.",
+      "recommended_action": "Review room inventory and bedding configurations; ensure room-type descriptions on booking channels clearly state bed type and offer the option to request a double/merged bed. Where feasible, implement a standard procedure to convert twin beds into double beds on request and log guest preferences for future stays.",
+      "rationale": "Clarifying product information and offering a simple conversion option reduces avoidable dissatisfaction and aligns expectations with delivered product.",
+      "supporting_evidence": [
+        "Guest comment: 'Since we are a couple, the bed should be a double bed and not 2 beds.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Marketing / Reputation leverage",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "The hotel has tangible guest experience strengths (cleanliness, friendly staff, good facilities including indoor pool and strong breakfast) but these assets may not be fully leveraged to recover demand quickly.",
+      "recommended_action": "Develop a short marketing push highlighting top guest-cited strengths (breakfast, cleanliness, indoor pool, family-friendliness, accessible features). Use recent positive quotes in campaigns, update OTA descriptions to emphasize strengths, and run targeted campaigns to segments seen in reviews (families, groups). Consider limited-time package offers bundling breakfast/pool access.",
+      "rationale": "Given high ratings and positive qualitative feedback, promoting these strengths can improve conversion and accelerate occupancy recovery when combined with the revenue actions above.",
+      "supporting_evidence": [
+        "Many reviews cite: 'Wonderful reception; clean accommodation', 'Da piscina interior Do buffet', 'Very friendly staff', 'food very good considering the price.'",
+        "Average rating improved from 8.8 to 9.0."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Guest feedback volume & monitoring",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "The weekly number of recorded reviews fell (N_REVIEWS reported -70% over the recent week measure); lower feedback volume can delay detection of emerging issues and reduces marketing/social proof momentum.",
+      "recommended_action": "Increase solicitation of post-stay feedback (automated emails, in-stay reminders), monitor channel-by-channel review counts, and track the topics in reviews weekly. Consider a short incentive for verified reviews and ensure staff remind satisfied guests to leave feedback.",
+      "rationale": "Timely and sufficient volume of reviews supports reputation management, helps identify operational issues quickly, and supplies content for marketing.",
+      "supporting_evidence": [
+        "N_REVIEWS metric shows a change from 10.0 to 3.0 (reported -70%).",
+        "Review sample still shows many positive comments but recent weekly review count is low."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast / F&B offering",
+      "reason": "Multiple reviews praise the breakfast as 'divine', 'extensive' and 'wonderful'; this is a clear guest-perceived strength.",
+      "management_implication": "Maintain breakfast standards, make incremental improvements (variety, beverage quality), and use breakfast as a marketing differentiator."
+    },
+    {
+      "area": "Cleanliness and accommodation quality",
+      "reason": "Several guests explicitly state excellent cleanliness and comfortable, clean rooms and bathrooms.",
+      "management_implication": "Preserve current housekeeping standards and communicate them in marketing; avoid cost cuts that risk cleanliness levels."
+    },
+    {
+      "area": "Staff friendliness and service",
+      "reason": "Guests comment on 'very friendly staff' and 'wonderful reception', indicating consistent service quality.",
+      "management_implication": "Continue staff training, recognize frontline teams, and ensure staffing levels support service consistency as occupancy changes."
+    },
+    {
+      "area": "Facilities — indoor pool and family orientation",
+      "reason": "Guests mention the indoor pool and family-friendly facilities positively.",
+      "management_implication": "Keep pool and family amenities in good condition and use them in promotions targeting families and groups."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Occupancy rate (weekly / rolling 4 weeks)",
+      "reason": "Primary commercial metric showing demand recovery or continued decline.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "REVPAR and TREVPAR (weekly)",
+      "reason": "Measures revenue performance per available room and total revenue capture; tracks success of revenue actions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Booking pace and channel conversion (OTA vs direct)",
+      "reason": "Identifies where demand shortfalls originate and which channels to target with promotions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews per week and average rating",
+      "reason": "Tracks reputation momentum and early detection of service issues.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Breakfast-related mentions (positive vs negative) and beverage complaint count",
+      "reason": "Monitors effectiveness of breakfast improvements (juice/espresso and variety).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Rate of bedding-configuration complaints / requests for double bed",
+      "reason": "Measures if room-description and conversion actions are resolving guest expectations.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on the supplied metrics and recent guest comments; there is no competitor, market-demand, channel mix, or booking-lead-time data provided.",
+    "N_REVIEWS and other weekly metrics are aggregate snapshots; reasons for the commercial decline (seasonality, group departures, contract changes, events, or distribution shifts) are not available in the case and require follow-up investigation.",
+    "Guest feedback does not report any safety incidents; absence of safety complaints in reviews does not guarantee there are no safety issues—operational audits would be needed for confirmation."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H308_20241125_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P007",
+    "case_id": "H308_20241125_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:47:52.690727+00:00",
+    "finished_at_utc": "2026-09-08T15:48:29.339146+00:00",
+    "elapsed_seconds": 36.649
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest feedback is broadly positive (average rating increased to 8.375) and commercial indicators show modest revenue improvement. However, recurring operational/asset issues (incorrect online address causing arrival problems; noise and fabric/paint condition in rooms) and some negative comments about breakfast value create reputational and guest-experience risks if not addressed.",
+  "executive_summary": "Recent reviews are mostly positive but flag four actionable issues: (1) incorrect/unclear hotel address and guest directions that caused delays; (2) room condition problems (noise through windows and need for textile/paint improvements); (3) perceived high breakfast price/value mismatch for some guests; (4) preserve strengths (friendly staff, good beds/bathrooms) that drive current positive ratings. Addressing the first two should be prioritized (addressing the address immediately; planning maintenance for rooms), while breakfast pricing and preservation of service quality are short-term/ongoing priorities.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Online information & arrivals (address & directions)",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported the hotel's website shows an incorrect address which caused arrival delays and difficulty reaching the property; other guests also commented on the location being far from Lisbon.",
+      "recommended_action": "Immediately verify and correct the address on the hotel website and all major booking/distribution channels (OTAs, Google Maps, GDS). Post clear arrival instructions on the website (nearest public transport stops, typical travel times from Lisbon, parking directions) and provide printable directions and local contact numbers in booking confirmations. Train front‑desk staff to proactively send directions to arriving guests on request.",
+      "rationale": "Incorrect address causes guest delays, frustration and poor first impressions; clear directions will reduce arrival problems and support guest satisfaction.",
+      "supporting_evidence": [
+        "Review (2024-03-17) explicitly states the hotel's address on the website is incorrect and that this caused delays and difficulty reaching the destination.",
+        "Review (2024-03-17) also notes location is far from the centre of Lisbon (guest expectation/distance concern)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Room condition & soundproofing (windows, textiles, paint)",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests reported noise issues through windows and requested improvements to room textiles and paint, indicating the rooms could be perceived as lower quality or less comfortable.",
+      "recommended_action": "Carry out a targeted room-condition audit (identify worst rooms by floor/exposure). Short-term: add soft furnishings (curtains, rugs) and low-cost fixes (seal/caulk windows, drop-in weatherstrips) where noise is worst. Medium-term: plan capital maintenance (window upgrades, repainting, replacement of worn textiles) prioritized by guest-impact and cost-effectiveness. Communicate progress to guests (e.g., \"ongoing refurbishment\") to set expectations.",
+      "rationale": "Noise and visible wear reduce perceived value and can lower repeat business and ratings; staged maintenance allows prioritization against budget while delivering visible improvements.",
+      "supporting_evidence": [
+        "Review (2024-03-09) lists: \"windows need noise improvements rooms need textile improvements paint improvements\".",
+        "Mixed lower ratings (6/10) appear among the reviews, consistent with some guests noticing condition issues."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast pricing and perceived value",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest found the breakfast too expensive and opted not to take it, suggesting perceived misalignment between price and guest willingness to purchase.",
+      "recommended_action": "Review breakfast price and composition versus local market and guest expectations. Consider offering tiered breakfast options (basic/economy vs full buffet), promotional packages (room+breakfast bundled), or clear communication of menu and price at booking so guests can decide in advance. Evaluate breakfast uptake and guest feedback for a 4–8 week period after changes.",
+      "rationale": "Adjusting price/packaging or clarifying value can increase uptake and guest satisfaction without large capital cost.",
+      "supporting_evidence": [
+        "Review (2024-03-10) states: \"I found the breakfast expensive, so I chose not to have it.\"",
+        "Hotel amenities list includes \"Bom pequeno-almoço\" indicating breakfast is a stated service and thus important to guests."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "Service standards & strengths preservation (staff friendliness, beds/bathrooms)",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "operational",
+      "problem": "While reviews show several strengths (friendly staff, good beds and bathrooms) these positive drivers should be preserved so improvements in other areas do not erode the current advantage.",
+      "recommended_action": "Reinforce training and recognition programs for front-line staff to sustain friendliness and service. Maintain housekeeping standards focused on bed quality and bathroom condition; ensure ongoing checks during room audits. Capture and share positive guest comments internally as examples of desirable behaviour.",
+      "rationale": "Staff friendliness and core room quality are cited as reasons for high ratings; preserving these will help maintain the upward trend in average ratings and guest satisfaction while other fixes are implemented.",
+      "supporting_evidence": [
+        "Multiple reviews praise staff friendliness and the quality of beds/bathroom panels (e.g., reviews dated 2024-03-10, 2024-03-09, 2024-03-14).",
+        "Average rating has increased from 8.0 to 8.375 over the 4-week window."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff friendliness and service",
+      "reason": "Several recent reviews explicitly praise staff friendliness and general service; these contribute to high individual ratings (8–10).",
+      "management_implication": "Prioritize staff training, recognition and scheduling to maintain service levels, especially while other initiatives (maintenance/refurbishment) are underway."
+    },
+    {
+      "area": "Bed and bathroom quality",
+      "reason": "Guests specifically noted quality of beds and bathroom wall panels as positive aspects.",
+      "management_implication": "Keep housekeeping and maintenance standards for beds/bathrooms high; include these items in room audits and quality checklists."
+    },
+    {
+      "area": "Overall guest satisfaction trend",
+      "reason": "Average rating increased (8.0 to 8.375) and RevPAR/RevPOR show modest positive movement.",
+      "management_implication": "Build on current positioning by addressing identified operational issues without undermining strengths."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of guest comments mentioning incorrect address/directions",
+      "reason": "Direct measure of whether the address/directions fix has reduced arrival issues.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of guest comments about noise/room condition (windows, textiles, paint)",
+      "reason": "Tracks effectiveness of maintenance and noise-mitigation actions.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Breakfast uptake rate (percentage of guests choosing hotel breakfast or breakfast add‑on sales)",
+      "reason": "Measures whether pricing/packaging changes increase guest purchase of breakfast.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average rating (weekly)",
+      "reason": "Overall measure of guest satisfaction and impact of interventions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "REVPAR and occupancy (weekly)",
+      "reason": "Commercial indicators to monitor whether operational changes affect revenue and occupancy.",
+      "desired_direction": "context_dependent"
+    }
+  ],
+  "limitations": [
+    "Recommendations are based only on the 20 most recent reviews provided (out of 68 available in the decision window); broader review content may provide additional context or issues.",
+    "Review comments are qualitative and selective; frequency counts from the full review set should be used to validate prevalence of flagged problems before large capital expenditure.",
+    "Commercial indicators (REVPAR, occupancy) improved modestly over the window but no causal link between specific reviews and financial performance can be inferred from the supplied data."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H288_20240311_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P025",
+    "case_id": "H288_20240311_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:12:31.547785+00:00",
+    "finished_at_utc": "2026-09-08T16:12:53.782377+00:00",
+    "elapsed_seconds": 22.235
+  }
+}

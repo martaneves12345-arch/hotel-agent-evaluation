@@ -1,0 +1,199 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most guest comments are positive (staff, cleanliness, room comfort) but several expectation violations and an increase in share of negative reviews signal emerging friction. Issues are mostly operational/policy (breakfast inclusions, listing accuracy, leisure charges) with one localized maintenance note (shower). No immediate safety threats identified, but the evidence base is small and includes recent reversal signals, so moderate risk is appropriate.",
+  "executive_summary": "Strength: consistently praised staff and generally positive room and cleanliness feedback. Priorities: (1) clarify breakfast offering vs. local expectations (espresso inclusion/variety); (2) review leisure/outdoor amenity expectations and charges (outdoor pool absence, paid pool table, paid swim cap, sunbeds/heat comfort); (3) correct OTA/website listing inconsistencies (gym listing); (4) inspect/assess bathroom/older fixtures (shower). Recommend targeted short-term operational and policy reviews and medium-term assessment where capital may be implicated. Preserve service strengths and monitor rising share of negative reviews and recent expectation-gap reversal.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report expectation violations around breakfast (espresso not included; limited variety) despite generally positive breakfast remarks.",
+      "recommended_action": "Review breakfast inclusions and communication/presentation. Specifically: (a) confirm whether espresso is included and whether any extra-charge items are clearly described on the website/booking channels; (b) evaluate breakfast variety relative to guest expectations and consider modest operational changes or clearer guest-facing descriptions. Update guest-facing materials to align expectations if offering is unchanged.",
+      "rationale": "Multiple reviews note espresso excluded (explicit expectation in Portugal) and limited variety; this is an expectation violation rather than an overall failure of F&B. Correcting communication or modest operational adjustments can reduce expectation friction and negative mentions.",
+      "supporting_evidence": [
+        "2024-07-13: 'Breakfast does not include espresso coffee... Given that it's a hotel in Portugal, this is not expected'",
+        "2024-07-24: 'breakfast had little variety' (pt review)"
+      ],
+      "positive_counterevidence": [
+        "2024-07-22: 'excellent breakfast' (pt review)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 4,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP recent_reversal (true)",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Leisure / outdoor amenities (pool, gym, game room, green areas)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Guests express mismatched expectations about outdoor leisure amenities (absence of outdoor pool, outdoor gym placement), charges for some leisure features (pool table, swim cap), and discomfort in outdoor areas (too hot on terrace; lack of sunbeds). These are recurring and tied to emerging topics (heat, green areas).",
+      "recommended_action": "Conduct a focused review that includes: (a) audit guest-facing descriptions of leisure amenities and any charges (pool table, swim cap) and align communication with actual offering; (b) collect usage/guest-feedback data on outdoor space comfort (shade, sunbeds) and feasibility study for improving guest comfort in green/terrace areas; (c) evaluate whether charging policies for on-site leisure items are consistent with positioning and guest expectations and consider policy adjustments. If physical additions (e.g., outdoor pool) are considered, commission a capital assessment rather than immediate investment.",
+      "rationale": "Multiple reviews mention absence of an outdoor pool, paid access to game room and swim caps, and outdoor discomfort (heat, no sunbeds). These indicate expectation friction and possible structural/service choices; capital implications cannot be determined from current data, so assessment is required before investment.",
+      "supporting_evidence": [
+        "2024-07-24 (pt): 'hotel has a games room with a pool table for which they charge €5/hour... we had to pay €5 for a cap to use in the pool'",
+        "2024-07-24 (es): 'We missed an outdoor pool. On the terrace it is too hot for the season. And maybe sunbeds for the green areas.'",
+        "2024-07-21 (pt): 'The gym is outdoors and ends up being out of the way.'"
+      ],
+      "positive_counterevidence": [
+        "2024-07-24 (pt): 'the pool is very pleasant' (positive remark about existing pool)",
+        "Managerial evidence: spa and pool positive_mentions = 2"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: heat",
+          "EMERGING_NEGATIVE_TOPIC: green areas",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Booking/Listing accuracy (gym availability)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported that the booking channel/booking description indicated a gym that does not exist, an expectation mismatch that caused disappointment.",
+      "recommended_action": "Verify and, if necessary, correct all OTA/website listings and descriptions for facilities (gym, pool, spa). Establish a brief checklist/process to validate third-party channel content for accuracy. Communicate transparently with guests about amenity locations and accessibility (e.g., whether gym is outdoor/inconvenient).",
+      "rationale": "Single but clear complaint about an advertised gym being absent creates an expectation violation that is easy to address through content correction and process control, reducing negative surprises.",
+      "supporting_evidence": [
+        "2024-07-04 (pt): 'Staff were not very friendly and Booking said there was a gym and there isn't.'"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praising staff and room comfort (reduces overall severity of experience failure)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP recent_reversal (true)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "Bathroom condition / facility age (shower)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "maintenance",
+      "problem": "Isolated comments describe outdated facilities, specifically the shower, suggesting at least localized maintenance or refurbishment may be needed.",
+      "recommended_action": "Perform an inspection of bathroom fixtures and related room inventory to determine scope and budget implications. If multiple rooms show similar aging, develop a phased maintenance/refurbishment plan. Do not authorize capital work without the inspection/assessment.",
+      "rationale": "Evidence is limited to a small number of mentions describing outdated facilities; an inspection will establish whether the issue is isolated or structural and whether capital investment is required.",
+      "supporting_evidence": [
+        "2024-07-24 (es): 'The facilities are a bit outdated, such as the shower.'"
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise room comfort and bed comfort (suggests overall rooms remain acceptable)"
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "AVG_RATING decreasing",
+          "PERC_REVIEWS_NEGATIVE increasing"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.55
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Consistent positive evidence across reviews: 7 positive mentions vs 1 negative; multiple reviews explicitly cite friendly, attentive staff and helpfulness.",
+      "management_implication": "Preserve current service standards and frontline training; ensure that corrective actions in other areas (breakfast, leisure policies) do not negatively affect staff capacity or guest-facing interactions."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews doubled in the window, indicating rising negative sentiment that should be tracked after interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP",
+      "reason": "Recent reversal signal present; track to confirm whether expectation alignment is improving or worsening after communication/policy updates.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EMERGING_NEGATIVE_TOPICS: heat, green areas",
+      "reason": "Multiple reviews referenced outdoor heat and desire for sunbeds; these are new/framing issues affecting outdoor comfort and leisure satisfaction.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "AVG_RATING",
+      "reason": "Small downward trend in average rating; useful to monitor after corrective actions to detect impact on overall satisfaction.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Diagnostic evidence is based on a small sample of substantive complaints (9 selected from 31 reviews). Selected complaints are diagnostic and not statistically representative of all guests.",
+    "Several issues (outdoor pool, gym placement, sunbed/shade improvements) have capital or design implications that cannot be scoped from current reviews; recommend assessment before any capital decisions.",
+    "Some recommendations (e.g., adjusting charging policy for amenities) require commercial judgment and cost analysis not available in the supplied evidence.",
+    "Attribution between review comments and business metrics (REVPAR, ratings) cannot be established from the provided data."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P027",
+    "case_id": "H407_20240722_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:15:36.206601+00:00",
+    "finished_at_utc": "2026-09-08T16:16:12.233236+00:00",
+    "elapsed_seconds": 36.035
+  }
+}

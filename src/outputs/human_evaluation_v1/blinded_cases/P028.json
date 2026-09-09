@@ -1,0 +1,575 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P028",
+  "case_information": {
+    "case_id": "H414_20240513_L4",
+    "decision_week": "2024_W20",
+    "decision_date": "2024-05-13",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 72.21875562213255,
+        "REVPOR_WEEK": 173.71463387835198,
+        "TREVPAR_WEEK": 128.28686771342956,
+        "TAXA_OCUPACAO": 82.27712137486574,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.428571428571429,
+        "SENTIMENT_SCORE_AVG": 0.35,
+        "SENTIMENT_SCORE_STD": 0.6806859285554046,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1666666666666666,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.2333333333333333,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5,
+        "EXPECTATION_SHARE": 0.1428571428571428,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1428571428571428,
+        "PERC_REVIEWS_NEGATIVE": 14.285714285714285,
+        "PERC_OPERATIONAL_COMPLAINTS": 100.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5714285714285714,
+        "COMPLEXITY_INDEX": 1.8758145836939115,
+        "SENTIMENT_TREND_SLOPE": -0.0001234434090964
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 87.19108173892717,
+        "REVPOR_WEEK": 208.99461575115845,
+        "TREVPAR_WEEK": 141.79929979548396,
+        "TAXA_OCUPACAO": 81.47153598281417,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 8.210526315789474,
+        "SENTIMENT_SCORE_AVG": 0.4888888888888889,
+        "SENTIMENT_SCORE_STD": 0.5819030083365364,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1333333333333333,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.15,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.2243944454059863,
+        "EXPECTATION_SHARE": 0.1052631578947368,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0526315789473684,
+        "PERC_REVIEWS_NEGATIVE": 15.789473684210526,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.4210526315789473,
+        "COMPLEXITY_INDEX": 2.349014207595657,
+        "SENTIMENT_TREND_SLOPE": -0.0001234434090964
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 88.66007113293746,
+        "REVPOR_WEEK": 227.78488718320085,
+        "TREVPAR_WEEK": 141.87850379968702,
+        "TAXA_OCUPACAO": 74.16756176154672,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 7.153846153846154,
+        "SENTIMENT_SCORE_AVG": -1.8503717077085938e-17,
+        "SENTIMENT_SCORE_STD": 0.848528137423857,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.5,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.5,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.1538461538461538,
+        "EMOTION_ENTROPY": 1.0,
+        "EXPECTATION_SHARE": 0.1538461538461538,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1538461538461538,
+        "PERC_REVIEWS_NEGATIVE": 23.07692307692308,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5384615384615384,
+        "COMPLEXITY_INDEX": 2.2941771735866165,
+        "SENTIMENT_TREND_SLOPE": -0.0001234434090964
+      },
+      {
+        "WEEK_YEAR": "2024_W20",
+        "week_date": "2024-05-13",
+        "REVPAR_WEEK": 90.9771229500882,
+        "REVPOR_WEEK": 209.390859042884,
+        "TREVPAR_WEEK": 154.32125267924232,
+        "TAXA_OCUPACAO": 86.4124597207304,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.714285714285714,
+        "SENTIMENT_SCORE_AVG": 0.33,
+        "SENTIMENT_SCORE_STD": 0.6111010100175294,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1399999999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.360964047443681,
+        "EXPECTATION_SHARE": 0.2857142857142857,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 71.42857142857143,
+        "PERC_OPERATIONAL_COMPLAINTS": 25.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.4285714285714285,
+        "COMPLEXITY_INDEX": 2.333173081062375,
+        "SENTIMENT_TREND_SLOPE": -0.0001234434090964
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-05-18",
+        "rating": 9.0,
+        "liked": "Nice sized room. Side view of the sea, sun in the evening to sit out. Breakfast was excellent, fruit( pineapple, melon x 2, grapes, banana, kiwi, mango, whole apples,pears), fresh juices, cereals, and a great selection of hot food, coffee, tea etc). 300 m from an unspoiled beach, there are rest rooms at the beach at station 4. Pool area in a very nice setting and garden, loads of beds. Bar open all day. Food and snacks available. Staff are very nice and cordial. There are some bars across the road and nearby. 300m-500m walk to marina depending on way you go. Loads of choice of restaurants in Marina. Light entertainment in bar at night.",
+        "disliked": "Could not complain about anything. Would have enjoyed an omelette chef at breakfast. And a walk in shower for an elderly person with us but she coped well in bath, there could be a safety handle or two in bath as you shower.",
+        "country": "Ireland",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-17",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Mozambique",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-16",
+        "rating": 8.0,
+        "liked": "Perfect location",
+        "disliked": "Bedrooms a little dated.",
+        "country": "Ireland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-15",
+        "rating": 8.0,
+        "liked": "Lovely hotel great pool and outside bar with lots of sun loungers, room was a great size for 3 of us sharing and beautifully cleaned, breakfast had plenty of choice and staff were very helpful. Five minutes walk from the beach and the marina.",
+        "disliked": "Was defiantly a favorite with the golfing crowd which could be off putting for some people and not enough plug sockets in the room.",
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-14",
+        "rating": 8.0,
+        "liked": "Rooms very comfortable. Great location",
+        "disliked": "Sun loungers weren't particularly comfortable. Coffee machine wud often jam leading to long queues for tea/coffee at breakfast",
+        "country": "Ireland",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-13",
+        "rating": 10.0,
+        "liked": "The facilities, cleanliness, comfort, excellent breakfast.",
+        "disliked": "Nothing to say.",
+        "country": "Argentina",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-12",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Norway",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-09",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-09",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-09",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Luxembourg",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-08",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-08",
+        "rating": 5.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-08",
+        "rating": 4.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-07",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ireland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-05-07",
+        "rating": 8.0,
+        "liked": "Good view, good breakfast.",
+        "disliked": "A lot of noise all the time; old infrastructure.",
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-05-07",
+        "rating": 4.0,
+        "liked": "Good room, comfortable bed and everything clean. Excellent location.",
+        "disliked": "Breakfast in which everything without exception is tasteless. And the spa is absolutely ridiculous. We chose this hotel for access to the spa. We arrived and at check-in there was no indication that you actually have to book entry to the spa. We dressed accordingly and met the spa receptionist who gave us that information. We booked for the next day: and imagine, it was empty. Everything was switched off. It was the first time I was in a spa with cold water, the jacuzzi off, a cold pool, the Turkish bath that didn't close, and wind because the roof was open. On top of that, there was no supervision and two people dressed for the gym next door entered the spa unsupervised and got into the water with their gym clothes on. We were there 20 minutes and gave up, we left the torn towels they had given us at reception and left without anyone seeing us because it looked like a haunted spa. But those few minutes were enough for us to catch the flu, which made us ill for the four days following the overnight stay. We did not complain. We only wanted to rest and did not have the energy to think about it. I hope it was a series of mishaps that happened to us, but I do not recommend staying more than one night.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 1.0,
+        "liked": "The beds and the breakfast are very good.",
+        "disliked": "The rooms stink terribly of sewer smell. After much insistence we were offered a second room. This one stank again. I nearly fainted. Then back to reception. After an hour of waiting we were finally offered a good alternative. The hotel did not compensate anything for failing to meet expectations apart from saying sorry, and while we waited no drink was offered.",
+        "country": "Netherlands",
+        "stay_type": "Family"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "overall_risk_rationale": "Several safety- and health-relevant complaints (sewer odour in room; spa cold/unsupervised leading to alleged illness) plus a sharp increase in share of negative reviews (PERC_REVIEWS_NEGATIVE rose from 14% to 71%). Business metrics are healthy, but the frequency/severity of a few issues and emerging negative topics justify elevated attention.",
+    "executive_summary": "Preserve strong location and generally well‑rated breakfast while addressing three safety/health‑relevant operational vulnerabilities (room odour/plumbing and spa operations), plus targeted service and in‑room amenity frictions. Recommend immediate maintenance/inspection for odour/plumbing and an operational audit of the spa; short‑term operational fixes for breakfast coffee machine queues and lobby entertainment scheduling; and a short/medium‑term review of in‑room tech and dated room elements.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room odour / bathroom hygiene (potential plumbing issue)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Reports of a strong sewer smell in rooms and broader guest concern about bathroom hygiene (shower curtains vs screens, accessibility handles). One guest nearly fainted; lengthy wait for an acceptable alternative and limited guest recovery response reported.",
+        "recommended_action": "Immediately inspect and diagnose source(s) of the odour (plumbing, drains, room ventilation). Prioritise rooms with recent complaints for inspection, remedial plumbing/ventilation work, and hygiene improvements (e.g., evaluate shower curtain hygiene and feasibility of screens). Review front‑desk guest‑recovery process for long waits (e.g., interim guest care while resolving room issues). If inspections indicate wider structural/plumbing problems, commission a detailed maintenance assessment.",
+        "rationale": "Sewer odour is a severe health/comfort issue that produced an acute guest incident (attempt to change rooms, near fainting) and represents a safety/guest recovery failing; inspection is required to determine scope and remedy before operational or capital measures are chosen.",
+        "supporting_evidence": [
+          "Complaint (2024-05-06): rooms 'stink terribly of sewer smell', required multiple room moves, long wait at reception with no drink offered.",
+          "Managerial evidence: 'Bathroom condition' area is net_negative (2 negative mentions, 0 positive) and flagged with expectation violation; matched topics include hygiene and accessibility."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 2,
+        "area": "Spa & pool operations, safety and communication",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Guest expectation violations and emerging negative reports about spa availability/condition (requirements to pre‑book not communicated at check‑in), spa facilities not operating as expected (cold pool, jacuzzi off, wind from open roof), and lack of supervision leading to hygiene/safety concerns. One guest attributes subsequent illness to the spa experience.",
+        "recommended_action": "Immediately audit spa operational status (heating/system function, jacuzzi, Turkish bath) and spa supervision procedures. Update check‑in script and reservation/booking communications so spa booking requirements/availability are clearly communicated at arrival and on booking channels. If mechanical/operational failures are found, prioritise repair and then re‑communicate availability to guests. If supervision or safety gaps exist, deploy staff cover until resolved.",
+        "rationale": "Complaints describe functional failures of spa facilities and lack of supervision; these are health/safety‑relevant and also an expectation‑driven reason guests select the hotel. Clear communication and ensuring safe, functioning facilities can mitigate guest harm and expectation violations.",
+        "supporting_evidence": [
+          "Complaint (2024-05-07): guest chose hotel for the spa, found no prior communication about booking requirement, spa was cold, jacuzzi off, Turkish bath open, no supervision; guest reports becoming ill afterwards.",
+          "Managerial evidence: 'Spa and pool' flagged as positive_with_friction and emerging_negative; matched topics include spa booking communication and spa operational condition/supervision."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast service (coffee machine jams, queues, and some taste complaints)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Overall breakfast is a strength but specific frictions: coffee machine jamming produces queues; at least one guest described food as tasteless; some guests request live egg/omelette station which is absent.",
+        "recommended_action": "Conduct a short‑term operational review of breakfast service: check and maintain coffee machines (reduce jams), monitor queue formation and staffing allocation at peak times, and review hot food taste/variety with F&B leads. Consider piloting a live egg/omelette option only if broader demand is confirmed by additional feedback (do not implement solely from a single suggestion).",
+        "rationale": "Breakfast receives many positive mentions (variety and quality) but recurring operational frictions (coffee machine jams, queues, isolated tasteless comments) are emerging and affect guest experience; operational fixes can preserve the underlying strength.",
+        "supporting_evidence": [
+          "Managerial evidence: Breakfast = positive_with_friction (12 mentions; 10 positive, 3 negative), matched topics include coffee machine and omelette chef.",
+          "Complaint (2024-05-14): 'Coffee machine wud often jam leading to long queues for tea/coffee at breakfast'.",
+          "Complaint (2024-05-07): 'Breakfast ... tasteless.'",
+          "Complaint (2024-05-18): guest requested an omelette chef at breakfast."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 4,
+        "area": "Lobby noise / entertainment scheduling and check‑in process",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Live performances or entertainment near reception have interfered with check‑in communication and created noise complaints; there are also reports of slow or poorly communicated check‑in times leading to guest waiting.",
+        "recommended_action": "Review entertainment scheduling and location relative to reception (consider relocating or rescheduling performances) and update front‑desk procedures to ensure clear, accurate check‑in timing is communicated at arrival. Train reception staff to proactively offer interim guest care when rooms are delayed (e.g., clear wait time communication, offerings while waiting).",
+        "rationale": "Multiple guests described inability to hear reception due to performances and unnecessary waiting for promised early check‑in; these are service/process issues that can be corrected without capital spend and preserve the hotel's positive staff reputation.",
+        "supporting_evidence": [
+          "Complaint (2024-05-02): arrival hall had a singer and people dancing, making it hard to hear the receptionist.",
+          "Complaint (2024-04-26): guest told room nearly ready, waited unnecessarily and later told standard 2:00 PM check‑in.",
+          "Managerial evidence: 'Staff and service' and 'Room comfort' mention holding live performances away from reception / reduce lobby noise during check‑in."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.65
+      },
+      {
+        "rank": 5,
+        "area": "Room comfort & in‑room amenities (Wi‑Fi, plug sockets, decor, in‑room coffee)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Isolated but repeated mentions of weak internet connection, insufficient plug sockets, dated room decor, and at least one in‑room coffee machine complaint. Some of these are operational fixes; others may require capital assessment to address at scale.",
+        "recommended_action": "Short‑term: run a focused operational check of Wi‑Fi coverage/performance and investigate availability of additional portable charging solutions or power strips where safe and allowed. Verify in‑room coffee machine reliability. Medium‑term: commission an assessment of room refurbishment priorities (decor, socket availability) to determine scope and cost before capital decisions.",
+        "rationale": "Complaints are recurrent but lower frequency and vary in severity. Wi‑Fi and sockets can often be addressed operationally; decor/sockets may need a measured capital plan following an assessment rather than immediate investment.",
+        "supporting_evidence": [
+          "Complaint (2024-05-04): 'internet connection wasn't strong'.",
+          "Complaint (2024-05-15): 'not enough plug sockets in the room.'",
+          "Managerial evidence: 'Room comfort' and 'In-room amenities' show mixed and emerging_negative signals (dated rooms, coffee machine)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.55
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Multiple reviews emphasise excellent location, proximity to beach and marina, and accessibility; managerial evidence shows 7 positive mentions and no negatives.",
+        "management_implication": "Retain and highlight location in marketing and maintain nearby guest services; preserve accessibility features and evaluate requests for additional elderly supports (e.g., safety handles) via assessment."
+      },
+      {
+        "area": "Breakfast (overall quality and variety)",
+        "reason": "Despite some operational friction, breakfast received many positive mentions (10 positive vs 3 negative) and is cited as an excellence point in multiple reviews.",
+        "management_implication": "Protect the underlying breakfast offering while addressing operational frictions (coffee machine, staffing, variety/taste concerns identified in priorities)."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Share of negative reviews (PERC_REVIEWS_NEGATIVE)",
+        "reason": "Has risen sharply over the window and flags overall sentiment movement.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "Number of room odour/plumbing complaints logged per week",
+        "reason": "Direct measure of recurrence/severity of odour incidents and potential spread beyond isolated rooms.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      },
+      {
+        "indicator": "Spa operational complaints (availability/function/supervision) and spa booking-related enquiries at check‑in",
+        "reason": "Tracks whether operational and communication fixes reduce spa expectation violations.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Breakfast coffee‑queue length / coffee‑machine fault reports",
+        "reason": "Operational proxy for coffee machine jams and breakfast wait friction.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "Wi‑Fi/in‑room amenities complaints (internet strength, plug sockets)",
+        "reason": "Tracks guest technology satisfaction and scope for remedial action or refurbishment.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic examples and not statistically representative of all reviews; prevalence should be assessed using the full review set.",
+      "Complaint evidence cannot determine technical scope or cost for capital works (e.g., plumbing remediation or room refurbishment); where scope is unknown an assessment is recommended before capital expenditure.",
+      "Attribution of a guest's subsequent illness to spa conditions is a single report and cannot establish causality; however, it does increase urgency for safety checks.",
+      "Some recommendations (e.g., adding sockets or room refurbishment) may require technical and financial analysis not available in the supplied evidence."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "critical",
+    "overall_risk_rationale": "Multiple recent guest reports describe potentially serious health and safety issues (strong sewer smell in rooms; spa facility cold/off, unsupervised, poor hygiene) together with repeated operational failings. These incidents could cause guest illness, reputational damage and liability if not addressed immediately.",
+    "executive_summary": "Recent reviews are mostly positive about location, breakfast, pool and staff but include several high-severity operational failures: persistent sewer odour in rooms (one guest required multiple room moves), and multiple serious spa failures (cold/jacuzzi off, open roof, no supervision, confusion about booking) with a guest reporting subsequent illness. Other recurring service issues: breakfast coffee machine jamming/queues, dated rooms/lack of sockets and some uncomfortable sun-loungers, plus accessibility improvements requested. Priorities: investigate and remediate the sewer odour, perform an immediate spa operational and safety audit and close/repair if needed, improve breakfast beverage capacity and flow, address bathroom/accessibility safety features for elderly guests, and plan maintenance/refurbishment for dated rooms and guest amenities.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room sewer odour / HVAC & plumbing",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests reported rooms that 'stink terribly of sewer smell', requiring multiple room moves and causing severe discomfort.",
+        "recommended_action": "Immediately log and escalate to engineering/plumbing contractor to inspect affected rooms and building waste/vent stacks and HVAC for cross-contamination. Identify and remediate source (plumbing traps, drains, sewer venting, HVAC duct contamination). Offer affected guests immediate room changes, complimentary refreshment and compensation per policy while investigating. Record room numbers and times of complaints for targeted inspection.",
+        "rationale": "Sewer odour indicates a sanitation/plumbing problem that degrades guest experience and may pose health risks; one guest nearly fainted and required room changes—this is an urgent operational and reputational issue.",
+        "supporting_evidence": [
+          "Review (2024-05-06, rating 1): 'The rooms stink terribly of sewer smell. After much insistence we were offered a second room. This one stank again... After an hour of waiting we were finally offered a good alternative.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.92
+      },
+      {
+        "rank": 2,
+        "area": "Spa operations, maintenance and guest safety",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Guest reports indicate the spa was non-functional (cold water, jacuzzi off, Turkish bath issues, open roof), unsupervised and poorly signposted (guests unaware they must book), with a guest claiming they became ill after use.",
+        "recommended_action": "Immediately audit spa plant, water temperatures, chemical dosing, filtration and HVAC; suspend guest access if equipment/conditions are unsafe. Ensure spa staff/supervision and clear booking procedure communicated at check-in and visible signage. Replace/repair faulty equipment (jacuzzi, heating), ensure towels/supplies are adequate, retrain staff on guest flow and hygiene checks, and log incidents/guest complaints for follow-up and possible compensation.",
+        "rationale": "Spa defects and lack of supervision present direct health and safety hazards and have produced a detailed complaint alleging subsequent illness; operational closure and technical inspection are warranted until safe operation is confirmed.",
+        "supporting_evidence": [
+          "Review (2024-05-07, rating 4): '...it was empty. Everything was switched off. It was the first time I was in a spa with cold water, the jacuzzi off, a cold pool, the Turkish bath that didn't close, and wind because the roof was open. On top of that, there was no supervision... We were there 20 minutes and gave up... But those few minutes were enough for us to catch the flu.'",
+          "Review (2024-05-07, rating 4): '...at check-in there was no indication that you actually have to book entry to the spa.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.95
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast beverage flow & equipment reliability",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Breakfast service is praised overall but guests report the coffee machine often jams, causing long queues; one guest suggested desire for an omelette chef and another complained of tasteless items.",
+        "recommended_action": "Inspect and service or replace malfunctioning coffee machine(s); add an additional coffee/tea station or deploy staff to operate espresso machine during peak breakfast times to avoid jams and queues. Consider adding a live egg station/omelette chef on busy days and review menu items flagged as 'tasteless' with F&B manager to ensure consistent food quality and taste.",
+        "rationale": "Breakfast quality is a key differentiator; equipment failures create negative impressions even when overall breakfast selection is good. Fixing beverage bottlenecks will protect a recognized hotel strength.",
+        "supporting_evidence": [
+          "Review (2024-05-14, rating 8): 'Coffee machine wud often jam leading to long queues for tea/coffee at breakfast'",
+          "Review (2024-05-07, rating 4): 'Breakfast in which everything without exception is tasteless.'",
+          "Review (2024-05-18, rating 9): 'Breakfast was excellent... fresh juices... a great selection of hot food.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.78
+      },
+      {
+        "rank": 4,
+        "area": "Accessibility and bathroom safety for elderly/less mobile guests",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest cited difficulty for an elderly companion due to baths rather than walk-in showers and suggested safety handles in the bath.",
+        "recommended_action": "Audit rooms to identify those with walk-in showers and those with baths; offer accessible rooms proactively at booking and at check-in. Install grab bars/handrails in baths where feasible and provide non-slip mats and portable shower seats as interim measures. Update booking information to clearly describe bathroom types and accessibility features.",
+        "rationale": "Improving accessibility reduces guest safety risk, meets expectations for family/older guests, and prevents falls or injuries.",
+        "supporting_evidence": [
+          "Review (2024-05-18, rating 9): '...a walk in shower for an elderly person with us but she coped well in bath, there could be a safety handle or two in bath as you shower.'"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 5,
+        "area": "Room condition, sockets and outdoor furniture comfort (sun-loungers)",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Several guests mention 'bedrooms a little dated', not enough plug sockets, and sun loungers that are not comfortable.",
+        "recommended_action": "Compile an inventory of room condition issues (furniture, sockets, decor) and guest amenity comfort items (sun-loungers). Prioritise low-cost fixes (additional multi-socket outlets, replace worn loungers) and schedule a capital plan for phased room refurbishments where décor or infrastructure is dated. Communicate planned improvements to staff and through marketing as upgrades are completed.",
+        "rationale": "Addressing dated appearance and amenity shortfalls will support guest satisfaction and reduce minor complaints; some fixes are low-cost and quick to implement while larger refurbishments can be planned.",
+        "supporting_evidence": [
+          "Review (2024-05-16, rating 8): 'Bedrooms a little dated.'",
+          "Review (2024-05-15, rating 8): '...not enough plug sockets in the room.'",
+          "Review (2024-05-14, rating 8): 'Sun loungers weren't particularly comfortable.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.68
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Breakfast & F&B selection",
+        "reason": "Multiple guests praised the 'excellent' breakfast, abundant fruit, fresh juices and wide hot selection.",
+        "management_implication": "Protect staffing levels and supply for breakfast and maintain variety and freshness while resolving isolated quality/equipment issues."
+      },
+      {
+        "area": "Pool area and outdoor setting",
+        "reason": "Several reviews highlight a very nice pool area, garden, many beds and an outside bar — a clear guest draw.",
+        "management_implication": "Maintain pool landscaping, sun-lounger availability (while improving comfort), and poolside service levels."
+      },
+      {
+        "area": "Location and accessibility to beach/marina",
+        "reason": "Guests repeatedly cite 'perfect/great location' and short walk to beach and marina as strengths.",
+        "management_implication": "Use location in marketing and ensure front-desk staff emphasise local access at check-in."
+      },
+      {
+        "area": "Staff cordiality and room cleanliness",
+        "reason": "Guests report staff are 'very nice and cordial' and rooms are 'beautifully cleaned' in multiple reviews.",
+        "management_implication": "Preserve service culture through training and recognition programs; ensure housekeeping standards remain consistent as operational fixes proceed."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Number of new reviews mentioning 'sewer', 'smell', 'odour' per week",
+        "reason": "Direct indicator of whether the plumbing/HVAC remediation is resolving the odour issue.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of spa-related complaints (functionality, hygiene, booking/confusion) per week",
+        "reason": "Tracks effectiveness of spa repairs, supervision and communication changes.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Average wait time/queue length for coffee at breakfast and equipment downtime incidents",
+        "reason": "Measures improvement after servicing/replacing coffee machines and operational adjustments.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Incidents requiring medical attention or guest-reported illness linked to hotel facilities",
+        "reason": "Safety indicator to detect ongoing health risks (related to spa or other facilities).",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Guest satisfaction for 'rooms / condition' and 'value' sub-scores in post-stay surveys",
+        "reason": "Monitors the impact of maintenance and refurbishment activities on perceived room quality.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Only 20 of 46 available reviews were provided to the model; findings are based on these most recent reviews and may not represent entire guest sentiment in the period.",
+      "Reviews are qualitative and may reflect isolated incidents; while descriptions suggest serious failures (sewer smell, spa), technical inspections are required to confirm causes and extent.",
+      "Cannot infer causality between guest reviews and the hotel's observed revenue or occupancy trends; financial metrics show positive short-term movement but should not be attributed to review content."
+    ]
+  }
+}

@@ -1,0 +1,1360 @@
+{
+  "case_metadata": {
+    "case_id": "H51_20240129_L4",
+    "hotel_id": 51,
+    "decision_week": "2024_W05",
+    "decision_date": "2024-01-29",
+    "window_start": "2024-01-08",
+    "window_end": "2024-02-04",
+    "lookback_weeks_requested": 4,
+    "panel_weeks_available": 4,
+    "complete_window": true
+  },
+  "hotel_profile": {
+    "ID_HOTEL": 51,
+    "NAME": "White W Lisboa",
+    "NOME_HOTEL_URL": "white-lisboa",
+    "ID_LOCAL": "Lisboa",
+    "N_ROOMS": 44,
+    "STARS": 3.0,
+    "PRINCIPAIS_COMODIDADES": "Piscina exterior, Estacionamento, Acesso Wi-Fi gratuito, Quartos para não fumadores, Receção disponível 24 horas, Comodidades para pessoas com mobilidade condicionada, Terraço, Elevador, Comodidades para fazer chá e café em todos os quartos, Bom pequeno-almoço"
+  },
+  "latest_context": {
+    "dominant_emotion": "joy",
+    "dominant_expectation_experience_label": "experience_only",
+    "season": "Low",
+    "priority_alert_flag": 1.0,
+    "emerging_negative_topic": [
+      "food variety"
+    ]
+  },
+  "metric_definitions": {
+    "REVPAR_WEEK": {
+      "label": "Weekly RevPAR",
+      "meaning": "Weekly revenue per available room.",
+      "higher_is_generally_better": true
+    },
+    "REVPOR_WEEK": {
+      "label": "Weekly RevPOR",
+      "meaning": "Weekly revenue per occupied room.",
+      "higher_is_generally_better": true
+    },
+    "TREVPAR_WEEK": {
+      "label": "Weekly TRevPAR",
+      "meaning": "Weekly total revenue per available room.",
+      "higher_is_generally_better": true
+    },
+    "TAXA_OCUPACAO": {
+      "label": "Occupancy rate",
+      "meaning": "Percentage of available room capacity occupied.",
+      "higher_is_generally_better": true
+    },
+    "N_REVIEWS": {
+      "label": "Number of reviews",
+      "meaning": "Number of reviews associated with the hotel-week.",
+      "higher_is_generally_better": null
+    },
+    "AVG_RATING": {
+      "label": "Average rating",
+      "meaning": "Average numerical review rating.",
+      "higher_is_generally_better": true
+    },
+    "SENTIMENT_SCORE_AVG": {
+      "label": "Average sentiment",
+      "meaning": "Average sentiment score extracted from review text.",
+      "higher_is_generally_better": true
+    },
+    "SENTIMENT_SCORE_STD": {
+      "label": "Sentiment dispersion",
+      "meaning": "Dispersion of sentiment across reviews.",
+      "higher_is_generally_better": null
+    },
+    "EXPECTATION_EXPERIENCE_GAP_AVG": {
+      "label": "Expectation–experience gap",
+      "meaning": "Average discrepancy between expressed expectations and reported experience.",
+      "higher_is_generally_better": false
+    },
+    "SEMANTIC_MISALIGNMENT_SCORE_AVG": {
+      "label": "Semantic misalignment",
+      "meaning": "Average semantic divergence between expectations and reported experience.",
+      "higher_is_generally_better": false
+    },
+    "EXPECTATION_VIOLATION_RATIO": {
+      "label": "Expectation violation ratio",
+      "meaning": "Share or ratio of expectation-related observations classified as violated.",
+      "higher_is_generally_better": false
+    },
+    "MAJOR_MISALIGNMENT_SHARE": {
+      "label": "Major misalignment share",
+      "meaning": "Share of reviews or review structures showing major expectation–experience misalignment.",
+      "higher_is_generally_better": false
+    },
+    "EMOTION_ENTROPY": {
+      "label": "Emotional complexity",
+      "meaning": "Entropy-based heterogeneity of emotions expressed across reviews.",
+      "higher_is_generally_better": null
+    },
+    "EXPECTATION_SHARE": {
+      "label": "Expectation share",
+      "meaning": "Share of reviews containing identifiable expectations.",
+      "higher_is_generally_better": null
+    },
+    "HIGH_EXPECTATION_SHARE": {
+      "label": "High-expectation share",
+      "meaning": "Share of reviews containing high-intensity expectations.",
+      "higher_is_generally_better": null
+    },
+    "HIGH_MISALIGNMENT_SHARE": {
+      "label": "High-misalignment share",
+      "meaning": "Share of observations with high semantic misalignment.",
+      "higher_is_generally_better": false
+    },
+    "PERC_REVIEWS_NEGATIVE": {
+      "label": "Reviews containing negative/disliked content",
+      "meaning": "Percentage of reviews containing a negative or disliked text component. It does not mean that the full review or numerical rating is negative.",
+      "higher_is_generally_better": false,
+      "critical_interpretation_warning": "Do not interpret this variable as the percentage of guests giving a negative overall evaluation."
+    },
+    "PERC_OPERATIONAL_COMPLAINTS": {
+      "label": "Operational complaint share",
+      "meaning": "Percentage of complaint content associated with operational or service-delivery issues.",
+      "higher_is_generally_better": false
+    },
+    "PERC_PRICE_VALUE_MENTIONS": {
+      "label": "Price–value mention share",
+      "meaning": "Percentage of review content mentioning price or perceived value.",
+      "higher_is_generally_better": null
+    },
+    "POLARIZATION_INDEX": {
+      "label": "Review polarization",
+      "meaning": "Degree to which review experiences are divided or polarized.",
+      "higher_is_generally_better": false
+    },
+    "COMPLEXITY_INDEX": {
+      "label": "Experience complexity index",
+      "meaning": "Composite indicator of heterogeneous and layered customer experience signals.",
+      "higher_is_generally_better": null
+    },
+    "SENTIMENT_TREND_SLOPE": {
+      "label": "Precomputed sentiment trend slope",
+      "meaning": "Trend slope calculated previously in the source panel. Do not confuse it with the case-window trend recalculated by the Case Builder.",
+      "higher_is_generally_better": null
+    }
+  },
+  "weekly_history": [
+    {
+      "WEEK_YEAR": "2024_W02",
+      "week_date": "2024-01-08",
+      "REVPAR_WEEK": 34.43593966329966,
+      "REVPOR_WEEK": 154.62446666666668,
+      "TREVPAR_WEEK": 38.471787727272726,
+      "TAXA_OCUPACAO": 43.83116883116883,
+      "N_REVIEWS": 12.0,
+      "AVG_RATING": 9.0,
+      "SENTIMENT_SCORE_AVG": 0.325,
+      "SENTIMENT_SCORE_STD": 0.5940997773560813,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0499999999999999,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0499999999999999,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 1.5,
+      "EXPECTATION_SHARE": 0.0833333333333333,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.0,
+      "PERC_REVIEWS_NEGATIVE": 41.66666666666667,
+      "PERC_OPERATIONAL_COMPLAINTS": 66.66666666666666,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.8333333333333334,
+      "COMPLEXITY_INDEX": 2.336485897777674,
+      "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+    },
+    {
+      "WEEK_YEAR": "2024_W03",
+      "week_date": "2024-01-15",
+      "REVPAR_WEEK": 31.53634980769231,
+      "REVPOR_WEEK": 148.9953676923077,
+      "TREVPAR_WEEK": 35.14506347902099,
+      "TAXA_OCUPACAO": 42.2077922077922,
+      "N_REVIEWS": 9.0,
+      "AVG_RATING": 8.88888888888889,
+      "SENTIMENT_SCORE_AVG": 0.4769230769230769,
+      "SENTIMENT_SCORE_STD": 0.6326582096649107,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0857142857142857,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1142857142857143,
+      "EXPECTATION_VIOLATION_RATIO": 0.6666666666666666,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 0.8904916402194913,
+      "EXPECTATION_SHARE": 0.3333333333333333,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.1111111111111111,
+      "PERC_REVIEWS_NEGATIVE": 66.66666666666666,
+      "PERC_OPERATIONAL_COMPLAINTS": 50.0,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.6666666666666666,
+      "COMPLEXITY_INDEX": 2.0886425638102373,
+      "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+    },
+    {
+      "WEEK_YEAR": "2024_W04",
+      "week_date": "2024-01-22",
+      "REVPAR_WEEK": 52.82006447302698,
+      "REVPOR_WEEK": 167.99843516483517,
+      "TREVPAR_WEEK": 59.10109615384617,
+      "TAXA_OCUPACAO": 59.09090909090909,
+      "N_REVIEWS": 10.0,
+      "AVG_RATING": 9.1,
+      "SENTIMENT_SCORE_AVG": 0.4666666666666666,
+      "SENTIMENT_SCORE_STD": 0.6282250127674532,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+      "EXPECTATION_VIOLATION_RATIO": null,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 1.2516291673878228,
+      "EXPECTATION_SHARE": 0.0,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.0,
+      "PERC_REVIEWS_NEGATIVE": 10.0,
+      "PERC_OPERATIONAL_COMPLAINTS": null,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.7,
+      "COMPLEXITY_INDEX": 2.2382550585990675,
+      "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+    },
+    {
+      "WEEK_YEAR": "2024_W05",
+      "week_date": "2024-01-29",
+      "REVPAR_WEEK": 44.22993358722359,
+      "REVPOR_WEEK": 142.1747967567568,
+      "TREVPAR_WEEK": 49.69595620393122,
+      "TAXA_OCUPACAO": 60.06493506493506,
+      "N_REVIEWS": 8.0,
+      "AVG_RATING": 9.0,
+      "SENTIMENT_SCORE_AVG": 0.4571428571428572,
+      "SENTIMENT_SCORE_STD": 0.6294366339755545,
+      "EXPECTATION_EXPERIENCE_GAP_AVG": 0.12,
+      "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1399999999999999,
+      "EXPECTATION_VIOLATION_RATIO": 1.0,
+      "MAJOR_MISALIGNMENT_SHARE": 0.0,
+      "EMOTION_ENTROPY": 0.8631205685666311,
+      "EXPECTATION_SHARE": 0.125,
+      "HIGH_EXPECTATION_SHARE": 0.0,
+      "HIGH_MISALIGNMENT_SHARE": 0.125,
+      "PERC_REVIEWS_NEGATIVE": 25.0,
+      "PERC_OPERATIONAL_COMPLAINTS": 100.0,
+      "PERC_PRICE_VALUE_MENTIONS": 0.0,
+      "POLARIZATION_INDEX": 0.625,
+      "COMPLEXITY_INDEX": 2.151415609358996,
+      "SENTIMENT_TREND_SLOPE": 0.0005581445793523
+    }
+  ],
+  "trends": {
+    "REVPAR_WEEK": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 34.43593966329966,
+      "last_value": 44.22993358722359,
+      "minimum_value": 31.53634980769231,
+      "maximum_value": 52.82006447302698,
+      "absolute_change": 9.793993923923928,
+      "percentage_change": 28.44119840981701,
+      "slope": 5.066569643710642,
+      "standardized_slope": 0.6028267714876511,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -8.59013088580339,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "REVPOR_WEEK": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 154.62446666666668,
+      "last_value": 142.1747967567568,
+      "minimum_value": 142.1747967567568,
+      "maximum_value": 167.99843516483517,
+      "absolute_change": -12.449669909909886,
+      "percentage_change": -8.051552369618447,
+      "slope": -1.8345942257202483,
+      "standardized_slope": -0.1933804493933184,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -25.82363840807838,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "TREVPAR_WEEK": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 38.471787727272726,
+      "last_value": 49.69595620393122,
+      "minimum_value": 35.14506347902099,
+      "maximum_value": 59.10109615384617,
+      "absolute_change": 11.224168476658491,
+      "percentage_change": 29.175063441883296,
+      "slope": 5.7628538104800615,
+      "standardized_slope": 0.6081566311347419,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -9.405139949914954,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "TAXA_OCUPACAO": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 43.83116883116883,
+      "last_value": 60.06493506493506,
+      "minimum_value": 42.2077922077922,
+      "maximum_value": 60.06493506493506,
+      "absolute_change": 16.233766233766225,
+      "percentage_change": 37.03703703703702,
+      "slope": 6.5584415584415465,
+      "standardized_slope": 0.789580736044044,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.9740259740259631,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "N_REVIEWS": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 12.0,
+      "last_value": 8.0,
+      "minimum_value": 8.0,
+      "maximum_value": 12.0,
+      "absolute_change": -4.0,
+      "percentage_change": -33.33333333333333,
+      "slope": -1.1000000000000032,
+      "standardized_slope": -0.7437357441610968,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -2.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "AVG_RATING": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 9.0,
+      "last_value": 9.0,
+      "minimum_value": 8.88888888888889,
+      "maximum_value": 9.1,
+      "absolute_change": 0.0,
+      "percentage_change": 0.0,
+      "slope": 0.02111111111110846,
+      "standardized_slope": 0.2826470412560942,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.09999999999999964,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "SENTIMENT_SCORE_AVG": {
+      "direction": "increasing",
+      "trend_strength": "weak",
+      "first_value": 0.325,
+      "last_value": 0.4571428571428572,
+      "minimum_value": 0.325,
+      "maximum_value": 0.4769230769230769,
+      "absolute_change": 0.13214285714285717,
+      "percentage_change": 40.659340659340664,
+      "slope": 0.0386172161172161,
+      "standardized_slope": 0.6244087103948108,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.009523809523809434,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "SENTIMENT_SCORE_STD": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 0.5940997773560813,
+      "last_value": 0.6294366339755545,
+      "minimum_value": 0.5940997773560813,
+      "maximum_value": 0.6326582096649107,
+      "absolute_change": 0.03533685661947317,
+      "percentage_change": 5.94796664909261,
+      "slope": 0.010157737296096094,
+      "standardized_slope": 0.648006053622579,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.0012116212081012545,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EXPECTATION_EXPERIENCE_GAP_AVG": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 0.0499999999999999,
+      "last_value": 0.12,
+      "minimum_value": 0.0,
+      "maximum_value": 0.12,
+      "absolute_change": 0.07000000000000009,
+      "percentage_change": 140.00000000000045,
+      "slope": 0.012428571428571452,
+      "standardized_slope": 0.2796737380032938,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.12,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "SEMANTIC_MISALIGNMENT_SCORE_AVG": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 0.0499999999999999,
+      "last_value": 0.1399999999999999,
+      "minimum_value": 0.0,
+      "maximum_value": 0.1399999999999999,
+      "absolute_change": 0.09,
+      "percentage_change": 180.00000000000037,
+      "slope": 0.015571428571428552,
+      "standardized_slope": 0.2841310507242135,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.1399999999999999,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EXPECTATION_VIOLATION_RATIO": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 1.0,
+      "last_value": 1.0,
+      "minimum_value": 0.6666666666666666,
+      "maximum_value": 1.0,
+      "absolute_change": 0.0,
+      "percentage_change": 0.0,
+      "slope": -6.501347444161296e-18,
+      "standardized_slope": -4.137432178154653e-17,
+      "direction_consistency": 0.5,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.33333333333333337,
+      "recent_reversal": false,
+      "n_observations": 3
+    },
+    "MAJOR_MISALIGNMENT_SHARE": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 0.0,
+      "last_value": 0.0,
+      "minimum_value": 0.0,
+      "maximum_value": 0.0,
+      "absolute_change": 0.0,
+      "percentage_change": null,
+      "slope": 0.0,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EMOTION_ENTROPY": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 1.5,
+      "last_value": 0.8631205685666311,
+      "minimum_value": 0.8631205685666311,
+      "maximum_value": 1.5,
+      "absolute_change": -0.6368794314333689,
+      "percentage_change": -42.45862876222459,
+      "slope": -0.15495007671317784,
+      "standardized_slope": -0.5854178513970801,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.3885085988211917,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "EXPECTATION_SHARE": {
+      "direction": "fluctuating",
+      "trend_strength": "fluctuating",
+      "first_value": 0.0833333333333333,
+      "last_value": 0.125,
+      "minimum_value": 0.0,
+      "maximum_value": 0.3333333333333333,
+      "absolute_change": 0.0416666666666667,
+      "percentage_change": 50.00000000000006,
+      "slope": -0.020833333333333367,
+      "standardized_slope": -0.16963778593599446,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.125,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "HIGH_EXPECTATION_SHARE": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 0.0,
+      "last_value": 0.0,
+      "minimum_value": 0.0,
+      "maximum_value": 0.0,
+      "absolute_change": 0.0,
+      "percentage_change": null,
+      "slope": 0.0,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "HIGH_MISALIGNMENT_SHARE": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 0.0,
+      "last_value": 0.125,
+      "minimum_value": 0.0,
+      "maximum_value": 0.125,
+      "absolute_change": 0.125,
+      "percentage_change": null,
+      "slope": 0.026388888888888892,
+      "standardized_slope": 0.4455198901380174,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_absolute_change": 0.125,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "PERC_REVIEWS_NEGATIVE": {
+      "direction": "decreasing",
+      "trend_strength": "weak",
+      "first_value": 41.66666666666667,
+      "last_value": 25.0,
+      "minimum_value": 10.0,
+      "maximum_value": 66.66666666666666,
+      "absolute_change": -16.66666666666667,
+      "percentage_change": -40.00000000000001,
+      "slope": -10.666666666666679,
+      "standardized_slope": -0.5071544651202101,
+      "direction_consistency": 0.3333333333333333,
+      "recent_movement": "up",
+      "recent_absolute_change": 15.0,
+      "recent_reversal": true,
+      "n_observations": 4
+    },
+    "PERC_OPERATIONAL_COMPLAINTS": {
+      "direction": "increasing",
+      "trend_strength": "moderate",
+      "first_value": 66.66666666666666,
+      "last_value": 100.0,
+      "minimum_value": 50.0,
+      "maximum_value": 100.0,
+      "absolute_change": 33.33333333333334,
+      "percentage_change": 50.00000000000002,
+      "slope": 16.66666666666666,
+      "standardized_slope": 0.8017837257372727,
+      "direction_consistency": 0.5,
+      "recent_movement": "up",
+      "recent_absolute_change": 50.0,
+      "recent_reversal": false,
+      "n_observations": 3
+    },
+    "PERC_PRICE_VALUE_MENTIONS": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 0.0,
+      "last_value": 0.0,
+      "minimum_value": 0.0,
+      "maximum_value": 0.0,
+      "absolute_change": 0.0,
+      "percentage_change": null,
+      "slope": 0.0,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "POLARIZATION_INDEX": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 0.8333333333333334,
+      "last_value": 0.625,
+      "minimum_value": 0.625,
+      "maximum_value": 0.8333333333333334,
+      "absolute_change": -0.20833333333333337,
+      "percentage_change": -25.000000000000007,
+      "slope": -0.05916666666666679,
+      "standardized_slope": -0.7582099939120703,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.07499999999999996,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "COMPLEXITY_INDEX": {
+      "direction": "decreasing",
+      "trend_strength": "moderate",
+      "first_value": 2.336485897777674,
+      "last_value": 2.151415609358996,
+      "minimum_value": 2.0886425638102373,
+      "maximum_value": 2.336485897777674,
+      "absolute_change": -0.18507028841867834,
+      "percentage_change": -7.9208818933898195,
+      "slope": -0.040559837046721066,
+      "standardized_slope": -0.43485948169668526,
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "down",
+      "recent_absolute_change": -0.0868394492400717,
+      "recent_reversal": false,
+      "n_observations": 4
+    },
+    "SENTIMENT_TREND_SLOPE": {
+      "direction": "stable",
+      "trend_strength": "stable",
+      "first_value": 0.0005581445793523,
+      "last_value": 0.0005581445793523,
+      "minimum_value": 0.0005581445793523,
+      "maximum_value": 0.0005581445793523,
+      "absolute_change": 0.0,
+      "percentage_change": 0.0,
+      "slope": -9.736621597274191e-20,
+      "standardized_slope": 0.0,
+      "direction_consistency": 1.0,
+      "recent_movement": "flat",
+      "recent_absolute_change": 0.0,
+      "recent_reversal": false,
+      "n_observations": 4
+    }
+  },
+  "topic_summary": {
+    "raw_weekly_topics": {
+      "EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "breakfast variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "overall expectations",
+          "weeks_present": 1
+        },
+        {
+          "topic": "proximity to train station / easier access to transport for coastal travel",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room decor whiteness (whiter room)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room type honored (twin beds as booked)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "staff assistance to resolve bed configuration",
+          "weeks_present": 1
+        }
+      ],
+      "EXPERIENCE_TOPICS_UNIQUE": [
+        {
+          "topic": "breakfast quality",
+          "weeks_present": 4
+        },
+        {
+          "topic": "cleanliness",
+          "weeks_present": 4
+        },
+        {
+          "topic": "location",
+          "weeks_present": 3
+        },
+        {
+          "topic": "room cleanliness",
+          "weeks_present": 3
+        },
+        {
+          "topic": "staff attentiveness",
+          "weeks_present": 3
+        },
+        {
+          "topic": "bed comfort",
+          "weeks_present": 2
+        },
+        {
+          "topic": "breakfast variety",
+          "weeks_present": 2
+        },
+        {
+          "topic": "staff friendliness",
+          "weeks_present": 2
+        },
+        {
+          "topic": "access to two metro lines",
+          "weeks_present": 1
+        },
+        {
+          "topic": "accommodations",
+          "weeks_present": 1
+        }
+      ],
+      "VIOLATED_EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "breakfast variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "proximity to train station / easier access to transport for coastal travel",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room decor whiteness (whiter room)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room type honored (twin beds as booked)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "staff assistance to resolve bed configuration",
+          "weeks_present": 1
+        }
+      ],
+      "LATENT_EXPECTATION_TOPICS_UNIQUE": [
+        {
+          "topic": "breakfast variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "proximity to train station / easier access to transport for coastal travel",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room decor whiteness (whiter room)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "room type honored (twin beds as booked)",
+          "weeks_present": 1
+        },
+        {
+          "topic": "staff assistance to resolve bed configuration",
+          "weeks_present": 1
+        }
+      ],
+      "EMERGING_NEGATIVE_TOPIC": [
+        {
+          "topic": "food variety",
+          "weeks_present": 1
+        },
+        {
+          "topic": "transportation",
+          "weeks_present": 1
+        }
+      ]
+    },
+    "managerial_categories": [
+      {
+        "category": "breakfast",
+        "label": "Breakfast",
+        "managerial_domain": "food_and_beverage",
+        "default_priority": "medium",
+        "weeks_present": 4,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "cross_structure_topic_occurrences": 10,
+        "review_mentions_total": 7,
+        "positive_review_mentions": 3,
+        "negative_review_mentions": 4,
+        "net_sentiment_mentions": -1,
+        "matched_raw_topics": [
+          "breakfast quality",
+          "breakfast variety",
+          "food variety"
+        ],
+        "source_columns": [
+          "EMERGING_NEGATIVE_TOPIC",
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "staff_service",
+        "label": "Staff and service",
+        "managerial_domain": "service_delivery",
+        "default_priority": "high",
+        "weeks_present": 3,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 8,
+        "review_mentions_total": 11,
+        "positive_review_mentions": 11,
+        "negative_review_mentions": 2,
+        "net_sentiment_mentions": 9,
+        "matched_raw_topics": [
+          "staff assistance to resolve bed configuration",
+          "staff attentiveness",
+          "staff friendliness"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "room_comfort",
+        "label": "Room comfort",
+        "managerial_domain": "rooms_and_maintenance",
+        "default_priority": "high",
+        "weeks_present": 2,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 5,
+        "review_mentions_total": 6,
+        "positive_review_mentions": 5,
+        "negative_review_mentions": 2,
+        "net_sentiment_mentions": 3,
+        "matched_raw_topics": [
+          "bed comfort",
+          "staff assistance to resolve bed configuration"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "price_value",
+        "label": "Price–value",
+        "managerial_domain": "pricing_and_value",
+        "default_priority": "high",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 2,
+        "positive_review_mentions": 1,
+        "negative_review_mentions": 2,
+        "net_sentiment_mentions": -1,
+        "matched_raw_topics": [],
+        "source_columns": []
+      },
+      {
+        "category": "location_access",
+        "label": "Location and accessibility",
+        "managerial_domain": "location_and_access",
+        "default_priority": "low",
+        "weeks_present": 3,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "latent_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 7,
+        "review_mentions_total": 14,
+        "positive_review_mentions": 12,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": 11,
+        "matched_raw_topics": [
+          "access to two metro lines",
+          "location",
+          "proximity to train station / easier access to transport for coastal travel"
+        ],
+        "source_columns": [
+          "EXPECTATION_TOPICS_UNIQUE",
+          "EXPERIENCE_TOPICS_UNIQUE",
+          "LATENT_EXPECTATION_TOPICS_UNIQUE",
+          "VIOLATED_EXPECTATION_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "cleanliness",
+        "label": "Cleanliness and housekeeping",
+        "managerial_domain": "housekeeping",
+        "default_priority": "high",
+        "weeks_present": 4,
+        "experience_weeks": 4,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 7,
+        "review_mentions_total": 10,
+        "positive_review_mentions": 9,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": 8,
+        "matched_raw_topics": [
+          "cleanliness",
+          "room cleanliness"
+        ],
+        "source_columns": [
+          "EXPERIENCE_TOPICS_UNIQUE"
+        ]
+      },
+      {
+        "category": "parking",
+        "label": "Parking",
+        "managerial_domain": "access_and_facilities",
+        "default_priority": "medium",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 1,
+        "positive_review_mentions": 0,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": -1,
+        "matched_raw_topics": [],
+        "source_columns": []
+      },
+      {
+        "category": "wifi_technology",
+        "label": "Wi-Fi and technology",
+        "managerial_domain": "technology",
+        "default_priority": "medium",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 2,
+        "positive_review_mentions": 1,
+        "negative_review_mentions": 1,
+        "net_sentiment_mentions": 0,
+        "matched_raw_topics": [],
+        "source_columns": []
+      },
+      {
+        "category": "bathroom",
+        "label": "Bathroom condition",
+        "managerial_domain": "rooms_and_maintenance",
+        "default_priority": "high",
+        "weeks_present": 0,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "latent_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "cross_structure_topic_occurrences": 0,
+        "review_mentions_total": 4,
+        "positive_review_mentions": 4,
+        "negative_review_mentions": 0,
+        "net_sentiment_mentions": 4,
+        "matched_raw_topics": [],
+        "source_columns": []
+      }
+    ],
+    "interpretation_note": "Topic-source metrics must be interpreted separately. experience_weeks may include positive or neutral experiences. violated_expectation_weeks and emerging_negative_weeks indicate negative evidence. negative_review_mentions are based only on review_text_disliked. Cross-structure topic occurrences may refer to the same underlying issue and are not independent complaints."
+  },
+  "preliminary_signals": [
+    {
+      "signal": "increasing_expectation_gap",
+      "severity": "high",
+      "metric": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "description": "Expectation–experience discrepancy shows a global increasing trend.",
+      "trend_strength": "moderate",
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_reversal": false
+    },
+    {
+      "signal": "increasing_misalignment",
+      "severity": "high",
+      "metric": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "description": "Semantic misalignment shows a global increasing trend.",
+      "trend_strength": "moderate",
+      "direction_consistency": 0.6666666666666666,
+      "recent_movement": "up",
+      "recent_reversal": false
+    },
+    {
+      "signal": "increasing_operational_complaints",
+      "severity": "high",
+      "metric": "PERC_OPERATIONAL_COMPLAINTS",
+      "description": "The share of operational complaints shows a global increasing trend.",
+      "trend_strength": "moderate",
+      "direction_consistency": 0.5,
+      "recent_movement": "up",
+      "recent_reversal": false
+    },
+    {
+      "signal": "existing_priority_alert",
+      "severity": "high",
+      "metric": "PRIORITY_ALERT_FLAG",
+      "description": "The latest observation contains an existing priority alert.",
+      "trend_strength": null,
+      "direction_consistency": null,
+      "recent_movement": null,
+      "recent_reversal": null
+    }
+  ],
+  "review_sample": [
+    {
+      "review_date": "2024-02-01",
+      "rating": 9.0,
+      "language": "en",
+      "title": "Superb",
+      "liked": "Modern room",
+      "disliked": null,
+      "country": "United Kingdom",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-02-01",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Exceptional",
+      "liked": null,
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-01-31",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Excelente",
+      "liked": "Very good hotel. Location in front of the metro, making it much easier to get anywhere.",
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-30",
+      "rating": 7.0,
+      "language": "sk",
+      "title": "Good",
+      "liked": "The bathroom/WC door bothered me quite a bit. It doesn't insulate either noise or ... . I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself. I would have, but there was nowhere to separate them 🤣🤣",
+      "disliked": null,
+      "country": "Slovakia",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Exceptional",
+      "liked": null,
+      "disliked": null,
+      "country": "Portugal",
+      "stay_type": "Solo traveller"
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Very good",
+      "liked": null,
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Excelente localização; otimas instalações e atendimento personalizado!",
+      "liked": "Everything clean and organized. Staff always cordial and offering prompt service. Simply perfect!",
+      "disliked": "I liked everything!",
+      "country": "Brazil",
+      "stay_type": "Solo traveller"
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Um hotel 3 estrelas honesto",
+      "liked": "Hotel next to the Metro station. Clean rooms with well-distributed space. Polite reception. Very good Wi-Fi. An honest 3-star.",
+      "disliked": "The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+      "country": "Brazil",
+      "stay_type": "Solo traveller"
+    },
+    {
+      "review_date": "2024-01-28",
+      "rating": 9.0,
+      "language": "pl",
+      "title": "Superb",
+      "liked": "You can smell sewage odors.",
+      "disliked": null,
+      "country": "Poland",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-28",
+      "rating": 10.0,
+      "language": "pt",
+      "title": "Exceptional",
+      "liked": "Wonderful hotel! Congratulations on your customer service, very good facilities, comfortable, beautiful, cozy and extremely clean room, attentive care and little treats for the guest. Excellent breakfast and a privileged location. Definitely recommended and will always be my place to stay. Thank you for everything.",
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Solo traveller"
+    },
+    {
+      "review_date": "2024-01-26",
+      "rating": 8.0,
+      "language": "en",
+      "title": "Very good",
+      "liked": "Smart, Bright clean and tidy.",
+      "disliked": null,
+      "country": "United Kingdom",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-25",
+      "rating": 10.0,
+      "language": "pt",
+      "title": "Exceptional",
+      "liked": null,
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-25",
+      "rating": 10.0,
+      "language": "zh",
+      "title": "Exceptional",
+      "liked": null,
+      "disliked": null,
+      "country": "Germany",
+      "stay_type": "Solo traveller"
+    },
+    {
+      "review_date": "2024-01-24",
+      "rating": 7.0,
+      "language": "en",
+      "title": "Good",
+      "liked": null,
+      "disliked": null,
+      "country": "Singapore",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-23",
+      "rating": 9.0,
+      "language": "de",
+      "title": "Top Hotel an Top-Lage",
+      "liked": "I like to stay here. Top location, buses and subways in front of the building. Rooms at the back are quiet.",
+      "disliked": "Nothing.",
+      "country": "Switzerland",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-01-23",
+      "rating": 10.0,
+      "language": "fr",
+      "title": "Exceptional",
+      "liked": null,
+      "disliked": null,
+      "country": "France",
+      "stay_type": "Couple"
+    },
+    {
+      "review_date": "2024-01-22",
+      "rating": 8.0,
+      "language": "el",
+      "title": "Very good",
+      "liked": null,
+      "disliked": null,
+      "country": "Greece",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-01-22",
+      "rating": 10.0,
+      "language": "pt",
+      "title": "Ótima opção em Lisboa",
+      "liked": "Super well located for those coming from the airport, whether by metro or taxi. Very pleasant room, very tasty breakfast, attentive staff.",
+      "disliked": null,
+      "country": "Brazil",
+      "stay_type": "Family"
+    },
+    {
+      "review_date": "2024-01-19",
+      "rating": 10.0,
+      "language": "it",
+      "title": "Hotel perfetto",
+      "liked": "Everything. New, modern, very clean facility. Very convenient for getting around: the metro stop is in front of the hotel and the bus stop is a few steps away. The rooms are modern and spotless; every day they would bring you a bottle of water, fruit and chocolates. The staff were very kind and always available; at the end of the vacation they gave us a little gift as a memento. If I had to return to Lisbona I would definitely come back. Thanks for everything.",
+      "disliked": "Nothing — everything perfect.",
+      "country": "Italy",
+      "stay_type": "Group"
+    },
+    {
+      "review_date": "2024-01-18",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Bom",
+      "liked": "Good location",
+      "disliked": "Parking is very expensive, breakfast quite limited.",
+      "country": "Brazil",
+      "stay_type": "Couple"
+    }
+  ],
+  "review_sample_metadata": {
+    "total_reviews_in_window": 39,
+    "total_reviews_selected": 20,
+    "selection_strategy": "Neutral recent-review sampling. Reviews are ordered by review_date descending and the most recent reviews are selected. No filtering or ranking based on rating, sentiment, complaint severity or text length is used.",
+    "interpretation_warning": "The sample represents the most recent reviews in the decision window, not necessarily the full review distribution."
+  },
+  "complaints": [
+    {
+      "review_date": "2024-01-14",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Very good",
+      "complaint_text": "Disliked: The breakfast has quality products but few options; it could have a bit more variety. The corridor acoustics are poor and the doors have very heavy springs that make them slam when guests enter and leave the rooms, which is annoying. The staff member who cleaned the floor was on her phone all the time every morning, and it was impossible to stay in the room because of the conversation and the doors slamming.",
+      "disliked": "The breakfast has quality products but few options; it could have a bit more variety. The corridor acoustics are poor and the doors have very heavy springs that make them slam when guests enter and leave the rooms, which is annoying. The staff member who cleaned the floor was on her phone all the time every morning, and it was impossible to stay in the room because of the conversation and the doors slamming.",
+      "liked_context": "Very well located with a metro station in front of the hotel. Good-sized room, comfortable bed with good-quality sheets. Bathroom with a great shower. Accommodations cleaned daily. I found the staff very attentive, and I was surprised by the treats delivered every afternoon by the employee (chocolates and a bottle of water) and also at checkout.",
+      "country": "Brazil",
+      "stay_type": "Couple",
+      "disliked_word_count": 84
+    },
+    {
+      "review_date": "2024-01-15",
+      "rating": 8.0,
+      "language": "pt",
+      "title": "Muito agradável, com potencial de melhoria",
+      "complaint_text": "Disliked: The TV embedded in the mirror isn't a completely functional idea; everything could be (even) whiter.",
+      "disliked": "The TV embedded in the mirror isn't a completely functional idea; everything could be (even) whiter.",
+      "liked_context": "Very comfortable bed; pleasant token offerings (fruit, chocolate, a small bottle of shower gel); nice room; fantastic location.",
+      "country": "Portugal",
+      "stay_type": "Couple",
+      "disliked_word_count": 17
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Um hotel 3 estrelas honesto",
+      "complaint_text": "Disliked: The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+      "disliked": "The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+      "liked_context": "Hotel next to the Metro station. Clean rooms with well-distributed space. Polite reception. Very good Wi-Fi. An honest 3-star.",
+      "country": "Brazil",
+      "stay_type": "Solo traveller",
+      "disliked_word_count": 16
+    },
+    {
+      "review_date": "2024-01-18",
+      "rating": 8.0,
+      "language": "pt-br",
+      "title": "Bom",
+      "complaint_text": "Disliked: Parking is very expensive, breakfast quite limited.",
+      "disliked": "Parking is very expensive, breakfast quite limited.",
+      "liked_context": "Good location",
+      "country": "Brazil",
+      "stay_type": "Couple",
+      "disliked_word_count": 8
+    },
+    {
+      "review_date": "2024-01-16",
+      "rating": 9.0,
+      "language": "en",
+      "title": "Very nice property - beautifully decorated and near new",
+      "complaint_text": "Disliked: Next time (and in summer) I would probably stay closer to the train station at Cais do Sodre (lower part of Bairro Alto/adjacent to the river) for easier movement up and down the coast to Cascais, Estoril etc. Staying at Hotel White I had to take 2 Metros to get to centre of town (change at Pombal) - which sounds easy until you try it in peak traffic times - the Metro stations have 5 sets of stairs in some cases and the crowd crush on platforms/carriages was really frightening and I didnt enjoy it at all and I am a very experienced traveller. I ended up taking Ubers to Sintra that cost EUR22 and EUR33 respectively because I didnt want to deal with Metro - it was a good solution.",
+      "disliked": "Next time (and in summer) I would probably stay closer to the train station at Cais do Sodre (lower part of Bairro Alto/adjacent to the river) for easier movement up and down the coast to Cascais, Estoril etc. Staying at Hotel White I had to take 2 Metros to get to centre of town (change at Pombal) - which sounds easy until you try it in peak traffic times - the Metro stations have 5 sets of stairs in some cases and the crowd crush on platforms/carriages was really frightening and I didnt enjoy it at all and I am a very experienced traveller. I ended up taking Ubers to Sintra that cost EUR22 and EUR33 respectively because I didnt want to deal with Metro - it was a good solution.",
+      "liked_context": "I really enjoyed my stay considering the price I paid approx EUR70 per night room only. Lovely modern, comfortable facilities - lovely bathroom, very comfy bed/pillows in what seems to be a renovated office block (windows dont open). It was less than EUR10 in a taxi from the airport (very late arrival). Some nice cafes nearby (Versailles) - overall it seems to be located in a business district vs a shopping precinct. There were some nice touches like bottled water, an apple, a chocolate each night and a small gift on departure. That was very much appreciated and a point of difference.",
+      "country": "Australia",
+      "stay_type": "Solo traveller",
+      "disliked_word_count": 131
+    },
+    {
+      "review_date": "2024-01-12",
+      "rating": 9.0,
+      "language": "pt-br",
+      "title": "Superb",
+      "complaint_text": "Disliked: Little space to open suitcases.",
+      "disliked": "Little space to open suitcases.",
+      "liked_context": "Accommodations and service.",
+      "country": "Brazil",
+      "stay_type": "Family",
+      "disliked_word_count": 6
+    },
+    {
+      "review_date": "2024-01-09",
+      "rating": 10.0,
+      "language": "fr",
+      "title": "super agréable",
+      "complaint_text": "Disliked: Breakfast repetitive. Hotel far from the old town center.",
+      "disliked": "Breakfast repetitive. Hotel far from the old town center.",
+      "liked_context": "Very clean hotel, super friendly staff.",
+      "country": "Canada",
+      "stay_type": "Group",
+      "disliked_word_count": 8
+    },
+    {
+      "review_date": "2024-01-15",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Ótima opção de estadia.",
+      "complaint_text": "Disliked: Everything met my highest expectations.",
+      "disliked": "Everything met my highest expectations.",
+      "liked_context": "The hotel is very pleasant, well located and comfortable. Great breakfast. Very attentive team and impeccable cleanliness. I recommend it.",
+      "country": "Brazil",
+      "stay_type": "Couple",
+      "disliked_word_count": 6
+    },
+    {
+      "review_date": "2024-01-29",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "Excelente localização; otimas instalações e atendimento personalizado!",
+      "complaint_text": "Disliked: I liked everything!",
+      "disliked": "I liked everything!",
+      "liked_context": "Everything clean and organized. Staff always cordial and offering prompt service. Simply perfect!",
+      "country": "Brazil",
+      "stay_type": "Solo traveller",
+      "disliked_word_count": 3
+    },
+    {
+      "review_date": "2024-01-19",
+      "rating": 10.0,
+      "language": "it",
+      "title": "Hotel perfetto",
+      "complaint_text": "Disliked: Nothing — everything perfect.",
+      "disliked": "Nothing — everything perfect.",
+      "liked_context": "Everything. New, modern, very clean facility. Very convenient for getting around: the metro stop is in front of the hotel and the bus stop is a few steps away. The rooms are modern and spotless; every day they would bring you a bottle of water, fruit and chocolates. The staff were very kind and always available; at the end of the vacation they gave us a little gift as a memento. If I had to return to Lisbona I would definitely come back. Thanks for everything.",
+      "country": "Italy",
+      "stay_type": "Group",
+      "disliked_word_count": 3
+    },
+    {
+      "review_date": "2024-01-12",
+      "rating": 10.0,
+      "language": "pt-br",
+      "title": "AMEI A EXPERIÊNCIA. PERTO DE TUDO E VOLTARIA COM CERTEZA.",
+      "complaint_text": "Disliked: I liked everything.",
+      "disliked": "I liked everything.",
+      "liked_context": "I loved the experience. Close to everything and I would definitely return.",
+      "country": "Brazil",
+      "stay_type": "Solo traveller",
+      "disliked_word_count": 3
+    }
+  ],
+  "complaint_metadata": {
+    "total_reviews_in_window": 39,
+    "total_reviews_with_disliked": 14,
+    "share_reviews_with_disliked": 0.358974358974359,
+    "total_substantive_complaints_available": 11,
+    "total_complaints_selected": 11,
+    "selection_strategy": "Complaint-focused diagnostic sampling. Only reviews with substantive content in review_text_disliked are eligible. Complaints are ranked by lower rating, longer disliked text and recency.",
+    "interpretation_warning": "Selected complaints are diagnostic evidence and are not representative of the complete review distribution. Prevalence should be assessed using the full review-window metadata and managerial evidence."
+  }
+}

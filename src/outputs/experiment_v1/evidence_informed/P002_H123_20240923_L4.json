@@ -1,0 +1,230 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Evidence shows several operational and maintenance frictions (plumbing/ bathroom hygiene, breakfast timing/value, amenity friction) and rising expectation–experience gaps and semantic misalignment; however strengths (staff, cleanliness, room comfort, parking) are clear. Plumbing/bathroom issues include safety-relevant complaints that justify urgent attention.",
+  "executive_summary": "Immediate attention: plumbing and bathroom hygiene issues (sewage smell, mold, drain/toilet malfunctions, intermittent water cuts) due to safety, recurring complaints, and expectation violations. Short-term priorities: review breakfast offering (timing, value, quality/atmosphere) and booking/room-cleaning/property-access transparency (unexpected apartment access, cleaning frequency, luggage assistance). Spa/pool and roof-terrace amenities are overall positive but show specific friction (sauna closed/aged, insufficient loungers/indoor seating, lukewarm heated pool, underwhelming roof terrace); recommend mixed operational fixes and assessment for renovation where appropriate. Preserve strengths in staff, cleanliness/housekeeping, room comfort and parking while addressing targeted frictions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Plumbing, bathroom hygiene and water reliability",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple reviews describe sewage smells, mold on shower curtains, clogged/draining bathtubs, toilets flushing on their own, intermittent water stoppages and perceived lack of response — representing hygiene, guest comfort and potential safety/health risks.",
+      "recommended_action": "Initiate immediate maintenance and safety triage: (a) inspect and remediate sewer/smell sources and mold in affected units; (b) inspect and repair drainage and toilet systems where reported; (c) review recent incidents of water supply interruption with engineering and local utility to confirm cause; (d) communicate transparently to recent complainants about actions taken. If root causes are unclear, commission an urgent plumbing/health inspection and prioritize remediation work for affected units.",
+      "rationale": "Complaints describe sewage smell, mold, bad drainage and toilets that flush on their own, and water stoppages — issues with direct guest health/safety implications and repeated reporting. Managerial evidence flags 'Bathroom condition' as net-negative with expectation violation and emerging negative signals. Immediate maintenance and inspection is required before other remedies.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Bathroom condition' — 12 mentions (2 positive / 10 negative), evidence_pattern net_negative, has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaint 2024-09-12: 'washroom reeked of a sewage smell ... bathtub was not draining properly ... mold on curtain'.",
+        "Complaint 2024-09-21: 'unbearable sewer smells ... reported 3 times, WITH NO response'.",
+        "Complaint 2024-09-29: 'Water stopped for a few hours ... One toilet flushed on its own on and off.'",
+        "Complaint 2024-09-28: report of toilets running constantly."
+      ],
+      "positive_counterevidence": [
+        "Some reviews praise apartment comfort and pools (e.g., same reviews that mention problems often still note good pool or apartment features), indicating these problems may be location- or unit-specific rather than universal."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 10,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast offering: timing, value and quality",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Frequent guest comments express disappointment with breakfast quality/price, timing (breakfast starting at 8am seen as late), lack of atmosphere and limited choices. These are recurring expectation violations and an emerging negative topic.",
+      "recommended_action": "Review breakfast service model and positioning: (a) operationally assess breakfast start time relative to guest needs (including gym/early users); (b) audit breakfast variety, presentation and perceived value versus price; (c) gather structured guest feedback (short survey or front-desk check-in question) to identify the highest-impact changes; (d) consider targeted operational adjustments (timing, layout/atmosphere, menu options) where low-cost fixes exist. Do not commit to capital or pricing changes without assessment.",
+      "rationale": "Managerial evidence shows 'Breakfast' with 26 mentions (12 positive / 16 negative), has expectation violation and emerging negative status. Multiple complaints specifically call out poor breakfast, late start time, poor value and lack of atmosphere — consistent signals that guest expectations are not being met and may affect satisfaction.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Breakfast' — 26 mentions, positive_share 0.429, negative_share 0.571, has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaint 2024-09-29: 'Breakfast started at 8 am, which seemed later than the usual.'",
+        "Complaint 2024-09-07: 'breakfast disappointing ... no atmosphere ... would not do that again.'",
+        "Complaint 2024-09-23 (positive context): 'Good breakfast' — indicates mixed perception and opportunity to preserve positives while addressing specific frictions."
+      ],
+      "positive_counterevidence": [
+        "Some guests explicitly praised the breakfast (e.g., 2024-09-23), indicating that the offering is satisfactory for a segment of guests and that fixes may be targeted rather than replacement of the whole service."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 12,
+        "negative_mentions": 16,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Booking/communication and room-cleaning/access transparency",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report unexpected property layout/attachment, lack of disclosure about apartments not attached to main hotel, surprising cleaning frequency (no cleaning for 3 nights), difficult underground access and limited luggage assistance — causing expectation violations and frustration.",
+      "recommended_action": "Review booking and pre-arrival information and internal guest-assistance processes: (a) audit online booking descriptions (OTA and direct) for clarity on apartment attachment, access routes (underground parking), and cleaning frequency/service inclusions; (b) update descriptions where ambiguous; (c) review front-desk / bell policy for luggage assistance and signage/lighting for underground access; (d) ensure staff are trained to proactively explain access and cleaning policies at check-in. Where the scope of changes is unclear, commission a quick content-and-process review rather than immediate policy change.",
+      "rationale": "Although aggregated mentions in managerial evidence are small for 'Booking and payment', complaint examples show repeated expectation violations (room not cleaned, OTA/booking mismatch about attachments and services, difficult access via underground garage and poor lighting). These are operational/policy frictions that can harm guest satisfaction and are addressable via process and communication improvements.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Booking and payment' marked has_expectation_violation=true (though only 1 mention in summary), matched topic: 'accurate / transparent booking information about property attachment and services'.",
+        "Complaint 2024-09-22: 'Bookings.com nor did not mention no cleaning service or that it was not attached to main hotel' and 'Our room was not cleaned for the 3 nights ... only clean your room on the 4th day.'",
+        "Complaint 2024-09-21: 'Having to go through the underground parking to access the apartment ... lack of lighting in the elevator access area (reported 3 times, WITH NO response!!)'",
+        "Complaint 2024-09-12: 'no one to help us with our luggages ... had to take them ... over the extremely steep walkway.'"
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise apartment comfort and location, suggesting the units themselves meet expectations when access/communication issues are managed."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "increasing_misalignment",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Spa, pool and roof-terrace amenities (capacity & condition)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Overall positive leisure offering but recurring friction: sauna closed for renovation (guest disappointment), aged spa/sauna parts needing renovation, insufficient sunbeds/umbrellas and indoor-pool seating, lukewarm heated pool, and underwhelming roof terrace — causing expectation violations despite many positive mentions.",
+      "recommended_action": "Preserve strengths while addressing specific frictions: (a) operationally increase available seating and sunbeds/umbrellas where feasible; (b) review towel-change frequency and pool temperature controls; (c) communicate proactively when facilities (e.g., sauna) are closed for renovation and set guest expectations; (d) commission an assessment of spa/sauna condition to determine if medium-term renovation is required. Prioritize low-cost operational fixes first and assess capital needs before committing to investment.",
+      "rationale": "Managerial evidence for 'Spa and pool' shows more positive than negative mentions (24 positive / 14 negative) and is classified positive_with_friction. Multiple complaints mention sauna closure/age, insufficient lounger capacity, lukewarm heated pool and roof terrace underwhelming — indicating operational capacity and some condition issues that should be fixed or assessed.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Spa and pool' — 36 mentions, positive_share 0.632, evidence_pattern positive_with_friction, has_expectation_violation=true.",
+        "Complaint 2024-09-02: 'sauna was closed for renovation work during our entire stay'.",
+        "Complaint 2024-09-23 and 2024-09-29: mention limited chairs at indoor pool, hot pool water lukewarm.",
+        "Complaint 2024-09-03 and 2024-09-28: requests for more sun beds/umbrellas and 'roof terrace was very underwhelming.'"
+      ],
+      "positive_counterevidence": [
+        "Multiple complaints explicitly praise pools and spa facilities (e.g., 'pools and sauna area were a great addition', 'Outdoor pools were very nice'), supporting that the area is a strength overall and that targeted fixes may suffice."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 24,
+        "negative_mentions": 14,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 3,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "increasing_misalignment",
+          "increasing_expectation_gap"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff and service",
+      "reason": "Consistently high positive mentions (27 positive / 3 negative, positive_share 0.90) and multiple reviews praising staff friendliness and helpfulness.",
+      "management_implication": "Protect service culture; ensure staff have clear guidance and training to respond to the identified frictions (plumbing, access, breakfast) and to communicate transparently about closures/cleaning policies."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Strong positive mentions (19 positive / 2 negative, positive_share 0.905) indicating housekeeping performance is a clear strength overall.",
+      "management_implication": "Preserve housekeeping standards and investigate any isolated cleanliness issues (mold in specific units) through targeted inspections rather than broad changes."
+    },
+    {
+      "area": "Room comfort",
+      "reason": "Generally positive mentions (6 positive / 2 negative) showing guest appreciation for apartment size and comfort in many reviews.",
+      "management_implication": "Maintain room amenities and address unit-specific maintenance items (bathroom mold, drainage) without altering overall room-product positioning."
+    },
+    {
+      "area": "Parking",
+      "reason": "Predominantly positive mentions (8 positive / 4 negative) for parking availability.",
+      "management_implication": "Keep parking services as-is while addressing access/navigation and lighting concerns highlighted in some complaints (underground access lighting, narrow manoeuvring)."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK (declining)",
+      "reason": "Sustained decline in RevPAR could signal commercial impact of experience frictions; monitor for continuing deterioration.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG (increasing)",
+      "reason": "Rising expectation–experience gap aligns with multiple expectation-violation topics (breakfast, bathroom, access); track if corrective actions reduce the gap.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG (increasing)",
+      "reason": "Increases suggest marketing/communication may not match guest experience (relevant to booking transparency and amenity descriptions); monitor after updating content.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "SENTIMENT_SCORE_AVG (decreasing)",
+      "reason": "Overall sentiment is trending down; useful to observe for early detection of service/maintenance issues.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints are fluctuating and recently up; tracking operational complaint share helps evaluate whether process fixes reduce guest friction.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic examples and not statistically representative of all reviews in the window; prevalence should be assessed using full review metadata.",
+    "Managerial evidence does not specify the scope, root cause or exact units affected by plumbing/bathroom issues; an inspection is required before committing to capital work.",
+    "Some recommended actions (e.g., spa renovation) may require technical/financial assessment; recommendations call for assessment rather than prescribing specific capital solutions.",
+    "Evidence linking experience issues to commercial metrics (e.g., RevPAR) is directional only; do not infer causality from these data alone."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P002",
+    "case_id": "H123_20240923_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:40:54.144926+00:00",
+    "finished_at_utc": "2026-09-08T15:42:19.215189+00:00",
+    "elapsed_seconds": 85.073
+  }
+}

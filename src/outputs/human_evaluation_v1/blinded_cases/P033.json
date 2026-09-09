@@ -1,0 +1,570 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P033",
+  "case_information": {
+    "case_id": "H217_20240311_L4",
+    "decision_week": "2024_W11",
+    "decision_date": "2024-03-11",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W08",
+        "week_date": "2024-02-19",
+        "REVPAR_WEEK": 102.43655493892028,
+        "REVPOR_WEEK": 187.10685407854987,
+        "TREVPAR_WEEK": 115.3105142847762,
+        "TAXA_OCUPACAO": 98.75776397515529,
+        "N_REVIEWS": 24.0,
+        "AVG_RATING": 9.083333333333334,
+        "SENTIMENT_SCORE_AVG": 0.45625,
+        "SENTIMENT_SCORE_STD": 0.5487758115153654,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0406249999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.03125,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.3965354233178195,
+        "EXPECTATION_SHARE": 0.0833333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 33.33333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 25.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.7083333333333334,
+        "COMPLEXITY_INDEX": 2.305734467130349,
+        "SENTIMENT_TREND_SLOPE": 0.0001178839532096
+      },
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 107.31577871648012,
+        "REVPOR_WEEK": 206.79956946107785,
+        "TREVPAR_WEEK": 120.09218303827136,
+        "TAXA_OCUPACAO": 98.75776397515529,
+        "N_REVIEWS": 48.0,
+        "AVG_RATING": 9.3125,
+        "SENTIMENT_SCORE_AVG": 0.3315789473684211,
+        "SENTIMENT_SCORE_STD": 0.5839850458997957,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0628571428571428,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0928571428571428,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.4891966083987491,
+        "EXPECTATION_SHARE": 0.125,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0625,
+        "PERC_REVIEWS_NEGATIVE": 45.83333333333333,
+        "PERC_OPERATIONAL_COMPLAINTS": 26.666666666666668,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.8541666666666666,
+        "COMPLEXITY_INDEX": 2.4792699736598998,
+        "SENTIMENT_TREND_SLOPE": 0.0001178839532096
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 127.02776049562684,
+        "REVPOR_WEEK": 222.303012244898,
+        "TREVPAR_WEEK": 139.63074718595524,
+        "TAXA_OCUPACAO": 99.37888198757764,
+        "N_REVIEWS": 37.0,
+        "AVG_RATING": 9.333333333333334,
+        "SENTIMENT_SCORE_AVG": 0.523076923076923,
+        "SENTIMENT_SCORE_STD": 0.5450550616615858,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0,
+        "EXPECTATION_VIOLATION_RATIO": 0.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.2955001740239136,
+        "EXPECTATION_SHARE": 0.027027027027027,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 40.54054054054054,
+        "PERC_OPERATIONAL_COMPLAINTS": 66.66666666666666,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.7297297297297297,
+        "COMPLEXITY_INDEX": 2.24037295980465,
+        "SENTIMENT_TREND_SLOPE": 0.0001178839532096
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 129.00159446697933,
+        "REVPOR_WEEK": 242.39181749271137,
+        "TREVPAR_WEEK": 142.0256529598176,
+        "TAXA_OCUPACAO": 100.31055900621118,
+        "N_REVIEWS": 31.0,
+        "AVG_RATING": 8.548387096774194,
+        "SENTIMENT_SCORE_AVG": 0.2735294117647059,
+        "SENTIMENT_SCORE_STD": 0.6263452545494483,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.11,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1174999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.253297578463043,
+        "EXPECTATION_SHARE": 0.1612903225806451,
+        "HIGH_EXPECTATION_SHARE": 0.032258064516129,
+        "HIGH_MISALIGNMENT_SHARE": 0.064516129032258,
+        "PERC_REVIEWS_NEGATIVE": 45.16129032258064,
+        "PERC_OPERATIONAL_COMPLAINTS": 23.07692307692308,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.5806451612903226,
+        "COMPLEXITY_INDEX": 2.40737048471144,
+        "SENTIMENT_TREND_SLOPE": 0.0001178839532096
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-03-17",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Greece",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 8.0,
+        "liked": "Rooms clean, good range if food at breakfast.",
+        "disliked": "Rooms really small, we had a double room with balcony and sea or square view. Bathroom was so small in order to sit on the loo we had to have the shower door open. Facilities in room very limited. No space for cupboard, two tiny bedside tables and a single wardrobe. No kettle/coffee machine etc.",
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Austria",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 5.0,
+        "liked": "Very pleasant staff, very well located.",
+        "disliked": "Room completely non-soundproof. You can hear both the noises from the square in front of the hotel (nightlife) and people in the corridor at night and in the morning (doors slamming and people walking).",
+        "country": "Belgium",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-17",
+        "rating": 7.0,
+        "liked": "The staff are very friendly and accommodating. The hotel's location is very good.",
+        "disliked": "The room had a small window into a courtyard shaft. As a result there was hardly any daylight in the room, which made it feel uncomfortable despite lights/lamps.",
+        "country": "Switzerland",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 9.0,
+        "liked": "The location was perfect, very close to the attractions , the tram 28E station was right in front of the hotel. The breakfast was excellent, many options, fresh fruits. A little bit crowded in the morning, but there is still food if you arrive late. Cleaning was done every day, towels were changed if requested. There are Cafes and boulangeries near the hotel, metro station to arrive here is less that 6min away.",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-16",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 9.0,
+        "liked": "The location is perfect. Close to the most touristy places to visit",
+        "disliked": "The inconvenience of the elevator",
+        "country": "Argentina",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 9.0,
+        "liked": "Location was perfect for our trip.",
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 9.0,
+        "liked": "Breakfast was great, nice room overlooking the square, great staff",
+        "disliked": "It would have been great if the breakfast start time was earlier, say 7am",
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 8.0,
+        "liked": "the host was v friendly",
+        "disliked": "Inability to pay via credit card",
+        "country": "United States",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 8.0,
+        "liked": "A warm THANK YOU to Paulo at reception who went out of his way to help us. Excellent breakfast, although the dining room was rather crowded and the hours don't allow you to use it before 8.",
+        "disliked": "\"I travel a lot, but it's the first time I've been asked to pay a fee for luggage storage, and it was quite expensive, considering the hotel is not cheap. Despite the surprise, I had to accept, as I had a late-night flight. If it had been clear from the start, I would have chosen another hotel. The room was described as \"City view\": on the fifth floor",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 10.0,
+        "liked": "Nice, simple, small room. Exceptional breakfast served in a sunny room overlooking the square.",
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-15",
+        "rating": 8.0,
+        "liked": "Room was clean, bed was very comfortable. Breakfast was decent with plenty of options to suit most people. The general location of the hotel is good because you can walk to different attractions but this comes with a major disadvantage regarding noise which I'll detail below.",
+        "disliked": "There is a lot of noise and vibrations coming from the various cars and trams passing right under the balcony of the room. They literally pass a few meters away from your window. There is also music that can be heard late in the night from either the independent singers performing in the market or other nearby venues. The room is very small to the point where you have no space to open two medium sized trolley bags without blocking passage or the window so you have to constantly move them around which is annoying as there is not enough storage space either.",
+        "country": "Romania",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-14",
+        "rating": 10.0,
+        "liked": "Central location New facilities",
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-03-14",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Belgium",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-03-14",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Occupancy and revenue metrics are strong and improving, but average guest rating has fallen (~-5.9%) while volume of reviews increased. Multiple recent reviews point to recurring operational/guest-experience issues (noise, very small rooms/limited in‑room facilities, breakfast crowding and unclear extra charges) that could further depress satisfaction and future demand if not addressed.",
+    "executive_summary": "Solar dos Poetas benefits from an excellent central location, friendly staff and strong occupancy / revenue performance. Recent guest feedback during the decision window repeatedly highlights problems with street/corridor noise and poor soundproofing, small room layout and limited in-room amenities, breakfast timing/crowding and unclear ancillary charges/payments. Priorities should focus on: (1) mitigating noise and setting accurate expectations, (2) addressing small-room amenity and storage shortcomings, (3) improving breakfast service hours and transparency about luggage/fees and payment methods, and (4) checking elevator reliability and accessibility. Combine immediate operational fixes and clearer communication with medium-term capital and process investments where needed.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Noise and soundproofing / room location expectations",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Multiple recent reviews report significant noise from the square (live music), trams and corridor (doors slamming, people), and poor soundproofing leading to disturbed sleep and lower satisfaction.",
+        "recommended_action": "Immediate: provide complimentary earplugs, offer white-noise machines or mobile app suggestions at check-in, proactively reassign particularly noise-sensitive guests to quieter rooms where possible, and add a late-night contact for noise complaints. Short term: update room descriptions and booking channels to clearly communicate which rooms face the square and potential noise. Medium term: commission an audit of windows/doors and prioritize installation of improved seals/double glazing or corridor sound mitigation where cost-effective.",
+        "rationale": "Quick operational steps reduce immediate guest disturbance and limit negative reviews while medium-term investments will reduce recurrence. Accurate online descriptions reduce guest dissatisfaction from mismatched expectations.",
+        "supporting_evidence": [
+          "“Room completely non-soundproof. You can hear both the noises from the square in front of the hotel (nightlife) and people in the corridor…”",
+          "“There is a lot of noise and vibrations coming from the various cars and trams passing right under the balcony of the room… There is also music that can be heard late in the night…”",
+          "Multiple reviews reference balconies/rooms overlooking the square and noise at night."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.9
+      },
+      {
+        "rank": 2,
+        "area": "Room size, layout and basic in‑room amenities",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests frequently report rooms that feel very small with inadequate storage, small bathrooms with constrained layouts and missing basic amenities (no kettle/coffee). This reduces comfort, especially for travellers with luggage.",
+        "recommended_action": "Operational: provide simple in-room amenities on request (kettle/coffee kit), add hooks/shelves or modular storage solutions in rooms where feasible, and offer luggage-handling assistance or temporary in-room luggage stands. Update room descriptions and photos to reflect actual room size/layout so guest expectations align. Medium term: review whether some rooms can be reconfigured to improve storage/flow (capital assessment).",
+        "rationale": "Simple amenity additions and small fixture changes can significantly improve perceived value at low cost; accurate descriptions reduce future mismatch complaints.",
+        "supporting_evidence": [
+          "“Rooms really small… Bathroom was so small in order to sit on the loo we had to have the shower door open. Facilities in room very limited. No space for cupboard… No kettle/coffee machine etc.”",
+          "“The room is very small to the point where you have no space to open two medium sized trolley bags without blocking passage or the window so you have to constantly move them around which is annoying as there is not enough storage space either.”",
+          "“The room had a small window into a courtyard shaft… hardly any daylight in the room.”"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.8
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast capacity/hours and ancillary charges / payment methods",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Guests praised breakfast quality but report crowded dining room and that breakfast start time is too late for some (requests for 7:00). Several guests also reported surprise and dissatisfaction with a charge for luggage storage and at least one guest noted inability to pay by credit card.",
+        "recommended_action": "Immediate: review and publish breakfast hours and consider opening earlier (e.g., 7:00) if operationally feasible; implement crowd-management measures (staggered seating, signage, add temporary staff at peak times). Clarify and publish luggage-storage policy and fees at booking and check-in; consider waiving the fee or offering a clear, value‑based fee. Ensure payment options are clearly listed on the website and at reception and resolve any card-payment limitations as a priority.",
+        "rationale": "Breakfast is a frequently-cited strength; reducing crowding and matching hours to guest needs will protect satisfaction. Clear communication on fees and payment methods prevents surprise charges and related negative sentiment.",
+        "supporting_evidence": [
+          "“Breakfast was excellent… A little bit crowded in the morning… ”",
+          "“It would have been great if the breakfast start time was earlier, say 7am”",
+          "“It's the first time I've been asked to pay a fee for luggage storage, and it was quite expensive… If it had been clear from the start, I would have chosen another hotel.”",
+          "“Inability to pay via credit card”"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      },
+      {
+        "rank": 4,
+        "area": "Elevator reliability and accessibility",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "At least one recent review mentions an inconvenience associated with the elevator; combined with small rooms and high floors this may affect guest convenience and accessibility.",
+        "recommended_action": "Inspect elevator performance and maintenance records; address any reliability issues promptly. Provide clear signage about elevator use and offer staff assistance for guests with mobility issues or heavy luggage. If capacity is limited, adjust room allocation (avoid booking guests with accessibility needs into upper floors without assistance).",
+        "rationale": "Maintaining a reliable elevator service supports guest comfort and prevents negative experiences related to carrying luggage or mobility limitations.",
+        "supporting_evidence": [
+          "“The inconvenience of the elevator”"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.5
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location",
+        "reason": "Multiple guests cite the hotel's central/ideal location and proximity to tram and attractions as a key positive.",
+        "management_implication": "Preserve and market proximity to attractions; when mitigating noise, avoid measures that reduce the perceived central/urban appeal."
+      },
+      {
+        "area": "Breakfast quality",
+        "reason": "Several reviews specifically praise the breakfast (variety, freshness, sunny dining room).",
+        "management_implication": "Maintain food quality and variety while optimizing service logistics to reduce crowding; communicate breakfast strengths in marketing."
+      },
+      {
+        "area": "Staff helpfulness and cleanliness",
+        "reason": "Guests frequently mention friendly staff (Paulo referenced by name) and reliable cleaning service.",
+        "management_implication": "Preserve staff training and recognition programs; leverage staff willingness to assist as part of remediation for guest issues (e.g., noise, luggage)."
+      },
+      {
+        "area": "High occupancy / revenue performance",
+        "reason": "REVPAR, REVPOR, TREVPAR and occupancy rose during the window, indicating strong demand.",
+        "management_implication": "Continue revenue management but balance pricing with improvements to protect guest satisfaction and ratings."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Average guest rating (AVG_RATING)",
+        "reason": "Overall measure of guest satisfaction; recent decline indicates emerging issues.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number and share of reviews mentioning noise/soundproofing",
+        "reason": "Direct measure of the prevalence of the principal operational complaint.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of reviews mentioning room size/amenities (kettle, storage, bathroom)",
+        "reason": "Tracks whether small-room complaints persist after amenity/description changes.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Guest feedback on breakfast (mentions of crowding and start time) and peak breakfast queue times",
+        "reason": "Monitors effectiveness of operational changes to breakfast hours and flow.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Complaints or guest contacts related to luggage fees and payment issues",
+        "reason": "Monitors transparency and payment capability improvements.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Number of noise-related service recovery actions (earplugs/room moves) and subsequent guest satisfaction",
+        "reason": "Shows whether operational mitigations reduce dissatisfaction.",
+        "desired_direction": "decrease"
+      }
+    ],
+    "limitations": [
+      "Only 20 of 140 reviews from the decision window were provided for detailed review; conclusions are therefore based on a sample of recent reviews and may not reflect the full distribution of guest feedback.",
+      "No room-type-level performance, inventory or layout details were supplied (cannot quantify how many rooms face the square vs courtyard or which floors are affected).",
+      "No operational cost, staffing rosters or maintenance records were provided; recommendations involving capital works or staffing changes require internal feasibility and cost assessment.",
+      "No data on payment systems or the specific cause of the reported inability to pay by card; verification with front-desk/payment provider needed before action."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business performance (RevPAR/REVPor/TrevPAR) is improving, but customer sentiment and average rating are declining while the expectation–experience gap and semantic misalignment are rising. Several operational/structural experience issues (bathroom layout/amenities, room comfort/noise, breakfast replenishment, and a surprise baggage charge/payment clarity) are producing expectation violations and emerging negative mentions; these warrant prioritized managerial attention but do not indicate an immediate systemic safety crisis.",
+    "executive_summary": "Preserve clear strengths (location and staff). Address a small set of evidence-backed friction points: (1) bathroom condition and in-room amenities (multiple complaints and expectation violations), (2) room comfort and noise (recurring guest reports of very small rooms and poor soundproofing), (3) breakfast service friction (generally positive but repeated complaints about replenishment, crowding and hours), (4) booking/payment clarity and baggage-deposit policy (expectation violation/emerging negative), and (5) monitor sentiment / expectation gap metrics (rising gap and falling sentiment). Recommend targeted operational/process reviews, guest-facing communication updates, and assessments where the scope is unclear before any capital investment.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition & in-room amenities",
+        "managerial_priority": "urgent",
+        "action_horizon": "medium_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple reviews describe small, awkwardly configured bathrooms and missing expected amenities (no kettle, cramped toilets) that violate guest expectations given price/description.",
+        "recommended_action": "Commission a focused rooms/maintenance assessment to (a) verify typical bathroom layouts across room types, (b) identify low-cost in-room amenity fixes (e.g., provision/placement of kettles/coffee facilities if appropriate), and (c) review room descriptions/photos to ensure they accurately represent bathroom size/arrangement. If assessment finds structural constraints, prepare a medium-term plan (scope/cost estimate) for remedial measures or clearer rate/room-type communication.",
+        "rationale": "Evidence shows a net-negative pattern (9 mentions, 7 negative) with an expectation violation and emerging negative signal specifically about bathroom setup and amenities. Multiple guests explicitly said the bathroom was too small or awkward, and that room facilities were limited (no kettle), creating disappointment and statements that the room was not value-appropriate.",
+        "supporting_evidence": [
+          "Managerial evidence: \"Bathroom condition\" — review_mentions_total: 9; positive_mentions: 2; negative_mentions: 7; has_expectation_violation: true; is_emerging_negative: true.",
+          "Complaint examples: 2024-03-14 (ru) — \"Small toilet, you can't even turn around.\"",
+          "Complaint examples: 2024-03-17 (en, United Kingdom) — \"Bathroom was so small in order to sit on the loo we had to have the shower door open. Facilities in room very limited. No space for cupboard... No kettle/coffee machine etc.\"",
+          "Complaint examples: 2024-03-13 (en, United States) — \"the way the bathroom was set up in the room... Would not stay there again for the rate we paid.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.78
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort & nighttime noise / soundproofing",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Repeated guest complaints about very small rooms (limited storage/space) and significant nighttime and street noise (market/singers, trams, cars) that harm sleep and perceived comfort.",
+        "recommended_action": "Perform an operational review to (a) identify room types/floors most affected by external noise and small layouts, (b) update booking content to set accurate expectations for room size and view (e.g., courtyard shaft vs. city view), and (c) implement near-term operational mitigations (e.g., guest communication at check-in about noise, offer earplugs, preferential assignment when possible). Commission an acoustics/maintenance inspection if many guests report noise to evaluate whether targeted soundproofing is feasible/cost-effective.",
+        "rationale": "Room comfort has a net-negative lexical pattern (11 mentions; 7 negative) and several complaint examples describing lack of space and audible noise from the square, trams, and performers. Noise and cramped rooms repeatedly appear in recent complaints, producing expectation failures and lowering sentiment.",
+        "supporting_evidence": [
+          "Managerial evidence: \"Room comfort\" — review_mentions_total: 11; positive_mentions: 4; negative_mentions: 7; evidence_pattern: net_negative.",
+          "Complaint examples: 2024-03-17 (fr) — \"Room completely non-soundproof. You can hear... noises from the square... doors slamming and people walking.\"",
+          "Complaint examples: 2024-03-15 (en, Romania) — detailed noise/vibrations from cars and trams passing under the balcony; music late at night from market performers.",
+          "Complaint examples: 2024-03-17 (en, Switzerland) — room had a small window into a courtyard shaft; hardly any daylight, room felt uncomfortable."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.76
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast service (positive with friction)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Although breakfast is frequently praised, multiple guests report insufficient variety/replenishment, crowding/wait times for tables, and hours that do not accommodate some early departures.",
+        "recommended_action": "Conduct an operational review of breakfast service: evaluate buffet replenishment processes and timing, table turnover/seat availability (flow during peak times), and current breakfast start time vs. guest needs. Consider minor operational changes (replenishment protocol, clearer signage for service hours, queue management) and test adjustments. Preserve aspects guests value (quality, variety for most).",
+        "rationale": "Breakfast is a clear strength (63 mentions, 55 positive), but it shows emerging negative signals and an expectation violation: guests specifically cite delayed or inadequate buffet replenishment, difficulty finding a free table, and start time limitations.",
+        "supporting_evidence": [
+          "Managerial evidence: \"Breakfast\" — review_mentions_total: 63; positive_mentions: 55; negative_mentions: 11; evidence_pattern: positive_with_friction; has_expectation_violation: true; is_emerging_negative: true.",
+          "Complaint examples: 2024-02-27 (de) — \"Breakfast guests had to wait a long time for a free table, and the buffet was simply not replenished promptly.\"",
+          "Complaint examples: 2024-02-20 (it) — \"Too bad about the breakfast, somewhat low quality...\"",
+          "Complaint examples: 2024-03-17 (it) — \"Excellent breakfast, although the dining room was rather crowded and the hours don't allow you to use it before 8.\""
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.82
+      },
+      {
+        "rank": 4,
+        "area": "Booking/payment clarity and baggage-deposit policy",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report unexpected baggage-storage fees and an unclear payment/room description (e.g., bathroom/room description), constituting an expectation violation and a reputational friction.",
+        "recommended_action": "Review and, if needed, update booking content and pre-arrival communication to ensure payment methods, any luggage-deposit fees, and room descriptions (bathroom/size/view) are explicit. Evaluate the baggage-deposit policy and whether it should be changed or simply better communicated; ensure front desk procedures transparently record and communicate any charge before accepting luggage.",
+        "rationale": "Although the count of mentions is small (booking/payment: 1 negative mention), it explicitly flags an expectation violation and is an emerging negative topic. Surprises about charges (\"first time I've been asked to pay a fee for luggage storage\") create disproportionate guest dissatisfaction relative to frequency and are easy to address via clearer communication or policy review.",
+        "supporting_evidence": [
+          "Managerial evidence: \"Booking and payment\" — review_mentions_total: 1; positive_mentions: 0; negative_mentions: 1; has_expectation_violation: true; is_emerging_negative: true.",
+          "Complaint example: 2024-03-15 (it) — \"first time I've been asked to pay a fee for luggage storage, and it was quite expensive... If it had been clear from the start, I would have chosen another hotel.\"",
+          "Complaint example: 2024-03-17 (en) — guest notes room described as \"City view\" but had limited daylight / view mismatch (supports need to check descriptions)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 5,
+        "area": "Monitor: sentiment / expectation–experience gap and semantic misalignment",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Average sentiment and average rating are decreasing while expectation–experience gap and semantic misalignment metrics are rising; without corrective action on the specific experience frictions identified above, these trends could broaden.",
+        "recommended_action": "Track sentiment, average rating, expectation–experience gap, high-misalignment share and percent negative reviews weekly. After implementing the above interventions, monitor whether these metrics stabilize or reverse. If declines continue despite operational fixes, escalate to a broader experience review.",
+        "rationale": "Experience indicators show a moderate increase in EXPECTATION_EXPERIENCE_GAP_AVG (0.0406 -> 0.11) and SEMANTIC_MISALIGNMENT_SCORE_AVG (0.0312 -> 0.1175), while SENTIMENT_SCORE_AVG and AVG_RATING are trending down. These are system-level warning signals that justify monitoring and follow-up after targeted interventions.",
+        "supporting_evidence": [
+          "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG increased from 0.0406 to 0.11; SEMANTIC_MISALIGNMENT_SCORE_AVG increased from 0.0312 to 0.1175.",
+          "Preliminary signals: 'increasing_expectation_gap' (severity: high) and 'increasing_misalignment' (severity: high); 'declining_sentiment' (severity: medium).",
+          "Business performance: RevPAR and revenue metrics increasing while sentiment and ratings fall (supports need to monitor experience even during good revenue performance)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.8
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Very high positive share in reviews (positive_mentions: 47; positive_share: 0.959). Multiple complaint examples explicitly praise staff (Egor, Paulo) for helpfulness and friendliness.",
+        "management_implication": "Preserve staff service quality; involve front desk in communicating room/fee policies and handling expectation remediation. Recognize/replicate staff actions that guests call out positively."
+      },
+      {
+        "area": "Location and accessibility",
+        "reason": "Strongly positive (positive_mentions: 70; positive_share: 0.986). Many guests cite central location and walkability as primary positives.",
+        "management_implication": "Preserve marketing emphasis on location; where trade-offs exist (noise), ensure guest-facing content sets accurate expectations."
+      },
+      {
+        "area": "Breakfast (overall)",
+        "reason": "Overall positive (positive_mentions: 55 of 63), despite some operational friction.",
+        "management_implication": "Preserve the aspects guests like (quality/variety) while addressing replenishment and seating flow."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+        "reason": "Rising gap signals growing mismatch between what guests expect and what they experience.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Rising misalignment suggests descriptions/communications may not match guest experience.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SENTIMENT_SCORE_AVG and AVG_RATING",
+        "reason": "Both are trending down; useful to monitor recovery after interventions.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE",
+        "reason": "Percent negative reviews has increased and will capture whether operational fixes reduce negative mentions.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic and not statistically representative of the entire review population; prevalence should be assessed using full-window metadata.",
+      "Some issues (e.g., room size, building layout, soundproofing) may be structural; the evidence does not determine scope, cost, or technical feasibility of capital fixes—assessment is recommended before investment decisions.",
+      "Booking/payment evidence is based on a small number of mentions but represents a high-impact expectation violation; confirm prevalence before making policy changes.",
+      "Sentiment and expectation-gap metrics are aggregated signals; they indicate direction but do not by themselves identify root cause without the targeted reviews and assessments recommended above."
+    ]
+  }
+}

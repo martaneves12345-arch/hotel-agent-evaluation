@@ -1,0 +1,67 @@
+{
+  "system": "frequency_baseline",
+  "method": "negative_review_frequency",
+  "case_id": "H556_20240603_L4",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast",
+      "managerial_domain": "food_and_beverage",
+      "managerial_priority": "high",
+      "negative_mentions": 4,
+      "positive_mentions": 4,
+      "negative_share": 0.5,
+      "rationale": "Breakfast was ranked #1 because it contains 4 negative review mentions."
+    },
+    {
+      "rank": 2,
+      "area": "Spa and pool",
+      "managerial_domain": "leisure_facilities",
+      "managerial_priority": "medium",
+      "negative_mentions": 4,
+      "positive_mentions": 6,
+      "negative_share": 0.4,
+      "rationale": "Spa and pool was ranked #2 because it contains 4 negative review mentions."
+    },
+    {
+      "rank": 3,
+      "area": "Wi-Fi and technology",
+      "managerial_domain": "technology",
+      "managerial_priority": "medium",
+      "negative_mentions": 1,
+      "positive_mentions": 0,
+      "negative_share": 1.0,
+      "rationale": "Wi-Fi and technology was ranked #3 because it contains 1 negative review mentions."
+    },
+    {
+      "rank": 4,
+      "area": "Price–value",
+      "managerial_domain": "pricing_and_value",
+      "managerial_priority": "low",
+      "negative_mentions": 1,
+      "positive_mentions": 1,
+      "negative_share": 0.5,
+      "rationale": "Price–value was ranked #4 because it contains 1 negative review mentions."
+    },
+    {
+      "rank": 5,
+      "area": "Location and accessibility",
+      "managerial_domain": "location_and_access",
+      "managerial_priority": "low",
+      "negative_mentions": 1,
+      "positive_mentions": 2,
+      "negative_share": 0.3333,
+      "rationale": "Location and accessibility was ranked #5 because it contains 1 negative review mentions."
+    }
+  ],
+  "methodological_note": "Categories are ranked using negative review-mention frequency only. No LLM reasoning, expectation indicators, trend information, complaint severity, safety interpretation, or diagnostic score is used.",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P030",
+    "case_id": "H556_20240603_L4",
+    "system": "frequency_baseline",
+    "started_at_utc": "2026-09-08T16:18:59.166588+00:00",
+    "finished_at_utc": "2026-09-08T16:18:59.166588+00:00",
+    "elapsed_seconds": 0.0
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Recent guest ratings are strong (average ~9/10) and key financial metrics (REVPAR, occupancy, TREVPAR) have increased substantially, indicating healthy demand. However, recurring operational complaints in guest reviews (Wi‑Fi connectivity, pool temperature and towel quality, limited vegetarian dinner options) could undermine guest satisfaction if not addressed—hence a moderate overall risk that operational issues erode the hotel's strong reputation.",
+  "executive_summary": "Regency Salgados Hotel & Spa is performing well commercially and receives consistently high guest ratings. Reviews highlight strengths in staff service, room quality, breakfast and facilities. The most actionable guest complaints are spotty Wi‑Fi in parts of the hotel, pool experience issues (cold water and damaged pool/beach towels), and limited vegetarian options at the dinner buffet. Management should prioritise targeted operational and maintenance fixes (Wi‑Fi audit and remediation; pool temperature check and towel quality/control), modest menu changes, and preserve the high-performing service and breakfast offering. Monitor guest feedback volume and issue-specific complaint counts to ensure fixes are effective.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Wi‑Fi connectivity",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guest(s) report Wi‑Fi disconnecting in certain areas of the hotel, indicating patchy wireless coverage or capacity issues.",
+      "recommended_action": "Perform immediate technical check of wireless network (access point health, coverage maps, channel/interference, authentication/timeouts). Escalate to IT/vendor if outages or under‑capacity discovered. Provide staff with simple troubleshooting steps and temporary workarounds (e.g., restart AP or guest device guidance). Communicate proactively with guests about ongoing fixes and offer compensations if connectivity impacted stay.",
+      "rationale": "Reliable Wi‑Fi is a high‑impact expectation for many guests (esp. couples, solo travellers). A targeted technical and operational fix can quickly improve guest experience and avoid negative reviews.",
+      "supporting_evidence": [
+        "Review 2024-06-05: \"The wifi kept disconnecting in certain areas of the hotel.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Pool experience (temperature and towel quality)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Multiple guests noted a cold swimming pool and repeated receipt of damaged beach/pool towels, suggesting issues with pool heating/temperature control and linen quality/inventory control.",
+      "recommended_action": "Short term: remove damaged towels from circulation immediately and order replacements; instruct housekeeping to check towel condition at each exchange. Conduct maintenance check on pool heating system and temperature controls; adjust heating schedule if necessary. If pool temperature cannot be corrected quickly, communicate status to guests and consider temporary measures (signage, indoor alternatives if available). Review laundry/linen procurement and quality checks to prevent damaged towels being returned to guests.",
+      "rationale": "Pool comfort and towel condition are visible, recurring aspects of the guest experience and were called out explicitly. Fixing towel quality is operationally straightforward; pool temperature may require technical maintenance but materially affects guest satisfaction.",
+      "supporting_evidence": [
+        "Review 2024-05-29: \"cold swimming pool\"",
+        "Review 2024-06-03: \"The beach/pool towels: every day I had a \\\"bonus\\\" of receiving a damaged towel\"",
+        "Review 2024-05-26: \"Beautiful pool area.\" (positive context — pool area is an asset but temperature/towels are detractors)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "area": "Food / dinner buffet variety (vegetarian options)",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "At least one guest reported insufficient vegetarian options in the restaurant buffet dinner.",
+      "recommended_action": "Coordinate with culinary team to expand clearly labelled vegetarian choices at the dinner buffet (and consider a few rotating vegetarian specials). Brief front‑of‑house staff to highlight vegetarian items and be able to take requests. Monitor guest feedback on dinner offerings and adjust based on demand.",
+      "rationale": "Dietary variety is an important component of guest satisfaction and can be addressed with menu planning and communication rather than capital expense.",
+      "supporting_evidence": [
+        "Review 2024-05-31: \"the restaurant buffet dinner could have had more vegetarian options.\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Preserve high service standards and breakfast quality",
+      "managerial_priority": "high",
+      "action_horizon": "monitor",
+      "intervention_type": "policy_process",
+      "problem": "Not a problem to fix but a strength to preserve: multiple reviews praise specific staff (Tatiana), upgrades, the 'soberbo' breakfast and overall service—these are key drivers of high ratings.",
+      "recommended_action": "Maintain staff recognition and training programmes (acknowledge standout employees publicly/internally). Continue investment in breakfast selection and service level while monitoring for waste (one review notes adequate variety without waste). Capture staff best practices (e.g., room upgrade and welcome gestures) as standard options where appropriate.",
+      "rationale": "Positive mentions of staff and breakfast correlate with strong guest ratings. Preserving these strengths helps sustain reputation while addressing operational issues.",
+      "supporting_evidence": [
+        "Review 2024-06-05: \"I liked everything, location, facilities and staff, specially Tatiana, that made our stay great.\"",
+        "Review 2024-06-03: \"They upgraded our room and offered a bottle of champagne! The breakfast had enough variety ...\"",
+        "Multiple reviews praising rooms, breakfast and facilities."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.85
+    },
+    {
+      "rank": 5,
+      "area": "Monitor guest feedback volume and targeted complaint trends",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Number of reviews in the week decreased (-18%), and a limited number of recurring complaints are visible in text feedback. Management needs to track whether these are isolated or emerging trends.",
+      "recommended_action": "Implement weekly monitoring of review counts and categorize incoming reviews by topic (Wi‑Fi, pool, towels, food, staff). Follow up with guests who reported issues to confirm remediation. Encourage post‑stay feedback to increase review volume and capture representative sentiment.",
+      "rationale": "Active monitoring will confirm whether issues are one‑offs or systemic and will measure the effectiveness of fixes. The hotel's strong average rating and improving revenue make it timely to protect reputation.",
+      "supporting_evidence": [
+        "basic_performance: N_REVIEWS decreased by 18.18% (11 -> 9) between first and last observation",
+        "Several reviews mention repeatable operational issues (Wi‑Fi, pool/towels, dinner options)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff service (front desk, on‑site staff)",
+      "reason": "Multiple guests singled out staff and specific employees (e.g., Tatiana) for making stays great; personalised gestures (room upgrades, champagne) were noted positively.",
+      "management_implication": "Keep recognising and incentivising staff behaviour that drives guest delight; capture and standardise successful gestures where appropriate."
+    },
+    {
+      "area": "Breakfast and food service (general)",
+      "reason": "Breakfast described as 'soberbo' and 'really good' with enough variety without waste according to reviews.",
+      "management_implication": "Maintain breakfast variety and quality while monitoring waste; use as a selling point in marketing."
+    },
+    {
+      "area": "Rooms and facilities (pool area, spa, gym, parking)",
+      "reason": "Guests praise large comfortable rooms, beautiful bathrooms, good pool area, spa, gym and free ample parking.",
+      "management_implication": "Preserve upkeep standards for rooms and public areas, and highlight these facilities in communications to prospective guests."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of Wi‑Fi/connectivity complaints per week",
+      "reason": "Direct measure of whether Wi‑Fi remediation is effective and whether issues persist in particular areas.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Access point (AP) uptime / wireless network health metrics",
+      "reason": "Technical metric to validate coverage and stability improvements.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Pool temperature readings (daily) and guest complaints about pool temperature",
+      "reason": "Objective and subjective measures of pool comfort.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Towel rejection / damage incidents per week and towel replacement rate",
+      "reason": "Tracks linen quality issues and whether housekeeping is removing damaged items from circulation.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of vegetarian/clearly labelled vegetarian dinner options and dinner satisfaction (guest comments/scores)",
+      "reason": "Measures whether menu adjustments meet guest expectations.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average rating and number of reviews per week",
+      "reason": "Monitors overall guest satisfaction and review volume (noting recent drop in review count).",
+      "desired_direction": "stable"
+    }
+  ],
+  "limitations": [
+    "Analysis uses only the supplied review excerpts and performance metrics (20 reviews provided out of 38 available in the decision window). Observations may not capture all guest feedback or frequency of issues across the full guest population.",
+    "Review text is selective and some issues are reported by a small number of guests; further data collection (e.g., structured complaint logs) is needed to confirm prevalence.",
+    "Performance metrics show week‑to‑week improvement in revenue and occupancy but causality between reviews and financials cannot be inferred from the supplied data."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H556_20240603_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P030",
+    "case_id": "H556_20240603_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:18:59.168603+00:00",
+    "finished_at_utc": "2026-09-08T16:19:27.010977+00:00",
+    "elapsed_seconds": 27.834
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P035",
+  "case_information": {
+    "case_id": "H364_20240520_L4",
+    "decision_week": "2024_W21",
+    "window_start": "2024-04-29",
+    "window_end": "2024-05-26",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 227.83445141895143,
+        "REVPOR_WEEK": 437.0313577922078,
+        "TREVPAR_WEEK": 413.9546511784513,
+        "TAXA_OCUPACAO": 81.48148148148148,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.833333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 225.4771228685061,
+        "REVPOR_WEEK": 566.7545986577181,
+        "TREVPAR_WEEK": 395.80556346010445,
+        "TAXA_OCUPACAO": 78.83597883597884,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.857142857142858
+      },
+      {
+        "WEEK_YEAR": "2024_W20",
+        "week_date": "2024-05-13",
+        "REVPAR_WEEK": 244.59220766731647,
+        "REVPOR_WEEK": 538.9388362573101,
+        "TREVPAR_WEEK": 434.2837453757851,
+        "TAXA_OCUPACAO": 90.47619047619048,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W21",
+        "week_date": "2024-05-20",
+        "REVPAR_WEEK": 232.47849221380469,
+        "REVPOR_WEEK": 492.78698636363646,
+        "TREVPAR_WEEK": 506.6629464015155,
+        "TAXA_OCUPACAO": 93.12169312169311,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.2
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-05-25",
+        "rating": 10.0,
+        "liked": "Todo",
+        "disliked": "Nada",
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-23",
+        "rating": 8.0,
+        "liked": "location, architecture, reception, dining",
+        "disliked": "Insufficient soundproofing relative to the entrance hall; restaurant closed without having been informed (but 'bar' and breakfast OK)",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-21",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-20",
+        "rating": 9.0,
+        "liked": "Extremely friendly and helpful staff. Beautiful location. Everything was very clean: bathroom, bedroom... The view at breakfast was fantastic. Minibar is included in the price.",
+        "disliked": "You cannot reserve in the restaurant (Spot); as a hotel guest that is annoying. The rooms are fairly dark, there is a nice view but you have to go out to a covered terrace at your room—you can't really see it from the room. Our room door did not close properly, so noise from the lobby was quite audible. The price-quality ratio is still a bit too high.",
+        "country": "Belgium",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-20",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-18",
+        "rating": 9.0,
+        "liked": "Cleanliness and warmth",
+        "disliked": "Niente",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-16",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Luxembourg",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-15",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Switzerland",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-14",
+        "rating": 8.0,
+        "liked": "What we liked most was the comfort and the place itself. It is super calm, super peaceful and beautiful.",
+        "disliked": "It lacked Portuguese channels on the television; I know many guests must be tourists but not having the basics is disappointing. We informed them we were on our honeymoon and there was no special attention to that detail—it would have been a welcome touch.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-13",
+        "rating": 8.0,
+        "liked": "A very beautiful hotel, with direct sea views and the beach within walking distance. Very nice.",
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-13",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Ukraine",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-12",
+        "rating": 10.0,
+        "liked": "I stayed for my boyfriend’s bday and it was wonderful. The employees were all very kind and left some welcome gifts in our room + a surprise cake for breakfast. It was a fantastic stay! Would love to repeat",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-12",
+        "rating": 9.0,
+        "liked": "The location, the service, the Michelin restaurant.",
+        "disliked": "Difficulties with the Wi-Fi",
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-10",
+        "rating": 10.0,
+        "liked": "Everything was impeccable, a luxurious hotel; the beach and the restaurant were beyond praise.",
+        "disliked": "There was nothing.",
+        "country": "Russia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-09",
+        "rating": 10.0,
+        "liked": "This is a truly lovely hotel located right above the sea and next to a beach. The standard of rooms and facilities is outstanding. The staff were so professional and friendly and they are a credit to the hotel. The breakfast was superb with amazing views of the sea. The room and bathroom were bright and spotlessly clean and the complimentary drinks were appreciated A memorable 2 night experience and a hotel we will be returning to. Thanks to everyone.",
+        "disliked": null,
+        "country": "United Kingdom",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-07",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Italy",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Czech Republic",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-05-06",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-05-03",
+        "rating": 10.0,
+        "liked": "the place is wonderful facing the sea. the employees are polite, kind, the breakfast is wonderful when it's big and everything is very clean.",
+        "disliked": null,
+        "country": "United States",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-05-02",
+        "rating": 10.0,
+        "liked": "Excellent breakfast. Varied and good ingredients. The location is beautiful and magnificent.",
+        "disliked": "A few more vegetables as a supplement.",
+        "country": "Denmark",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Most reviews are highly positive (many 9–10 ratings) and key performance indicators (occupancy and revenue) improved, but multiple independent comments point to recurring operational/room issues (restaurant availability/reservations, noise/door closing, lighting, Wi‑Fi). These could erode guest satisfaction and reputation if not addressed, so proactive management is warranted.",
+    "executive_summary": "Guests consistently praise location, staff, cleanliness, breakfast and the restaurants, but several recent reviews flag repeatable operational and in‑room experience problems: unclear restaurant availability/reservation policy for hotel guests, audible noise from the entrance/lobby including a door that did not close properly, relatively dark rooms / limited in‑room view, and occasional Wi‑Fi problems. Priorities focus on fixing immediate operational failures, addressing guest comfort and safety (door/noise), and improving in‑room amenities and connectivity to protect the hotel’s high-end positioning.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Food & Beverage operations — restaurant availability and reservation policy",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Guests reported the hotel restaurant being closed without prior notice and hotel guests being unable to reserve a table; this causes disappointment and undermines the guest experience at a property that markets strong dining.",
+        "recommended_action": "Immediately enforce a clear internal policy to prioritize communication to in‑house guests: (a) ensure F&B publishes and communicates opening hours/closures to reception and to arriving guests; (b) implement a guaranteed reservation allocation or a priority booking window for hotel guests for the main hotel restaurant(s); (c) train reception/concierge to proactively inform guests at check‑in about restaurant status and alternatives (bar, nearby options) and to assist with bookings; (d) log any unexpected closures and notify guests via phone/room materials and front‑desk scripts.",
+        "rationale": "Multiple recent reviews explicitly mention a closed restaurant and inability to reserve, and the hotel emphasizes dining among its main amenities; quick operational fixes and proactive communication will reduce negative surprises and protect perceived value."
+      },
+      {
+        "rank": 2,
+        "area": "Room soundproofing & door function (guest comfort and safety)",
+        "managerial_priority": "urgent",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Guests report insufficient soundproofing from the entrance hall and at least one room door that did not close properly, making lobby noise audible in rooms and reducing sleep comfort; a door not closing properly may also present a safety/security concern.",
+        "recommended_action": "Conduct an immediate check of reported rooms and public‑space doors (inspect/repair door closers, seals, locks). Log and fix any malfunctioning doors immediately. Simultaneously schedule an acoustic assessment of rooms most affected by lobby noise and implement mitigation (sweeps, door seals, draft strips, soft‑close hardware, lobby operational measures such as carpeting, music levels, or relocating noisy equipment). Update housekeeping/front desk so affected rooms are not sold until fixed or guests are warned/relocated.",
+        "rationale": "Noise and malfunctioning doors were explicitly described and directly affect guest comfort and potentially safety; repairs and targeted acoustic measures can reduce complaints and protect reputation."
+      },
+      {
+        "rank": 3,
+        "area": "In‑room environment — lighting and visibility of view/terrace",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Several guests noted that rooms feel fairly dark and that the attractive sea view is not easily visible from inside the room (requires stepping out to a covered terrace). This reduces the perceived room value in a property where views are a major strength.",
+        "recommended_action": "Perform a room walkthrough audit (sample across room types) to evaluate natural light, curtain/blind configurations, and interior lighting levels. Short‑term: add or adjust lamps, brighter bulbs, and bedside reading lights; ensure windows/doors are presented unobstructed at housekeeping. Medium‑term: assess opportunities to modify interior finishes, window treatments, or furniture layout to maximize daylight and sightlines to the sea; include this in a minor capital plan if structural/fit‑out work is needed.",
+        "rationale": "Given the hotel's premium positioning and the importance of the sea view in guest praise, improving in‑room light and sightlines will enhance perceived value and guest satisfaction."
+      },
+      {
+        "rank": 4,
+        "area": "Connectivity — Wi‑Fi reliability",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "At least one guest experienced difficulties with the Wi‑Fi, which is important even at a leisure property and expected by guests.",
+        "recommended_action": "Log and investigate recent Wi‑Fi trouble tickets; confirm coverage and capacity in all room areas and public spaces. If no immediate network outage is found, escalate to IT/ISP for bandwidth or hardware upgrades and provide front‑desk scripts for troubleshooting (restart router, reconnect instructions) and compensation policy for connectivity failures. Track incidents until resolved.",
+        "rationale": "Connectivity issues are a common source of guest frustration; even a small number of incidents can create negative reviews. Quick troubleshooting and transparent communication reduce guest annoyance."
+      },
+      {
+        "rank": 5,
+        "area": "In‑room guest personalization and basic amenities (channels / special occasions)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Some guests noted a lack of Portuguese TV channels and an absence of personalized attention for special occasions (honeymoon), missing small touches expected at a 5‑star property.",
+        "recommended_action": "Review TV channel package to include local Portuguese channels where feasible. Reinforce front‑desk/guest services procedures to capture notes such as special occasions at reservation or check‑in and to trigger small gestures (welcome note, small amenity or room upgrade where appropriate). Train staff to record and escalate such guest preferences in PMS so the service is consistent.",
+        "rationale": "Small personalization and local‑language amenities are low‑cost ways to increase guest delight and the perceived price‑quality ratio at a luxury property."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location & views",
+        "reason": "Many reviews repeatedly praise the sea location, direct sea views and proximity to the beach — a central differentiator for the property.",
+        "management_implication": "Prioritize improvements that preserve and highlight sea views (e.g., room layouts, breakfast/lounge window presentation) and use location in marketing communications."
+      },
+      {
+        "area": "Staff service and friendliness",
+        "reason": "Numerous guests explicitly mention extremely friendly, helpful and professional staff and specific successful personalization examples (welcome gifts, surprise cake).",
+        "management_implication": "Keep investing in staff training and empowerment; capture and standardize best practices for guest surprises and problem recovery to scale positive outcomes."
+      },
+      {
+        "area": "Cleanliness and breakfast offering",
+        "reason": "Multiple guests praised cleanliness and a 'soberbo' / superb breakfast with fantastic views.",
+        "management_implication": "Maintain housekeeping standards and breakfast quality; ensure consistent ingredient variety (one request for more vegetables) and presentation to retain high satisfaction."
+      },
+      {
+        "area": "High standards of rooms/facilities and Michelin restaurant reputation",
+        "reason": "Guests describe rooms and facilities as outstanding and reference a Michelin restaurant — reinforcing luxury positioning.",
+        "management_implication": "Protect premium positioning by aligning operational fixes (F&B communication, noise reduction, in‑room comfort) with the hotel’s 5‑star service promise."
+      }
+    ],
+    "limitations": [
+      "Assessment is based only on the provided recent review sample (20 most recent reviews within the window) and the basic performance metrics; broader review channels or older feedback are not included.",
+      "Frequency of complaints in the sample is small compared to the many positive reviews; trends should be confirmed with ongoing monitoring before large capital investment.",
+      "Financial and operational metrics are provided but no causation should be inferred between customer review content and revenue/occupancy changes."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "The hotel shows multiple clear strengths (location, cleanliness, staff, breakfast) but evidence indicates rising expectation–experience gaps, increasing semantic misalignment, falling sentiment, and several emerging/expectation-violating topics (restaurant closure, door security, Wi‑Fi/TV). These are not yet pervasive across all domains but are material and include at least one safety-relevant signal (door not closing).",
+    "executive_summary": "Preserve high-performing areas (location, cleanliness, staff, breakfast quality) while addressing a small set of emerging, evidence-backed frictions: (1) immediate inspection of room door security and noise pathways; (2) short-term audit and remediation of guest-facing technology (Wi‑Fi and TV channel availability) and clearer pre-arrival/onsite communication of restaurant availability and reservation policy; (3) maintain breakfast strengths while adjusting minor offering expectations; and (4) monitor and review price–value messaging in light of rising expectation gaps and falling sentiment. Prioritize safety/room-security first, then guest-facing technology and F&B communication, with monitoring of broader expectation misalignment.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room door security & soundproofing (room comfort / access)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Guests reported a room door that did not close properly and audible noise from the lobby/entrance; 'door security' is flagged as an emerging negative topic.",
+        "recommended_action": "Immediately inspect and verify door-closing mechanisms and room-lobby noise pathways for affected room(s); if defects or misalignments are found, perform repairs. While inspecting, document scope (which rooms, frequency). Review front‑desk escalation/room-change procedures for guests reporting insecure/ill‑closing doors.",
+        "rationale": "The complaint evidence describes a door that did not close properly and noise intrusion (May 20 and May 23). Latest context flagged 'door security' as an emerging negative. This has potential guest-safety and comfort implications and therefore requires prompt inspection and remediation rather than delayed monitoring."
+      },
+      {
+        "rank": 2,
+        "area": "Wi‑Fi and in‑room TV channels (technology)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests reported Wi‑Fi difficulties and lack of basic/local TV channels (Portuguese), representing expectation violations for technology and in‑room entertainment.",
+        "recommended_action": "Carry out a short-term technical and service audit: measure Wi‑Fi performance in guestrooms and public areas, collect incident logs, and verify TV channel lineup vs. guest expectations (including availability of basic/local channels). Where technical gaps are identified, plan remediation or vendor engagement. Update pre-arrival messaging / in-room information about TV channels and Wi‑Fi (or steps to contact IT/support) to align expectations.",
+        "rationale": "Two substantive complaints cite Wi‑Fi problems (May 12) and lack of Portuguese/basic TV channels (May 14). Managerial evidence flags Wi‑Fi/TV as net_negative and an emerging expectation violation. These are operational/technical issues that affect guest experience and semantic alignment between expectations and delivered experience."
+      },
+      {
+        "rank": 3,
+        "area": "Restaurant availability & guest communication (restaurant and bar)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests experienced the restaurant being closed without prior information and inability to reserve certain restaurant as a hotel guest; this produced frustration and expectation violations.",
+        "recommended_action": "Review and clarify the restaurant reservation policy for hotel guests (including whether hotel guests have prioritized access or need to reserve externally). Establish/verify pre-arrival and on‑site communication protocols for planned closures or limited availability (e.g., during private events or seasonal changes). Ensure front desk and reservation teams have up-to-date information to inform guests and to manage expectations.",
+        "rationale": "Complaints include a restaurant closing without guests being informed (May 23) and inability to reserve the restaurant as a hotel guest (May 20). Managerial evidence lists 'restaurant closure' and 'ability to reserve restaurant as a hotel guest' as matched topics and marks the area as an emerging negative with expectation violation. The issue affects guest experience and can be addressed through policy/communication rather than immediate capital outlay."
+      },
+      {
+        "rank": 4,
+        "area": "Breakfast (preserve strength; address minor offering expectations)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Breakfast is a clear strength overall but a minority of guests reported small expectation gaps (e.g., request for more vegetables or comments on specific cake items) indicating friction between guest expectations and offerings.",
+        "recommended_action": "Preserve current breakfast service while reviewing specific menu elements and guest feedback (vegetable options, use/presentation of cakes). Consider a short, targeted check with F&B/chef on whether minor adjustments or clearer descriptions of offerings would better align with guest expectations. Monitor guest feedback after any adjustments.",
+        "rationale": "Breakfast has high positive mention share (6 positive, 1 negative) and is classified as a strength with friction in managerial evidence. Multiple reviews praise breakfast quality and views, but at least one review requests more vegetables and another notes cake being served—these are specific, low-severity expectation frictions that do not negate the overall strength."
+      },
+      {
+        "rank": 5,
+        "area": "Price–value perception & expectation alignment (messaging/positioning)",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "policy_process",
+        "problem": "There is isolated evidence of perceived high price–quality ratio and broader signals of increasing expectation–experience gap and semantic misalignment, suggesting a need to review messaging and included value elements.",
+        "recommended_action": "Monitor complaints and conduct a short review of value messaging and what is included (e.g., minibar inclusion noted in reviews). Evaluate whether booking/channel descriptions and pre-arrival communications accurately set expectations. If further negative signals emerge, perform a more formal pricing/value alignment review.",
+        "rationale": "One guest explicitly noted price–quality as 'a bit too high' (May 20). Simultaneously, experience indicators show a rising EXPECTATION_EXPERIENCE_GAP and SEMANTIC_MISALIGNMENT_SCORE_AVG and falling SENTIMENT_SCORE_AVG. Current evidence is not sufficient to prescribe pricing changes, but it justifies monitoring and review of messaging and inclusions to reduce misalignment."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Multiple reviews praise location and ocean/cliff views; managerial evidence shows 4 positive mentions, positive_share 1.0.",
+        "management_implication": "Avoid operational changes that reduce guest access to views; preserve related guest-facing descriptions."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Multiple positive mentions (4 positive, 0 negative) and high praise in guest comments.",
+        "management_implication": "Maintain current housekeeping standards and staffing practices that support cleanliness."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Reviews consistently praise staff and service (4 positive mentions in managerial evidence; multiple positive contexts).",
+        "management_implication": "Preserve service training and guest interaction protocols; involve staff when implementing communication/policy changes (e.g., restaurant availability, door issue procedures)."
+      },
+      {
+        "area": "Breakfast (overall)",
+        "reason": "High positive share (6 of 7 mentions positive); guests praise buffet and view.",
+        "management_implication": "Keep core breakfast offering and quality while addressing minor menu/expectation frictions."
+      }
+    ],
+    "limitations": [
+      "Selected complaint examples are diagnostic and not statistically representative of all guest feedback (see complaint_sample_metadata).",
+      "The evidence does not determine technical root causes, repair scope, or costs for door repairs or Wi‑Fi remediation; further technical assessment is required before capital or detailed operational plans.",
+      "No causal link can be inferred between the complaints and revenue or occupancy metrics; business metrics show mixed recent movement and some recent reversals that must be interpreted separately.",
+      "Recommendations avoid prescribing specific technical solutions or staffing levels because the supplied evidence does not identify appropriate implementation details."
+    ]
+  }
+}

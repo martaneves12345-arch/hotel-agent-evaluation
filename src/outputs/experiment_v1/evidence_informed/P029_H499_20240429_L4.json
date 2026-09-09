@@ -1,0 +1,255 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most operational and commercial metrics are improving (REVPAR, REVPOR, occupancy, average rating) but review evidence shows several customer-experience frictions. Bathroom condition (mould, pests, damp) presents a potential health/quality risk and is an emerging negative topic; housekeeping/towel-change and staff-availability/communication are recurring frictions. Evidence is sufficient to require prompt operational/maintenance and process reviews but does not indicate a widespread systemic failure across all areas.",
+  "executive_summary": "Preserve the hotel's clear strength in location and generally positive staff interactions while addressing four prioritized frictions: (1) bathroom condition (mould, pests, damp) — immediate safety/maintenance attention; (2) housekeeping and towel-change / pest-control — review operational policy and cleanliness standards; (3) staff availability and communication — targeted service-process/coverage review and coaching; (4) booking/payment invoicing process — resolve the reported failure to provide company invoices; (5) room size/noise expectations — review marketing descriptions and assess need for acoustic/physical remedies. Several recommendations require inspection or manager review before committing capital.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Multiple recent reviews report small, damp bathrooms, black mould in showers and presence of cockroaches — potential health/cleanliness and guest-safety concerns.",
+      "recommended_action": "Immediately inspect rooms and bathrooms (mould, ventilation, water intrusion) and arrange pest-control inspection. Remove/clean affected areas per maintenance/pest-control guidance and document remediation. If inspection suggests structural or recurring ventilation issues, commission a technical assessment before any capital remediation decision.",
+      "rationale": "Concrete reports of black mould, damp bathrooms and insects across several April–May reviews indicate a health/quality issue that warrants prompt inspection and remediation rather than deferred monitoring.",
+      "supporting_evidence": [
+        "Review 2024-04-11 (rating 5): 'Black mould in the shower... during the night I killed a large cockroach in the bathroom.'",
+        "Review 2024-04-23 (rating 4): 'Dead cock roachine in room... toilet not totally clean.'",
+        "Review 2024-04-11 (nl) (rating 6): 'The rim of our shower was moldy... the room was a bit claustrophobic.'",
+        "Review 2024-04-27 (rating 7): 'Overlooking stairs and damp room with floor uneven...' ",
+        "Managerial evidence: bathroom condition — 5 mentions (4 negative, 1 positive), identified as emerging negative."
+      ],
+      "positive_counterevidence": [
+        "Some reviews describe overall cleanliness positively (e.g., 2024-04-20 rating 10: 'very clean'), indicating the issue may be localized rather than universal."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 4,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "Managerial evidence: bathroom condition flagged as emerging negative (mentions of mould/pests).",
+          "Complaint examples in April mention mould, dead cockroaches and damp rooms."
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Cleanliness and housekeeping (towel-change policy, shared facilities)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guest complaints about towels not being clean, towel-change only every 3 days, unpleasant-smelling refrigerator in shared kitchen, and at least one pest incident tied to cleanliness concerns.",
+      "recommended_action": "Review housekeeping frequency and towel-change policy relative to guest expectations and the property's positioning; audit current cleaning procedures (including shared kitchen/fridge) and short-term pest-control measures. Update front-desk scripting so housekeeping-related requests are handled consistently. If policy changes are considered, evaluate operational impact and communicate any policy clearly to guests at booking and check-in.",
+      "rationale": "Multiple reviews reference towel cleanliness and a policy of towel changes only every three days; one review explicitly calls the policy 'scandalous.' These are expectation frictions tied to perceptions of cleanliness and link to the bathroom/pest issues.",
+      "supporting_evidence": [
+        "Review 2024-04-23 (rating 4): 'Room dirty, had to ask to change towels, etc. Said only every 3 days unacceptable... Dead cock roachine in room... toilet not totally clean.'",
+        "Review 2024-05-02 (rating 8): 'No towel change possible without paying... We stayed 2 nights. Bathroom tiny and damp. Reception staff absent.'",
+        "Review 2024-04-11 (rating 5): 'The towels had a strong chemical smell.'",
+        "Managerial evidence: cleanliness and housekeeping — 4 mentions (2 positive, 2 negative) with an expectation violation week noted."
+      ],
+      "positive_counterevidence": [
+        "Some guests reported positive overall cleanliness and good facilities (e.g., 2024-04-20 rating 10)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "Mentions of towel-change policy and complaints about towel cleanliness across April–May reviews.",
+          "Shared-facility cleanliness complaints (fridge smell) in review evidence."
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Staff availability and communication",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "While staff friendliness is often praised, several recent reviews note absent reception, curt responses, or poor communication — leading to expectation violations (e.g., unresolved invoice requests, unavailability at reception).",
+      "recommended_action": "Review front-desk staffing/coverage patterns and service-handling procedures (phone/email response times, escalation for invoicing and guest requests). Provide targeted coaching on communication and response standards and implement a measurable follow-up process for outstanding guest requests (e.g., invoices). Monitor guest reports of staff availability after changes.",
+      "rationale": "Managerial evidence shows staff as a strength (5 positive mentions) but with recurring friction: expectation violations and an emerging negative topic for staff availability. Addressing response-processes should preserve the underlying staff friendliness while closing operational gaps.",
+      "supporting_evidence": [
+        "Review 2024-04-11 (rating 5): 'Very friendly and helpful staff.'",
+        "Review 2024-04-28 (rating 6): 'The staff reacted rather curtly to my requests... Friendliness and communication definitely need improvement. Reception staff absent.'",
+        "Review 2024-05-02 (rating 8): 'Reception staff absent.'",
+        "Managerial evidence: staff and service — 8 mentions (5 positive, 2 negative), flagged as positive_with_friction and emerging_negative_weeks = 1."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews explicitly praise staff friendliness and helpfulness (e.g., 2024-04-20 rating 10; 2024-04-11 rating 5)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "Emerging negative topic: staff availability.",
+          "Violated expectation weeks recorded in managerial evidence for staff."
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Booking and payment (invoice provision)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reports being unable to obtain a company/business invoice despite repeated contact since arrival — a clear expectation violation for business guests.",
+      "recommended_action": "Investigate the invoicing process and fulfillment for requested company invoices (check email handling, billing procedures, staff responsibilities). Ensure a clear, documented process exists to issue requested invoices promptly and that front-desk staff and accounting are aligned. Confirm with the guest(s) and close outstanding requests.",
+      "rationale": "An explicit complaint (rating 1) describes repeated unsuccessful attempts to obtain a requested business invoice — this is a concrete expectation-violation in a commercial process that can be fixed by process improvement and staff/accounting coordination.",
+      "supporting_evidence": [
+        "Review 2024-04-10 (rating 1): 'I needed to travel for work and I did not obtain an invoice requested from the moment of arrival... To this day I have not been able to obtain ANY invoice in a company name, which I need.'",
+        "Managerial evidence: booking and payment — 2 mentions (1 positive, 2 negative) with violated_expectation_weeks = 1."
+      ],
+      "positive_counterevidence": [
+        "One positive mention in managerial evidence suggests not all booking/payment interactions are problematic, but the single severe complaint indicates a process failure for business invoicing."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "Violations recorded in managerial evidence for booking/payment (timely provision of requested invoice)."
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Room comfort / noise and room size expectations",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Several guests reported very small rooms, thin walls/noise from other floors and rooms, and an uneven/damp floor in one room — these are recurring expectations about physical room comfort and acoustic privacy.",
+      "recommended_action": "Review room descriptions and photos across distribution channels to ensure accurate expectations about size and configuration. Conduct a targeted assessment of acoustic issues (identify highest-frequency problem rooms) and evaluate low-cost mitigation options (operational changes, guest guidance) before considering capital measures. If problems are concentrated in particular units, prioritize those for inspection and possible remedial work.",
+      "rationale": "Multiple independent reviews mention small rooms and thin walls/noise; this appears structural to building layout or room types rather than a transient operational lapse. The correct initial step is assessment and expectation-alignment rather than immediate capital expenditure.",
+      "supporting_evidence": [
+        "Review 2024-04-30 (rating 6): 'The room was small... we did not unpack our bags.'",
+        "Review 2024-04-11 (nl) (rating 6): 'Rooms are really very small, the walls are very thin so you can hear anyone who comes in late or gets up early.'",
+        "Review 2024-04-29 (rating 8): 'Noise. The size of the room...'",
+        "Review 2024-04-27 (rating 7): 'Overlooking stairs and damp room with floor uneven and I tripped.'",
+        "Managerial evidence: room comfort — 2 mentions (1 positive, 1 negative) with topics air conditioning and bed quality noted."
+      ],
+      "positive_counterevidence": [
+        "Several reviews praise beds and air conditioning and say rooms are adequate for short stays (e.g., positive context mentions 'good bed and air conditioning', 'adequately equipped')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "Multiple guest complaints across April citing small rooms and thin walls/noise.",
+          "Complaint about uneven/damp floor in a room (April 27)."
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Repeatedly and consistently praised across reviews (6 positive mentions, no negatives). Proximity to center and accessibility are frequently cited as key positives.",
+      "management_implication": "Continue marketing and distribution that highlight central location; ensure reservations and online descriptions maintain this strength."
+    },
+    {
+      "area": "Staff friendliness (overall)",
+      "reason": "Multiple reviews explicitly praise friendly and helpful staff (managerial evidence: 5 positive mentions). This underpins many positive guest contexts.",
+      "management_implication": "Preserve by reinforcing positive service culture (training/coaching) while addressing identified availability/communication gaps so friendliness translates to dependable service."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Mentions of mould, damp or pests in reviews",
+      "reason": "Directly tied to bathroom condition and cleanliness/pest concerns; safety-relevant.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Mentions of towel-change policy or requests for towel change",
+      "reason": "Tracks the housekeeping/towel-change friction and expectation alignment.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Complaints about invoicing / number of outstanding invoice requests",
+      "reason": "Measures whether booking/payment process issues are resolved after process review.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of staff unavailability or curt communication",
+      "reason": "Monitors whether service-process changes improve perceived staff responsiveness.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of room size and noise",
+      "reason": "Tracks perception of physical room comfort and whether expectation-alignment or remedial actions reduce complaints.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    }
+  ],
+  "limitations": [
+    "Selected complaint sample (11 substantive disliked texts) is diagnostic, not statistically representative of all 39 reviews in the window; prevalence should be assessed against full review distribution.",
+    "Evidence identifies issues (mould, pests, noise, invoicing) but does not determine technical scope, cost, or exact remediation steps — inspections and process audits are required before committing capital.",
+    "Some positives (overall cleanliness, staff friendliness, strong location) coexist with negatives; avoid assuming uniform conditions across all rooms or shifts from limited examples.",
+    "Timeframe is four weeks; emerging signals (e.g., towel-change complaints, staff availability) require monitoring to establish persistence before larger interventions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P029",
+    "case_id": "H499_20240429_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:18:13.353088+00:00",
+    "finished_at_utc": "2026-09-08T16:18:58.827165+00:00",
+    "elapsed_seconds": 45.472
+  }
+}

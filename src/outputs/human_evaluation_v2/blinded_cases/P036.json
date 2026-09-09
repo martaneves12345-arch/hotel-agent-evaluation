@@ -1,0 +1,375 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P036",
+  "case_information": {
+    "case_id": "H400_20240617_L4",
+    "decision_week": "2024_W25",
+    "window_start": "2024-05-27",
+    "window_end": "2024-06-23",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 28.66107342543681,
+        "REVPOR_WEEK": 151.79052710280374,
+        "TREVPAR_WEEK": 46.38740820804552,
+        "TAXA_OCUPACAO": 33.22981366459628,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 7.0
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 45.64439948135071,
+        "REVPOR_WEEK": 141.93336548223354,
+        "TREVPAR_WEEK": 72.95917192672702,
+        "TAXA_OCUPACAO": 61.80124223602485,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 8.2
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 30.03269672967864,
+        "REVPOR_WEEK": 115.55546,
+        "TREVPAR_WEEK": 42.140461417769394,
+        "TAXA_OCUPACAO": 35.714285714285715,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W25",
+        "week_date": "2024-06-17",
+        "REVPAR_WEEK": 51.9534620020828,
+        "REVPOR_WEEK": 167.64484610778447,
+        "TREVPAR_WEEK": 85.11038640978914,
+        "TAXA_OCUPACAO": 52.17391304347826,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-06-23",
+        "rating": 9.0,
+        "liked": "Excellent location. Beautiful green area, very well cared for. Good comfort, very good breakfast and very friendly and professional service. I highly recommend this hotel.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-22",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Cayman Islands",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-22",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Germany",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-21",
+        "rating": 8.0,
+        "liked": "Location and service.",
+        "disliked": "Maintenance in progress.",
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-20",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-19",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-19",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Brazil",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-19",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-18",
+        "rating": 8.0,
+        "liked": "The food is good, the staff are friendly, the rooms are large.",
+        "disliked": "For a four-star hotel it should have bar/restaurant service during the day. We were a group of 40 people; the bar service was slow because there are too few staff for the hotel's capacity. Although the hotel is good and I enjoyed the experience, there is a lot of potential to explore. The hotel needs interior and exterior remodeling.",
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-18",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-17",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-17",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Lithuania",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-16",
+        "rating": 6.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-16",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-15",
+        "rating": 10.0,
+        "liked": "Excellent breakfast, excellent outdoor space, peace and tranquility.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 8.0,
+        "liked": "A tranquilidade do local",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-14",
+        "rating": 8.0,
+        "liked": "Very attentive and helpful staff.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-13",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-06-12",
+        "rating": 10.0,
+        "liked": "Everything was very good.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-06-11",
+        "rating": 8.0,
+        "liked": "Friendliness of the staff, peaceful atmosphere, good breakfast, magnificent and well-maintained space.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Business performance and ratings are improving, but multiple signal streams show increasing expectation–experience gap, semantic misalignment, and declining sentiment. Complaints are few (3 substantive) but cluster on property condition and daytime F&B service; these represent manageable risks that merit targeted operational fixes and a property-condition assessment.",
+    "executive_summary": "Strengths: staff friendliness/helpfulness, good breakfast, convenient location, improving RevPAR/occupancy and average rating. Priorities: (1) address daytime bar/restaurant service responsiveness for busy periods/events (operational/process); (2) assess and plan for interior/exterior maintenance and renovation where guests report needed repairs (maintenance/capital assessment); (3) review price–value positioning given at least one expectation violation tied to property condition; (4) monitor and act on rising expectation–experience gap and semantic misalignment to prevent broader sentiment decline. Preserve current service behaviors that guests praise (staff helpfulness, breakfast quality).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Restaurant and bar (daytime service responsiveness)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report slow daytime bar/restaurant service during busy periods and events; perceived understaffing relative to hotel capacity led to service delays and expectation violations for a 4-star property.",
+        "recommended_action": "Review daytime F&B service model and event support processes: (a) evaluate whether staffing deployment and service processes during daytime and group events match expected capacity; (b) assess whether menu/service scope during daytime meets guest expectations for a four‑star hotel; (c) implement operational changes (scheduling, process adjustments, or service-level clarifications) as appropriate. Do not assume capital hire/changes until operational review is completed.",
+        "rationale": "Concrete guest complaint describes slow bar service for a 40-person group and explicitly ties the issue to insufficient staff for the hotel's capacity. Managerial evidence links 'daytime bar/restaurant service' and 'faster bar/service responsiveness' as matched topics. The issue is an expectation violation (guests expect adequate daytime service for a 4-star property) but sits against an overall service strength, so targeted operational fixes are appropriate."
+      },
+      {
+        "rank": 2,
+        "area": "Property condition — interior & exterior maintenance / renovation",
+        "managerial_priority": "urgent",
+        "action_horizon": "medium_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple reviews identify the need for interior and exterior remodeling and/or repairs; one review notes 'maintenance in progress' and another describes aspects that 'urgently need repair.' This is an emerging negative topic in the latest context.",
+        "recommended_action": "Commission a focused property-condition assessment/inspection to determine scope and urgency of maintenance and remodeling needs (interior and exterior). Prioritize any safety/urgent repairs identified. Based on the assessment, prepare a maintenance plan and timeline and communicate ongoing/planned works transparently to guests until remediation is complete.",
+        "rationale": "Three substantive complaints in the window reference remodeling/repairs/maintenance in progress; 'interior renovation' and 'exterior renovation' are listed as emerging negative topics. The evidence indicates potential structural/maintenance issues that cannot be scoped from guest comments alone, so an inspection/assessment is needed before recommending capital investment."
+      },
+      {
+        "rank": 3,
+        "area": "Price–value (perception relative to condition/price)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest explicitly states the facilities do not match the price per night and links this to a need for remodeling — an expectation violation about value for money.",
+        "recommended_action": "Review pricing and value positioning relative to current property condition and competitive set. Consider: (a) whether current rates reflect the guest experience and property condition; (b) improved communication of what is included and any ongoing maintenance; (c) near-term offers or adjustments only after condition assessment. Where scope of required investment is unclear, link any pricing decisions to the results of the property-condition assessment.",
+        "rationale": "Managerial and complaint evidence shows a price–value expectation violation tied to perceived need for updates. Evidence is limited to a small number of mentions but is amplified by maintenance/renovation signals; a pricing/value review is prudent and should be informed by the maintenance assessment."
+      },
+      {
+        "rank": 4,
+        "area": "Expectation–experience alignment and guest messaging",
+        "managerial_priority": "medium",
+        "action_horizon": "monitor",
+        "intervention_type": "monitoring",
+        "problem": "Analytic indicators show rising expectation–experience gap, increasing semantic misalignment, and declining average sentiment — early warning that guest expectations are slipping relative to delivery or messaging.",
+        "recommended_action": "Monitor these metrics closely and (a) review guest-facing descriptions (online content, property descriptions) for semantic alignment with actual guest experience; (b) solicit brief targeted guest feedback on expectations at check-in or post-stay to diagnose misalignment causes; (c) track sentiment, expectation_gap, and high_misalignment_share weekly and escalate operationally if negative trends persist.",
+        "rationale": "Experience indicators: EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG are both increasing; EXPECTATION_VIOLATION_RATIO increased and SENTIMENT_SCORE_AVG is decreasing. These are trend signals rather than numerous complaints, so monitoring plus targeted messaging/process reviews is appropriate before heavier interventions."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Six positive mentions highlight staff friendliness, helpfulness, and responsiveness; service level noted as matching advertised star rating in multiple reviews.",
+        "management_implication": "Preserve current staffing culture and service practices while addressing specific daytime service friction; use staff as ambassadors to communicate maintenance/works to guests."
+      },
+      {
+        "area": "Breakfast",
+        "reason": "Four positive mentions; breakfast quality repeatedly praised.",
+        "management_implication": "Maintain breakfast offering and consider emphasizing it in guest communications as a core value element while other issues are addressed."
+      },
+      {
+        "area": "Location and room comfort",
+        "reason": "Multiple positive mentions about location (calm, peace) and rooms described as large and comfortable.",
+        "management_implication": "Highlight location and room comfort in guest messaging and marketing; ensure any renovation work minimizes disruption to these valued aspects."
+      }
+    ],
+    "limitations": [
+      "The complaint sample is small: 3 substantive 'disliked' comments out of 30 reviews in the window; selected complaints are diagnostic and not fully representative.",
+      "Property-condition issues are described by guests but the scope, cost, and technical requirements of renovations/repairs cannot be determined from reviews; an on-site assessment is required before recommending capital investment.",
+      "The analytic indicators show trends (expectation gap, misalignment, sentiment) but do not identify specific causal operational failures; recommended operational reviews and targeted monitoring are needed to diagnose root causes.",
+      "Some evidence items (e.g., price–value concern) are single-mention signals and should be calibrated against broader feedback after corrective actions or further monitoring."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Customer ratings and revenue indicators have improved markedly, but multiple guest comments flag operational weaknesses (slow bar service during groups, insufficient staffing) and ongoing maintenance/remodeling needs. With occupancy and REVPAR rising, these service and asset issues could degrade guest experience if not addressed.",
+    "executive_summary": "Recent reviews (20 provided) show strong guest appreciation for location, outdoor spaces, breakfast and friendly staff; average rating rose from 7.0 to 9.0 and occupancy and REVPAR increased substantially. However, recurring complaints concern slow F&B/bar service (especially for groups), visible maintenance works and comments that the hotel needs interior and exterior remodeling. Management priorities should focus on (1) addressing F&B staffing and service coverage for peak periods/groups, (2) planning and funding targeted maintenance/refurbishment, (3) managing guest experience and communication during maintenance works, (4) capacity planning to protect service quality as demand grows, and (5) preserving strengths (outdoor space, breakfast, staff friendliness).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "F&B service and staffing",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "operational",
+        "problem": "Guests report slow bar/service during the day and too few staff to handle the hotel's capacity, especially when groups are present.",
+        "recommended_action": "Review F&B staffing rosters and service coverage for daytime and event periods; introduce temporary additional staff or reallocate duties for upcoming busy dates; implement a simple service playbook for groups (pre-staffing, express menus, dedicated server teams). Train staff on peak-service workflows and monitor throughput.",
+        "rationale": "Several reviews explicitly cite slow bar service and insufficient staff during a 40-person group; with occupancy and REVPAR rising, service shortfalls are more likely. Improving staffing and procedures will protect guest satisfaction and ratings."
+      },
+      {
+        "rank": 2,
+        "area": "Maintenance and refurbishment planning",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Guests commented that the hotel needs interior and exterior remodeling; maintenance works were visible during stays.",
+        "recommended_action": "Undertake an asset condition assessment (interior and exterior) to create a prioritized refurbishment plan and budget. Start with high-impact areas visible to guests (public areas, F&B outlet, rooms) and schedule works to minimize guest disruption. Consider phased upgrades aligned with occupancy seasonality.",
+        "rationale": "Multiple reviews mention the need for remodeling and visible maintenance in progress. A formal plan will address guest perceptions, protect long-term competitiveness for a 4-star hotel and align investment with revenue gains."
+      },
+      {
+        "rank": 3,
+        "area": "Guest communication and management during maintenance",
+        "managerial_priority": "high",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Maintenance in progress was noticed by guests and may reduce satisfaction if not well communicated or scheduled.",
+        "recommended_action": "Implement a visible guest-communication protocol: notify arriving and booking guests about any planned works, provide timelines, offer room reassignments away from work areas, and offer small goodwill gestures (e.g., complimentary drink or late check-out) when disruption occurs. Coordinate maintenance times to avoid peak guest periods.",
+        "rationale": "A review explicitly notes 'maintenance in progress' as a disliked item. Transparent communication and mitigation reduce negative impact on ratings while works continue."
+      },
+      {
+        "rank": 4,
+        "area": "Capacity planning as demand increases",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "monitoring",
+        "problem": "Occupancy, REVPAR and review volume have risen sharply; without capacity planning (staff, service processes, F&B hours) quality can degrade.",
+        "recommended_action": "Match staffing, opening hours and supplies to expected demand. Use recent booking patterns to forecast busy days and adjust staff schedules. Consider temporary staffing or flexible rota models for weekends and group arrivals. Reassess opening hours for bar/restaurant to match guest expectations for daytime service.",
+        "rationale": "Basic performance shows occupancy up ~57% and REVPAR up ~81% in the window; reviews indicate demand (groups) and service pressure. Proactive capacity planning helps maintain ratings and revenue momentum."
+      },
+      {
+        "rank": 5,
+        "area": "F&B offering and daytime bar/restaurant service",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest felt that a 4-star hotel should offer bar/restaurant service during the day and that there is potential to improve F&B offerings.",
+        "recommended_action": "Review F&B service hours and menu options for daytime guests; test a limited daytime beverage/snack menu and measure guest uptake. If demand justifies, extend service hours or staff a daytime bar. Communicate the availability clearly to guests.",
+        "rationale": "A review explicitly states the hotel should have bar/restaurant service during the day for its star level and guest mix. Small changes could increase guest satisfaction and ancillary revenue."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Outdoor space and green areas",
+        "reason": "Multiple reviews praise the \"beautiful green area,\" \"excellent outdoor space,\" tranquility and well-maintained grounds.",
+        "management_implication": "Continue regular grounds maintenance and promote outdoor amenities in marketing; prioritize preservation of these spaces during any refurbishment."
+      },
+      {
+        "area": "Breakfast quality",
+        "reason": "Several reviews specifically call out \"very good\" or \"excellent breakfast.\"",
+        "management_implication": "Maintain breakfast quality and variety; ensure staffing and supplies to preserve this guest-perceived strength."
+      },
+      {
+        "area": "Staff friendliness and service attitude",
+        "reason": "Numerous reviews mention \"very friendly and professional service\" and \"very attentive and helpful staff.\"",
+        "management_implication": "Preserve service culture via training, recognition and appropriate staffing levels so friendliness remains consistent under higher demand."
+      },
+      {
+        "area": "Peaceful/tranquil atmosphere",
+        "reason": "Guests repeatedly note tranquility and peaceful atmosphere as a positive.",
+        "management_implication": "Schedule noisy activities and maintenance outside core guest quiet hours; protect this attribute in operations and refurbishment planning."
+      }
+    ],
+    "limitations": [
+      "Analysis is based only on the 20 most recent reviews provided (out of 30 available in the window).",
+      "No internal data provided on current staffing levels, shift schedules, or detailed maintenance scope/costs — recommendations on staffing and capital works require that information to finalize plans.",
+      "Cannot determine exact frequency or timing of group events from the supplied data; specific scheduling recommendations require booking data.",
+      "No detailed breakdown of F&B revenue or guest arrival times was provided, limiting precision of recommendations for extending service hours."
+    ]
+  }
+}

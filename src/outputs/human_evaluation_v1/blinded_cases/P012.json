@@ -1,0 +1,570 @@
+{
+  "evaluation_version": "human_eval_v1",
+  "evaluation_case_id": "P012",
+  "case_information": {
+    "case_id": "H77_20241202_L4",
+    "decision_week": "2024_W49",
+    "decision_date": "2024-12-02",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W46",
+        "week_date": "2024-11-11",
+        "REVPAR_WEEK": 11.04211186356896,
+        "REVPOR_WEEK": 53.328286554621855,
+        "TREVPAR_WEEK": 24.687835755478662,
+        "TAXA_OCUPACAO": 17.507002801120446,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 7.875,
+        "SENTIMENT_SCORE_AVG": 0.2153846153846153,
+        "SENTIMENT_SCORE_STD": 0.6011740649847234,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.0999999999999999,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.0999999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.125,
+        "EMOTION_ENTROPY": 1.5262349099495225,
+        "EXPECTATION_SHARE": 0.125,
+        "HIGH_EXPECTATION_SHARE": 0.125,
+        "HIGH_MISALIGNMENT_SHARE": 0.125,
+        "PERC_REVIEWS_NEGATIVE": 75.0,
+        "PERC_OPERATIONAL_COMPLAINTS": 33.33333333333333,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.625,
+        "COMPLEXITY_INDEX": 2.6826157254416705,
+        "SENTIMENT_TREND_SLOPE": -5.399129126245411e-05
+      },
+      {
+        "WEEK_YEAR": "2024_W47",
+        "week_date": "2024-11-18",
+        "REVPAR_WEEK": 11.44673383492932,
+        "REVPOR_WEEK": 52.5286046511628,
+        "TREVPAR_WEEK": 27.871333052135576,
+        "TAXA_OCUPACAO": 18.34733893557423,
+        "N_REVIEWS": 1.0,
+        "AVG_RATING": 8.0,
+        "SENTIMENT_SCORE_AVG": null,
+        "SENTIMENT_SCORE_STD": null,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": null,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": null,
+        "EXPECTATION_VIOLATION_RATIO": null,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": null,
+        "EXPECTATION_SHARE": 0.0,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.0,
+        "PERC_REVIEWS_NEGATIVE": 0.0,
+        "PERC_OPERATIONAL_COMPLAINTS": null,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.0,
+        "COMPLEXITY_INDEX": null,
+        "SENTIMENT_TREND_SLOPE": -5.399129126245411e-05
+      },
+      {
+        "WEEK_YEAR": "2024_W48",
+        "week_date": "2024-11-25",
+        "REVPAR_WEEK": 25.486739380099863,
+        "REVPOR_WEEK": 46.94022608695652,
+        "TREVPAR_WEEK": 49.12443266350016,
+        "TAXA_OCUPACAO": 23.38935574229692,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 7.0,
+        "SENTIMENT_SCORE_AVG": -0.1399999999999999,
+        "SENTIMENT_SCORE_STD": 0.4033195589934445,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.2,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.2099999999999999,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.1666666666666666,
+        "EMOTION_ENTROPY": 1.360964047443681,
+        "EXPECTATION_SHARE": 0.3333333333333333,
+        "HIGH_EXPECTATION_SHARE": 0.1666666666666666,
+        "HIGH_MISALIGNMENT_SHARE": 0.1666666666666666,
+        "PERC_REVIEWS_NEGATIVE": 83.33333333333334,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.3333333333333333,
+        "COMPLEXITY_INDEX": 2.7224101186092025,
+        "SENTIMENT_TREND_SLOPE": -5.399129126245411e-05
+      },
+      {
+        "WEEK_YEAR": "2024_W49",
+        "week_date": "2024-12-02",
+        "REVPAR_WEEK": 28.3908410899654,
+        "REVPOR_WEEK": 56.28613294117648,
+        "TREVPAR_WEEK": 42.73529937139562,
+        "TAXA_OCUPACAO": 29.831932773109244,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 7.428571428571429,
+        "SENTIMENT_SCORE_AVG": 0.12,
+        "SENTIMENT_SCORE_STD": 0.6610597552415364,
+        "EXPECTATION_EXPERIENCE_GAP_AVG": 0.1,
+        "SEMANTIC_MISALIGNMENT_SCORE_AVG": 0.1875,
+        "EXPECTATION_VIOLATION_RATIO": 1.0,
+        "MAJOR_MISALIGNMENT_SHARE": 0.0,
+        "EMOTION_ENTROPY": 1.5219280948873626,
+        "EXPECTATION_SHARE": 0.1428571428571428,
+        "HIGH_EXPECTATION_SHARE": 0.0,
+        "HIGH_MISALIGNMENT_SHARE": 0.1428571428571428,
+        "PERC_REVIEWS_NEGATIVE": 14.285714285714285,
+        "PERC_OPERATIONAL_COMPLAINTS": 0.0,
+        "PERC_PRICE_VALUE_MENTIONS": 0.0,
+        "POLARIZATION_INDEX": 0.2857142857142857,
+        "COMPLEXITY_INDEX": 2.6359640474436814,
+        "SENTIMENT_TREND_SLOPE": -5.399129126245411e-05
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-12-08",
+        "rating": 8.0,
+        "liked": "Friendly and welcoming staff. Pet-friendly. A prime area for resting. The hotel has an extraordinary park for those accompanied by a dog.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-08",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-08",
+        "rating": 6.0,
+        "liked": "Breakfast, scenery/location.",
+        "disliked": "Water leak in the bathtub. The cistern—I had to repair it to make it function properly. In the bathtub there were two \"clips\" that were dangerous for the user.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-08",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-05",
+        "rating": 3.0,
+        "liked": "The fact that the thermal baths were not included in the prices when people book the stay — nowhere was this mentioned. Moreover, when confronted with this situation, there were no slots left for us to go to the baths. In the future, I think you should really consider always reserving slots for guests.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-04",
+        "rating": 7.0,
+        "liked": "Good breakfast - value for money.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-03",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-01",
+        "rating": 6.0,
+        "liked": "Localização",
+        "disliked": "The room was very outdated. The television worked poorly. Channels listed in the brochure did not work. Lighting was deficient.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-01",
+        "rating": 5.0,
+        "liked": "Localização",
+        "disliked": "Pillows and mattress.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-12-01",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-11-28",
+        "rating": 6.0,
+        "liked": "Location",
+        "disliked": "Lack of light in the room. Low shower pressure. Very weak Wi‑Fi connection. Breakfast average, not very varied.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-27",
+        "rating": 6.0,
+        "liked": "Location and spa and massage facilities on-site, although in another building. Provision of bicycles free of charge.",
+        "disliked": "Regarding Safety (fire‑fighting means), the Hotel does not comply and presents serious non‑conformities.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-27",
+        "rating": 9.0,
+        "liked": "The atmosphere, the gardens and the bathtub.",
+        "disliked": "Little care and the breakfast.",
+        "country": "Spain",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-11-21",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-17",
+        "rating": 4.0,
+        "liked": "Nothing good deserves to be highlighted.",
+        "disliked": "Outdated facilities; in the restaurant only a buffet of mediocre quality and variety was offered. Everything needs a deep renovation.",
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-17",
+        "rating": 9.0,
+        "liked": "Everything ok.",
+        "disliked": "Nothing to report.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-16",
+        "rating": 9.0,
+        "liked": "Surroundings.",
+        "disliked": "nothing to report",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-16",
+        "rating": 9.0,
+        "liked": "I liked the meals.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-11-14",
+        "rating": 6.0,
+        "liked": "For the friendliness and kindness of the staff, for the food, the cleanliness, and the peaceful environment, which is wonderful for rest.",
+        "disliked": "The fact that there was no double bed and that the hotel is quite run‑down is a shame.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-11-12",
+        "rating": 9.0,
+        "liked": "I liked the welcome.",
+        "disliked": "The room was far away and during the night you could hear a machine running.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "overall_risk_rationale": "Multiple recent guest complaints identify safety-relevant issues (explicit report of fire-safety non-conformities and a report of metal clips in a bathtub described as dangerous) plus recurring room-maintenance and comfort problems (leaks, poor shower pressure, outdated rooms, mattress/pillow complaints). These safety and maintenance items justify elevated priority despite strengths in location and service and generally improving RevPAR.",
+    "executive_summary": "Preserve current strengths (location, friendly staff, cleanliness) while immediately addressing safety and urgent bathroom hazards. Next, prioritize remediation of in-room comfort and technology failures (mattresses/pillows, lighting, TV channels, shower pressure, Wi‑Fi). Review food & beverage offering (breakfast/restaurant variety) to reduce repeated negative comments and evaluate guest expectations. Finally, clarify spa inclusion/reservation and booking disclosures to align expectations. Several items (safety and some structural/renovation claims) require in-person inspection or compliance assessment before committing to capital works.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Safety and regulatory compliance (fire-safety) and bathroom hazards",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "mixed",
+        "problem": "Guest reports indicate potential regulatory non-conformities in fire‑safety equipment and an immediate physical hazard in a bathtub (metal clips) plus plumbing failures that guests attempted to repair themselves.",
+        "recommended_action": "Initiate immediate safety and maintenance actions: (a) order an urgent safety/compliance inspection focused on fire-fighting equipment and regulatory conformity; (b) instruct engineering/maintenance to inspect and secure/remove the bathtub metal clips and verify bathtubs/cisterns for leaks and safe operation; (c) temporarily block or reassign rooms with unresolved hazards until repaired; (d) document findings and corrective timeline and communicate status internally.",
+        "rationale": "Safety-related complaints are individually high-severity (explicit non-conformity and a reported dangerous object in a bathtub). Per safety-first rules, these issues justify immediate managerial attention and a compliance/inspection response before other interventions or public messaging.",
+        "supporting_evidence": [
+          "2024-11-27 complaint: 'Regarding Safety (fire‑fighting means), the Hotel does not comply and presents serious non‑conformities.'",
+          "2024-12-08 complaint: 'In the bathtub there were two \"clips\" that were dangerous for the user.'",
+          "2024-12-08 complaint: 'Water leak in the bathtub. The cistern—I had to repair it to make it function properly.'",
+          "Managerial evidence: 'Bathroom condition' flagged as emerging_negative with matched topic 'bathroom safety hazard (metal clips in bathtub)'."
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 2,
+        "area": "Rooms — comfort, in-room maintenance and in-room technology (mattress/pillows, lighting, shower pressure, TV channels, noise, Wi‑Fi)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Multiple guests report in-room comfort and functionality problems: uncomfortable pillows/mattresses, insufficient lighting, low shower pressure, water leaks, noisy rooms, and in-room technology failures (TV channels not working, weak Wi‑Fi). These drive guest frustration and several discrete complaints across the review window.",
+        "recommended_action": "a) Schedule prioritized inspections of affected rooms to check mattresses/pillows, lighting, shower pressure, plumbing and noise sources; b) task engineering/IT to diagnose and fix TV channel availability and Wi‑Fi coverage (document rooms/areas affected); c) implement interim mitigations (e.g., provide desk lamps, offer pillow alternatives, proactively inform guests where equipment is being serviced); d) aggregate findings to determine whether targeted maintenance, broader refurbishments, or capital replacement is required.",
+        "rationale": "Evidence shows repeated, concrete in-room issues across multiple reviews and topics (comfort, lighting, plumbing, and technology). Many items are maintenance/operational fix candidates but scope is unclear — inspection is required to decide if structural renovation is needed.",
+        "supporting_evidence": [
+          "2024-12-01 complaint: 'Disliked: Pillows and mattress.'",
+          "2024-11-28 complaint: 'Disliked: Lack of light in the room. Low shower pressure. Very weak Wi‑Fi connection.'",
+          "2024-12-01 complaint: 'Disliked: ... television worked poorly. Channels listed in the brochure did not work. Lighting was deficient.'",
+          "2024-11-12 complaint: 'room was far away and during the night you could hear a machine running.'",
+          "Managerial evidence: 'Room comfort' net_negative (2 negatives) and 'Wi‑Fi and technology' identified with expectation_violation and emerging_negative."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.7
+      },
+      {
+        "rank": 3,
+        "area": "Food & Beverage — Breakfast and restaurant variety/quality",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Several guests describe breakfast and restaurant offerings as average, limited in variety, or mediocre; one guest suggests overall facilities are outdated and in need of renovation (restaurant/buffet).",
+        "recommended_action": "Review breakfast and restaurant operations: (a) audit current breakfast menu/variety and service model (buffet-only concerns); (b) collect front-line feedback from F&B staff and a small sample of recent guests about expectations; (c) trial modest operational changes to increase perceived variety or presentation; (d) if audits show structural limitations (kitchen capacity, layout), commission an assessment to determine scope and cost before considering capital works.",
+        "rationale": "Breakfast/restaurant received the largest number of experience mentions for F&B (5 mentions with a negative majority) and at least one emerging negative/expectation violation for restaurant variety. Operational changes may address perception without immediate heavy investment, but the 'deep renovation' comment suggests possible structural issues that require assessment before capital decisions.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Breakfast' 5 mentions (2 positive, 3 negative); 'Restaurant and bar' flagged as emerging_negative with expectation_violation for improved restaurant quality and variety.",
+          "2024-11-17 complaint: '...in the restaurant only a buffet of mediocre quality and variety was offered. Everything needs a deep renovation.'",
+          "2024-11-28 complaint: 'Breakfast average, not very varied.'",
+          "2024-11-27 complaint: 'Little care and the breakfast.'"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.6
+      },
+      {
+        "rank": 4,
+        "area": "Spa access and booking/payment transparency (spa inclusion/pricing and reservation of time slots)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests perceive friction regarding whether spa access/reservations and any charges are clearly disclosed at booking; spa is a positive asset but expectations about access/pricing and guaranteed reservation slots are unmet for some guests.",
+        "recommended_action": "Review booking content and front-desk/spa policies: (a) verify that spa inclusion, reservation rules and any charges are clearly disclosed on booking channels and confirmation emails; (b) evaluate whether a simple reservation mechanism (or prioritized guest slots) is appropriate and feasible; (c) update booking copy to set clear expectations; d) train staff to proactively confirm spa access at check-in.",
+        "rationale": "Spa and pool are experienced positively, but managerial evidence shows expectation violations and suggestions (reserve spa time for hotel guests, transparent disclosure). This is primarily a policy/communication issue that can be addressed without capital expenditure.",
+        "supporting_evidence": [
+          "Managerial evidence: 'Spa and pool' labeled positive_with_friction with matched topics 'always have/reserve spa time slots for hotel guests' and 'transparent disclosure of spa inclusion/pricing at booking'.",
+          "Managerial evidence: 'Booking and payment' flagged for 'transparent disclosure of spa inclusion/pricing at booking' (expectation_violation present)."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.6
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Location and accessibility",
+        "reason": "Multiple reviews (5 mentions in managerial evidence) consistently praise location and accessibility.",
+        "management_implication": "Continue to highlight location in marketing and ensure that operational changes preserve access and guest information about local amenities."
+      },
+      {
+        "area": "Staff and service",
+        "reason": "Managerial evidence shows several positive mentions for staff friendliness and welcoming service.",
+        "management_implication": "Leverage staff strengths to communicate proactively with guests about maintenance or service issues and train staff on how to manage guest expectations (spa access, in-room fixes)."
+      },
+      {
+        "area": "Cleanliness and housekeeping",
+        "reason": "Positive mentions present for cleanliness and housekeeping.",
+        "management_implication": "Maintain current housekeeping standards and use housekeeping checks as an early-detection point for maintenance issues (leaks, bathroom hazards)."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "SENTIMENT_SCORE_AVG",
+        "reason": "Overall sentiment has declined over the period but showed recent upward movement—useful to monitor recovery after interventions.",
+        "desired_direction": "increase",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+        "reason": "Shows increased misalignment between guest language and hotel messaging; relevant to spa/booking and tech/TV channel expectations.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "short_term"
+      },
+      {
+        "indicator": "PERC_REVIEWS_NEGATIVE",
+        "reason": "Share of negative reviews decreased over the window; track whether targeted interventions sustain or accelerate this improvement.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+        "reason": "Business metrics are improving (REVPAR and occupancy up); monitor for divergence between financial performance and guest experience signals.",
+        "desired_direction": "context_dependent",
+        "monitoring_horizon": "ongoing"
+      },
+      {
+        "indicator": "Number of safety/compliance findings from onsite inspections",
+        "reason": "Direct measure of remediation progress for safety non-conformities and bathroom hazards.",
+        "desired_direction": "decrease",
+        "monitoring_horizon": "immediate"
+      }
+    ],
+    "limitations": [
+      "Selected complaints are diagnostic examples and are not statistically representative of the full review population; prevalence should be confirmed using full review-set data.",
+      "Some recommendations (bathroom repair scope, possible restaurant renovation) require on-site inspection or technical assessment before committing to capital expenditures.",
+      "Evidence window is four weeks; recent metric reversals (e.g., TREVPAR recent reversal) should be interpreted separately and do not change the immediate safety priority.",
+      "Counts in evidence_basis aggregate related managerial_evidence items; scope and room-level distribution of problems are not fully specified in the supplied data.",
+      "Where guests proposed specific remedies (e.g., guaranteed spa slots), recommendations suggest policy review rather than adopting guest-proposed solutions without managerial evaluation."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "critical",
+    "overall_risk_rationale": "Multiple guest comments report serious safety and maintenance hazards (explicit report of non‑conformities in fire‑fighting means; bathtub clips described as 'dangerous'; guest-repaired cistern). Combined with repeated reports of outdated rooms and failing in-room equipment, these issues create immediate guest-safety and reputational risk that requires urgent corrective action.",
+    "executive_summary": "Recent reviews show strong strengths — friendly staff, attractive park/gardens, on-site spa/thermal facilities and generally positive comments about the setting and some meals — but recurring and potentially hazardous maintenance and safety problems appear. The highest priorities are (1) address fire-safety non-conformities, (2) remediate bathroom plumbing and hazardous fixtures, (3) deliver a targeted room maintenance/refurbishment plan, (4) fix spa/thermal booking policy and communication, and (5) improve guest-facing amenities reliability (Wi‑Fi, TV) and consistency of breakfast offering. Actions range from immediate safety remediation and inspections to short- and medium-term maintenance and policy changes. Monitoring should focus on safety compliance, number/severity of maintenance tickets, and guest feedback trends.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Fire & life‑safety compliance",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "A guest explicitly reported that the hotel 'does not comply and presents serious non‑conformities' regarding fire‑fighting means. This indicates non‑compliance with life‑safety regulations and poses immediate safety, legal and reputational risk.",
+        "recommended_action": "Arrange an immediate external safety audit (fire department / certified fire‑safety inspector). Where deficiencies are identified, implement prioritized corrective works (fire detection, suppression, extinguishers, signage, escape routes, staff training) and obtain documented certification of compliance. Communicate temporarily to operations (holdovers/closures of affected areas) until compliance is achieved and update emergency procedures and staff training records.",
+        "rationale": "Explicit review evidence of serious non‑conformities implies imminent guest safety and legal exposure; formal audit + corrective program is the appropriate immediate response.",
+        "supporting_evidence": [
+          "Guest comment: 'Regarding Safety (fire‑fighting means), the Hotel does not comply and presents serious non‑conformities.' (2024-11-27)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": true,
+        "confidence": 0.95
+      },
+      {
+        "rank": 2,
+        "area": "Bathroom plumbing and in‑room safety hazards",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews report dangerous or malfunctioning bathroom fixtures: a water leak in the bathtub, 'two \"clips\" that were dangerous', and a cistern that a guest repaired. These are direct guest-safety and comfort issues.",
+        "recommended_action": "Dispatch maintenance to inspect and remediate reported rooms immediately (fix leaks, remove/secure hazardous bathtub clips, inspect and repair cisterns and shower pressure). Perform a quick audit of all rooms' bathrooms to identify similar defects and schedule repairs. Record completion and guest verification; place affected rooms out of service until safe where necessary.",
+        "rationale": "Direct guest reports of hazardous fixtures and ad‑hoc guest repairs indicate repairs are necessary immediately to avoid injury and negative reviews.",
+        "supporting_evidence": [
+          "Guest comment: 'Water leak in the bathtub. The cistern—I had to repair it to make it function properly. In the bathtub there were two \"clips\" that were dangerous for the user.' (2024-12-08)"
+        ],
+        "safety_relevance": true,
+        "requires_further_assessment": false,
+        "confidence": 0.9
+      },
+      {
+        "rank": 3,
+        "area": "Room condition and refurbishment (outdated rooms, mattresses, lighting, noise)",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "capital_assessment",
+        "problem": "Several guests describe rooms as outdated/run‑down, with poor lighting, weak TV reception, mattress and pillow complaints, and intrusive equipment noise — harming guest comfort and satisfaction.",
+        "recommended_action": "Commission a condition survey of guest rooms to quantify cosmetic and functional deficiencies (lighting, TVs, furniture, mattresses, sound insulation). Based on the survey, produce a prioritized refurbishment plan (phased to limit revenue loss) that addresses the highest-impact items (mattresses/pillows, lighting, noise mitigation, TV/in‑room entertainment). Consider low-cost quick wins (replace pillows/mattresses in worst rooms, improve bulbs, TV channel troubleshooting) while planning capital works.",
+        "rationale": "Consistent comments about room condition and core comfort elements (beds, lighting, noise, TV) indicate refurbishment is needed to restore accommodation quality and guest satisfaction.",
+        "supporting_evidence": [
+          "Guest comment: 'The room was very outdated. The television worked poorly. Channels listed in the brochure did not work. Lighting was deficient.' (2024-12-01)",
+          "Guest comment: 'Outdated facilities... Everything needs a deep renovation.' (2024-11-17)",
+          "Guest comment: 'Pillows and mattress.' (2024-12-01)",
+          "Guest comment: 'The room was far away and during the night you could hear a machine running.' (2024-11-12)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.85
+      },
+      {
+        "rank": 4,
+        "area": "Thermal baths access policy and guest communication / reservation process",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "A guest reported that thermal baths were not included or communicated at booking and that there were no slots left; they recommend always reserving slots for guests. This leads to disappointment and expectations mismatch.",
+        "recommended_action": "Review current commercial packages and booking communications to ensure clarity about what is included (thermal baths). If baths require slot reservations, implement a standard procedure to reserve blocks of guest slots (or priority booking for in-house guests). Update booking pages and confirmation emails with clear statements about access and reservation steps; train front desk staff to proactively manage bath bookings at check‑in.",
+        "rationale": "Clear communication and a simple reservation policy for on‑site thermal facilities will reduce guest dissatisfaction and complaints about unexpected exclusions or lack of availability.",
+        "supporting_evidence": [
+          "Guest comment: 'The fact that the thermal baths were not included in the prices when people book the stay — nowhere was this mentioned. Moreover... there were no slots left for us to go to the baths. In the future, I think you should really consider always reserving slots for guests.' (2024-12-05)",
+          "Multiple guests reference spa/thermal facilities as a positive amenity."
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": false,
+        "confidence": 0.8
+      },
+      {
+        "rank": 5,
+        "area": "In‑room connectivity and breakfast quality consistency",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Guests report very weak Wi‑Fi, low shower pressure, and inconsistent breakfast quality/variety (some praise breakfast, others call it average or mediocre). Poor connectivity and inconsistent F&B add to negative experiences.",
+        "recommended_action": "Have IT test Wi‑Fi coverage and capacity; address weak signal areas (repeaters, bandwidth upgrades) and log time to resolution. For breakfast, review buffet offerings and replenishment procedures to improve variety and consistency; gather F&B team feedback and consider simple menu adjustments or daily specials. Track complaints and pilot improvements in a subset of services to measure uptake.",
+        "rationale": "Connectivity and breakfast are frequent guest touchpoints; improving reliability and consistency can lift overall satisfaction in the near term.",
+        "supporting_evidence": [
+          "Guest comment: 'Very weak Wi‑Fi connection.' (2024-11-28)",
+          "Guest comment: 'Breakfast average, not very varied.' (2024-11-28)",
+          "Guest comment: 'Good breakfast - value for money.' (2024-12-04)",
+          "Guest comment: 'Low shower pressure.' (2024-11-28)"
+        ],
+        "safety_relevance": false,
+        "requires_further_assessment": true,
+        "confidence": 0.75
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff service and welcome",
+        "reason": "Multiple guests explicitly praise the 'friendly and welcoming staff' and 'the welcome.'",
+        "management_implication": "Maintain service training and recognition programs; use this strength in guest communications while operational and capital fixes are underway."
+      },
+      {
+        "area": "Park/gardens and surroundings",
+        "reason": "Guests repeatedly praise the park, gardens and surroundings as a major asset ('extraordinary park', 'surroundings', 'atmosphere').",
+        "management_implication": "Protect and continue upkeep of exterior grounds and promote these assets in marketing; ensure access is maintained for pet‑friendly guests."
+      },
+      {
+        "area": "On‑site spa/thermal and wellness offering",
+        "reason": "Spa/thermal facilities are cited positively by several guests and are a differentiator.",
+        "management_implication": "Preserve spa operations and communication about availability while improving reservation policy and integration with room packages."
+      },
+      {
+        "area": "Breakfast (where positive)",
+        "reason": "Some guests report 'Good breakfast - value for money' and appreciate meals.",
+        "management_implication": "Retain effective elements of the breakfast program while addressing variance in quality and variety."
+      }
+    ],
+    "monitoring_indicators": [
+      {
+        "indicator": "Completion % of safety audit corrective actions and certification",
+        "reason": "Direct measure of addressing the critical fire‑safety non‑conformities reported by guests.",
+        "desired_direction": "increase"
+      },
+      {
+        "indicator": "Number of bathroom‑related complaints (leaks, hazardous fixtures) per week",
+        "reason": "Tracks whether immediate maintenance actions reduce hazardous incidents and guest reports.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Rooms taken out of service for maintenance / average time to repair",
+        "reason": "Monitors maintenance workload and responsiveness; helps prioritize refurbishment scheduling.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Guest complaints referencing thermal baths (access / reservation / inclusion)",
+        "reason": "Measures effectiveness of booking policy and communication changes.",
+        "desired_direction": "decrease"
+      },
+      {
+        "indicator": "Guest mentions of Wi‑Fi/TV or breakfast quality in new reviews; average rating (AVG_RATING)",
+        "reason": "Tracks sentiment change after operational fixes; AVG_RATING is already tracked and has declined slightly in the window.",
+        "desired_direction": "increase"
+      }
+    ],
+    "limitations": [
+      "Review dataset covers 20 of 22 recent reviews and is the basis for these priorities; frequency/severity of issues hotel‑wide cannot be precisely quantified from guest comments alone.",
+      "The safety comment references 'serious non‑conformities' but the exact scope and regulatory specifics are not detailed here — an external audit is required to determine required remedial works.",
+      "No room‑by‑room maintenance logs or property inspection reports were provided; recommendations on refurbishment scope and cost are indicative and require a detailed condition survey.",
+      "Performance metrics (REVPAR, occupancy) are provided for context but no causal link between reviews and financials can be inferred from the supplied information."
+    ]
+  }
+}

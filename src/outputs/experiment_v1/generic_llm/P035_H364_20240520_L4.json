@@ -1,0 +1,162 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most reviews are highly positive (many 9–10 ratings) and key performance indicators (occupancy and revenue) improved, but multiple independent comments point to recurring operational/room issues (restaurant availability/reservations, noise/door closing, lighting, Wi‑Fi). These could erode guest satisfaction and reputation if not addressed, so proactive management is warranted.",
+  "executive_summary": "Guests consistently praise location, staff, cleanliness, breakfast and the restaurants, but several recent reviews flag repeatable operational and in‑room experience problems: unclear restaurant availability/reservation policy for hotel guests, audible noise from the entrance/lobby including a door that did not close properly, relatively dark rooms / limited in‑room view, and occasional Wi‑Fi problems. Priorities focus on fixing immediate operational failures, addressing guest comfort and safety (door/noise), and improving in‑room amenities and connectivity to protect the hotel’s high-end positioning.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Food & Beverage operations — restaurant availability and reservation policy",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Guests reported the hotel restaurant being closed without prior notice and hotel guests being unable to reserve a table; this causes disappointment and undermines the guest experience at a property that markets strong dining.",
+      "recommended_action": "Immediately enforce a clear internal policy to prioritize communication to in‑house guests: (a) ensure F&B publishes and communicates opening hours/closures to reception and to arriving guests; (b) implement a guaranteed reservation allocation or a priority booking window for hotel guests for the main hotel restaurant(s); (c) train reception/concierge to proactively inform guests at check‑in about restaurant status and alternatives (bar, nearby options) and to assist with bookings; (d) log any unexpected closures and notify guests via phone/room materials and front‑desk scripts.",
+      "rationale": "Multiple recent reviews explicitly mention a closed restaurant and inability to reserve, and the hotel emphasizes dining among its main amenities; quick operational fixes and proactive communication will reduce negative surprises and protect perceived value.",
+      "supporting_evidence": [
+        "2024-05-23 review: \"restaurant closed without having been informed (but 'bar' and breakfast OK)\"",
+        "2024-05-20 review: \"You cannot reserve in the restaurant (Spot); as a hotel guest that is annoying.\"",
+        "Hotel features list highlights 2 restaurants and dining as a principal amenity."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Room soundproofing & door function (guest comfort and safety)",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guests report insufficient soundproofing from the entrance hall and at least one room door that did not close properly, making lobby noise audible in rooms and reducing sleep comfort; a door not closing properly may also present a safety/security concern.",
+      "recommended_action": "Conduct an immediate check of reported rooms and public‑space doors (inspect/repair door closers, seals, locks). Log and fix any malfunctioning doors immediately. Simultaneously schedule an acoustic assessment of rooms most affected by lobby noise and implement mitigation (sweeps, door seals, draft strips, soft‑close hardware, lobby operational measures such as carpeting, music levels, or relocating noisy equipment). Update housekeeping/front desk so affected rooms are not sold until fixed or guests are warned/relocated.",
+      "rationale": "Noise and malfunctioning doors were explicitly described and directly affect guest comfort and potentially safety; repairs and targeted acoustic measures can reduce complaints and protect reputation.",
+      "supporting_evidence": [
+        "2024-05-23 review: \"Insufficient soundproofing relative to the entrance hall\"",
+        "2024-05-20 review: \"Our room door did not close properly, so noise from the lobby was quite audible.\""
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "In‑room environment — lighting and visibility of view/terrace",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Several guests noted that rooms feel fairly dark and that the attractive sea view is not easily visible from inside the room (requires stepping out to a covered terrace). This reduces the perceived room value in a property where views are a major strength.",
+      "recommended_action": "Perform a room walkthrough audit (sample across room types) to evaluate natural light, curtain/blind configurations, and interior lighting levels. Short‑term: add or adjust lamps, brighter bulbs, and bedside reading lights; ensure windows/doors are presented unobstructed at housekeeping. Medium‑term: assess opportunities to modify interior finishes, window treatments, or furniture layout to maximize daylight and sightlines to the sea; include this in a minor capital plan if structural/fit‑out work is needed.",
+      "rationale": "Given the hotel's premium positioning and the importance of the sea view in guest praise, improving in‑room light and sightlines will enhance perceived value and guest satisfaction.",
+      "supporting_evidence": [
+        "2024-05-20 review: \"The rooms are fairly dark... there is a nice view but you have to go out to a covered terrace at your room—you can't really see it from the room.\"",
+        "Multiple reviews praise the view and breakfast views, indicating view is a key asset to leverage."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Connectivity — Wi‑Fi reliability",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "At least one guest experienced difficulties with the Wi‑Fi, which is important even at a leisure property and expected by guests.",
+      "recommended_action": "Log and investigate recent Wi‑Fi trouble tickets; confirm coverage and capacity in all room areas and public spaces. If no immediate network outage is found, escalate to IT/ISP for bandwidth or hardware upgrades and provide front‑desk scripts for troubleshooting (restart router, reconnect instructions) and compensation policy for connectivity failures. Track incidents until resolved.",
+      "rationale": "Connectivity issues are a common source of guest frustration; even a small number of incidents can create negative reviews. Quick troubleshooting and transparent communication reduce guest annoyance.",
+      "supporting_evidence": [
+        "2024-05-12 review: \"Difficulties with the Wi-Fi\""
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "In‑room guest personalization and basic amenities (channels / special occasions)",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Some guests noted a lack of Portuguese TV channels and an absence of personalized attention for special occasions (honeymoon), missing small touches expected at a 5‑star property.",
+      "recommended_action": "Review TV channel package to include local Portuguese channels where feasible. Reinforce front‑desk/guest services procedures to capture notes such as special occasions at reservation or check‑in and to trigger small gestures (welcome note, small amenity or room upgrade where appropriate). Train staff to record and escalate such guest preferences in PMS so the service is consistent.",
+      "rationale": "Small personalization and local‑language amenities are low‑cost ways to increase guest delight and the perceived price‑quality ratio at a luxury property.",
+      "supporting_evidence": [
+        "2024-05-14 review: \"It lacked Portuguese channels on the television\"",
+        "2024-05-14 review: \"We informed them we were on our honeymoon and there was no special attention to that detail— it would have been a welcome touch.\"",
+        "2024-05-12 review (positive example): staff left welcome gifts and a surprise cake for a birthday, showing the hotel can deliver personalized gestures."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location & views",
+      "reason": "Many reviews repeatedly praise the sea location, direct sea views and proximity to the beach — a central differentiator for the property.",
+      "management_implication": "Prioritize improvements that preserve and highlight sea views (e.g., room layouts, breakfast/lounge window presentation) and use location in marketing communications."
+    },
+    {
+      "area": "Staff service and friendliness",
+      "reason": "Numerous guests explicitly mention extremely friendly, helpful and professional staff and specific successful personalization examples (welcome gifts, surprise cake).",
+      "management_implication": "Keep investing in staff training and empowerment; capture and standardize best practices for guest surprises and problem recovery to scale positive outcomes."
+    },
+    {
+      "area": "Cleanliness and breakfast offering",
+      "reason": "Multiple guests praised cleanliness and a 'soberbo' / superb breakfast with fantastic views.",
+      "management_implication": "Maintain housekeeping standards and breakfast quality; ensure consistent ingredient variety (one request for more vegetables) and presentation to retain high satisfaction."
+    },
+    {
+      "area": "High standards of rooms/facilities and Michelin restaurant reputation",
+      "reason": "Guests describe rooms and facilities as outstanding and reference a Michelin restaurant — reinforcing luxury positioning.",
+      "management_implication": "Protect premium positioning by aligning operational fixes (F&B communication, noise reduction, in‑room comfort) with the hotel’s 5‑star service promise."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of F&B/restaurant complaints or incidents reported by in‑house guests",
+      "reason": "Measures whether restaurant availability/reservation issues persist after procedural changes",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of noise/door/room privacy complaints (soundproofing, door closers)",
+      "reason": "Tracks the effectiveness of repairs and acoustic mitigation",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average guest rating (AVG_RATING) in the same review source set",
+      "reason": "High‑level measure of guest satisfaction sensitivity to implemented changes",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Reported Wi‑Fi incidents / time to resolve connectivity tickets",
+      "reason": "Monitors connectivity reliability and operational responsiveness",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest feedback on in‑room amenities and personalization (mentions of TV channels, welcome gestures) in post‑stay surveys",
+      "reason": "Checks if changes on TV channels and personalization processes improve perceived value",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Assessment is based only on the provided recent review sample (20 most recent reviews within the window) and the basic performance metrics; broader review channels or older feedback are not included.",
+    "Frequency of complaints in the sample is small compared to the many positive reviews; trends should be confirmed with ongoing monitoring before large capital investment.",
+    "Financial and operational metrics are provided but no causation should be inferred between customer review content and revenue/occupancy changes."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H364_20240520_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P035",
+    "case_id": "H364_20240520_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:25:56.024121+00:00",
+    "finished_at_utc": "2026-09-08T16:26:27.588219+00:00",
+    "elapsed_seconds": 31.567
+  }
+}

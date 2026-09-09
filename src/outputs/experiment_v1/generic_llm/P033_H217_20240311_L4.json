@@ -1,0 +1,153 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Occupancy and revenue metrics are strong and improving, but average guest rating has fallen (~-5.9%) while volume of reviews increased. Multiple recent reviews point to recurring operational/guest-experience issues (noise, very small rooms/limited in‑room facilities, breakfast crowding and unclear extra charges) that could further depress satisfaction and future demand if not addressed.",
+  "executive_summary": "Solar dos Poetas benefits from an excellent central location, friendly staff and strong occupancy / revenue performance. Recent guest feedback during the decision window repeatedly highlights problems with street/corridor noise and poor soundproofing, small room layout and limited in-room amenities, breakfast timing/crowding and unclear ancillary charges/payments. Priorities should focus on: (1) mitigating noise and setting accurate expectations, (2) addressing small-room amenity and storage shortcomings, (3) improving breakfast service hours and transparency about luggage/fees and payment methods, and (4) checking elevator reliability and accessibility. Combine immediate operational fixes and clearer communication with medium-term capital and process investments where needed.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Noise and soundproofing / room location expectations",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Multiple recent reviews report significant noise from the square (live music), trams and corridor (doors slamming, people), and poor soundproofing leading to disturbed sleep and lower satisfaction.",
+      "recommended_action": "Immediate: provide complimentary earplugs, offer white-noise machines or mobile app suggestions at check-in, proactively reassign particularly noise-sensitive guests to quieter rooms where possible, and add a late-night contact for noise complaints. Short term: update room descriptions and booking channels to clearly communicate which rooms face the square and potential noise. Medium term: commission an audit of windows/doors and prioritize installation of improved seals/double glazing or corridor sound mitigation where cost-effective.",
+      "rationale": "Quick operational steps reduce immediate guest disturbance and limit negative reviews while medium-term investments will reduce recurrence. Accurate online descriptions reduce guest dissatisfaction from mismatched expectations.",
+      "supporting_evidence": [
+        "“Room completely non-soundproof. You can hear both the noises from the square in front of the hotel (nightlife) and people in the corridor…”",
+        "“There is a lot of noise and vibrations coming from the various cars and trams passing right under the balcony of the room… There is also music that can be heard late in the night…”",
+        "Multiple reviews reference balconies/rooms overlooking the square and noise at night."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Room size, layout and basic in‑room amenities",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests frequently report rooms that feel very small with inadequate storage, small bathrooms with constrained layouts and missing basic amenities (no kettle/coffee). This reduces comfort, especially for travellers with luggage.",
+      "recommended_action": "Operational: provide simple in-room amenities on request (kettle/coffee kit), add hooks/shelves or modular storage solutions in rooms where feasible, and offer luggage-handling assistance or temporary in-room luggage stands. Update room descriptions and photos to reflect actual room size/layout so guest expectations align. Medium term: review whether some rooms can be reconfigured to improve storage/flow (capital assessment).",
+      "rationale": "Simple amenity additions and small fixture changes can significantly improve perceived value at low cost; accurate descriptions reduce future mismatch complaints.",
+      "supporting_evidence": [
+        "“Rooms really small… Bathroom was so small in order to sit on the loo we had to have the shower door open. Facilities in room very limited. No space for cupboard… No kettle/coffee machine etc.”",
+        "“The room is very small to the point where you have no space to open two medium sized trolley bags without blocking passage or the window so you have to constantly move them around which is annoying as there is not enough storage space either.”",
+        "“The room had a small window into a courtyard shaft… hardly any daylight in the room.”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast capacity/hours and ancillary charges / payment methods",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "Guests praised breakfast quality but report crowded dining room and that breakfast start time is too late for some (requests for 7:00). Several guests also reported surprise and dissatisfaction with a charge for luggage storage and at least one guest noted inability to pay by credit card.",
+      "recommended_action": "Immediate: review and publish breakfast hours and consider opening earlier (e.g., 7:00) if operationally feasible; implement crowd-management measures (staggered seating, signage, add temporary staff at peak times). Clarify and publish luggage-storage policy and fees at booking and check-in; consider waiving the fee or offering a clear, value‑based fee. Ensure payment options are clearly listed on the website and at reception and resolve any card-payment limitations as a priority.",
+      "rationale": "Breakfast is a frequently-cited strength; reducing crowding and matching hours to guest needs will protect satisfaction. Clear communication on fees and payment methods prevents surprise charges and related negative sentiment.",
+      "supporting_evidence": [
+        "“Breakfast was excellent… A little bit crowded in the morning… ”",
+        "“It would have been great if the breakfast start time was earlier, say 7am”",
+        "“It's the first time I've been asked to pay a fee for luggage storage, and it was quite expensive… If it had been clear from the start, I would have chosen another hotel.”",
+        "“Inability to pay via credit card”"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 4,
+      "area": "Elevator reliability and accessibility",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "At least one recent review mentions an inconvenience associated with the elevator; combined with small rooms and high floors this may affect guest convenience and accessibility.",
+      "recommended_action": "Inspect elevator performance and maintenance records; address any reliability issues promptly. Provide clear signage about elevator use and offer staff assistance for guests with mobility issues or heavy luggage. If capacity is limited, adjust room allocation (avoid booking guests with accessibility needs into upper floors without assistance).",
+      "rationale": "Maintaining a reliable elevator service supports guest comfort and prevents negative experiences related to carrying luggage or mobility limitations.",
+      "supporting_evidence": [
+        "“The inconvenience of the elevator”"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Multiple guests cite the hotel's central/ideal location and proximity to tram and attractions as a key positive.",
+      "management_implication": "Preserve and market proximity to attractions; when mitigating noise, avoid measures that reduce the perceived central/urban appeal."
+    },
+    {
+      "area": "Breakfast quality",
+      "reason": "Several reviews specifically praise the breakfast (variety, freshness, sunny dining room).",
+      "management_implication": "Maintain food quality and variety while optimizing service logistics to reduce crowding; communicate breakfast strengths in marketing."
+    },
+    {
+      "area": "Staff helpfulness and cleanliness",
+      "reason": "Guests frequently mention friendly staff (Paulo referenced by name) and reliable cleaning service.",
+      "management_implication": "Preserve staff training and recognition programs; leverage staff willingness to assist as part of remediation for guest issues (e.g., noise, luggage)."
+    },
+    {
+      "area": "High occupancy / revenue performance",
+      "reason": "REVPAR, REVPOR, TREVPAR and occupancy rose during the window, indicating strong demand.",
+      "management_implication": "Continue revenue management but balance pricing with improvements to protect guest satisfaction and ratings."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average guest rating (AVG_RATING)",
+      "reason": "Overall measure of guest satisfaction; recent decline indicates emerging issues.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number and share of reviews mentioning noise/soundproofing",
+      "reason": "Direct measure of the prevalence of the principal operational complaint.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of reviews mentioning room size/amenities (kettle, storage, bathroom)",
+      "reason": "Tracks whether small-room complaints persist after amenity/description changes.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest feedback on breakfast (mentions of crowding and start time) and peak breakfast queue times",
+      "reason": "Monitors effectiveness of operational changes to breakfast hours and flow.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Complaints or guest contacts related to luggage fees and payment issues",
+      "reason": "Monitors transparency and payment capability improvements.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of noise-related service recovery actions (earplugs/room moves) and subsequent guest satisfaction",
+      "reason": "Shows whether operational mitigations reduce dissatisfaction.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Only 20 of 140 reviews from the decision window were provided for detailed review; conclusions are therefore based on a sample of recent reviews and may not reflect the full distribution of guest feedback.",
+    "No room-type-level performance, inventory or layout details were supplied (cannot quantify how many rooms face the square vs courtyard or which floors are affected).",
+    "No operational cost, staffing rosters or maintenance records were provided; recommendations involving capital works or staffing changes require internal feasibility and cost assessment.",
+    "No data on payment systems or the specific cause of the reported inability to pay by card; verification with front-desk/payment provider needed before action."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H217_20240311_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P033",
+    "case_id": "H217_20240311_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:22:54.295996+00:00",
+    "finished_at_utc": "2026-09-08T16:23:17.705897+00:00",
+    "elapsed_seconds": 23.416
+  }
+}

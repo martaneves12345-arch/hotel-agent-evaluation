@@ -1,0 +1,185 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Operational performance shows recent declines in occupancy (-7.5%), REVPAR (-8.7%) and TREVPAR (-9.1%) over the 4-week window, which could hurt short-term revenue if the trend continues. Customer sentiment and average rating are strong and improving, which lowers immediate reputational risk but suggests commercial and operational fixes are the priority to stop revenue leakage.",
+  "executive_summary": "Thomar Boutique Hotel receives consistently high guest scores and repeated praise for staff, location, breakfast and comfortable rooms. However, room revenue and occupancy have fallen over the last month while REVPOR is stable, indicating fewer rooms sold rather than weaker per-room revenue. Key managerial priorities are to stop the occupancy/REVPAR decline, address recurring guest requests for on-site food service, eliminate slow check-in friction, preserve the service and product strengths that drive high scores, and recover guest review volume/engagement to protect visibility.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Commercial performance / Occupancy",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Occupancy, REVPAR and TREVPAR declined meaningfully in the last 4 weeks (occupancy -7.55%, REVPAR -8.67%, TREVPAR -9.10%), which reduces total revenue despite stable/improving room-level satisfaction.",
+      "recommended_action": "Immediately run a short diagnostic of distribution and pricing (channel mix, closed allotments, corporate/group pick-up, and last-minute availability). Implement targeted short-term offers and packages to fill near-term gaps (e.g., weekend packages, local staycations, early-bird incentives), amplify direct-booking promotions emphasizing strengths (location, rooftop, breakfast), and review OTA rate parity and availability. Monitor booking pace daily and adjust staffing/rooms-out-of-sale as needed.",
+      "rationale": "Metrics show fewer rooms sold rather than lower room yield per occupied room (REVPOR up slightly), so interventions that stimulate demand/visibility are likely to recover revenue quickly. Promoting unique strengths can convert consideration to bookings.",
+      "supporting_evidence": [
+        "TAXA_OCUPACAO decreased from 94.64% to 87.5% (-7.55%).",
+        "REVPAR decreased from 91.25 to 83.34 (-8.67%).",
+        "REVPOR (REV per occupied room) increased slightly (+1.85%), suggesting per-occupied-room revenue is stable."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Food & Beverage offering",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests note the absence of an on-site restaurant or café and explicitly request food service; some guests say the hotel 'doesn't have a café' or request 'offer food service, even if simple.' This may limit ancillary revenue and guest convenience.",
+      "recommended_action": "Conduct a feasibility assessment (costs, space, licensing) to provide basic on-site food service: options include a small café, light-all-day menu, rooftop snack/menu, or structured partnerships/agreements with nearby restaurants plus a room-service/light-bites offering. As a faster short-term measure, extend breakfast service hours or offer an expanded grab-and-go selection and curated local restaurant recommendations or delivery partnerships.",
+      "rationale": "Guests repeatedly call out the lack of food options; providing basic F&B would likely improve guest experience, increase TREVPAR, and reduce friction (especially for guests arriving late or seeking on-site convenience).",
+      "supporting_evidence": [
+        "Review: 'Only missing an on-site restaurant!' and 'Offer food service, even if simple.'",
+        "Review: 'It doesn't have a café, but it is surrounded by restaurants.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Front desk operations / Check-in process",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "At least one recent guest explicitly reported a 'Slow check-in.', indicating front-desk friction that can lower satisfaction and first impressions.",
+      "recommended_action": "Measure current average check-in time and peak arrival patterns. Implement operational fixes: adjust staff scheduling to cover peak arrival windows, train staff to expedite check-in, introduce express or mobile/pre-arrival check-in and clear signage to reduce queueing. Monitor improvements and guest comments after changes.",
+      "rationale": "Check-in is a high-impact touchpoint. Reducing wait time will improve guest satisfaction and reduce negative mentions that could erode the hotel's strong rating.",
+      "supporting_evidence": [
+        "Review explicitly: 'Slow check-in.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 4,
+      "area": "Service & product quality preservation",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "High scores are driven by consistent strengths (staff helpfulness, location, breakfast, comfortable rooms). These must be preserved to maintain reputation and convert demand.",
+      "recommended_action": "Continue staff training and recognition programs to sustain service levels; keep breakfast quality and variety (cited as 'excellent' or 'soberbo'), maintain cleanliness and room comfort standards, and protect rooftop bar and parking availability in communications and operations. Use guest feedback to identify any small erosion in service and address quickly.",
+      "rationale": "Many reviews praise the staff, location, breakfast and room comfort; preserving these will sustain high average ratings and support any commercial recovery efforts.",
+      "supporting_evidence": [
+        "Multiple reviews: 'Staff very kind and helpful', 'Excellent breakfast: plentiful and tasty', 'Well located', 'comfortable bed', 'The hotel has it all: pretty, comfortable, clean, centrally located, good service.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    },
+    {
+      "rank": 5,
+      "area": "Guest feedback volume & visibility",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "Number of reviews in the window decreased (~ -11.5%), which may reduce online visibility and weaken future booking conversion if the trend continues.",
+      "recommended_action": "Increase post-stay review solicitations (timed emails, SMS), remind staff to encourage honest reviews at checkout, and monitor review response rates. Track whether review decline is channel- or market-specific and whether review sentiment remains high.",
+      "rationale": "A lower review count can reduce dynamic visibility on OTAs and affect consumer confidence even when ratings are high; proactive solicitation helps maintain volume and current high average rating.",
+      "supporting_evidence": [
+        "N_REVIEWS decreased from 26 to 23 (-11.54%).",
+        "Sampling note: 92 reviews available in window; 20 provided to model (most recent)."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Staff service and helpfulness",
+      "reason": "Repeated, specific praise across many reviews for attentive, kind and helpful staff is a key driver of high ratings.",
+      "management_implication": "Maintain training, recognition and staffing levels at front desk and guest-facing roles; capture and share exemplary service examples internally."
+    },
+    {
+      "area": "Location / proximity to historic center",
+      "reason": "Multiple reviews cite excellent location and short walk to the historic center and attractions.",
+      "management_implication": "Use location prominently in marketing and guest communications; ensure directions and local recommendations are kept up-to-date."
+    },
+    {
+      "area": "Breakfast quality and variety",
+      "reason": "Several guests describe breakfast as 'excellent', 'plentiful and tasty' and 'soberbo', a recurring positive differentiator.",
+      "management_implication": "Continue breakfast standards and consider modest enhancements (special dishes, extended hours) to convert this strength into higher ancillary spend."
+    },
+    {
+      "area": "Room comfort and cleanliness",
+      "reason": "Guests frequently praise comfort, good beds, and good bathrooms, contributing to strong ratings.",
+      "management_implication": "Preserve housekeeping standards, bedding condition and maintenance schedules to sustain comfort levels."
+    },
+    {
+      "area": "Rooftop bar and parking availability",
+      "reason": "Rooftop bar is noted positively and free/public parking is mentioned as a benefit.",
+      "management_implication": "Keep rooftop amenities operational and ensure parking guidance is clear; feature these in promotions."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Occupancy rate (TAXA_OCUPACAO)",
+      "reason": "Direct measure of rooms sold; occupancy fell ~7.5% in the window and is central to revenue recovery.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "REVPAR and TREVPAR",
+      "reason": "Track room revenue and total revenue per available room to measure recovery impact of commercial and F&B initiatives.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "REVPOR (revenue per occupied room)",
+      "reason": "Shows revenue yield on occupied rooms; currently stable/improving, useful to monitor alongside occupancy.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Average guest rating (AVG_RATING)",
+      "reason": "Overall guest satisfaction metric; has improved and should be preserved as revenue initiatives are implemented.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Number of reviews (N_REVIEWS) and review response rate",
+      "reason": "Volume of reviews impacts visibility; recent decline noted and should be tracked.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Mentions of 'restaurant/café' or requests for food service in reviews",
+      "reason": "Measure guest demand for on-site F&B and assess impact if service is introduced.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average check-in time and mentions of 'slow check-in' in reviews",
+      "reason": "Operational metric tied to guest first impressions; at least one recent complaint exists.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "F&B revenue per occupied room",
+      "reason": "To track impact of any new or expanded food service on TREVPAR.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Direct booking share (vs OTA)",
+      "reason": "Higher direct bookings reduce commission costs and can be influenced by promotions highlighting strengths.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Recommendations are based only on the provided metrics and the 20 most recent reviews supplied; 92 reviews exist in the window but only 20 were provided for text analysis.",
+    "The case data shows correlation of performance metrics and guest comments but does not include booking-channel breakdowns, competitor context, historical seasonality, or cost data—so causes of revenue/occupancy decline cannot be determined definitively from supplied information.",
+    "Feasibility of capital changes (e.g., adding a restaurant) requires local cost, space and licensing assessment not available in the case."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H223_20240415_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P005",
+    "case_id": "H223_20240415_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:44:56.118566+00:00",
+    "finished_at_utc": "2026-09-08T15:45:28.877241+00:00",
+    "elapsed_seconds": 32.767
+  }
+}

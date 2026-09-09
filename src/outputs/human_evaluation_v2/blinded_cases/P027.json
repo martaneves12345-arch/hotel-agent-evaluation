@@ -1,0 +1,365 @@
+{
+  "evaluation_version": "human_eval_v2",
+  "evaluation_case_id": "P027",
+  "case_information": {
+    "case_id": "H407_20240722_L4",
+    "decision_week": "2024_W30",
+    "window_start": "2024-07-01",
+    "window_end": "2024-07-28",
+    "lookback_weeks": 4,
+    "hotel_information": {
+      "stars": null,
+      "region": null,
+      "number_of_rooms": null
+    },
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W27",
+        "week_date": "2024-07-01",
+        "REVPAR_WEEK": 67.21819451965067,
+        "REVPOR_WEEK": 116.64012096069872,
+        "TREVPAR_WEEK": 81.2055066048035,
+        "TAXA_OCUPACAO": 111.42857142857144,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.833333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 57.42657840579711,
+        "REVPOR_WEEK": 124.92854251207731,
+        "TREVPAR_WEEK": 65.97885305555556,
+        "TAXA_OCUPACAO": 82.5,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.142857142857142
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 63.681046562500015,
+        "REVPOR_WEEK": 148.63726896551728,
+        "TREVPAR_WEEK": 72.16001604525863,
+        "TAXA_OCUPACAO": 90.0,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 69.55349547932333,
+        "REVPOR_WEEK": 104.37898947368424,
+        "TREVPAR_WEEK": 78.94417943609024,
+        "TAXA_OCUPACAO": 105.0,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.25
+      }
+    ],
+    "recent_reviews": [
+      {
+        "review_date": "2024-07-28",
+        "rating": 10.0,
+        "liked": "Everything. As always.",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-28",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-27",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-27",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-26",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-24",
+        "rating": 8.0,
+        "liked": "The surroundings and the tranquility.",
+        "disliked": "The facilities are a bit outdated, such as the shower.",
+        "country": "Spain",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-24",
+        "rating": 8.0,
+        "liked": "Overall everything was fine!",
+        "disliked": "We missed an outdoor pool. On the terrace it is too hot for the season. And maybe sunbeds for the green areas.",
+        "country": "Spain",
+        "stay_type": "Family"
+      },
+      {
+        "review_date": "2024-07-24",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Abkhazia, ​Georgia",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-24",
+        "rating": 7.0,
+        "liked": "The staff were friendly, the room was quite large and had a very comfortable terrace, the pool is very pleasant and there are many free parking spaces.",
+        "disliked": "The pillows were very high and hard and the breakfast had little variety. The hotel has a games room with a pool table for which they charge €5/hour; I think it doesn't make sense to charge to use a pool table. In addition, we had to pay €5 for a cap to use in the pool, even if you don't get your hair wet.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-22",
+        "rating": 7.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-22",
+        "rating": 8.0,
+        "liked": "Extremely helpful and friendly staff, excellent breakfast. Very comfortable and practical room. We loved it.",
+        "disliked": "Everything was excellent.",
+        "country": "Portugal",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-22",
+        "rating": 9.0,
+        "liked": "Hotel located in a calm and restful setting; the facilities were comfortable and the staff very attentive. I recommend this hotel.",
+        "disliked": null,
+        "country": "France",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-21",
+        "rating": 8.0,
+        "liked": "Location, staff, breakfast, cleanliness, everything was very good.",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-21",
+        "rating": 8.0,
+        "liked": "For the friendliness of the staff and their availability.",
+        "disliked": "The gym is outdoors and ends up being out of the way.",
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-20",
+        "rating": 7.0,
+        "liked": "Internet network",
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-19",
+        "rating": 8.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Canada",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-18",
+        "rating": 9.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Solo traveller"
+      },
+      {
+        "review_date": "2024-07-18",
+        "rating": 10.0,
+        "liked": null,
+        "disliked": null,
+        "country": "Portugal",
+        "stay_type": "Couple"
+      },
+      {
+        "review_date": "2024-07-14",
+        "rating": 10.0,
+        "liked": "Everything in general VERY GOOD",
+        "disliked": null,
+        "country": "Spain",
+        "stay_type": "Group"
+      },
+      {
+        "review_date": "2024-07-13",
+        "rating": 9.0,
+        "liked": "I liked everything, except that breakfast did not include espresso coffee.",
+        "disliked": "Breakfast does not include espresso coffee. To have it we had to pay extra. Given that it's a hotel in Portugal, this is not expected and it's a negative point.",
+        "country": "Portugal",
+        "stay_type": "Group"
+      }
+    ]
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Guest feedback is broadly positive (many 8–10 ratings) but the average rating declined from 8.83 to 8.25 and there are recurring operational/maintenance and policy complaints (pillows, showers/outdated facilities, breakfast variety/espresso, small ancillary charges). Occupancy and TREVPAR are slightly down while ancillary revenue per occupied room (REVPOR) declined substantially, indicating sensitivity to guest experience and possible revenue leakage from ancillary services. Issues are actionable but require short- to medium-term work rather than emergency response.",
+    "executive_summary": "Guests consistently praise staff friendliness, cleanliness, comfortable rooms/terraces, parking and the tranquil location. The most important problems to address are (1) room and bathroom condition (pillows, outdated showers), (2) breakfast offering and coffee policy (expectation of espresso, limited variety), (3) small ancillary charges that guests find unreasonable (pool cap fee, pool-table charge) and their communication, (4) outdoor comfort/amenities (terrace too hot, lack of sunbeds/outdoor-pool expectation), and (5) preserve strong service and cleanliness. Actions include immediate small fixes (replace pillows, add shade/sunbeds, provide espresso option), policy changes (reassess fees), and planned maintenance/capital assessment (bathroom upgrades, outdoor-pool feasibility).",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room & bathroom condition (maintenance and comfort)",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "maintenance",
+        "problem": "Multiple reviews call out 'outdated' facilities (shower) and uncomfortable pillows (very high and hard). These detract from guests' comfort and appear in lower-rated reviews.",
+        "recommended_action": "Immediate: replace pillows with lower-profile / varied-firmness options and inspect/repair shower fittings for safety and appearance. Short-term: run a room-condition audit to identify other visible 'outdated' items and implement targeted cosmetic refreshes (sealant, fixtures, showerheads). Medium-term: develop a bathroom refurbishment plan and budget (phased to limit room downtime).",
+        "rationale": "Direct guest comments cite pillows and outdated showers as negatives. Small changes (pillows, fittings) are low-cost and can quickly improve comfort and scores; a phased refurbishment addresses the underlying asset condition."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering & coffee policy",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "operational",
+        "problem": "Some guests report limited breakfast variety and that espresso is not included (and requires extra payment), which they view as a negative given local expectations.",
+        "recommended_action": "Short-term: add an espresso/espresso-machine option included within standard breakfast (or offer a complimentary short espresso), expand cold/hot buffet variety where feasible. Communicate any paid/complimentary items clearly at check-in and on the breakfast area signage. Conduct a short guest-survey at breakfast to validate improvements.",
+        "rationale": "Several guests specifically mention breakfast limitations and the missing/paid espresso as a negative (noted as unexpected in Portugal). Improving breakfast is relatively low-cost and visible to guests, likely improving satisfaction and ratings."
+      },
+      {
+        "rank": 3,
+        "area": "Ancillary charges and guest-facing policies (pool cap, games-room fee)",
+        "managerial_priority": "urgent",
+        "action_horizon": "immediate",
+        "intervention_type": "policy_process",
+        "problem": "Guests report unexpected small charges (e.g., €5 for a pool cap, €5/hour to use the pool table) and perceive these as poor value or unnecessary. This harms perceived value for money and may reduce willingness to spend on onsite services.",
+        "recommended_action": "Immediately review and clarify the rationale for each ancillary fee. If fees exist for hygiene or maintenance, document and communicate the reason clearly; otherwise consider removing or bundling small fees into room rates or offering them complimentary as guest goodwill. Track purchase uptake and guest feedback after any change.",
+        "rationale": "Guests called out these fees explicitly and questioned their logic. Removing or better communicating small fees can quickly improve perceived value and reduce complaints; bundling fees can increase take-up and net revenue."
+      },
+      {
+        "rank": 4,
+        "area": "Outdoor comfort & amenities (shade, sunbeds, outdoor pool expectations)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "mixed",
+        "problem": "Guests missed an outdoor pool, found the terrace too hot for the season, and suggested sunbeds for green areas. The outdoor gym is described as outdoors and inconvenient/out of the way.",
+        "recommended_action": "Short-term: provide low-cost comfort improvements (shade umbrellas, temporary awnings, additional seating/sunbeds, portable fans) and reposition signage to make outdoor gym easier to find/use. Medium-term: conduct a feasibility and business-case assessment for permanent outdoor improvements (sunbathing areas, shaded terraces, or outdoor pool) and include potential seasonal revenue uplift.",
+        "rationale": "Some guests explicitly missed outdoor amenities and noted discomfort from heat on the terrace. Short-term fixes can improve guest comfort quickly; longer-term capital decisions require financial analysis."
+      },
+      {
+        "rank": 5,
+        "area": "Preserve service quality and cleanliness (staff performance and core strengths)",
+        "managerial_priority": "high",
+        "action_horizon": "monitor",
+        "intervention_type": "operational",
+        "problem": "While staff and cleanliness are strengths, maintaining consistent high service as volumes or changes occur is critical to retain positive reviews and mitigate the impact of other issues.",
+        "recommended_action": "Recognize and reinforce strong service behaviors (staff recognition, short refresher training), keep staffing levels appropriate for peak periods and monitor guest feedback closely to detect any service dips. Capture and share positive guest comments with staff to sustain morale.",
+        "rationale": "Multiple reviews praise the friendly, helpful staff and cleanliness — these are important drivers of repeat business and should be preserved while addressing other issues."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff friendliness and helpfulness",
+        "reason": "Frequently cited by guests as a highlight and a driver of recommendations.",
+        "management_implication": "Continue training, recognition and adequate staffing; use staff performance in marketing and as a keystone for guest recovery when other issues arise."
+      },
+      {
+        "area": "Cleanliness and comfortable rooms/terraces",
+        "reason": "Multiple guests note cleanliness and comfortable terraces as positive aspects.",
+        "management_implication": "Maintain housekeeping standards and routine room checks; consider showcasing terrace/room comfort in booking communications."
+      },
+      {
+        "area": "Pool and parking availability",
+        "reason": "Guests mention the pool as pleasant and parking plentiful — perceived value-added amenities.",
+        "management_implication": "Keep pool maintenance schedules and free parking policies visible; ensure lifeguard/safety procedures are documented if applicable."
+      },
+      {
+        "area": "Tranquil location",
+        "reason": "The calm/restful setting is repeatedly valued and differentiates the property.",
+        "management_implication": "Promote the location in marketing and ensure noise/landscaping policies preserve the tranquil environment."
+      }
+    ],
+    "limitations": [
+      "Analysis uses only the provided reviews (20 presented to the model out of 31 available in the decision window) and the basic performance metrics; broader guest feedback outside the decision window and operational data (costs, occupancy by segment, staffing levels) are not available.",
+      "Reviews are subjective and may over- or under-represent the prevalence of issues; counts of mentions in a small sample are noisy.",
+      "Financial metrics show direction but no causality — this review does not assume reviews caused any changes in REVPAR/REVPOR/TREVPAR or occupancy.",
+      "Details about current ancillary fee rationale (e.g., hygiene requirements for pool caps), existing contracts/suppliers, and capital budgets are not provided and would be required to finalize policy or refurbishment decisions."
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "overall_risk_rationale": "Most guest comments are positive (staff, cleanliness, room comfort) but several expectation violations and an increase in share of negative reviews signal emerging friction. Issues are mostly operational/policy (breakfast inclusions, listing accuracy, leisure charges) with one localized maintenance note (shower). No immediate safety threats identified, but the evidence base is small and includes recent reversal signals, so moderate risk is appropriate.",
+    "executive_summary": "Strength: consistently praised staff and generally positive room and cleanliness feedback. Priorities: (1) clarify breakfast offering vs. local expectations (espresso inclusion/variety); (2) review leisure/outdoor amenity expectations and charges (outdoor pool absence, paid pool table, paid swim cap, sunbeds/heat comfort); (3) correct OTA/website listing inconsistencies (gym listing); (4) inspect/assess bathroom/older fixtures (shower). Recommend targeted short-term operational and policy reviews and medium-term assessment where capital may be implicated. Preserve service strengths and monitor rising share of negative reviews and recent expectation-gap reversal.",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast",
+        "managerial_priority": "high",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "Guests report expectation violations around breakfast (espresso not included; limited variety) despite generally positive breakfast remarks.",
+        "recommended_action": "Review breakfast inclusions and communication/presentation. Specifically: (a) confirm whether espresso is included and whether any extra-charge items are clearly described on the website/booking channels; (b) evaluate breakfast variety relative to guest expectations and consider modest operational changes or clearer guest-facing descriptions. Update guest-facing materials to align expectations if offering is unchanged.",
+        "rationale": "Multiple reviews note espresso excluded (explicit expectation in Portugal) and limited variety; this is an expectation violation rather than an overall failure of F&B. Correcting communication or modest operational adjustments can reduce expectation friction and negative mentions."
+      },
+      {
+        "rank": 2,
+        "area": "Leisure / outdoor amenities (pool, gym, game room, green areas)",
+        "managerial_priority": "high",
+        "action_horizon": "medium_term",
+        "intervention_type": "mixed",
+        "problem": "Guests express mismatched expectations about outdoor leisure amenities (absence of outdoor pool, outdoor gym placement), charges for some leisure features (pool table, swim cap), and discomfort in outdoor areas (too hot on terrace; lack of sunbeds). These are recurring and tied to emerging topics (heat, green areas).",
+        "recommended_action": "Conduct a focused review that includes: (a) audit guest-facing descriptions of leisure amenities and any charges (pool table, swim cap) and align communication with actual offering; (b) collect usage/guest-feedback data on outdoor space comfort (shade, sunbeds) and feasibility study for improving guest comfort in green/terrace areas; (c) evaluate whether charging policies for on-site leisure items are consistent with positioning and guest expectations and consider policy adjustments. If physical additions (e.g., outdoor pool) are considered, commission a capital assessment rather than immediate investment.",
+        "rationale": "Multiple reviews mention absence of an outdoor pool, paid access to game room and swim caps, and outdoor discomfort (heat, no sunbeds). These indicate expectation friction and possible structural/service choices; capital implications cannot be determined from current data, so assessment is required before investment."
+      },
+      {
+        "rank": 3,
+        "area": "Booking/Listing accuracy (gym availability)",
+        "managerial_priority": "medium",
+        "action_horizon": "short_term",
+        "intervention_type": "policy_process",
+        "problem": "At least one guest reported that the booking channel/booking description indicated a gym that does not exist, an expectation mismatch that caused disappointment.",
+        "recommended_action": "Verify and, if necessary, correct all OTA/website listings and descriptions for facilities (gym, pool, spa). Establish a brief checklist/process to validate third-party channel content for accuracy. Communicate transparently with guests about amenity locations and accessibility (e.g., whether gym is outdoor/inconvenient).",
+        "rationale": "Single but clear complaint about an advertised gym being absent creates an expectation violation that is easy to address through content correction and process control, reducing negative surprises."
+      },
+      {
+        "rank": 4,
+        "area": "Bathroom condition / facility age (shower)",
+        "managerial_priority": "medium",
+        "action_horizon": "medium_term",
+        "intervention_type": "maintenance",
+        "problem": "Isolated comments describe outdated facilities, specifically the shower, suggesting at least localized maintenance or refurbishment may be needed.",
+        "recommended_action": "Perform an inspection of bathroom fixtures and related room inventory to determine scope and budget implications. If multiple rooms show similar aging, develop a phased maintenance/refurbishment plan. Do not authorize capital work without the inspection/assessment.",
+        "rationale": "Evidence is limited to a small number of mentions describing outdated facilities; an inspection will establish whether the issue is isolated or structural and whether capital investment is required."
+      }
+    ],
+    "strengths_to_preserve": [
+      {
+        "area": "Staff and service",
+        "reason": "Consistent positive evidence across reviews: 7 positive mentions vs 1 negative; multiple reviews explicitly cite friendly, attentive staff and helpfulness.",
+        "management_implication": "Preserve current service standards and frontline training; ensure that corrective actions in other areas (breakfast, leisure policies) do not negatively affect staff capacity or guest-facing interactions."
+      }
+    ],
+    "limitations": [
+      "Diagnostic evidence is based on a small sample of substantive complaints (9 selected from 31 reviews). Selected complaints are diagnostic and not statistically representative of all guests.",
+      "Several issues (outdoor pool, gym placement, sunbed/shade improvements) have capital or design implications that cannot be scoped from current reviews; recommend assessment before any capital decisions.",
+      "Some recommendations (e.g., adjusting charging policy for amenities) require commercial judgment and cost analysis not available in the supplied evidence.",
+      "Attribution between review comments and business metrics (REVPAR, ratings) cannot be established from the provided data."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "system": "frequency_baseline",
+  "method": "negative_review_frequency",
+  "case_id": "H308_20241125_L4",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "high",
+      "negative_mentions": 1,
+      "positive_mentions": 1,
+      "negative_share": 0.5,
+      "rationale": "Bathroom condition was ranked #1 because it contains 1 negative review mentions."
+    },
+    {
+      "rank": 2,
+      "area": "Room comfort",
+      "managerial_domain": "rooms_and_maintenance",
+      "managerial_priority": "medium",
+      "negative_mentions": 1,
+      "positive_mentions": 2,
+      "negative_share": 0.3333,
+      "rationale": "Room comfort was ranked #2 because it contains 1 negative review mentions."
+    }
+  ],
+  "methodological_note": "Categories are ranked using negative review-mention frequency only. No LLM reasoning, expectation indicators, trend information, complaint severity, safety interpretation, or diagnostic score is used.",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P007",
+    "case_id": "H308_20241125_L4",
+    "system": "frequency_baseline",
+    "started_at_utc": "2026-09-08T15:47:52.684993+00:00",
+    "finished_at_utc": "2026-09-08T15:47:52.684993+00:00",
+    "elapsed_seconds": 0.0
+  }
+}

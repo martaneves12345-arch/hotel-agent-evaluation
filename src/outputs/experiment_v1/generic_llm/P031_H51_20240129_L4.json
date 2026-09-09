@@ -1,0 +1,172 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Guest feedback is largely positive (average rating steady at 9.0) and commercial indicators (REVPAR, occupancy, TREVPAR) improved over the window. However, recurring operational complaints (sewage odour, bathroom/room privacy, inconsistent breakfast quality and cramped breakfast area, parking cost) present reputational and potential health/hygiene risks if not addressed. These issues are actionable but require prompt maintenance and operational changes.",
+  "executive_summary": "The hotel performs well on location, cleanliness, staff service and guest amenities, and commercial metrics show recent improvement. Primary managerial priorities are: (1) resolve plumbing/odour and room privacy/bed-configuration issues; (2) address inconsistent breakfast quality and limited breakfast space; (3) clarify and/or mitigate parking cost concerns; (4) improve consistency in room setup and front-desk handling of guest requests; (5) monitor review volume and complaint trends. Actions should combine immediate maintenance checks, operational adjustments, staff training, and short-term capacity/pricing reviews.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Plumbing / room privacy / bed configuration",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests report smelling sewage and issues with bathroom doors not insulating noise; a guest also reported being given two pushed-together beds and being told to separate them themselves (but unable to). These affect comfort, privacy and may indicate plumbing faults.",
+      "recommended_action": "Open urgent maintenance inspection for plumbing and drainage in affected floors/rooms; check and repair traps, vents, seals and drainage to eliminate sewage odour. Inspect bathroom doors for fit/insulation; repair or replace seals/doors to improve acoustic/privacy performance. Audit bed configurations and provide appropriate bed bases/frames that can be separated or clearly record/pre-prepare requested twin configuration prior to arrival. Update front-desk SOP to escalate and resolve bed-configuration and room privacy requests immediately (offer room change, onsite handyman or housekeeping assistance).",
+      "rationale": "Sewage odour suggests a plumbing or ventilation defect requiring technical repair; bathroom-door and bed-setup issues reduce guest comfort and can lead to complaints and negative reviews if left unresolved. Prompt fixes protect health, safety and reputation.",
+      "supporting_evidence": [
+        "You can smell sewage odors.",
+        "The bathroom/WC door bothered me quite a bit. It doesn't insulate either noise or ... .",
+        "I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself. I would have, but there was nowhere to separate them 🤣🤣"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Breakfast quality and dining capacity",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guest feedback on breakfast is mixed: some guests praise breakfast as excellent, others report it is poor (few fruits, processed foods) and that the breakfast area is cramped.",
+      "recommended_action": "Conduct a service review of breakfast offerings and layout: increase fresh fruit and healthier options, reduce overly processed items, and optimize buffet layout to reduce crowding. Consider staggered breakfast time slots or signage to manage peak flow. Train breakfast staff on replenishment cadence and guest engagement. Communicate breakfast details and peak times during booking and check-in.",
+      "rationale": "Breakfast is a frequently-cited touchpoint; inconsistent quality or cramped space can produce negative reviews even if other areas are strong. Improving product consistency and flow can raise guest satisfaction and perceived value.",
+      "supporting_evidence": [
+        "The breakfast is very poor. Few fruits, processed foods, and a cramped space.",
+        "Parking is very expensive, breakfast quite limited.",
+        "Very tasty breakfast, attentive staff."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.78
+    },
+    {
+      "rank": 3,
+      "area": "Parking pricing & guest communication",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Some guests find on-site parking expensive; perception of high parking cost can reduce perceived value of stay.",
+      "recommended_action": "Review parking pricing and options (internal rate vs. third-party lots). If rates cannot be lowered, improve transparency by publishing parking rate and alternatives on the hotel website and at booking. Negotiate validated or discounted rates with nearby lots where possible, or offer packaged deals (e.g., included parking for direct bookings or during low-demand periods).",
+      "rationale": "Parking is an explicitly mentioned negative point; clearer communication or price mitigation can reduce complaints and improve guest satisfaction.",
+      "supporting_evidence": [
+        "Parking is very expensive, breakfast quite limited."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.65
+    },
+    {
+      "rank": 4,
+      "area": "Consistency in room setup and front-desk handling",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "A guest was given a bed layout different from the reservation and told to fix it themselves; this indicates gaps in check-in processes and staff handling of simple room requests.",
+      "recommended_action": "Introduce or reinforce a pre-arrival room checklist confirming bed configuration for reservations specifying twin/double. Train reception staff on procedures for handling room-setup requests and empower them to dispatch housekeeping/maintenance immediately or offer alternative rooms. Track time-to-resolution for such requests and include in staff KPIs.",
+      "rationale": "Prompt, consistent handling of room-setup requests prevents avoidable dissatisfaction and supports the hotel's strong service reputation.",
+      "supporting_evidence": [
+        "I booked a room with two separate beds. I got one with two pushed together and at reception I was told to separate them myself."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Monitor review volume and complaint themes",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "Number of reviews in the window decreased by 33% while average rating remained steady; theme-level complaints (odour, breakfast, parking, room setup) appear intermittently and should be tracked to detect escalation.",
+      "recommended_action": "Implement a simple weekly dashboard tracking number of reviews, average rating, and counts of complaints by theme (plumbing/odour, breakfast, parking, room-setup). Use post-stay surveys or targeted follow-up emails to gather structured feedback on breakfast and room setup. Escalate recurring themes to operations weekly.",
+      "rationale": "Monitoring helps detect whether isolated complaints become trends and provides timely input to operations and maintenance.",
+      "supporting_evidence": [
+        "AVG_RATING stable at 9.0 while N_REVIEWS decreased by 33.3%.",
+        "Multiple reviews cite breakfast issues, a sewage odour and a bed-configuration problem."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Many guests highlight the hotel being in front of the metro, convenient for airport and city transport.",
+      "management_implication": "Keep clear communication of transport advantages in marketing and booking materials; preserve front-of-house guidance for transit."
+    },
+    {
+      "area": "Cleanliness and modern rooms",
+      "reason": "Multiple reviews praise spotless, modern and well-maintained rooms.",
+      "management_implication": "Maintain housekeeping standards and regular room checks; continue small in-room touches that guests value (water, fruit, chocolates)."
+    },
+    {
+      "area": "Staff service and hospitality",
+      "reason": "Frequent comments praise cordial, attentive and helpful staff.",
+      "management_implication": "Preserve service culture through training, recognition and staffing levels that support current service performance."
+    },
+    {
+      "area": "Wi‑Fi and amenities",
+      "reason": "Guests note very good Wi-Fi and appropriate amenities for a 3-star property.",
+      "management_implication": "Maintain network performance and amenity availability; communicate these features clearly in guest-facing materials."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of reviews per week",
+      "reason": "Detect changes in guest engagement and volume of feedback after interventions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Average rating (weekly)",
+      "reason": "Track overall guest satisfaction stability or change.",
+      "desired_direction": "stable"
+    },
+    {
+      "indicator": "Count of complaints referencing sewage/odour",
+      "reason": "Direct measure of recurrence of a potentially hazardous issue.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Count of breakfast-related complaints / breakfast satisfaction score",
+      "reason": "Monitor consistency of breakfast quality and space adequacy after changes.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of bed-configuration/room-setup service requests and average resolution time",
+      "reason": "Measure effectiveness of front-desk and housekeeping processes for guest room requests.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of parking complaints / guest feedback mentioning parking price",
+      "reason": "Assess whether communication or pricing changes reduce complaints.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Open maintenance tickets related to plumbing and time-to-resolution",
+      "reason": "Ensure plumbing issues are diagnosed and fixed promptly.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Review sample provided to the model is a subset (20 of 39 reviews in the window); other reviews in the window may contain additional relevant information not examined here.",
+    "No room-level frequency data available (unable to determine how many rooms are affected by sewage odour or if issues are isolated).",
+    "No operational or cost data provided for breakfast or parking; recommendations on pricing or menu changes should be validated against budgets and supplier options.",
+    "Cannot infer causality between reviews and commercial performance metrics; only associations and actionable guest-reported issues are identified."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H51_20240129_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P031",
+    "case_id": "H51_20240129_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:20:09.967917+00:00",
+    "finished_at_utc": "2026-09-08T16:20:32.722045+00:00",
+    "elapsed_seconds": 22.749
+  }
+}

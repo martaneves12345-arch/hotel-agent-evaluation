@@ -1,0 +1,167 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Operational performance indicators show declining revenue and occupancy (RevPAR -13%, occupancy -8.5%) while average rating is stable-high (8.46). Multiple recent reviews repeatedly flag a small/repetitive breakfast offering and small/basic rooms; one report alleges inappropriate staff behaviour. These issues risk further occupancy/revenue erosion and reputational damage if not managed, but strengths (location, cleanliness, friendly staff) reduce immediate criticality.",
+  "executive_summary": "Priority actions: (1) improve breakfast variety and presentation to address frequent guest comments; (2) assess and remediate room condition/amenities and communicate room size clearly; (3) investigate and resolve the reported staff misconduct and deliver immediate cultural-sensitivity/customer-service training; (4) apply short-term revenue/occupancy measures (targeted offers, breakfast packages, distribution adjustments) to counter recent RevPAR and occupancy declines; (5) preserve and promote clear strengths (location, cleanliness, attentive staff).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast offering",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Multiple guests describe breakfast as 'simple', 'repetitive' or 'could be more extensive'. Repeated comments reduce perceived value for longer stays.",
+      "recommended_action": "Implement a short-term refresh of the breakfast selection: add rotating items (e.g., fruit, local pastries, one hot item rotation), improve presentation, and display a weekly variation to reduce repetition. Track incremental cost and guest feedback; consider a paid 'breakfast upgrade' option if supply cost is a concern.",
+      "rationale": "Breakfast is a recurring, low-to-medium-cost operational improvement that directly addresses consistent negative comments in recent reviews and can increase perceived value for guests and win better reviews.",
+      "supporting_evidence": [
+        "Review 2024-08-04: 'Breakfast could be more extensive.'",
+        "Review 2024-08-03: 'Simple breakfast. It could offer a greater variety of items.'",
+        "Review 2024-08-02: 'If you stay more than 4 days the breakfast might become repetitive but it was good.'",
+        "Multiple other reviews note 'the breakfast' as a disliked point."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Room condition, size expectations and in-room amenities",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Several guests report small rooms, lack of basic in-room amenities (no minibar, no safe), small TV, awkward bathroom layout and comments that the property 'needs to be renovated'. These affect guest comfort and expectation alignment for some room types (triples especially).",
+      "recommended_action": "Conduct a room-condition audit to identify priority low-cost improvements (install larger TVs where feasible, add shelving/small tables, provide in-room safes or centralized secure storage, address bathroom usability issues if low-cost fixes exist). For larger condition issues, develop a medium-term renovation plan and budget. Immediately ensure room sizes and amenity lists are accurately communicated online to set proper expectations.",
+      "rationale": "Addressing tangible in-room deficiencies will improve guest comfort and reduce negative comments tied to value perception; clear online communication prevents mismatched expectations for small rooms/triples.",
+      "supporting_evidence": [
+        "Review 2024-07-29: 'The room's television was very small.'",
+        "Review 2024-07-26: 'The room was really too basic... difficult to fit 3 suitcases.'",
+        "Review 2024-07-26: 'No minibar. No safe in the room.'",
+        "Review 2024-08-01: 'The location of the toilet in the bathroom... extremely hard and awkward to sit properly.'",
+        "Review 2024-07-28: 'It needs to be renovated.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 3,
+      "area": "Staff conduct and guest cultural sensitivity",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest reported an on-property employee making a 'joke in very poor taste' regarding guests' nationality, causing offense and lowering satisfaction (rating 6).",
+      "recommended_action": "Immediately investigate the incident and, if contactable, offer a sincere apology to the guest. Hold an all-staff briefing to reaffirm behaviour standards and launch mandatory customer-service and cultural-sensitivity training. Update staff conduct policy and require supervisors to document completion. Monitor future reviews closely for related incidents.",
+      "rationale": "Even a single reported incident of offensive behaviour can harm reputation and deter guests from affected markets; swift, visible action protects brand and guest trust.",
+      "supporting_evidence": [
+        "Review 2024-08-03 (rating 6): 'A hotel employee received us... with a 'JOKE' in very poor taste. He said we were Portuguese from Brazil; I replied that we were Brazilians with much pride...'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Revenue & occupancy management",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Key performance indicators show recent declines: RevPAR -13.0% and TRevPAR -13.0% over the lookback period, and occupancy down 8.5%. Number of reviews also fell by 35% (possible lower guest volume or engagement).",
+      "recommended_action": "Implement short-term revenue tactics to stimulate demand: tactical rate promotions for shoulder dates, bundle breakfast with room rate (especially after improving breakfast), strengthen OTA/marketing copy highlighting exceptional location and friendly staff, and consider limited-time packages for groups/families. Track booking lead times and channel performance to refine offers. Use guest strengths in marketing to improve conversion.",
+      "rationale": "The hotel's strengths (central location, friendly staff, cleanliness) can be leveraged in promotions and messaging to halt revenue and occupancy decline while operational fixes are implemented.",
+      "supporting_evidence": [
+        "Basic performance: REVPAR_WEEK percentage_change = -13.02%",
+        "Basic performance: TAXA_OCUPACAO percentage_change = -8.5%",
+        "Basic performance: N_REVIEWS percentage_change = -35.0%",
+        "Many reviews emphasize 'perfect/exceptional location' and staff helpfulness that can be used in marketing."
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Preserve core strengths: location, cleanliness, friendly/family-run service",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "monitoring",
+      "problem": "While many reviews praise location, cleanliness and staff helpfulness, these strengths must be maintained to support recovery and reputation.",
+      "recommended_action": "Continue current cleaning standards and staffing practices; acknowledge and reward staff for positive guest feedback; incorporate these strengths prominently into marketing and confirmation messaging. Monitor for any decline in these areas as other changes are implemented.",
+      "rationale": "These attributes are consistently cited positively and are key differentiators for this 2-star, centrally located property; preserving them supports repeat business and positive word-of-mouth.",
+      "supporting_evidence": [
+        "Multiple reviews: 'Centrally located', 'clean rooms', 'the owners are super kind and very helpful', 'daily room cleaning was phenomenal', 'very friendly staff'.",
+        "Hotel amenities: 'Acesso Wi-Fi gratuito... Receção disponível 24 horas... Bom pequeno-almoço' (good breakfast noted as an amenity)."
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.9
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Many guests describe the hotel's location as 'perfect', 'exceptional' and 'centrally located', which is a primary driver of guest choice.",
+      "management_implication": "Continue to highlight proximity to attractions in marketing and booking channels; use location in package design."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Multiple reviews praise cleanliness and 'phenomenal' daily room cleaning.",
+      "management_implication": "Maintain current housekeeping standards and staffing levels; use positive cleanliness feedback in guest communications."
+    },
+    {
+      "area": "Friendly, helpful staff / family-run feel",
+      "reason": "Several reviews note owners and staff are 'super kind', 'very friendly', and 'helpful'.",
+      "management_implication": "Preserve personable service through staff recognition and training while addressing the isolated misconduct incident."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "REVPAR_WEEK",
+      "reason": "Directly measures revenue per available room and has declined recently; tracks recovery after revenue actions.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "TAXA_OCUPACAO (occupancy)",
+      "reason": "Occupancy dropped in the lookback window; important to track demand trends.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "AVG_RATING",
+      "reason": "Average guest rating is stable-high but should remain stable or improve as fixes are applied.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "N_REVIEWS (number of reviews) and count of negative comments mentioning 'breakfast' or 'room size/amenities' or 'staff misconduct'",
+      "reason": "Volume of reviews and theme counts provide early feedback on guest perception of targeted issues.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Guest breakfast satisfaction (proportion of reviews mentioning breakfast positively vs negatively)",
+      "reason": "Direct measure to evaluate breakfast changes.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of service-related complaints referencing staff behaviour",
+      "reason": "Tracks recurrence or resolution of the reported misconduct issue.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Analysis used only the 20 most recent reviews provided (of 61 available in the decision window); themes may shift when considering the full set.",
+    "Customer comments are not linked causally to financial performance changes; the provided performance metrics show declines but causality cannot be inferred from the reviews alone.",
+    "Some issues (e.g., room renovation scope/costs, staffing incident details) require internal investigation and physical inspection before definitive capital or disciplinary actions are taken."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H363_20240729_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P009",
+    "case_id": "H363_20240729_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:50:37.086473+00:00",
+    "finished_at_utc": "2026-09-08T15:51:06.910321+00:00",
+    "elapsed_seconds": 29.818
+  }
+}

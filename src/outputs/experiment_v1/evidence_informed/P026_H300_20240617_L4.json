@@ -1,0 +1,264 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most guest feedback is positive (breakfast, location, staff, cleanliness) but there are emerging, service-impacting frictions clustered in rooms/amenities (bathroom toiletries/hairdryer, room noise/temperature) and a clear expectation violation about the indoor pool. Concurrently, occupancy and rating show material declines that merit prompt review. Problems appear solvable via operational fixes and targeted assessment rather than immediate large capital outlay.",
+  "executive_summary": "Preserve strong performance of breakfast, location/accessibility and staff. Address room-level frictions: bathroom provisioning and noisy/temperature issues (operational/maintenance and policy review, short-term). Assess indoor pool usability/heating as an expectation violation (technical assessment before capital decisions, medium-term). Review amenity and F&B access policies (hairdryer, toiletries, afternoon drink availability). Separately, investigate the marked occupancy and rating decline with data/market analysis to identify causes (short-term assessment and monitoring).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Bathroom condition and in-room toiletries",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Multiple guest mentions of inadequate bathroom amenities (no hairdryer, bath products provided only for one guest in double rooms) and noise from bathroom fan — an expectation violation and emerging negative topic.",
+      "recommended_action": "Review and correct in-room bathroom provisioning policy and perform targeted maintenance checks. Specifically: (a) verify current inventory/provisioning practice for toiletries and hairdryers across room types; (b) correct provisioning so double rooms reliably receive amenities for two guests; (c) inspect/repair noisy bathroom fans where identified. Track implementation and guest feedback.",
+      "rationale": "Managerial evidence shows 3 negative mentions and an expectation violation for bathroom amenities. A recent guest explicitly reported no hairdryer, single set of bath products for a double room and noisy bathroom fan (2024-06-05). These are concrete operational/maintenance failures that can be addressed by policy/stocking and targeted maintenance.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Bathroom condition' — 3 review mentions, 0 positive, 3 negative, has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaint (2024-06-05): 'No hairdryer in the rooms. Bath products available only for one person even though it was a double room. Noise from the bathroom fan.'",
+        "Matched topics: 'adequate bathroom toiletries for both guests in a double room', 'bathroom amenities'."
+      ],
+      "positive_counterevidence": [
+        "No positive mentions were recorded for 'Bathroom condition' in the managerial evidence."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "managerial_evidence: Bathroom condition (net_negative, emerging_negative)",
+          "complaint_example 2024-06-05 (hairdryer, toiletries, fan noise)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Indoor pool usability / spa expectations",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Guest expectation that the indoor pool be climatized/heated and usable in rain or at dusk is unmet (explicit expectation violation).",
+      "recommended_action": "Conduct a technical and commercial assessment to determine whether the indoor pool is designed/intended to be heated/climatized and whether making it usable in adverse conditions is feasible and aligned with positioning. Steps: (a) inspect pool systems and operational constraints; (b) estimate options and costs for heating/climatization or operational adjustments (e.g., scheduled availability, clear communication); (c) decide whether to invest, adjust guest communications, or alter operating hours.",
+      "rationale": "Managerial evidence (Spa and pool) shows an expectation violation and emerging negative mention. A recent guest explicitly noted the indoor pool is not heated and therefore not usable in rain or at dusk (2024-06-17). The evidence indicates an expectation mismatch that could require technical assessment rather than immediate capital commitment.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Spa and pool' — 2 mentions (1 positive, 1 negative), has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaint (2024-06-17): 'Despite having an indoor pool, it is not heated so you can enjoy it when it rains or even at dusk.'",
+        "Matched topic: 'indoor pool should be climatized/heated and usable even when it rains or at night.'"
+      ],
+      "positive_counterevidence": [
+        "There is at least one positive mention of the pool in managerial evidence (Spa and pool: positive_mentions=1)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "managerial_evidence: Spa and pool (expectation_violation)",
+          "complaint_example 2024-06-17 (pool not heated)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Room comfort — noise and temperature control",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "While room comfort is generally praised, there are recurring friction points: noisiness of rooms (including refrigerator noise), shower/bath configuration complaints, and temperature control issues.",
+      "recommended_action": "Perform an operational review combining maintenance checks and guest-facing mitigations: (a) identify and service noisy equipment (fridges, fans) in affected rooms; (b) review room temperature control systems and provide clear guidance to guests on operation; (c) evaluate noise sources and mitigation (insulation, maintenance) where recurring. Track affected room numbers and guest feedback post-action.",
+      "rationale": "Room comfort has more positive than negative mentions overall, but evidence indicates emerging negative issues (temperature control, noise). Complaints include general room noisiness and a noisy refrigerator turned off by a guest (2024-06-10; 2024-06-18). Because the underlying strength should be preserved, targeted maintenance and clearer guest guidance are the appropriate responses.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Room comfort' — 4 mentions, positive 3, negative 2, evidence_pattern 'positive_with_friction', emerging_negative_weeks=1.",
+        "Complaint (2024-06-10): 'Noisiness of the rooms' and note about showering in a bathtub (guest preference/friction).",
+        "Complaint (2024-06-18): 'Noise of the refrigerator in the room (which I ultimately turned off).' ",
+        "Matched topics include 'bed comfort', 'room comfort', 'temperature control'."
+      ],
+      "positive_counterevidence": [
+        "Multiple guests praised comfort: e.g., complaint 2024-06-12 highlights 'Comfortable room with access to the garden.'",
+        "Managerial evidence positive_mentions=3 for Room comfort."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "managerial_evidence: Room comfort (positive_with_friction, emerging_negative)",
+          "complaint_example 2024-06-10 (room noisiness)",
+          "complaint_example 2024-06-18 (refrigerator noise)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Amenity provisioning and F&B access (hairdryer, toiletries, afternoon drinks)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Isolated but meaningful complaints about missing in-room hairdryers, single-person toiletries in double rooms, and limited availability of drinks outside breakfast (restaurant only open in morning) — an expectation/ value gap for some guests.",
+      "recommended_action": "Review amenity provisioning policy and guest communications: (a) confirm what is included in each room type and operationalize reliable stocking of hairdryers and toiletries for double rooms; (b) review F&B opening hours and guest expectations about drink availability (consider clearer pre-arrival information or small operational adjustments to offer drinks outside breakfast hours). Document any policy changes and communicate them to reservations/front desk.",
+      "rationale": "Managerial evidence shows in-room amenities as an emerging topic (2 mentions, mixed). Complaints include no hairdryer and a note that the restaurant is only open in the morning so drinks are not available in the afternoon (2024-06-05; 2024-06-10). These are process/policy issues that can be remedied without assuming capital investment.",
+      "supporting_evidence": [
+        "Managerial evidence: 'In-room amenities' — 2 mentions (1 positive, 1 negative), is_emerging_negative=true.",
+        "Complaint (2024-06-05): 'No hairdryer in the rooms. Bath products available only for one person even though it was a double room.'",
+        "Complaint (2024-06-10): 'The restaurant was only open in the morning, so getting a drink in the afternoon wasn't possible.'"
+      ],
+      "positive_counterevidence": [
+        "Breakfast is repeatedly praised (12 positive mentions), indicating strong F&B quality during service hours.",
+        "Some positive mentions for in-room amenities exist in managerial evidence (positive_mentions=1)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "managerial_evidence: In-room amenities (emerging_negative)",
+          "complaint_example 2024-06-05 (hairdryer, toiletries)",
+          "complaint_example 2024-06-10 (limited drink availability)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.65
+    },
+    {
+      "rank": 5,
+      "area": "Investigate occupancy and rating decline",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "monitoring",
+      "problem": "Occupancy (TAXA_OCUPACAO) has fallen sharply over the 4-week window (–44.44% absolute change). Average rating and some sentiment indicators are also decreasing. The cause is not determinable from review text alone.",
+      "recommended_action": "Initiate a short-term commercial and guest-experience review: (a) analyze booking channels, pricing, cancellation patterns and segmentation for the period of decline; (b) correlate timing of operational/experience issues (e.g., complaints about rooms, pool) with booking/rating movement; (c) monitor incoming reviews for persistence or escalation of guest issues. Do not assume causality from reviews—use data analysis and, where needed, deeper guest feedback collection.",
+      "rationale": "Business-performance metrics show a consistent and large drop in occupancy (TAXA_OCUPACAO from 80.36 to 44.64, –35.71 absolute) and a declining average rating (10.0 to 8.75). These changes are severe enough to justify prompt managerial analysis even though the root causes are not established in the supplied review evidence.",
+      "supporting_evidence": [
+        "Business performance: TAXA_OCUPACAO decreased by 44.44% (80.3571 → 44.6429) with direction_consistency=1.0.",
+        "Business performance: AVG_RATING decreased (10.0 → 8.75, –12.5%).",
+        "Experience indicators: SENTIMENT_SCORE_AVG decreasing; PERC_REVIEWS_NEGATIVE shows recent_reversal signal in the panel."
+      ],
+      "positive_counterevidence": [
+        "RevPAR_WEEK increased over the window (first 36.79 → last 47.33, +28.63%) and recent movement is up in RevPAR, indicating revenue per available room has not uniformly worsened.",
+        "Many qualitative strengths remain (breakfast, staff, location, cleanliness)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "TAXA_OCUPACAO decreasing (consistent, -35.71 absolute)",
+          "AVG_RATING decreasing (moderate)",
+          "PERC_REVIEWS_NEGATIVE recent_reversal=true",
+          "TREVPAR recent_reversal=true (business metric flag)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast",
+      "reason": "Strong and consistent positive evidence: 12 positive mentions, high praise for quality and variety.",
+      "management_implication": "Maintain current breakfast quality and service; avoid changes that could undermine this clear guest-perceived strength."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Multiple positive mentions (7) praising location, tranquillity and accessibility (including for reduced mobility).",
+      "management_implication": "Continue to highlight location in marketing and preserve accessibility features; ensure directions/parking information remains clear to guests."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Consistently positive mentions of friendly and helpful staff (5 positive mentions).",
+      "management_implication": "Preserve staffing approach and guest welcome standards; use staff strengths when communicating about any short-term service adjustments."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Share of reviews mentioning bathroom amenities/problems",
+      "reason": "Tracks whether bathroom provisioning/maintenance remediation reduces complaint frequency.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Mentions of indoor pool usability/heating",
+      "reason": "Monitors whether pool expectations remain an issue or are addressed by communication/technical changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "medium_term"
+    },
+    {
+      "indicator": "Mentions of room noise and temperature control",
+      "reason": "Assesses effectiveness of maintenance and guest guidance on comfort issues.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "TAXA_OCUPACAO (occupancy) and AVG_RATING",
+      "reason": "Track commercial and reputational signals; early detection of further deterioration or recovery.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG and PERC_REVIEWS_NEGATIVE",
+      "reason": "Monitor shifts in expectation alignment and share of negative reviews after interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic examples drawn from a subset of reviews and are not statistically representative of all guest feedback (total reviews in window = 27).",
+    "Managerial evidence counts (positive/negative mentions) summarize lexical signals but do not provide full prevalence or room-by-room mapping; further operational checks are needed to determine scope.",
+    "Business-performance declines (occupancy, rating) are documented in metrics but their causes are not identifiable from the supplied review text; causality must not be assumed.",
+    "Some actionable details (e.g., cost and technical feasibility of pool heating) are not available in the evidence and require technical/financial assessment before committing to capital investment."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P026",
+    "case_id": "H300_20240617_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:14:12.621084+00:00",
+    "finished_at_utc": "2026-09-08T16:15:00.910812+00:00",
+    "elapsed_seconds": 48.3
+  }
+}

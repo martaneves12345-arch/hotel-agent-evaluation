@@ -1,0 +1,161 @@
+{
+  "overall_risk": "critical",
+  "overall_risk_rationale": "Multiple recent guest reports describe potentially serious health and safety issues (strong sewer smell in rooms; spa facility cold/off, unsupervised, poor hygiene) together with repeated operational failings. These incidents could cause guest illness, reputational damage and liability if not addressed immediately.",
+  "executive_summary": "Recent reviews are mostly positive about location, breakfast, pool and staff but include several high-severity operational failures: persistent sewer odour in rooms (one guest required multiple room moves), and multiple serious spa failures (cold/jacuzzi off, open roof, no supervision, confusion about booking) with a guest reporting subsequent illness. Other recurring service issues: breakfast coffee machine jamming/queues, dated rooms/lack of sockets and some uncomfortable sun-loungers, plus accessibility improvements requested. Priorities: investigate and remediate the sewer odour, perform an immediate spa operational and safety audit and close/repair if needed, improve breakfast beverage capacity and flow, address bathroom/accessibility safety features for elderly guests, and plan maintenance/refurbishment for dated rooms and guest amenities.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room sewer odour / HVAC & plumbing",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests reported rooms that 'stink terribly of sewer smell', requiring multiple room moves and causing severe discomfort.",
+      "recommended_action": "Immediately log and escalate to engineering/plumbing contractor to inspect affected rooms and building waste/vent stacks and HVAC for cross-contamination. Identify and remediate source (plumbing traps, drains, sewer venting, HVAC duct contamination). Offer affected guests immediate room changes, complimentary refreshment and compensation per policy while investigating. Record room numbers and times of complaints for targeted inspection.",
+      "rationale": "Sewer odour indicates a sanitation/plumbing problem that degrades guest experience and may pose health risks; one guest nearly fainted and required room changes—this is an urgent operational and reputational issue.",
+      "supporting_evidence": [
+        "Review (2024-05-06, rating 1): 'The rooms stink terribly of sewer smell. After much insistence we were offered a second room. This one stank again... After an hour of waiting we were finally offered a good alternative.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.92
+    },
+    {
+      "rank": 2,
+      "area": "Spa operations, maintenance and guest safety",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guest reports indicate the spa was non-functional (cold water, jacuzzi off, Turkish bath issues, open roof), unsupervised and poorly signposted (guests unaware they must book), with a guest claiming they became ill after use.",
+      "recommended_action": "Immediately audit spa plant, water temperatures, chemical dosing, filtration and HVAC; suspend guest access if equipment/conditions are unsafe. Ensure spa staff/supervision and clear booking procedure communicated at check-in and visible signage. Replace/repair faulty equipment (jacuzzi, heating), ensure towels/supplies are adequate, retrain staff on guest flow and hygiene checks, and log incidents/guest complaints for follow-up and possible compensation.",
+      "rationale": "Spa defects and lack of supervision present direct health and safety hazards and have produced a detailed complaint alleging subsequent illness; operational closure and technical inspection are warranted until safe operation is confirmed.",
+      "supporting_evidence": [
+        "Review (2024-05-07, rating 4): '...it was empty. Everything was switched off. It was the first time I was in a spa with cold water, the jacuzzi off, a cold pool, the Turkish bath that didn't close, and wind because the roof was open. On top of that, there was no supervision... We were there 20 minutes and gave up... But those few minutes were enough for us to catch the flu.'",
+        "Review (2024-05-07, rating 4): '...at check-in there was no indication that you actually have to book entry to the spa.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.95
+    },
+    {
+      "rank": 3,
+      "area": "Breakfast beverage flow & equipment reliability",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Breakfast service is praised overall but guests report the coffee machine often jams, causing long queues; one guest suggested desire for an omelette chef and another complained of tasteless items.",
+      "recommended_action": "Inspect and service or replace malfunctioning coffee machine(s); add an additional coffee/tea station or deploy staff to operate espresso machine during peak breakfast times to avoid jams and queues. Consider adding a live egg station/omelette chef on busy days and review menu items flagged as 'tasteless' with F&B manager to ensure consistent food quality and taste.",
+      "rationale": "Breakfast quality is a key differentiator; equipment failures create negative impressions even when overall breakfast selection is good. Fixing beverage bottlenecks will protect a recognized hotel strength.",
+      "supporting_evidence": [
+        "Review (2024-05-14, rating 8): 'Coffee machine wud often jam leading to long queues for tea/coffee at breakfast'",
+        "Review (2024-05-07, rating 4): 'Breakfast in which everything without exception is tasteless.'",
+        "Review (2024-05-18, rating 9): 'Breakfast was excellent... fresh juices... a great selection of hot food.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.78
+    },
+    {
+      "rank": 4,
+      "area": "Accessibility and bathroom safety for elderly/less mobile guests",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "At least one guest cited difficulty for an elderly companion due to baths rather than walk-in showers and suggested safety handles in the bath.",
+      "recommended_action": "Audit rooms to identify those with walk-in showers and those with baths; offer accessible rooms proactively at booking and at check-in. Install grab bars/handrails in baths where feasible and provide non-slip mats and portable shower seats as interim measures. Update booking information to clearly describe bathroom types and accessibility features.",
+      "rationale": "Improving accessibility reduces guest safety risk, meets expectations for family/older guests, and prevents falls or injuries.",
+      "supporting_evidence": [
+        "Review (2024-05-18, rating 9): '...a walk in shower for an elderly person with us but she coped well in bath, there could be a safety handle or two in bath as you shower.'"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 5,
+      "area": "Room condition, sockets and outdoor furniture comfort (sun-loungers)",
+      "managerial_priority": "medium",
+      "action_horizon": "medium_term",
+      "intervention_type": "capital_assessment",
+      "problem": "Several guests mention 'bedrooms a little dated', not enough plug sockets, and sun loungers that are not comfortable.",
+      "recommended_action": "Compile an inventory of room condition issues (furniture, sockets, decor) and guest amenity comfort items (sun-loungers). Prioritise low-cost fixes (additional multi-socket outlets, replace worn loungers) and schedule a capital plan for phased room refurbishments where décor or infrastructure is dated. Communicate planned improvements to staff and through marketing as upgrades are completed.",
+      "rationale": "Addressing dated appearance and amenity shortfalls will support guest satisfaction and reduce minor complaints; some fixes are low-cost and quick to implement while larger refurbishments can be planned.",
+      "supporting_evidence": [
+        "Review (2024-05-16, rating 8): 'Bedrooms a little dated.'",
+        "Review (2024-05-15, rating 8): '...not enough plug sockets in the room.'",
+        "Review (2024-05-14, rating 8): 'Sun loungers weren't particularly comfortable.'"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.68
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast & F&B selection",
+      "reason": "Multiple guests praised the 'excellent' breakfast, abundant fruit, fresh juices and wide hot selection.",
+      "management_implication": "Protect staffing levels and supply for breakfast and maintain variety and freshness while resolving isolated quality/equipment issues."
+    },
+    {
+      "area": "Pool area and outdoor setting",
+      "reason": "Several reviews highlight a very nice pool area, garden, many beds and an outside bar — a clear guest draw.",
+      "management_implication": "Maintain pool landscaping, sun-lounger availability (while improving comfort), and poolside service levels."
+    },
+    {
+      "area": "Location and accessibility to beach/marina",
+      "reason": "Guests repeatedly cite 'perfect/great location' and short walk to beach and marina as strengths.",
+      "management_implication": "Use location in marketing and ensure front-desk staff emphasise local access at check-in."
+    },
+    {
+      "area": "Staff cordiality and room cleanliness",
+      "reason": "Guests report staff are 'very nice and cordial' and rooms are 'beautifully cleaned' in multiple reviews.",
+      "management_implication": "Preserve service culture through training and recognition programs; ensure housekeeping standards remain consistent as operational fixes proceed."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of new reviews mentioning 'sewer', 'smell', 'odour' per week",
+      "reason": "Direct indicator of whether the plumbing/HVAC remediation is resolving the odour issue.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of spa-related complaints (functionality, hygiene, booking/confusion) per week",
+      "reason": "Tracks effectiveness of spa repairs, supervision and communication changes.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Average wait time/queue length for coffee at breakfast and equipment downtime incidents",
+      "reason": "Measures improvement after servicing/replacing coffee machines and operational adjustments.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Incidents requiring medical attention or guest-reported illness linked to hotel facilities",
+      "reason": "Safety indicator to detect ongoing health risks (related to spa or other facilities).",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Guest satisfaction for 'rooms / condition' and 'value' sub-scores in post-stay surveys",
+      "reason": "Monitors the impact of maintenance and refurbishment activities on perceived room quality.",
+      "desired_direction": "increase"
+    }
+  ],
+  "limitations": [
+    "Only 20 of 46 available reviews were provided to the model; findings are based on these most recent reviews and may not represent entire guest sentiment in the period.",
+    "Reviews are qualitative and may reflect isolated incidents; while descriptions suggest serious failures (sewer smell, spa), technical inspections are required to confirm causes and extent.",
+    "Cannot infer causality between guest reviews and the hotel's observed revenue or occupancy trends; financial metrics show positive short-term movement but should not be attributed to review content."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H414_20240513_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P028",
+    "case_id": "H414_20240513_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T16:16:12.635930+00:00",
+    "finished_at_utc": "2026-09-08T16:16:41.839764+00:00",
+    "elapsed_seconds": 29.204
+  }
+}

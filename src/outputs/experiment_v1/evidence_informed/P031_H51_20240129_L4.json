@@ -1,0 +1,256 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Most guest evidence is positive (cleanliness, staff, location), but there are clear emerging and persistent signals of expectation–experience misalignment (increasing expectation gap and semantic misalignment) and a cluster of operational complaints (breakfast variety/quality, some maintenance/noise and a small number of value/parking complaints). The combination of an existing priority alert, increasing operational complaints, and rising expectation-gap metrics justifies a moderate overall risk classification.",
+  "executive_summary": "The hotel shows clear strengths in cleanliness, staff helpfulness and location. Priority vulnerabilities are: (1) Breakfast (limited variety, some crowding) — net-negative and flagged as an emerging negative topic; (2) a rising expectation–experience / semantic misalignment signal that is cross-cutting and may be driving perception gaps; (3) operational/maintenance frictions (doors slamming, corridor noise, housekeeping conduct) that need prompt review; (4) bed-configuration / room-setup expectation friction (staff generally resolves but the mismatch recurs); and (5) parking/price–value concerns (fewer mentions but visible). Recommended actions emphasize targeted operational/process reviews and short assessments before any capital decisions.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Breakfast (food variety, capacity)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests report limited breakfast variety, a cramped breakfast space and at least one violated expectation about breakfast quality/variety; topic is an emerging negative.",
+      "recommended_action": "Review breakfast offering and service process: (a) conduct a short operational review with F&B staff to map current menu/stocking, service flow, and peak-time capacity; (b) review guest-facing descriptions/inclusions about breakfast so expectations align with offering; (c) if the review indicates space constraints or recurring supply limitations, commission an assessment to determine whether operational changes suffice or a capital/space solution is required.",
+      "rationale": "Managerial_evidence shows 7 mentions (3 positive, 4 negative) with has_expectation_violation=true and is_emerging_negative=true; complaints in the sample repeatedly cite limited variety and cramped space. Because this is an emerging, repeated area of negative feedback and ties to the rising expectation gap, it should be reviewed promptly to avoid further erosion of perceived value.",
+      "supporting_evidence": [
+        "Managerial_evidence (Breakfast): 7 mentions, positive=3, negative=4, has_expectation_violation=true, is_emerging_negative=true.",
+        "Complaint 2024-01-14: 'breakfast has quality products but few options; it could have a bit more variety.'",
+        "Complaint 2024-01-29: 'breakfast is very poor. Few fruits, processed foods, and a cramped space.'",
+        "Complaint 2024-01-09: 'Breakfast repetitive.'",
+        "Preliminary signals: 'emerging_negative_topic' includes 'food variety'; increasing expectation_gap and semantic_misalignment signals are present."
+      ],
+      "positive_counterevidence": [
+        "Complaint 2024-01-15 (rating 10): 'Great breakfast.'",
+        "Managerial_evidence: 3 positive breakfast mentions (some guests praise breakfast)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 3,
+        "negative_mentions": 4,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 4,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 4,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Expectation–experience alignment / messaging",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Systemic increase in expectation–experience gap and semantic misalignment suggests guest expectations (what is promised or implied) are drifting from what guests experience across several areas (including breakfast and room features).",
+      "recommended_action": "Conduct a cross-functional review of guest-facing messaging and package/inclusion descriptions (website, booking channels, confirmation emails, and front-desk scripts) to identify and correct points where expectations may be overstated or ambiguous. Include F&B, rooms, and reservations teams. Implement simple remedial clarifications quickly (e.g., clear statements about what breakfast includes) and monitor guest feedback.",
+      "rationale": "Experience indicators show rising EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG (moderate trend strength). These are cross-cutting signals that can amplify specific complaints (e.g., breakfast, bed configuration). Addressing messaging/policy alignment is lower-cost and should precede assuming major operational changes.",
+      "supporting_evidence": [
+        "Experience_indicators: EXPECTATION_EXPERIENCE_GAP_AVG increased from 0.05 to 0.12 (n=4) and SEMANTIC_MISALIGNMENT_SCORE_AVG increased from 0.05 to 0.14.",
+        "Preliminary_signals: 'increasing_expectation_gap' and 'increasing_misalignment' flagged as high severity.",
+        "Managerial_evidence notes multiple areas with has_expectation_violation=true (Breakfast, Staff and service, Room comfort, Location)."
+      ],
+      "positive_counterevidence": [
+        "Overall guest sentiment and many positive operational mentions (cleanliness, staff) suggest the hotel delivers many aspects well; misalignment may be concentrated on a few expectations rather than across all services."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 4,
+        "expectation_weeks": 4,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "increasing_expectation_gap",
+          "increasing_misalignment",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 3,
+      "area": "Noise/doors and housekeeping conduct (corridor acoustics, doors slamming, housekeeping on phone)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "At least one guest reported poor corridor acoustics, heavy door springs causing doors to slam, and housekeeping staff using phones while cleaning — causing disturbance and inability to remain in the room during cleaning.",
+      "recommended_action": "Immediate actions: (a) instruct housekeeping on phone-use policy and guest disturbance minimization; (b) have maintenance inspect door-closing mechanisms and corridor acoustics to identify quick mitigations (adjust door closers, add soft-close mechanisms or signage) and report back with recommended repairs; (c) monitor guest feedback for recurrence. If inspection shows structural acoustics issues, commission a further assessment.",
+      "rationale": "Complaint 2024-01-14 describes multiple operational annoyances together (slamming doors, housekeeping on phone) that directly affect guest comfort. Because these are concrete, addressable operational and maintenance items, a prompt operational and maintenance review is justified. Door mechanisms may require technical assessment before capital decisions.",
+      "supporting_evidence": [
+        "Complaint 2024-01-14: 'corridor acoustics are poor and the doors have very heavy springs that make them slam... the staff member who cleaned the floor was on her phone all the time every morning, and it was impossible to stay in the room because of the conversation and the doors slamming.'",
+        "Preliminary_signals: increasing_operational_complaints flagged as high severity."
+      ],
+      "positive_counterevidence": [
+        "Multiple other reviews praise staff attentiveness and cleanliness, indicating this may be a localized operational lapse rather than pervasive.",
+        "Managerial_evidence: Staff and service has 11 positive mentions and only 2 negative mentions overall."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "increasing_operational_complaints",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.66
+    },
+    {
+      "rank": 4,
+      "area": "Room bed-configuration / room-setup expectation mismatch",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests generally praise room comfort, but managerial evidence flags repeated expectation friction around bed configuration (staff assistance needed to resolve bed configuration).",
+      "recommended_action": "Review reservation and room-allocation processes and front-desk check-in protocols to identify whether bed-configuration options are clearly offered at booking and whether room types are correctly assigned. Train front-desk staff to confirm bed setup at check-in and capture any recurring patterns (e.g., booking channel miscommunication).",
+      "rationale": "Managerial_evidence lists 'staff assistance to resolve bed configuration' as a matched topic under Staff and Room Comfort and shows bed comfort is otherwise positive; resolving process/messaging and reservation matching should reduce these expectation violations without capital expense.",
+      "supporting_evidence": [
+        "Managerial_evidence (Staff and service): matched topic 'staff assistance to resolve bed configuration'; positive_with_friction pattern (11 positive, 2 negative mentions).",
+        "Managerial_evidence (Room comfort): matched topics include 'bed comfort' and 'staff assistance to resolve bed configuration' (5 positive, 2 negative mentions)."
+      ],
+      "positive_counterevidence": [
+        "Staff are frequently praised for attentiveness and resolving issues, indicating existing operational capability to address bed configuration when it occurs."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 0,
+        "relevant_trend_signals": [
+          "increasing_misalignment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    },
+    {
+      "rank": 5,
+      "area": "Parking and price–value perceptions",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "policy_process",
+      "problem": "A small number of guests reported parking as expensive and some negative price–value comments exist (low volume but negative share), which can affect perceived value for certain segments.",
+      "recommended_action": "Monitor frequency of parking and price–value complaints. If complaints persist or increase, review parking pricing communication (what is included vs. outsourced parking) and consider whether clearer messaging or partnership options should be presented to guests. Begin with a short review of booking-channel pricing statements and front-desk messaging.",
+      "rationale": "Managerial_evidence: Parking has 1 negative mention; Price–value has 2 negative mentions (net_negative pattern) but low volume. Given limited evidence, recommend monitoring and targeted review before operational or capital action.",
+      "supporting_evidence": [
+        "Complaint 2024-01-18: 'Parking is very expensive.'",
+        "Managerial_evidence (Price–value): 2 positive mentions = 1, negative_mentions = 2 (net_negative).",
+        "Managerial_evidence (Parking): 1 negative mention."
+      ],
+      "positive_counterevidence": [
+        "Majority of reviews praise value relative to price in multiple complaints (e.g., complaint 2024-01-15 notes good value at approx EUR70/night)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 3,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": []
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.45
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "High positive share in reviews (9 positive, 1 negative); multiple reviews explicitly praise cleanliness and daily room service.",
+      "management_implication": "Maintain current housekeeping standards and recognize/communicate them to staff; use cleanliness as a marketing highlight while addressing isolated conduct issues."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Strong positive mentions (11 positive, 2 negative) describing attentiveness, friendliness, helpful problem resolution and thoughtful touches (water, chocolates, gifts).",
+      "management_implication": "Preserve and reinforce service behaviours with training and recognition; leverage staff strength when clarifying expectations to guests."
+    },
+    {
+      "area": "Location and accessibility",
+      "reason": "Consistently praised (12 positive, 1 negative) for proximity to metro and transport links.",
+      "management_implication": "Continue to highlight location in guest communications and booking channels; ensure messaging about transport connections is accurate to avoid expectation mismatch for certain travellers."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG",
+      "reason": "Rising gap is a cross-cutting signal tied to multiple complaints and emerging negative topics.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Increasing misalignment indicates guest descriptions and hotel messaging may be diverging; monitor to assess effect of messaging/process changes.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_OPERATIONAL_COMPLAINTS",
+      "reason": "Operational complaints are rising; this tracks the severity and frequency of door/noise/housekeeping and service-process issues.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Overall negative review share recently decreased but shows recent reversal; monitor to ensure no renewed deterioration.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Complaints mentioning 'breakfast' or 'food variety' (count)",
+      "reason": "Breakfast is an emerging negative topic and should be tracked separately to measure effectiveness of interventions.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "The complaint_sample is diagnostic and not statistically representative of all reviews in the window (selected subset of substantive 'disliked' text). Prevalence should be assessed using the full review set.",
+    "Some issues (e.g., whether breakfast limitations reflect staffing, supplier, or space constraints; or whether door-closing mechanisms require repair vs. adjustment) cannot be resolved from review text and require on-site operational or technical assessment before committing capital.",
+    "Evidence for bed-configuration friction is derived from managerial topic matching rather than explicit complaint examples in the selected complaints; further operational review will clarify scope.",
+    "The experience indicators show trending problems (expectation gap and misalignment) but do not identify precise causal channels; recommended actions focus on review and alignment rather than prescriptive capital solutions."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P031",
+    "case_id": "H51_20240129_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:20:32.723083+00:00",
+    "finished_at_utc": "2026-09-08T16:21:22.134042+00:00",
+    "elapsed_seconds": 49.404
+  }
+}

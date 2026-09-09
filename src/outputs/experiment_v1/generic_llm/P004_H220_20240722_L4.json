@@ -1,0 +1,167 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "Multiple recent reviews flag recurring operational and service problems (staff inconsistency, broken appliances, noise, deteriorating facilities) that are lowering guest satisfaction (avg rating fell from 8.11 to 7.5). Occupancy remains high (~88–92%) which limits immediate revenue risk but reputation risk is rising unless addressed.",
+  "executive_summary": "Guests consistently praise location and working air conditioning, but several themes recur: inconsistent/poor staff communication and refund handling, building and room maintenance problems (broken fridge, appliances, windows), night-time noise and poor soundproofing, and shared bathroom cleanliness/functionality. Priorities should focus first on guest safety/security and staff processes, then on rapid maintenance fixes and noise mitigation. Preserve strong central location and functioning AC; track targeted indicators (avg rating, complaint counts, maintenance closure time, night-incident reports).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Guest safety & security / front-desk presence",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "operational",
+      "problem": "Reports of broken windows that admit street noise, frequent late-night disturbances, and periods with no staff present until 16:00 increase guest security concerns and reduce ability to respond to incidents promptly.",
+      "recommended_action": "Ensure 24/7 or extended front-desk/onsite staff coverage (or a reliable on-call system) and implement an immediate check of external doors/windows for any security/repair needs. Communicate staffing hours clearly in booking channels and at pre-arrival. If staffing 24/7 is not possible, deploy an emergency contact protocol and on-call staff response time target.",
+      "rationale": "Multiple reviews mention no staff until 4pm, noisy late nights, broken windows letting noise in and incidents (guests pressing buzzer at night). Immediate staffing and security measures reduce risk to guests and the hotel's ability to resolve incidents and refunds.",
+      "supporting_evidence": [
+        "No staff till 4pm. Often noisy at night with drunk people coming back. (review_date: 2024-07-09)",
+        "Broken windows that let the noise through. (review_date: 2024-07-18)",
+        "One lost her keys and pressed the buzzer and woke everyone up. (review_date: 2024-07-09)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 2,
+      "area": "Staff service consistency & complaint/charges handling",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests report inconsistent information from staff, refusal or confusion about refunds, unclear late check-in charges, and rudeness from an employee — causing strong negative reviews and potential reputational damage.",
+      "recommended_action": "Implement a short training refresh on customer service, complaint handling and refund policy clarity. Standardize written procedures for booking discrepancies and late check-in fees; ensure front desk posts/leaflets and booking-channel descriptions match the policy. Introduce a simple escalation log for any refund or booking disputes (date, staff, action taken) and review open disputes weekly until resolved.",
+      "rationale": "Direct guest comments describe staff giving contradictory statements about refunds and a complaint about rudeness; one guest reported being charged an unexpected higher late check-in fee. Clear, consistent policies and staff training will reduce these damaging incidents.",
+      "supporting_evidence": [
+        "The staff themselves lied to our faces; we had booked another room... they said the problem was Booking and that they would refund the money. The next day... said that no refunds were given. In the end, they neither changed our room nor paid the difference. (review_date: 2024-07-24)",
+        "Late check in charges were not clear- was told it will be €20 and when arrived I was told its €30. (review_date: 2024-07-21)",
+        "Employee, a rude woman. (review_date: 2024-07-14)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.88
+    },
+    {
+      "rank": 3,
+      "area": "Room and communal area maintenance",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Several guests report broken or missing appliances (fridge, kitchen stove), deteriorating facilities and accumulation of water in shared showers; these reduce perceived value and may create hygiene or slip hazards.",
+      "recommended_action": "Conduct an urgent inventory and functional check of all in-room and communal appliances (fridges, stoves, windows, doors, shower trays). Prioritize repairs or replacement for items flagged in reviews (fridges, shower drainage, broken windows) and log repair completion. For items requiring capital replacement, prepare a short capital plan and guest-facing timeline.",
+      "rationale": "Multiple explicit mentions of broken fridge, kitchen without stove or refrigerator, and shower trays accumulating water indicate systemic maintenance gaps that harm guest experience and could be safety/hygiene concerns.",
+      "supporting_evidence": [
+        "Broken fridge. (review_date: 2024-07-28)",
+        "The kitchen on the 1st floor had no stove or refrigerator. (review_date: 2024-07-16)",
+        "Points to improve - the shared bathroom on the 2nd floor accumulates water in the shower tray. (review_date: 2024-07-13)",
+        "The facilities are old and half of the appliances do not work. (review_date: 2024-07-24)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.9
+    },
+    {
+      "rank": 4,
+      "area": "Night-time noise & soundproofing",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Frequent complaints about noise at night and poor soundproofing (doors/windows) are disrupting guest sleep and lowering ratings.",
+      "recommended_action": "Short-term: introduce operational mitigations — offer quieter rooms when available, provide earplugs, and set clear quiet-hours communicated to guests. Medium-term: audit doors and window seals and prioritize upgrades or repairs (e.g., weatherstripping, window refurbishment, door seals). Consider signage and staff enforcement of quiet hours.",
+      "rationale": "Noise is repeatedly cited as a negative (several reviews mention very noisy at night; broken windows let noise through). Combining operational and maintenance actions will reduce guest disruption quickly while planning upgrades.",
+      "supporting_evidence": [
+        "It is very noisy. (review_date: 2024-07-15)",
+        "Deterioration. And too much noise at night. Broken windows that let the noise through. (review_date: 2024-07-18)",
+        "Very poor soundproofing. If they replaced the doors it would help, I think. (review_date: 2024-07-13)"
+      ],
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 5,
+      "area": "Shared bathroom cleanliness & guest amenities",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Some guests report shared showers appearing dirty or water accumulation; other small amenity gaps were noted (lack of extra towels, small bedding issues). These affect perceived cleanliness and guest comfort.",
+      "recommended_action": "Review cleaning schedules and checklists for shared bathrooms; increase cleaning frequency if needed and verify drainage fixes from maintenance. Ensure rooms and shared areas are stocked with basic extras (hand towels, spare bedding items). Add a brief room/area inspection checklist for supervisors to sign daily.",
+      "rationale": "Several reviews mention shared showers looking dirty and accumulation of water; another mentions a lack of extra hand towels and bedding issues. Improving visible cleanliness and basic amenities will lift ratings without large capital spend.",
+      "supporting_evidence": [
+        "The shared shower looked dirty and it was very noisy. (review_date: 2024-07-09)",
+        "The shared bathroom on the 2nd floor accumulates water in the shower tray. (review_date: 2024-07-13)",
+        "A few extra hand towels would also have been nice. (review_date: 2024-07-14)"
+      ],
+      "safety_relevance": true,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location",
+      "reason": "Repeatedly praised by many guests as 'top location', 'centrally located', and 'convenient for a short stay'.",
+      "management_implication": "Continue to market and highlight central location in booking channels; use location as a price justification while addressing service and maintenance issues."
+    },
+    {
+      "area": "Air conditioning / room comfort (AC works)",
+      "reason": "Multiple reviews note functioning air conditioning as a positive.",
+      "management_implication": "Preserve AC maintenance schedule and advertise rooms with AC when assigning guests or on booking pages."
+    },
+    {
+      "area": "Short-stay convenience and value for brief visits",
+      "reason": "Several guests say it's convenient for short stays and would return.",
+      "management_implication": "Tailor product offers and messaging for short-stay travelers while improving service consistency to convert repeat visits."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Average rating (weekly)",
+      "reason": "Direct measure of guest satisfaction and trending; rating has fallen from 8.11 to 7.5.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Number of reviews mentioning 'staff', 'refund', 'charges' (monthly)",
+      "reason": "Tracks frequency of staff-related service failures and policy confusion.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Number of maintenance tickets opened vs closed within 7 days",
+      "reason": "Measures responsiveness to broken appliances, windows, showers reported by guests.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Incidents or complaints after 22:00 (night incidents) per month",
+      "reason": "Monitors night-time disturbances and need for security/staffing action.",
+      "desired_direction": "decrease"
+    },
+    {
+      "indicator": "Share of rooms with functioning fridge/stove (inventory check)",
+      "reason": "Directly monitors appliance availability cited in reviews.",
+      "desired_direction": "increase"
+    },
+    {
+      "indicator": "Guest-reported cleanliness issues for shared bathrooms (count)",
+      "reason": "Monitors impact of cleaning schedule changes and maintenance on shared facilities.",
+      "desired_direction": "decrease"
+    }
+  ],
+  "limitations": [
+    "Analysis is based only on the 20 most recent reviews provided (out of 28 available in the decision window) and basic aggregated performance metrics; this is a limited sample.",
+    "No internal operational data (staffing rosters, maintenance logs, or booking/channel policies) were provided, so remedies requiring internal verification are recommended but cannot be confirmed here.",
+    "Cannot infer causal relationships between reviews and financial performance metrics (REVPAR/TREVPAR changes) from the provided information."
+  ],
+  "system": "generic_llm_baseline",
+  "system_version": "generic_llm_v1",
+  "case_id": "H220_20240722_L4",
+  "model": "gpt-5-mini",
+  "input_review_count": 20,
+  "input_type": "neutral_recent_reviews_plus_basic_kpis",
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P004",
+    "case_id": "H220_20240722_L4",
+    "system": "generic_llm",
+    "started_at_utc": "2026-09-08T15:43:35.702311+00:00",
+    "finished_at_utc": "2026-09-08T15:44:06.834032+00:00",
+    "elapsed_seconds": 31.119
+  }
+}

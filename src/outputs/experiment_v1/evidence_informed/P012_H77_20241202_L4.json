@@ -1,0 +1,222 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "Multiple recent guest complaints identify safety-relevant issues (explicit report of fire-safety non-conformities and a report of metal clips in a bathtub described as dangerous) plus recurring room-maintenance and comfort problems (leaks, poor shower pressure, outdated rooms, mattress/pillow complaints). These safety and maintenance items justify elevated priority despite strengths in location and service and generally improving RevPAR.",
+  "executive_summary": "Preserve current strengths (location, friendly staff, cleanliness) while immediately addressing safety and urgent bathroom hazards. Next, prioritize remediation of in-room comfort and technology failures (mattresses/pillows, lighting, TV channels, shower pressure, Wi‑Fi). Review food & beverage offering (breakfast/restaurant variety) to reduce repeated negative comments and evaluate guest expectations. Finally, clarify spa inclusion/reservation and booking disclosures to align expectations. Several items (safety and some structural/renovation claims) require in-person inspection or compliance assessment before committing to capital works.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Safety and regulatory compliance (fire-safety) and bathroom hazards",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "mixed",
+      "problem": "Guest reports indicate potential regulatory non-conformities in fire‑safety equipment and an immediate physical hazard in a bathtub (metal clips) plus plumbing failures that guests attempted to repair themselves.",
+      "recommended_action": "Initiate immediate safety and maintenance actions: (a) order an urgent safety/compliance inspection focused on fire-fighting equipment and regulatory conformity; (b) instruct engineering/maintenance to inspect and secure/remove the bathtub metal clips and verify bathtubs/cisterns for leaks and safe operation; (c) temporarily block or reassign rooms with unresolved hazards until repaired; (d) document findings and corrective timeline and communicate status internally.",
+      "rationale": "Safety-related complaints are individually high-severity (explicit non-conformity and a reported dangerous object in a bathtub). Per safety-first rules, these issues justify immediate managerial attention and a compliance/inspection response before other interventions or public messaging.",
+      "supporting_evidence": [
+        "2024-11-27 complaint: 'Regarding Safety (fire‑fighting means), the Hotel does not comply and presents serious non‑conformities.'",
+        "2024-12-08 complaint: 'In the bathtub there were two \"clips\" that were dangerous for the user.'",
+        "2024-12-08 complaint: 'Water leak in the bathtub. The cistern—I had to repair it to make it function properly.'",
+        "Managerial evidence: 'Bathroom condition' flagged as emerging_negative with matched topic 'bathroom safety hazard (metal clips in bathtub)'."
+      ],
+      "positive_counterevidence": [
+        "General positive mentions of cleanliness and staff friendliness (do not mitigate safety risk but indicate operational strengths)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "EMERGING_NEGATIVE_TOPIC: bathroom condition",
+          "Selected complaint explicitly reporting regulatory non-conformity (fire-safety)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.85
+    },
+    {
+      "rank": 2,
+      "area": "Rooms — comfort, in-room maintenance and in-room technology (mattress/pillows, lighting, shower pressure, TV channels, noise, Wi‑Fi)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "Multiple guests report in-room comfort and functionality problems: uncomfortable pillows/mattresses, insufficient lighting, low shower pressure, water leaks, noisy rooms, and in-room technology failures (TV channels not working, weak Wi‑Fi). These drive guest frustration and several discrete complaints across the review window.",
+      "recommended_action": "a) Schedule prioritized inspections of affected rooms to check mattresses/pillows, lighting, shower pressure, plumbing and noise sources; b) task engineering/IT to diagnose and fix TV channel availability and Wi‑Fi coverage (document rooms/areas affected); c) implement interim mitigations (e.g., provide desk lamps, offer pillow alternatives, proactively inform guests where equipment is being serviced); d) aggregate findings to determine whether targeted maintenance, broader refurbishments, or capital replacement is required.",
+      "rationale": "Evidence shows repeated, concrete in-room issues across multiple reviews and topics (comfort, lighting, plumbing, and technology). Many items are maintenance/operational fix candidates but scope is unclear — inspection is required to decide if structural renovation is needed.",
+      "supporting_evidence": [
+        "2024-12-01 complaint: 'Disliked: Pillows and mattress.'",
+        "2024-11-28 complaint: 'Disliked: Lack of light in the room. Low shower pressure. Very weak Wi‑Fi connection.'",
+        "2024-12-01 complaint: 'Disliked: ... television worked poorly. Channels listed in the brochure did not work. Lighting was deficient.'",
+        "2024-11-12 complaint: 'room was far away and during the night you could hear a machine running.'",
+        "Managerial evidence: 'Room comfort' net_negative (2 negatives) and 'Wi‑Fi and technology' identified with expectation_violation and emerging_negative."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise staff friendliness, cleanliness and location; these positives support operational responsiveness (staff can communicate mitigations)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 5,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 2,
+        "review_examples_used": 5,
+        "relevant_trend_signals": [
+          "SEMANTIC_MISALIGNMENT_SCORE_AVG (increasing over lookback, recent movement down but overall elevated)",
+          "SENTIMENT_SCORE_AVG (recent decline overall, but recent uptick)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Food & Beverage — Breakfast and restaurant variety/quality",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Several guests describe breakfast and restaurant offerings as average, limited in variety, or mediocre; one guest suggests overall facilities are outdated and in need of renovation (restaurant/buffet).",
+      "recommended_action": "Review breakfast and restaurant operations: (a) audit current breakfast menu/variety and service model (buffet-only concerns); (b) collect front-line feedback from F&B staff and a small sample of recent guests about expectations; (c) trial modest operational changes to increase perceived variety or presentation; (d) if audits show structural limitations (kitchen capacity, layout), commission an assessment to determine scope and cost before considering capital works.",
+      "rationale": "Breakfast/restaurant received the largest number of experience mentions for F&B (5 mentions with a negative majority) and at least one emerging negative/expectation violation for restaurant variety. Operational changes may address perception without immediate heavy investment, but the 'deep renovation' comment suggests possible structural issues that require assessment before capital decisions.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Breakfast' 5 mentions (2 positive, 3 negative); 'Restaurant and bar' flagged as emerging_negative with expectation_violation for improved restaurant quality and variety.",
+        "2024-11-17 complaint: '...in the restaurant only a buffet of mediocre quality and variety was offered. Everything needs a deep renovation.'",
+        "2024-11-28 complaint: 'Breakfast average, not very varied.'",
+        "2024-11-27 complaint: 'Little care and the breakfast.'"
+      ],
+      "positive_counterevidence": [
+        "Some guests included positive context for food or noted they liked aspects of the stay (managerial evidence shows 2 positive breakfast mentions)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 3,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "Managerial evidence: 'Restaurant and bar' emerging_negative and violated_expectation",
+          "PERC_REVIEWS_NEGATIVE (overall window shows decreasing share of negative reviews, but F&B still shows repeated negative mentions)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Spa access and booking/payment transparency (spa inclusion/pricing and reservation of time slots)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests perceive friction regarding whether spa access/reservations and any charges are clearly disclosed at booking; spa is a positive asset but expectations about access/pricing and guaranteed reservation slots are unmet for some guests.",
+      "recommended_action": "Review booking content and front-desk/spa policies: (a) verify that spa inclusion, reservation rules and any charges are clearly disclosed on booking channels and confirmation emails; (b) evaluate whether a simple reservation mechanism (or prioritized guest slots) is appropriate and feasible; (c) update booking copy to set clear expectations; d) train staff to proactively confirm spa access at check-in.",
+      "rationale": "Spa and pool are experienced positively, but managerial evidence shows expectation violations and suggestions (reserve spa time for hotel guests, transparent disclosure). This is primarily a policy/communication issue that can be addressed without capital expenditure.",
+      "supporting_evidence": [
+        "Managerial evidence: 'Spa and pool' labeled positive_with_friction with matched topics 'always have/reserve spa time slots for hotel guests' and 'transparent disclosure of spa inclusion/pricing at booking'.",
+        "Managerial evidence: 'Booking and payment' flagged for 'transparent disclosure of spa inclusion/pricing at booking' (expectation_violation present)."
+      ],
+      "positive_counterevidence": [
+        "Spa and pool had positive mentions (managerial evidence: spa positive_mentions = 1) and guests mention the spa/massage and bicycles positively in other reviews."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "SEMANTIC_MISALIGNMENT_SCORE_AVG (increased over lookback — indicates mismatch between guest expectations and messaging)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Multiple reviews (5 mentions in managerial evidence) consistently praise location and accessibility.",
+      "management_implication": "Continue to highlight location in marketing and ensure that operational changes preserve access and guest information about local amenities."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Managerial evidence shows several positive mentions for staff friendliness and welcoming service.",
+      "management_implication": "Leverage staff strengths to communicate proactively with guests about maintenance or service issues and train staff on how to manage guest expectations (spa access, in-room fixes)."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Positive mentions present for cleanliness and housekeeping.",
+      "management_implication": "Maintain current housekeeping standards and use housekeeping checks as an early-detection point for maintenance issues (leaks, bathroom hazards)."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Overall sentiment has declined over the period but showed recent upward movement—useful to monitor recovery after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Shows increased misalignment between guest language and hotel messaging; relevant to spa/booking and tech/TV channel expectations.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews decreased over the window; track whether targeted interventions sustain or accelerate this improvement.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "REVPAR_WEEK and TAXA_OCUPACAO",
+      "reason": "Business metrics are improving (REVPAR and occupancy up); monitor for divergence between financial performance and guest experience signals.",
+      "desired_direction": "context_dependent",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Number of safety/compliance findings from onsite inspections",
+      "reason": "Direct measure of remediation progress for safety non-conformities and bathroom hazards.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    }
+  ],
+  "limitations": [
+    "Selected complaints are diagnostic examples and are not statistically representative of the full review population; prevalence should be confirmed using full review-set data.",
+    "Some recommendations (bathroom repair scope, possible restaurant renovation) require on-site inspection or technical assessment before committing to capital expenditures.",
+    "Evidence window is four weeks; recent metric reversals (e.g., TREVPAR recent reversal) should be interpreted separately and do not change the immediate safety priority.",
+    "Counts in evidence_basis aggregate related managerial_evidence items; scope and room-level distribution of problems are not fully specified in the supplied data.",
+    "Where guests proposed specific remedies (e.g., guaranteed spa slots), recommendations suggest policy review rather than adopting guest-proposed solutions without managerial evaluation."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P012",
+    "case_id": "H77_20241202_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:55:25.885482+00:00",
+    "finished_at_utc": "2026-09-08T15:56:12.936262+00:00",
+    "elapsed_seconds": 47.05
+  }
+}

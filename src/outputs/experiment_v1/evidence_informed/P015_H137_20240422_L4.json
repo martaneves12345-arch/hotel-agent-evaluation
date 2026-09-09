@@ -1,0 +1,248 @@
+{
+  "overall_risk": "high",
+  "overall_risk_rationale": "An emerging safety-related complaint (water became scalding during shower) combined with an active priority alert and declining sentiment increases the operational risk profile. Other issues (booking geolocation and bed discomfort) show expectation failures that could harm guest experience if unaddressed despite improving revenue metrics.",
+  "executive_summary": "Primary actionable vulnerability: an immediate safety/maintenance review of the water heating/temperature control (scalding report). Secondary priorities: correct Booking.com geolocation (documented expectation violation), inspect bed/mattress comfort after a back-pain report, review guest-reported noise from local paddle tennis activity, and evaluate spa expectations for hammam/sauna demand versus marketing. Preserve strong areas (breakfast, staff/service, restaurant/bar, pool).",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room comfort — water temperature (safety)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guest reported sudden scalding water during a shower (safety risk). Room-comfort evidence shows an emerging negative topic for water temperature.",
+      "recommended_action": "Immediately inspect and test hot-water delivery and temperature-regulation equipment (room(s) and building-level). If a systemic or intermittent fault is suspected, restrict affected rooms from use until inspected. Record findings and, if needed, arrange prompt maintenance/repair. Communicate with recent affected guest(s) per service recovery policy.",
+      "rationale": "The complaint describes a scalding event (potential for physical harm). Managerial evidence flags 'water temperature' as an emerging negative topic and a priority alert is active; immediate inspection is appropriate rather than delayed planning.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort matched topic 'water temperature' and is marked is_emerging_negative = true.",
+        "Complaint 2024-04-26: 'While taking a shower, and in the middle of it, suddenly the water became very hot, scalding.'",
+        "Preliminary signals include an existing priority alert and declining sentiment."
+      ],
+      "positive_counterevidence": [
+        "Same review mentions positive atmosphere and very good breakfast, indicating the complaint is isolated within an otherwise positive stay."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "existing_priority_alert",
+          "emerging_negative_topic: water temperature",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.8
+    },
+    {
+      "rank": 2,
+      "area": "Booking and payment — listing geolocation (expectation violation)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guest reported Booking.com geolocation/directions pointed to the wrong place, causing the guest to contact the property (expectation violation).",
+      "recommended_action": "Review and correct the hotel's external booking platform listings (coordinates, address text, directions). Confirm how directions display on Booking.com and other major OTAs; update content and provide clarifying directions or contact instructions. Log the change and monitor for repeat reports.",
+      "rationale": "Evidence shows an explicit expectation violation (complaint identifies inaccurate geolocation on Booking.com). This is operational/policy-level and fixable via listing/content review rather than capital works.",
+      "supporting_evidence": [
+        "Managerial evidence: Booking and payment area has has_expectation_violation = true and matched topic 'accurate geolocation/directions from Booking.com'.",
+        "Complaint 2024-04-12: '...geolocation via booking of the location; we had to contact the establishment because booking does not send you to the right place.'"
+      ],
+      "positive_counterevidence": [
+        "The same review praises many aspects of the stay (breakfast, terrace, bar), indicating overall guest satisfaction aside from the directions issue."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "existing_priority_alert",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 3,
+      "area": "Room comfort — bed/mattress comfort (back pain)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "maintenance",
+      "problem": "Guest reported the bed was uncomfortable and resulted in back pain.",
+      "recommended_action": "Inspect the mattress/bed in the reported room(s) and review mattress age/condition records. If localized wear or firmness mismatch is confirmed, plan remediation (repair/replacement or temporary mitigations). Track frequency of similar complaints to determine scope.",
+      "rationale": "A concrete complaint of back pain signals a material guest-impacting comfort issue. Managerial evidence lists 'bed comfort (uncomfortable)' under room comfort with both positive and negative mentions; inspection is needed before any procurement decisions.",
+      "supporting_evidence": [
+        "Managerial evidence: Room comfort matched topic 'bed comfort (uncomfortable)'.",
+        "Complaint 2024-04-22: 'The bed was a bit uncomfortable and we ended up with back pain.'"
+      ],
+      "positive_counterevidence": [
+        "Other reviews highlight strong pool, staff, breakfast and overall positive room comments, suggesting this could be localized rather than systematic."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "room_comfort emerging_negative"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    },
+    {
+      "rank": 4,
+      "area": "Noise / local activity (paddle tennis) affecting guest quiet",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests reported noise — general noise and specifically noise from local paddle tennis players — affecting perceived quiet.",
+      "recommended_action": "Assess frequency and timing of reported noise incidents (gather recent booking-week reports and ask front-office staff for occurrences). Depending on scope, consider communications for future guests about potential local noise sources, offer room placement options when possible, and monitor for additional complaints before considering physical mitigation.",
+      "rationale": "Two separate reviews reference noise (one general 'a bit too noisy', one explicitly 'noise from the local paddle tennis players'). This suggests an experience friction worth assessing; current evidence supports review/monitoring and communication rather than immediate capital work.",
+      "supporting_evidence": [
+        "Complaint 2024-04-17: 'Disliked: A bit too noisy.'",
+        "Complaint 2024-04-21: 'Disliked: The noise from the local paddle tennis players.'",
+        "Complaints overall are positive about staff, pool and cleanliness, implying noise is a specific friction rather than broad service failure."
+      ],
+      "positive_counterevidence": [
+        "Multiple reviews praise pool, staff friendliness and cleanliness; noise appears limited based on available data."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "increasing_emotional_complexity",
+          "declining_sentiment"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    },
+    {
+      "rank": 5,
+      "area": "Spa and pool — guest expectation for hammam/sauna",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "mixed",
+      "problem": "At least one guest requested a hammam/sauna, indicating a latent expectation for additional spa facilities.",
+      "recommended_action": "Evaluate whether marketing, listing copy, or guest communications are creating unmet expectations regarding spa facilities. Collect demand signals (frequency of similar requests) and, if interest is material, undertake a feasibility assessment before any investment decisions.",
+      "rationale": "Spa/pool is a clear strength (many positive mentions) but contains an explicit expectation-violation signal (guest wanted hammam/sauna). The issue is primarily about expectation alignment and demand evaluation rather than an immediate service failure.",
+      "supporting_evidence": [
+        "Managerial evidence: Spa and pool area shows evidence_pattern 'positive_with_friction', has_expectation_violation = true, and matched topic 'hammam or sauna (spa facilities)'.",
+        "Complaint 2024-04-10: 'Disliked: A hamman or sauna would be great.'"
+      ],
+      "positive_counterevidence": [
+        "Spa and pool have five positive mentions and overall high praise for the pool in multiple reviews."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 5,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "declining_sentiment",
+          "existing_priority_alert"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.5
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Breakfast",
+      "reason": "Strong positive signal: 10 positive mentions, positive_share = 1.0; multiple reviews explicitly praise breakfast quality.",
+      "management_implication": "Maintain current breakfast quality and staffing; continue to highlight this feature in guest communications and marketing."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "All mentions positive (positive_share = 1.0) and reviews cite staff friendliness and helpfulness.",
+      "management_implication": "Preserve service standards through continued staff training and recognition; use staff strengths in guest recovery when addressing the identified frictions."
+    },
+    {
+      "area": "Restaurant and bar / Pool",
+      "reason": "Multiple positive mentions (restaurant/bar positive_share = 1.0; pool is praised in several reviews).",
+      "management_implication": "Continue operational focus on food/beverage and pool area upkeep; use these areas to offset and contextualize minor guest frictions during service recovery."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "SENTIMENT_SCORE_AVG",
+      "reason": "Global sentiment is decreasing; track to detect further deterioration after interventions.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "PERC_REVIEWS_NEGATIVE",
+      "reason": "Share of negative reviews has risen within the window; useful to monitor whether complaints on water temperature, beds, or noise increase in frequency.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EMOTION_ENTROPY",
+      "reason": "Emotional heterogeneity rose (recent reversal present); monitoring helps detect widening guest experience variance.",
+      "desired_direction": "stable",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "REVIEWS citing 'water' or 'temperature' issues",
+      "reason": "Track occurrence of similar water-temperature complaints to determine if the issue is systemic.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    }
+  ],
+  "limitations": [
+    "Sample is complaint-focused and not statistically representative of all guests (total_reviews_in_window = 25, selected substantive complaints = 7).",
+    "Scope and root cause of technical issues (water temperature, mattress condition) cannot be determined from guest text alone; inspections/technical diagnostics are required before capital decisions.",
+    "Noise reports are limited in frequency and may be localized/time-specific; further monitoring is needed before structural mitigation.",
+    "The single guest request for hammam/sauna indicates interest but not demand; do not infer need for capital investment without demand assessment."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P015",
+    "case_id": "H137_20240422_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T15:59:21.389930+00:00",
+    "finished_at_utc": "2026-09-08T15:59:56.100061+00:00",
+    "elapsed_seconds": 34.705
+  }
+}

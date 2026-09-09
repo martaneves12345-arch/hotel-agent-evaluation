@@ -1,0 +1,271 @@
+{
+  "overall_risk": "moderate",
+  "overall_risk_rationale": "The hotel shows multiple clear strengths (location, cleanliness, staff, breakfast) but evidence indicates rising expectation–experience gaps, increasing semantic misalignment, falling sentiment, and several emerging/expectation-violating topics (restaurant closure, door security, Wi‑Fi/TV). These are not yet pervasive across all domains but are material and include at least one safety-relevant signal (door not closing).",
+  "executive_summary": "Preserve high-performing areas (location, cleanliness, staff, breakfast quality) while addressing a small set of emerging, evidence-backed frictions: (1) immediate inspection of room door security and noise pathways; (2) short-term audit and remediation of guest-facing technology (Wi‑Fi and TV channel availability) and clearer pre-arrival/onsite communication of restaurant availability and reservation policy; (3) maintain breakfast strengths while adjusting minor offering expectations; and (4) monitor and review price–value messaging in light of rising expectation gaps and falling sentiment. Prioritize safety/room-security first, then guest-facing technology and F&B communication, with monitoring of broader expectation misalignment.",
+  "priorities": [
+    {
+      "rank": 1,
+      "area": "Room door security & soundproofing (room comfort / access)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "urgent",
+      "action_horizon": "immediate",
+      "intervention_type": "maintenance",
+      "problem": "Guests reported a room door that did not close properly and audible noise from the lobby/entrance; 'door security' is flagged as an emerging negative topic.",
+      "recommended_action": "Immediately inspect and verify door-closing mechanisms and room-lobby noise pathways for affected room(s); if defects or misalignments are found, perform repairs. While inspecting, document scope (which rooms, frequency). Review front‑desk escalation/room-change procedures for guests reporting insecure/ill‑closing doors.",
+      "rationale": "The complaint evidence describes a door that did not close properly and noise intrusion (May 20 and May 23). Latest context flagged 'door security' as an emerging negative. This has potential guest-safety and comfort implications and therefore requires prompt inspection and remediation rather than delayed monitoring.",
+      "supporting_evidence": [
+        "complaint 2024-05-20: 'Our room door did not close properly, so noise from the lobby was quite audible.'",
+        "complaint 2024-05-23: 'Insufficient soundproofing relative to the entrance hall.'",
+        "latest_context emerging_negative_topic includes 'door security'",
+        "managerial_evidence: room comfort shows net_negative and diagnostic notes about door/comfort"
+      ],
+      "positive_counterevidence": [
+        "Overall cleanliness and room condition are described positively in multiple reviews (e.g., 2024-05-20 positive context: 'Everything was very clean: bathroom, bedroom...')."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 1,
+        "expectation_violation": false,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 0,
+        "violated_expectation_weeks": 0,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "latest_context emerging_negative_topic: door security",
+          "complaint examples (May 20, May 23)"
+        ]
+      },
+      "safety_relevance": true,
+      "requires_further_assessment": true,
+      "confidence": 0.75
+    },
+    {
+      "rank": 2,
+      "area": "Wi‑Fi and in‑room TV channels (technology)",
+      "evidence_pattern": "net_negative",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Guests reported Wi‑Fi difficulties and lack of basic/local TV channels (Portuguese), representing expectation violations for technology and in‑room entertainment.",
+      "recommended_action": "Carry out a short-term technical and service audit: measure Wi‑Fi performance in guestrooms and public areas, collect incident logs, and verify TV channel lineup vs. guest expectations (including availability of basic/local channels). Where technical gaps are identified, plan remediation or vendor engagement. Update pre-arrival messaging / in-room information about TV channels and Wi‑Fi (or steps to contact IT/support) to align expectations.",
+      "rationale": "Two substantive complaints cite Wi‑Fi problems (May 12) and lack of Portuguese/basic TV channels (May 14). Managerial evidence flags Wi‑Fi/TV as net_negative and an emerging expectation violation. These are operational/technical issues that affect guest experience and semantic alignment between expectations and delivered experience.",
+      "supporting_evidence": [
+        "complaint 2024-05-12: 'Difficulties with the Wi-Fi.'",
+        "complaint 2024-05-14: 'It lacked Portuguese channels on the television... disappointing.'",
+        "managerial_evidence: 'Wi‑Fi and technology' area is net_negative and marked as emerging with expectation violation",
+        "diagnostic_vulnerabilities: Wi‑Fi and TV topics listed (wifi issues, TV channels, availability of Portuguese/basic TV channels)"
+      ],
+      "positive_counterevidence": [
+        "No positive mentions of Wi‑Fi/TV in the selected complaint sample; however, several reviews praise other core service aspects (location, staff)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 0,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "diagnostic_vulnerabilities: Wi‑Fi and technology (net_negative)",
+          "managerial_evidence matched topics: wifi issues; TV channels"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.66
+    },
+    {
+      "rank": 3,
+      "area": "Restaurant availability & guest communication (restaurant and bar)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "high",
+      "action_horizon": "short_term",
+      "intervention_type": "policy_process",
+      "problem": "Guests experienced the restaurant being closed without prior information and inability to reserve certain restaurant as a hotel guest; this produced frustration and expectation violations.",
+      "recommended_action": "Review and clarify the restaurant reservation policy for hotel guests (including whether hotel guests have prioritized access or need to reserve externally). Establish/verify pre-arrival and on‑site communication protocols for planned closures or limited availability (e.g., during private events or seasonal changes). Ensure front desk and reservation teams have up-to-date information to inform guests and to manage expectations.",
+      "rationale": "Complaints include a restaurant closing without guests being informed (May 23) and inability to reserve the restaurant as a hotel guest (May 20). Managerial evidence lists 'restaurant closure' and 'ability to reserve restaurant as a hotel guest' as matched topics and marks the area as an emerging negative with expectation violation. The issue affects guest experience and can be addressed through policy/communication rather than immediate capital outlay.",
+      "supporting_evidence": [
+        "complaint 2024-05-23: 'restaurant closed without having been informed (but 'bar' and breakfast OK)'",
+        "complaint 2024-05-20: 'You cannot reserve in the restaurant (Spot); as a hotel guest that is annoying.'",
+        "managerial_evidence: 'Restaurant and bar' matched topics include restaurant closure, ability to reserve, and is marked emerging with expectation violation"
+      ],
+      "positive_counterevidence": [
+        "Several reviews note positive dining experiences (e.g., Michelin restaurant praise in complaint 2024-05-12 and other positive contexts)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 2,
+        "negative_mentions": 2,
+        "expectation_violation": true,
+        "emerging_negative": true,
+        "experience_weeks": 1,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 1,
+        "review_examples_used": 2,
+        "relevant_trend_signals": [
+          "managerial_evidence: 'Restaurant and bar' emerging_negative and violated_expectation",
+          "latest_context emerging_negative_topic: restaurant closure"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.7
+    },
+    {
+      "rank": 4,
+      "area": "Breakfast (preserve strength; address minor offering expectations)",
+      "evidence_pattern": "positive_with_friction",
+      "managerial_priority": "medium",
+      "action_horizon": "short_term",
+      "intervention_type": "operational",
+      "problem": "Breakfast is a clear strength overall but a minority of guests reported small expectation gaps (e.g., request for more vegetables or comments on specific cake items) indicating friction between guest expectations and offerings.",
+      "recommended_action": "Preserve current breakfast service while reviewing specific menu elements and guest feedback (vegetable options, use/presentation of cakes). Consider a short, targeted check with F&B/chef on whether minor adjustments or clearer descriptions of offerings would better align with guest expectations. Monitor guest feedback after any adjustments.",
+      "rationale": "Breakfast has high positive mention share (6 positive, 1 negative) and is classified as a strength with friction in managerial evidence. Multiple reviews praise breakfast quality and views, but at least one review requests more vegetables and another notes cake being served—these are specific, low-severity expectation frictions that do not negate the overall strength.",
+      "supporting_evidence": [
+        "complaint 2024-04-29: 'Rich buffet. Wonderful breakfasts with a view...'",
+        "complaint 2024-05-02: 'A few more vegetables as a supplement.'",
+        "managerial_evidence: Breakfast has 7 mentions (6 positive, 1 negative) and is 'positive_with_friction'"
+      ],
+      "positive_counterevidence": [
+        "Multiple high ratings and praise for breakfast across reviews (04-29, 05-02, 05-10)."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 2,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 3,
+        "relevant_trend_signals": [
+          "managerial_evidence: Breakfast positive_with_friction",
+          "complaint examples requesting more vegetables"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": false,
+      "confidence": 0.8
+    },
+    {
+      "rank": 5,
+      "area": "Price–value perception & expectation alignment (messaging/positioning)",
+      "evidence_pattern": "mixed",
+      "managerial_priority": "medium",
+      "action_horizon": "monitor",
+      "intervention_type": "policy_process",
+      "problem": "There is isolated evidence of perceived high price–quality ratio and broader signals of increasing expectation–experience gap and semantic misalignment, suggesting a need to review messaging and included value elements.",
+      "recommended_action": "Monitor complaints and conduct a short review of value messaging and what is included (e.g., minibar inclusion noted in reviews). Evaluate whether booking/channel descriptions and pre-arrival communications accurately set expectations. If further negative signals emerge, perform a more formal pricing/value alignment review.",
+      "rationale": "One guest explicitly noted price–quality as 'a bit too high' (May 20). Simultaneously, experience indicators show a rising EXPECTATION_EXPERIENCE_GAP and SEMANTIC_MISALIGNMENT_SCORE_AVG and falling SENTIMENT_SCORE_AVG. Current evidence is not sufficient to prescribe pricing changes, but it justifies monitoring and review of messaging and inclusions to reduce misalignment.",
+      "supporting_evidence": [
+        "complaint 2024-05-20: 'The price-quality ratio is still a bit too high.'",
+        "experience_indicators: EXPECTATION_EXPERIENCE_GAP_AVG increasing; SEMANTIC_MISALIGNMENT_SCORE_AVG increasing; SENTIMENT_SCORE_AVG decreasing",
+        "managerial_evidence: Price–value area shows mixed mentions and an expectation violation"
+      ],
+      "positive_counterevidence": [
+        "Some guests explicitly mentioned reasonable price-quality or value (managerial evidence positive mention present).",
+        "Overall business performance metrics (RevPAR, TREVPAR) show recent improvements in longer-term trend though some recent reversals are present."
+      ],
+      "evidence_basis": {
+        "positive_mentions": 1,
+        "negative_mentions": 1,
+        "expectation_violation": true,
+        "emerging_negative": false,
+        "experience_weeks": 0,
+        "expectation_weeks": 1,
+        "violated_expectation_weeks": 1,
+        "emerging_negative_weeks": 0,
+        "review_examples_used": 1,
+        "relevant_trend_signals": [
+          "EXPECTATION_EXPERIENCE_GAP_AVG (increasing)",
+          "SEMANTIC_MISALIGNMENT_SCORE_AVG (increasing)",
+          "SENTIMENT_SCORE_AVG (decreasing)"
+        ]
+      },
+      "safety_relevance": false,
+      "requires_further_assessment": true,
+      "confidence": 0.6
+    }
+  ],
+  "strengths_to_preserve": [
+    {
+      "area": "Location and accessibility",
+      "reason": "Multiple reviews praise location and ocean/cliff views; managerial evidence shows 4 positive mentions, positive_share 1.0.",
+      "management_implication": "Avoid operational changes that reduce guest access to views; preserve related guest-facing descriptions."
+    },
+    {
+      "area": "Cleanliness and housekeeping",
+      "reason": "Multiple positive mentions (4 positive, 0 negative) and high praise in guest comments.",
+      "management_implication": "Maintain current housekeeping standards and staffing practices that support cleanliness."
+    },
+    {
+      "area": "Staff and service",
+      "reason": "Reviews consistently praise staff and service (4 positive mentions in managerial evidence; multiple positive contexts).",
+      "management_implication": "Preserve service training and guest interaction protocols; involve staff when implementing communication/policy changes (e.g., restaurant availability, door issue procedures)."
+    },
+    {
+      "area": "Breakfast (overall)",
+      "reason": "High positive share (6 of 7 mentions positive); guests praise buffet and view.",
+      "management_implication": "Keep core breakfast offering and quality while addressing minor menu/expectation frictions."
+    }
+  ],
+  "monitoring_indicators": [
+    {
+      "indicator": "Number of guest reports about door/lock/room-closing issues",
+      "reason": "Detect recurrence or scope of door-security problem; safety-relevant.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "immediate"
+    },
+    {
+      "indicator": "Wi‑Fi incident count and measured throughput per floor/room",
+      "reason": "Track technology performance and recurrence of connectivity complaints.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Count of guest complaints about TV channel availability (basic/local language channels)",
+      "reason": "Monitor whether TV-channel expectation violations persist after any updates or communications.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "Number of guest-facing restaurant closure/availability incidents and guest notifications sent",
+      "reason": "Measure effectiveness of communication and policy changes regarding restaurant availability and reservations.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "short_term"
+    },
+    {
+      "indicator": "EXPECTATION_EXPERIENCE_GAP_AVG and SEMANTIC_MISALIGNMENT_SCORE_AVG",
+      "reason": "Track broader alignment between marketed/described experience and guest reports.",
+      "desired_direction": "decrease",
+      "monitoring_horizon": "ongoing"
+    },
+    {
+      "indicator": "Guest satisfaction related to breakfast (targeted question or quick feedback metric)",
+      "reason": "Confirm that minor offering adjustments meet guest expectations without harming core strengths.",
+      "desired_direction": "increase",
+      "monitoring_horizon": "short_term"
+    }
+  ],
+  "limitations": [
+    "Selected complaint examples are diagnostic and not statistically representative of all guest feedback (see complaint_sample_metadata).",
+    "The evidence does not determine technical root causes, repair scope, or costs for door repairs or Wi‑Fi remediation; further technical assessment is required before capital or detailed operational plans.",
+    "No causal link can be inferred between the complaints and revenue or occupancy metrics; business metrics show mixed recent movement and some recent reversals that must be interpreted separately.",
+    "Recommendations avoid prescribing specific technical solutions or staffing levels because the supplied evidence does not identify appropriate implementation details."
+  ],
+  "experiment_metadata": {
+    "experiment_version": "pilot_v1",
+    "pilot_id": "P035",
+    "case_id": "H364_20240520_L4",
+    "system": "evidence_informed",
+    "started_at_utc": "2026-09-08T16:26:27.588219+00:00",
+    "finished_at_utc": "2026-09-08T16:27:07.795082+00:00",
+    "elapsed_seconds": 40.204
+  }
+}
