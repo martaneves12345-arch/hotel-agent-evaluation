@@ -174,11 +174,13 @@ def get_google_worksheet():
 
 
 @st.cache_resource
+@st.cache_resource
 def get_assignments_worksheet():
     """
     Connect to the worksheet used to reserve case assignments.
 
     The worksheet is created automatically if it does not yet exist.
+    If it exists but is empty, the required headers are added.
     """
 
     try:
@@ -197,17 +199,22 @@ def get_assignments_worksheet():
         )
 
         client = gspread.authorize(credentials)
-        spreadsheet = client.open(GOOGLE_SHEET_NAME)
+
+        spreadsheet = client.open(
+            GOOGLE_SHEET_NAME
+        )
 
         try:
             worksheet = spreadsheet.worksheet(
                 GOOGLE_ASSIGNMENTS_WORKSHEET_NAME
             )
+
         except gspread.WorksheetNotFound:
+
             worksheet = spreadsheet.add_worksheet(
                 title=GOOGLE_ASSIGNMENTS_WORKSHEET_NAME,
                 rows=1000,
-                cols=6,
+                cols=5,
             )
 
         expected_headers = [
@@ -220,41 +227,66 @@ def get_assignments_worksheet():
 
         values = worksheet.get_all_values()
 
-        if not values:
+        # --------------------------------------------------
+        # EMPTY WORKSHEET
+        # --------------------------------------------------
+
+        if (
+            not values
+            or not any(
+                str(cell).strip()
+                for row in values
+                for cell in row
+            )
+        ):
+
+            worksheet.clear()
+
             worksheet.update(
                 range_name="A1",
                 values=[expected_headers],
                 value_input_option="RAW",
             )
-        else:
-            headers = [
-                str(value).strip()
-                for value in values[0]
-            ]
 
-            while headers and not headers[-1]:
-                headers.pop()
+            return worksheet
 
-            if headers != expected_headers:
-                raise ValueError(
-                    "The assignments worksheet columns do not match "
-                    "the expected schema.\n\n"
-                    f"Expected: {expected_headers}\n\n"
-                    f"Found: {headers}"
-                )
+        # --------------------------------------------------
+        # EXISTING WORKSHEET WITH CONTENT
+        # --------------------------------------------------
+
+        headers = [
+            str(value).strip()
+            for value in values[0]
+        ]
+
+        while headers and not headers[-1]:
+            headers.pop()
+
+        if headers != expected_headers:
+
+            raise ValueError(
+                "The assignments worksheet columns do not match "
+                "the expected schema.\n\n"
+                f"Expected: {expected_headers}\n\n"
+                f"Found: {headers}"
+            )
 
         return worksheet
 
     except Exception as exc:
+
         st.error(
             "Could not connect to the case-assignment database."
         )
+
         st.caption(
             "Please contact the study administrator."
         )
+
         st.code(
             f"{type(exc).__name__}: {exc}"
         )
+
         st.stop()
 
 
