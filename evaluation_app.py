@@ -1632,6 +1632,10 @@ if not st.session_state["screening_completed"]:
 
             st.stop()
 
+    # While the screening has not been completed successfully,
+    # do not render any part of the evaluation task below.
+    st.stop()
+
 
 if st.session_state["screening_eligible"] is False:
 
@@ -1787,35 +1791,49 @@ st.write(
 # INSTRUCTIONS
 # ==========================================================
 
-with st.expander(
-    "Evaluation instructions",
-    expanded=False,
-):
+st.error(
+    "⚠️ Before continuing, please read the evaluation instructions "
+    "below carefully."
+)
 
-    st.write(
+st.subheader(
+    "Evaluation instructions"
+)
+
+with st.container(border=True):
+
+    st.markdown(
         """
-You will review a hotel case and two AI-generated managerial
-decisions, labelled Decision A and Decision B.
+You will review **one hotel case** and **two AI-generated managerial
+decisions**, labelled **Decision A** and **Decision B**. Both decisions
+refer to the same hotel case.
 
-Both decisions concern the same hotel case.
+Please evaluate **each decision independently**, using only the case
+information provided on this page.
 
-Please evaluate each decision independently based only on the
-case information provided.
+When rating the decisions, focus on whether each one:
 
-Focus on whether the decision identifies the relevant managerial
-issues, remains grounded in the available evidence, proposes
-proportionate and actionable responses, and would be useful for
-managerial decision-making.
+- identifies and prioritizes the most relevant managerial issues;
+- is supported by the available case evidence;
+- proposes actions that are proportionate to the strength and severity
+  of the evidence;
+- provides recommendations that are sufficiently concrete and actionable;
+- would be useful as a basis for hotel managerial decision-making.
 
-For each criterion, use the 1–7 scale provided.
+For each evaluation criterion, use the **1–7 scale** provided.
 
-There are no correct or incorrect answers. We are interested in
-your professional judgment.
+There are **no correct or incorrect answers**. We are interested in your
+professional judgment.
 
-The identity of the systems generating Decision A and Decision B
-is intentionally hidden.
+The identity of the systems that generated Decision A and Decision B is
+intentionally hidden.
         """
     )
+
+st.caption(
+    "Please complete the evaluation carefully and base your ratings only "
+    "on the information presented in the case."
+)
 
 
 # ==========================================================
