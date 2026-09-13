@@ -1584,11 +1584,22 @@ if not st.session_state["screening_completed"]:
             )
             st.stop()
 
+        eligible_roles = {
+            "General Manager / Hotel Manager",
+            "Department Manager",
+            "Revenue / Commercial / Sales Manager",
+            "Operations Manager",
+            "Front Office / Guest Relations",
+            "Food & Beverage Management",
+            "Other supervisory or managerial role",
+        }
+
         eligible = (
             hotel_experience in {
                 "Yes, currently",
                 "Yes, previously",
             }
+            and role_category in eligible_roles
             and decision_responsibility == "Yes"
         )
 
