@@ -1,6 +1,7 @@
 # evaluation_app.py
 
 from __future__ import annotations
+import random
 
 import json
 from datetime import datetime, timezone
@@ -32,6 +33,7 @@ CASES_DIR = (
 
 GOOGLE_SHEET_NAME = "hotel_agent_human_evaluation"
 GOOGLE_WORKSHEET_NAME = "responses"
+GOOGLE_ASSIGNMENTS_WORKSHEET_NAME = "assignments"
 
 
 RATING_DIMENSIONS = {
@@ -171,6 +173,103 @@ def get_google_worksheet():
         st.stop()
 
 
+@st.cache_resource
+def get_assignments_worksheet():
+    """
+    Connect to the worksheet used to reserve case assignments.
+
+    The worksheet is created automatically if it does not yet exist.
+    """
+
+    try:
+        scopes = [
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive",
+        ]
+
+        credentials_dict = dict(
+            st.secrets["gcp_service_account"]
+        )
+
+        credentials = Credentials.from_service_account_info(
+            credentials_dict,
+            scopes=scopes,
+        )
+
+        client = gspread.authorize(credentials)
+        spreadsheet = client.open(GOOGLE_SHEET_NAME)
+
+        try:
+            worksheet = spreadsheet.worksheet(
+                GOOGLE_ASSIGNMENTS_WORKSHEET_NAME
+            )
+        except gspread.WorksheetNotFound:
+            worksheet = spreadsheet.add_worksheet(
+                title=GOOGLE_ASSIGNMENTS_WORKSHEET_NAME,
+                rows=1000,
+                cols=6,
+            )
+
+        expected_headers = [
+            "evaluator_id",
+            "evaluation_case_id",
+            "assigned_at",
+            "status",
+            "submitted_at",
+        ]
+
+        values = worksheet.get_all_values()
+
+        if not values:
+            worksheet.update(
+                range_name="A1",
+                values=[expected_headers],
+                value_input_option="RAW",
+            )
+        else:
+            headers = [
+                str(value).strip()
+                for value in values[0]
+            ]
+
+            while headers and not headers[-1]:
+                headers.pop()
+
+            if headers != expected_headers:
+                raise ValueError(
+                    "The assignments worksheet columns do not match "
+                    "the expected schema.\n\n"
+                    f"Expected: {expected_headers}\n\n"
+                    f"Found: {headers}"
+                )
+
+        return worksheet
+
+    except Exception as exc:
+        st.error(
+            "Could not connect to the case-assignment database."
+        )
+        st.caption(
+            "Please contact the study administrator."
+        )
+        st.code(
+            f"{type(exc).__name__}: {exc}"
+        )
+        st.stop()
+
+
+def get_all_assignments() -> pd.DataFrame:
+    """Load all case reservations."""
+
+    worksheet = get_assignments_worksheet()
+    records = worksheet.get_all_records()
+
+    if not records:
+        return pd.DataFrame()
+
+    return pd.DataFrame(records)
+
+
 def get_all_responses() -> pd.DataFrame:
     """
     Load all stored evaluation responses.
@@ -186,6 +285,180 @@ def get_all_responses() -> pd.DataFrame:
     return pd.DataFrame(
         records
     )
+
+def generate_unique_evaluator_id() -> str:
+    """
+    Generate a unique anonymous evaluator ID.
+
+    IDs are checked against both completed responses and current
+    case reservations.
+    """
+
+    responses = get_all_responses()
+    assignments = get_all_assignments()
+
+    existing_ids = set()
+
+    if (
+        not responses.empty
+        and "evaluator_id" in responses.columns
+    ):
+        existing_ids.update(
+            responses["evaluator_id"]
+            .astype(str)
+            .str.strip()
+            .tolist()
+        )
+
+    if (
+        not assignments.empty
+        and "evaluator_id" in assignments.columns
+    ):
+        existing_ids.update(
+            assignments["evaluator_id"]
+            .astype(str)
+            .str.strip()
+            .tolist()
+        )
+
+    while True:
+        evaluator_id = f"E{random.randint(1000, 9999)}"
+
+        if evaluator_id not in existing_ids:
+            return evaluator_id
+
+
+def reserve_balanced_random_case(
+    case_files: list[Path],
+    evaluator_id: str,
+) -> str:
+    """
+    Reserve exactly one case for the evaluator.
+
+    The function counts existing reservations, identifies the cases
+    with the fewest assignments, randomly chooses among those cases,
+    and immediately records the reservation in Google Sheets.
+
+    If this evaluator already has a reservation, that same case is
+    returned instead of assigning a new one.
+    """
+
+    worksheet = get_assignments_worksheet()
+    assignments = get_all_assignments()
+
+    case_ids = [
+        path.stem
+        for path in case_files
+    ]
+
+    if (
+        not assignments.empty
+        and "evaluator_id" in assignments.columns
+    ):
+        previous = assignments[
+            assignments["evaluator_id"]
+            .astype(str)
+            .str.strip()
+            == str(evaluator_id).strip()
+        ]
+
+        if not previous.empty:
+            previous_case = str(
+                previous.iloc[-1]["evaluation_case_id"]
+            ).strip()
+
+            if previous_case in case_ids:
+                return previous_case
+
+    if (
+        assignments.empty
+        or "evaluation_case_id" not in assignments.columns
+    ):
+        case_counts = {
+            case_id: 0
+            for case_id in case_ids
+        }
+    else:
+        counts = (
+            assignments["evaluation_case_id"]
+            .astype(str)
+            .value_counts()
+            .to_dict()
+        )
+
+        case_counts = {
+            case_id: counts.get(case_id, 0)
+            for case_id in case_ids
+        }
+
+    min_count = min(case_counts.values())
+
+    least_assigned_cases = [
+        case_id
+        for case_id, count in case_counts.items()
+        if count == min_count
+    ]
+
+    assigned_case = random.choice(
+        least_assigned_cases
+    )
+
+    assigned_at = datetime.now(
+        timezone.utc
+    ).isoformat(
+        timespec="seconds"
+    )
+
+    worksheet.append_row(
+        [
+            evaluator_id,
+            assigned_case,
+            assigned_at,
+            "assigned",
+            "",
+        ],
+        value_input_option="RAW",
+    )
+
+    return assigned_case
+
+
+def mark_assignment_completed(
+    evaluator_id: str,
+    case_id: str,
+) -> None:
+    """Mark the evaluator's reserved case as completed."""
+
+    worksheet = get_assignments_worksheet()
+    records = worksheet.get_all_records()
+
+    completed_at = datetime.now(
+        timezone.utc
+    ).isoformat(
+        timespec="seconds"
+    )
+
+    for row_number, record in enumerate(
+        records,
+        start=2,
+    ):
+        same_evaluator = (
+            str(record.get("evaluator_id", "")).strip()
+            == str(evaluator_id).strip()
+        )
+
+        same_case = (
+            str(record.get("evaluation_case_id", "")).strip()
+            == str(case_id).strip()
+        )
+
+        if same_evaluator and same_case:
+            worksheet.update(
+                range_name=f"D{row_number}:E{row_number}",
+                values=[["completed", completed_at]],
+                value_input_option="RAW",
+            )
+            return
 
 
 def load_existing_responses(
@@ -922,14 +1195,6 @@ def decision_rating_form(
 
 case_files = get_case_files()
 
-if (
-    "current_case_index"
-    not in st.session_state
-):
-    st.session_state[
-        "current_case_index"
-    ] = 0
-
 
 # ==========================================================
 # SIDEBAR
@@ -939,38 +1204,32 @@ st.sidebar.title(
     "Evaluation"
 )
 
-evaluator_id = (
-    st.sidebar.text_input(
-        "Evaluator ID",
-        placeholder="e.g. E01",
+# ==========================================================
+# AUTOMATIC EVALUATOR ID
+# ==========================================================
+
+# Establish Google Sheets connection first
+get_google_worksheet()
+
+if "evaluator_id" not in st.session_state:
+
+    st.session_state["evaluator_id"] = (
+        generate_unique_evaluator_id()
     )
+
+evaluator_id = (
+    st.session_state["evaluator_id"]
+)
+
+st.sidebar.markdown(
+    f"**Evaluator ID:** `{evaluator_id}`"
 )
 
 st.sidebar.caption(
-    "Use the anonymous evaluator code provided "
-    "by the study administrator."
+    "This anonymous ID was generated automatically "
+    "for your evaluation session."
 )
 
-if not evaluator_id:
-
-    st.title(
-        "Hotel Managerial Decision Evaluation"
-    )
-
-    st.info(
-        "Enter your evaluator ID in the sidebar "
-        "to begin."
-    )
-
-    st.stop()
-
-
-# ==========================================================
-# GOOGLE SHEETS CONNECTION
-# ==========================================================
-
-# Establish connection before evaluation begins.
-get_google_worksheet()
 
 
 # ==========================================================
@@ -997,44 +1256,30 @@ if not existing_responses.empty:
 
 
 # ==========================================================
-# SIDEBAR PROGRESS
+# AUTOMATIC CASE ASSIGNMENT
 # ==========================================================
 
-st.sidebar.metric(
-    "Completed cases",
-    f"{len(completed_cases)} / {len(case_files)}",
-)
+if "assigned_case" not in st.session_state:
 
-case_labels = [
-    path.stem
-    for path in case_files
-]
-
-current_index = min(
-    st.session_state[
-        "current_case_index"
-    ],
-    len(case_files) - 1,
-)
+    st.session_state["assigned_case"] = (
+        reserve_balanced_random_case(
+            case_files=case_files,
+            evaluator_id=evaluator_id,
+        )
+    )
 
 selected_case = (
-    st.sidebar.selectbox(
-        "Case",
-        options=case_labels,
-        index=current_index,
-    )
+    st.session_state["assigned_case"]
 )
 
-selected_index = (
-    case_labels.index(
-        selected_case
-    )
+st.sidebar.markdown(
+    f"**Assigned case:** `{selected_case}`"
 )
 
-st.session_state[
-    "current_case_index"
-] = selected_index
-
+st.sidebar.caption(
+    "One case has been automatically assigned "
+    "to this evaluation session."
+)
 
 # ==========================================================
 # LOAD CURRENT CASE
@@ -1462,6 +1707,11 @@ if st.button(
             evaluator_id=evaluator_id,
         )
 
+        mark_assignment_completed(
+            evaluator_id=evaluator_id,
+            case_id=case_id,
+        )
+
     except Exception as exc:
 
         st.error(
@@ -1485,27 +1735,16 @@ if st.button(
     )
 
     # ------------------------------------------------------
-    # MOVE TO NEXT CASE
+    # COMPLETION
     # ------------------------------------------------------
+    st.balloons()
 
-    if (
-        selected_index
-        < len(case_files) - 1
-    ):
+    st.success(
+        "Thank you. Your evaluation has been completed successfully."
+    )
 
-        st.session_state[
-            "current_case_index"
-        ] = (
-            selected_index + 1
-        )
+    st.info(
+        "You may now close this page."
+    )
 
-        st.rerun()
-
-    else:
-
-        st.balloons()
-
-        st.success(
-            "You have reached the final case. "
-            "Thank you for completing the evaluation."
-        )
+    st.stop()
