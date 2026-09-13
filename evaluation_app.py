@@ -34,6 +34,15 @@ CASES_DIR = (
 GOOGLE_SHEET_NAME = "hotel_agent_human_evaluation"
 GOOGLE_WORKSHEET_NAME = "responses"
 GOOGLE_ASSIGNMENTS_WORKSHEET_NAME = "assignments"
+GOOGLE_SCREENING_WORKSHEET_NAME = "screening"
+
+# Prolific completion paths
+PROLIFIC_COMPLETION_URL = (
+    "https://app.prolific.com/submissions/complete?cc=C88K5Q1C"
+)
+PROLIFIC_SCREENED_OUT_URL = (
+    "https://app.prolific.com/submissions/complete?cc=C1HKGMMH"
+)
 
 
 RATING_DIMENSIONS = {
@@ -174,7 +183,6 @@ def get_google_worksheet():
 
 
 @st.cache_resource
-@st.cache_resource
 def get_assignments_worksheet():
     """
     Connect to the worksheet used to reserve case assignments.
@@ -288,6 +296,189 @@ def get_assignments_worksheet():
         )
 
         st.stop()
+
+
+
+@st.cache_resource
+def get_screening_worksheet():
+    """
+    Connect to the worksheet used to store screening answers.
+
+    The worksheet is created automatically if it does not yet exist.
+    If it exists but is empty, the required headers are added.
+    """
+
+    try:
+        scopes = [
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive",
+        ]
+
+        credentials_dict = dict(
+            st.secrets["gcp_service_account"]
+        )
+
+        credentials = Credentials.from_service_account_info(
+            credentials_dict,
+            scopes=scopes,
+        )
+
+        client = gspread.authorize(credentials)
+
+        spreadsheet = client.open(
+            GOOGLE_SHEET_NAME
+        )
+
+        try:
+            worksheet = spreadsheet.worksheet(
+                GOOGLE_SCREENING_WORKSHEET_NAME
+            )
+
+        except gspread.WorksheetNotFound:
+            worksheet = spreadsheet.add_worksheet(
+                title=GOOGLE_SCREENING_WORKSHEET_NAME,
+                rows=1000,
+                cols=12,
+            )
+
+        expected_headers = [
+            "evaluator_id",
+            "prolific_pid",
+            "study_id",
+            "session_id",
+            "recruitment_source",
+            "hotel_experience",
+            "role_category",
+            "decision_responsibility",
+            "years_experience",
+            "eligible",
+            "screened_at",
+        ]
+
+        values = worksheet.get_all_values()
+
+        if (
+            not values
+            or not any(
+                str(cell).strip()
+                for row in values
+                for cell in row
+            )
+        ):
+            worksheet.clear()
+            worksheet.update(
+                range_name="A1",
+                values=[expected_headers],
+                value_input_option="RAW",
+            )
+            return worksheet
+
+        headers = [
+            str(value).strip()
+            for value in values[0]
+        ]
+
+        while headers and not headers[-1]:
+            headers.pop()
+
+        if headers != expected_headers:
+            raise ValueError(
+                "The screening worksheet columns do not match "
+                "the expected schema.\\n\\n"
+                f"Expected: {expected_headers}\\n\\n"
+                f"Found: {headers}"
+            )
+
+        return worksheet
+
+    except Exception as exc:
+        st.error(
+            "Could not connect to the screening database."
+        )
+        st.caption(
+            "Please contact the study administrator."
+        )
+        st.code(
+            f"{type(exc).__name__}: {exc}"
+        )
+        st.stop()
+
+
+def save_screening_result(
+    evaluator_id: str,
+    prolific_pid: str,
+    study_id: str,
+    session_id: str,
+    recruitment_source: str,
+    hotel_experience: str,
+    role_category: str,
+    decision_responsibility: str,
+    years_experience: str,
+    eligible: bool,
+) -> None:
+    """Save or update one participant's screening result."""
+
+    worksheet = get_screening_worksheet()
+    records = worksheet.get_all_records()
+
+    screened_at = datetime.now(
+        timezone.utc
+    ).isoformat(
+        timespec="seconds"
+    )
+
+    row_values = [
+        evaluator_id,
+        prolific_pid,
+        study_id,
+        session_id,
+        recruitment_source,
+        hotel_experience,
+        role_category,
+        decision_responsibility,
+        years_experience,
+        "yes" if eligible else "no",
+        screened_at,
+    ]
+
+    existing_row = None
+
+    for row_number, record in enumerate(
+        records,
+        start=2,
+    ):
+        if (
+            str(record.get("evaluator_id", "")).strip()
+            == str(evaluator_id).strip()
+        ):
+            existing_row = row_number
+            break
+
+    if existing_row is None:
+        worksheet.append_row(
+            row_values,
+            value_input_option="RAW",
+        )
+    else:
+        last_column = gspread.utils.rowcol_to_a1(
+            existing_row,
+            len(row_values),
+        )
+        worksheet.update(
+            range_name=f"A{existing_row}:{last_column}",
+            values=[row_values],
+            value_input_option="RAW",
+        )
+
+
+def get_query_parameter(name: str) -> str:
+    """Read one optional URL parameter from Streamlit."""
+    value = st.query_params.get(name, "")
+
+    if isinstance(value, list):
+        value = value[0] if value else ""
+
+    return str(value).strip()
 
 
 def get_all_assignments() -> pd.DataFrame:
@@ -1265,6 +1456,207 @@ st.sidebar.caption(
 
 
 # ==========================================================
+# PROLIFIC / RECRUITMENT PARAMETERS
+# ==========================================================
+
+prolific_pid = get_query_parameter("PROLIFIC_PID")
+study_id = get_query_parameter("STUDY_ID")
+session_id = get_query_parameter("SESSION_ID")
+
+recruitment_source = (
+    "prolific"
+    if prolific_pid
+    else "direct"
+)
+
+
+# ==========================================================
+# ELIGIBILITY SCREENING
+# ==========================================================
+
+if "screening_completed" not in st.session_state:
+    st.session_state["screening_completed"] = False
+
+if "screening_eligible" not in st.session_state:
+    st.session_state["screening_eligible"] = None
+
+if not st.session_state["screening_completed"]:
+
+    st.title(
+        "Hotel Management Study"
+    )
+
+    st.header(
+        "Eligibility screening"
+    )
+
+    st.write(
+        "Before starting the evaluation, please answer a few "
+        "short questions about your professional experience."
+    )
+
+    st.caption(
+        "These questions are used only to determine whether your "
+        "professional background matches the requirements of this study."
+    )
+
+    hotel_experience = st.radio(
+        (
+            "Do you currently work, or have you previously worked, "
+            "in a hotel or other accommodation establishment "
+            "(e.g., hotel, resort, aparthotel)?"
+        ),
+        options=[
+            "Yes, currently",
+            "Yes, previously",
+            "No",
+        ],
+        index=None,
+        key="screen_hotel_experience",
+    )
+
+    role_category = st.selectbox(
+        (
+            "Which of the following best describes your current "
+            "or previous role in the hotel/accommodation sector?"
+        ),
+        options=[
+            "",
+            "General Manager / Hotel Manager",
+            "Department Manager",
+            "Revenue / Commercial / Sales Manager",
+            "Operations Manager",
+            "Front Office / Guest Relations",
+            "Food & Beverage Management",
+            "Other supervisory or managerial role",
+            "Non-managerial operational role",
+            "Other hotel/accommodation role",
+        ],
+        index=0,
+        key="screen_role_category",
+    )
+
+    decision_responsibility = st.radio(
+        (
+            "Did your role involve supervisory, managerial, "
+            "operational decision-making, revenue/commercial decisions, "
+            "or responsibility for guest experience?"
+        ),
+        options=[
+            "Yes",
+            "No",
+        ],
+        index=None,
+        key="screen_decision_responsibility",
+    )
+
+    years_experience = st.selectbox(
+        "How much professional experience do you have in hotels/accommodation?",
+        options=[
+            "",
+            "Less than 1 year",
+            "1–2 years",
+            "3–5 years",
+            "6–10 years",
+            "More than 10 years",
+        ],
+        index=0,
+        key="screen_years_experience",
+    )
+
+    if st.button(
+        "Continue",
+        type="primary",
+        width="stretch",
+        key="screening_continue",
+    ):
+
+        missing_screening = (
+            hotel_experience is None
+            or not role_category
+            or decision_responsibility is None
+            or not years_experience
+        )
+
+        if missing_screening:
+            st.error(
+                "Please answer all screening questions before continuing."
+            )
+            st.stop()
+
+        eligible = (
+            hotel_experience in {
+                "Yes, currently",
+                "Yes, previously",
+            }
+            and decision_responsibility == "Yes"
+        )
+
+        save_screening_result(
+            evaluator_id=evaluator_id,
+            prolific_pid=prolific_pid,
+            study_id=study_id,
+            session_id=session_id,
+            recruitment_source=recruitment_source,
+            hotel_experience=hotel_experience,
+            role_category=role_category,
+            decision_responsibility=decision_responsibility,
+            years_experience=years_experience,
+            eligible=eligible,
+        )
+
+        st.session_state["screening_completed"] = True
+        st.session_state["screening_eligible"] = eligible
+
+        if eligible:
+            st.rerun()
+
+        else:
+            st.warning(
+                "Thank you for your interest. Based on the eligibility "
+                "criteria for this study, you do not qualify for the "
+                "main evaluation task."
+            )
+
+            if prolific_pid:
+                st.link_button(
+                    "Return to Prolific",
+                    PROLIFIC_SCREENED_OUT_URL,
+                    type="primary",
+                    width="stretch",
+                )
+            else:
+                st.info(
+                    "You may now close this page."
+                )
+
+            st.stop()
+
+
+if st.session_state["screening_eligible"] is False:
+
+    st.warning(
+        "Thank you for your interest. Based on the eligibility "
+        "criteria for this study, you do not qualify for the "
+        "main evaluation task."
+    )
+
+    if prolific_pid:
+        st.link_button(
+            "Return to Prolific",
+            PROLIFIC_SCREENED_OUT_URL,
+            type="primary",
+            width="stretch",
+        )
+    else:
+        st.info(
+            "You may now close this page."
+        )
+
+    st.stop()
+
+
+# ==========================================================
 # LOAD EXISTING RESPONSES
 # ==========================================================
 
@@ -1775,8 +2167,16 @@ if st.button(
         "Thank you. Your evaluation has been completed successfully."
     )
 
-    st.info(
-        "You may now close this page."
-    )
+    if prolific_pid:
+        st.link_button(
+            "Return to Prolific",
+            PROLIFIC_COMPLETION_URL,
+            type="primary",
+            width="stretch",
+        )
+    else:
+        st.info(
+            "You may now close this page."
+        )
 
     st.stop()
