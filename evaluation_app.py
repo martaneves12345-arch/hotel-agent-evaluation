@@ -1657,12 +1657,12 @@ st.header(
     "1. Case information"
 )
 
-display_hotel_information(
-    case_info.get(
-        "hotel_information",
-        {},
-    )
-)
+#display_hotel_information(
+#    case_info.get(
+#        "hotel_information",
+#        {},
+#    )
+#)
 
 display_performance(
     case_info.get(
