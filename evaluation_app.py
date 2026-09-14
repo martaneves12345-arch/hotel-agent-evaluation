@@ -64,12 +64,6 @@ RATING_DIMENSIONS = {
         "and actionable for hotel management.",
     ),
 
-    "proportionality": (
-        "Proportionality",
-        "The proposed actions are proportionate to the "
-        "strength and severity of the available evidence.",
-    ),
-
     "overall_usefulness": (
         "Overall managerial usefulness",
         "Overall, this decision would be useful as a basis "
@@ -937,172 +931,149 @@ def display_hotel_information(
     )
 
 
-def display_performance(
-    weekly_history: list[dict],
-):
-    """
-    Display the four-week hotel performance table.
-    """
+def _safe_text(value) -> str:
+    """Return clean text, treating common null-like values as empty."""
+    if value is None:
+        return ""
+    value = str(value).strip()
+    if value.lower() in {"", "nan", "none", "null", "nat"}:
+        return ""
+    return value
 
-    st.subheader(
-        "4-week hotel performance"
-    )
 
-    df = pd.DataFrame(
-        weekly_history
-    )
+def _trend_symbol(values: pd.Series) -> str:
+    """Simple first-to-last trend indicator for the displayed 4-week window."""
+    numeric = pd.to_numeric(values, errors="coerce").dropna()
+    if len(numeric) < 2:
+        return "→"
 
-    rename = {
-        "WEEK_YEAR": "Week",
-        "week_date": "Week starting",
-        "REVPAR_WEEK": "RevPAR",
-        "REVPOR_WEEK": "RevPOR",
-        "TREVPAR_WEEK": "TRevPAR",
-        "TAXA_OCUPACAO": "Occupancy (%)",
-        "N_REVIEWS": "Reviews",
-        "AVG_RATING": "Average rating",
-    }
+    first = float(numeric.iloc[0])
+    last = float(numeric.iloc[-1])
 
-    df = df.rename(
-        columns=rename
-    )
+    scale = max(abs(first), 1.0)
+    relative_change = (last - first) / scale
 
-    numeric_columns = [
-        "RevPAR",
-        "RevPOR",
-        "TRevPAR",
-        "Occupancy (%)",
-        "Average rating",
+    if relative_change > 0.03:
+        return "↑"
+    if relative_change < -0.03:
+        return "↓"
+    return "→"
+
+
+def display_performance(weekly_history: list[dict]):
+    """Display a compact current-value + 4-week-trend snapshot."""
+    st.subheader("Performance snapshot")
+
+    df = pd.DataFrame(weekly_history)
+    if df.empty:
+        st.info("Performance information is not available for this case.")
+        return
+
+    metrics = [
+        ("REVPAR_WEEK", "RevPAR", "€"),
+        ("TAXA_OCUPACAO", "Occupancy", "%"),
+        ("AVG_RATING", "Average rating", ""),
+        ("N_REVIEWS", "Reviews", ""),
     ]
 
-    for column in numeric_columns:
-        if column in df.columns:
-            df[column] = (
-                pd.to_numeric(
-                    df[column],
-                    errors="coerce",
-                )
-                .round(2)
-            )
+    rows = []
+    for column, label, suffix in metrics:
+        if column not in df.columns:
+            continue
 
-    if "Reviews" in df.columns:
-        df["Reviews"] = (
-            pd.to_numeric(
-                df["Reviews"],
-                errors="coerce",
-            )
-            .round(0)
-            .astype("Int64")
+        values = pd.to_numeric(df[column], errors="coerce")
+        valid = values.dropna()
+        if valid.empty:
+            current = "N/A"
+        else:
+            latest = float(valid.iloc[-1])
+            if column == "N_REVIEWS":
+                current = f"{int(round(latest))}"
+            elif suffix == "€":
+                current = f"€{latest:.2f}"
+            elif suffix == "%":
+                current = f"{latest:.1f}%"
+            else:
+                current = f"{latest:.2f}"
+
+        rows.append(
+            {
+                "Indicator": label,
+                "Current": current,
+                "4-week trend": _trend_symbol(values),
+            }
         )
 
     st.dataframe(
-        df,
+        pd.DataFrame(rows),
         width="stretch",
         hide_index=True,
     )
 
     st.caption(
-        "RevPAR = revenue per available room; "
-        "RevPOR = revenue per occupied room; "
-        "TRevPAR = total revenue per available room."
+        "Trend arrows summarize the direction from the beginning to the end "
+        "of the four-week case window (↑ improving/increasing, ↓ declining, → broadly stable)."
     )
 
 
-def display_reviews(
-    reviews: list[dict],
-):
-    """
-    Display the neutral recent-review sample.
-    """
-
-    st.subheader(
-        "Recent customer reviews"
-    )
-
+def display_reviews(reviews: list[dict], max_reviews: int = 10):
+    """Display the 10 most recent reviews containing written text."""
+    st.subheader("Recent customer reviews")
     st.caption(
-        "The reviews below constitute the common customer "
-        "evidence presented for this case."
+        "The 10 most recent reviews with written feedback are shown below. "
+        "The same review evidence is used to assess both decisions."
     )
 
-    for index, review in enumerate(
-        reviews,
-        start=1,
-    ):
-        rating = review.get(
-            "rating"
+    cleaned = []
+    for review in reviews:
+        liked = _safe_text(review.get("liked"))
+        disliked = _safe_text(review.get("disliked"))
+
+        if not liked and not disliked:
+            continue
+
+        date_raw = review.get("review_date")
+        date_parsed = pd.to_datetime(date_raw, errors="coerce")
+
+        cleaned.append(
+            {
+                **review,
+                "_liked": liked,
+                "_disliked": disliked,
+                "_date_parsed": date_parsed,
+            }
         )
 
-        date = review.get(
-            "review_date"
-        )
+    cleaned.sort(
+        key=lambda x: (
+            pd.Timestamp.min if pd.isna(x["_date_parsed"]) else x["_date_parsed"]
+        ),
+        reverse=True,
+    )
+    cleaned = cleaned[:max_reviews]
 
-        country = review.get(
-            "country"
-        )
+    if not cleaned:
+        st.info("No written reviews are available for this case.")
+        return
 
-        stay_type = review.get(
-            "stay_type"
-        )
+    for index, review in enumerate(cleaned, start=1):
+        rating = review.get("rating")
+        date = _safe_text(review.get("review_date"))
+        header_parts = [f"**Review {index}**"]
+        if rating is not None and _safe_text(rating):
+            header_parts.append(f"Rating: {rating}")
+        if date:
+            header_parts.append(date)
 
-        title = (
-            f"Review {index}"
-            f"  ·  Rating: {rating}"
-            f"  ·  {date}"
-        )
+        st.markdown(" · ".join(header_parts))
 
-        with st.expander(
-            title,
-            expanded=False,
-        ):
-            metadata = []
+        if review["_liked"]:
+            st.write(f"**Liked:** {review['_liked']}")
+        if review["_disliked"]:
+            st.write(f"**Disliked:** {review['_disliked']}")
 
-            if country:
-                metadata.append(
-                    f"Country: {country}"
-                )
-
-            if stay_type:
-                metadata.append(
-                    f"Stay type: {stay_type}"
-                )
-
-            if metadata:
-                st.caption(
-                    " | ".join(
-                        metadata
-                    )
-                )
-
-            liked = review.get(
-                "liked"
-            )
-
-            disliked = review.get(
-                "disliked"
-            )
-
-            if liked:
-                st.markdown(
-                    "**Liked**"
-                )
-
-                st.write(
-                    liked
-                )
-
-            if disliked:
-                st.markdown(
-                    "**Disliked**"
-                )
-
-                st.write(
-                    disliked
-                )
-
-            if not liked and not disliked:
-                st.write(
-                    "No written comment."
-                )
+        if index < len(cleaned):
+            st.markdown("---")
 
 
 def display_strengths(
@@ -1162,180 +1133,45 @@ def display_strengths(
             )
 
 
-def display_decision(
-    decision: dict,
-    label: str,
-):
-    """
-    Display one blinded managerial decision.
-    """
+def display_decision(decision: dict, label: str):
+    """Display a compact blinded managerial decision for rapid evaluation."""
+    st.subheader(f"Decision {label}")
 
-    st.subheader(
-        f"Decision {label}"
-    )
-
-    risk = decision.get(
-        "overall_risk"
-    )
-
+    risk = decision.get("overall_risk")
     if risk:
-        st.markdown(
-            f"**Overall risk: {str(risk).title()}**"
-        )
+        st.markdown(f"**Overall risk: {str(risk).title()}**")
 
-    rationale = decision.get(
-        "overall_risk_rationale"
-    )
-
-    if rationale:
-        st.markdown(
-            "**Overall risk rationale**"
-        )
-
-        st.write(
-            rationale
-        )
-
-    summary = decision.get(
-        "executive_summary"
-    )
-
+    summary = _safe_text(decision.get("executive_summary"))
     if summary:
-        st.markdown(
-            "**Executive summary**"
-        )
+        st.markdown("**Executive summary**")
+        st.write(summary)
 
-        st.write(
-            summary
-        )
+    priorities = decision.get("priorities", []) or []
+    priorities = priorities[:3]
 
-    priorities = decision.get(
-        "priorities",
-        [],
-    )
+    st.markdown("#### Top managerial priorities")
 
-    st.markdown(
-        "#### Managerial priorities"
-    )
+    if not priorities:
+        st.write("No managerial priorities were provided.")
+        return
 
-    for priority in priorities:
+    for fallback_rank, priority in enumerate(priorities, start=1):
+        rank = priority.get("rank") or fallback_rank
+        area = _safe_text(priority.get("area")) or "Priority"
+        level = _safe_text(priority.get("managerial_priority"))
+        problem = _safe_text(priority.get("problem"))
+        action = _safe_text(priority.get("recommended_action"))
 
-        rank = priority.get(
-            "rank"
-        )
+        heading = f"**{rank}. {area}**"
+        if level:
+            heading += f" — {level} priority"
+        st.markdown(heading)
 
-        area = priority.get(
-            "area",
-            "Priority",
-        )
+        if problem:
+            st.write(problem)
+        if action:
+            st.write(f"**Recommended action:** {action}")
 
-        priority_level = priority.get(
-            "managerial_priority"
-        )
-
-        horizon = priority.get(
-            "action_horizon"
-        )
-
-        intervention = priority.get(
-            "intervention_type"
-        )
-
-        heading = (
-            f"Priority {rank}: {area}"
-        )
-
-        with st.expander(
-            heading,
-            expanded=True,
-        ):
-            metadata = []
-
-            if priority_level:
-                metadata.append(
-                    "Priority level: "
-                    f"{priority_level}"
-                )
-
-            if horizon:
-                metadata.append(
-                    "Horizon: "
-                    f"{horizon}"
-                )
-
-            if intervention:
-                metadata.append(
-                    "Intervention: "
-                    f"{intervention}"
-                )
-
-            if metadata:
-                st.caption(
-                    " | ".join(
-                        metadata
-                    )
-                )
-
-            problem = priority.get(
-                "problem"
-            )
-
-            if problem:
-                st.markdown(
-                    "**Problem**"
-                )
-
-                st.write(
-                    problem
-                )
-
-            action = priority.get(
-                "recommended_action"
-            )
-
-            if action:
-                st.markdown(
-                    "**Recommended action**"
-                )
-
-                st.write(
-                    action
-                )
-
-            rationale = priority.get(
-                "rationale"
-            )
-
-            if rationale:
-                st.markdown(
-                    "**Rationale**"
-                )
-
-                st.write(
-                    rationale
-                )
-
-    display_strengths(
-        decision.get(
-            "strengths_to_preserve",
-            [],
-        )
-    )
-
-    limitations = decision.get(
-        "limitations",
-        [],
-    )
-
-    if limitations:
-        with st.expander(
-            "Limitations",
-            expanded=False,
-        ):
-            for limitation in limitations:
-                st.write(
-                    f"• {limitation}"
-                )
 
 
 # ==========================================================
@@ -1536,20 +1372,6 @@ if not st.session_state["screening_completed"]:
         key="screen_role_category",
     )
 
-    decision_responsibility = st.radio(
-        (
-            "Did your role involve supervisory, managerial, "
-            "operational decision-making, revenue/commercial decisions, "
-            "or responsibility for guest experience?"
-        ),
-        options=[
-            "Yes",
-            "No",
-        ],
-        index=None,
-        key="screen_decision_responsibility",
-    )
-
     years_experience = st.selectbox(
         "How much professional experience do you have in hotels/accommodation?",
         options=[
@@ -1574,7 +1396,6 @@ if not st.session_state["screening_completed"]:
         missing_screening = (
             hotel_experience is None
             or not role_category
-            or decision_responsibility is None
             or not years_experience
         )
 
@@ -1600,7 +1421,6 @@ if not st.session_state["screening_completed"]:
                 "Yes, previously",
             }
             and role_category in eligible_roles
-            and decision_responsibility == "Yes"
         )
 
         save_screening_result(
@@ -1611,7 +1431,7 @@ if not st.session_state["screening_completed"]:
             recruitment_source=recruitment_source,
             hotel_experience=hotel_experience,
             role_category=role_category,
-            decision_responsibility=decision_responsibility,
+            decision_responsibility="",
             years_experience=years_experience,
             eligible=eligible,
         )
@@ -1758,6 +1578,8 @@ st.title(
     "Hotel Managerial Decision Evaluation"
 )
 
+st.caption("Estimated completion time: about 5 minutes.")
+
 st.markdown(
     f"## Case {case_id}"
 )
@@ -1803,49 +1625,27 @@ st.write(
 # ==========================================================
 
 st.error(
-    "⚠️ Before continuing, please read the evaluation instructions "
-    "below carefully."
+    "⚠️ Before continuing, please read the instructions below carefully."
 )
 
-st.subheader(
-    "Evaluation instructions"
-)
+st.subheader("Evaluation instructions")
 
 with st.container(border=True):
-
     st.markdown(
         """
-You will review **one hotel case** and **two AI-generated managerial
-decisions**, labelled **Decision A** and **Decision B**. Both decisions
-refer to the same hotel case.
+You will review **one hotel case** and **two alternative managerial recommendations**,
+labelled **Decision A** and **Decision B**. Both concern the same hotel case.
 
-Please evaluate **each decision independently**, using only the case
-information provided on this page.
+Please judge each decision using only the information shown here. Focus on whether it:
+- prioritizes the most important issues;
+- is supported by the case evidence;
+- proposes clear and actionable recommendations; and
+- would be useful for hotel management.
 
-When rating the decisions, focus on whether each one:
-
-- identifies and prioritizes the most relevant managerial issues;
-- is supported by the available case evidence;
-- proposes actions that are proportionate to the strength and severity
-  of the evidence;
-- provides recommendations that are sufficiently concrete and actionable;
-- would be useful as a basis for hotel managerial decision-making.
-
-For each evaluation criterion, use the **1–7 scale** provided.
-
-There are **no correct or incorrect answers**. We are interested in your
-professional judgment.
-
-The identity of the systems that generated Decision A and Decision B is
-intentionally hidden.
-        """
+Use the **1–7 scale** for each criterion. There are no right or wrong answers;
+we are interested in your professional judgment.
+"""
     )
-
-st.caption(
-    "Please complete the evaluation carefully and base your ratings only "
-    "on the information presented in the case."
-)
-
 
 # ==========================================================
 # CASE INFORMATION
@@ -2017,8 +1817,8 @@ if st.button(
     if missing_a or missing_b:
 
         st.error(
-            "Please complete all five ratings for "
-            "Decision A and all five ratings for "
+            "Please complete all four ratings for "
+            "Decision A and all four ratings for "
             "Decision B."
         )
 
@@ -2092,11 +1892,7 @@ if st.button(
             ]
         ),
 
-        "A_proportionality": (
-            ratings_a[
-                "proportionality"
-            ]
-        ),
+        "A_proportionality": "",
 
         "A_overall_usefulness": (
             ratings_a[
@@ -2123,11 +1919,7 @@ if st.button(
             ]
         ),
 
-        "B_proportionality": (
-            ratings_b[
-                "proportionality"
-            ]
-        ),
+        "B_proportionality": "",
 
         "B_overall_usefulness": (
             ratings_b[
