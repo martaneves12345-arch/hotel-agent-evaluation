@@ -23,7 +23,7 @@ EVALUATION_DIR = (
     BASE_DIR
     / "src"
     / "outputs"
-    / "human_evaluation_v2"
+    / "human_evaluation_v3"
 )
 
 CASES_DIR = (
@@ -878,59 +878,6 @@ def save_response(
 # DISPLAY HELPERS
 # ==========================================================
 
-def display_hotel_information(
-    info: dict,
-):
-    """
-    Display basic hotel information.
-    """
-
-    st.subheader(
-        "Hotel context"
-    )
-
-    col1, col2, col3 = st.columns(3)
-
-    stars = info.get(
-        "stars"
-    )
-
-    region = info.get(
-        "region"
-    )
-
-    rooms = info.get(
-        "number_of_rooms"
-    )
-
-    col1.metric(
-        "Hotel category",
-        (
-            f"{stars} stars"
-            if stars is not None
-            else "Not available"
-        ),
-    )
-
-    col2.metric(
-        "Region",
-        (
-            region
-            if region
-            else "Not available"
-        ),
-    )
-
-    col3.metric(
-        "Number of rooms",
-        (
-            rooms
-            if rooms is not None
-            else "Not available"
-        ),
-    )
-
-
 def _safe_text(value) -> str:
     """Return clean text, treating common null-like values as empty."""
     if value is None:
@@ -1016,64 +963,22 @@ def display_performance(weekly_history: list[dict]):
     )
 
 
-def display_reviews(reviews: list[dict], max_reviews: int = 10):
-    """Display the 10 most recent reviews containing written text."""
-    st.subheader("Recent customer reviews")
-    st.caption(
-        "The 10 most recent reviews with written feedback are shown below. "
-        "The same review evidence is used to assess both decisions."
-    )
+def display_feedback_summary(summary: str):
+    """Display the neutral common summary of recent customer feedback."""
+    st.subheader("Customer feedback summary")
 
-    cleaned = []
-    for review in reviews:
-        liked = _safe_text(review.get("liked"))
-        disliked = _safe_text(review.get("disliked"))
+    summary = _safe_text(summary)
 
-        if not liked and not disliked:
-            continue
-
-        date_raw = review.get("review_date")
-        date_parsed = pd.to_datetime(date_raw, errors="coerce")
-
-        cleaned.append(
-            {
-                **review,
-                "_liked": liked,
-                "_disliked": disliked,
-                "_date_parsed": date_parsed,
-            }
-        )
-
-    cleaned.sort(
-        key=lambda x: (
-            pd.Timestamp.min if pd.isna(x["_date_parsed"]) else x["_date_parsed"]
-        ),
-        reverse=True,
-    )
-    cleaned = cleaned[:max_reviews]
-
-    if not cleaned:
-        st.info("No written reviews are available for this case.")
+    if not summary:
+        st.info("No written customer feedback is available for this case.")
         return
 
-    for index, review in enumerate(cleaned, start=1):
-        rating = review.get("rating")
-        date = _safe_text(review.get("review_date"))
-        header_parts = [f"**Review {index}**"]
-        if rating is not None and _safe_text(rating):
-            header_parts.append(f"Rating: {rating}")
-        if date:
-            header_parts.append(date)
+    st.write(summary)
 
-        st.markdown(" · ".join(header_parts))
-
-        if review["_liked"]:
-            st.write(f"**Liked:** {review['_liked']}")
-        if review["_disliked"]:
-            st.write(f"**Disliked:** {review['_disliked']}")
-
-        if index < len(cleaned):
-            st.markdown("---")
+    st.caption(
+        "This neutral summary is based on the recent review sample and is "
+        "the same evidence used to assess both decisions."
+    )
 
 
 def display_strengths(
@@ -1134,44 +1039,37 @@ def display_strengths(
 
 
 def display_decision(decision: dict, label: str):
-    """Display a compact blinded managerial decision for rapid evaluation."""
+    """Display the concise blinded managerial decision."""
     st.subheader(f"Decision {label}")
 
-    risk = decision.get("overall_risk")
-    if risk:
-        st.markdown(f"**Overall risk: {str(risk).title()}**")
+    risk = _safe_text(decision.get("overall_risk"))
 
-    summary = _safe_text(decision.get("executive_summary"))
-    if summary:
-        st.markdown("**Executive summary**")
-        st.write(summary)
+    if risk:
+        st.markdown(f"**Overall risk: {risk.title()}**")
 
     priorities = decision.get("priorities", []) or []
     priorities = priorities[:3]
 
-    st.markdown("#### Top managerial priorities")
+    st.markdown("#### Recommended priorities")
 
     if not priorities:
-        st.write("No managerial priorities were provided.")
+        st.write("No managerial recommendations were provided.")
         return
 
-    for fallback_rank, priority in enumerate(priorities, start=1):
+    for fallback_rank, priority in enumerate(
+        priorities,
+        start=1,
+    ):
         rank = priority.get("rank") or fallback_rank
         area = _safe_text(priority.get("area")) or "Priority"
-        level = _safe_text(priority.get("managerial_priority"))
-        problem = _safe_text(priority.get("problem"))
-        action = _safe_text(priority.get("recommended_action"))
+        recommendation = _safe_text(
+            priority.get("recommendation")
+        )
 
-        heading = f"**{rank}. {area}**"
-        if level:
-            heading += f" — {level} priority"
-        st.markdown(heading)
+        st.markdown(f"**{rank}. {area}**")
 
-        if problem:
-            st.write(problem)
-        if action:
-            st.write(f"**Recommended action:** {action}")
-
+        if recommendation:
+            st.write(recommendation)
 
 
 # ==========================================================
@@ -1636,6 +1534,10 @@ with st.container(border=True):
 You will review **one hotel case** and **two alternative managerial recommendations**,
 labelled **Decision A** and **Decision B**. Both concern the same hotel case.
 
+The customer feedback has been summarized to make the task closer to a realistic
+managerial decision-support setting. **The same case information and customer
+feedback summary apply to both decisions.**
+
 Please judge each decision using only the information shown here. Focus on whether it:
 - prioritizes the most important issues;
 - is supported by the case evidence;
@@ -1657,12 +1559,6 @@ st.header(
     "1. Case information"
 )
 
-#display_hotel_information(
-#    case_info.get(
-#        "hotel_information",
-#        {},
-#    )
-#)
 
 display_performance(
     case_info.get(
@@ -1671,10 +1567,10 @@ display_performance(
     )
 )
 
-display_reviews(
+display_feedback_summary(
     case_info.get(
-        "recent_reviews",
-        [],
+        "customer_feedback_summary",
+        "",
     )
 )
 

@@ -9,12 +9,17 @@ from typing import Any
 
 import pandas as pd
 
+from review_summarizer import (
+    build_neutral_review_summary,
+    shorten_recommendation,
+)
+
 
 # ==========================================================
 # CONFIGURATION
 # ==========================================================
 
-EVALUATION_VERSION = "human_eval_v2"
+EVALUATION_VERSION = "human_eval_v3"
 
 DEFAULT_RANDOM_SEED = 20260909
 
@@ -23,24 +28,10 @@ SYSTEMS_FOR_HUMAN_EVALUATION = [
     "evidence_informed",
 ]
 
-
-# ==========================================================
-# EVALUATOR-VISIBLE METRICS
-# ==========================================================
-
-# IMPORTANT:
-# Only basic hotel-performance information is shown
-# to the evaluator.
-#
-# Treatment-specific experiential indicators are
-# intentionally excluded to preserve blinding.
-
 EVALUATOR_METRICS = [
     "WEEK_YEAR",
     "week_date",
     "REVPAR_WEEK",
-    "REVPOR_WEEK",
-    "TREVPAR_WEEK",
     "TAXA_OCUPACAO",
     "N_REVIEWS",
     "AVG_RATING",
@@ -51,44 +42,22 @@ EVALUATOR_METRICS = [
 # HELPERS
 # ==========================================================
 
-def _load_json(
-    path: Path,
-) -> dict[str, Any]:
-    """
-    Loads a JSON file.
-    """
-
-    with path.open(
-        "r",
-        encoding="utf-8",
-    ) as file:
+def _load_json(path: Path) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as file:
         return json.load(file)
 
 
-def _find_single_json(
-    directory: Path,
-    pilot_id: str,
-) -> Path:
-    """
-    Finds exactly one JSON file for a given pilot case.
-    """
-
-    matches = list(
-        directory.glob(
-            f"{pilot_id}_*.json"
-        )
-    )
+def _find_single_json(directory: Path, pilot_id: str) -> Path:
+    matches = list(directory.glob(f"{pilot_id}_*.json"))
 
     if len(matches) == 0:
         raise FileNotFoundError(
-            f"No JSON found for {pilot_id} "
-            f"in {directory}"
+            f"No JSON found for {pilot_id} in {directory}"
         )
 
     if len(matches) > 1:
         raise ValueError(
-            f"Multiple JSON files found for "
-            f"{pilot_id} in {directory}: "
+            f"Multiple JSON files found for {pilot_id} in {directory}: "
             f"{matches}"
         )
 
@@ -104,76 +73,26 @@ def _build_common_case_information(
     max_reviews: int = 20,
 ) -> dict[str, Any]:
     """
-    Builds a neutral case representation that can be shown
-    to evaluators for BOTH systems.
+    Build the neutral evaluator-visible case information.
 
-    The evaluator receives:
-
+    The evaluator sees:
     - evaluation window;
-    - basic hotel information;
-    - basic operational / financial KPIs;
-    - recent customer reviews.
+    - compact basic performance history;
+    - one neutral summary of the SAME recent review sample.
 
-    The evaluator does NOT receive treatment-specific
-    engineered evidence such as:
-
-    - preliminary signals;
-    - diagnostic scores;
-    - evidence patterns;
-    - expectation-experience gap;
-    - semantic misalignment;
-    - expectation violations;
-    - emotional complexity;
-    - emerging-negative signals;
-    - agent-context evidence structures.
+    The evaluator does NOT see:
+    - raw individual reviews;
+    - hotel category / region / room count;
+    - treatment-specific experiential indicators;
+    - diagnostic scores or treatment-specific evidence structures.
     """
 
-    metadata = case.get(
-        "case_metadata",
-        {},
-    )
-
-    hotel = case.get(
-        "hotel_profile",
-        {},
-    )
-
-    weekly_history = case.get(
-        "weekly_history",
-        [],
-    )
-
-    review_sample = case.get(
-        "review_sample",
-        [],
-    )[:max_reviews]
-
-    # ------------------------------------------------------
-    # HOTEL PROFILE
-    # ------------------------------------------------------
-
-    hotel_information = {
-        "stars": hotel.get(
-            "stars"
-        ),
-        "region": (
-            hotel.get("nuts2")
-            or hotel.get("region")
-        ),
-        "number_of_rooms": (
-            hotel.get("n_rooms")
-            or hotel.get("number_of_rooms")
-        ),
-    }
-
-    # ------------------------------------------------------
-    # CLEAN WEEKLY HISTORY
-    # ------------------------------------------------------
+    metadata = case.get("case_metadata", {})
+    weekly_history = case.get("weekly_history", [])
 
     clean_weekly_history = []
 
     for week in weekly_history:
-
         clean_weekly_history.append(
             {
                 metric: week.get(metric)
@@ -181,198 +100,96 @@ def _build_common_case_information(
             }
         )
 
-    # ------------------------------------------------------
-    # RECENT REVIEWS
-    # ------------------------------------------------------
-
-    reviews = []
-
-    for review in review_sample:
-
-        reviews.append(
-            {
-                "review_date": review.get(
-                    "review_date"
-                ),
-                "rating": review.get(
-                    "rating"
-                ),
-                "liked": review.get(
-                    "liked"
-                ),
-                "disliked": review.get(
-                    "disliked"
-                ),
-                "country": review.get(
-                    "country"
-                ),
-                "stay_type": review.get(
-                    "stay_type"
-                ),
-            }
-        )
-
-    # ------------------------------------------------------
-    # OUTPUT
-    # ------------------------------------------------------
+    review_summary = build_neutral_review_summary(
+        case=case,
+        max_reviews=max_reviews,
+    )
 
     return {
-        "case_id": metadata.get(
-            "case_id"
-        ),
+        "case_id": metadata.get("case_id"),
+        "decision_week": metadata.get("decision_week"),
+        "window_start": metadata.get("window_start"),
+        "window_end": metadata.get("window_end"),
+        "lookback_weeks": metadata.get("lookback_weeks_requested"),
+        "weekly_history": clean_weekly_history,
+        "customer_feedback_summary": review_summary["summary"],
 
-        "decision_week": metadata.get(
-            "decision_week"
-        ),
-
-        "window_start": metadata.get(
-            "window_start"
-        ),
-
-        "window_end": metadata.get(
-            "window_end"
-        ),
-
-        "lookback_weeks": metadata.get(
-            "lookback_weeks_requested"
-        ),
-
-        "hotel_information": (
-            hotel_information
-        ),
-
-        "weekly_history": (
-            clean_weekly_history
-        ),
-
-        "recent_reviews": (
-            reviews
-        ),
+        # Audit metadata; not displayed in the Streamlit interface.
+        "review_summary_metadata": {
+            "source_reviews_selected": (
+                review_summary["source_reviews_selected"]
+            ),
+            "source_reviews_with_written_feedback": (
+                review_summary[
+                    "source_reviews_with_written_feedback"
+                ]
+            ),
+            "summary_method": (
+                "Neutral LLM summary of the frozen recent review sample; "
+                "no additional reviews retrieved."
+            ),
+        },
     }
 
 
 # ==========================================================
-# CLEAN DECISION FOR HUMAN EVALUATION
+# SHORT DECISION FOR HUMAN EVALUATION
 # ==========================================================
 
-def _clean_decision_output(
+def _build_short_decision_output(
     decision: dict[str, Any],
+    max_priorities: int = 3,
 ) -> dict[str, Any]:
     """
-    Removes system-identifying or treatment-specific
-    information while preserving the managerial content
-    required for human evaluation.
+    Build the concise participant-facing representation.
 
-    Fields intentionally excluded:
+    The original experimental output is NOT modified. This function only
+    creates a short display layer for human evaluation.
 
-    - evidence_pattern;
-    - evidence_basis;
-    - positive_counterevidence;
-    - supporting_evidence;
+    Visible:
+    - overall risk;
+    - top three ranked managerial recommendations.
+
+    Hidden:
+    - executive summary;
+    - rationale;
+    - problem text;
+    - supporting evidence;
     - confidence;
-    - safety_relevance;
-    - requires_further_assessment;
-    - monitoring_indicators;
-    - system metadata;
-    - experiment metadata.
+    - safety flags;
+    - treatment-specific fields;
+    - strengths / limitations / monitoring details.
     """
 
-    cleaned = {
-        "overall_risk": (
-            decision.get(
-                "overall_risk"
-            )
-        ),
+    priorities = sorted(
+        decision.get("priorities", []) or [],
+        key=lambda item: item.get("rank", 999),
+    )[:max_priorities]
 
-        "overall_risk_rationale": (
-            decision.get(
-                "overall_risk_rationale"
-            )
-        ),
+    short_priorities = []
 
-        "executive_summary": (
-            decision.get(
-                "executive_summary"
-            )
-        ),
+    for fallback_rank, priority in enumerate(priorities, start=1):
+        rank = priority.get("rank") or fallback_rank
+        area = priority.get("area")
+        original_action = priority.get("recommended_action")
 
-        "priorities": [],
+        short_action = shorten_recommendation(
+            area=area,
+            recommended_action=original_action,
+        )
 
-        "strengths_to_preserve": (
-            decision.get(
-                "strengths_to_preserve",
-                [],
-            )
-        ),
-
-        "limitations": (
-            decision.get(
-                "limitations",
-                [],
-            )
-        ),
-    }
-
-    # ------------------------------------------------------
-    # PRIORITIES
-    # ------------------------------------------------------
-
-    for priority in decision.get(
-        "priorities",
-        [],
-    ):
-
-        cleaned[
-            "priorities"
-        ].append(
+        short_priorities.append(
             {
-                "rank": priority.get(
-                    "rank"
-                ),
-
-                "area": priority.get(
-                    "area"
-                ),
-
-                "managerial_priority": (
-                    priority.get(
-                        "managerial_priority"
-                    )
-                ),
-
-                "action_horizon": (
-                    priority.get(
-                        "action_horizon"
-                    )
-                ),
-
-                "intervention_type": (
-                    priority.get(
-                        "intervention_type"
-                    )
-                ),
-
-                "problem": (
-                    priority.get(
-                        "problem"
-                    )
-                ),
-
-                "recommended_action": (
-                    priority.get(
-                        "recommended_action"
-                    )
-                ),
-
-                "rationale": (
-                    priority.get(
-                        "rationale"
-                    )
-                ),
+                "rank": rank,
+                "area": area,
+                "recommendation": short_action,
             }
         )
 
-    return cleaned
+    return {
+        "overall_risk": decision.get("overall_risk"),
+        "priorities": short_priorities,
+    }
 
 
 # ==========================================================
@@ -384,56 +201,25 @@ def _randomize_system_labels(
     random_seed: int,
 ) -> pd.DataFrame:
     """
-    Creates a balanced blinded assignment.
-
-    For an even number of cases:
-    - Generic appears as Decision A in exactly half;
-    - Evidence-Informed appears as Decision A in exactly half.
-
-    Assignment is randomized across cases using a fixed
-    random seed for reproducibility.
+    Create a balanced blinded A/B assignment.
     """
 
-    rng = random.Random(
-        random_seed
-    )
-
-    n_cases = len(
-        pilot_ids
-    )
+    rng = random.Random(random_seed)
+    n_cases = len(pilot_ids)
 
     assignments = []
 
-    # ------------------------------------------------------
-    # BALANCED A/B ASSIGNMENTS
-    # ------------------------------------------------------
-
-    for i in range(
-        n_cases
-    ):
-
+    for i in range(n_cases):
         if i % 2 == 0:
-
             assignments.append(
-                (
-                    "generic_llm",
-                    "evidence_informed",
-                )
+                ("generic_llm", "evidence_informed")
             )
-
         else:
-
             assignments.append(
-                (
-                    "evidence_informed",
-                    "generic_llm",
-                )
+                ("evidence_informed", "generic_llm")
             )
 
-    # Randomize which pilot receives which assignment.
-    rng.shuffle(
-        assignments
-    )
+    rng.shuffle(assignments)
 
     records = []
 
@@ -441,131 +227,70 @@ def _randomize_system_labels(
         pilot_ids,
         assignments,
     ):
-
         records.append(
             {
-                "pilot_id": (
-                    pilot_id
-                ),
-
-                "decision_a_system": (
-                    assignment[0]
-                ),
-
-                "decision_b_system": (
-                    assignment[1]
-                ),
+                "pilot_id": pilot_id,
+                "decision_a_system": assignment[0],
+                "decision_b_system": assignment[1],
             }
         )
 
-    return pd.DataFrame(
-        records
-    )
+    return pd.DataFrame(records)
 
-
-# ==========================================================
-# VALIDATION
-# ==========================================================
 
 def _validate_blinding_key(
     blinding_key: pd.DataFrame,
 ) -> None:
-    """
-    Performs basic validation of the randomized A/B mapping.
-    """
+    if blinding_key["pilot_id"].duplicated().any():
+        raise ValueError("Duplicate pilot IDs found in the blinding key.")
 
-    if blinding_key[
-        "pilot_id"
-    ].duplicated().any():
-
-        raise ValueError(
-            "Duplicate pilot IDs found in "
-            "the blinding key."
-        )
-
-    for _, row in (
-        blinding_key.iterrows()
-    ):
-
+    for _, row in blinding_key.iterrows():
         systems = {
-            row[
-                "decision_a_system"
-            ],
-            row[
-                "decision_b_system"
-            ],
+            row["decision_a_system"],
+            row["decision_b_system"],
         }
 
         if systems != {
             "generic_llm",
             "evidence_informed",
         }:
-
             raise ValueError(
-                "Invalid system assignment "
-                f"for {row['pilot_id']}."
+                f"Invalid system assignment for {row['pilot_id']}."
             )
 
 
-def _validate_clean_decision(
+def _validate_short_decision(
     decision: dict[str, Any],
 ) -> None:
-    """
-    Checks that treatment-specific output fields have not
-    leaked into the human-evaluation representation.
-    """
-
-    forbidden_top_level = {
-        "system",
-        "system_version",
-        "model",
-        "experiment_metadata",
-        "monitoring_indicators",
-    }
-
-    leaked_top_level = (
-        forbidden_top_level
-        & set(
-            decision.keys()
-        )
-    )
-
-    if leaked_top_level:
-
-        raise ValueError(
-            "System-identifying fields leaked into "
-            f"evaluation output: "
-            f"{sorted(leaked_top_level)}"
-        )
-
-    forbidden_priority_fields = {
-        "evidence_pattern",
-        "evidence_basis",
-        "positive_counterevidence",
-        "supporting_evidence",
-        "confidence",
-        "safety_relevance",
-        "requires_further_assessment",
-    }
-
-    for priority in decision.get(
+    allowed_top_level = {
+        "overall_risk",
         "priorities",
-        [],
-    ):
+    }
 
-        leaked_priority_fields = (
-            forbidden_priority_fields
-            & set(
-                priority.keys()
-            )
+    extra_top_level = set(decision.keys()) - allowed_top_level
+
+    if extra_top_level:
+        raise ValueError(
+            "Unexpected fields leaked into short evaluation output: "
+            f"{sorted(extra_top_level)}"
         )
 
-        if leaked_priority_fields:
+    for priority in decision.get("priorities", []):
+        allowed_priority_fields = {
+            "rank",
+            "area",
+            "recommendation",
+        }
 
+        extra_priority_fields = (
+            set(priority.keys())
+            - allowed_priority_fields
+        )
+
+        if extra_priority_fields:
             raise ValueError(
-                "Treatment-specific priority fields "
-                "leaked into evaluation output: "
-                f"{sorted(leaked_priority_fields)}"
+                "Unexpected priority fields leaked into short evaluation "
+                f"output: {sorted(extra_priority_fields)}"
             )
 
 
@@ -580,54 +305,29 @@ def build_human_evaluation_package(
     max_reviews: int = 20,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """
-    Builds the blinded human-evaluation package.
+    Build the blinded v3 human-evaluation package.
 
-    Human evaluation compares:
+    The original frozen Generic LLM and Evidence-Informed outputs are loaded
+    from experiment_dir. They are not regenerated.
 
-        Generic LLM
-        vs.
-        Evidence-Informed Agent
-
-    The Frequency Baseline is intentionally excluded from
-    the qualitative A/B evaluation because its output
-    structure is not directly comparable.
-
-    Returns
-    -------
-    evaluation_manifest:
-        Manifest containing the blinded evaluation cases.
-
-    blinding_key:
-        PRIVATE mapping between Decision A / Decision B and
-        the underlying systems.
+    A neutral customer-feedback summary is generated once per case from the
+    same frozen recent-review sample and is shared by both blinded decisions.
     """
 
-    experiment_dir = Path(
-        experiment_dir
-    )
-
-    output_dir = Path(
-        output_dir
-    )
+    experiment_dir = Path(experiment_dir)
+    output_dir = Path(output_dir)
 
     output_dir.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    blinded_cases_dir = (
-        output_dir
-        / "blinded_cases"
-    )
+    blinded_cases_dir = output_dir / "blinded_cases"
 
     blinded_cases_dir.mkdir(
         parents=True,
         exist_ok=True,
     )
-
-    # ------------------------------------------------------
-    # LOAD FROZEN PILOT MANIFEST
-    # ------------------------------------------------------
 
     pilot_manifest_path = (
         experiment_dir
@@ -635,24 +335,15 @@ def build_human_evaluation_package(
     )
 
     if not pilot_manifest_path.exists():
-
         raise FileNotFoundError(
             "pilot_manifest.csv not found at "
             f"{pilot_manifest_path}"
         )
 
-    pilot_manifest = pd.read_csv(
-        pilot_manifest_path
-    )
-
     pilot_manifest = (
-        pilot_manifest
-        .sort_values(
-            "pilot_id"
-        )
-        .reset_index(
-            drop=True
-        )
+        pd.read_csv(pilot_manifest_path)
+        .sort_values("pilot_id")
+        .reset_index(drop=True)
     )
 
     required_columns = {
@@ -662,236 +353,100 @@ def build_human_evaluation_package(
 
     missing_columns = (
         required_columns
-        - set(
-            pilot_manifest.columns
-        )
+        - set(pilot_manifest.columns)
     )
 
     if missing_columns:
-
         raise ValueError(
-            "pilot_manifest is missing required "
-            f"columns: {sorted(missing_columns)}"
+            "pilot_manifest is missing required columns: "
+            f"{sorted(missing_columns)}"
         )
 
     pilot_ids = (
-        pilot_manifest[
-            "pilot_id"
-        ]
+        pilot_manifest["pilot_id"]
         .astype(str)
         .tolist()
     )
 
-    # ------------------------------------------------------
-    # CREATE RANDOMIZED BLINDING KEY
-    # ------------------------------------------------------
-
-    blinding_key = (
-        _randomize_system_labels(
-            pilot_ids=pilot_ids,
-            random_seed=random_seed,
-        )
+    blinding_key = _randomize_system_labels(
+        pilot_ids=pilot_ids,
+        random_seed=random_seed,
     )
 
-    _validate_blinding_key(
-        blinding_key
-    )
+    _validate_blinding_key(blinding_key)
 
     evaluation_records = []
 
-    # ======================================================
-    # BUILD EACH BLINDED CASE
-    # ======================================================
+    for _, pilot_row in pilot_manifest.iterrows():
+        pilot_id = str(pilot_row["pilot_id"])
+        expected_case_id = str(pilot_row["case_id"])
 
-    for _, pilot_row in (
-        pilot_manifest.iterrows()
-    ):
-
-        pilot_id = str(
-            pilot_row[
-                "pilot_id"
-            ]
+        case_path = _find_single_json(
+            experiment_dir / "cases",
+            pilot_id,
         )
 
-        expected_case_id = str(
-            pilot_row[
-                "case_id"
-            ]
+        generic_path = _find_single_json(
+            experiment_dir / "generic_llm",
+            pilot_id,
         )
 
-        # --------------------------------------------------
-        # LOCATE FILES
-        # --------------------------------------------------
-
-        case_path = (
-            _find_single_json(
-                experiment_dir
-                / "cases",
-                pilot_id,
-            )
+        evidence_path = _find_single_json(
+            experiment_dir / "evidence_informed",
+            pilot_id,
         )
 
-        generic_path = (
-            _find_single_json(
-                experiment_dir
-                / "generic_llm",
-                pilot_id,
-            )
-        )
-
-        evidence_path = (
-            _find_single_json(
-                experiment_dir
-                / "evidence_informed",
-                pilot_id,
-            )
-        )
-
-        # --------------------------------------------------
-        # LOAD ORIGINAL FROZEN OUTPUTS
-        # --------------------------------------------------
-
-        case = _load_json(
-            case_path
-        )
-
-        generic = _load_json(
-            generic_path
-        )
-
-        evidence = _load_json(
-            evidence_path
-        )
-
-        # --------------------------------------------------
-        # CASE-ID CONSISTENCY
-        # --------------------------------------------------
+        case = _load_json(case_path)
+        generic = _load_json(generic_path)
+        evidence = _load_json(evidence_path)
 
         actual_case_id = (
             case
-            .get(
-                "case_metadata",
-                {},
-            )
-            .get(
-                "case_id"
-            )
+            .get("case_metadata", {})
+            .get("case_id")
         )
 
-        if (
-            actual_case_id
-            != expected_case_id
-        ):
-
+        if actual_case_id != expected_case_id:
             raise ValueError(
                 f"Case mismatch for {pilot_id}: "
-                f"{actual_case_id} != "
-                f"{expected_case_id}"
+                f"{actual_case_id} != {expected_case_id}"
             )
 
-        # --------------------------------------------------
-        # BUILD COMMON NEUTRAL CASE INFORMATION
-        # --------------------------------------------------
-
-        common_case = (
-            _build_common_case_information(
-                case=case,
-                max_reviews=max_reviews,
-            )
+        # One neutral common summary per case.
+        common_case = _build_common_case_information(
+            case=case,
+            max_reviews=max_reviews,
         )
 
-        # --------------------------------------------------
-        # CLEAN ORIGINAL DECISION OUTPUTS
-        # --------------------------------------------------
+        # Presentation-only shortening; original outputs stay frozen.
+        generic_short = _build_short_decision_output(generic)
+        evidence_short = _build_short_decision_output(evidence)
 
-        generic_clean = (
-            _clean_decision_output(
-                generic
-            )
-        )
-
-        evidence_clean = (
-            _clean_decision_output(
-                evidence
-            )
-        )
-
-        _validate_clean_decision(
-            generic_clean
-        )
-
-        _validate_clean_decision(
-            evidence_clean
-        )
+        _validate_short_decision(generic_short)
+        _validate_short_decision(evidence_short)
 
         system_outputs = {
-            "generic_llm": (
-                generic_clean
-            ),
-            "evidence_informed": (
-                evidence_clean
-            ),
+            "generic_llm": generic_short,
+            "evidence_informed": evidence_short,
         }
-
-        # --------------------------------------------------
-        # GET A/B MAPPING
-        # --------------------------------------------------
 
         mapping = (
             blinding_key[
-                blinding_key[
-                    "pilot_id"
-                ]
-                == pilot_id
+                blinding_key["pilot_id"] == pilot_id
             ]
             .iloc[0]
         )
 
-        system_a = (
-            mapping[
-                "decision_a_system"
-            ]
-        )
-
-        system_b = (
-            mapping[
-                "decision_b_system"
-            ]
-        )
-
-        # --------------------------------------------------
-        # BUILD BLINDED CASE
-        # --------------------------------------------------
+        system_a = mapping["decision_a_system"]
+        system_b = mapping["decision_b_system"]
 
         blinded_case = {
-            "evaluation_version": (
-                EVALUATION_VERSION
-            ),
-
-            "evaluation_case_id": (
-                pilot_id
-            ),
-
-            "case_information": (
-                common_case
-            ),
-
-            "decision_a": (
-                system_outputs[
-                    system_a
-                ]
-            ),
-
-            "decision_b": (
-                system_outputs[
-                    system_b
-                ]
-            ),
+            "evaluation_version": EVALUATION_VERSION,
+            "evaluation_case_id": pilot_id,
+            "case_information": common_case,
+            "decision_a": system_outputs[system_a],
+            "decision_b": system_outputs[system_b],
         }
-
-        # --------------------------------------------------
-        # SAVE BLINDED JSON
-        # --------------------------------------------------
 
         output_path = (
             blinded_cases_dir
@@ -902,7 +457,6 @@ def build_human_evaluation_package(
             "w",
             encoding="utf-8",
         ) as file:
-
             json.dump(
                 blinded_case,
                 file,
@@ -910,42 +464,24 @@ def build_human_evaluation_package(
                 indent=2,
             )
 
-        # --------------------------------------------------
-        # MANIFEST RECORD
-        # --------------------------------------------------
-
         evaluation_records.append(
             {
-                "evaluation_case_id": (
-                    pilot_id
-                ),
-
-                "case_id": (
-                    expected_case_id
-                ),
-
-                "stratum": (
-                    pilot_row.get(
-                        "stratum"
-                    )
-                ),
-
-                "blinded_file": (
-                    str(
-                        output_path
-                    )
+                "evaluation_case_id": pilot_id,
+                "case_id": expected_case_id,
+                "stratum": pilot_row.get("stratum"),
+                "blinded_file": str(output_path),
+                "written_reviews_in_summary_source": (
+                    common_case[
+                        "review_summary_metadata"
+                    ][
+                        "source_reviews_with_written_feedback"
+                    ]
                 ),
             }
         )
 
-    # ======================================================
-    # SAVE EVALUATION MANIFEST
-    # ======================================================
-
-    evaluation_manifest = (
-        pd.DataFrame(
-            evaluation_records
-        )
+    evaluation_manifest = pd.DataFrame(
+        evaluation_records
     )
 
     evaluation_manifest_path = (
@@ -958,10 +494,6 @@ def build_human_evaluation_package(
         index=False,
     )
 
-    # ======================================================
-    # SAVE PRIVATE BLINDING KEY
-    # ======================================================
-
     private_key_path = (
         output_dir
         / "PRIVATE_blinding_key.csv"
@@ -972,87 +504,45 @@ def build_human_evaluation_package(
         index=False,
     )
 
-    # ======================================================
-    # FINAL CHECKS
-    # ======================================================
-
-    if len(
-        evaluation_manifest
-    ) != len(
-        pilot_manifest
-    ):
-
+    if len(evaluation_manifest) != len(pilot_manifest):
         raise ValueError(
-            "Evaluation package does not contain "
-            "the same number of cases as the "
-            "pilot manifest."
+            "Evaluation package does not contain the same number of cases "
+            "as the pilot manifest."
         )
 
     print(
         "\n"
+        "==================================================\n"
+        "HUMAN EVALUATION PACKAGE CREATED\n"
         "=================================================="
     )
 
+    print(f"Evaluation version: {EVALUATION_VERSION}")
+    print(f"Cases: {len(evaluation_manifest)}")
     print(
-        "HUMAN EVALUATION PACKAGE CREATED"
+        "Review-summary source: up to "
+        f"{max_reviews} frozen recent reviews per case."
     )
 
-    print(
-        "=================================================="
-    )
-
-    print(
-        f"Evaluation version: "
-        f"{EVALUATION_VERSION}"
-    )
-
-    print(
-        f"Cases: "
-        f"{len(evaluation_manifest)}"
-    )
-
-    print(
-        f"Reviews shown per case: "
-        f"up to {max_reviews}"
-    )
-
-    print(
-        "\nDecision A assignment:"
-    )
-
+    print("\nDecision A assignment:")
     print(
         blinding_key[
             "decision_a_system"
-        ]
-        .value_counts()
+        ].value_counts()
     )
 
-    print(
-        "\nDecision B assignment:"
-    )
-
+    print("\nDecision B assignment:")
     print(
         blinding_key[
             "decision_b_system"
-        ]
-        .value_counts()
+        ].value_counts()
     )
 
-    print(
-        "\nBlinded cases saved to:"
-    )
+    print("\nBlinded cases saved to:")
+    print(blinded_cases_dir)
 
-    print(
-        blinded_cases_dir
-    )
-
-    print(
-        "\nPRIVATE key saved to:"
-    )
-
-    print(
-        private_key_path
-    )
+    print("\nPRIVATE key saved to:")
+    print(private_key_path)
 
     return (
         evaluation_manifest,
