@@ -9,11 +9,10 @@ from typing import Any
 
 import pandas as pd
 
-from review_summarizer import (
+from src.review_summarizer import (
     build_neutral_review_summary,
     shorten_recommendation,
 )
-
 
 # ==========================================================
 # CONFIGURATION
