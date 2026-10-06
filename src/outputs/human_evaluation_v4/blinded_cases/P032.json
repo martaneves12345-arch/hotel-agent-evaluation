@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P032",
+  "case_information": {
+    "case_id": "H83_20241021_L4",
+    "decision_week": "2024_W43",
+    "window_start": "2024-09-30",
+    "window_end": "2024-10-27",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 38.1069135574495,
+        "TAXA_OCUPACAO": 43.45238095238096,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 7.473684210526316
+      },
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 45.14589138374488,
+        "TAXA_OCUPACAO": 49.10714285714285,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.642857142857143
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 49.78699923708922,
+        "TAXA_OCUPACAO": 42.55952380952381,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 7.583333333333333
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 37.90165977128625,
+        "TAXA_OCUPACAO": 56.54761904761904,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.444444444444445
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised friendly, welcoming staff, recent modernization, cleanliness and good value for money, and some appreciated the balcony and proximity to Porto. Recurring negatives concerned limited or poor breakfast variety, noise or lack of soundproofing, and uncomfortable or dated bedding/firm mattresses. A few guests mentioned small rooms, dim room lighting, and parking being far from the entrance.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 9,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort & urgent maintenance (mattresses, noise, mould, clogged drains, smoke infiltration)",
+        "recommendation": "Immediately inspect all affected rooms for mould and ventilation issues."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast quality, variety and service (food & beverage)",
+        "recommendation": "Review the breakfast offerings and service times with F&B staff."
+      },
+      {
+        "rank": 3,
+        "area": "Guest-facing descriptions and expectation alignment (marketing & communications)",
+        "recommendation": "Review online descriptions, booking pages, and guest-facing communications to ensure accurate representation."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast quality & consistency",
+        "recommendation": "Standardize a slightly expanded continental breakfast offering."
+      },
+      {
+        "rank": 2,
+        "area": "Noise and soundproofing (traffic and neighbouring guests)",
+        "recommendation": "Conduct a noise audit to identify primary noise sources and worst-affected rooms."
+      },
+      {
+        "rank": 3,
+        "area": "Bedding and mattress comfort",
+        "recommendation": "Implement a schedule to assess mattress condition and plan phased mattress replacement."
+      }
+    ]
+  }
+}

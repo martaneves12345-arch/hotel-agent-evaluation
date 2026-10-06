@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P014",
+  "case_information": {
+    "case_id": "H121_20240826_L4",
+    "decision_week": "2024_W35",
+    "window_start": "2024-08-05",
+    "window_end": "2024-09-01",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W32",
+        "week_date": "2024-08-05",
+        "REVPAR_WEEK": 143.65893245614035,
+        "TAXA_OCUPACAO": 89.28571428571429,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.125
+      },
+      {
+        "WEEK_YEAR": "2024_W33",
+        "week_date": "2024-08-12",
+        "REVPAR_WEEK": 135.8945631465517,
+        "TAXA_OCUPACAO": 91.07142857142856,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.8
+      },
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 147.91321995192308,
+        "TAXA_OCUPACAO": 91.07142857142856,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 10.0
+      },
+      {
+        "WEEK_YEAR": "2024_W35",
+        "week_date": "2024-08-26",
+        "REVPAR_WEEK": 125.11263244680852,
+        "TAXA_OCUPACAO": 80.35714285714286,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the centrally located property, attentive and friendly staff, plentiful breakfast, cleanliness, and spacious, tastefully decorated rooms (several mention balconies and large bathrooms). A few guests reported minor issues—air conditioning, lack of wardrobe, pillow comfort, and an untidy outside/garden—each appearing as isolated comments rather than widespread complaints. Overall feedback combines consistent positives with occasional individual negatives.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 12,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial performance & guest sentiment trends",
+        "recommendation": "Initiate an immediate managerial review to diagnose recent declines in performance."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort — air conditioning",
+        "recommendation": "Perform a targeted operational check of room air conditioning units, starting with the identified room."
+      },
+      {
+        "rank": 3,
+        "area": "Outside area / garden condition",
+        "recommendation": "Assign housekeeping or grounds staff to inspect the outside/garden area."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue & demand management",
+        "recommendation": "Review pricing and availability for the coming weeks."
+      },
+      {
+        "rank": 2,
+        "area": "HVAC / air conditioning",
+        "recommendation": "Carry out an immediate technical inspection of all rooms' air conditioning units."
+      },
+      {
+        "rank": 3,
+        "area": "Room amenities — storage and bedding",
+        "recommendation": "Audit room furniture and bedding in all eight rooms."
+      }
+    ]
+  }
+}

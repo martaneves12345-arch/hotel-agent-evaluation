@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P030",
+  "case_information": {
+    "case_id": "H556_20240603_L4",
+    "decision_week": "2024_W23",
+    "window_start": "2024-05-13",
+    "window_end": "2024-06-09",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W20",
+        "week_date": "2024-05-13",
+        "REVPAR_WEEK": 67.98756893939395,
+        "TAXA_OCUPACAO": 68.34415584415584,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W21",
+        "week_date": "2024-05-20",
+        "REVPAR_WEEK": 83.22195900927993,
+        "TAXA_OCUPACAO": 86.03896103896103,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.416666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 90.95975427693767,
+        "TAXA_OCUPACAO": 85.87662337662337,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 105.0564154958678,
+        "TAXA_OCUPACAO": 80.68181818181817,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 9.11111111111111
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised staff (including Tatiana), spacious comfortable rooms, the pool and other facilities, breakfast variety, and free parking. A few reviewers reported issues such as Wi‑Fi disconnects, damaged beach/pool towels and limited vegetarian options at the buffet; isolated comments mentioned a cold pool and the absence of an indoor pool.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 6,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Spa and pool",
+        "recommendation": "Initiate an immediate operational and facilities check of current operations and infrastructure."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast / Restaurant (evening buffet & menu variety)",
+        "recommendation": "Conduct a short-term operational and culinary review of dinner service and buffet quality."
+      },
+      {
+        "rank": 3,
+        "area": "Wi‑Fi and technology (connectivity)",
+        "recommendation": "Perform a targeted IT and coverage check of hotel Wi‑Fi to locate reported disconnect areas."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Wi‑Fi connectivity",
+        "recommendation": "Perform an immediate technical check of the wireless network's health and connectivity."
+      },
+      {
+        "rank": 2,
+        "area": "Pool experience (temperature and towel quality)",
+        "recommendation": "Conduct a maintenance check on the pool heating system and temperature controls."
+      },
+      {
+        "rank": 3,
+        "area": "Food / dinner buffet variety (vegetarian options)",
+        "recommendation": "Coordinate with culinary team to expand clearly labelled vegetarian choices at the dinner buffet."
+      }
+    ]
+  }
+}

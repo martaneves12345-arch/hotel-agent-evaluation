@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P021",
+  "case_information": {
+    "case_id": "H20_20240819_L4",
+    "decision_week": "2024_W34",
+    "window_start": "2024-07-29",
+    "window_end": "2024-08-25",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 83.54939211446046,
+        "TAXA_OCUPACAO": 105.10204081632652,
+        "N_REVIEWS": 29.0,
+        "AVG_RATING": 7.206896551724138
+      },
+      {
+        "WEEK_YEAR": "2024_W32",
+        "week_date": "2024-08-05",
+        "REVPAR_WEEK": 103.98378451548452,
+        "TAXA_OCUPACAO": 116.3265306122449,
+        "N_REVIEWS": 28.0,
+        "AVG_RATING": 7.535714285714286
+      },
+      {
+        "WEEK_YEAR": "2024_W33",
+        "week_date": "2024-08-12",
+        "REVPAR_WEEK": 119.82279701166183,
+        "TAXA_OCUPACAO": 115.64625850340136,
+        "N_REVIEWS": 38.0,
+        "AVG_RATING": 7.7105263157894735
+      },
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 100.32208343288536,
+        "TAXA_OCUPACAO": 112.24489795918366,
+        "N_REVIEWS": 37.0,
+        "AVG_RATING": 7.675675675675675
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the central location and the staff’s friendliness and helpfulness; several noted breakfast as satisfactory. Recurring criticisms include dated or small rooms, uncomfortable/small beds and some bathroom issues (slippery tubs, a non‑working flush, dated fixtures), limited renovated rooms on the top floor, and lack of an elevator with stairs. A few isolated comments mentioned a sagging sofa mattress, dilapidated inner courtyard view, and late‑night guest noise.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 10,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition & safety",
+        "recommendation": "Conduct an immediate safety assessment of bathroom components for hazardous defects."
+      },
+      {
+        "rank": 2,
+        "area": "Accessibility, stairs and elevator safety/clarity",
+        "recommendation": "Immediately review guest-facing information about building layout, floors, and elevator availability."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort (beds, soundproofing, air conditioning, floor condition)",
+        "recommendation": "Conduct a room-level survey to identify rooms with worst bed comfort, floor damage, AC noise."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Property condition & bathrooms",
+        "recommendation": "Immediately schedule a safety-focused inspection of all rooms to identify unstable fixtures and leaks."
+      },
+      {
+        "rank": 2,
+        "area": "Beds, mattresses and room furnishings",
+        "recommendation": "Audit mattress condition in all rooms and rank mattresses by wear level."
+      },
+      {
+        "rank": 3,
+        "area": "Accessibility & vertical circulation (stairs/elevator)",
+        "recommendation": "Immediately ensure front desk offers lower-floor rooms to guests with mobility needs."
+      }
+    ]
+  }
+}

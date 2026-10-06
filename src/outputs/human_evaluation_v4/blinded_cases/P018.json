@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P018",
+  "case_information": {
+    "case_id": "H324_20240401_L4",
+    "decision_week": "2024_W14",
+    "window_start": "2024-03-11",
+    "window_end": "2024-04-07",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 79.81567947622644,
+        "TAXA_OCUPACAO": 84.23180592991913,
+        "N_REVIEWS": 39.0,
+        "AVG_RATING": 8.58974358974359
+      },
+      {
+        "WEEK_YEAR": "2024_W12",
+        "week_date": "2024-03-18",
+        "REVPAR_WEEK": 60.695732575951375,
+        "TAXA_OCUPACAO": 79.24528301886792,
+        "N_REVIEWS": 37.0,
+        "AVG_RATING": 8.513513513513514
+      },
+      {
+        "WEEK_YEAR": "2024_W13",
+        "week_date": "2024-03-25",
+        "REVPAR_WEEK": 73.46260834707746,
+        "TAXA_OCUPACAO": 76.95417789757413,
+        "N_REVIEWS": 60.0,
+        "AVG_RATING": 8.483333333333333
+      },
+      {
+        "WEEK_YEAR": "2024_W14",
+        "week_date": "2024-04-01",
+        "REVPAR_WEEK": 66.11584334073252,
+        "TAXA_OCUPACAO": 71.02425876010781,
+        "N_REVIEWS": 36.0,
+        "AVG_RATING": 8.722222222222221
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's excellent location, friendly and helpful staff, cleanliness, comfortable beds and attractive decor; several reviewers also complimented the breakfast. Negative comments were less frequent: some guests reported nighttime noise from the nearby metro, a few mentioned small room features such as tight showers or generally smaller rooms, and individual reviewers noted the A/C cutting out overnight and missing toiletries or breakfast not being included.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 9,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition / critical utilities",
+        "recommendation": "Immediately verify recent or recurring water-supply interruptions and urgently inspect plumbing and hot-water systems."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (HVAC, noise, bed, curtains)",
+        "recommendation": "Run an operational check and troubleshooting protocol for in-room HVAC controls."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast operations and price–value alignment",
+        "recommendation": "Review clarity of booking communications about whether breakfast is included and its pricing."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Guest comfort: nighttime noise & room climate control",
+        "recommendation": "Immediately brief front desk to proactively offer quiet room allocations where possible at check-in."
+      },
+      {
+        "rank": 2,
+        "area": "Consistency of in‑room toiletries and basic supplies",
+        "recommendation": "Institute or verify a standardized housekeeping room-setup checklist including toiletries, with supervisory spot checks."
+      },
+      {
+        "rank": 3,
+        "area": "Room product variability (size of rooms / small shower boxes)",
+        "recommendation": "Update website and OTA room descriptions and photos to clearly distinguish smaller room types."
+      }
+    ]
+  }
+}

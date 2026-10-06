@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P004",
+  "case_information": {
+    "case_id": "H220_20240722_L4",
+    "decision_week": "2024_W30",
+    "window_start": "2024-07-01",
+    "window_end": "2024-07-28",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W27",
+        "week_date": "2024-07-01",
+        "REVPAR_WEEK": 57.966800245700256,
+        "TAXA_OCUPACAO": 92.2077922077922,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.11111111111111
+      },
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 54.36069518716577,
+        "TAXA_OCUPACAO": 87.01298701298701,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 6.0
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 48.83862599431818,
+        "TAXA_OCUPACAO": 79.22077922077922,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 7.5
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 54.99613610013175,
+        "TAXA_OCUPACAO": 88.31168831168831,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 7.5
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's central location; several also noted good air conditioning. Multiple reviews reported noise and poor soundproofing. Feedback on staff varied: some found staff friendly while others reported rudeness, absence, and a room/refund dispute. Cleanliness and facilities were mixed—some praised clean bathrooms, while others mentioned dirty shared showers, broken appliances, aging or small/stuffy rooms, and unclear late‑check‑in charges.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 15,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shared bathrooms) ",
+        "recommendation": "Verify cleanliness and availability of supplies in all shared bathrooms."
+      },
+      {
+        "rank": 2,
+        "area": "Staff communication, booking accuracy and late check-in/fees transparency",
+        "recommendation": "Review front-desk procedures and written communications concerning reservations, refunds, and late-check-in fees."
+      },
+      {
+        "rank": 3,
+        "area": "Night-time noise and soundproofing",
+        "recommendation": "Schedule an inspection of windows and doors to determine if repairs or replacement are needed."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Guest safety & security / front-desk presence",
+        "recommendation": "Ensure 24/7 or extended front-desk/onsite staff coverage or a reliable on-call system."
+      },
+      {
+        "rank": 2,
+        "area": "Staff service consistency & complaint/charges handling",
+        "recommendation": "Standardize written procedures for booking discrepancies and late check-in fees."
+      },
+      {
+        "rank": 3,
+        "area": "Room and communal area maintenance",
+        "recommendation": "Conduct an urgent inventory and functional check of all in-room and communal appliances."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P028",
+  "case_information": {
+    "case_id": "H414_20240513_L4",
+    "decision_week": "2024_W20",
+    "window_start": "2024-04-22",
+    "window_end": "2024-05-19",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 72.21875562213255,
+        "TAXA_OCUPACAO": 82.27712137486574,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.428571428571429
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 87.19108173892717,
+        "TAXA_OCUPACAO": 81.47153598281417,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 8.210526315789474
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 88.66007113293746,
+        "TAXA_OCUPACAO": 74.16756176154672,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 7.153846153846154
+      },
+      {
+        "WEEK_YEAR": "2024_W20",
+        "week_date": "2024-05-13",
+        "REVPAR_WEEK": 90.9771229500882,
+        "TAXA_OCUPACAO": 86.4124597207304,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.714285714285714
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised the hotel's location near the beach and marina, generous breakfast offerings, pool and outdoor areas, comfortable beds and generally clean rooms, and friendly/helpful staff. Isolated or less frequent criticisms included dated infrastructure and noise, occasional unpleasant room odours, a problematic spa visit, limited plug sockets, coffee-machine jams causing queues, and some uncomfortable sun loungers.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 8,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room odour / bathroom hygiene (potential plumbing issue)",
+        "recommendation": "Immediately inspect and diagnose the source(s) of room odour and bathroom hygiene issues."
+      },
+      {
+        "rank": 2,
+        "area": "Spa & pool operations, safety and communication",
+        "recommendation": "Immediately audit the spa's operational status and its supervision procedures without delay."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast service (coffee machine jams, queues, and some taste complaints)",
+        "recommendation": "Conduct a short-term operational review of breakfast service to assess current issues."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "critical",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room sewer odour / HVAC & plumbing",
+        "recommendation": "Log and escalate to engineering/plumbing contractor to inspect affected rooms, waste/vent stacks and HVAC."
+      },
+      {
+        "rank": 2,
+        "area": "Spa operations, maintenance and guest safety",
+        "recommendation": "Immediately audit spa plant systems and suspend guest access if unsafe."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast beverage flow & equipment reliability",
+        "recommendation": "Inspect and service or replace malfunctioning coffee machines, as appropriate."
+      }
+    ]
+  }
+}

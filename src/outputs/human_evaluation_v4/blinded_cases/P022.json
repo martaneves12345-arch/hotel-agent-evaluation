@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P022",
+  "case_information": {
+    "case_id": "H65_20240819_L4",
+    "decision_week": "2024_W34",
+    "window_start": "2024-07-29",
+    "window_end": "2024-08-25",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 41.755866355202826,
+        "TAXA_OCUPACAO": 47.01986754966888,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 5.333333333333333
+      },
+      {
+        "WEEK_YEAR": "2024_W32",
+        "week_date": "2024-08-05",
+        "REVPAR_WEEK": 90.9319640998164,
+        "TAXA_OCUPACAO": 88.74172185430463,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.909090909090909
+      },
+      {
+        "WEEK_YEAR": "2024_W33",
+        "week_date": "2024-08-12",
+        "REVPAR_WEEK": 87.307824001753,
+        "TAXA_OCUPACAO": 92.80983916745508,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 7.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 84.90560157431818,
+        "TAXA_OCUPACAO": 92.80983916745508,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.272727272727272
+      }
+    ],
+    "customer_feedback_summary": "Guests often praised the hotel's outdoor spaces, pools, family atmosphere and entertainment, and many noted comfortable beds and clean shared areas. Recurring negatives included that rooms are outdated and that buffet/meal options are limited or repetitive. Pool cleanliness and food quality drew mixed comments; a few isolated reviews mentioned poor Wi‑Fi, a rude staff member, lack of outlets and uncomfortable pillows.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 15,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Pool water quality & maintenance",
+        "recommendation": "Immediately test pool water chemistry per routine safety and quality protocols."
+      },
+      {
+        "rank": 2,
+        "area": "Food quality, buffet variety & service capacity",
+        "recommendation": "Conduct a rapid operational review of food service to assess buffet variety and service capacity."
+      },
+      {
+        "rank": 3,
+        "area": "Room condition, furnishings and in-room amenities",
+        "recommendation": "Commission a room-condition audit to identify and rank priority items."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast / Food & Beverage (All‑inclusive buffet)",
+        "recommendation": "Immediately trigger a food‑safety and operational review of kitchen and buffet practices."
+      },
+      {
+        "rank": 2,
+        "area": "Price–value and all-inclusive value positioning",
+        "recommendation": "Review pricing communication and all‑inclusive inclusions to assess alignment with guest expectations."
+      },
+      {
+        "rank": 3,
+        "area": "Spa / Pool water quality, pool-bar hours and rule enforcement",
+        "recommendation": "Perform an immediate pool-water quality check and maintenance inspection now."
+      }
+    ]
+  }
+}

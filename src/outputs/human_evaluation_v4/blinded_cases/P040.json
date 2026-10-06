@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P040",
+  "case_information": {
+    "case_id": "H533_20240722_L4",
+    "decision_week": "2024_W30",
+    "window_start": "2024-07-01",
+    "window_end": "2024-07-28",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W27",
+        "week_date": "2024-07-01",
+        "REVPAR_WEEK": 57.37480931537599,
+        "TAXA_OCUPACAO": 87.3015873015873,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 60.51263596986819,
+        "TAXA_OCUPACAO": 93.12169312169311,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 9.11111111111111
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 135.2311207245497,
+        "TAXA_OCUPACAO": 96.82539682539682,
+        "N_REVIEWS": 15.0,
+        "AVG_RATING": 8.133333333333333
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 58.25049168819984,
+        "TAXA_OCUPACAO": 90.47619047619048,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 8.578947368421053
+      }
+    ],
+    "customer_feedback_summary": "Guests repeatedly praised the hotel's central location, renovated/modern rooms, cleanliness, comfortable beds and friendly, helpful staff. Recurring negatives included noise from the street or staff and mixed comments about breakfast (not included, limited options, desire for fresh orange juice). Isolated issues mentioned by individual guests included missed room cleaning, lack of a fridge or blinds, some dirt on the floor, water pressure and shower-screen splash.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 13,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "recommendation": "Initiate an immediate inspection of affected bathrooms to determine necessary repairs or remediation."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast / price–value expectations",
+        "recommendation": "Review how breakfast is positioned and communicated on booking channels."
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping process & staff noise (quiet mornings / DND adherence)",
+        "recommendation": "Review housekeeping schedules and staff areas of operation to minimize early-morning noise."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Housekeeping consistency and staff noise during guest rest periods",
+        "recommendation": "Conduct an immediate audit of housekeeping shift schedules and room-cleaning logs."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast value and rate/package communication",
+        "recommendation": "Review breakfast positioning in booking descriptions and rate plans to clarify inclusion and price."
+      },
+      {
+        "rank": 3,
+        "area": "Noise and sound insulation for street-facing rooms",
+        "recommendation": "Assess feasibility and cost of soundproofing measures for street-facing rooms."
+      }
+    ]
+  }
+}

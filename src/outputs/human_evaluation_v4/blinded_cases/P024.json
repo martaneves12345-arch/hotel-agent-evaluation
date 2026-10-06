@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P024",
+  "case_information": {
+    "case_id": "H131_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 81.89365110083992,
+        "TAXA_OCUPACAO": 88.97243107769424,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 45.74428638179607,
+        "TAXA_OCUPACAO": 73.1829573934837,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.642857142857143
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 78.45733628808864,
+        "TAXA_OCUPACAO": 74.18546365914787,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.428571428571429
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 98.09983581222676,
+        "TAXA_OCUPACAO": 68.92230576441104,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 7.833333333333333
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's scenery, ocean views, convenient location, breakfast/restaurant and, in some reports, friendly staff and clean, comfortable rooms. Multiple reviews mentioned the wellness area/jacuzzi or top-floor facilities being closed or not working. Other comments included mixed staff interactions (some kind, one report of reception attitude and delayed check‑in), a cleanliness complaint, limited toiletries, lack of food at a late arrival, and one guest noting poor weather.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 8,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front-desk service & check-in process",
+        "recommendation": "Run immediate refresher training for front-desk staff on service standards."
+      },
+      {
+        "rank": 2,
+        "area": "Wellness / spa & top-floor facilities functioning",
+        "recommendation": "Conduct an immediate technical inspection of the wellness area and top-floor facilities to diagnose faults."
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping / cleanliness",
+        "recommendation": "Perform an immediate housekeeping audit (spot checks) of recently departed rooms and common areas."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Spa and pool",
+        "recommendation": "Inspect the jacuzzi and associated wellness equipment to confirm functionality and identify required maintenance."
+      },
+      {
+        "rank": 2,
+        "area": "Staff and service (front desk communication & attitude)",
+        "recommendation": "Review front-desk check-in procedures and service recovery expectations, focusing on communication and delay handling."
+      },
+      {
+        "rank": 3,
+        "area": "Cleanliness and housekeeping (including toiletries replenishment)",
+        "recommendation": "Audit housekeeping checklists and toiletries replenishment policy and their execution."
+      }
+    ]
+  }
+}

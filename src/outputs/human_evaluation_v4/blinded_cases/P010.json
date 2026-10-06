@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P010",
+  "case_information": {
+    "case_id": "H468_20240909_L4",
+    "decision_week": "2024_W37",
+    "window_start": "2024-08-19",
+    "window_end": "2024-09-15",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W34",
+        "week_date": "2024-08-19",
+        "REVPAR_WEEK": 156.63492420424402,
+        "TAXA_OCUPACAO": 89.65517241379311,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 8.5
+      },
+      {
+        "WEEK_YEAR": "2024_W35",
+        "week_date": "2024-08-26",
+        "REVPAR_WEEK": 108.8831814868428,
+        "TAXA_OCUPACAO": 82.14285714285714,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 102.56098450328408,
+        "TAXA_OCUPACAO": 93.59605911330048,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 107.87513776418244,
+        "TAXA_OCUPACAO": 91.6256157635468,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 7.818181818181818
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's location, sea and cliff views, gardens and breakfast, and some highlighted friendly staff and spacious accommodations with private outdoor areas. Several reviewers described issues with general maintenance and need for renovation, aging suites/kitchenettes and bedding, pool shortcomings (unclean, unheated or crowded), shower problems (cold or bathtub-shower) and worn sunbeds; opinions on room cleanliness and value for money were mixed.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 12,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room and property maintenance / refurbishment",
+        "recommendation": "Run a room-condition audit to identify the highest-impact defects across guest rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Pool & outdoor-area upkeep and guest experience",
+        "recommendation": "Establish and document a daily pool-cleaning and maintenance schedule."
+      },
+      {
+        "rank": 3,
+        "area": "Hot-water and bathroom functionality",
+        "recommendation": "Dispatch maintenance technicians to immediately inspect hot-water systems and affected rooms."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition / hot water and sanitary maintenance",
+        "recommendation": "Initiate an immediate technical inspection of hot-water supply systems in affected rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Price–value perception",
+        "recommendation": "Review current pricing and value positioning relative to the hotel's condition and amenities."
+      },
+      {
+        "rank": 3,
+        "area": "Room condition and grounds (mattresses, dated furnishings, garden maintenance)",
+        "recommendation": "Commission a systematic condition assessment of a representative sample of rooms, bedding, equipment and grounds."
+      }
+    ]
+  }
+}

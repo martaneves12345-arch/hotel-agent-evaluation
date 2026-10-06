@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P005",
+  "case_information": {
+    "case_id": "H223_20240415_L4",
+    "decision_week": "2024_W16",
+    "window_start": "2024-03-25",
+    "window_end": "2024-04-21",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W13",
+        "week_date": "2024-03-25",
+        "REVPAR_WEEK": 91.25128531144782,
+        "TAXA_OCUPACAO": 94.64285714285714,
+        "N_REVIEWS": 26.0,
+        "AVG_RATING": 9.038461538461538
+      },
+      {
+        "WEEK_YEAR": "2024_W14",
+        "week_date": "2024-04-01",
+        "REVPAR_WEEK": 99.90227660934744,
+        "TAXA_OCUPACAO": 96.42857142857144,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W15",
+        "week_date": "2024-04-08",
+        "REVPAR_WEEK": 89.48870116120219,
+        "TAXA_OCUPACAO": 95.83333333333334,
+        "N_REVIEWS": 25.0,
+        "AVG_RATING": 9.36
+      },
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 83.34363757102273,
+        "TAXA_OCUPACAO": 87.5,
+        "N_REVIEWS": 23.0,
+        "AVG_RATING": 9.478260869565217
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's central location, friendly and helpful staff, and comfortable, clean rooms with good beds; several reviews also commended breakfast variety and easy parking. Some guests highlighted the rooftop bar and strong local recommendations. A few reviewers noted downsides: one found breakfast unremarkable, others mentioned slow check-in and absence of an on-site café/restaurant. Most comments were positive overall.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 10,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial performance / Occupancy",
+        "recommendation": "Run an immediate short diagnostic of distribution and pricing across channels and availability."
+      },
+      {
+        "rank": 2,
+        "area": "Food & Beverage offering",
+        "recommendation": "Conduct a feasibility assessment of costs, space, and licensing for basic on-site food service."
+      },
+      {
+        "rank": 3,
+        "area": "Front desk operations / Check-in process",
+        "recommendation": "Measure current average check-in time and peak arrival patterns."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Parking",
+        "recommendation": "Review and clarify the property's parking access policy and guest communications."
+      },
+      {
+        "rank": 2,
+        "area": "Staff & check-in process",
+        "recommendation": "Review front‑desk staffing patterns and check‑in process to identify needed operational fixes."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast / F&B expectation (quality & variety)",
+        "recommendation": "Review the breakfast offering relative to guest expectations to determine alignment."
+      }
+    ]
+  }
+}

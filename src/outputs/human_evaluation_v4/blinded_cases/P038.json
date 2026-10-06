@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P038",
+  "case_information": {
+    "case_id": "H430_20240226_L4",
+    "decision_week": "2024_W09",
+    "window_start": "2024-02-05",
+    "window_end": "2024-03-03",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W06",
+        "week_date": "2024-02-05",
+        "REVPAR_WEEK": 97.69543304705884,
+        "TAXA_OCUPACAO": 97.42857142857144,
+        "N_REVIEWS": 26.0,
+        "AVG_RATING": 8.538461538461538
+      },
+      {
+        "WEEK_YEAR": "2024_W07",
+        "week_date": "2024-02-12",
+        "REVPAR_WEEK": 113.86336958235292,
+        "TAXA_OCUPACAO": 97.14285714285714,
+        "N_REVIEWS": 36.0,
+        "AVG_RATING": 8.972222222222221
+      },
+      {
+        "WEEK_YEAR": "2024_W08",
+        "week_date": "2024-02-19",
+        "REVPAR_WEEK": 116.1804440466472,
+        "TAXA_OCUPACAO": 98.28571428571428,
+        "N_REVIEWS": 34.0,
+        "AVG_RATING": 8.647058823529411
+      },
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 118.99535653602304,
+        "TAXA_OCUPACAO": 99.14285714285714,
+        "N_REVIEWS": 31.0,
+        "AVG_RATING": 8.741935483870968
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's central location, friendly staff, clean comfortable rooms and comprehensive breakfast offerings; several reviews also noted quiet, well-insulated rooms and good amenities (comfortable beds, electric blinds, toiletries). A few guests reported negative or mixed experiences, including isolated comments about unfriendly or less friendly reception staff, afternoon housekeeping delays, traffic noise for street-facing rooms, and limited fresh orange juice/coffee options.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 14,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front‑desk / guest service consistency",
+        "recommendation": "Immediately conduct a review of front‑desk procedures and guest‑interaction standards."
+      },
+      {
+        "rank": 2,
+        "area": "Housekeeping operations (timing)",
+        "recommendation": "Audit housekeeping schedules and room servicing workflow to identify causes of late service."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast offering / beverage quality",
+        "recommendation": "Review breakfast beverage options to assess current offerings and potential improvements."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "recommendation": "Order an immediate safety-focused inspection of bathroom fixtures and plumbing."
+      },
+      {
+        "rank": 2,
+        "area": "Operational readiness & disruptive events (power outages, construction noise)",
+        "recommendation": "Immediately review on-site emergency and off-hours staffing procedures for disruptive events."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast experience (quality & consistency)",
+        "recommendation": "Conduct a focused operational review of breakfast service to assess current operations and issues."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P002",
+  "case_information": {
+    "case_id": "H123_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 190.09182590753696,
+        "TAXA_OCUPACAO": 91.98790627362057,
+        "N_REVIEWS": 26.0,
+        "AVG_RATING": 8.423076923076923
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 181.48040235099936,
+        "TAXA_OCUPACAO": 92.51700680272108,
+        "N_REVIEWS": 41.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 172.4554384856508,
+        "TAXA_OCUPACAO": 90.17384731670444,
+        "N_REVIEWS": 38.0,
+        "AVG_RATING": 8.868421052631579
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 156.22327817999445,
+        "TAXA_OCUPACAO": 88.58654572940287,
+        "N_REVIEWS": 25.0,
+        "AVG_RATING": 8.68
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the resort’s location near the beach, spacious apartments, pools and welcoming staff, and many noted good breakfast and poolside food. Recurring negatives included maintenance and room wear (slow-to-warm water, defective/flushing toilets, occasional broken fixtures) and mixed views on buffet quality. Some guests reported accessibility and wayfinding issues, limited indoor pool seating and underwhelming roof-terrace amenities; these latter points were less common.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 14,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Plumbing, bathroom hygiene and water reliability",
+        "recommendation": "Initiate immediate maintenance and safety triage across affected units to address plumbing and hygiene issues."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering: timing, value and quality",
+        "recommendation": "Review and assess the breakfast service model and positioning relative to guest needs."
+      },
+      {
+        "rank": 3,
+        "area": "Booking/communication and room-cleaning/access transparency",
+        "recommendation": "Review booking and pre-arrival information and guest-assistance processes for clarity."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Maintenance & building systems (plumbing, locks, hot water)",
+        "recommendation": "Initiate an immediate engineering audit of plumbing, hot-water systems, and electronic locks."
+      },
+      {
+        "rank": 2,
+        "area": "Housekeeping & in-room amenities",
+        "recommendation": "Review and reinforce housekeeping standards and checklists, including in-room restocking procedures."
+      },
+      {
+        "rank": 3,
+        "area": "Guest mobility & wayfinding (site navigation, luggage assistance)",
+        "recommendation": "Implement a policy offering luggage assistance and visible golf-cart transport at check-in."
+      }
+    ]
+  }
+}

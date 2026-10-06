@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P039",
+  "case_information": {
+    "case_id": "H436_20240429_L4",
+    "decision_week": "2024_W18",
+    "window_start": "2024-04-08",
+    "window_end": "2024-05-05",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W15",
+        "week_date": "2024-04-08",
+        "REVPAR_WEEK": 96.09938101449276,
+        "TAXA_OCUPACAO": 98.57142857142858,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.666666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 89.88946449275363,
+        "TAXA_OCUPACAO": 98.57142857142858,
+        "N_REVIEWS": 18.0,
+        "AVG_RATING": 8.777777777777779
+      },
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 94.0217823188406,
+        "TAXA_OCUPACAO": 98.57142857142858,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 8.5
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 101.83907826086956,
+        "TAXA_OCUPACAO": 98.57142857142858,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 8.461538461538462
+      }
+    ],
+    "customer_feedback_summary": "The reviews repeatedly praise the property's central location, cleanliness and modern in-room amenities (coffee machine, microwave, fridge). Recurring negatives include the absence of an on-site reception and inability to store luggage after checkout, and mixed feedback about breakfast—often served offsite with opinions ranging from extensive/superb to poor value. Bed comfort and room views drew mixed comments; a few isolated remarks mentioned staff responsiveness, the exterior and a small child's bed.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 16,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front‑desk / Guest services (reception, staff availability, luggage storage, late check-out)",
+        "recommendation": "Implement an immediate on‑call staffing and contact procedure for guest arrivals and check‑ins."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast arrangement & quality",
+        "recommendation": "Conduct a rapid review of the current breakfast partner agreement to ensure quality and value."
+      },
+      {
+        "rank": 3,
+        "area": "Pre‑stay and on‑property communication / listing accuracy",
+        "recommendation": "Update all OTA and direct-booking descriptions and pre-arrival emails to explicitly state operational details."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort",
+        "recommendation": "Conduct a targeted assessment of sleeping surfaces and in-room ergonomics."
+      },
+      {
+        "rank": 2,
+        "area": "Bathroom condition",
+        "recommendation": "Perform an immediate maintenance inspection of plumbing and drain systems in affected rooms."
+      },
+      {
+        "rank": 3,
+        "area": "Staff and communication (reception & check-out expectations)",
+        "recommendation": "Immediately update public-facing channels to clearly state no staffed reception and clarify breakfast arrangements."
+      }
+    ]
+  }
+}

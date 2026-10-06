@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P035",
+  "case_information": {
+    "case_id": "H364_20240520_L4",
+    "decision_week": "2024_W21",
+    "window_start": "2024-04-29",
+    "window_end": "2024-05-26",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 227.83445141895143,
+        "TAXA_OCUPACAO": 81.48148148148148,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.833333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 225.4771228685061,
+        "TAXA_OCUPACAO": 78.83597883597884,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.857142857142858
+      },
+      {
+        "WEEK_YEAR": "2024_W20",
+        "week_date": "2024-05-13",
+        "REVPAR_WEEK": 244.59220766731647,
+        "TAXA_OCUPACAO": 90.47619047619048,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.166666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W21",
+        "week_date": "2024-05-20",
+        "REVPAR_WEEK": 232.47849221380469,
+        "TAXA_OCUPACAO": 93.12169312169311,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.2
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's sea-front location, beach access, views, cleanliness, friendly/professional staff and breakfast quality/views. Multiple reviews also noted noise from the lobby/entrance and limited soundproofing, and some guests reported restaurant availability/reservation problems. Isolated comments mentioned Wi‑Fi difficulties, lack of Portuguese TV channels, pricing concerns, and appreciated gestures like included minibar or surprise birthday treats.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 12,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Food & Beverage operations — restaurant availability and reservation policy",
+        "recommendation": "Immediately enforce a clear internal policy prioritizing communication to in-house guests."
+      },
+      {
+        "rank": 2,
+        "area": "Room soundproofing & door function (guest comfort and safety)",
+        "recommendation": "Conduct an immediate check of reported rooms and public-space doors."
+      },
+      {
+        "rank": 3,
+        "area": "In‑room environment — lighting and visibility of view/terrace",
+        "recommendation": "Conduct a sample room walkthrough audit to evaluate natural light, window treatments and interior lighting."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room door security & soundproofing (room comfort / access)",
+        "recommendation": "Immediately inspect and verify the door-closing mechanisms for affected room(s)."
+      },
+      {
+        "rank": 2,
+        "area": "Wi‑Fi and in‑room TV channels (technology)",
+        "recommendation": "Carry out a short-term technical and service audit of Wi‑Fi performance and in‑room TV channels."
+      },
+      {
+        "rank": 3,
+        "area": "Restaurant availability & guest communication (restaurant and bar)",
+        "recommendation": "Review and clarify the restaurant reservation policy for hotel guests."
+      }
+    ]
+  }
+}

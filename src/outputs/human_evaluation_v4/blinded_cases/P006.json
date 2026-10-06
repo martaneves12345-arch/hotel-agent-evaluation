@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P006",
+  "case_information": {
+    "case_id": "H225_20241104_L4",
+    "decision_week": "2024_W45",
+    "window_start": "2024-10-14",
+    "window_end": "2024-11-10",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 15.11756499368687,
+        "TAXA_OCUPACAO": 34.523809523809526,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 7.6
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 13.167926587301586,
+        "TAXA_OCUPACAO": 32.142857142857146,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 8.5
+      },
+      {
+        "WEEK_YEAR": "2024_W44",
+        "week_date": "2024-10-28",
+        "REVPAR_WEEK": 13.917971232876711,
+        "TAXA_OCUPACAO": 26.190476190476197,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.2
+      },
+      {
+        "WEEK_YEAR": "2024_W45",
+        "week_date": "2024-11-04",
+        "REVPAR_WEEK": 10.351889749608764,
+        "TAXA_OCUPACAO": 24.20634920634921,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 8.181818181818182
+      }
+    ],
+    "customer_feedback_summary": "Several guests praised the friendly, helpful staff, cleanliness, and perceived good value for money, with many noting a simple but satisfactory breakfast and generally comfortable rooms with en‑suite bathtubs. Feedback also included contrasting room sizes—some found rooms spacious while one described a very tight layout—and isolated complaints about a sunken mattress, thin pillows, and a malfunctioning handheld shower; one guest mentioned family-friendly amenities and free parking.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 9,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue & Occupancy",
+        "recommendation": "Conduct a brief diagnostic of booking sources and rate competitiveness."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort: mattresses & pillows",
+        "recommendation": "Inspect all room mattresses and pillows immediately to identify units in worst condition."
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom fixtures & shower performance",
+        "recommendation": "Order immediate inspection and repair of bathroom fixtures, including handheld showers, throughout all rooms."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shower and access)",
+        "recommendation": "Inspect rooms to verify shower/handheld functionality and that furniture does not obstruct bathroom access."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (mattress condition and compact room layouts)",
+        "recommendation": "Conduct a targeted inspection program to assess mattress condition across room types."
+      },
+      {
+        "rank": 3,
+        "area": "Operational complaints and process reliability",
+        "recommendation": "Perform a short-term operational review to identify common operational failure modes."
+      }
+    ]
+  }
+}

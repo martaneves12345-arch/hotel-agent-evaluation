@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P019",
+  "case_information": {
+    "case_id": "H413_20240610_L4",
+    "decision_week": "2024_W24",
+    "window_start": "2024-05-20",
+    "window_end": "2024-06-16",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W21",
+        "week_date": "2024-05-20",
+        "REVPAR_WEEK": 110.44404624740682,
+        "TAXA_OCUPACAO": 73.08755760368663,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 8.5
+      },
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 103.0903184662338,
+        "TAXA_OCUPACAO": 83.77880184331798,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 8.538461538461538
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 124.21102042309236,
+        "TAXA_OCUPACAO": 82.02764976958525,
+        "N_REVIEWS": 21.0,
+        "AVG_RATING": 8.714285714285714
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 110.2589757269641,
+        "TAXA_OCUPACAO": 77.14285714285715,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 7.5
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised staff as helpful, friendly and polite, and several reviewers noted good or very good breakfasts and, in one case, spotless rooms and great food. Recurring criticisms included dated rooms and limited comfort. Isolated comments mentioned poor dinner choices, a room with cleanliness and air‑conditioning problems and an instance of perceived rude management, plus smaller remarks about pillows, tea temperature and sunbed mattresses.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 10,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort (AC, bed/pillow configuration, in-room hygiene)",
+        "recommendation": "Prioritize inspection and repair of reported AC units in affected guest rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Housekeeping & room-readiness processes (cleanliness, inspection)",
+        "recommendation": "Review housekeeping procedures and the room-release checklist for adequacy of pre-check standards."
+      },
+      {
+        "rank": 3,
+        "area": "Guest safety / nighttime noise & security (reports of drunken guests disturbing sleep)",
+        "recommendation": "Review nighttime security and quiet-enforcement procedures immediately."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room cleanliness and housekeeping standards",
+        "recommendation": "Immediately launch an internal deep-clean audit of occupied and vacant rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Room maintenance and comfort (AC, furnishings, general condition)",
+        "recommendation": "Inspect all rooms to assess air-conditioning performance and identify HVAC failures for prioritization."
+      },
+      {
+        "rank": 3,
+        "area": "Guest complaint handling and front-office service recovery",
+        "recommendation": "Review and reinforce complaint-handling protocols with front-office and management staff."
+      }
+    ]
+  }
+}

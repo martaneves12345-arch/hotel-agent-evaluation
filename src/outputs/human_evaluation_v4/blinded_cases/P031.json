@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P031",
+  "case_information": {
+    "case_id": "H51_20240129_L4",
+    "decision_week": "2024_W05",
+    "window_start": "2024-01-08",
+    "window_end": "2024-02-04",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W02",
+        "week_date": "2024-01-08",
+        "REVPAR_WEEK": 34.43593966329966,
+        "TAXA_OCUPACAO": 43.83116883116883,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W03",
+        "week_date": "2024-01-15",
+        "REVPAR_WEEK": 31.53634980769231,
+        "TAXA_OCUPACAO": 42.2077922077922,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.88888888888889
+      },
+      {
+        "WEEK_YEAR": "2024_W04",
+        "week_date": "2024-01-22",
+        "REVPAR_WEEK": 52.82006447302698,
+        "TAXA_OCUPACAO": 59.09090909090909,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.1
+      },
+      {
+        "WEEK_YEAR": "2024_W05",
+        "week_date": "2024-01-29",
+        "REVPAR_WEEK": 44.22993358722359,
+        "TAXA_OCUPACAO": 60.06493506493506,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised the hotel's location near the metro and other transport, clean modern rooms, and attentive, cordial staff. Several reviewers noted complimentary touches and good Wi-Fi. Feedback on breakfast was mixed—some called it excellent, others criticized limited selection and cramped space. A few isolated comments mentioned a noisy bathroom/bed configuration, a sewage odor and expensive parking.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 12,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast (food variety, capacity)",
+        "recommendation": "Review the breakfast offering and service process through a short operational review with F&B staff."
+      },
+      {
+        "rank": 2,
+        "area": "Expectation–experience alignment / messaging",
+        "recommendation": "Conduct a cross-functional review of guest-facing messaging to identify and correct overstated or ambiguous expectations."
+      },
+      {
+        "rank": 3,
+        "area": "Noise/doors and housekeeping conduct (corridor acoustics, doors slamming, housekeeping on phone)",
+        "recommendation": "Have maintenance inspect door-closing mechanisms and corridor acoustics and report recommended repairs."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Plumbing / room privacy / bed configuration",
+        "recommendation": "Open an urgent maintenance inspection of plumbing and drainage in affected floors and rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast quality and dining capacity",
+        "recommendation": "Conduct a service review of breakfast offerings and buffet layout to reduce crowding."
+      },
+      {
+        "rank": 3,
+        "area": "Parking pricing & guest communication",
+        "recommendation": "Review parking pricing and options, including internal rates versus third-party lots."
+      }
+    ]
+  }
+}

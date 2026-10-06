@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P017",
+  "case_information": {
+    "case_id": "H247_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 63.30742748568454,
+        "TAXA_OCUPACAO": 94.9579831932773,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.5
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 62.51318956014839,
+        "TAXA_OCUPACAO": 93.27731092436974,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.8
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 54.61344414463033,
+        "TAXA_OCUPACAO": 96.63865546218489,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 56.8913466511357,
+        "TAXA_OCUPACAO": 89.91596638655463,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests repeatedly praised the hotel's cleanliness, central location, comfortable beds and breakfast; several reviews also commended friendly staff and flexible/late check-in. Recurring negatives included traffic noise in some rooms and limited in-room storage; a few guests mentioned lack of drying space for towels/swimsuits. Breakfast quality was described both as hearty and as somewhat limited by different reviewers. Isolated comments noted small beds for a larger guest and limited parking.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 13,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shower usability)",
+        "recommendation": "Inspect the affected bathroom fixtures to determine whether adjustments or accessible fittings resolve guest discomfort."
+      },
+      {
+        "rank": 2,
+        "area": "Parking (availability / guest information)",
+        "recommendation": "Review how parking availability is communicated in the hotel listing and pre-arrival information."
+      },
+      {
+        "rank": 3,
+        "area": "In-room drying space for towels/swimsuits",
+        "recommendation": "Assess feasibility of low-cost in-room or common-area drying solutions for towels and swimsuits."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue & occupancy performance",
+        "recommendation": "Run immediate short-term revenue measures leveraging the strong breakfast and central location."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort and amenities (beds, shower, storage)",
+        "recommendation": "Audit bed sizes and mattress condition and prioritize replacing or upselling where feasible."
+      },
+      {
+        "rank": 3,
+        "area": "Provision of drying space for wet towels/swimsuits",
+        "recommendation": "Provide immediate low-cost drying options for wet towels and swimsuits."
+      }
+    ]
+  }
+}

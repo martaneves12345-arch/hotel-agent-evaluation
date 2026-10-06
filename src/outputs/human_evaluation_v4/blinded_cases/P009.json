@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P009",
+  "case_information": {
+    "case_id": "H363_20240729_L4",
+    "decision_week": "2024_W31",
+    "window_start": "2024-07-08",
+    "window_end": "2024-08-04",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 104.8660189125,
+        "TAXA_OCUPACAO": 71.42857142857143,
+        "N_REVIEWS": 20.0,
+        "AVG_RATING": 8.3
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 98.88355974358971,
+        "TAXA_OCUPACAO": 69.64285714285714,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 91.55925335597826,
+        "TAXA_OCUPACAO": 65.71428571428571,
+        "N_REVIEWS": 16.0,
+        "AVG_RATING": 8.125
+      },
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 91.21713670765028,
+        "TAXA_OCUPACAO": 65.35714285714286,
+        "N_REVIEWS": 13.0,
+        "AVG_RATING": 8.461538461538462
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's central, quiet location, cleanliness, and friendly, helpful staff. Multiple reviewers found the breakfast simple or repetitive. Several guests described rooms as small or basic and noted missing amenities such as a minibar or in-room safe. Isolated remarks mentioned an awkward toilet layout, a small TV, a suggestion that renovation is needed, and one report of an employee making an inappropriate joke.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 14,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast offering",
+        "recommendation": "Implement a short-term refresh of the breakfast selection to reduce repetition."
+      },
+      {
+        "rank": 2,
+        "area": "Room condition, size expectations and in-room amenities",
+        "recommendation": "Conduct a room-condition audit to identify and prioritize low-cost improvements."
+      },
+      {
+        "rank": 3,
+        "area": "Staff conduct and guest cultural sensitivity",
+        "recommendation": "Launch mandatory customer-service and cultural-sensitivity training program for all staff."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "recommendation": "Commission a focused inspection and condition assessment of bathroom layouts and fittings."
+      },
+      {
+        "rank": 2,
+        "area": "In-room amenities",
+        "recommendation": "Review room-type amenity descriptions and guest-facing communications to ensure expectations match actual offerings."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast",
+        "recommendation": "Review what's included versus paid extras and ensure booking descriptions are accurate."
+      }
+    ]
+  }
+}

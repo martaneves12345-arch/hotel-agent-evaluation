@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 import random
+import re
 
 import json
 from datetime import datetime, timezone
@@ -23,7 +24,7 @@ EVALUATION_DIR = (
     BASE_DIR
     / "src"
     / "outputs"
-    / "human_evaluation_v3"
+    / "human_evaluation_v4"
 )
 
 CASES_DIR = (
@@ -1038,6 +1039,25 @@ def display_strengths(
             )
 
 
+def _short_area_label(area: str) -> str:
+    """Return a concise presentation-only label for a managerial area."""
+    area = _safe_text(area)
+    if not area:
+        return "Priority"
+    area = re.sub(r"\s*\([^)]*\)\s*", "", area).strip()
+    if " & " in area:
+        area = area.split(" & ", 1)[0].strip()
+    replacements = {
+        "Parking operations": "Parking",
+        "Emergency procedures": "Emergency procedures",
+        "Room maintenance": "Room maintenance",
+        "Breakfast operations": "Breakfast operations",
+        "Bathroom condition": "Bathroom condition",
+        "Room comfort": "Room comfort",
+    }
+    return replacements.get(area, area)
+
+
 def display_decision(decision: dict, label: str):
     """Display the concise blinded managerial decision."""
     st.subheader(f"Decision {label}")
@@ -1061,7 +1081,7 @@ def display_decision(decision: dict, label: str):
         start=1,
     ):
         rank = priority.get("rank") or fallback_rank
-        area = _safe_text(priority.get("area")) or "Priority"
+        area = _short_area_label(priority.get("area"))
         recommendation = _safe_text(
             priority.get("recommendation")
         )

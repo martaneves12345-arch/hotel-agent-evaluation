@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P027",
+  "case_information": {
+    "case_id": "H407_20240722_L4",
+    "decision_week": "2024_W30",
+    "window_start": "2024-07-01",
+    "window_end": "2024-07-28",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W27",
+        "week_date": "2024-07-01",
+        "REVPAR_WEEK": 67.21819451965067,
+        "TAXA_OCUPACAO": 111.42857142857144,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.833333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 57.42657840579711,
+        "TAXA_OCUPACAO": 82.5,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.142857142857142
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 63.681046562500015,
+        "TAXA_OCUPACAO": 90.0,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 69.55349547932333,
+        "TAXA_OCUPACAO": 105.0,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.25
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised friendly, attentive staff, the calm surroundings, comfortable rooms, a pleasant pool area, and good cleanliness and parking. Several reviewers praised breakfast, though a few mentioned limited variety or that espresso required extra payment. Some guests reported issues including outdated facilities (e.g., shower), firm/high pillows, the absence of an outdoor pool or sunbeds, and single reports about outdoor gym location and paid use of pool table/swim cap.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 11,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room & bathroom condition (maintenance and comfort)",
+        "recommendation": "Conduct a room-condition audit to identify visible outdated items for targeted refreshes."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering & coffee policy",
+        "recommendation": "Add an espresso option included with the standard breakfast or offer a complimentary short espresso."
+      },
+      {
+        "rank": 3,
+        "area": "Ancillary charges and guest-facing policies (pool cap, games-room fee)",
+        "recommendation": "Immediately review and clarify the rationale for each ancillary fee."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast",
+        "recommendation": "Review breakfast inclusions and guest-facing communication and presentation on booking channels."
+      },
+      {
+        "rank": 2,
+        "area": "Leisure / outdoor amenities (pool, gym, game room, green areas)",
+        "recommendation": "Conduct a focused review of guest-facing leisure amenities and related communications and charging policies."
+      },
+      {
+        "rank": 3,
+        "area": "Booking/Listing accuracy (gym availability)",
+        "recommendation": "Verify and, if necessary, correct all OTA and website listings for hotel facilities."
+      }
+    ]
+  }
+}

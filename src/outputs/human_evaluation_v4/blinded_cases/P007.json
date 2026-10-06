@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P007",
+  "case_information": {
+    "case_id": "H308_20241125_L4",
+    "decision_week": "2024_W48",
+    "window_start": "2024-11-04",
+    "window_end": "2024-12-01",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W45",
+        "week_date": "2024-11-04",
+        "REVPAR_WEEK": 34.56644823399833,
+        "TAXA_OCUPACAO": 77.55102040816327,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 8.8
+      },
+      {
+        "WEEK_YEAR": "2024_W46",
+        "week_date": "2024-11-11",
+        "REVPAR_WEEK": 30.725737704103807,
+        "TAXA_OCUPACAO": 65.77708006279434,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W47",
+        "week_date": "2024-11-18",
+        "REVPAR_WEEK": 36.427987891275386,
+        "TAXA_OCUPACAO": 49.60753532182103,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W48",
+        "week_date": "2024-11-25",
+        "REVPAR_WEEK": 23.02313430411952,
+        "TAXA_OCUPACAO": 38.46153846153847,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised breakfast, cleanliness, comfortable rooms and friendly reception/staff, and several noted good facilities, food and the indoor pool/buffet. Some breakfast-related negatives appeared: a few found the orange juice and espresso flavors off and one guest mentioned limited day-to-day variety. Isolated comments included bed configuration (two beds instead of a double) and absence of a bidet shower in one bathroom.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 10,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial / Revenue Management",
+        "recommendation": "Initiate a rapid revenue-management review to evaluate current commercial performance and near-term recovery."
+      },
+      {
+        "rank": 2,
+        "area": "Food & Beverage — Breakfast quality and variety",
+        "recommendation": "Conduct an audit of breakfast operations to assess quality and variety."
+      },
+      {
+        "rank": 3,
+        "area": "Room configuration and product description",
+        "recommendation": "Review room inventory and bedding configurations to identify current bed arrangements."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Expectation–experience alignment (guest-facing information, product fit)",
+        "recommendation": "Conduct a cross-functional review of guest-facing content and booking rules."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort — bed configuration for couples",
+        "recommendation": "Review room inventory and booking descriptions to ensure guests can reliably request double-bed configurations when appropriate."
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom amenities and condition (handheld bidet expectation)",
+        "recommendation": "Assess whether the missing handheld bidet reflects an isolated preference or broader guest expectation."
+      }
+    ]
+  }
+}

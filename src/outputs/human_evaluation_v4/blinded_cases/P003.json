@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P003",
+  "case_information": {
+    "case_id": "H189_20240318_L4",
+    "decision_week": "2024_W12",
+    "window_start": "2024-02-26",
+    "window_end": "2024-03-24",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 55.220789563567365,
+        "TAXA_OCUPACAO": 70.58823529411765,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 9.444444444444445
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 60.92883840000001,
+        "TAXA_OCUPACAO": 86.5546218487395,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.88888888888889
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 51.15754823529412,
+        "TAXA_OCUPACAO": 63.02521008403361,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 9.2
+      },
+      {
+        "WEEK_YEAR": "2024_W12",
+        "week_date": "2024-03-18",
+        "REVPAR_WEEK": 43.294179452054806,
+        "TAXA_OCUPACAO": 56.30252100840336,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 8.75
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's beachfront location, ocean views, renovated/clean rooms, friendly staff, breakfast, and amenities such as pool, jacuzzi and rooftop bar; several also noted available parking. Some guests reported disturbances — ocean noise at night, loud late café music, and bright exterior lighting — and a few mentioned minor room issues (broken blind, overloaded socket, lack of slippers), a safe charge, and mixed comments about the restaurant and bed comfort.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 10,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Maintenance & electrical safety",
+        "recommendation": "Immediately schedule an electrical safety check of all guest rooms and common-area sockets."
+      },
+      {
+        "rank": 2,
+        "area": "Sleep quality — noise and exterior lighting",
+        "recommendation": "Implement and enforce an on-premise entertainment curfew and maximum volume policy for the café/bar."
+      },
+      {
+        "rank": 3,
+        "area": "Guest comfort & amenity policy (beds, slippers, safe fee)",
+        "recommendation": "Conduct an audit of mattresses for wear, prioritising the most worn rooms."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition (shower screen / water leakage)",
+        "recommendation": "Arrange an immediate inspection of the cited room(s) for shower screen fit and water leakage."
+      },
+      {
+        "rank": 2,
+        "area": "Restaurant and rooftop bar ambience (alignment with hotel character)",
+        "recommendation": "Review restaurant and rooftop guest feedback and on-property experience to identify character mismatches."
+      },
+      {
+        "rank": 3,
+        "area": "Expectation alignment: guest-facing messaging, fee descriptions and amenity inclusions",
+        "recommendation": "Conduct a focused review of reservation and marketing copy, room amenity descriptions, and fee disclosures."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P001",
+  "case_information": {
+    "case_id": "H3_20241028_L4",
+    "decision_week": "2024_W44",
+    "window_start": "2024-10-07",
+    "window_end": "2024-11-03",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 81.1849432444173,
+        "TAXA_OCUPACAO": 99.30313588850174,
+        "N_REVIEWS": 19.0,
+        "AVG_RATING": 8.421052631578947
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 79.8406982735363,
+        "TAXA_OCUPACAO": 98.25783972125436,
+        "N_REVIEWS": 34.0,
+        "AVG_RATING": 8.705882352941176
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 79.9181829332874,
+        "TAXA_OCUPACAO": 99.21602787456446,
+        "N_REVIEWS": 35.0,
+        "AVG_RATING": 8.228571428571428
+      },
+      {
+        "WEEK_YEAR": "2024_W44",
+        "week_date": "2024-10-28",
+        "REVPAR_WEEK": 71.05871771126019,
+        "TAXA_OCUPACAO": 90.59233449477352,
+        "N_REVIEWS": 27.0,
+        "AVG_RATING": 7.888888888888889
+      }
+    ],
+    "customer_feedback_summary": "Guests praised the convenient location by the Gulbenkian Museum; many described breakfast as good to excellent, while several called it crowded or average. Room feedback was mixed: some said rooms were clean and spacious; others reported dated decor, noise, dirty curtains/windows, uncomfortable beds and maintenance issues. Parking was described as tight; staff were praised, with isolated reports of slow check‑in, a disputed room‑service charge and a fire alarm.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 13,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Emergency procedures & guest communication",
+        "recommendation": "Audit recent alarm activation to confirm whether it was a false alarm or system issue."
+      },
+      {
+        "rank": 2,
+        "area": "Parking operations & guest information",
+        "recommendation": "Inspect and document the parking facility's dimensions and turning radii."
+      },
+      {
+        "rank": 3,
+        "area": "Room maintenance & housekeeping quality",
+        "recommendation": "Implement a short-term deep-clean and inspection checklist for guest rooms."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort (beds, furniture, noise, room condition, pests)",
+        "recommendation": "Initiate a targeted room-condition assessment to inspect bedding, furniture, noise, and pest/hygiene issues."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast operations & takeaway policy",
+        "recommendation": "Review the breakfast takeaway policy and how staff communicate and enforce it."
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom condition & hot-water reliability",
+        "recommendation": "Perform immediate operational checks of hot-water systems for temperature consistency and flow."
+      }
+    ]
+  }
+}

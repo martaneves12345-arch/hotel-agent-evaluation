@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P037",
+  "case_information": {
+    "case_id": "H424_20240930_L4",
+    "decision_week": "2024_W40",
+    "window_start": "2024-09-09",
+    "window_end": "2024-10-06",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 136.63230625528308,
+        "TAXA_OCUPACAO": 93.14285714285714,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 127.74760232377504,
+        "TAXA_OCUPACAO": 91.52380952380952,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 129.54117428337793,
+        "TAXA_OCUPACAO": 89.47619047619048,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 9.4
+      },
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 146.78388143700977,
+        "TAXA_OCUPACAO": 91.33333333333331,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 8.833333333333334
+      }
+    ],
+    "customer_feedback_summary": "Guests praised the hotel's location, sea access, views, saltwater pools, breakfast, restaurants, spa and generally friendly staff, with several noting parking and gym classes. Recurring negatives included uncomfortable pillows and bedding, charges or limited provision of bottled water, and that dinner buffets can be repetitive; isolated observations mentioned a caterpillar in a salad, a rude spa staff member, and some TV/USB or air‑conditioning problems.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 15,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Food safety and buffet quality",
+        "recommendation": "Immediately initiate a food-safety investigation of kitchen hygiene and procedures."
+      },
+      {
+        "rank": 2,
+        "area": "Restaurant service and F&B policy (water & included items)",
+        "recommendation": "Review and clarify the hotel's half-board and F&B pricing policy."
+      },
+      {
+        "rank": 3,
+        "area": "Bedding and pillows (sleep comfort)",
+        "recommendation": "Perform an audit of pillows and mattresses across the room inventory."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Restaurant and bar (food safety, reservations, dinner quality)",
+        "recommendation": "Immediately investigate the reported food-hygiene incident with appropriate urgency and attention."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (pillows, bedding, air-conditioning, in-room tech)",
+        "recommendation": "Perform an inspection of bedding, air-conditioning, and in-room technology across a sample of rooms."
+      },
+      {
+        "rank": 3,
+        "area": "Clarity of F&B pricing and inclusions (bottled water, dinner drink policy, restaurant credit)",
+        "recommendation": "Review and clarify guest-facing descriptions of half-board, restaurant credit, and bottled-water policies."
+      }
+    ]
+  }
+}

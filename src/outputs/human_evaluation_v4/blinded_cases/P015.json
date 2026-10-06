@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P015",
+  "case_information": {
+    "case_id": "H137_20240422_L4",
+    "decision_week": "2024_W17",
+    "window_start": "2024-04-01",
+    "window_end": "2024-04-28",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W14",
+        "week_date": "2024-04-01",
+        "REVPAR_WEEK": 21.304256227106222,
+        "TAXA_OCUPACAO": 26.53061224489796,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 10.0
+      },
+      {
+        "WEEK_YEAR": "2024_W15",
+        "week_date": "2024-04-08",
+        "REVPAR_WEEK": 39.90780925925927,
+        "TAXA_OCUPACAO": 46.93877551020408,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 38.97019684065934,
+        "TAXA_OCUPACAO": 39.795918367346935,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.416666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 74.14242983870969,
+        "TAXA_OCUPACAO": 54.08163265306123,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.714285714285714
+      }
+    ],
+    "customer_feedback_summary": "Guests repeatedly praised the staff’s friendliness and attentive customer care, cleanliness, the pleasant outdoor/pool and bar areas, and the breakfast’s quality and variety; several noted the family-friendly atmosphere. Recurring negative feedback concerned noise. Isolated complaints included an uncomfortable bed causing back pain and a sudden scalding shower. A few reviewers reported no issues and overall satisfaction.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 11,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Hot water safety / plumbing",
+        "recommendation": "Immediately inspect and test all guest-room thermostatic mixing valves, water heaters, and temperature controls."
+      },
+      {
+        "rank": 2,
+        "area": "Bed/mattress comfort",
+        "recommendation": "Audit mattress condition across all rooms."
+      },
+      {
+        "rank": 3,
+        "area": "Noise management (local paddle tennis and general noise)",
+        "recommendation": "Identify noise sources and timing and map which rooms are most affected."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room comfort — water temperature (safety)",
+        "recommendation": "Immediately inspect and test hot-water delivery and temperature-regulation equipment at room and building levels."
+      },
+      {
+        "rank": 2,
+        "area": "Booking and payment — listing geolocation (expectation violation)",
+        "recommendation": "Review and correct the hotel's external booking-platform listing information and directions."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort — bed/mattress comfort (back pain)",
+        "recommendation": "Inspect the mattress/bed in the reported room(s) to assess wear or firmness mismatch."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P034",
+  "case_information": {
+    "case_id": "H317_20240506_L4",
+    "decision_week": "2024_W19",
+    "window_start": "2024-04-15",
+    "window_end": "2024-05-12",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 38.92708179148312,
+        "TAXA_OCUPACAO": 54.04761904761904,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 8.7
+      },
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 37.88988739935586,
+        "TAXA_OCUPACAO": 49.28571428571429,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 43.837528825910944,
+        "TAXA_OCUPACAO": 58.80952380952381,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.666666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W19",
+        "week_date": "2024-05-06",
+        "REVPAR_WEEK": 114.9529135858586,
+        "TAXA_OCUPACAO": 47.14285714285714,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.428571428571429
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's very central location near the sanctuary, friendly and attentive staff, clean comfortable rooms and good facilities; some appreciated on-site dining and welcoming touches. Recurring negative feedback concerned breakfast—limited options, no vegetables and an early finish time. Isolated comments mentioned morning light through shades and small service gestures like lending a kettle; one reviewer noted being a repeat guest.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 13,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast offering and service hours",
+        "recommendation": "Conduct an immediate review of the breakfast menu and service hours."
+      },
+      {
+        "rank": 2,
+        "area": "Service quality and guest experience (staff & location)",
+        "recommendation": "Continue to recognize and support front-desk and F&B staff routinely."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort — light control / window shades",
+        "recommendation": "Audit rooms for light infiltration by checking the condition of shades and curtains."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast",
+        "recommendation": "Review the breakfast offering and operations to assess overall effectiveness and current arrangements."
+      },
+      {
+        "rank": 2,
+        "area": "Expectation–experience alignment / communications",
+        "recommendation": "Review guest-facing communications to ensure they accurately describe hotel offerings."
+      },
+      {
+        "rank": 3,
+        "area": "Rising operational-complaints share (root-cause review)",
+        "recommendation": "Immediately audit operational areas linked to guest complaints across the property."
+      }
+    ]
+  }
+}

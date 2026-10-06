@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P008",
+  "case_information": {
+    "case_id": "H345_20240923_L4",
+    "decision_week": "2024_W39",
+    "window_start": "2024-09-02",
+    "window_end": "2024-09-29",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W36",
+        "week_date": "2024-09-02",
+        "REVPAR_WEEK": 35.782174885057486,
+        "TAXA_OCUPACAO": 49.523809523809526,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W37",
+        "week_date": "2024-09-09",
+        "REVPAR_WEEK": 34.76086076984127,
+        "TAXA_OCUPACAO": 52.142857142857146,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.916666666666666
+      },
+      {
+        "WEEK_YEAR": "2024_W38",
+        "week_date": "2024-09-16",
+        "REVPAR_WEEK": 31.145409772313307,
+        "TAXA_OCUPACAO": 50.0,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 8.727272727272727
+      },
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 31.429001521739146,
+        "TAXA_OCUPACAO": 53.333333333333336,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised the hotel's spacious, clean and comfortable rooms, including large or newly renovated bathrooms, and several reviewers noted pleasant staff, a good location and available free parking. Feedback on breakfast was mixed, with some calling it very nice and others saying choices were light. Isolated comments mentioned a noisy unit that was difficult to switch off at night and a slightly dirty entrance carpet.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 7,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Breakfast (offer & perceived variety)",
+        "recommendation": "Review the current breakfast offering and its communication to guests against expectations."
+      },
+      {
+        "rank": 2,
+        "area": "In-room equipment/control failure and noise (guest could not turn it off)",
+        "recommendation": "Initiate an immediate maintenance inspection of room control systems to identify malfunctioning units."
+      },
+      {
+        "rank": 3,
+        "area": "Night-time guest-response & escalation protocol",
+        "recommendation": "Review night-time response procedures and escalation training for reception and maintenance staff."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Revenue management / commercial performance",
+        "recommendation": "Initiate an immediate commercial review with the revenue manager and general manager."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering (quality / variety / presentation)",
+        "recommendation": "Perform a breakfast audit of current menu and service flow."
+      },
+      {
+        "rank": 3,
+        "area": "In-room equipment / night noise and guest control",
+        "recommendation": "Order an immediate maintenance inspection of in-room HVAC, ventilation, and electrical controls."
+      }
+    ]
+  }
+}

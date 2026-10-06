@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P011",
+  "case_information": {
+    "case_id": "H32_20241014_L4",
+    "decision_week": "2024_W42",
+    "window_start": "2024-09-23",
+    "window_end": "2024-10-20",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W39",
+        "week_date": "2024-09-23",
+        "REVPAR_WEEK": 79.17586704738633,
+        "TAXA_OCUPACAO": 99.45054945054946,
+        "N_REVIEWS": 14.0,
+        "AVG_RATING": 8.142857142857142
+      },
+      {
+        "WEEK_YEAR": "2024_W40",
+        "week_date": "2024-09-30",
+        "REVPAR_WEEK": 87.62466189213083,
+        "TAXA_OCUPACAO": 95.6043956043956,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 8.200000000000001
+      },
+      {
+        "WEEK_YEAR": "2024_W41",
+        "week_date": "2024-10-07",
+        "REVPAR_WEEK": 84.48127123055006,
+        "TAXA_OCUPACAO": 96.42857142857144,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 8.571428571428571
+      },
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 86.81489314120721,
+        "TAXA_OCUPACAO": 96.97802197802196,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 7.7
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised the hotel's central, convenient location, friendly and helpful staff, and the quality and variety of the breakfast; several also valued the rooftop pool/bar, cleanliness and comfortable beds. Some reviewers reported smaller or slightly worn rooms. Isolated operational issues cited included an occasionally failing breakfast coffee machine, paid billiards not disclosed, a separately charged in‑room safe, faulty lift buttons and one instance of incorrect picnic pickup information.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 11,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Staff and service (car-rental key handling; paid-amenity communication)",
+        "recommendation": "Review and standardise front-desk procedures for handling third-party services and paid amenities."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast (coffee machine reliability and pickup/communication)",
+        "recommendation": "Clarify and document the picnic and packed-breakfast pickup process with front-desk and bar teams."
+      },
+      {
+        "rank": 3,
+        "area": "Spa and pool (limited pool space / capacity)",
+        "recommendation": "Assess rooftop pool capacity and guest expectations."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Front-desk operations & guest communication",
+        "recommendation": "Implement standardized front-desk procedures and scripts for common guest interactions."
+      },
+      {
+        "rank": 2,
+        "area": "Maintenance & immediate equipment safety",
+        "recommendation": "Request an immediate technical inspection of the elevator's call buttons."
+      },
+      {
+        "rank": 3,
+        "area": "Ancillary pricing & fee transparency",
+        "recommendation": "Review how ancillary fees are presented on the hotel website, OTAs, confirmations, and at check-in."
+      }
+    ]
+  }
+}

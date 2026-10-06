@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P025",
+  "case_information": {
+    "case_id": "H288_20240311_L4",
+    "decision_week": "2024_W11",
+    "window_start": "2024-02-19",
+    "window_end": "2024-03-17",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W08",
+        "week_date": "2024-02-19",
+        "REVPAR_WEEK": 34.09859260215054,
+        "TAXA_OCUPACAO": 57.88819875776397,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 34.903175176883614,
+        "TAXA_OCUPACAO": 60.0,
+        "N_REVIEWS": 21.0,
+        "AVG_RATING": 7.904761904761905
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 37.68309025278059,
+        "TAXA_OCUPACAO": 59.25465838509317,
+        "N_REVIEWS": 22.0,
+        "AVG_RATING": 8.818181818181818
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 35.71845287182872,
+        "TAXA_OCUPACAO": 57.267080745341616,
+        "N_REVIEWS": 16.0,
+        "AVG_RATING": 8.375
+      }
+    ],
+    "customer_feedback_summary": "Reviews are generally positive about room comfort and staff friendliness, with multiple guests praising rooms and bedding; several reviewers said overall everything was good. Feedback on location is mixed—some found it far from Lisbon and noted an incorrect address that caused delays, while one guest listed location positively. Isolated concerns included breakfast cost and noise/maintenance issues (windows, textiles, paint).",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 5,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Online information & arrivals (address & directions)",
+        "recommendation": "Immediately verify and correct the hotel's address across the website and major booking channels."
+      },
+      {
+        "rank": 2,
+        "area": "Room condition & soundproofing (windows, textiles, paint)",
+        "recommendation": "Carry out a targeted room-condition audit to identify worst rooms by floor and exposure."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast pricing and perceived value",
+        "recommendation": "Review breakfast pricing and composition relative to the local market and guest expectations."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Parking",
+        "recommendation": "Review and clarify parking policy and pricing in all guest-facing channels."
+      },
+      {
+        "rank": 2,
+        "area": "Guest-facing information & front-desk communication",
+        "recommendation": "Review and tighten front-desk communication processes for check-in and check-out changes."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort & maintenance (AC, noise, textiles/paint)",
+        "recommendation": "Initiate an operational maintenance sweep focused on room climate control and fabric/finish issues."
+      }
+    ]
+  }
+}

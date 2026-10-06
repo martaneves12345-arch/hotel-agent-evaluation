@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P023",
+  "case_information": {
+    "case_id": "H72_20240129_L4",
+    "decision_week": "2024_W05",
+    "window_start": "2024-01-08",
+    "window_end": "2024-02-04",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W02",
+        "week_date": "2024-01-08",
+        "REVPAR_WEEK": 76.99035650024715,
+        "TAXA_OCUPACAO": 49.14965986394558,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.833333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W03",
+        "week_date": "2024-01-15",
+        "REVPAR_WEEK": 63.91320895619853,
+        "TAXA_OCUPACAO": 40.13605442176871,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 9.571428571428571
+      },
+      {
+        "WEEK_YEAR": "2024_W04",
+        "week_date": "2024-01-22",
+        "REVPAR_WEEK": 46.585914871504166,
+        "TAXA_OCUPACAO": 31.802721088435376,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.75
+      },
+      {
+        "WEEK_YEAR": "2024_W05",
+        "week_date": "2024-01-29",
+        "REVPAR_WEEK": 89.70502114235939,
+        "TAXA_OCUPACAO": 48.80952380952381,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.875
+      }
+    ],
+    "customer_feedback_summary": "Reviews consistently praise attentive, friendly staff, frequent complimentary snacks/drinks and small treats, central location, clean comfortable rooms, high-quality breakfast and restaurant, and spa/massage services. Multiple guests also mentioned helpful concierge tips and a complimentary guided city tour. Several reviewers explicitly reported no dislikes or that everything was perfect; no specific complaints appear in the provided comments.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 11,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "low",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Service excellence & complimentary guest experience",
+        "recommendation": "Document and formalize the most-appreciated guest service elements into standard operating procedures."
+      },
+      {
+        "rank": 2,
+        "area": "Spa & wellness operations (quality and safety)",
+        "recommendation": "Conduct a short spa safety and quality audit to verify safety and quality practices."
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping & facilities maintenance",
+        "recommendation": "Maintain or increase housekeeping quality checks, including room inspections and acknowledgment of guest requests."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "low",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Location and arrival accessibility (ride‑hail/drop-off guidance)",
+        "recommendation": "Review and update guest arrival guidance and transport instructions across booking channels and confirmations."
+      },
+      {
+        "rank": 2,
+        "area": "Monitor sentiment and emotion signals (recent reversal)",
+        "recommendation": "Institute nearer-term monitoring of weekly sentiment and emotion metrics."
+      },
+      {
+        "rank": 3,
+        "area": "Spa & pool — smallness and shower quality (guest nitpick)",
+        "recommendation": "Monitor the frequency of spa and pool facility complaints from guests."
+      }
+    ]
+  }
+}

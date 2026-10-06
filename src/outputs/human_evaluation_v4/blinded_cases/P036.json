@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P036",
+  "case_information": {
+    "case_id": "H400_20240617_L4",
+    "decision_week": "2024_W25",
+    "window_start": "2024-05-27",
+    "window_end": "2024-06-23",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 28.66107342543681,
+        "TAXA_OCUPACAO": 33.22981366459628,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 7.0
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 45.64439948135071,
+        "TAXA_OCUPACAO": 61.80124223602485,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 8.2
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 30.03269672967864,
+        "TAXA_OCUPACAO": 35.714285714285715,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 8.555555555555555
+      },
+      {
+        "WEEK_YEAR": "2024_W25",
+        "week_date": "2024-06-17",
+        "REVPAR_WEEK": 51.9534620020828,
+        "TAXA_OCUPACAO": 52.17391304347826,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 9.0
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's location, well-kept green/outdoor spaces, peaceful atmosphere, friendly/attentive staff, and breakfast; some also commented on large rooms and good food. A few isolated comments noted maintenance in progress and limited daytime bar/restaurant service with slow bar service, and one reviewer suggested interior/exterior remodeling. Overall feedback mixes repeated positives with a small number of individual service or maintenance concerns.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 8,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Restaurant and bar (daytime service responsiveness)",
+        "recommendation": "Review daytime food and beverage service model and event support processes."
+      },
+      {
+        "rank": 2,
+        "area": "Property condition — interior & exterior maintenance / renovation",
+        "recommendation": "Commission a focused property-condition assessment to determine scope and urgency of interior and exterior maintenance."
+      },
+      {
+        "rank": 3,
+        "area": "Price–value (perception relative to condition/price)",
+        "recommendation": "Review pricing and value positioning relative to current property condition and competitive set."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "F&B service and staffing",
+        "recommendation": "Review F&B staffing rosters and service coverage for daytime and event periods."
+      },
+      {
+        "rank": 2,
+        "area": "Maintenance and refurbishment planning",
+        "recommendation": "Undertake an asset condition assessment to create a prioritized refurbishment plan and budget."
+      },
+      {
+        "rank": 3,
+        "area": "Guest communication and management during maintenance",
+        "recommendation": "Implement a visible guest-communication protocol about planned maintenance and guest options."
+      }
+    ]
+  }
+}

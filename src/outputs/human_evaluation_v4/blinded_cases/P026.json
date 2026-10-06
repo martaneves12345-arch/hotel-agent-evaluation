@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P026",
+  "case_information": {
+    "case_id": "H300_20240617_L4",
+    "decision_week": "2024_W25",
+    "window_start": "2024-05-27",
+    "window_end": "2024-06-23",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W22",
+        "week_date": "2024-05-27",
+        "REVPAR_WEEK": 36.79051495901638,
+        "TAXA_OCUPACAO": 80.35714285714286,
+        "N_REVIEWS": 2.0,
+        "AVG_RATING": 10.0
+      },
+      {
+        "WEEK_YEAR": "2024_W23",
+        "week_date": "2024-06-03",
+        "REVPAR_WEEK": 78.67981512499999,
+        "TAXA_OCUPACAO": 70.53571428571429,
+        "N_REVIEWS": 2.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W24",
+        "week_date": "2024-06-10",
+        "REVPAR_WEEK": 43.062885987903215,
+        "TAXA_OCUPACAO": 55.35714285714286,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W25",
+        "week_date": "2024-06-17",
+        "REVPAR_WEEK": 47.32545787499999,
+        "TAXA_OCUPACAO": 44.642857142857146,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.75
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's location amid nature, peaceful atmosphere, cleanliness, comfortable rooms and beds, generous breakfasts and attentive, friendly staff, with several noting welcome gestures or packed breakfasts for early departures. Some guests mentioned amenities like spacious villas, air conditioning and cable TV. Isolated negatives included a problematic shower, refrigerator noise, an unheated indoor pool, and comments that a car may be necessary due to distance from town.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 11,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition and in-room toiletries",
+        "recommendation": "Review and correct in-room bathroom provisioning policy and practices across room types."
+      },
+      {
+        "rank": 2,
+        "area": "Indoor pool usability / spa expectations",
+        "recommendation": "Conduct a technical and commercial assessment of feasibility and alignment for heating/climatizing the indoor pool."
+      },
+      {
+        "rank": 3,
+        "area": "Room comfort — noise and temperature control",
+        "recommendation": "Perform an operational review of room noise and temperature controls."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "In-room maintenance and guest comfort",
+        "recommendation": "Open immediate maintenance tickets to inspect showers and in-room refrigerators."
+      },
+      {
+        "rank": 2,
+        "area": "Pool usability and amenity expectations",
+        "recommendation": "Assess feasibility and cost of heating the indoor pool."
+      },
+      {
+        "rank": 3,
+        "area": "Reputation and review management",
+        "recommendation": "Implement a structured review-response process."
+      }
+    ]
+  }
+}

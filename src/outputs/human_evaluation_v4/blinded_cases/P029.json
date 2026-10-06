@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P029",
+  "case_information": {
+    "case_id": "H499_20240429_L4",
+    "decision_week": "2024_W18",
+    "window_start": "2024-04-08",
+    "window_end": "2024-05-05",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W15",
+        "week_date": "2024-04-08",
+        "REVPAR_WEEK": 35.60553977272728,
+        "TAXA_OCUPACAO": 56.12244897959183,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 6.0
+      },
+      {
+        "WEEK_YEAR": "2024_W16",
+        "week_date": "2024-04-15",
+        "REVPAR_WEEK": 41.56782132034631,
+        "TAXA_OCUPACAO": 67.3469387755102,
+        "N_REVIEWS": 12.0,
+        "AVG_RATING": 8.25
+      },
+      {
+        "WEEK_YEAR": "2024_W17",
+        "week_date": "2024-04-22",
+        "REVPAR_WEEK": 45.34656098153548,
+        "TAXA_OCUPACAO": 75.0,
+        "N_REVIEWS": 9.0,
+        "AVG_RATING": 7.111111111111111
+      },
+      {
+        "WEEK_YEAR": "2024_W18",
+        "week_date": "2024-04-29",
+        "REVPAR_WEEK": 40.95442068877551,
+        "TAXA_OCUPACAO": 71.42857142857143,
+        "N_REVIEWS": 10.0,
+        "AVG_RATING": 7.9
+      }
+    ],
+    "customer_feedback_summary": "Guests commonly praised the property's central location, brightness and comfortable beds/showers, and one guest noted cleanliness. Several reviewers reported small room size, dampness and noise, limited communal facilities and policies or charges related to towels and luggage storage. Multiple comments mentioned absent or curt reception staff. Isolated observations included a dead cockroach, mosquito bites and an unpleasant refrigerator odor.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 6,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "recommendation": "Immediately inspect rooms and bathrooms for mould, ventilation, or water intrusion."
+      },
+      {
+        "rank": 2,
+        "area": "Cleanliness and housekeeping (towel-change policy, shared facilities)",
+        "recommendation": "Review housekeeping frequency and towel-change policy relative to guest expectations and the property's positioning."
+      },
+      {
+        "rank": 3,
+        "area": "Staff availability and communication",
+        "recommendation": "Review front-desk staffing and coverage patterns along with service-handling procedures."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Cleanliness & housekeeping (towels, rooms, pests)",
+        "recommendation": "Implement a housekeeping checklist requiring daily and turnover checks with manager sign-off."
+      },
+      {
+        "rank": 2,
+        "area": "Staff service & communication (reception responsiveness, friendliness, information)",
+        "recommendation": "Review reception staffing levels and rosters to guarantee the advertised 24-hour reception coverage."
+      },
+      {
+        "rank": 3,
+        "area": "Room condition & maintenance (damp, uneven floors, small bathrooms)",
+        "recommendation": "Conduct a targeted maintenance inspection of rooms reported damp or with uneven flooring."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P033",
+  "case_information": {
+    "case_id": "H217_20240311_L4",
+    "decision_week": "2024_W11",
+    "window_start": "2024-02-19",
+    "window_end": "2024-03-17",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W08",
+        "week_date": "2024-02-19",
+        "REVPAR_WEEK": 102.43655493892028,
+        "TAXA_OCUPACAO": 98.75776397515529,
+        "N_REVIEWS": 24.0,
+        "AVG_RATING": 9.083333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W09",
+        "week_date": "2024-02-26",
+        "REVPAR_WEEK": 107.31577871648012,
+        "TAXA_OCUPACAO": 98.75776397515529,
+        "N_REVIEWS": 48.0,
+        "AVG_RATING": 9.3125
+      },
+      {
+        "WEEK_YEAR": "2024_W10",
+        "week_date": "2024-03-04",
+        "REVPAR_WEEK": 127.02776049562684,
+        "TAXA_OCUPACAO": 99.37888198757764,
+        "N_REVIEWS": 37.0,
+        "AVG_RATING": 9.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W11",
+        "week_date": "2024-03-11",
+        "REVPAR_WEEK": 129.00159446697933,
+        "TAXA_OCUPACAO": 100.31055900621118,
+        "N_REVIEWS": 31.0,
+        "AVG_RATING": 8.548387096774194
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's central location, friendly staff, daily cleaning and generally positive breakfast offerings. Recurring negatives included noise from the square/trams and nightlife, and small rooms with limited storage, tiny bathrooms or poor daylight. Several reviewers also noted crowded breakfast service. Isolated comments referenced elevator inconvenience, inability to pay by card, and a surprise luggage-storage fee.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 12,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Noise and soundproofing / room location expectations",
+        "recommendation": "Update room descriptions and booking channels to clearly indicate which rooms face the square and potential noise."
+      },
+      {
+        "rank": 2,
+        "area": "Room size, layout and basic in‑room amenities",
+        "recommendation": "Update room descriptions and photos to reflect actual room size and layout."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast capacity/hours and ancillary charges / payment methods",
+        "recommendation": "Review and publish breakfast hours and consider earlier opening if operationally feasible."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition & in-room amenities",
+        "recommendation": "Commission a focused rooms and maintenance assessment to verify bathroom layouts across room types."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort & nighttime noise / soundproofing",
+        "recommendation": "Perform an operational review to identify room types and floors most affected by external noise."
+      },
+      {
+        "rank": 3,
+        "area": "Breakfast service (positive with friction)",
+        "recommendation": "Conduct an operational review of breakfast service to evaluate its processes and timing."
+      }
+    ]
+  }
+}

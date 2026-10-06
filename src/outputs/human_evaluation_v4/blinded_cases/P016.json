@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P016",
+  "case_information": {
+    "case_id": "H149_20240729_L4",
+    "decision_week": "2024_W31",
+    "window_start": "2024-07-08",
+    "window_end": "2024-08-04",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W28",
+        "week_date": "2024-07-08",
+        "REVPAR_WEEK": 134.57839641038177,
+        "TAXA_OCUPACAO": 80.55669259107655,
+        "N_REVIEWS": 43.0,
+        "AVG_RATING": 8.046511627906977
+      },
+      {
+        "WEEK_YEAR": "2024_W29",
+        "week_date": "2024-07-15",
+        "REVPAR_WEEK": 109.31831768363412,
+        "TAXA_OCUPACAO": 69.91404011461319,
+        "N_REVIEWS": 51.0,
+        "AVG_RATING": 8.705882352941176
+      },
+      {
+        "WEEK_YEAR": "2024_W30",
+        "week_date": "2024-07-22",
+        "REVPAR_WEEK": 111.51476056486592,
+        "TAXA_OCUPACAO": 71.22390503479329,
+        "N_REVIEWS": 42.0,
+        "AVG_RATING": 8.69047619047619
+      },
+      {
+        "WEEK_YEAR": "2024_W31",
+        "week_date": "2024-07-29",
+        "REVPAR_WEEK": 87.16439258911635,
+        "TAXA_OCUPACAO": 58.6573884568154,
+        "N_REVIEWS": 45.0,
+        "AVG_RATING": 8.688888888888888
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel’s central location, rooftop and city views, attentive staff, varied breakfasts and cleanliness. Recurring negatives included street noise, signage/wayfinding in corridors, and a range of maintenance or in‑room issues (bathrooms needing updates, occasional clogged drains, AC or power/socket problems, limited TV channels). Feedback on bed linens and towels was mixed, and a few noted renovation-related arrangements such as breakfast reservations.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 18,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Bathroom condition",
+        "recommendation": "Initiate immediate safety and maintenance inspections of bathroom plumbing and ventilation in sample rooms."
+      },
+      {
+        "rank": 2,
+        "area": "Room comfort (noise, bed/outlets, tired rooms)",
+        "recommendation": "Conduct a focused operational review of room comfort to identify and prioritize remedial actions."
+      },
+      {
+        "rank": 3,
+        "area": "Restaurant & rooftop access and noise management",
+        "recommendation": "Review the rooftop access policy and wayfinding to assess clarity and accessibility for guests."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room maintenance & hygiene",
+        "recommendation": "Initiate immediate inspections of occupied and vacant rooms to identify mold, blocked drains, failing HVAC."
+      },
+      {
+        "rank": 2,
+        "area": "In-room electrical and entertainment facilities",
+        "recommendation": "Perform a quick audit of representative room types to verify power outlets and TV/remote functionality."
+      },
+      {
+        "rank": 3,
+        "area": "Noise, window repairs and room security",
+        "recommendation": "Survey rooms facing Praça Martim Moniz and tram routes for window functionality and glazing condition."
+      }
+    ]
+  }
+}

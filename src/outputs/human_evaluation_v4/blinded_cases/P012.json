@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P012",
+  "case_information": {
+    "case_id": "H77_20241202_L4",
+    "decision_week": "2024_W49",
+    "window_start": "2024-11-11",
+    "window_end": "2024-12-08",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W46",
+        "week_date": "2024-11-11",
+        "REVPAR_WEEK": 11.04211186356896,
+        "TAXA_OCUPACAO": 17.507002801120446,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 7.875
+      },
+      {
+        "WEEK_YEAR": "2024_W47",
+        "week_date": "2024-11-18",
+        "REVPAR_WEEK": 11.44673383492932,
+        "TAXA_OCUPACAO": 18.34733893557423,
+        "N_REVIEWS": 1.0,
+        "AVG_RATING": 8.0
+      },
+      {
+        "WEEK_YEAR": "2024_W48",
+        "week_date": "2024-11-25",
+        "REVPAR_WEEK": 25.486739380099863,
+        "TAXA_OCUPACAO": 23.38935574229692,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 7.0
+      },
+      {
+        "WEEK_YEAR": "2024_W49",
+        "week_date": "2024-12-02",
+        "REVPAR_WEEK": 28.3908410899654,
+        "TAXA_OCUPACAO": 29.831932773109244,
+        "N_REVIEWS": 7.0,
+        "AVG_RATING": 7.428571428571429
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised the hotel's location, surroundings/gardens and friendly, welcoming staff; several reviews also commended food/breakfast and pet‑friendliness or on‑site spa/bicycles. Recurrent negatives included outdated or run‑down facilities, maintenance problems (poor lighting, weak Wi‑Fi, low shower pressure, TV issues, pillows/mattress), and occasional noise. Isolated comments noted a bathtub leak/unsafe clips, a repaired cistern, unavailable spa slots, and reported fire‑safety non‑conformities.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 15,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Safety and regulatory compliance (fire-safety) and bathroom hazards",
+        "recommendation": "Order an urgent safety and compliance inspection of fire-fighting equipment and regulatory conformity."
+      },
+      {
+        "rank": 2,
+        "area": "Rooms — comfort, in-room maintenance and in-room technology (mattress/pillows, lighting, shower pressure, TV channels, noise, Wi‑Fi)",
+        "recommendation": "Schedule prioritized inspections of affected rooms to check for comfort, maintenance and technology issues."
+      },
+      {
+        "rank": 3,
+        "area": "Food & Beverage — Breakfast and restaurant variety/quality",
+        "recommendation": "Please review breakfast and restaurant operations as currently conducted at the property."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "critical",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Fire & life‑safety compliance",
+        "recommendation": "Arrange an immediate external fire‑safety audit by the fire department or certified inspector."
+      },
+      {
+        "rank": 2,
+        "area": "Bathroom plumbing and in‑room safety hazards",
+        "recommendation": "Dispatch maintenance to inspect and remediate reported bathrooms in affected rooms immediately."
+      },
+      {
+        "rank": 3,
+        "area": "Room condition and refurbishment (outdated rooms, mattresses, lighting, noise)",
+        "recommendation": "Commission a condition survey of guest rooms to quantify cosmetic and functional deficiencies."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P013",
+  "case_information": {
+    "case_id": "H97_20240115_L4",
+    "decision_week": "2024_W03",
+    "window_start": "2023-12-25",
+    "window_end": "2024-01-21",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2023_W52",
+        "week_date": "2023-12-25",
+        "REVPAR_WEEK": 50.365145016973415,
+        "TAXA_OCUPACAO": 46.659815005138746,
+        "N_REVIEWS": 4.0,
+        "AVG_RATING": 7.75
+      },
+      {
+        "WEEK_YEAR": "2024_W01",
+        "week_date": "2024-01-01",
+        "REVPAR_WEEK": 12.35459545817891,
+        "TAXA_OCUPACAO": 41.41829393627955,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 8.8
+      },
+      {
+        "WEEK_YEAR": "2024_W02",
+        "week_date": "2024-01-08",
+        "REVPAR_WEEK": 10.069632034749556,
+        "TAXA_OCUPACAO": 10.894141829393629,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 8.875
+      },
+      {
+        "WEEK_YEAR": "2024_W03",
+        "week_date": "2024-01-15",
+        "REVPAR_WEEK": 14.462111839830458,
+        "TAXA_OCUPACAO": 13.257965056526208,
+        "N_REVIEWS": 5.0,
+        "AVG_RATING": 7.8
+      }
+    ],
+    "customer_feedback_summary": "Guests consistently praised the hotel's central location and, in several reviews, comfort (comfortable beds, good room temperature), clean rooms and attentive staff. Recurring criticisms noted aging, worn facilities, limited lighting and poor soundproofing; breakfast feedback was mixed (one review praised it, another called it limited). Cleanliness comments varied—one reviewer reported dusty furniture—and one isolated review mentioned a disruptive group in the evening.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 6,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "high",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Commercial / Revenue Management",
+        "recommendation": "Conduct an immediate revenue-management review."
+      },
+      {
+        "rank": 2,
+        "area": "Property condition / Capital works & room comfort",
+        "recommendation": "Commission a rapid property-condition audit promptly to prioritise necessary fixes."
+      },
+      {
+        "rank": 3,
+        "area": "Housekeeping & cleanliness",
+        "recommendation": "Run an immediate deep clean of all guest rooms and public areas."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Room condition / property fabric (lighting, worn materials, general state)",
+        "recommendation": "Commission an immediate managerial inspection of room fabric and public-area finishes to determine wear."
+      },
+      {
+        "rank": 2,
+        "area": "Breakfast offering (variety / showcase of regional products)",
+        "recommendation": "Review the breakfast menu and supplier arrangements with the food and beverage team."
+      },
+      {
+        "rank": 3,
+        "area": "In-room complimentary items / basic bathroom provisioning",
+        "recommendation": "Review and clarify the in-room provisioning policy for water and basic toiletries."
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "evaluation_version": "human_eval_v3",
+  "evaluation_case_id": "P020",
+  "case_information": {
+    "case_id": "H492_20241104_L4",
+    "decision_week": "2024_W45",
+    "window_start": "2024-10-14",
+    "window_end": "2024-11-10",
+    "lookback_weeks": 4,
+    "weekly_history": [
+      {
+        "WEEK_YEAR": "2024_W42",
+        "week_date": "2024-10-14",
+        "REVPAR_WEEK": 87.63663578336559,
+        "TAXA_OCUPACAO": 62.33766233766234,
+        "N_REVIEWS": 11.0,
+        "AVG_RATING": 9.090909090909092
+      },
+      {
+        "WEEK_YEAR": "2024_W43",
+        "week_date": "2024-10-21",
+        "REVPAR_WEEK": 74.37663923444977,
+        "TAXA_OCUPACAO": 49.35064935064935,
+        "N_REVIEWS": 3.0,
+        "AVG_RATING": 9.333333333333334
+      },
+      {
+        "WEEK_YEAR": "2024_W44",
+        "week_date": "2024-10-28",
+        "REVPAR_WEEK": 83.05578646934462,
+        "TAXA_OCUPACAO": 55.84415584415584,
+        "N_REVIEWS": 6.0,
+        "AVG_RATING": 9.0
+      },
+      {
+        "WEEK_YEAR": "2024_W45",
+        "week_date": "2024-11-04",
+        "REVPAR_WEEK": 79.64764636363635,
+        "TAXA_OCUPACAO": 66.23376623376623,
+        "N_REVIEWS": 8.0,
+        "AVG_RATING": 9.125
+      }
+    ],
+    "customer_feedback_summary": "Guests frequently praised friendly, helpful staff, generous breakfasts, and clean, attractive rooms with comfortable beds; multiple reviews also noted available parking. Several guests appreciated modern bathrooms and upgrades. Some reviewers reported noise issues (nearby racetrack, occasional dog barking, and a noisy minibar) and one guest found stairs with heavy luggage difficult. A few comments mentioned bedrooms feeling less modern than bathrooms.",
+    "review_summary_metadata": {
+      "source_reviews_selected": 20,
+      "source_reviews_with_written_feedback": 13,
+      "summary_method": "Neutral LLM summary of the frozen recent review sample; no additional reviews retrieved."
+    }
+  },
+  "decision_a": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Staff and service (reception after‑hours reachability)",
+        "recommendation": "Immediately review and confirm after‑hours guest contact procedures and phone reachability."
+      },
+      {
+        "rank": 2,
+        "area": "Wi‑Fi and in‑room technology (internet and TV)",
+        "recommendation": "Conduct a short-term technical assessment focused on guest Wi‑Fi reliability across rooms."
+      },
+      {
+        "rank": 3,
+        "area": "Bathroom condition (functional drainage and decor consistency)",
+        "recommendation": "Conduct an immediate maintenance inspection of shower drainage and plumbing in affected room(s)."
+      }
+    ]
+  },
+  "decision_b": {
+    "overall_risk": "moderate",
+    "priorities": [
+      {
+        "rank": 1,
+        "area": "Noise/disturbance management",
+        "recommendation": "Provide clear pre-arrival information about potential racetrack event noise and advise guests to check dates."
+      },
+      {
+        "rank": 2,
+        "area": "In-room equipment & presentation (TV, minibar, decor consistency)",
+        "recommendation": "Audit in-room equipment usability to inform potential phased replacements or upgrades."
+      },
+      {
+        "rank": 3,
+        "area": "Guest access / luggage handling for upper floors",
+        "recommendation": "Immediately have staff offer proactive assistance with guests' luggage at check-in."
+      }
+    ]
+  }
+}
