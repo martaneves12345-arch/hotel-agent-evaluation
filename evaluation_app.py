@@ -2092,7 +2092,7 @@ def _short_area_label(area: str) -> str:
 
         return "Priority"
 
-    area = re.sub(r"\s***\(**[^)]***\)**\s*", "", area).strip()
+    area = re.sub(r"\s*\([^)]*\)", "", area).strip()
 
     if " & " in area:
 
@@ -3114,9 +3114,9 @@ labelled **Decision A** and **Decision B**. Both concern the same hotel case.
 
 The customer feedback summary was generated using artificial intelligence
 
-from a sample of recent customer reviews. **The same case information and customer
+from a sample of recent customer reviews.
 
-feedback summary apply to both decisions.**
+**The same case information and customer feedback summary apply to both decisions.**
 
 
 
