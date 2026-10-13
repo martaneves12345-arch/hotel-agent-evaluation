@@ -3101,59 +3101,24 @@ st.subheader("Evaluation instructions")
 
 
 with st.container(border=True):
-
     st.markdown(
+        """You will review **one hotel case** and **two alternative managerial recommendations**, labelled **Decision A** and **Decision B**. Both concern the same hotel case.
 
-        """
-
-You will review **one hotel case** and **two alternative managerial recommendations**,
-
-labelled **Decision A** and **Decision B**. Both concern the same hotel case.
-
-
-
-The customer feedback summary was generated using artificial intelligence
-
-from a sample of recent customer reviews.
-
-**The same case information and customer feedback summary apply to both decisions.**
-
-
+The customer feedback summary was generated using artificial intelligence from a sample of recent customer reviews. **The same case information and customer feedback summary apply to both decisions.**
 
 Please judge each decision using only the information shown here. Focus on whether it:
 
 - prioritizes the most important issues;
-
 - is supported by the case evidence;
-
 - proposes clear and actionable recommendations; and
-
 - would be useful for hotel management.
 
+**Consider financial and operational constraints.** Hotel budgets, staffing, and other resources are limited. A recommendation should not be rated more favorably simply because it might improve guest satisfaction. Consider whether the proposed actions are proportionate and realistic given the evidence.
 
+Where costs or feasibility are unknown, assess whether further investigation would be appropriate before committing resources. No specific budget is assumed.
 
-**Consider financial and operational constraints.** Hotel budgets, staffing,
-
-and other resources are limited. A recommendation should not be rated more
-
-favorably simply because it might improve guest satisfaction. Consider whether
-
-the proposed actions are proportionate and realistic given the evidence.
-
-Where costs or feasibility are unknown, assess whether further investigation
-
-would be appropriate before committing resources. No specific budget is assumed.
-
-
-
-Use the **1–7 scale** for each criterion. There are no right or wrong answers;
-
-we are interested in your professional judgment.
-
-"""
-
+Use the **1–7 scale** for each criterion. There are no right or wrong answers; we are interested in your professional judgment."""
     )
-
 
 
 # ==========================================================
